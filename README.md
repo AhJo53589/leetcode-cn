@@ -1,6 +1,32 @@
 # leetcode-cn
 
 ---
+## 20190423
+122.MaxProfit 买卖股票的最佳时机 II  
+看了第一的算法，感觉智商被爆了。  
+研究了两个小时，还画了草稿，总算有点感觉要明白了。  
+想不通的原因，是虽然我的代码提交，结果对了，  
+但是我并没有把题目的内在的规律摸清楚，  
+有点连蒙带猜的感觉。  
+仔细想了想，核心思路其实一样的，只是我每一步都交代的特别仔细。  
+而大佬的算法可以将可能无用的东西先吃进去，  
+然后在内部消化取舍。  
+这样循环执行过程就非常的简洁，非常犀利。
+``` C++
+int maxProfit(vector<int>& prices)	// 4ms
+{
+	if (prices.size() < 2)return 0;
+	int hold = -prices[0], unhold = 0;
+	for (int i = 1; i < prices.size(); ++i) {
+		int tmp = hold;
+		hold = max(hold, unhold - prices[i]);
+		unhold = max(unhold, tmp + prices[i]);
+	}
+	return unhold;
+}
+```
+
+---
 ## 20190422
 整理了这个库，leetcode都放这里好了。
 
