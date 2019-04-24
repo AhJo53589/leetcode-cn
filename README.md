@@ -404,3 +404,5 @@ int superEggDrop(int K, int N)	// 8ms
 草稿：  
 > Solution.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/887.SuperEggDrop/Solution.jpg)
+> Solution2.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/887.SuperEggDrop/Solution2.jpg)
