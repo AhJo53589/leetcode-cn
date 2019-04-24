@@ -4,8 +4,8 @@
 ---
 ## 20190424
 * 189.Rotate 旋转数组  
-> Description.bmp  
-![](.\189.Rotate\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/189.Rotate/Description.jpg)
 
 这道简单的题，看到要求使用空间复杂度为 O(1) 的原地算法。  
 就规避了使用公共算法，额外的数组等。  
@@ -35,8 +35,8 @@ void rotate(vector<int>& nums, int k)	// 28ms
 	}
 }
 ``` 
-> Solution.bmp  
-![](.\189.Rotate\Solution.bmp)
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/189.Rotate/Solution.jpg)
 
 
 
@@ -55,8 +55,8 @@ void rotate(vector<int>& nums, int k)	// 12ms
 ```
 
 * 217.ContainsDuplicate 存在重复元素  
-> Description.bmp  
-![](.\217.ContainsDuplicate\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/217.ContainsDuplicate/Description.jpg)
 
 这道题前两天面试官现场问我的，  
 当时我说先排序，再判断相邻两个数字是否相同。  
@@ -83,8 +83,52 @@ bool containsDuplicate(vector<int>& nums)
 ---
 ## 20190423
 * 122.MaxProfit 买卖股票的最佳时机 II  
-> Description.bmp  
-![](.\122.MaxProfit\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/122.MaxProfit/Description.jpg)
+
+``` C++
+int maxProfit(vector<int>& prices)	// 12ms
+{
+	if (prices.size() < 2) return 0;
+
+	int iLen = prices.size();
+	int iMaxValue = 0;
+	int high = prices[iLen - 1];
+	int low = high;
+	int j = iLen - 2;
+	while (j >= 0)
+	{
+		if (high < prices[j])
+		{
+			if (low < high)
+			{
+				iMaxValue += high - low;
+			}
+			high = prices[j];
+			low = high;
+		}
+		else
+		{
+			if (prices[j] < low)
+			{
+				low = prices[j];
+			}
+			else
+			{
+				iMaxValue += high - low;
+				high = prices[j];
+				low = high;
+			}
+		}
+		j--;
+	}
+	if (low < high)
+	{
+		iMaxValue += high - low;
+	}
+	return iMaxValue;
+}
+```  
 
 看了第一的算法，感觉智商被爆了。  
 研究了两个小时，还画了草稿，总算有点感觉要明白了。  
@@ -94,7 +138,8 @@ bool containsDuplicate(vector<int>& nums)
 仔细想了想，核心思路其实一样的，只是我每一步都交代的特别仔细。  
 而大佬的算法可以将可能无用的东西先吃进去，  
 然后在内部消化取舍。  
-这样循环执行过程就非常的简洁，非常犀利。
+这样循环执行过程就非常的简洁，非常犀利。  
+
 ``` C++
 int maxProfit(vector<int>& prices)	// 4ms
 {
@@ -107,14 +152,16 @@ int maxProfit(vector<int>& prices)	// 4ms
 	}
 	return unhold;
 }
-```
-> Solution.bmp  
-![](.\122.MaxProfit\Solution.bmp)
+```  
+
+草稿分析了一下这个算法：  
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/122.MaxProfit/Solution.jpg)
 
 
 * 50.MyPow  
-> Description.bmp  
-![](.\50.MyPow\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/50.MyPow/Description.jpg)
 
 ``` C++
 double myPow(double x, int n)	// 4ms
@@ -136,8 +183,8 @@ double myPow(double x, int n)	// 4ms
 ```
 
 * 88.Merge 合并两个有序数组  
-> Description.bmp  
-![](.\88.Merge\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/88.Merge/Description.jpg)
 
 ``` C++
 void merge(vector<int>& nums1, int m, vector<int>& nums2, int n) 
@@ -178,8 +225,8 @@ void merge(vector<int>& nums1, int m, vector<int>& nums2, int n)
 ---
 ## 20190422
 * 26.RemoveDuplicates 删除排序数组中的重复项  
-> Description.bmp  
-![](.\26.RemoveDuplicates\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/26.RemoveDuplicates/Description.jpg)
 
 别人写的这个代码，感觉比较精简。
 ``` C++
@@ -198,8 +245,8 @@ int removeDuplicates(vector<int>& nums)		// 20ms
 ```
 
 * 136.SingleNumber 只出现一次的数字  
-> Description.bmp  
-![](.\136.SingleNumber\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/136.SingleNumber/Description.jpg)
 
 来LeetCode做的第一道题，打开了新世界的大门。  
 重新学了一遍异或。
@@ -211,8 +258,8 @@ int singleNumber(vector<int>& nums)
 ```
 
 * 169.MajorityElement 求众数  
-> Description.bmp  
-![](.\169.MajorityElement\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/169.MajorityElement/Description.jpg)
 
 感觉思路和上面那道题有点像。  
 有意思的地方是，当计数回到0的时候，就可以放弃他，换一个新数了。  
@@ -239,8 +286,8 @@ int majorityElement(vector<int>& nums)
 ```
 
 * 206.ReverseList 反转链表  
-> Description.bmp  
-![](.\206.ReverseList\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/206.ReverseList/Description.jpg)
 
 这道题之前就做过。  
 
@@ -266,13 +313,13 @@ ListNode* ReverseIteratively(ListNode* pHead)
 }
 ```
 
-> Solution.bmp  
-![](.\206.ReverseList\Solution.bmp)
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/206.ReverseList/Solution.jpg)
 
 
 * 240.SearchMatrix 搜索二维矩阵 II 
-> Description.bmp  
-![](.\240.SearchMatrix\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/240.SearchMatrix/Description.jpg)
 
 这道题做了好久。  
 结果还是因为没有搞清楚矩阵的数学特点。  
@@ -317,8 +364,8 @@ bool searchMatrix(vector<vector<int>>& matrix, int target)
 做完之后显示击败了99.35%的用户，开心啊。  
 
 * 887.SuperEggDrop 鸡蛋掉落
-> Description.bmp  
-![](.\887.SuperEggDrop\Description.bmp)
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/887.SuperEggDrop/Description.jpg)
 
 解题思路，从【已知N层楼，K个蛋，求最小必要行动次数T】  
 变成【已知K个蛋，求T次行动可以判断的楼层数>N】
@@ -355,5 +402,5 @@ int superEggDrop(int K, int N)	// 8ms
 ```
 
 草稿：  
-> Solution.bmp  
-![](.\887.SuperEggDrop\Solution.bmp)
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/887.SuperEggDrop/Solution.jpg)
