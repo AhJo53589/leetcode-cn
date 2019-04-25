@@ -3,6 +3,34 @@
 
 ---
 ## 20190425
+* 1.TwoSum 两数之和  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/1.TwoSum/Description.jpg)
+
+
+``` C++
+vector<int> twoSum(vector<int>& nums, int target)
+{
+	map<int, int> sum;
+	vector<int> rst;
+	for (int i = 0; i < nums.size(); i++)
+	{
+		if (sum.find(target - nums[i]) != sum.end())
+		{
+			rst.push_back(sum[target - nums[i]]);
+			rst.push_back(i);
+			break;
+		}
+		else
+		{
+			sum[nums[i]] = i;
+		}
+	}
+	return rst;
+}
+``` 
+
+
 * 66.PlusOne 加一  
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/66.PlusOne/Description.jpg)
@@ -32,6 +60,31 @@ vector<int> plusOne(vector<int>& digits)
 	return digits;
 }
 ``` 
+
+
+* 283.MoveZeroes 移动零  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/283.MoveZeroes/Description.jpg)
+
+``` C++
+void moveZeroes(vector<int>& nums) 
+{
+	int iLen = nums.size();
+	int j = 0;
+	for (int i = 0; i < iLen; ++i)
+	{
+		if (nums[i] != 0)
+		{
+			if (i != j)
+			{
+				swap(nums[i], nums[j]);
+			}
+			++j;
+		}
+	}
+}
+``` 
+
 
 * 350.Intersect 两个数组的交集 II  
 > Description.jpg  

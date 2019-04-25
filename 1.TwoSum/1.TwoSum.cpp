@@ -1,5 +1,6 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 1.TwoSum.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -45,7 +46,7 @@ vector<int> twoSum(vector<int>& nums, int target)
 //}
 
 void Init(vector<int>& nums)
-{ 
+{
 	//int A[] = { 1,2 };
 	//int A[] = { 1,2,3,4 };
 	//int A[] = { 1,2,3,4,5,6 };
