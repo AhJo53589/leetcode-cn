@@ -45,7 +45,7 @@ vector<int> twoSum(vector<int>& nums, int target)
 //}
 
 void Init(vector<int>& nums)
-{ 
+{
 	//int A[] = { 1,2 };
 	//int A[] = { 1,2,3,4 };
 	//int A[] = { 1,2,3,4,5,6 };

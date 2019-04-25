@@ -30,6 +30,76 @@ vector<int> twoSum(vector<int>& nums, int target)
 }
 ``` 
 
+* 36.IsValidSudoku 有效的数独  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/36.IsValidSudoku/Description.jpg)
+
+
+``` C++
+bool isValidSudoku(vector<vector<char>>& board)
+{
+	for (int i = 0; i < 9; i++)
+	{
+		if (checkDuplicate(board[i])) return false;
+	}
+
+	vector<char> grid[9];
+	for (int i = 0; i < 9; i++)
+	{
+		vector<char> line;
+		for (int j = 0; j < 9; j++)
+		{
+			line.push_back(board[j][i]);
+
+			// 把81宫格合并成9宫格
+			int k = i / 3 + j / 3 * 3;
+			grid[k].push_back(board[i][j]);
+		}
+		if (checkDuplicate(line)) return false;
+	}
+
+	for (int i = 0; i < 9; i++)
+	{
+		if (checkDuplicate(grid[i])) return false;
+	}
+
+	return true;
+}
+``` 
+
+* 48.Rotate 旋转图像  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/48.Rotate/Description.jpg)
+
+
+这道题一看就感觉没思路，学习了别人写的，这个方法比较好理解。  
+先沿着对角线翻转一次，  
+再按中线翻转一次。  
+
+``` C++
+//firstly exchange elements by diagonal, then exchange elements by mid-line.
+void rotate(vector<vector<int>>& matrix)
+{
+	int temp;
+	int end = matrix.size() - 1;
+	float mid_line = end / 2;
+	for (int i = 0; i <= end; ++i)
+	{
+		for (int j = 0; j < i; ++j)
+		{
+			swap(matrix[i][j], matrix[j][i]);
+		}
+	}
+	for (int i = 0; i <= end; i++)
+	{
+		for (int j = 0; j <= mid_line; j++)
+		{
+			swap(matrix[i][j], matrix[i][end - j]);
+		}
+	}
+}
+``` 
+
 
 * 66.PlusOne 加一  
 > Description.jpg  
