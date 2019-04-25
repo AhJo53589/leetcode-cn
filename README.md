@@ -2,6 +2,72 @@
 
 
 ---
+## 20190425
+* 66.PlusOne 加一  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/66.PlusOne/Description.jpg)
+
+``` C++
+vector<int> plusOne(vector<int>& digits)
+{
+	if (digits.size() == 0) return digits;
+
+	int i = digits.size() - 1;
+	int bUpFlag = 1;
+	while (i >= 0 && bUpFlag > 0)
+	{
+		digits[i] += bUpFlag;
+		bUpFlag--;
+		if (digits[i] > 9)
+		{
+			bUpFlag += digits[i] / 10;
+			digits[i] %= 10;
+		}
+		i--;
+	}
+	if (bUpFlag > 0)
+	{
+		digits.insert(digits.begin(), bUpFlag);
+	}
+	return digits;
+}
+``` 
+
+* 350.Intersect 两个数组的交集 II  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/350.Intersect/Description.jpg)
+
+``` C++
+vector<int> intersect(vector<int>& nums1, vector<int>& nums2) 
+{
+	sort(nums1.begin(), nums1.end());
+	sort(nums2.begin(), nums2.end());
+
+	int i = 0; 
+	int j = 0;
+	vector<int> nums;
+	while (i < nums1.size() && j < nums2.size())
+	{
+		if (nums1[i] < nums2[j])
+		{
+			i++;
+		}
+		else if (nums1[i] > nums2[j])
+		{
+			j++;
+		}
+		else
+		{
+			nums.push_back(nums1[i]);
+			i++;
+			j++;
+		}
+	}
+	return nums;
+}
+``` 
+
+---
 ## 20190424
 * 189.Rotate 旋转数组  
 > Description.jpg  

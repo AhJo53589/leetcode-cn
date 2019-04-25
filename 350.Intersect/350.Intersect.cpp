@@ -1,5 +1,6 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 350.Intersect.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -9,34 +10,38 @@
 #include <vector>
 using namespace std;
 
-vector<int> plusOne(vector<int>& digits) 
+vector<int> intersect(vector<int>& nums1, vector<int>& nums2)
 {
-	if (digits.size() == 0) return digits;
+	sort(nums1.begin(), nums1.end());
+	sort(nums2.begin(), nums2.end());
 
-	int i = digits.size() - 1;
-	int bUpFlag = 1;
-	while (i >= 0 && bUpFlag > 0)
+	int i = 0;
+	int j = 0;
+	vector<int> nums;
+	while (i < nums1.size() && j < nums2.size())
 	{
-		digits[i] += bUpFlag;
-		bUpFlag--;
-		if (digits[i] > 9)
+		if (nums1[i] < nums2[j])
 		{
-			bUpFlag += digits[i] / 10;
-			digits[i] %= 10;
+			i++;
 		}
-		i--;
+		else if (nums1[i] > nums2[j])
+		{
+			j++;
+		}
+		else
+		{
+			nums.push_back(nums1[i]);
+			i++;
+			j++;
+		}
 	}
-	if (bUpFlag > 0)
-	{
-		digits.insert(digits.begin(), bUpFlag);
-	}
-	return digits;
+	return nums;
 }
 
 void Init(vector<int>& nums)
-{ 
+{
 	//int A[] = { 1,2 };
-	int A[] = { 9,9,9,9 };
+	int A[] = { 1,2,1,4 };
 	//int A[] = { 1,2,3,4,5,6 };
 	//int A[] = { 1,2,3,4,5,6,7 };
 	nums.clear();
@@ -66,13 +71,17 @@ void Init2(vector<int>& nums)
 int main()
 {
 	vector<int> nums;
-	Init(nums);
+	vector<int> nums1;
+	vector<int> nums2;
+	Init(nums1);
+	Init2(nums2);
 
-	nums = plusOne(nums);
-	cout << "plusOne = " << endl;
+	nums = intersect(nums1, nums2);
+	cout << "intersect = " << endl;
 	for (int i : nums)
 	{
 		cout << i << " ";
 	}
 	cout << endl;
+
 }

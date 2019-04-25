@@ -1,5 +1,6 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 66.PlusOne.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -9,7 +10,7 @@
 #include <vector>
 using namespace std;
 
-vector<int> plusOne(vector<int>& digits) 
+vector<int> plusOne(vector<int>& digits)
 {
 	if (digits.size() == 0) return digits;
 
@@ -34,7 +35,7 @@ vector<int> plusOne(vector<int>& digits)
 }
 
 void Init(vector<int>& nums)
-{ 
+{
 	//int A[] = { 1,2 };
 	int A[] = { 9,9,9,9 };
 	//int A[] = { 1,2,3,4,5,6 };
