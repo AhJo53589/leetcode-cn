@@ -1,5 +1,6 @@
-﻿// 206.ReverseList.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 237.DeleteNode.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -16,25 +17,13 @@ struct ListNode
 	ListNode(int x) : val(x), next(NULL) {}
 };
 
-
-ListNode* reverseList(ListNode* head)
+void deleteNode(ListNode *node)
 {
-	ListNode* pReversedHead = NULL;
-	ListNode* pNode = head;
-	ListNode* pPrev = NULL;
-	while (pNode != NULL)
-	{
-		// get the next node, and save it at pNext
-		ListNode* pNext = pNode->next;
-		// reverse the linkage between nodes
-		pNode->next = pPrev;
-
-		// move forward on the the list
-		pPrev = pNode;
-		pNode = pNext;
-	}
-	pReversedHead = pPrev;
-	return pReversedHead;
+	ListNode *pNext = node->next;
+	node->val = pNext->val;
+	node->next = pNext->next;
+	delete(pNext);
+	pNext = NULL;
 }
 
 ListNode *FindNode(ListNode *pHead, int i)
@@ -81,6 +70,12 @@ int main()
 	Init(&pHead);
 	PrintLinkList(pHead);
 
-	ListNode *pReverseHead = ReverseIteratively(pHead);
-	PrintLinkList(pReverseHead);
+	const int cCheckNum = 10;
+	for (int i = 3; i < cCheckNum; i++)
+	{
+		cout << "delete num = " << i << endl;
+		deleteNode(FindNode(pHead, i));
+		PrintLinkList(pHead);
+		cout << endl;
+	}
 }

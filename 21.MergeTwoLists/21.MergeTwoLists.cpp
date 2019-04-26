@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 21.MergeTwoLists.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -17,7 +17,7 @@ struct ListNode
 };
 
 
-ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) 
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 {
 	if (l1 == NULL) return l2;
 	if (l2 == NULL) return l1;
@@ -51,14 +51,14 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 		pNode = pNode->next;
 	}
 	pNode->next = l1 ? l1 : l2;
-// 	if (l1 != NULL)
-// 	{
-// 		pNode->next = l1;
-// 	}
-// 	if (l2 != NULL)
-// 	{
-// 		pNode->next = l2;
-// 	}
+	// 	if (l1 != NULL)
+	// 	{
+	// 		pNode->next = l1;
+	// 	}
+	// 	if (l2 != NULL)
+	// 	{
+	// 		pNode->next = l2;
+	// 	}
 	return pHead;
 }
 

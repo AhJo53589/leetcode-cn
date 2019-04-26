@@ -2,6 +2,140 @@
 
 
 ---
+## 20190426
+* 19.RemoveNthFromEnd 删除链表的倒数第N个节点  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/19.RemoveNthFromEnd/Description.jpg)
+
+这道题按照进阶要求，一次遍历出结果。  
+事后看了下评论，大家管这种叫快慢指针。  
+只是我比较纠结大家为啥都不调用delete()
+
+``` C++
+ListNode* removeNthFromEnd(ListNode* head, int n)
+{
+	if (head == NULL || n == 0) return NULL;
+	if (head->next == NULL) return NULL;
+
+	ListNode *pTemp = head;
+	ListNode *pDeletePrev = head;
+	ListNode *pDelete = NULL;
+	while (n > 0)
+	{
+		pTemp = pTemp->next;
+		--n;
+	}
+	if (pTemp == NULL)
+	{
+		pDelete = head;
+		head = head->next;
+		delete(pDelete);
+		return head;
+	}
+	while (pTemp->next != NULL)
+	{
+		pTemp = pTemp->next;
+		pDeletePrev = pDeletePrev->next;
+	}
+	pDelete = pDeletePrev->next;
+	pDeletePrev->next = pDelete->next;
+	delete(pDelete);
+	return head;
+}
+``` 
+
+* 21.MergeTwoLists 合并两个有序链表  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/21.MergeTwoLists/Description.jpg)
+
+
+``` C++
+ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
+{
+	if (l1 == NULL) return l2;
+	if (l2 == NULL) return l1;
+
+	ListNode *pHead = NULL;
+	ListNode *pNode = NULL;
+
+	if (l1->val < l2->val)
+	{
+		pHead = l1;
+		l1 = l1->next;
+	}
+	else
+	{
+		pHead = l2;
+		l2 = l2->next;
+	}
+	pNode = pHead;
+	while (l1 != NULL && l2 != NULL)
+	{
+		if (l1->val < l2->val)
+		{
+			pNode->next = l1;
+			l1 = l1->next;
+		}
+		else
+		{
+			pNode->next = l2;
+			l2 = l2->next;
+		}
+		pNode = pNode->next;
+	}
+	pNode->next = l1 ? l1 : l2;
+	// 	if (l1 != NULL)
+	// 	{
+	// 		pNode->next = l1;
+	// 	}
+	// 	if (l2 != NULL)
+	// 	{
+	// 		pNode->next = l2;
+	// 	}
+	return pHead;
+}
+``` 
+
+* 237.DeleteNode 删除链表中的节点  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/237.DeleteNode/Description.jpg)
+
+这道题比较迷，一开始没看懂题。  
+还说为啥不给head。  
+后来才知道传进来的node就是要删的node。  
+反而很简单。
+
+``` C++
+void deleteNode(ListNode *node)
+{
+	ListNode *pNext = node->next;
+	node->val = pNext->val;
+	node->next = pNext->next;
+	delete(pNext);
+	pNext = NULL;
+}
+``` 
+
+* 344.ReverseString 反转字符串  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/344.ReverseString/Description.jpg)
+
+这道题真的简单，我用手机写的。  
+手机写代码感觉很神奇。
+
+``` C++
+void reverseString(vector<char>& s)
+ {
+	int iLen = s.size();
+	for (int i = 0; i < iLen/2; i++)
+	{
+		swap(s[i], s[iLen-i-1]);
+	}
+}
+``` 
+
+
+---
 ## 20190425
 * 1.TwoSum 两数之和  
 > Description.jpg  
@@ -75,6 +209,9 @@ bool isValidSudoku(vector<vector<char>>& board)
 这道题一看就感觉没思路，学习了别人写的，这个方法比较好理解。  
 先沿着对角线翻转一次，  
 再按中线翻转一次。  
+
+想了想还是应该调用旋转公式的，  
+回头补习一下。  
 
 ``` C++
 //firstly exchange elements by diagonal, then exchange elements by mid-line.

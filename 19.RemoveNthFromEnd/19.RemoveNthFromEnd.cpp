@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 19.RemoveNthFromEnd.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -15,52 +15,6 @@ struct ListNode
 	ListNode *next;
 	ListNode(int x) : val(x), next(NULL) {}
 };
-
-
-ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) 
-{
-	if (l1 == NULL) return l2;
-	if (l2 == NULL) return l1;
-
-	ListNode *pHead = NULL;
-	ListNode *pNode = NULL;
-
-	if (l1->val < l2->val)
-	{
-		pHead = l1;
-		l1 = l1->next;
-	}
-	else
-	{
-		pHead = l2;
-		l2 = l2->next;
-	}
-	pNode = pHead;
-	while (l1 != NULL && l2 != NULL)
-	{
-		if (l1->val < l2->val)
-		{
-			pNode->next = l1;
-			l1 = l1->next;
-		}
-		else
-		{
-			pNode->next = l2;
-			l2 = l2->next;
-		}
-		pNode = pNode->next;
-	}
-	pNode->next = l1 ? l1 : l2;
-// 	if (l1 != NULL)
-// 	{
-// 		pNode->next = l1;
-// 	}
-// 	if (l2 != NULL)
-// 	{
-// 		pNode->next = l2;
-// 	}
-	return pHead;
-}
 
 ListNode* removeNthFromEnd(ListNode* head, int n)
 {
@@ -93,25 +47,6 @@ ListNode* removeNthFromEnd(ListNode* head, int n)
 	return head;
 }
 
-void deleteNode(ListNode *node)
-{
-	ListNode *pNext = node->next;
-	node->val = pNext->val;
-	node->next = pNext->next;
-	delete(pNext);
-	pNext = NULL;
-}
-
-ListNode *FindNode(ListNode *pHead, int i)
-{
-	ListNode *pReturn = pHead;
-	while (pReturn->val != i)
-	{
-		pReturn = pReturn->next;
-	}
-	return pReturn;
-}
-
 void PrintLinkList(ListNode *pHead)
 {
 	ListNode *pNode = pHead;
@@ -132,7 +67,7 @@ void Init(ListNode **pHead)
 
 	for (int i = 0; i < cLinkListLen; i++)
 	{
-		pNodeNew = new ListNode(cLinkListLen - i);
+		pNodeNew = new ListNode(i);
 		pNodeNew->next = pNode;
 		pNode = pNodeNew;
 	}
@@ -143,15 +78,14 @@ void Init(ListNode **pHead)
 int main()
 {
 	ListNode *pHead = NULL;
-	ListNode *pHead2 = NULL;
 	Init(&pHead);
-	Init(&pHead2);
 	PrintLinkList(pHead);
-	PrintLinkList(pHead2);
 
 	//for (int i = 1; i < 2; i++)
 	{
-		pHead = mergeTwoLists(pHead, pHead2);
+		int i = 3;
+		cout << "delete num = " << i << endl;
+		pHead = removeNthFromEnd(pHead, i);
 		PrintLinkList(pHead);
 		cout << endl;
 	}
