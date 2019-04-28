@@ -2,6 +2,39 @@
 
 
 ---
+## 20190428
+* 234.IsPalindrome 回文链表  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/234.IsPalindrome/Description.jpg)
+
+
+``` C++
+bool isPalindrome(ListNode* head)
+{
+	ListNode* slow = head, *fast = head, *prev = nullptr;
+	while (fast) {//find mid node
+		slow = slow->next;
+		fast = fast->next ? fast->next->next : fast->next;
+	}
+	while (slow) {//reverse
+		ListNode* ovn = slow->next;
+		slow->next = prev;
+		prev = slow;
+		slow = ovn;
+	}
+	while (head && prev) {//check
+		if (head->val != prev->val) {
+			return false;
+		}
+		head = head->next;
+		prev = prev->next;
+	}
+	return true;
+}
+``` 
+
+
+---
 ## 20190426
 * 19.RemoveNthFromEnd 删除链表的倒数第N个节点  
 > Description.jpg  

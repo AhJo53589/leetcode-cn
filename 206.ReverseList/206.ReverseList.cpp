@@ -81,6 +81,6 @@ int main()
 	Init(&pHead);
 	PrintLinkList(pHead);
 
-	ListNode *pReverseHead = ReverseIteratively(pHead);
+	ListNode *pReverseHead = reverseList(pHead);
 	PrintLinkList(pReverseHead);
 }
