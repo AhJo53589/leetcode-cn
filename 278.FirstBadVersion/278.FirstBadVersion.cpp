@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 278.FirstBadVersion.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -18,11 +18,11 @@ bool isBadVersion(int version)
 	return false;
 }
 
-int firstBadVersion(int n) 
+int firstBadVersion(int n)
 {
-	int low = 1; 
+	int low = 1;
 	int high = n;
-	
+
 	while (low < high)
 	{
 		int mid = low + (high - low) / 2;

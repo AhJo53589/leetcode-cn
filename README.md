@@ -1,6 +1,64 @@
 # leetcode-cn
 
 
+
+---
+## 20190428
+* 141.HasCycle 环形链表  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/141.HasCycle/Description.jpg)
+
+
+``` C++
+bool hasCycle(ListNode *head)
+{
+	ListNode *fast = head;
+	ListNode *slow = head;
+	while (fast != NULL)
+	{
+		fast = fast->next;
+		if (fast == NULL) return false;
+		slow = slow->next;
+		fast = fast->next;
+
+		if (slow == fast) return true;
+	}
+	return false;
+}
+``` 
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/141.HasCycle/Solution.jpg)
+
+
+* 278.FirstBadVersion 第一个错误的版本  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/278.FirstBadVersion/Description.jpg)
+
+使用二分查找。  
+
+``` C++
+int firstBadVersion(int n) 
+{
+	int low = 1; 
+	int high = n;
+	
+	while (low < high)
+	{
+		int mid = low + (high - low) / 2;
+		if (isBadVersion(mid))
+		{
+			high = mid;
+		}
+		else
+		{
+			low = mid + 1;
+		}
+	}
+	return low;
+}
+``` 
+
+
 ---
 ## 20190428
 * 234.IsPalindrome 回文链表  
@@ -11,27 +69,36 @@
 ``` C++
 bool isPalindrome(ListNode* head)
 {
-	ListNode* slow = head, *fast = head, *prev = nullptr;
-	while (fast) {//find mid node
+	ListNode *fast = head;
+	ListNode *slow = head;
+	while (fast != NULL)
+	{
 		slow = slow->next;
-		fast = fast->next ? fast->next->next : fast->next;
+		fast = (fast->next != NULL) ? fast->next->next : fast->next;
 	}
-	while (slow) {//reverse
-		ListNode* ovn = slow->next;
+
+	ListNode *prev = NULL;
+	while (slow != NULL)
+	{
+		ListNode *tmp = slow->next;
 		slow->next = prev;
 		prev = slow;
-		slow = ovn;
+		slow = tmp;
 	}
-	while (head && prev) {//check
-		if (head->val != prev->val) {
-			return false;
-		}
+
+	while (head != NULL && prev != NULL)
+	{
+		if (head->val != prev->val) return false;
+
 		head = head->next;
 		prev = prev->next;
 	}
 	return true;
 }
 ``` 
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/234.IsPalindrome/Solution.jpg)
+
 
 
 ---
