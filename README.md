@@ -65,6 +65,10 @@ int firstBadVersion(int n)
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/234.IsPalindrome/Description.jpg)
 
+这道题其实是需要考虑链表单双情况的，  
+但是可以看到快指针为空时，  
+偶数情况slow指针索引为n/2，奇数情况slow指针索引为n/2+1。  
+所以逆序的后半段链表，可以直接和head指针开始对比。  
 
 ``` C++
 bool isPalindrome(ListNode* head)
