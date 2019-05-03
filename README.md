@@ -4,6 +4,31 @@
 
 ---
 ## 20190428
+* 7.Reverse 整数反转  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/7.Reverse/Description.jpg)
+
+
+``` C++
+int reverse(int x)
+{
+	int result = 0;
+	while (x != 0)
+	{
+		if (result > INT_MAX / 10 || result < INT_MIN / 10)
+		{
+			return 0;
+		}
+		result = result * 10 + x % 10;
+		x = x / 10;
+	}
+	return result;
+}
+``` 
+
+
+---
+## 20190428
 * 141.HasCycle 环形链表  
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/141.HasCycle/Description.jpg)
