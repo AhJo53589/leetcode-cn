@@ -3,6 +3,34 @@
 
 
 ---
+## 20190505
+* 387.FirstUniqChar 字符串中的第一个唯一字符  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/387.FirstUniqChar/Description.jpg)
+
+
+``` C++
+int firstUniqChar(string s)
+{
+	vector<int> charCount(26, 0);
+	for (int i = 0; i < s.size(); i++)
+	{
+		charCount[s[i] - 'a'] ++;
+	}
+	for (int i = 0; i < s.size(); i++)
+	{
+		if (charCount[s[i] - 'a'] == 1)
+		{
+			return i;
+		}
+	}
+	return -1;
+}
+``` 
+
+
+
+---
 ## 20190428
 * 7.Reverse 整数反转  
 > Description.jpg  
