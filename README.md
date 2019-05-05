@@ -31,7 +31,7 @@ int firstUniqChar(string s)
 
 
 ---
-## 20190428
+## 20190503
 * 7.Reverse 整数反转  
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/7.Reverse/Description.jpg)
@@ -56,7 +56,7 @@ int reverse(int x)
 
 
 ---
-## 20190428
+## 20190429
 * 141.HasCycle 环形链表  
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/141.HasCycle/Description.jpg)
