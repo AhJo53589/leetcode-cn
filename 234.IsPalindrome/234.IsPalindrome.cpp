@@ -99,16 +99,11 @@ void Init(ListNode **pHead)
 int main()
 {
 	ListNode *pHead = NULL;
-	ListNode *pHead2 = NULL;
 	Init(&pHead);
-	Init(&pHead2);
 	PrintLinkList(pHead);
-	PrintLinkList(pHead2);
 
 	//for (int i = 1; i < 2; i++)
 	{
-		pHead = mergeTwoLists(pHead, pHead2);
-		PrintLinkList(pHead);
-		cout << endl;
+		cout << isPalindrome(pHead) << endl;
 	}
 }

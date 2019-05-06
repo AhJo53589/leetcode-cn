@@ -3,6 +3,65 @@
 
 
 ---
+## 20190506
+* 125.IsPalindrome 验证回文串  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/125.IsPalindrome/Description.jpg)
+
+
+``` C++
+bool isPalindrome(string s)
+{
+	if (s.size() == 0) return true;
+
+	string t = getCleanString(s);
+	int len = t.size();
+	for (int i = 0; i < len / 2; i++)
+	{
+		if (t[i] != t[len - i - 1])
+		{
+			return false;
+		}
+	}
+	return true;
+}
+``` 
+
+
+
+* 242.IsAnagram 有效的字母异位词  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/242.IsAnagram/Description.jpg)
+
+
+``` C++
+bool isAnagram(string s, string t)
+{
+	if (s.size() != t.size()) return false;
+
+	vector<int> charCount_s(26, 0);
+	vector<int> charCount_t(26, 0);
+	for (int i = 0; i < s.size(); i++)
+	{
+		charCount_s[s[i] - 'a'] ++;
+		charCount_t[t[i] - 'a'] ++;
+	}
+	for (int i = 0; i < 26; i++)
+	{
+		if (charCount_s[i] != charCount_t[i])
+		{
+			return false;
+		}
+	}
+	return true;
+}
+``` 
+
+
+
+
+
+---
 ## 20190505
 * 387.FirstUniqChar 字符串中的第一个唯一字符  
 > Description.jpg  
@@ -24,7 +83,7 @@ int firstUniqChar(string s)
 			return i;
 		}
 	}
-	return -1;
+	return -1; 
 }
 ``` 
 

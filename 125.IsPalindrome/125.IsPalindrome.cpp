@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 125.IsPalindrome.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -11,7 +11,7 @@ using namespace std;
 
 char getChar(char c)
 {
-	if (c >= 'A' && c <= 'Z' )
+	if (c >= 'A' && c <= 'Z')
 	{
 		return c - 'A' + 'a';
 	}
@@ -58,7 +58,7 @@ bool isPalindrome(string s)
 
 int main()
 {
-// 	string s = "A man, a plan, a canal: Panama";
+	// 	string s = "A man, a plan, a canal: Panama";
 	string s = "0P";
 	cout << isPalindrome(s) << endl;
 }
