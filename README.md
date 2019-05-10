@@ -3,6 +3,45 @@
 
 
 ---
+## 20190510
+* 8.MyAtoi 字符串转换整数 (atoi)  
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/8.MyAtoi/Description.jpg)
+
+
+还是分享别人的吧
+
+``` C++
+int myAtoi(string str) 
+{
+	int i = 0;
+	int res = 0;
+	int rev = 1;
+	int num = 0;
+	while (i < str.length() && str.at(i) == ' ')    // 吃掉空格
+		i++;
+	if (i < str.length() && str.at(i) == '-')       // 判断正负数
+	{
+		rev = -1;
+		i++;
+	}
+	else if (i < str.length() && str.at(i) == '+')
+		i++;
+	while (i < str.length() && isdigit(str.at(i)))
+	{
+		num = str.at(i++) - '0';
+		res = (long)res * 10 + num;                   // num是个位
+		if (res % 10 != num)                    // 判断是否溢出的方式
+			return rev > 0 ? INT_MAX : INT_MIN;
+	}
+
+	return rev * res;
+}
+``` 
+
+
+
+---
 ## 20190506
 * 125.IsPalindrome 验证回文串  
 > Description.jpg  

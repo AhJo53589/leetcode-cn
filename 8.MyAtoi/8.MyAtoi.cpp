@@ -1,5 +1,6 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 8.MyAtoi.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -17,7 +18,7 @@ void trim(string &s)
 		s.erase(0, s.find_first_not_of(" "));
 		//s.erase(s.find_last_not_of(" ") + 1);
 	}
-	
+
 	//int index = 0;
 	//if (!s.empty())
 	//{
@@ -77,7 +78,7 @@ bool getCleanString(string &s)
 	return bNegative;
 }
 
-int myAtoi(string str) 
+int myAtoi(string str)
 {
 	bool bNegative = getCleanString(str);
 	double num = 0;
@@ -130,7 +131,7 @@ int myAtoi(string str)
 
 int main()
 {
- 	string s = "   -42";
+	string s = "   -42";
 	//string s = "4193 with words";
 	//string s = "words and 987";
 	//string s = "-91283472332";
