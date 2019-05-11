@@ -3,6 +3,63 @@
 
 
 ---
+## 20190511
+* 28.StrStr 实现strStr() 
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/28.StrStr/Description.jpg)
+
+
+``` C++
+int strStr(string haystack, string needle)
+{
+	if (needle == "") return 0;
+
+	for (int i = 0; i < haystack.size(); i++)
+	{
+		for (int j = 0; j < needle.size(); j++)
+		{
+			if (i + j == haystack.size()) return -1;
+			if (haystack[i + j] != needle[j]) break;
+			if (j == needle.size() - 1) return i;
+		}
+	}
+	return -1;
+}
+``` 
+
+* 38.CountAndSay 报数
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/38.CountAndSay/Description.jpg)
+
+纠结了半天的居然是怎么int转string。
+
+``` C++
+string countAndSay(int n) 
+{
+	if (n <= 0 || n > 30) return "";
+
+	if (n == 1) return "1";
+
+	string str = countAndSay(n - 1);
+	string strCount;
+	size_t i = 0;
+	while (i < str.size())
+	{
+		size_t j = 1;
+		while (str[i] == str[i + j])
+		{
+			j++;
+		}
+		strCount += to_string(j);
+		strCount += str[i];
+		i += j;
+	}
+	return strCount;
+}
+``` 
+
+
+---
 ## 20190510
 * 8.MyAtoi 字符串转换整数 (atoi)  
 > Description.jpg  

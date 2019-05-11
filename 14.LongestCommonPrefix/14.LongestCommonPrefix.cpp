@@ -1,5 +1,6 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 14.LongestCommonPrefix.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -11,7 +12,7 @@
 using namespace std;
 
 
-string longestCommonPrefix(vector<string>& strs) 
+string longestCommonPrefix(vector<string>& strs)
 {
 	if (strs.size() == 0) return "";
 	if (strs.size() == 1) return strs[0];
