@@ -3,6 +3,29 @@
 
 
 ---
+## 20190513
+* 104.MaxDepth 二叉树的最大深度
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/104.MaxDepth/Description.jpg)
+
+额，这道题写初始化函数和输出函数写了1个多小时，  
+还因为把queue用错了vector调试了一会儿，  
+再现了vector因为push_back，  
+扩大内存而导致iter失效的问题。  
+
+然后maxDepth写了1分钟，一次过。
+
+``` C++
+int maxDepth(TreeNode* root)
+{
+	if (root == NULL) return 0;
+	return 1 + max(maxDepth(root->left), maxDepth(root->right));
+}
+``` 
+
+
+
+---
 ## 20190511
 * 28.StrStr 实现strStr() 
 > Description.jpg  
