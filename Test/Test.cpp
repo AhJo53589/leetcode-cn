@@ -19,10 +19,31 @@ struct TreeNode
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
 };
 
-int maxDepth(TreeNode* root)
+bool Inorder(TreeNode *root, int &val, bool &bFirstVal)
 {
-	if (root == NULL) return 0;
-	return 1 + max(maxDepth(root->left), maxDepth(root->right));
+	if (root == NULL) return true;
+
+	if (!Inorder(root->left, val, bFirstVal)) return false;
+
+	if (!bFirstVal)
+	{
+		if (!(val < root->val)) return false;
+	}
+	else
+	{
+		bFirstVal = false;
+	}
+	val = root->val;
+
+	if (!Inorder(root->right, val, bFirstVal)) return false;
+	return true;
+}
+
+bool isValidBST(TreeNode* root) 
+{
+	int val = 0;
+	bool bFirstVal = true;
+	return Inorder(root, val, bFirstVal);
 }
 
 void initTree(TreeNode **root, vector<int> initData)
@@ -89,11 +110,15 @@ void printTreeNode(TreeNode *root)
 		qTree.push(qHead->left);
 		qTree.push(qHead->right);
 	}
+	cout << endl;
 }
 
 int main()
 {
-	int A[] = { 3,9,20,0,0,15,7 };
+	//int A[] = { 3,9,20,0,0,15,7 };
+	//int A[] = { 2,1,4,0,0,3,6 };
+	//int A[] = { 10,5,15,0,0,6,20 };
+	int A[] = { 1,1 };
 	vector<int> initData;
 	for (int i : A)
 	{
@@ -103,5 +128,5 @@ int main()
 	TreeNode *root = NULL;
 	initTree(&root, initData);
 	printTreeNode(root);
-	cout << maxDepth(root) << endl;
+	cout << isValidBST(root) << endl;
 }

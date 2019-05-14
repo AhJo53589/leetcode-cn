@@ -3,6 +3,53 @@
 
 
 ---
+## 20190514
+* 98.IsValidBST 验证二叉搜索树
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/98.IsValidBST/Description.jpg)
+
+额，这道题知道要用中序遍历。  
+然后状态不好各种边界什么的  
+提交错了8次！  
+用别人的用例来弥补自己考虑不周了。  
+ 
+12ms，98%，总算安慰了一下。
+
+``` C++
+bool Inorder(TreeNode *root, int &val, bool &bFirstVal)
+{
+	if (root == NULL) return true;
+
+	if (!Inorder(root->left, val, bFirstVal)) return false;
+
+	if (!bFirstVal)
+	{
+		if (!(val < root->val)) return false;
+	}
+	else
+	{
+		bFirstVal = false;
+	}
+	val = root->val;
+
+	if (!Inorder(root->right, val, bFirstVal)) return false;
+	return true;
+}
+
+bool isValidBST(TreeNode* root)	// 12 ms
+{
+	int val = 0;
+	bool bFirstVal = true;
+	return Inorder(root, val, bFirstVal);
+}
+
+``` 
+
+
+
+
+
+---
 ## 20190513
 * 104.MaxDepth 二叉树的最大深度
 > Description.jpg  
