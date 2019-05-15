@@ -9,6 +9,7 @@
 #include <map>
 #include <vector>
 #include <queue>
+#include <string>
 using namespace std;
 
 
@@ -18,6 +19,14 @@ struct TreeNode
 	TreeNode *left;
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+};
+
+struct TreeNode_Val
+{
+	int val;
+	bool isNull;
+	TreeNode_Val(int x) : val(x), isNull(false) {}
+	TreeNode_Val(bool isN) : val(0), isNull(isN) {}
 };
 
 bool Inorder(TreeNode *root, int &val, bool &bFirstVal)
@@ -47,12 +56,51 @@ bool isValidBST(TreeNode* root)	// 12 ms
 	return Inorder(root, val, bFirstVal);
 }
 
-void initTree(TreeNode **root, vector<int> initData)
+std::vector<std::string> split(std::string str, std::string pattern)
 {
-	if (initData[0] == 0) return;
+	std::string::size_type pos;
+	std::vector<std::string> result;
+	str += pattern;//扩展字符串以方便操作
+	int size = str.size();
+	for (int i = 0; i < size; i++)
+	{
+		pos = str.find(pattern, i);
+		if (pos < size)
+		{
+			std::string s = str.substr(i, pos - i);
+			result.push_back(s);
+			i = pos + pattern.size() - 1;
+		}
+	}
+	return result;
+}
+
+vector<TreeNode_Val> initTreeNode_Val(string strInitData)
+{
+	vector<string> strArray = split(strInitData, ",");
+
+	vector<TreeNode_Val> vecTreeNode_Val;
+	for (auto str : strArray)
+	{
+		if (str == "null")
+		{
+			vecTreeNode_Val.push_back(TreeNode_Val(true));
+		}
+		else
+		{
+			vecTreeNode_Val.push_back(TreeNode_Val(stoi(str.c_str())));
+		}
+	}
+	return vecTreeNode_Val;
+}
+
+void initTree(TreeNode **root, string strInitData)
+{
+	vector<TreeNode_Val> initData = initTreeNode_Val(strInitData);
+	if (initData[0].isNull) return;
 
 	queue<TreeNode *> qTree;
-	*root = new TreeNode(initData[0]);
+	*root = new TreeNode(initData[0].val);
 	qTree.push(*root);
 
 	int i = 1;
@@ -67,25 +115,25 @@ void initTree(TreeNode **root, vector<int> initData)
 			continue;
 		}
 
-		if (initData[i] == 0)
+		if (initData[i].isNull)
 		{
 			qTree.push(NULL);
 		}
 		else
 		{
-			(*qHead).left = new TreeNode(initData[i]);
+			(*qHead).left = new TreeNode(initData[i].val);
 			qTree.push((*qHead).left);
 		}
 		i++;
 
 		if (i == initData.size()) return;
-		if (initData[i] == 0)
+		if (initData[i].isNull)
 		{
 			qTree.push(NULL);
 		}
 		else
 		{
-			(*qHead).right = new TreeNode(initData[i]);
+			(*qHead).right = new TreeNode(initData[i].val);
 			qTree.push((*qHead).right);
 		}
 		i++;
@@ -116,18 +164,12 @@ void printTreeNode(TreeNode *root)
 
 int main()
 {
-	//int A[] = { 3,9,20,0,0,15,7 };
-	//int A[] = { 2,1,4,0,0,3,6 };
-	//int A[] = { 10,5,15,0,0,6,20 };
-	int A[] = { 1,1 };
-	vector<int> initData;
-	for (int i : A)
-	{
-		initData.push_back(i);
-	}
-
+	//string strInput{ "3,9,20,0,0,15,7" };
+	//string strInput{ "2,1,4,0,0,3,6" };
+	//string strInput{ "10,5,15,0,0,6,20" };
+	string strInput{ 1,1 };
 	TreeNode *root = NULL;
-	initTree(&root, initData);
+	initTree(&root, strInput);
 	printTreeNode(root);
-	cout << isValidBST(root) << endl;
+	cout << endl << isValidBST(root) << endl;
 }
