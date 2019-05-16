@@ -3,6 +3,72 @@
 
 
 ---
+## 20190516
+* 102.LevelOrder 二叉树的层次遍历
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/102.LevelOrder/Description.jpg)
+
+
+``` C++
+vector<vector<int>> levelOrder(TreeNode* root) // 4ms
+{
+	vector<vector<int> >res;
+	if (root == NULL)
+		return res;
+	queue<TreeNode*> que;
+	TreeNode*p;
+	que.push(root);
+	int level = 0;
+	while (!que.empty()) 
+	{
+		res.push_back(vector<int>());
+		int len = que.size();
+		while (len--)
+		{
+			p = que.front();
+			que.pop();
+			res[level].push_back(p->val);
+			if (p->left) que.push(p->left);
+			if (p->right) que.push(p->right);
+		}
+		level++;
+	}
+	return res;
+}
+``` 
+
+* 108.SortedArrayToBST 将有序数组转换为二叉搜索树
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/108.SortedArrayToBST/Description.jpg)
+
+就很迷，我这20ms的代码和8ms的代码基本一样
+
+``` C++
+TreeNode* sortedArrayToBST(vector<int>& nums, size_t _First, size_t _Last) 
+{
+	if (_Last <= _First) return NULL;
+
+	size_t _Mid = _First + (_Last - _First) / 2;
+	TreeNode *pNode = new TreeNode(nums[_Mid]);
+	TreeNode *pLeft = sortedArrayToBST(nums, _First, _Mid);
+	TreeNode *pRight = sortedArrayToBST(nums, _Mid + 1, _Last);
+	pNode->left = pLeft;
+	pNode->right = pRight;
+	return pNode;
+}
+
+TreeNode* sortedArrayToBST(vector<int>& nums)
+{
+	size_t _First = 0;
+	size_t _Last = nums.size();
+	if (_Last == 0) return NULL;
+
+	return sortedArrayToBST(nums, _First, _Last);
+}
+``` 
+
+
+---
 ## 20190515
 * 101.IsSymmetric 对称二叉树
 > Description.jpg  

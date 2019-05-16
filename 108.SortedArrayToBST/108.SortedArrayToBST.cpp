@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 108.SortedArrayToBST.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -13,7 +13,7 @@
 #include "..\Common\TreeNode.h"
 using namespace std;
 
-TreeNode* sortedArrayToBST(vector<int>& nums, size_t _First, size_t _Last) 
+TreeNode* sortedArrayToBST(vector<int>& nums, size_t _First, size_t _Last)
 {
 	if (_Last <= _First) return NULL;
 
