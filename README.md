@@ -3,6 +3,40 @@
 
 
 ---
+## 20190522
+* 70.ClimbStairs 爬楼梯
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/70.ClimbStairs/Description.jpg)
+
+做到动态规划了，又跑去磕算法导论。  
+虽然没完全看懂，但总算没白看。  
+根据自己的理解做出来这道入门题了。  
+
+``` C++
+int climbStairs(int n)
+{
+	if (n <= 0) return 0;
+	if (n == 1) return 1;
+	if (n == 2) return 2;
+	int s1 = 1;
+	int s2 = 2;
+	int ret = 0;
+	for (int i = 3; i <= n; i++)
+	{
+		ret = s1 + s2;
+		s1 = s2;
+		s2 = ret;
+	}
+	return ret;
+}
+``` 
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/70.ClimbStairs/Solution.jpg)
+
+
+
+
+---
 ## 20190516
 * 102.LevelOrder 二叉树的层次遍历
 > Description.jpg  
