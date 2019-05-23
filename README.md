@@ -3,6 +3,32 @@
 
 
 ---
+## 20190523
+* 121.MaxProfit 买卖股票的最佳时机
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/121.MaxProfit/Description.jpg)
+
+终于看会了算法导论上是怎么做的，  
+但是觉得太麻烦，   
+还是抄了一个简单的方法。  
+结果下一道题还是要用那个方法。  
+
+``` C++
+int maxProfit(vector<int>& prices)
+{
+	int minPrice = INT_MAX;
+	int maxProfit = 0;
+	for (int i = 0; i < prices.size(); i++)
+	{
+		minPrice = min(minPrice, prices[i]);
+		maxProfit = max(maxProfit, prices[i] - minPrice);
+	}
+	return maxProfit;
+}
+``` 
+
+
+---
 ## 20190522
 * 70.ClimbStairs 爬楼梯
 > Description.jpg  
