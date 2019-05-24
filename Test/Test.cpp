@@ -13,34 +13,29 @@
 #include "..\Common\TreeNode.h"
 using namespace std;
 
-int maxProfit(vector<int>& prices) 
+
+int rob(vector<int>& nums) 
 {
-	int minPrice = INT_MAX;
-	int maxProfit = 0;
-	for (int i = 0; i < prices.size(); i++)
-	{
-		minPrice = min(minPrice, prices[i]);
-		maxProfit = max(maxProfit, prices[i] - minPrice);
-	}
-	return maxProfit;
+
 }
 
 void initVectorInt(vector<int> &nums)
 {
-	int A[] = { 7,1,5,3,6,4 };
-	//int A[] = { 7,6,4,3,1 };
-	//int A[] = { 1,2,3,4,5 };
-	//int A[] = { 2,1,2,0,1 };
+	//int A[] = { 1,2,3,1 };
+	//int A[] = { 2,7,9,3,1 };
+	//int A[] = { 2,4,8,9,9,3 };
+	int A[] = { 1,3,1,3,100 };
 	for (int i : A)
 	{
 		nums.push_back(i);
 		cout << i << " ";
 	}
+	cout << endl;
 }
 
 int main()
 {
 	vector<int> nums;
 	initVectorInt(nums);
-	cout << endl << maxProfit(nums) << endl;
+	cout << endl << rob(nums) << endl;
 }

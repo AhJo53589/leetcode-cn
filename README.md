@@ -3,6 +3,74 @@
 
 
 ---
+## 20190524
+* 53.MaxSubArray 最大子序和
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/53.MaxSubArray/Description.jpg)
+
+就是昨天终于认定这个题要用分治法了，  
+照着书上伪代码写完，发现  
+别人的代码好简单。  
+
+``` C++
+int maxSubArrayCross(vector<int> &nums, int low, int mid, int high)
+{
+	int left_sum = INT_MIN;
+	int right_sum = INT_MIN;
+	int sum = 0;
+	for (int i = mid; i >= 0; i--)
+	{
+		sum += nums[i];
+		left_sum = max(left_sum, sum);
+	}
+	sum = 0;
+	for (int i = mid + 1; i <= high; i++)
+	{
+		sum += nums[i];
+		right_sum = max(right_sum, sum);
+	}
+	return left_sum + right_sum;
+}
+
+int maxSubArraySide(vector<int>& nums, int low, int high)
+{
+	if (low == high) return nums[low];
+
+	int _Mid = low + (high - low) / 2;
+	int left_sum = maxSubArraySide(nums, low, _Mid);
+	int right_sum = maxSubArraySide(nums, _Mid + 1, high);
+	int cross_sum = maxSubArrayCross(nums, low, _Mid, high);
+
+	return max(left_sum, max(right_sum, cross_sum));
+}
+
+int maxSubArray(vector<int>& nums)
+{
+	// 分治法
+	int low = 0;
+	int high = nums.size() - 1;
+	return maxSubArraySide(nums, low, high);
+}
+``` 
+
+
+``` C++
+int maxSubArray(vector<int>& nums)
+{
+	//法1：复杂度为O(n)的解法
+	int res = INT_MIN, sum = 0;
+	for (int n : nums) {
+		sum = max(n, sum + n);
+		res = max(sum, res);
+	}
+	return res;
+}
+``` 
+
+
+
+
+---
 ## 20190523
 * 121.MaxProfit 买卖股票的最佳时机
 > Description.jpg  
