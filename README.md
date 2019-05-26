@@ -4,6 +4,90 @@
 
 ---
 ## 20190524
+* 198.Rob 打家劫舍
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/198.Rob/Description.jpg)
+
+这道题上周五下班前没有做完，  
+周日晚上想想这周结束之前还是应该把它完成。  
+
+做完之后提交可能有bug，显示我战胜了100%的用户。  
+很开心！  
+算法也是纯自己研究的，  
+就第一次写了个题解，分享一下。  
+
+
+根据这道题的条件特点：  
+__如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警__  
+（即相邻的数字不能同时作为最终求和的有效数字）。  
+
+这个条件如果精简掉其他内容，很容易让人联想到奇偶数。这个解法就是从这点出发。  
+  
+
+设置两个变量，sumOdd和sumEven分别对数组的奇数和偶数元素求和。  
+最后比较这两个和谁更大，谁就是最优解。  
+至少在下面这个例子里，这么做是成功的了。  
+
+|  Index  |  0 | 1  | 2  | 3  |
+|---------|---|---|---|---|
+| nums    | 1 | 2 | 3 | 4 |
+| sumEven | 1 | 1 | 4 | 4 |
+| sumOdd  | 0 | 2 | 2 | 6 |
+
+接下来要解决的就是最优解不是纯奇数和或者偶数和的情况。  
+这种情况下，最优解可能前半段出现在这边，后半段出现在另一边。  
+那么只要找到一个时机，当这一段的最优解没有另一边好时，就复制对面的最优解过来。  
+举个例子：  
+|  Index  |  0 | 1  | 2  | 3  |  4  |
+|---------|---|---|---|---|-----|
+| nums    | 1 | 3 | 1 | 3 | 100 |
+| sumEven | 1 | 1 | 2 | 3 |     |
+| sumOdd  | 0 | 3 | 3 |   |     |
+
+当偶数和（奇偶指的数组下标）加到第二个1之后，发现还不如奇数和一个3大，  
+就应该将对面的3复制过来替换掉自己的2。
+
+|  Index  |  0 | 1  | 2  | 3  |  4  |
+|---------|---|---|---|---|-----|
+| nums    | 1 | 3 | 1 | 3 | 100 |
+| sumEven | 1 | 1 | 2 | 3 | 103 |
+| sumOdd  | 0 | 3 | 3 | 6 | 6   |
+
+继续计算后得到最优解。  
+
+完成。  
+
+
+
+``` C++
+int rob(vector<int>& nums) 
+{
+	int sumOdd = 0;
+	int sumEven = 0;
+	for (int i = 0; i < nums.size(); i++)
+	{
+		if (i % 2 == 0)
+		{
+			sumEven += nums[i];
+			sumEven = max(sumOdd, sumEven);
+		}
+		else
+		{
+			sumOdd += nums[i];
+			sumOdd = max(sumOdd, sumEven);
+		}
+	}
+	return max(sumOdd, sumEven);
+}
+``` 
+
+
+
+
+
+
+---
+## 20190524
 * 53.MaxSubArray 最大子序和
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/53.MaxSubArray/Description.jpg)
