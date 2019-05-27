@@ -1,5 +1,6 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 155.MinStack.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
+
 
 #include "pch.h"
 #include <iostream>
@@ -11,12 +12,11 @@
 #include <string>
 #include <random>
 
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 
 
-class MinStack 
+class MinStack
 {
 private:
 	//自定义双链表，保存当前节点值+当前节点以前的最小值（含当前节点）
@@ -41,16 +41,16 @@ public:
 		head = new Node(0);
 	}
 
-	void push(int x) 
+	void push(int x)
 	{
-		if (cur == NULL) 
+		if (cur == NULL)
 		{
 			cur = new Node(x);
 			head->next = cur;
 			cur->pre = head;
 			cur->curMin = x;
 		}
-		else 
+		else
 		{
 			cur->next = new Node(x);
 			cur->next->pre = cur;
@@ -59,7 +59,7 @@ public:
 		}
 	}
 
-	void pop() 
+	void pop()
 	{
 		cur->pre->next = NULL;
 		cur = cur->pre;
@@ -67,7 +67,7 @@ public:
 			cur = NULL;
 	}
 
-	int top() 
+	int top()
 	{
 		return cur->val;
 	}
@@ -91,39 +91,8 @@ private:
  * int param_4 = obj->getMin();
  */
 
-void initVectorInt(vector<int> &nums)
-{
-	//int A[] = { 1,2,3,1 };
-	//int A[] = { 2,7,9,3,1 };
-	//int A[] = { 2,4,8,9,9,3 };
-	int A[] = { 1,2,3,4,5,6,7,8,9 };
-	for (int i : A)
-	{
-		nums.push_back(i);
-		cout << i << " ";
-	}
-	cout << endl;
-}
-
-void printfVectorInt(vector<int> &nums)
-{
-	for (int i : nums)
-	{
-		cout << i << " ";
-	}
-	cout << endl;
-}
-
 int main()
 {
-	//vector<int> nums;
-	//initVectorInt(nums);
-	//Solution* obj = new Solution(nums);
-	//vector<int> param_2 = obj->shuffle();
-	//printfVectorInt(param_2);
-	//vector<int> param_1 = obj->reset();
-	//printfVectorInt(param_1);
-
 	int x = 3;
 	MinStack* obj = new MinStack();
 	obj->push(x);

@@ -54,6 +54,24 @@ int rob(vector<int>& nums)
 //	return max(sumOdd, sumEven);
 //}
 
+//int rob(vector<int>& nums) 
+//{
+//	// 动态规划
+//	if (nums.size() == 0) return 0;
+//	if (nums.size() == 1)
+//		return nums[0];
+//	if (nums.size() == 2)
+//		return max(nums[0], nums[1]);
+//	nums[2] = nums[0] + nums[2];
+//	if (nums.size() == 3)
+//		return max(nums[1], nums[2]);
+//	for (int i = 3; i < nums.size(); i++)
+//	{
+//		nums[i] = max(nums[i - 2] + nums[i], nums[i] + nums[i - 3]);
+//	}
+//	return max(nums[nums.size() - 1], nums[nums.size() - 2]);
+//}
+
 void initVectorInt(vector<int> &nums)
 {
 	//int A[] = { 1,2,3,1 };

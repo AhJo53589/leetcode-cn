@@ -2,8 +2,85 @@
 
 
 
+
 ---
-## 20190524
+## 20190527
+* 155.MinStack 最小栈
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/155.MinStack/Description.jpg)
+
+代码写很多，又不好调试。  
+考的点又不难。  
+
+想要实现快速查找getMin,  
+就push的时候存一下。  
+
+``` C++
+void push(int x) 
+{
+	if (cur == NULL) 
+	{
+		cur = new Node(x);
+		head->next = cur;
+		cur->pre = head;
+		cur->curMin = x;
+	}
+	else 
+	{
+		cur->next = new Node(x);
+		cur->next->pre = cur;
+		cur = cur->next;
+		cur->curMin = min(cur->pre->curMin, x);
+	}
+}
+
+int getMin()
+{
+	return cur->curMin;
+}
+``` 
+
+
+* 384.Shuffle 打乱数组
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/384.Shuffle/Description.jpg)
+
+
+``` C++
+class Solution 
+{
+public:
+	Solution(vector<int>& nums) : m_nums(nums)
+	{
+	}
+
+	/** Resets the array to its original configuration and return it. */
+	vector<int> reset()
+	{
+		return m_nums;
+	}
+
+	/** Returns a random shuffling of the array. */
+	vector<int> shuffle() 
+	{
+		vector<int> ans = m_nums;
+		for (int i = 1; i < ans.size(); i++)
+		{
+			swap(ans[rand() % (i + 1)], ans[i]);
+		}
+		return ans;
+	}
+
+private:
+	vector<int> m_nums;
+};
+``` 
+
+
+
+
+---
+## 20190526
 * 198.Rob 打家劫舍
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/198.Rob/Description.jpg)
@@ -84,6 +161,28 @@ int rob(vector<int>& nums)
 
 
 
+然后，学习了别人的动态规划方法。  
+就感觉和我的方法很微妙的不同。
+  
+``` C++
+int rob(vector<int>& nums) 
+{
+	// 动态规划
+	if (nums.size() == 0) return 0;
+	if (nums.size() == 1)
+		return nums[0];
+	if (nums.size() == 2)
+		return max(nums[0], nums[1]);
+	nums[2] = nums[0] + nums[2];
+	if (nums.size() == 3)
+		return max(nums[1], nums[2]);
+	for (int i = 3; i < nums.size(); i++)
+	{
+		nums[i] = max(nums[i - 2] + nums[i], nums[i] + nums[i - 3]);
+	}
+	return max(nums[nums.size() - 1], nums[nums.size() - 2]);
+}
+``` 
 
 
 ---
@@ -253,7 +352,9 @@ vector<vector<int>> levelOrder(TreeNode* root) // 4ms
 > Description.jpg  
 ![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/108.SortedArrayToBST/Description.jpg)
 
-就很迷，我这20ms的代码和8ms的代码基本一样
+就很迷，我这20ms的代码和8ms的代码基本一样。  
+
+这道题基本上就是二分查找法的应用了。  
 
 ``` C++
 TreeNode* sortedArrayToBST(vector<int>& nums, size_t _First, size_t _Last) 
