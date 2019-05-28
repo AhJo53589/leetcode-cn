@@ -4,6 +4,88 @@
 
 
 ---
+## 20190528
+* 204.CountPrimes 计数质数
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/204.CountPrimes/Description.jpg)
+
+
+``` C++
+int countPrimes(int n) 
+{
+	if (n < 3) return 0;
+
+	vector<bool> primeFlag(n);
+	primeFlag[2] = true;
+	for (long long i = 3; i < n; i += 2)
+	{
+		primeFlag[i] = true; // 所有奇数标为true，偶数为false
+	}
+	for (long long i = 3; i < n; i++)
+	{
+		if (primeFlag[i])
+		{
+			int cnt = 2;
+			while (cnt * i < n)
+			{
+				// 把i的倍数标为false（因为它们是合数）
+				primeFlag[cnt * i] = false;
+				cnt++;
+			}
+		}
+	}
+
+	int cnt = 1;
+	for (long long i = 3; i < n; i += 2)
+	{
+		if (primeFlag[i])
+		{
+			//cout << cnt << ' ' << i << endl;
+			cnt++;
+		}
+	}
+	return cnt;
+}
+``` 
+
+
+* 412.FizzBuzz Fizz Buzz
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/412.FizzBuzz/Description.jpg)
+
+
+``` C++
+vector<string> fizzBuzz(int n)
+{
+	vector<string> str;
+	for (int i = 1; i <= n; i++)
+	{
+		if (i % 15 == 0)
+		{
+			str.push_back("FizzBuzz");
+		}
+		else if (i % 5 == 0)
+		{
+			str.push_back("Buzz");
+		}
+		else if (i % 3 == 0)
+		{
+			str.push_back("Fizz");
+		}
+		else
+		{
+			str.push_back(to_string(i));
+		}
+	}
+	return str;
+}
+``` 
+
+
+
+
+
+---
 ## 20190527
 * 155.MinStack 最小栈
 > Description.jpg  
