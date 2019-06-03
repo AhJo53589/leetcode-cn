@@ -15,10 +15,6 @@
 using namespace std;
 
 
-bool isPowerOfThree(int n) 
-{
-
-}
 
 void initVectorInt(vector<int> &nums)
 {
@@ -53,5 +49,4 @@ int main()
 	//vector<int> param_1 = obj->reset();
 	//printfVectorInt(param_1);
 
-	cout << endl << countPrimes(100) << endl;
 }

@@ -4,6 +4,59 @@
 
 
 ---
+## 20190603
+* 13.RomanToInt 罗马数字转整数
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/13.RomanToInt/Description.jpg)
+
+
+``` C++
+int romanToInt(string s)
+{
+	int result = 0;
+	map<char, int> luomab;
+	luomab.insert(map<char, int>::value_type('I', 1));
+	luomab.insert(map<char, int>::value_type('V', 5));
+	luomab.insert(map<char, int>::value_type('X', 10));
+	luomab.insert(map<char, int>::value_type('L', 50));
+	luomab.insert(map<char, int>::value_type('C', 100));
+	luomab.insert(map<char, int>::value_type('D', 500));
+	luomab.insert(map<char, int>::value_type('M', 1000));
+
+	for (int i = 0; i < s.length(); i++)
+	{
+		if (luomab[s[i]] >= luomab[s[i + 1]])
+		{
+			result += luomab[s[i]];
+		}
+		else
+		{
+			result += (luomab[s[i + 1]] - luomab[s[i]]);
+			i++;
+		}
+	}
+	return result;
+}
+``` 
+
+
+* 326.IsPowerOfThree 3的幂
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/326.IsPowerOfThree/Description.jpg)
+
+
+``` C++
+bool isPowerOfThree(int n)
+{
+	return n > 0 && 1162261467 % n == 0;
+}
+``` 
+
+
+
+
+
+---
 ## 20190528
 * 204.CountPrimes 计数质数
 > Description.jpg  
