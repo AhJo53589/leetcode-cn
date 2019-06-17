@@ -4,6 +4,161 @@
 
 
 ---
+## 20190617
+* 200.NumIslands 岛屿数量
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/200.NumIslands/Description.jpg)
+
+遍历，当发现这个格子时个新岛的时候，  
+把这个岛所有相连的都标记成‘2’。  
+
+``` C++
+void checkIsland(vector<vector<char>>& grid, pair<int,int> posStart)
+{
+	queue<pair<int, int>> q;
+	q.push(posStart);
+
+	while (!q.empty())
+	{
+		pair<int, int> p = q.front();
+		q.pop();
+
+		if (p.first >= 0 && p.first < grid.size() && p.second >= 0 && p.second < grid[0].size())
+		{
+			if (grid[p.first][p.second] == '1')
+			{
+				grid[p.first][p.second] = '2';
+
+				q.push(make_pair(p.first, p.second - 1));
+				q.push(make_pair(p.first, p.second + 1));
+				q.push(make_pair(p.first - 1, p.second));
+				q.push(make_pair(p.first + 1, p.second));
+			}
+		}
+	}
+}
+
+int numIslands(vector<vector<char>>& grid) 
+{
+	int iLen_i = grid.size();
+	if (iLen_i == 0) return 0;
+	int iLen_j = grid[0].size();
+	if (iLen_j == 0) return 0;
+
+	int num = 0;
+	for (int i = 0; i < iLen_i; i++)
+	{
+		for (int j = 0; j < iLen_j; j++)
+		{
+			if (grid[i][j] == '1')
+			{
+				checkIsland(grid, make_pair(i, j));
+				num++;
+			}
+		}
+	}
+
+	return num;
+}
+``` 
+
+
+* 622.MyCircularQueue 设计循环队列
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/622.MyCircularQueue/Description.jpg)
+
+
+使用数组即可，用head和tail两个变量来记录头尾的下标。  
+再记录一下size，其他都可以通过计算得到。  
+使用%操作，让数组循环起来。  
+注意判断isFull的时候，也要用%。  
+``` C++
+class MyCircularQueue
+{
+public:
+	/** Initialize your data structure here. Set the size of the queue to be k. */
+	MyCircularQueue(int k)
+	{
+		m_size = k > 0 ? k : 0;
+		m_pData = new int[k];
+		m_head = -1;
+		m_tail = -1;
+	}
+
+	/** Insert an element into the circular queue. Return true if the operation is successful. */
+	bool enQueue(int value)
+	{
+		if (isFull()) return false;
+
+		if (isEmpty())
+		{
+			m_head = 0;
+			m_tail = 0;
+			m_pData[m_tail] = value;
+		}
+		else
+		{
+			m_tail = (m_tail + 1) % m_size;
+			m_pData[m_tail] = value;
+		}
+		return true;
+	}
+
+	/** Delete an element from the circular queue. Return true if the operation is successful. */
+	bool deQueue()
+	{
+		if (isEmpty()) return false;
+
+		if (m_tail == m_head)
+		{
+			m_head = -1;
+			m_tail = -1;
+		}
+		else
+		{
+			m_head = (m_head + 1) % m_size;
+		}
+		return true;
+	}
+
+	/** Get the front item from the queue. */
+	int Front()
+	{
+		if (isEmpty()) return -1;
+		return m_pData[m_head];
+	}
+
+	/** Get the last item from the queue. */
+	int Rear()
+	{
+		if (isEmpty()) return -1;
+		return m_pData[m_tail];
+	}
+
+	/** Checks whether the circular queue is empty or not. */
+	bool isEmpty()
+	{
+		return m_head == -1;
+	}
+
+	/** Checks whether the circular queue is full or not. */
+	bool isFull()
+	{
+		return (m_size == 0 || ((m_tail + 1) % m_size) == m_head);
+	}
+
+private:
+	int *m_pData;
+	int m_head;
+	int m_tail;
+	int m_size;
+};
+``` 
+
+
+
+
+---
 ## 20190603
 * 13.RomanToInt 罗马数字转整数
 > Description.jpg  

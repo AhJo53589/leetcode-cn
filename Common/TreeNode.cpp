@@ -17,18 +17,18 @@ using namespace std;
 
 std::vector<std::string> split(std::string str, std::string pattern)
 {
-	std::string::size_type pos;
+	std::string::size_type Postion;
 	std::vector<std::string> result;
 	str += pattern;	// 扩展字符串以方便操作
 	size_t size = str.size();
 	for (size_t i = 0; i < size; i++)
 	{
-		pos = str.find(pattern, i);
-		if (pos < size)
+		Postion = str.find(pattern, i);
+		if (Postion < size)
 		{
-			std::string s = str.substr(i, pos - i);
+			std::string s = str.substr(i, Postion - i);
 			result.push_back(s);
-			i = pos + pattern.size() - 1;
+			i = Postion + pattern.size() - 1;
 		}
 	}
 	return result;

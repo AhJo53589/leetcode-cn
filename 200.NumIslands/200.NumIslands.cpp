@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 200.NumIslands.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -11,11 +11,10 @@
 #include <string>
 #include <random>
 
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 
-void checkIsland(vector<vector<char>>& grid, pair<int,int> posStart)
+void checkIsland(vector<vector<char>>& grid, pair<int, int> posStart)
 {
 	queue<pair<int, int>> q;
 	q.push(posStart);
@@ -40,7 +39,7 @@ void checkIsland(vector<vector<char>>& grid, pair<int,int> posStart)
 	}
 }
 
-int numIslands(vector<vector<char>>& grid) 
+int numIslands(vector<vector<char>>& grid)
 {
 	int iLen_i = grid.size();
 	if (iLen_i == 0) return 0;
@@ -96,7 +95,7 @@ void initVectorChar(vector<vector<char>>& grid)
 	for (string s : vStr)
 	{
 		vector<char> vChar;
-		for (int i  = 0; i < s.size(); i++)
+		for (int i = 0; i < s.size(); i++)
 		{
 			vChar.push_back(s[i]);
 		}
