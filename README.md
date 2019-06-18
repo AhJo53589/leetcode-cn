@@ -2,7 +2,90 @@
 
 
 
-1
+
+---
+## 20190618
+* 752.OpenLock 打开转盘锁
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/752.OpenLock/Description.jpg)
+
+因为是从队列的习题集里做到的题，很自然就想到用队列的特性来解决。  
+大概解决思路很快就想到了。  
+将当前数字的可以变换的所有（8种）情况全部判断加入队列。  
+下一步的时候，再依次将刚加进去的情况的下一步情况再加入队列。  
+其间通过黑名单方式排除deadends和已经计算过的情况。  
+通过这种方式能够计算最早达到目标的步数。  
+
+另外实现字符串“0000”变化的方法getNextMoveList()感觉也比较有意思。  
+
+``` C++
+vector<string> getNextMoveList(string strCurrent)
+{
+	vector<string> vStr;
+	for (int i = 0; i < 4; i++)
+	{
+		string strTemp = strCurrent;
+		int iCurrent = strCurrent[i] - '0';
+
+		strTemp[i] = ((iCurrent + 1) % 10) + '0';
+		vStr.push_back(strTemp);
+		strTemp[i] = ((iCurrent + 10 - 1) % 10) + '0';
+		vStr.push_back(strTemp);
+	}
+	return vStr;
+}
+
+int openLock(vector<string>& deadends, string target)
+{
+	map<string, bool> mapDeadends;
+	for (string s : deadends)
+	{
+		mapDeadends[s] = true;
+	}
+
+	string strInit("0000");
+	string strEnd("----");
+	if (mapDeadends[strInit]) return -1;
+
+	queue<string> qLockNum;
+	qLockNum.push(strInit);
+	mapDeadends[strInit] = true;
+	qLockNum.push(strEnd);
+
+	int num = 1;
+	while (!qLockNum.empty())
+	{
+		string strCurrent = qLockNum.front();
+		qLockNum.pop();
+
+		if (strCurrent == strEnd)
+		{
+			if (qLockNum.empty() || qLockNum.front() == strEnd) break;
+
+			num++;
+			qLockNum.push(strEnd);
+			continue;
+		}
+
+		vector<string> strNextMoveList = getNextMoveList(strCurrent);
+		for (string sNext : strNextMoveList)
+		{
+			if (!mapDeadends[sNext])
+			{
+				if (sNext == target) return num;
+				mapDeadends[sNext] = true;
+				qLockNum.push(sNext);
+			}
+		}
+	}
+	return -1;
+}
+``` 
+
+
+
+
+
 ---
 ## 20190617
 * 200.NumIslands 岛屿数量

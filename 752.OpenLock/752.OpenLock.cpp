@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 752.OpenLock.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -11,7 +11,6 @@
 #include <string>
 #include <random>
 
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 
@@ -68,7 +67,7 @@ using namespace std;
 //	return moves;
 //}
 
-vector<string> changeKey(string strCurrent)
+vector<string> getNextMoveList(string strCurrent)
 {
 	vector<string> vStr;
 	for (int i = 0; i < 4; i++)
@@ -93,42 +92,37 @@ int openLock(vector<string>& deadends, string target)
 	}
 
 	string strInit("0000");
+	string strEnd("----");
 	if (mapDeadends[strInit]) return -1;
 
 	queue<string> qLockNum;
 	qLockNum.push(strInit);
 	mapDeadends[strInit] = true;
-	qLockNum.push("----");
+	qLockNum.push(strEnd);
 
 	int num = 1;
-
 	while (!qLockNum.empty())
 	{
 		string strCurrent = qLockNum.front();
 		qLockNum.pop();
 
-		if (strCurrent == "----")
+		if (strCurrent == strEnd)
 		{
-			if (qLockNum.empty() || qLockNum.front() == "----")
-			{
-				break;
-			}
-			else
-			{
-				num++;
-				qLockNum.push("----");
-				continue;
-			}
+			if (qLockNum.empty() || qLockNum.front() == strEnd) break;
+
+			num++;
+			qLockNum.push(strEnd);
+			continue;
 		}
 
-		vector<string> strNext = changeKey(strCurrent);
-		for (string s : strNext)
+		vector<string> strNextMoveList = getNextMoveList(strCurrent);
+		for (string sNext : strNextMoveList)
 		{
-			if (!mapDeadends[s])
+			if (!mapDeadends[sNext])
 			{
-				if (s == target) return num;
-				mapDeadends[s] = true;
-				qLockNum.push(s);
+				if (sNext == target) return num;
+				mapDeadends[sNext] = true;
+				qLockNum.push(sNext);
 			}
 		}
 	}
