@@ -14,100 +14,61 @@
 #include "..\Common\TreeNode.h"
 using namespace std;
 
-
-void checkIsland(vector<vector<char>>& grid, pair<int,int> posStart)
+int openLock(vector<string>& deadends, string target) 
 {
-	queue<pair<int, int>> q;
-	q.push(posStart);
-
-	while (!q.empty())
+	map<string, bool> mapDeadends;
+	for (string s : deadends)
 	{
-		pair<int, int> p = q.front();
-		q.pop();
-
-		if (p.first >= 0 && p.first < grid.size() && p.second >= 0 && p.second < grid[0].size())
-		{
-			if (grid[p.first][p.second] == '1')
-			{
-				grid[p.first][p.second] = '2';
-
-				q.push(make_pair(p.first, p.second - 1));
-				q.push(make_pair(p.first, p.second + 1));
-				q.push(make_pair(p.first - 1, p.second));
-				q.push(make_pair(p.first + 1, p.second));
-			}
-		}
+		mapDeadends[s] = true;
 	}
-}
 
-int numIslands(vector<vector<char>>& grid) 
-{
-	int iLen_i = grid.size();
-	if (iLen_i == 0) return 0;
-	int iLen_j = grid[0].size();
-	if (iLen_j == 0) return 0;
+	queue<string> qLockNum;
+	qLockNum.push("0000");
+	mapDeadends["0000"] = true;
+	qLockNum.push("----");
 
 	int num = 0;
-	for (int i = 0; i < iLen_i; i++)
+
+	while (!qLockNum.empty())
 	{
-		for (int j = 0; j < iLen_j; j++)
+		string strCurrent = qLockNum.front();
+		qLockNum.pop();
+
+		if (strCurrent == "----")
 		{
-			if (grid[i][j] == '1')
+			if (qLockNum.front() != "----")
 			{
-				checkIsland(grid, make_pair(i, j));
 				num++;
+				qLockNum.push("----");
+			}
+			else
+			{
+				break;
 			}
 		}
-	}
 
-	return num;
+		if (!mapDeadends[strCurrent])
+		{
+			mapDeadends[strCurrent] = true;
+
+			
+		}
+	}
+	return 0;
 }
 
-void initVectorChar(vector<vector<char>>& grid)
+vector<string> initVectorString()
 {
-	vector<string> vStr;
-	string str;
-	str.clear();
-	str.append("11110");
-	vStr.push_back(str);
-	str.clear();
-	str.append("11010");
-	vStr.push_back(str);
-	str.clear();
-	str.append("11000");
-	vStr.push_back(str);
-	str.clear();
-	str.append("00000");
-	vStr.push_back(str);
-
-	//str.clear();
-	//str.append("11000");
-	//vStr.push_back(str);
-	//str.clear();
-	//str.append("11000");
-	//vStr.push_back(str);
-	//str.clear();
-	//str.append("00100");
-	//vStr.push_back(str);
-	//str.clear();
-	//str.append("00011");
-	//vStr.push_back(str);
-
-	for (string s : vStr)
-	{
-		vector<char> vChar;
-		for (int i  = 0; i < s.size(); i++)
-		{
-			vChar.push_back(s[i]);
-		}
-		grid.push_back(vChar);
-	}
+	string str[] = { "0201","0101","0102","1212","2002" };
+	vector<string> vString(str, str + sizeof(str) / sizeof(str[0]));
+	return vString;
 }
 
 int main()
 {
-	vector<vector<char>> grid;
-	initVectorChar(grid);
+	string target = "0202";
+	vector<string> deadends;
+	deadends = initVectorString();
 
-	cout << numIslands(grid);
+	cout << openLock(deadends, target);
 }
