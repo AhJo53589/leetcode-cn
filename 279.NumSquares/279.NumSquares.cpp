@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 279.NumSquares.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -12,7 +12,6 @@
 #include <string>
 #include <random>
 
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 
@@ -125,7 +124,7 @@ public:
 //};
 
 
-int numSquares(int n) 
+int numSquares(int n)
 {
 	set<int> usedSet;
 	queue<pair<int, int>> que;

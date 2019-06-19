@@ -4,6 +4,40 @@
 
 
 ---
+## 20190619
+* 279.NumSquares 完全平方数
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/279.NumSquares/Description.jpg)
+
+这道题有3种解法，详情看cpp。  
+
+``` C++
+int numSquares(int n)
+{
+	set<int> usedSet;
+	queue<pair<int, int>> que;
+	que.push({ n,0 });
+	while (!que.empty())
+	{
+		auto iCheck = que.front();
+		que.pop();
+		for (int i = 1; i*i <= iCheck.first; i++)
+		{
+			int nLeftNum = iCheck.first - i * i;
+			if (usedSet.count(nLeftNum)) continue;
+			if (nLeftNum == 0) return iCheck.second + 1;
+			que.push({ nLeftNum, iCheck.second + 1 });
+			usedSet.insert(nLeftNum);
+		}
+	}
+	return 0;
+}
+``` 
+
+
+
+
+---
 ## 20190618
 * 752.OpenLock 打开转盘锁
 > Description.jpg  
