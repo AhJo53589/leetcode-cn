@@ -4,6 +4,101 @@
 
 
 ---
+## 20190620
+* 20.IsValid 有效的括号
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/20.IsValid/Description.jpg)
+
+
+``` C++
+bool isValid(string str)
+{
+	stack<char> s;
+	for (int i = 0; i < str.size(); i++)
+	{
+		if (s.empty())
+		{
+			s.push(str[i]);
+			continue;
+		}
+
+		if (s.top() != '(' && s.top() != '[' && s.top() != '{') return false;
+
+		if ((s.top() == '(' && str[i] == ')')
+			|| (s.top() == '[' && str[i] == ']')
+			|| (s.top() == '{' && str[i] == '}'))
+		{
+			s.pop();
+		}
+		else
+		{
+			s.push(str[i]);
+		}
+	}
+	return s.empty();
+}
+``` 
+
+
+* 150.EvalRPN 逆波兰表达式求值
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/150.EvalRPN/Description.jpg)
+
+
+``` C++
+int evalRPN(vector<string>& tokens)
+{
+	if (tokens.empty()) return 0;
+	stack<int> s;
+	for (auto str : tokens)
+	{
+		if (str == "+" || str == "-" || str == "*" || str == "/")
+		{
+			int a = s.top();
+			s.pop();
+			int b = s.top();
+			s.pop();
+			if (str == "+") s.push(b + a);
+			if (str == "-") s.push(b - a);
+			if (str == "*") s.push(b * a);
+			if (str == "/") s.push(b / a);
+		}
+		else
+		{
+			s.push(stoi(str));
+		}
+	}
+	return s.top();
+}
+``` 
+
+
+* 739.DailyTemperatures 每日温度
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/739.DailyTemperatures/Description.jpg)
+
+
+``` C++
+vector<int> dailyTemperatures(vector<int>& T)
+{
+	vector<int> days(T.size());
+	stack<int> s;
+	for (int i = 0; i < T.size(); i++)
+	{
+		while (!s.empty() && T[s.top()] < T[i])
+		{
+			days[s.top()] = i - s.top();
+			s.pop();
+		}
+		s.push(i);
+	}
+	return days;
+}
+``` 
+
+
+
+---
 ## 20190619
 * 279.NumSquares 完全平方数
 > Description.jpg  
