@@ -4,6 +4,146 @@
 
 
 ---
+## 20190621
+* 94.InorderTraversal 二叉树的中序遍历
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/94.InorderTraversal/Description.jpg)
+
+
+``` C++
+vector<int> inorderTraversal(TreeNode* root)
+{
+	vector<int> vRet;
+	if (root == NULL) return vRet;
+
+	vector<int> vTemp;
+	vTemp = inorderTraversal(root->left);
+	vRet.insert(vRet.end(), vTemp.begin(), vTemp.end());
+	vRet.push_back(root->val);
+	vTemp = inorderTraversal(root->right);
+	vRet.insert(vRet.end(), vTemp.begin(), vTemp.end());
+	return vRet;
+}
+``` 
+
+
+* 133.CloneGraph 克隆图
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/133.CloneGraph/Description.jpg)
+
+
+可以对比一下我的代码和别人的代码。  
+虽然思路可以说一样，但是别人的写的更好。  
+``` C++
+Node* cloneGraph(Node* node) 
+{
+	if (node == NULL) return NULL;
+
+	map<Node *, Node *> visited;
+	stack<Node *> s;
+
+	s.push(node);
+	while (!s.empty())
+	{
+		Node *cur = s.top();
+		s.pop();
+		if (visited.count(cur) == 0)
+		{
+			Node *pNew = new Node();
+			visited[cur] = pNew;
+			for (auto n : cur->neighbors)
+			{
+				s.push(n);
+			}
+		}
+	}
+
+	for (auto i = visited.begin(); i != visited.end(); i++)
+	{
+		(i->second)->val = (i->first)->val;
+		for (auto n : (i->first)->neighbors)
+		{
+			(i->second)->neighbors.push_back(visited[n]);
+		}
+	}
+
+	return visited[node];
+}
+``` 
+
+
+``` C++
+Node* cloneGraph(Node* node) 
+{
+	unordered_map<Node*, Node*> toCopy;
+	return clone(node, toCopy);
+}
+
+Node* clone(Node* root, unordered_map<Node*, Node*>& toCopy) 
+{
+	if (toCopy.find(root) != toCopy.end()) return toCopy[root];
+	Node* res = new Node(root->val, vector<Node*>({}));
+	toCopy.insert({ root, res });
+	for (Node* p : root->neighbors)
+		res->neighbors.push_back(clone(p, toCopy));
+	return res;
+}
+``` 
+
+
+* 494.FindTargetSumWays 目标和
+> Description.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/494.FindTargetSumWays/Description.jpg)
+
+
+这道题本来看着没思路，但是因为是堆栈里的题目，  
+我就仔细想了想堆栈的特点，和DFS的作用。  
+终于愉快的想到了思路写出了代码。  
+思路就是对每个数的正负值入栈求和。  
+虽然效率不高，但是比较符合DFS思路。  
+
+``` C++
+int findTargetSumWays(vector<int>& nums, int S, int iIndex, int iSum)
+{
+	if (iIndex == nums.size() - 1)
+	{
+		if (nums[iIndex] == 0 && iSum == S) return 2;
+		if (iSum + nums[iIndex] == S) return 1;
+		if (iSum - nums[iIndex] == S) return 1;
+		return 0;
+	}
+
+	int iRst = 0;
+	iRst += findTargetSumWays(nums, S, iIndex + 1, iSum + nums[iIndex]);
+	iRst += findTargetSumWays(nums, S, iIndex + 1, iSum - nums[iIndex]);
+	return iRst;
+}
+
+int findTargetSumWays(vector<int>& nums, int S) 
+{
+	return findTargetSumWays(nums, S, 0, 0);
+}
+``` 
+
+查看别人的代码之后，发现自己的动态规划学的还不行啊。  
+
+``` C++
+int findTargetSumWays(vector<int>& nums, int S) {
+	int sum=0;
+	for(int n : nums) sum+=n;
+	if(sum<S || (S+sum)%2!=0) return 0;
+	int right = (S+sum)>>1;
+	vector<int> dp(right+1, 0);
+	dp[0]=1;
+	for(int d : nums){
+		for(int i=right; i>=d; i--) dp[i]+=dp[i-d];
+	}
+	return dp[right];
+}
+``` 
+
+
+---
 ## 20190620
 * 20.IsValid 有效的括号
 > Description.jpg  

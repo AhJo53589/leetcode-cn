@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 494.FindTargetSumWays.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -14,8 +14,6 @@
 #include <string>
 #include <random>
 
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 //int findTargetSumWays(vector<int>& nums, int S) {
@@ -47,7 +45,7 @@ int findTargetSumWays(vector<int>& nums, int S, int iIndex, int iSum)
 	return iRst;
 }
 
-int findTargetSumWays(vector<int>& nums, int S) 
+int findTargetSumWays(vector<int>& nums, int S)
 {
 	return findTargetSumWays(nums, S, 0, 0);
 }

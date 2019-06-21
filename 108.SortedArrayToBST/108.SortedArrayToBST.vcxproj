@@ -151,10 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Common\Common.h" />
     <ClInclude Include="..\Common\TreeNode.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Common\Common.cpp" />
     <ClCompile Include="..\Common\TreeNode.cpp" />
     <ClCompile Include="108.SortedArrayToBST.cpp" />
     <ClCompile Include="pch.cpp">

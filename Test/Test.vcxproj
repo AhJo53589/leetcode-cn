@@ -152,10 +152,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\Common\Common.h" />
+    <ClInclude Include="..\Common\GraphNode.h" />
     <ClInclude Include="..\Common\TreeNode.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\Common\Common.cpp" />
+    <ClCompile Include="..\Common\GraphNode.cpp" />
     <ClCompile Include="..\Common\TreeNode.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>

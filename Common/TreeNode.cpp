@@ -11,28 +11,10 @@
 #include <queue>
 #include <string>
 
+#include "Common.h"
 #include "TreeNode.h"
 using namespace std;
 
-
-std::vector<std::string> split(std::string str, std::string pattern)
-{
-	std::string::size_type Postion;
-	std::vector<std::string> result;
-	str += pattern;	// 扩展字符串以方便操作
-	size_t size = str.size();
-	for (size_t i = 0; i < size; i++)
-	{
-		Postion = str.find(pattern, i);
-		if (Postion < size)
-		{
-			std::string s = str.substr(i, Postion - i);
-			result.push_back(s);
-			i = Postion + pattern.size() - 1;
-		}
-	}
-	return result;
-}
 
 vector<TreeNode_Val> initTreeNode_Val(string strInitData)
 {
@@ -65,15 +47,15 @@ void initTree(TreeNode **root, string strInitData)
 	int i = 1;
 	while (!qTree.empty())
 	{
-		TreeNode *qHead = qTree.front();
-		qTree.pop();
-		if (i == initData.size()) return;
-		if (qHead == NULL)
+		TreeNode *qHead = NULL;
+		while (qHead == NULL)
 		{
-			i += 2;
-			continue;
+			if (qTree.empty()) return;
+			qHead = qTree.front();
+			qTree.pop();
 		}
 
+		if (i == initData.size()) return;
 		if (initData[i].isNull)
 		{
 			qTree.push(NULL);
