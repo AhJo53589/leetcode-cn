@@ -33,3 +33,8 @@ int singleNumber(vector<int>& nums)
 	return accumulate(nums.begin(), nums.end(), 0, bit_xor<int>());
 }
 ``` 
+
+
+### 其它
+来LeetCode做的第一道题，打开了新世界的大门。  
+重新学了一遍异或。

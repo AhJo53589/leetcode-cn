@@ -18,6 +18,9 @@
 ```
 
 ```
+> Solution.jpg  
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/problems/206.ReverseList/Solution.jpg)
+
 
 
 ### 答题

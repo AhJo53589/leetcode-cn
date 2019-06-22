@@ -61,3 +61,9 @@ bool searchMatrix(vector<vector<int>>& matrix, int target)
 	return false;
 }
 ``` 
+
+
+### 其它
+这道题做了好久。  
+结果还是因为没有搞清楚矩阵的数学特点。  
+下面的代码写的很符合特点。  
