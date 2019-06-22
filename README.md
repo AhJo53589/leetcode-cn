@@ -1,7 +1,7 @@
 # leetcode-cn
 
 
-# Problems & Solutions
+## Problems & Solutions
 
 * `（简单）`  [1.TwoSum 两数之和](./problems/1.TwoSum/README.md)
   题解  [C++](./problems/1.TwoSum/1.TwoSum.cpp)
@@ -11,6 +11,8 @@
  题解[C++](./problems/8.MyAtoi/8.MyAtoi.cpp)
 * `（简单）`  [13.RomanToInt 罗马数字转整数](./problems/13.RomanToInt/README.md)
  题解[C++](./problems/13.RomanToInt/13.RomanToInt.cpp)
+* `（简单）`  [14.LongestCommonPrefix 最长公共前缀](./problems/14.LongestCommonPrefix/README.md)
+ 题解[C++](./problems/14.LongestCommonPrefix/14.LongestCommonPrefix.cpp)
 * `（中等）`  [19.RemoveNthFromEnd 删除链表的倒数第N个节点](./problems/19.RemoveNthFromEnd/README.md)
  题解[C++](./problems/19.RemoveNthFromEnd/19.RemoveNthFromEnd.cpp)
 * `（简单）`  [20.IsValid 有效的括号](./problems/20.IsValid/README.md)
