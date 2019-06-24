@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 232.implement-queue-using-stacks.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -14,27 +14,22 @@
 #include <string>
 #include <random>
 
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 using namespace std;
 
-class MyQueue 
+class MyQueue
 {
 public:
 	/** Initialize your data structure here. */
-	MyQueue() 
-	{
-
-	}
+	MyQueue(){}
 
 	/** Push element x to the back of queue. */
-	void push(int x) 
+	void push(int x)
 	{
 		m_in.push(x);
 	}
 
 	/** Removes the element from in front of queue and returns that element. */
-	int pop() 
+	int pop()
 	{
 		int i = peek();
 		m_out.pop();
@@ -42,14 +37,14 @@ public:
 	}
 
 	/** Get the front element. */
-	int peek() 
+	int peek()
 	{
 		TransferData();
 		return m_out.top();
 	}
 
 	/** Returns whether the queue is empty. */
-	bool empty() 
+	bool empty()
 	{
 		return m_out.empty() && m_in.empty();
 	}
@@ -91,5 +86,4 @@ int main()
 	cout << "peek " << obj->peek() << endl;
 	cout << "pop " << obj->pop() << endl;
 	cout << "empty " << obj->empty() << endl;
-
 }
