@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 394.decode-string.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -14,8 +14,6 @@
 #include <string>
 #include <random>
 
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 string getNormal(string s)
@@ -54,7 +52,7 @@ string getSub(string s)
 	return str;
 }
 
-string decodeString(string s) 
+string decodeString(string s)
 {
 	string strText;
 
