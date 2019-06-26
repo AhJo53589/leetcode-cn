@@ -129,6 +129,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "733.flood-fill", "733.flood
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "542.01-matrix", "542.01-matrix\542.01-matrix.vcxproj", "{C9EA8B99-AC8A-41EF-95AF-5B1BFE764DC9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "841.keys-and-rooms", "841.keys-and-rooms\841.keys-and-rooms.vcxproj", "{12250E85-4DF3-4006-99AE-0092AFDB56EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -641,6 +643,14 @@ Global
 		{C9EA8B99-AC8A-41EF-95AF-5B1BFE764DC9}.Release|x64.Build.0 = Release|x64
 		{C9EA8B99-AC8A-41EF-95AF-5B1BFE764DC9}.Release|x86.ActiveCfg = Release|Win32
 		{C9EA8B99-AC8A-41EF-95AF-5B1BFE764DC9}.Release|x86.Build.0 = Release|Win32
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Debug|x64.ActiveCfg = Debug|x64
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Debug|x64.Build.0 = Debug|x64
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Debug|x86.Build.0 = Debug|Win32
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Release|x64.ActiveCfg = Release|x64
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Release|x64.Build.0 = Release|x64
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Release|x86.ActiveCfg = Release|Win32
+		{12250E85-4DF3-4006-99AE-0092AFDB56EC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
