@@ -7,6 +7,7 @@
 #include <algorithm>
 #include <map>
 #include <unordered_map>
+#include <unordered_set>
 #include <vector>
 #include <queue>
 #include <set>
@@ -14,114 +15,43 @@
 #include <string>
 #include <random>
 
+#include "..\Common\Common.h"
 #include "..\Common\GraphNode.h"
 #include "..\Common\TreeNode.h"
 using namespace std;
 
-string getNormal(string s)
+void visitRoom(vector<vector<int>>& rooms, int roomId, unordered_set<int>& visited)
 {
-	string str;
-	for (char c : s)
+	if (roomId >= rooms.size()) return;
+
+	visited.insert(roomId);
+	for (auto r : rooms[roomId])
 	{
-		if (c <= '9' && c >= '0') return str;
-		str += c;
-	}
-	return str;
-}
-
-string getNum(string s)
-{
-	string str;
-	for (char c : s)
-	{
-		if (c == '[') return str;
-		str += c;
-	}
-	return str;
-}
-
-string getSub(string s)
-{
-	string str;
-	stack<char> st;
-	for (char c : s)
-	{
-		if (c == '[') st.push(c);
-		if (c == ']') st.pop();
-		str += c;
-		if (st.empty()) return str;
-	}
-	return str;
-}
-
-string decodeString(string s) 
-{
-	string strText;
-
-	int i = 0;
-	while (i < s.size())
-	{
-		string strTemp;
-		strTemp = getNormal(s.substr(i, s.size()));
-		i += strTemp.size();
-		strText += strTemp;
-
-		strTemp = getNum(s.substr(i, s.size()));
-		i += strTemp.size();
-		string strNum = strTemp;
-
-		strTemp = getSub(s.substr(i, s.size()));
-		i += strTemp.size();
-		if (strTemp.size() > 2)
+		if (!visited.count(r))
 		{
-			string strSubText = decodeString(strTemp.substr(1, strTemp.size() - 2));
-			int iNum = stoi(strNum);
-			while (iNum-- > 0) strText += strSubText;
+			visitRoom(rooms, r, visited);
 		}
 	}
-
-	return strText;
 }
 
-//string decodeString(string s) {
-//	int num = 0;
-//	string cur = "";
-//	stack<int> nums;
-//	stack<string> str;
-//	for (int i = 0; i < s.size(); i++) {
-//		if (s[i] >= '0' && s[i] <= '9') {
-//			num = num * 10 + s[i] - '0';
-//		}
-//		else if (s[i] == '[') {
-//			nums.push(num);
-//			num = 0;
-//			str.push(cur);
-//			cur = "";
-//		}
-//		else if (s[i] == ']') {
-//			int k = nums.top();
-//			nums.pop();
-//			for (int i = 0; i < k; i++) {
-//				str.top() += cur;
-//			}
-//			cur = str.top();
-//			str.pop();
-//		}
-//		else if (s[i] >= 'a' && s[i] <= 'z' || s[i] >= 'A' && s[i] <= 'Z') {
-//			cur = cur + s[i];
-//		}
-//	}
-//	return cur;
-//}
+bool canVisitAllRooms(vector<vector<int>>& rooms) 
+{
+	unordered_set<int> visited;
+	visitRoom(rooms, 0, visited);
+	for (int i = 0; i < rooms.size(); i++)
+	{
+		if (!visited.count(i)) return false;
+	}
+	return true;
+}
 
 int main()
 {
-	string s;
-	s = "3[a]2[bc]";
-	s = "3[a2[c]]";
-	s = "2[abc]3[cd]ef";
-	s = "3[z]2[2[y]pq4[2[jk]e1[f]]]ef";
+	//string strInit = "[[1],[2],[3],[]]";
+	string strInit = "[[1,3],[3,0,1],[2],[0]]";
 
-	cout << "origin: " << s << endl;
-	cout << "decode: " << decodeString(s) << endl;
+	vector<vector<int>> m = StringToVectorVectorInt(strInit);
+
+	cout << canVisitAllRooms(m) << endl;
+
 }
