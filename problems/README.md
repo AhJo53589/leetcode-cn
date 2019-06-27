@@ -4,6 +4,13 @@
 
 
 ---
+## 20190627
+* 724.find-pivot-index 寻找数组的中心索引
+
+* 747.largest-number-at-least-twice-of-others 至少是其他数字两倍的最大数
+
+
+---
 ## 20190626
 * 841.keys-and-rooms 钥匙和房间
 
