@@ -17,15 +17,14 @@ int calcMaximumCoverage(int iTime, int K)
 
 int superEggDrop(int K, int N)	// 8ms
 {
-	int iTime = 0;
-	int iMaxCoverage = 0;
-	do
+	int iTime = 1;
+	while (calcMaximumCoverage(iTime, K) < N + 1)
 	{
 		++iTime;
-		iMaxCoverage = calcMaximumCoverage(iTime, K);
-	} while (iMaxCoverage < N + 1);
+	}
 	return iTime;
 }
+
 
 //int superEggDrop(int K, int N)	// 8ms  改了一下也没有提升太多效率，还是上边整洁。。。
 //{
