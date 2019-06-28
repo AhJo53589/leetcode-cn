@@ -18,6 +18,7 @@
 * `（中等）`  [50.MyPow](./problems/50.MyPow/README.md) 题解 [C++](./problems/50.MyPow/50.MyPow.cpp)
 * `（简单）`  [53.MaxSubArray 最大子序和](./problems/53.MaxSubArray/README.md) 题解 [C++](./problems/53.MaxSubArray/53.MaxSubArray.cpp)
 * `（简单）`  [66.PlusOne 加一](./problems/66.PlusOne/README.md) 题解 [C++](./problems/66.PlusOne/66.PlusOne.cpp)
+* `（简单）`  [67.add-binary 二进制求和](./problems/67.add-binary/README.md) 题解 [C++](./problems/67.add-binary/67.add-binary.cpp)
 * `（简单）`  [70.ClimbStairs 爬楼梯](./problems/70.ClimbStairs/README.md) 题解 [C++](./problems/70.ClimbStairs/70.ClimbStairs.cpp)
 * `（简单）`  [88.Merge 合并两个有序数组](./problems/88.Merge/README.md) 题解 [C++](./problems/88.Merge/88.Merge.cpp)
 * `（中等）`  [94.InorderTraversal 二叉树的中序遍历](./problems/94.InorderTraversal/README.md) 题解 [C++](./problems/94.InorderTraversal/94.InorderTraversal.cpp)
