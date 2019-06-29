@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 498.diagonal-traverse.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -20,7 +20,7 @@
 #include "..\Common\TreeNode.h"
 using namespace std;
 
-vector<int> findDiagonalOrder(vector<vector<int>>& matrix) 
+vector<int> findDiagonalOrder(vector<vector<int>>& matrix)
 {
 	vector<int> nums;
 	int m = matrix.size();
@@ -79,7 +79,6 @@ vector<int> findDiagonalOrder(vector<vector<int>>& matrix)
 //			j++;
 //			output.push_back(matrix[i][j]);
 //		}
-//
 //	}
 //	return output;
 //}

@@ -20,6 +20,7 @@ vector<vector<int>> StringToVectorVectorInt(string str);
 string VectorVectorIntToString(vector<vector<int>>& matrix);
 
 void printVectorVectorInt(vector<vector<int>>& matrix);
+void printVectorInt(vector<int>& nums);
 
 
 #endif //COMMON_H

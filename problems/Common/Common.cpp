@@ -110,3 +110,12 @@ void printVectorVectorInt(vector<vector<int>>& matrix)
 	cout << endl;
 }
 
+void printVectorInt(vector<int>& nums)
+{
+	for (auto i : nums)
+	{
+		cout << i << ", ";
+	}
+	cout << endl;
+}
+

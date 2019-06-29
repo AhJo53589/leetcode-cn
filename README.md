@@ -59,6 +59,7 @@
 * `（中等）`  [394.decode-string 字符串解码](./problems/394.decode-string/README.md) 题解 [C++](./problems/394.decode-string/394.decode-string.cpp)
 * `（简单）`  [412.FizzBuzz Fizz Buzz](./problems/412.FizzBuzz/README.md) 题解 [C++](./problems/412.FizzBuzz/412.FizzBuzz.cpp)
 * `（中等）`  [494.FindTargetSumWays 目标和](./problems/494.FindTargetSumWays/README.md) 题解 [C++](./problems/494.FindTargetSumWays/494.FindTargetSumWays.cpp)
+* `（中等）`  [498.diagonal-traverse 对角线遍历](./problems/498.diagonal-traverse/README.md) 题解 [C++](./problems/498.diagonal-traverse/498.diagonal-traverse.cpp)
 * `（中等）`  [542.01-matrix 01](./problems/542.01-matrix/README.md) 题解 [C++](./problems/542.01-matrix/542.01-matrix.cpp)
 * `（中等）`  [622.MyCircularQueue 设计循环队列](./problems/622.MyCircularQueue/README.md) 题解 [C++](./problems/622.MyCircularQueue/622.MyCircularQueue.cpp)
 * `（简单）`  [724.find-pivot-index 寻找数组的中心索引](./problems/724.find-pivot-index/README.md) 题解 [C++](./problems/724.find-pivot-index/724.find-pivot-index.cpp)
