@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 167.two-sum-ii-input-array-is-sorted.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -16,8 +16,6 @@
 #include <random>
 
 #include "..\Common\Common.h"
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 using namespace std;
 
 vector<int> twoSum(vector<int>& numbers, int target)
