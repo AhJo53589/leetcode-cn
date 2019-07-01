@@ -141,6 +141,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "498.diagonal-traverse", "49
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "54.spiral-matrix", "54.spiral-matrix\54.spiral-matrix.vcxproj", "{7AF75363-F793-439D-9A5C-01C59189429E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "118.pascals-triangle", "118.pascals-triangle\118.pascals-triangle.vcxproj", "{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -701,6 +703,14 @@ Global
 		{7AF75363-F793-439D-9A5C-01C59189429E}.Release|x64.Build.0 = Release|x64
 		{7AF75363-F793-439D-9A5C-01C59189429E}.Release|x86.ActiveCfg = Release|Win32
 		{7AF75363-F793-439D-9A5C-01C59189429E}.Release|x86.Build.0 = Release|Win32
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Debug|x64.ActiveCfg = Debug|x64
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Debug|x64.Build.0 = Debug|x64
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Debug|x86.ActiveCfg = Debug|Win32
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Debug|x86.Build.0 = Debug|Win32
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Release|x64.ActiveCfg = Release|x64
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Release|x64.Build.0 = Release|x64
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Release|x86.ActiveCfg = Release|Win32
+		{6BA72B13-4EB2-41E4-A4B1-C451E3561BD1}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

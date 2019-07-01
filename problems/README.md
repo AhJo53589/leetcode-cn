@@ -5,6 +5,8 @@
 
 ---
 ## 20190701
+* 118.pascals-triangle 杨辉三角
+
 * 54.spiral-matrix 螺旋矩阵
 
 

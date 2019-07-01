@@ -28,6 +28,7 @@
 * `（中等）`  [102.LevelOrder 二叉树的层次遍历](./problems/102.LevelOrder/README.md) 题解 [C++](./problems/102.LevelOrder/102.LevelOrder.cpp)
 * `（简单）`  [104.MaxDepth 二叉树的最大深度](./problems/104.MaxDepth/README.md) 题解 [C++](./problems/104.MaxDepth/104.MaxDepth.cpp)
 * `（简单）`  [108.SortedArrayToBST 将有序数组转换为二叉搜索树](./problems/108.SortedArrayToBST/README.md) 题解 [C++](./problems/108.SortedArrayToBST/108.SortedArrayToBST.cpp)
+* `（简单）`  [118.pascals-triangle 杨辉三角](./problems/118.pascals-triangle/README.md) 题解 [C++](./problems/118.pascals-triangle/118.pascals-triangle.cpp)
 * `（简单）`  [121.MaxProfit 买卖股票的最佳时机](./problems/121.MaxProfit/README.md) 题解 [C++](./problems/121.MaxProfit/121.MaxProfit.cpp)
 * `（简单）`  [122.MaxProfit 买卖股票的最佳时机 II](./problems/122.MaxProfit/README.md) 题解 [C++](./problems/122.MaxProfit/122.MaxProfit.cpp)
 * `（简单）`  [136.SingleNumber 只出现一次的数字](./problems/136.SingleNumber/README.md) 题解 [C++](./problems/136.SingleNumber/136.SingleNumber.cpp)
