@@ -5,6 +5,18 @@
 
 ---
 ## 20190702
+* 557.reverse-words-in-a-string-iii 反转字符串中的单词 III
+
+* 151.reverse-words-in-a-string 翻转字符串里的单词
+
+* 119.pascals-triangle-ii 杨辉三角 II
+
+* 209.minimum-size-subarray-sum 长度最小的子数组
+
+* 485.max-consecutive-ones 最大连续1的个数
+
+* 27.remove-element 移除元素
+
 * 167.two-sum-ii-input-array-is-sorted 两数之和 II - 输入有序数组
 
 * 561.array-partition-i 数组拆分 I

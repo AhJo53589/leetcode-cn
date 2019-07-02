@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 557.reverse-words-in-a-string-iii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -15,12 +15,9 @@
 #include <string>
 #include <random>
 
-#include "..\Common\Common.h"
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 using namespace std;
 
-string reverseWords(string s) 
+string reverseWords(string s)
 {
 	string str;
 	string sub;

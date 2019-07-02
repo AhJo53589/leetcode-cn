@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 151.reverse-words-in-a-string.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -14,34 +14,38 @@
 #include <stack>
 #include <string>
 #include <random>
-
-#include "..\Common\Common.h"
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 using namespace std;
 
-string reverseWords(string s) 
+string reverseWords(string s)
 {
-	string str;
+	stack<string> st;
 	string sub;
-	int iBegin = 0;
-	int iEnd = 0;
-
 	s += " ";
 	for (int i = 0; i < s.size(); i++)
 	{
-		if (s[i] != ' ') continue;
-		for (int j = i - 1; j >= iBegin; j--)
+		if (s[i] != ' ')
 		{
-			sub += s[j];
+			sub += s[i];
 		}
-		str += sub;
-		if (i != s.size() - 1)
+		else
 		{
-			iBegin = i + 1;
-			str += " ";
-			sub.clear();
+			if (!sub.empty())
+			{
+				st.push(sub);
+				sub.clear();
+			}
 		}
+	}
+	string str;
+	while (!st.empty())
+	{
+		str += st.top();
+		st.pop();
+		str += " ";
+	}
+	if (!str.empty())
+	{
+		str = str.substr(0, str.size() - 1);
 	}
 	return str;
 }
