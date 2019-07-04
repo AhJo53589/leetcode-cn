@@ -12,6 +12,9 @@
     <ClCompile Include="..\Common\TreeNode.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="..\Common\ListNode.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
@@ -22,6 +25,9 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\TreeNode.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\ListNode.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

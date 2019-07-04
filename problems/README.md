@@ -4,6 +4,13 @@
 
 
 ---
+## 20190704
+* 142.linked-list-cycle-ii 环形链表
+
+* 707.design-linked-list 设计链表
+
+
+---
 ## 20190702
 * 557.reverse-words-in-a-string-iii 反转字符串中的单词 III
 

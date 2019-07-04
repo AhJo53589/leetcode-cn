@@ -7,16 +7,9 @@
 #include <algorithm>
 #include <map>
 #include <vector>
+
+#include "..\Common\ListNode.h"
 using namespace std;
-
-struct ListNode
-{
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
-
-void PrintLinkList(ListNode *pHead);
 
 bool hasCycle(ListNode *head)
 {
@@ -32,17 +25,6 @@ bool hasCycle(ListNode *head)
 		if (slow == fast) return true;
 	}
 	return false;
-}
-
-void PrintLinkList(ListNode *pHead)
-{
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
 }
 
 void Init(ListNode **pHead)
@@ -77,7 +59,7 @@ int main()
 {
 	ListNode *pHead = NULL;
 	Init(&pHead);
-	PrintLinkList(pHead);
+	PrintCycleLinkList(pHead);
 
 	//for (int i = 1; i < 2; i++)
 	{

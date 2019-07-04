@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 142.linked-list-cycle-ii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -15,26 +15,23 @@
 #include <string>
 #include <random>
 
-#include "..\Common\Common.h"
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
 #include "..\Common\ListNode.h"
 using namespace std;
 
 
-ListNode *detectCycle(ListNode *head) 
-{    
+ListNode *detectCycle(ListNode *head)
+{
 	if (head == NULL) return NULL;
 
 	// 步骤一：使用快慢指针判断链表是否有环
 	ListNode *p = head;
 	ListNode *p2 = head;
 	bool hasCycle = false;
-	while (p2->next != NULL && p2->next->next != NULL) 
+	while (p2->next != NULL && p2->next->next != NULL)
 	{
 		p = p->next;
 		p2 = p2->next->next;
-		if (p == p2) 
+		if (p == p2)
 		{
 			hasCycle = true;
 			break;
@@ -69,7 +66,7 @@ void Init(ListNode **pHead)
 	}
 
 	pNodeNew = new ListNode(cLinkListLen + 1);
-	
+
 	ListNode *pCycle = pNode;
 	while (pCycle->next != NULL) pCycle = pCycle->next;
 	pCycle->next = pNodeNew;
