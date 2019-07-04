@@ -1,4 +1,4 @@
-# `（简单）`  [141.HasCycle 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+# `（简单）`  [141.linked-list-cycle 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 ### 题目描述
 <p>给定一个链表，判断链表中是否有环。</p>
@@ -41,14 +41,12 @@
 <p>你能用 <em>O(1)</em>（即，常量）内存解决此问题吗？</p>
 
 
-
-
 ---
 ### 思路
 ```
+使用快慢指针。  
+如果相遇说明有环。  
 ```
-> Solution.jpg  
-![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/problems/141.HasCycle/Solution.jpg)
 
 ### 答题
 ``` C++
@@ -67,4 +65,4 @@ bool hasCycle(ListNode *head)
 	}
 	return false;
 }
-``` 
+```

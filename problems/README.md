@@ -5,7 +5,7 @@
 
 ---
 ## 20190704
-* 142.linked-list-cycle-ii 环形链表
+* 142.linked-list-cycle-ii 环形链表 II
 
 * 707.design-linked-list 设计链表
 
@@ -205,7 +205,7 @@
 
 ---
 ## 20190429
-* 141.HasCycle 环形链表  
+* 141.linked-list-cycle 环形链表
 
 * 278.FirstBadVersion 第一个错误的版本  
 

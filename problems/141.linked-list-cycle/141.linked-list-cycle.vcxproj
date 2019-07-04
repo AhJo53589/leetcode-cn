@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{64DC3542-21A2-4926-8E67-84E39E3E8FDF}</ProjectGuid>
+    <ProjectGuid>{075A9BAA-C8DF-4A42-8348-30D4FC37E98D}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My141HasCycle</RootNamespace>
+    <RootNamespace>My141linkedlistcycle</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -156,7 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Common\ListNode.cpp" />
-    <ClCompile Include="141.HasCycle.cpp" />
+    <ClCompile Include="141.linked-list-cycle.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
