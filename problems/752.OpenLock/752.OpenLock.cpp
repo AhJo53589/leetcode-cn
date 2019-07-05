@@ -105,6 +105,7 @@ int openLock(vector<string>& deadends, string target)
 	{
 		string strCurrent = qLockNum.front();
 		qLockNum.pop();
+		//cout << strCurrent << endl;
 
 		if (strCurrent == strEnd)
 		{
@@ -131,17 +132,17 @@ int openLock(vector<string>& deadends, string target)
 
 void init(vector<string> &strDeadends, string &strTarget)
 {
-	//// test 01
-	//strTarget = "0202";
-	//string _sDeadends[] = { "0201","0101","0102","1212","2002" };
-	//vector<string> vString(_sDeadends, _sDeadends + sizeof(_sDeadends) / sizeof(_sDeadends[0]));
-	//strDeadends = vString;
-
-	// test 02
-	strTarget = "0009";
-	string _sDeadends[] = { "8888" };
+	// test 01
+	strTarget = "0202";
+	string _sDeadends[] = { "0201","0101","0102","1212","2002" };
 	vector<string> vString(_sDeadends, _sDeadends + sizeof(_sDeadends) / sizeof(_sDeadends[0]));
 	strDeadends = vString;
+
+	//// test 02
+	//strTarget = "0009";
+	//string _sDeadends[] = { "8888" };
+	//vector<string> vString(_sDeadends, _sDeadends + sizeof(_sDeadends) / sizeof(_sDeadends[0]));
+	//strDeadends = vString;
 
 	//// test 03
 	//strTarget = "8888";
@@ -162,5 +163,7 @@ int main()
 	vector<string> strDeadends;
 	init(strDeadends, strTarget);
 
+	int a;
+	cin >> a;
 	cout << openLock(strDeadends, strTarget) << endl;
 }

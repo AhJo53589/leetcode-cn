@@ -39,10 +39,49 @@ void PrintCycleLinkList(ListNode * pHead)
 
 }
 
-//void initNode(Node ** root, string strInitData)
-//{
-//	{"$id":"1","neighbors":[{"$id":"2","neighbors":[{"$ref":"1"},{"$id":"3","neighbors":[{"$ref":"2"},{"$id":"4","neighbors":[{"$ref":"3"},{"$ref":"1"}],"val":4}],"val":3}],"val":2},{"$ref":"4"}],"val":1}
-//}
+void InitListNode(ListNode **pHead, string strValList)
+{
+	vector<int> val = StringToVectorInt(strValList);
+
+	InitListNode(pHead, strValList, 0, val.size());
+}
+
+void InitListNode(ListNode ** pHead, string strValList, int valBegin, int valEnd)
+{
+	vector<int> val = StringToVectorInt(strValList);
+
+	ListNode *pNode = NULL;
+	for (int i = valEnd - 1; i >= valBegin; i--)
+	{
+		ListNode *pNew = new ListNode(val[i]);
+		pNew->next = pNode;
+		pNode = pNew;
+	}
+	*pHead = pNode;
+}
+
+void InitCycleListNode(ListNode **pHead, string strValList, int iCyclePos)
+{
+	InitListNode(pHead, strValList);
+
+	ListNode *pNode = *pHead;
+	while (iCyclePos-- > 0) pNode = pNode->next;
+	ListNode *pTail = pNode;
+	while (pTail->next != NULL) pTail = pTail->next;
+	pTail->next = pNode;
+}
+
+void PrintLinkList(DoublyListNode * pHead)
+{
+	DoublyListNode *pNode = pHead;
+	while (pNode != NULL)
+	{
+		cout << pNode->val << " - ";
+		pNode = pNode->next;
+	}
+	cout << endl;
+}
+
 //
 //void printNode(Node * root)
 //{

@@ -21,6 +21,9 @@
     <ClInclude Include="..\Common\ListNode.h">
       <Filter>源文件</Filter>
     </ClInclude>
+    <ClInclude Include="..\Common\Common.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
@@ -30,6 +33,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\ListNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Common\Common.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

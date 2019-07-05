@@ -50,44 +50,12 @@ ListNode *detectCycle(ListNode *head)
 	return q;
 }
 
-
-void Init(ListNode **pHead)
-{
-	const int cLinkListLen = 3;
-
-	ListNode *pNode = NULL;
-	ListNode *pNodeNew = NULL;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(cLinkListLen - i);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	pNodeNew = new ListNode(cLinkListLen + 1);
-
-	ListNode *pCycle = pNode;
-	while (pCycle->next != NULL) pCycle = pCycle->next;
-	pCycle->next = pNodeNew;
-
-	pNodeNew->next = pNode;
-	pNode = pNodeNew;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(0);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	*pHead = pNode;
-}
-
 int main()
 {
+	string strValList = "[1,2,3,4,5,6,7,8,9]";
+	int iCyclePos = 5;
 	ListNode *pHead = NULL;
-	Init(&pHead);
+	InitCycleListNode(&pHead, strValList, iCyclePos);
 	PrintCycleLinkList(pHead);
 
 	ListNode *pNode = detectCycle(pHead);
