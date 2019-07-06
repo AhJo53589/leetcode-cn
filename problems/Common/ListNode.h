@@ -32,6 +32,7 @@ struct DoublyListNode
 {
 	int val;
 	DoublyListNode *next, *prev;
+	DoublyListNode() : val(0), next(NULL), prev(NULL) {}
 	DoublyListNode(int x) : val(x), next(NULL), prev(NULL) {}
 	DoublyListNode(int x, DoublyListNode *pNext, DoublyListNode *pPrev) : val(x), next(pNext), prev(pPrev) {}
 };

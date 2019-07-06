@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 430.flatten-a-multilevel-doubly-linked-list.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -16,9 +16,6 @@
 #include <random>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
-#include "..\Common\ListNode.h"
 using namespace std;
 
 // Definition for a Node.
@@ -40,7 +37,7 @@ public:
 };
 
 
-Node* flatten(Node* head) 
+Node* flatten(Node* head)
 {
 	Node *pNode = head;
 	while (pNode != NULL)
@@ -54,7 +51,7 @@ Node* flatten(Node* head)
 			flatten(pNode);
 			while (pNode != NULL && pNode->next != NULL) pNode = pNode->next;
 			pNode->next = pNext;
-			if (pNext != NULL) pNext->prev = pNode;		
+			if (pNext != NULL) pNext->prev = pNode;
 		}
 		pNode = pNode->next;
 	}

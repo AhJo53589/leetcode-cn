@@ -3,6 +3,7 @@
 
 ## Problems & Solutions
 * `（简单）`  [1.TwoSum 两数之和](./problems/1.TwoSum/README.md) 题解 [C++](./problems/1.TwoSum/1.TwoSum.cpp)
+* `（中等）`  [2.add-two-numbers 两数相加](./problems/2.add-two-numbers/README.md) 题解 [C++](./problems/2.add-two-numbers/2.add-two-numbers.cpp)
 * `（简单）`  [7.Reverse 整数反转](./problems/7.Reverse/README.md) 题解 [C++](./problems/7.Reverse/7.Reverse.cpp)
 * `（中等）`  [8.MyAtoi 字符串转换整数 (atoi)](./problems/8.MyAtoi/README.md) 题解 [C++](./problems/8.MyAtoi/8.MyAtoi.cpp)
 * `（简单）`  [13.RomanToInt 罗马数字转整数](./problems/13.RomanToInt/README.md) 题解 [C++](./problems/13.RomanToInt/13.RomanToInt.cpp)
@@ -70,6 +71,7 @@
 * `（中等）`  [394.decode-string 字符串解码](./problems/394.decode-string/README.md) 题解 [C++](./problems/394.decode-string/394.decode-string.cpp)
 * `（简单）`  [412.FizzBuzz Fizz Buzz](./problems/412.FizzBuzz/README.md) 题解 [C++](./problems/412.FizzBuzz/412.FizzBuzz.cpp)
 * `（简单）`  [415.add-strings 字符串相加](./problems/415.add-strings/README.md) 题解 [C++](./problems/415.add-strings/415.add-strings.cpp)
+* `（中等）`  [430.flatten-a-multilevel-doubly-linked-list 扁平化多级双向链表](./problems/430.flatten-a-multilevel-doubly-linked-list/README.md) 题解 [C++](./problems/430.flatten-a-multilevel-doubly-linked-list/430.flatten-a-multilevel-doubly-linked-list.cpp)
 * `（简单）`  [485.max-consecutive-ones 最大连续1的个数](./problems/485.max-consecutive-ones/README.md) 题解 [C++](./problems/485.max-consecutive-ones/485.max-consecutive-ones.cpp)
 * `（中等）`  [494.FindTargetSumWays 目标和](./problems/494.FindTargetSumWays/README.md) 题解 [C++](./problems/494.FindTargetSumWays/494.FindTargetSumWays.cpp)
 * `（中等）`  [498.diagonal-traverse 对角线遍历](./problems/498.diagonal-traverse/README.md) 题解 [C++](./problems/498.diagonal-traverse/498.diagonal-traverse.cpp)
