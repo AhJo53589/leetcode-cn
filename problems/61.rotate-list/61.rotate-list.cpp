@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 61.rotate-list.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -22,7 +22,7 @@
 using namespace std;
 
 
-ListNode* rotateRight(ListNode* head, int k) 
+ListNode* rotateRight(ListNode* head, int k)
 {
 	if (head == NULL) return head;
 	if (head->next == NULL) return head;

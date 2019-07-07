@@ -5,6 +5,10 @@
 
 ---
 ## 20190707
+* 61.rotate-list 旋转链表
+
+* 138.copy-list-with-random-pointer 复制带随机指针的链表
+
 * 430.flatten-a-multilevel-doubly-linked-list 扁平化多级双向链表
 
 
