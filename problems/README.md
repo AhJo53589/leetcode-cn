@@ -4,6 +4,17 @@
 
 
 ---
+## 20190708
+* 268.missing-number 缺失数字
+
+* 190.reverse-bits 颠倒二进制位
+
+* 461.hamming-distance 汉明距离
+
+* 191.number-of-1-bits 位1的个数
+
+
+---
 ## 20190707
 * 61.rotate-list 旋转链表
 

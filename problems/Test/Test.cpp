@@ -14,6 +14,7 @@
 #include <stack>
 #include <string>
 #include <random>
+#include <bitset>
 
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.h"
@@ -22,39 +23,19 @@
 using namespace std;
 
 
-ListNode* rotateRight(ListNode* head, int k) 
+int missingNumber(vector<int>& nums) 
 {
-	if (head == NULL) return head;
-	if (head->next == NULL) return head;
-
-	ListNode *pNode = head;
-	int len = 0;
-	while (pNode != NULL)
-	{
-		len++;
-		if (pNode->next == NULL)
-		{
-			pNode->next = head;
-			break;
-		}
-		pNode = pNode->next;
-	}
-	k = len - (k % len);
-	pNode = head;
-	while (k-- > 1) pNode = pNode->next;
-	ListNode *pNewHead = pNode->next;
-	pNode->next = NULL;
-
-	return pNewHead;
+	//int sumA = (0 + nums.size() - 1 + 1) * (nums.size() + 1) / 2;
+	int sumA = nums.size() * (nums.size() + 1) / 2;
+	int sumB = 0;
+	for (auto i : nums) sumB += i;
+	return sumA - sumB;
 }
 
 int main()
 {
-	string str = "[1,2,3,4,5,6,7,8,9]";
-	ListNode *pHead = NULL;
-	InitListNode(&pHead, str);
-	PrintLinkList(pHead);
-
-	pHead = rotateRight(pHead, 3);
-	PrintLinkList(pHead);
+	string str = "[9,6,4,2,3,5,7,0,1]";
+	vector<int> nums = StringToVectorInt(str);
+	printVectorInt(nums);
+	cout << endl << missingNumber(nums) << endl;
 }
