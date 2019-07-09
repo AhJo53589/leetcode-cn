@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 75.sort-colors.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -18,12 +18,12 @@
 
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
-#include "..\Common\ListNode.h"
+//#include "..\Common\TreeNode.h"
+//#include "..\Common\ListNode.h"
 using namespace std;
 
 
-void sortColors(vector<int>& nums) 
+void sortColors(vector<int>& nums)
 {
 	int low = 0;
 	int high = nums.size() - 1;

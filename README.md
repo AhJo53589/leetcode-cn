@@ -28,6 +28,8 @@
 * `（简单）`  [66.PlusOne 加一](./problems/66.PlusOne/README.md) 题解 [C++](./problems/66.PlusOne/66.PlusOne.cpp)
 * `（简单）`  [67.add-binary 二进制求和](./problems/67.add-binary/README.md) 题解 [C++](./problems/67.add-binary/67.add-binary.cpp)
 * `（简单）`  [70.ClimbStairs 爬楼梯](./problems/70.ClimbStairs/README.md) 题解 [C++](./problems/70.ClimbStairs/70.ClimbStairs.cpp)
+* `（中等）`  [75.sort-colors 颜色分类](./problems/75.sort-colors/README.md) 题解 [C++](./problems/75.sort-colors/75.sort-colors.cpp)
+* `（简单）`  [80.remove-duplicates-from-sorted-array-ii 删除排序数组中的重复项](./problems/80.remove-duplicates-from-sorted-array-ii/README.md) 题解 [C++](./problems/80.remove-duplicates-from-sorted-array-ii/80.remove-duplicates-from-sorted-array-ii.cpp)
 * `（简单）`  [88.Merge 合并两个有序数组](./problems/88.Merge/README.md) 题解 [C++](./problems/88.Merge/88.Merge.cpp)
 * `（中等）`  [94.InorderTraversal 二叉树的中序遍历](./problems/94.InorderTraversal/README.md) 题解 [C++](./problems/94.InorderTraversal/94.InorderTraversal.cpp)
 * `（中等）`  [98.IsValidBST 验证二叉搜索树](./problems/98.IsValidBST/README.md) 题解 [C++](./problems/98.IsValidBST/98.IsValidBST.cpp)

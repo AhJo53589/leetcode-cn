@@ -4,6 +4,13 @@
 
 
 ---
+## 20190709
+* 75.sort-colors 颜色分类
+
+* 80.remove-duplicates-from-sorted-array-ii 删除排序数组中的重复项
+
+
+---
 ## 20190708
 * 268.missing-number 缺失数字
 
