@@ -22,56 +22,30 @@
 #include "..\Common\ListNode.h"
 using namespace std;
 
-int maxArea(vector<int>& nums) 
+/**
+ * Definition for a binary tree node.
+ * struct TreeNode {
+ *     int val;
+ *     TreeNode *left;
+ *     TreeNode *right;
+ *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+ * };
+ */
+
+vector<TreeNode*> generateTrees(int n) 
 {
-	auto getArea = [nums](int low, int high) { return min(nums[low], nums[high]) * abs(low - high); };
-	vector<int> left;
-	vector<int> right;
-	int iMax = 0;
-	for (int i = 0; i < nums.size(); i++)
-	{
-		if (nums[i] > iMax) left.push_back(i);
-		iMax = max(iMax, nums[i]);
-	}
-	iMax = 0;
-	for (int i = nums.size() - 1; i >= 0; i--)
-	{
-		if (nums[i] > iMax) right.push_back(i);
-		iMax = max(iMax, nums[i]);
-	}
-	iMax = 0;
-	int i = 0;
-	int j = 0;
-	while (i < left.size() && j < right.size() && left[i] < right[j])
-	{
-		iMax = max(iMax, getArea(left[i], right[j]));
-		nums[left[i]] < nums[right[j]] ? i++ : j++;
-	}
-	return iMax;
+	vector<TreeNode *> treeList;
+	TreeNode *pTree = new TreeNode(1);
+	treeList.push_back(pTree);
+	if (n == 1) return treeList;
 }
+
 
 int main()
 {
-	vector<string> vStr;
-	vector<int> vk;
-	
-	vStr.push_back("[1,8,6,2,5,4,8,3,7]");
-
-	//vStr.push_back("[3,2,3,1,2,4,5,5,6,1]");
-	//vk.push_back(4);
-
-	//vStr.push_back("[1,2,3,4,5]");
-	//vk.push_back(4);
-
-	//vStr.push_back("[5,4,3,2,1]");
-	//vk.push_back(2);
-
-	for (int i = 0; i < vStr.size(); i++)
+	vector<TreeNode *> tree = generateTrees(1);
+	for (auto t : tree)
 	{
-		vector<int> nums = StringToVectorInt(vStr[i]);
-		printVectorInt(nums);
-
-		int res = maxArea(nums);
-		cout << res << endl << endl;
+		printTreeNode(t);
 	}
 }

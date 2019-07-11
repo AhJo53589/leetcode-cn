@@ -1,8 +1,9 @@
 # leetcode-cn
 
 ## Selected Solutions
+* `（中等）`  [138.copy-list-with-random-pointer 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-shi-yong-m/)
 * `（简单）`  [198.Rob 打家劫舍](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga)
-
+* `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)
 
 
 ## Problems & Solutions
@@ -16,6 +17,7 @@
 * `（中等）`  [19.RemoveNthFromEnd 删除链表的倒数第N个节点](./problems/19.RemoveNthFromEnd/README.md) 题解 [C++](./problems/19.RemoveNthFromEnd/19.RemoveNthFromEnd.cpp)
 * `（简单）`  [20.IsValid 有效的括号](./problems/20.IsValid/README.md) 题解 [C++](./problems/20.IsValid/20.IsValid.cpp)
 * `（简单）`  [21.MergeTwoLists 合并两个有序链表](./problems/21.MergeTwoLists/README.md) 题解 [C++](./problems/21.MergeTwoLists/21.MergeTwoLists.cpp)
+* `（中等）`  [24.swap-nodes-in-pairs 两两交换链表中的节点](./problems/24.swap-nodes-in-pairs/README.md) 题解 [C++](./problems/24.swap-nodes-in-pairs/24.swap-nodes-in-pairs.cpp)
 * `（简单）`  [26.RemoveDuplicates 删除排序数组中的重复项](./problems/26.RemoveDuplicates/README.md) 题解 [C++](./problems/26.RemoveDuplicates/26.RemoveDuplicates.cpp)
 * `（简单）`  [27.remove-element 移除元素](./problems/27.remove-element/README.md) 题解 [C++](./problems/27.remove-element/27.remove-element.cpp)
 * `（简单）`  [28.StrStr 实现strStr()](./problems/28.StrStr/README.md) 题解 [C++](./problems/28.StrStr/28.StrStr.cpp)
@@ -90,6 +92,7 @@
 * `（简单）`  [485.max-consecutive-ones 最大连续1的个数](./problems/485.max-consecutive-ones/README.md) 题解 [C++](./problems/485.max-consecutive-ones/485.max-consecutive-ones.cpp)
 * `（中等）`  [494.FindTargetSumWays 目标和](./problems/494.FindTargetSumWays/README.md) 题解 [C++](./problems/494.FindTargetSumWays/494.FindTargetSumWays.cpp)
 * `（中等）`  [498.diagonal-traverse 对角线遍历](./problems/498.diagonal-traverse/README.md) 题解 [C++](./problems/498.diagonal-traverse/498.diagonal-traverse.cpp)
+* `（简单）`  [509.fibonacci-number 斐波那契数](./problems/509.fibonacci-number/README.md) 题解 [C++](./problems/509.fibonacci-number/509.fibonacci-number.cpp)
 * `（中等）`  [542.01-matrix 01](./problems/542.01-matrix/README.md) 题解 [C++](./problems/542.01-matrix/542.01-matrix.cpp)
 * `（简单）`  [557.reverse-words-in-a-string-iii 反转字符串中的单词 III](./problems/557.reverse-words-in-a-string-iii/README.md) 题解 [C++](./problems/557.reverse-words-in-a-string-iii/557.reverse-words-in-a-string-iii.cpp)
 * `（简单）`  [561.array-partition-i 数组拆分 I](./problems/561.array-partition-i/README.md) 题解 [C++](./problems/561.array-partition-i/561.array-partition-i.cpp)
@@ -100,5 +103,6 @@
 * `（中等）`  [739.DailyTemperatures 每日温度](./problems/739.DailyTemperatures/README.md) 题解 [C++](./problems/739.DailyTemperatures/739.DailyTemperatures.cpp)
 * `（简单）`  [747.largest-number-at-least-twice-of-others 至少是其他数字两倍的最大数](./problems/747.largest-number-at-least-twice-of-others/README.md) 题解 [C++](./problems/747.largest-number-at-least-twice-of-others/747.largest-number-at-least-twice-of-others.cpp)
 * `（中等）`  [752.OpenLock 打开转盘锁](./problems/752.OpenLock/README.md) 题解 [C++](./problems/752.OpenLock/752.OpenLock.cpp)
+* `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) 题解 [C++](./problems/779.k-th-symbol-in-grammar/779.k-th-symbol-in-grammar.cpp)
 * `（中等）`  [841.keys-and-rooms 钥匙和房间](./problems/841.keys-and-rooms/README.md) 题解 [C++](./problems/841.keys-and-rooms/841.keys-and-rooms.cpp)
 * `（困难）`  [887.SuperEggDrop 鸡蛋掉落](./problems/887.SuperEggDrop/README.md) 题解 [C++](./problems/887.SuperEggDrop/887.SuperEggDrop.cpp)
