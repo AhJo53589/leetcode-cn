@@ -35,6 +35,7 @@
 * `（简单）`  [80.remove-duplicates-from-sorted-array-ii 删除排序数组中的重复项](./problems/80.remove-duplicates-from-sorted-array-ii/README.md) 题解 [C++](./problems/80.remove-duplicates-from-sorted-array-ii/80.remove-duplicates-from-sorted-array-ii.cpp)
 * `（简单）`  [88.Merge 合并两个有序数组](./problems/88.Merge/README.md) 题解 [C++](./problems/88.Merge/88.Merge.cpp)
 * `（中等）`  [94.InorderTraversal 二叉树的中序遍历](./problems/94.InorderTraversal/README.md) 题解 [C++](./problems/94.InorderTraversal/94.InorderTraversal.cpp)
+* `（中等）`  [95.unique-binary-search-trees-ii 不同的二叉搜索树 II](./problems/95.unique-binary-search-trees-ii/README.md) 题解 [C++](./problems/95.unique-binary-search-trees-ii/95.unique-binary-search-trees-ii.cpp)
 * `（中等）`  [98.IsValidBST 验证二叉搜索树](./problems/98.IsValidBST/README.md) 题解 [C++](./problems/98.IsValidBST/98.IsValidBST.cpp)
 * `（简单）`  [101.IsSymmetric 对称二叉树](./problems/101.IsSymmetric/README.md) 题解 [C++](./problems/101.IsSymmetric/101.IsSymmetric.cpp)
 * `（中等）`  [102.LevelOrder 二叉树的层次遍历](./problems/102.LevelOrder/README.md) 题解 [C++](./problems/102.LevelOrder/102.LevelOrder.cpp)

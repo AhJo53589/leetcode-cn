@@ -18,24 +18,12 @@
     <ClInclude Include="pch.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\Common.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\TreeNode.h">
-      <Filter>源文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="779.k-th-symbol-in-grammar.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Common\Common.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Common\TreeNode.cpp">
+    <ClCompile Include="95.unique-binary-search-trees-ii.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
