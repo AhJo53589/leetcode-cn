@@ -6,6 +6,8 @@
 
 ---
 ## 20190714
+* 706.design-hashmap 设计哈希映射
+
 * 705.design-hashset 设计哈希集合
 
 

@@ -10,6 +10,7 @@
 * `（简单）`  [705.design-hashset 设计哈希集合]()
 * `（简单）`  [705.design-hashset 设计哈希集合]()
 * `（简单）`  [705.design-hashset 设计哈希集合]()
+* `（简单）`  [706.design-hashmap 设计哈希映射]()
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)
 
 ## Problems & Solutions
@@ -105,6 +106,7 @@
 * `（简单）`  [561.array-partition-i 数组拆分 I](./problems/561.array-partition-i/README.md) 题解 [C++](./problems/561.array-partition-i/561.array-partition-i.cpp)
 * `（中等）`  [622.MyCircularQueue 设计循环队列](./problems/622.MyCircularQueue/README.md) 题解 [C++](./problems/622.MyCircularQueue/622.MyCircularQueue.cpp)
 * `（简单）`  [705.design-hashset 设计哈希集合](./problems/705.design-hashset/README.md) 题解 [C++](./problems/705.design-hashset/705.design-hashset.cpp)
+* `（简单）`  [706.design-hashmap 设计哈希映射](./problems/706.design-hashmap/README.md) 题解 [C++](./problems/706.design-hashmap/706.design-hashmap.cpp)
 * `（简单）`  [707.design-linked-list 设计链表](./problems/707.design-linked-list/README.md) 题解 [C++](./problems/707.design-linked-list/707.design-linked-list.cpp)
 * `（简单）`  [724.find-pivot-index 寻找数组的中心索引](./problems/724.find-pivot-index/README.md) 题解 [C++](./problems/724.find-pivot-index/724.find-pivot-index.cpp)
 * `（简单）`  [733.flood-fill 图像渲染](./problems/733.flood-fill/README.md) 题解 [C++](./problems/733.flood-fill/733.flood-fill.cpp)
