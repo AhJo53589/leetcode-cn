@@ -5,10 +5,12 @@
 ## Selected Solutions
 * `（中等）`  [138.copy-list-with-random-pointer 复制带随机指针的链表](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-shi-yong-m/)
 * `（简单）`  [198.Rob 打家劫舍](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga)
+* `（简单）`  [705.design-hashset 设计哈希集合]()
+* `（简单）`  [705.design-hashset 设计哈希集合]()
+* `（简单）`  [705.design-hashset 设计哈希集合]()
+* `（简单）`  [705.design-hashset 设计哈希集合]()
+* `（简单）`  [705.design-hashset 设计哈希集合]()
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)
-
-## Update
-[按完成日期查询](./problems/README.md)  
 
 ## Problems & Solutions
 * `（简单）`  [1.TwoSum 两数之和](./problems/1.TwoSum/README.md) 题解 [C++](./problems/1.TwoSum/1.TwoSum.cpp)
@@ -102,6 +104,7 @@
 * `（简单）`  [557.reverse-words-in-a-string-iii 反转字符串中的单词 III](./problems/557.reverse-words-in-a-string-iii/README.md) 题解 [C++](./problems/557.reverse-words-in-a-string-iii/557.reverse-words-in-a-string-iii.cpp)
 * `（简单）`  [561.array-partition-i 数组拆分 I](./problems/561.array-partition-i/README.md) 题解 [C++](./problems/561.array-partition-i/561.array-partition-i.cpp)
 * `（中等）`  [622.MyCircularQueue 设计循环队列](./problems/622.MyCircularQueue/README.md) 题解 [C++](./problems/622.MyCircularQueue/622.MyCircularQueue.cpp)
+* `（简单）`  [705.design-hashset 设计哈希集合](./problems/705.design-hashset/README.md) 题解 [C++](./problems/705.design-hashset/705.design-hashset.cpp)
 * `（简单）`  [707.design-linked-list 设计链表](./problems/707.design-linked-list/README.md) 题解 [C++](./problems/707.design-linked-list/707.design-linked-list.cpp)
 * `（简单）`  [724.find-pivot-index 寻找数组的中心索引](./problems/724.find-pivot-index/README.md) 题解 [C++](./problems/724.find-pivot-index/724.find-pivot-index.cpp)
 * `（简单）`  [733.flood-fill 图像渲染](./problems/733.flood-fill/README.md) 题解 [C++](./problems/733.flood-fill/733.flood-fill.cpp)
@@ -111,3 +114,8 @@
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) 题解 [C++](./problems/779.k-th-symbol-in-grammar/779.k-th-symbol-in-grammar.cpp)
 * `（中等）`  [841.keys-and-rooms 钥匙和房间](./problems/841.keys-and-rooms/README.md) 题解 [C++](./problems/841.keys-and-rooms/841.keys-and-rooms.cpp)
 * `（困难）`  [887.SuperEggDrop 鸡蛋掉落](./problems/887.SuperEggDrop/README.md) 题解 [C++](./problems/887.SuperEggDrop/887.SuperEggDrop.cpp)
+
+
+## Update
+[按完成日期查询](./problems/README.md)  
+
