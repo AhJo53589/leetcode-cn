@@ -28,7 +28,7 @@ struct TreeNode_Val
 	TreeNode_Val(bool isN) : val(0), isNull(isN) {}
 };
 
-void initTree(TreeNode **root, string strInitData);
+void StringToTreeNode(TreeNode **root, string strInitData);
 void printTreeNode(TreeNode *root);
 
 

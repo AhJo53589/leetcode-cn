@@ -5,6 +5,21 @@
 
 
 ---
+## 20190715
+* 49.group-anagrams 字母异位词分组
+
+* 219.contains-duplicate-ii 存在重复元素 II
+
+* 599.minimum-index-sum-of-two-lists 两个列表的最小索引总和
+
+* 205.isomorphic-strings 同构字符串
+
+* 202.happy-number 快乐数
+
+* 349.intersection-of-two-arrays 两个数组的交集
+
+
+---
 ## 20190714
 * 706.design-hashmap 设计哈希映射
 

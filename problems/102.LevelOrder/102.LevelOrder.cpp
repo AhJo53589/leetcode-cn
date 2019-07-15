@@ -99,7 +99,7 @@ int main()
 	string strInput{ "3,9,20,null,null,15,7" };
 	//string strInput{ "1,2,2,null,3,null,3" };
 	TreeNode *root = NULL;
-	initTree(&root, strInput);
+	StringToTreeNode(&root, strInput);
 	printTreeNode(root);
 	vector<vector<int>> result = levelOrder(root);
 	PrintMartix(result);

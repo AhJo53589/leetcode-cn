@@ -25,7 +25,7 @@ int main()
 {
 	string strInput{ "3,9,20,0,0,15,7" };
 	TreeNode *root = NULL;
-	initTree(&root, strInput);
+	StringToTreeNode(&root, strInput);
 	printTreeNode(root);
 	cout << endl << maxDepth(root) << endl;
 }

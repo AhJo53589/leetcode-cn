@@ -87,7 +87,7 @@ int main()
 	string strInput{ "1,2,2,3,4,4,3" };
 	//string strInput{ "1,2,2,null,3,null,3" };
 	TreeNode *root = NULL;
-	initTree(&root, strInput);
+	StringToTreeNode(&root, strInput);
 	printTreeNode(root);
 	cout << endl << isSymmetric(root) << endl;
 }

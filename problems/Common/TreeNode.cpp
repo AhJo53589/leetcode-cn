@@ -35,7 +35,7 @@ vector<TreeNode_Val> initTreeNode_Val(string strInitData)
 	return vecTreeNode_Val;
 }
 
-void initTree(TreeNode **root, string strInitData)
+void StringToTreeNode(TreeNode **root, string strInitData)
 {
 	vector<TreeNode_Val> initData = initTreeNode_Val(strInitData);
 	if (initData[0].isNull) return;
