@@ -10,6 +10,7 @@
 ## Problems & Solutions
 * `（简单）`  [1.TwoSum 两数之和](./problems/1.TwoSum/README.md) 题解 [C++](./problems/1.TwoSum/1.TwoSum.cpp)
 * `（中等）`  [2.add-two-numbers 两数相加](./problems/2.add-two-numbers/README.md) 题解 [C++](./problems/2.add-two-numbers/2.add-two-numbers.cpp)
+* `（中等）`  [3.longest-substring-without-repeating-characters 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters/README.md) 题解 [C++](./problems/3.longest-substring-without-repeating-characters/3.longest-substring-without-repeating-characters.cpp)
 * `（简单）`  [7.Reverse 整数反转](./problems/7.Reverse/README.md) 题解 [C++](./problems/7.Reverse/7.Reverse.cpp)
 * `（中等）`  [8.MyAtoi 字符串转换整数 (atoi)](./problems/8.MyAtoi/README.md) 题解 [C++](./problems/8.MyAtoi/8.MyAtoi.cpp)
 * `（中等）`  [11.container-with-most-water 盛最多水的容器](./problems/11.container-with-most-water/README.md) 题解 [C++](./problems/11.container-with-most-water/11.container-with-most-water.cpp)
@@ -105,6 +106,7 @@
 * `（简单）`  [561.array-partition-i 数组拆分 I](./problems/561.array-partition-i/README.md) 题解 [C++](./problems/561.array-partition-i/561.array-partition-i.cpp)
 * `（简单）`  [599.minimum-index-sum-of-two-lists 两个列表的最小索引总和](./problems/599.minimum-index-sum-of-two-lists/README.md) 题解 [C++](./problems/599.minimum-index-sum-of-two-lists/599.minimum-index-sum-of-two-lists.cpp)
 * `（中等）`  [622.MyCircularQueue 设计循环队列](./problems/622.MyCircularQueue/README.md) 题解 [C++](./problems/622.MyCircularQueue/622.MyCircularQueue.cpp)
+* `（中等）`  [652.find-duplicate-subtrees 寻找重复的子树](./problems/652.find-duplicate-subtrees/README.md) 题解 [C++](./problems/652.find-duplicate-subtrees/652.find-duplicate-subtrees.cpp)
 * `（简单）`  [705.design-hashset 设计哈希集合](./problems/705.design-hashset/README.md) 题解 [C++](./problems/705.design-hashset/705.design-hashset.cpp)
 * `（简单）`  [706.design-hashmap 设计哈希映射](./problems/706.design-hashmap/README.md) 题解 [C++](./problems/706.design-hashmap/706.design-hashmap.cpp)
 * `（简单）`  [707.design-linked-list 设计链表](./problems/707.design-linked-list/README.md) 题解 [C++](./problems/707.design-linked-list/707.design-linked-list.cpp)
@@ -113,6 +115,7 @@
 * `（中等）`  [739.DailyTemperatures 每日温度](./problems/739.DailyTemperatures/README.md) 题解 [C++](./problems/739.DailyTemperatures/739.DailyTemperatures.cpp)
 * `（简单）`  [747.largest-number-at-least-twice-of-others 至少是其他数字两倍的最大数](./problems/747.largest-number-at-least-twice-of-others/README.md) 题解 [C++](./problems/747.largest-number-at-least-twice-of-others/747.largest-number-at-least-twice-of-others.cpp)
 * `（中等）`  [752.OpenLock 打开转盘锁](./problems/752.OpenLock/README.md) 题解 [C++](./problems/752.OpenLock/752.OpenLock.cpp)
+* `（简单）`  [771.jewels-and-stones 宝石与石头](./problems/771.jewels-and-stones/README.md) 题解 [C++](./problems/771.jewels-and-stones/771.jewels-and-stones.cpp)
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) 题解 [C++](./problems/779.k-th-symbol-in-grammar/779.k-th-symbol-in-grammar.cpp)
 * `（中等）`  [841.keys-and-rooms 钥匙和房间](./problems/841.keys-and-rooms/README.md) 题解 [C++](./problems/841.keys-and-rooms/841.keys-and-rooms.cpp)
 * `（困难）`  [887.SuperEggDrop 鸡蛋掉落](./problems/887.SuperEggDrop/README.md) 题解 [C++](./problems/887.SuperEggDrop/887.SuperEggDrop.cpp)

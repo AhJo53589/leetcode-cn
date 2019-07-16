@@ -5,6 +5,15 @@
 
 
 ---
+## 20190716
+* 3.longest-substring-without-repeating-characters 无重复字符的最长子串
+
+* 771.jewels-and-stones 宝石与石头
+
+* 652.find-duplicate-subtrees 寻找重复的子树
+
+
+---
 ## 20190715
 * 49.group-anagrams 字母异位词分组
 

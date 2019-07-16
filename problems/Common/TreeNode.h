@@ -29,6 +29,7 @@ struct TreeNode_Val
 };
 
 void StringToTreeNode(TreeNode **root, string strInitData);
+string TreeNodeToString(TreeNode *root);
 void printTreeNode(TreeNode *root);
 
 

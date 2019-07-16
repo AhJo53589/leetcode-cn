@@ -81,6 +81,31 @@ void StringToTreeNode(TreeNode **root, string strInitData)
 	}
 }
 
+string TreeNodeToString(TreeNode * root)
+{
+	string str;
+	queue<TreeNode *> qTree;
+	qTree.push(root);
+
+	while (!qTree.empty())
+	{
+		TreeNode *qHead = qTree.front();
+		qTree.pop();
+
+		if (qHead == NULL)
+		{
+			str += "NULL - ";
+			continue;
+		}
+		str += to_string(qHead->val);
+		str += " - ";
+		qTree.push(qHead->left);
+		qTree.push(qHead->right);
+	}
+	str += "\n";
+	return str;
+}
+
 void printTreeNode(TreeNode *root)
 {
 	queue<TreeNode *> qTree;
