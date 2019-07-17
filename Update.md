@@ -1,7 +1,16 @@
 # Update
+[返回](./README.md)
 
 
 
+
+---
+## 20190717
+* 380.insert-delete-getrandom-o1 常数时间插入、删除和获取随机元素
+
+* 347.top-k-frequent-elements 前 K 个高频元素
+
+* 454.4sum-ii 四数相加 II
 
 
 ---
@@ -327,7 +336,7 @@
 
 ---
 ## 20190425
-* 1.TwoSum 两数之和  
+* 1.two-sum 两数之和
 
 * 36.IsValidSudoku 有效的数独  
 
