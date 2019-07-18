@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 213.house-robber-ii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -26,7 +26,7 @@ int rob(vector<int>& nums)
 {
 	if (nums.size() == 1) return nums[0];
 
-	int sumOdd[2] = {0, 0};	// 0 == head, 1 == tail
+	int sumOdd[2] = { 0, 0 };	// 0 == head, 1 == tail
 	int sumEven[2] = { 0, 0 };
 	for (int i = 0; i < nums.size(); i++)
 	{
