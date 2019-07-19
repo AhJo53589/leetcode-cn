@@ -75,18 +75,16 @@ int rob(TreeNode* pNode)
 	for (auto p : pNodeList)
 	{
 		int s[2] = { 0,0 };	// 0 == include node val, 1 == not include node val
+
 		s[0] = p->val;
-		if (p->left != NULL)
-		{
-			s[0] += robMemo[1][p->left];
-			s[1] += robMemo[0][p->left];
-		}
-		if (p->right != NULL)
-		{
-			s[0] += robMemo[1][p->right];
-			s[1] += robMemo[0][p->right];
-		}
+		if (p->left != NULL) s[0] += robMemo[1][p->left];
+		if (p->right != NULL) s[0] += robMemo[1][p->right];
+
+		if (p->left != NULL) s[1] += robMemo[0][p->left];
+		if (p->right != NULL) s[1] += robMemo[0][p->right];
+
 		s[0] = max(s[0], s[1]);	// copy best val
+
 		robMemo[0][p] = s[0];
 		robMemo[1][p] = s[1];
 	}
