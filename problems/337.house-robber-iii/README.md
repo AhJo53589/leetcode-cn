@@ -43,7 +43,7 @@
 通过计算，最后如果明值没有暗值大，那么将更新成暗值的值（更新成最优解）
 ```
 
-[题解] (https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/)
+[发布的题解](https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/)
 
 ### 答题
 ``` C++

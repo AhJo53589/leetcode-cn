@@ -25,7 +25,7 @@
 ```
 ```
 
-[题解] (https://leetcode-cn.com/problems/house-robber-ii/solution/da-jia-jie-she-ii-dai-ma-jian-ji-yi-dong-ii-by-ika/)
+[发布的题解](https://leetcode-cn.com/problems/house-robber-ii/solution/da-jia-jie-she-ii-dai-ma-jian-ji-yi-dong-ii-by-ika/)
 
 ### 答题
 ``` C++
