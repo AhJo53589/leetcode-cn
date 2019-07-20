@@ -1,4 +1,4 @@
-# `（简单）`  [198.Rob 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
+# `（简单）`  [198.house-robber 打家劫舍](https://leetcode-cn.com/problems/house-robber/)
 
 ### 题目描述
 <p>你是一个专业的小偷，计划偷窃沿街的房屋。每间房内都藏有一定的现金，影响你偷窃的唯一制约因素就是相邻的房屋装有相互连通的防盗系统，<strong>如果两间相邻的房屋在同一晚上被小偷闯入，系统会自动报警</strong>。</p>
@@ -21,17 +21,16 @@
 </pre>
 
 
-
 ---
 ### 思路
 ```
 ```
-[题解](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga)
 
+[发布的题解](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/)
 
 ### 答题
 ``` C++
-int rob(vector<int>& nums) 
+int rob(vector<int>& nums)
 {
 	int sumOdd = 0;
 	int sumEven = 0;
@@ -39,20 +38,18 @@ int rob(vector<int>& nums)
 	{
 		if (i % 2 == 0)
 		{
+			sumOdd = max(sumOdd, sumEven);
 			sumEven += nums[i];
-			sumEven = max(sumOdd, sumEven);
 		}
 		else
 		{
+			sumEven = max(sumOdd, sumEven);
 			sumOdd += nums[i];
-			sumOdd = max(sumOdd, sumEven);
 		}
 	}
 	return max(sumOdd, sumEven);
 }
-``` 
-
-
+```
 
 ### 其它
 这道题上周五下班前没有做完，  
@@ -63,10 +60,8 @@ int rob(vector<int>& nums)
 算法也是纯自己研究的，  
 就第一次写了个题解（已被选为精选题解）。  
 
-
 学习了别人的动态规划方法。  
-就感觉和我的方法很微妙的不同。
-  
+就感觉和我的方法很微妙的不同。  
 ``` C++
 int rob(vector<int>& nums) 
 {
@@ -85,4 +80,5 @@ int rob(vector<int>& nums)
 	}
 	return max(nums[nums.size() - 1], nums[nums.size() - 2]);
 }
-``` 
+```
+

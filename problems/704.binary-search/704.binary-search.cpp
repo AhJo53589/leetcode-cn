@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 704.binary-search.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -42,7 +42,7 @@ int lowerBound(vector<int> &nums, int target, int low, int high)
 	else return lowerBound(nums, target, low, mid);
 }
 
-int search(vector<int>& nums, int target) 
+int search(vector<int>& nums, int target)
 {
 	int i = lowerBound(nums, target, 0, nums.size());
 	if (i == nums.size()) return -1;

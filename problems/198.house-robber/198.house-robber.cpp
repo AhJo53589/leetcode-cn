@@ -1,16 +1,25 @@
-﻿// 198.Rob.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 198.house-robber.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
-
 
 #include "pch.h"
 #include <iostream>
 
 #include <algorithm>
 #include <map>
+#include <unordered_map>
+#include <unordered_set>
 #include <vector>
 #include <queue>
+#include <set>
+#include <stack>
 #include <string>
+#include <random>
+#include <bitset>
 
+#include "..\Common\Common.h"
+//#include "..\Common\GraphNode.h"
+//#include "..\Common\TreeNode.h"
+//#include "..\Common\ListNode.h"
 using namespace std;
 
 
@@ -72,23 +81,18 @@ int rob(vector<int>& nums)
 //	return max(nums[nums.size() - 1], nums[nums.size() - 2]);
 //}
 
-void initVectorInt(vector<int> &nums)
-{
-	//int A[] = { 1,2,3,1 };
-	//int A[] = { 2,7,9,3,1 };
-	int A[] = { 2,4,8,9,9,3 };
-	//int A[] = { 1,3,1,3,100 };
-	for (int i : A)
-	{
-		nums.push_back(i);
-		cout << i << " ";
-	}
-	cout << endl;
-}
-
 int main()
 {
-	vector<int> nums;
-	initVectorInt(nums);
-	cout << endl << rob(nums) << endl;
+	vector<string> str;
+	str.push_back("[1,2,3,1]");
+	str.push_back("[2,7,9,3,1]");
+	str.push_back("[2,4,8,9,9,3]");
+	str.push_back("[1,3,1,3,100]");
+
+	for (auto s : str)
+	{
+		vector<int> nums = StringToVectorInt(s);
+		printVectorInt(nums);
+		cout << rob(nums) << endl << endl;
+	}
 }
