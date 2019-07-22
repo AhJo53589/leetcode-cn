@@ -8,6 +8,15 @@
 
 
 ---
+## 20190722
+* 33.search-in-rotated-sorted-array 搜索旋转排序数组
+
+* 374.guess-number-higher-or-lower 猜数字大小
+
+* 69.sqrtx x 的平方根
+
+
+---
 ## 20190721
 * 704.binary-search 二分查找
 

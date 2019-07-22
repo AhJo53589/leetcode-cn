@@ -40,7 +40,7 @@
 4. 例如这一趟是 x 从大到小，这一趟结束的判断是， x 减到 0 或者 y 加到上限。
 5. 这一趟是 x 从大到小，那么下一趟是 y 从大到小，循环进行。  并且方向相反时，逻辑处理是一样的，除了x，y和他们各自的上限值是相反的。  
 ```
-[题解](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/)
+[发布的题解](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/)
 
 
 ### 答题

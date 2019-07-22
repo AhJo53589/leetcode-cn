@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 33.search-in-rotated-sorted-array.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -22,25 +22,6 @@
 //#include "..\Common\ListNode.h"
 using namespace std;
 
-
-//int lowerBound(vector<int> &nums, int target, int low, int high)
-//{
-//	if (low >= high) return low;
-//	int mid = low + (high - low) / 2;
-//	if (nums[mid] < target) return lowerBound(nums, target, mid + 1, high);
-//	else return lowerBound(nums, target, low, mid);
-//}
-
-//int lowerBound(vector<int> &nums, int target, int low, int high)
-//{
-//	while (low < high)
-//	{
-//		int mid = low + (high - low) / 2;
-//		if (nums[mid] < target) low = mid + 1;
-//		else high = mid;
-//	}
-//	return low;
-//}
 
 int lowerBound(vector<int> &nums, int target, int low, int high)
 {
@@ -74,7 +55,7 @@ int lowerBound(vector<int> &nums, int target, int low, int high)
 	return low;
 }
 
-int search(vector<int>& nums, int target) 
+int search(vector<int>& nums, int target)
 {
 	int i = lowerBound(nums, target, 0, nums.size());
 	if (i == nums.size()) return -1;
@@ -100,5 +81,4 @@ int main()
 		cout << "Find = " << i << endl;
 		cout << "Index = " << search(nums, i) << endl;
 	}
-
 }
