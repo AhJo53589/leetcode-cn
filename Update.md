@@ -9,6 +9,10 @@
 
 ---
 ## 20190723
+* 658.find-k-closest-elements 找到 K 个最接近的元素
+
+* 34.find-first-and-last-position-of-element-in-sorted-array 在排序数组中查找元素的第一个和最后一个位置
+
 * 153.find-minimum-in-rotated-sorted-array 寻找旋转排序数组中的最小值
 
 * 162.find-peak-element 寻找峰值

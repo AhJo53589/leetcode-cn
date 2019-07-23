@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 658.find-k-closest-elements.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,27 +23,36 @@
 using namespace std;
 
 
-//int lowerBound(vector<int> &nums, int x, int low, int high)
-//{
-//	if (low >= high) return low;
-//	int mid = low + (high - low) / 2;
-//	if (nums[mid] < x) return lowerBound(nums, x, mid + 1, high);
-//	else return lowerBound(nums, x, low, mid);
-//}
-
-//int lowerBound(vector<int> &nums, int x, int low, int high)
-//{
-//	while (low < high)
-//	{
-//		int mid = low + (high - low) / 2;
-//		if (nums[mid] < x) low = mid + 1;
-//		else high = mid;
+//vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+//	int left = 0, right = arr.size() - k;
+//	while (left < right) {
+//		int mid = left + (right - left) / 2;
+//		if (x - arr[mid] > arr[mid + k] - x) left = mid + 1;
+//		else right = mid;
 //	}
-//	return low;
+//	return vector<int>(arr.begin() + left, arr.begin() + left + k);
+//}
+//
+//
+//vector<int> findClosestElements(vector<int>& arr, int k, int x) {
+//	int size = arr.size(), n = size - k;
+//	int left = 0, right = size - 1;
+//	while (n) {
+//
+//		if (x - arr[left] <= arr[right] - x)
+//			right--;
+//		else
+//			left++;
+//		n--;
+//	}
+//	vector<int> a;
+//	//        for(int i=left; i<=right; ++i)
+//	//            a.push_back(arr[i]);
+//	a.assign(arr.begin() + left, arr.begin() + right + 1);
+//	return a;
 //}
 
-
-vector<int> findClosestElements(vector<int>& arr, int k, int x) 
+vector<int> findClosestElements(vector<int>& arr, int k, int x)
 {
 	int low = 0;
 	int high = arr.size();

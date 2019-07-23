@@ -249,6 +249,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "162.find-peak-element", "16
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "153.find-minimum-in-rotated-sorted-array", "153.find-minimum-in-rotated-sorted-array\153.find-minimum-in-rotated-sorted-array.vcxproj", "{63621C1B-BEF8-4CE2-969E-11FD037F6110}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "34.find-first-and-last-position-of-element-in-sorted-array", "34.find-first-and-last-position-of-element-in-sorted-array\34.find-first-and-last-position-of-element-in-sorted-array.vcxproj", "{BB49B67A-7D06-465E-862D-4554853C9980}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "658.find-k-closest-elements", "658.find-k-closest-elements\658.find-k-closest-elements.vcxproj", "{ED01528F-4CE1-45E0-A958-271CC9083DBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1241,6 +1245,22 @@ Global
 		{63621C1B-BEF8-4CE2-969E-11FD037F6110}.Release|x64.Build.0 = Release|x64
 		{63621C1B-BEF8-4CE2-969E-11FD037F6110}.Release|x86.ActiveCfg = Release|Win32
 		{63621C1B-BEF8-4CE2-969E-11FD037F6110}.Release|x86.Build.0 = Release|Win32
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Debug|x64.ActiveCfg = Debug|x64
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Debug|x64.Build.0 = Debug|x64
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Debug|x86.ActiveCfg = Debug|Win32
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Debug|x86.Build.0 = Debug|Win32
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Release|x64.ActiveCfg = Release|x64
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Release|x64.Build.0 = Release|x64
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Release|x86.ActiveCfg = Release|Win32
+		{BB49B67A-7D06-465E-862D-4554853C9980}.Release|x86.Build.0 = Release|Win32
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Debug|x64.ActiveCfg = Debug|x64
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Debug|x64.Build.0 = Debug|x64
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Debug|x86.ActiveCfg = Debug|Win32
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Debug|x86.Build.0 = Debug|Win32
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Release|x64.ActiveCfg = Release|x64
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Release|x64.Build.0 = Release|x64
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Release|x86.ActiveCfg = Release|Win32
+		{ED01528F-4CE1-45E0-A958-271CC9083DBF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
