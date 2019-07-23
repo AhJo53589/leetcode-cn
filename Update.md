@@ -8,6 +8,13 @@
 
 
 ---
+## 20190723
+* 153.find-minimum-in-rotated-sorted-array 寻找旋转排序数组中的最小值
+
+* 162.find-peak-element 寻找峰值
+
+
+---
 ## 20190722
 * 33.search-in-rotated-sorted-array 搜索旋转排序数组
 

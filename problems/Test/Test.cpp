@@ -42,63 +42,27 @@ using namespace std;
 //	return low;
 //}
 
-int lowerBound(vector<int> &nums, int target, int low, int high)
+vector<int> searchRange(vector<int>& nums, int target) 
 {
-	while (low < high)
-	{
-		int mid = low + (high - low) / 2;
-		if (nums[mid] == target) return mid;
-		if (nums[low] <= nums[mid])
-		{
-			if (nums[low] <= target && target <= nums[mid])
-			{
-				high = mid;
-			}
-			else
-			{
-				low = mid + 1;
-			}
-		}
-		else if (nums[mid] <= nums[high - 1])
-		{
-			if (nums[mid] <= target && target <= nums[high - 1])
-			{
-				low = mid + 1;
-			}
-			else
-			{
-				high = mid;
-			}
-		}
-	}
-	return low;
-}
 
-int search(vector<int>& nums, int target) 
-{
-	int i = lowerBound(nums, target, 0, nums.size());
-	if (i == nums.size()) return -1;
-	return (nums[i] == target) ? i : -1;
 }
 
 int main()
 {
-	//for (int i = 0; i < 10; i++)
-	//{
-	//	cout << endl << "/////////////////////////////" << endl;
-	//	vector<int> nums = StringToVectorInt("[4,5,6,7,0,1,2]");
-	//	printVectorInt(nums);
-	//	cout << "Find = " << i << endl;
-	//	cout << "Index = " << search(nums, i) << endl;
-	//}
+	vector<string> str;
+	str.push_back("[3,4,5,1,2]");
+	str.push_back("[4,5,6,7,0,1,2]");
+	str.push_back("[4,5,0,1,2]");
+	str.push_back("[2,3,1]");
+	str.push_back("[2,1]");
+	str.push_back("[1,2]");
+	str.push_back("[1]");
 
-	for (int i = 0; i < 5; i++)
+	for (auto s : str)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		vector<int> nums = StringToVectorInt("[3,1]");
+		vector<int> nums = StringToVectorInt(s);
 		printVectorInt(nums);
-		cout << "Find = " << i << endl;
-		cout << "Index = " << search(nums, i) << endl;
+		cout << "Find Min = " << findMin(nums) << endl;
 	}
-
 }
