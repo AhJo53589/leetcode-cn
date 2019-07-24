@@ -34,6 +34,21 @@ std::vector<std::string> split(std::string str, std::string pattern)
 	return result;
 }
 
+vector<char> StringToVectorChar(string str)
+{
+	vector<char> chars;
+	if (str.size() < 3) return chars;
+	str = str.substr(1, str.size() - 2);
+	vector<string> vStr = split(str, ",");
+	for (auto s : vStr)
+	{
+		int i = 0;
+		while (s[i] == ' ') i++;
+		chars.push_back(s[i]);
+	}
+	return chars;
+}
+
 vector<string> StringToVectorString(string str)
 {
 	vector<string> strs;

@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 154.find-minimum-in-rotated-sorted-array-ii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -22,25 +22,6 @@
 //#include "..\Common\ListNode.h"
 using namespace std;
 
-
-//int lowerBound(vector<int> &nums, int num, int low, int high)
-//{
-//	if (low >= high) return low;
-//	int mid = low + (high - low) / 2;
-//	if (nums[mid] < num) return lowerBound(nums, num, mid + 1, high);
-//	else return lowerBound(nums, num, low, mid);
-//}
-
-//int lowerBound(vector<int> &nums, int num, int low, int high)
-//{
-//	while (low < high)
-//	{
-//		int mid = low + (high - low) / 2;
-//		if (nums[mid] < num) low = mid + 1;
-//		else high = mid;
-//	}
-//	return low;
-//}
 
 
 int findMin(vector<int>& nums)

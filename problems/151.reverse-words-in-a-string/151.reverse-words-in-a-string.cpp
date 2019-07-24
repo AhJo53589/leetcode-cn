@@ -50,9 +50,67 @@ string reverseWords(string s)
 	return str;
 }
 
+
+//string reverseWords(string s)
+//{
+//	int start = 0, end = s.length() - 1;
+//	while (start < s.length() && s[start] == ' ') ++start;
+//	while (end >= 0 && s[end] == ' ') --end;
+//	if (start > end)
+//	{
+//		s[end + 1] = '\0';
+//		return string(s.c_str());
+//	}
+//	++end;
+//
+//	int offset = 0;
+//	int subStart = start;
+//
+//	for (int idx = start; idx <= end; ++idx)
+//	{
+//		if (s[idx] == ' ' || idx == end)
+//		{
+//			if (s[idx - 1] != ' ' || idx == end)
+//			{
+//				int wordLen = idx - subStart;
+//				int swapNum = (idx - offset) / 2;
+//				for (int i = 0; i < wordLen; ++i, ++offset)
+//				{
+//					if (i < swapNum)
+//					{
+//						char temp = s[offset];
+//						s[offset] = s[idx - 1 - i];
+//						s[idx - 1 - i] = temp;
+//
+//						cout << s << endl;
+//					}
+//				}
+//				if (idx != end)
+//				{
+//					s[offset++] = ' ';
+//					cout << s << endl;
+//				}
+//			}
+//			subStart = idx + 1;
+//		}
+//	}
+//
+//	s[offset] = '\0';
+//	cout << s << endl;
+//	for (int i = 0; i < (offset / 2); ++i)
+//	{
+//		char temp = s[i];
+//		s[i] = s[offset - 1 - i];
+//		s[offset - 1 - i] = temp;
+//	}
+//	cout << s << endl;
+//
+//	return string(s.c_str());;
+//}
+
 int main()
 {
-	string str = "the sky is blue";
+	string str = "   the  sky    is blue    ";
 	cout << str << endl;
 	cout << reverseWords(str) << endl;
 }

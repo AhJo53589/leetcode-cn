@@ -14,6 +14,7 @@ using namespace std;
 
 std::vector<std::string> split(std::string str, std::string pattern);
 
+vector<char> StringToVectorChar(string str);
 vector<string> StringToVectorString(string str);
 
 vector<int> StringToVectorInt(string str);

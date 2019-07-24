@@ -8,6 +8,15 @@
 
 
 ---
+## 20190724
+* 154.find-minimum-in-rotated-sorted-array-ii 寻找旋转排序数组中的最小值 II
+
+* 744.find-smallest-letter-greater-than-target 寻找比目标字母大的最小字母
+
+* 367.valid-perfect-square 有效的完全平方数
+
+
+---
 ## 20190723
 * 658.find-k-closest-elements 找到 K 个最接近的元素
 
