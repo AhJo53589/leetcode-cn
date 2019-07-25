@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 4.median-of-two-sorted-arrays.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -21,27 +21,6 @@
 //#include "..\Common\TreeNode.h"
 //#include "..\Common\ListNode.h"
 using namespace std;
-
-
-//int lowerBound(vector<int> &nums, int num, int low, int high)
-//{
-//	if (low >= high) return low;
-//	int mid = low + (high - low) / 2;
-//	if (nums[mid] < num) return lowerBound(nums, num, mid + 1, high);
-//	else return lowerBound(nums, num, low, mid);
-//}
-
-//int lowerBound(vector<int> &nums, int num, int low, int high)
-//{
-//	while (low < high)
-//	{
-//		int mid = low + (high - low) / 2;
-//		if (nums[mid] < num) low = mid + 1;
-//		else high = mid;
-//	}
-//	return low;
-//}
-
 
 double findMedianSortedArrays(vector<int>& nums1, vector<int>& nums2)
 {
@@ -107,8 +86,10 @@ int main()
 	for (int i = 0; i < answer.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		printVectorInt(N[i][0]);
-		printVectorInt(N[i][1]);
+		for (auto i : N[i][0]) cout << i << ", ";
+		cout << endl;
+		for (auto i : N[i][1]) cout << i << ", ";
+		cout << endl;
 		double a = findMedianSortedArrays(N[i][0], N[i][1]);
 		cout << "Find Median-Sorted-Arrays = " << a << endl;
 		cout << "Answer = " << answer[i] << endl;

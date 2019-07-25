@@ -8,6 +8,13 @@
 
 
 ---
+## 20190725
+* 4.median-of-two-sorted-arrays 寻找两个有序数组的中位数
+
+* 287.find-the-duplicate-number 寻找重复数
+
+
+---
 ## 20190724
 * 154.find-minimum-in-rotated-sorted-array-ii 寻找旋转排序数组中的最小值 II
 
