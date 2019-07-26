@@ -263,6 +263,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "287.find-the-duplicate-numb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.median-of-two-sorted-arrays", "4.median-of-two-sorted-arrays\4.median-of-two-sorted-arrays.vcxproj", "{5AD7B83D-34DB-4641-8521-2A07026CC46F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "719.find-k-th-smallest-pair-distance", "719.find-k-th-smallest-pair-distance\719.find-k-th-smallest-pair-distance.vcxproj", "{0568AD1A-9311-4945-84DF-79466193571F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1311,6 +1313,14 @@ Global
 		{5AD7B83D-34DB-4641-8521-2A07026CC46F}.Release|x64.Build.0 = Release|x64
 		{5AD7B83D-34DB-4641-8521-2A07026CC46F}.Release|x86.ActiveCfg = Release|Win32
 		{5AD7B83D-34DB-4641-8521-2A07026CC46F}.Release|x86.Build.0 = Release|Win32
+		{0568AD1A-9311-4945-84DF-79466193571F}.Debug|x64.ActiveCfg = Debug|x64
+		{0568AD1A-9311-4945-84DF-79466193571F}.Debug|x64.Build.0 = Debug|x64
+		{0568AD1A-9311-4945-84DF-79466193571F}.Debug|x86.ActiveCfg = Debug|Win32
+		{0568AD1A-9311-4945-84DF-79466193571F}.Debug|x86.Build.0 = Debug|Win32
+		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x64.ActiveCfg = Release|x64
+		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x64.Build.0 = Release|x64
+		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x86.ActiveCfg = Release|Win32
+		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
