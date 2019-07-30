@@ -265,6 +265,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "4.median-of-two-sorted-arra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "719.find-k-th-smallest-pair-distance", "719.find-k-th-smallest-pair-distance\719.find-k-th-smallest-pair-distance.vcxproj", "{0568AD1A-9311-4945-84DF-79466193571F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5.longest-palindromic-substring", "5.longest-palindromic-substring\5.longest-palindromic-substring.vcxproj", "{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1321,6 +1323,14 @@ Global
 		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x64.Build.0 = Release|x64
 		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x86.ActiveCfg = Release|Win32
 		{0568AD1A-9311-4945-84DF-79466193571F}.Release|x86.Build.0 = Release|Win32
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Debug|x64.ActiveCfg = Debug|x64
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Debug|x64.Build.0 = Debug|x64
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Debug|x86.ActiveCfg = Debug|Win32
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Debug|x86.Build.0 = Debug|Win32
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Release|x64.ActiveCfg = Release|x64
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Release|x64.Build.0 = Release|x64
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Release|x86.ActiveCfg = Release|Win32
+		{1CFAC40B-5C09-44B5-9649-30C1A9AB851A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

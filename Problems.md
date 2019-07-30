@@ -6,6 +6,7 @@
 * `（中等）`  [2.add-two-numbers 两数相加](./problems/2.add-two-numbers/README.md) 
 * `（中等）`  [3.longest-substring-without-repeating-characters 无重复字符的最长子串](./problems/3.longest-substring-without-repeating-characters/README.md) 
 * `（困难）`  [4.median-of-two-sorted-arrays 寻找两个有序数组的中位数](./problems/4.median-of-two-sorted-arrays/README.md)
+* `（中等）`  [5.longest-palindromic-substring 最长回文子串](./problems/5.longest-palindromic-substring/README.md)
 * `（简单）`  [7.Reverse 整数反转](./problems/7.Reverse/README.md) 
 * `（中等）`  [8.MyAtoi 字符串转换整数 (atoi)](./problems/8.MyAtoi/README.md) 
 * `（中等）`  [11.container-with-most-water 盛最多水的容器](./problems/11.container-with-most-water/README.md) 
