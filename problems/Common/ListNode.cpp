@@ -39,14 +39,14 @@ void PrintCycleLinkList(ListNode * pHead)
 
 }
 
-void InitListNode(ListNode **pHead, string strValList)
+void StringToListNode(ListNode **pHead, string strValList)
 {
 	vector<int> val = StringToVectorInt(strValList);
 
-	InitListNode(pHead, strValList, 0, val.size());
+	StringToListNode(pHead, strValList, 0, val.size());
 }
 
-void InitListNode(ListNode ** pHead, string strValList, int valBegin, int valEnd)
+void StringToListNode(ListNode ** pHead, string strValList, int valBegin, int valEnd)
 {
 	vector<int> val = StringToVectorInt(strValList);
 
@@ -62,7 +62,7 @@ void InitListNode(ListNode ** pHead, string strValList, int valBegin, int valEnd
 
 void InitCycleListNode(ListNode **pHead, string strValList, int iCyclePos)
 {
-	InitListNode(pHead, strValList);
+	StringToListNode(pHead, strValList);
 
 	ListNode *pNode = *pHead;
 	while (iCyclePos-- > 0) pNode = pNode->next;

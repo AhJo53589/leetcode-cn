@@ -9,6 +9,16 @@
 
 ---
 ## 20190731
+* 23.merge-k-sorted-lists 合并K个排序链表
+
+* 238.product-of-array-except-self 除自身以外数组的乘积
+
+* 59.spiral-matrix-ii 螺旋矩阵 II
+
+* 43.multiply-strings 字符串相乘
+
+* 16.3sum-closest 最接近的三数之和
+
 * 15.3sum 三数之和
 
 

@@ -65,7 +65,7 @@ int main()
 	for (int i = 0; i < vStr.size(); i++)
 	{
 		ListNode *pHead;
-		InitListNode(&pHead, vStr[i]);
+		StringToListNode(&pHead, vStr[i]);
 		PrintLinkList(pHead);
 
 		pHead = swapPairs(pHead);

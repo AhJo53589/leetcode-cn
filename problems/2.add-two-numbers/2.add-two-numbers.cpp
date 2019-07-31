@@ -48,7 +48,7 @@ int main()
 	//string str = "[1,2,6,3,4,5,6]";
 	string str = "[1,2,3,4,5,6,7,8,9]";
 
-	InitListNode(&pHead, str);
+	StringToListNode(&pHead, str);
 	PrintLinkList(pHead);
 
 	ListNode *pNode = addTwoNumbers(pHead, pHead);

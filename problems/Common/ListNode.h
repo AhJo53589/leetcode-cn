@@ -22,8 +22,8 @@ struct ListNode
 void PrintLinkList(ListNode *pHead);
 void PrintCycleLinkList(ListNode *pHead);
 
-void InitListNode(ListNode **pHead, string strValList);
-void InitListNode(ListNode **pHead, string strValList, int valBegin, int valEnd);
+void StringToListNode(ListNode **pHead, string strValList);
+void StringToListNode(ListNode **pHead, string strValList, int valBegin, int valEnd);
 void InitCycleListNode(ListNode **pHead, string strValList, int iCyclePos);
 //void printNode(Node *root);
 

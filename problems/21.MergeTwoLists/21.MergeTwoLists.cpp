@@ -6,16 +6,21 @@
 
 #include <algorithm>
 #include <map>
+#include <unordered_map>
+#include <unordered_set>
 #include <vector>
+#include <queue>
+#include <set>
+#include <stack>
+#include <string>
+#include <random>
+#include <bitset>
+
+#include "..\Common\Common.h"
+//#include "..\Common\GraphNode.h"
+//#include "..\Common\TreeNode.h"
+#include "..\Common\ListNode.h"
 using namespace std;
-
-struct ListNode
-{
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
-
 
 ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 {
@@ -62,90 +67,12 @@ ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
 	return pHead;
 }
 
-ListNode* removeNthFromEnd(ListNode* head, int n)
-{
-	if (head == NULL || n == 0) return NULL;
-	if (head->next == NULL) return NULL;
-
-	ListNode *pTemp = head;
-	ListNode *pDeletePrev = head;
-	ListNode *pDelete = NULL;
-	while (n > 0)
-	{
-		pTemp = pTemp->next;
-		--n;
-	}
-	if (pTemp == NULL)
-	{
-		pDelete = head;
-		head = head->next;
-		delete(pDelete);
-		return head;
-	}
-	while (pTemp->next != NULL)
-	{
-		pTemp = pTemp->next;
-		pDeletePrev = pDeletePrev->next;
-	}
-	pDelete = pDeletePrev->next;
-	pDeletePrev->next = pDelete->next;
-	delete(pDelete);
-	return head;
-}
-
-void deleteNode(ListNode *node)
-{
-	ListNode *pNext = node->next;
-	node->val = pNext->val;
-	node->next = pNext->next;
-	delete(pNext);
-	pNext = NULL;
-}
-
-ListNode *FindNode(ListNode *pHead, int i)
-{
-	ListNode *pReturn = pHead;
-	while (pReturn->val != i)
-	{
-		pReturn = pReturn->next;
-	}
-	return pReturn;
-}
-
-void PrintLinkList(ListNode *pHead)
-{
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
-}
-
-void Init(ListNode **pHead)
-{
-	const int cLinkListLen = 3;
-
-	ListNode *pNode = NULL;
-	ListNode *pNodeNew = NULL;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(cLinkListLen - i);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	*pHead = pNode;
-}
-
 int main()
 {
 	ListNode *pHead = NULL;
 	ListNode *pHead2 = NULL;
-	Init(&pHead);
-	Init(&pHead2);
+	StringToListNode(&pHead, "[1,2,3,4]");
+	StringToListNode(&pHead2, "[1,2,3,4]");
 	PrintLinkList(pHead);
 	PrintLinkList(pHead2);
 

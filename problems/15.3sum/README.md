@@ -54,55 +54,48 @@ vector<vector<int>> threeSum(vector<int>& nums)
 ```
 
 ### 其它
-我的算法超时了。
+我的算法很慢，而且是ifelse地狱。
 ``` C++
-vector<vector<int>> threeSum(vector<int>& nums)	// 超时
+vector<vector<int>> threeSum(vector<int>& nums)
 {
-	vector<vector<int>> ret;
-	unordered_multimap<int, pair<int, int>> map_2;
-	int low = -1;
-	int high = -1;
-	int mid = 0;
 	sort(nums.begin(), nums.end());
-
 	if (nums.size() < 3) return {};
 	if (nums[0] > 0) return {};
 	if (nums[nums.size() - 1] < 0) return {};
+
+	unordered_multimap<int, int> map;
+	int low = -1;
+	int high = -1;
+	int mid = 0;
 	for (int i = 0; i < nums.size(); i++)
 	{
 		if (nums[i] < 0) low = i;
 		if (nums[i] == 0) mid++;
-		if (nums[i] > 0)
-		{
-			high = i;
-			break;
-		}
+		if (nums[i] > 0 && high == -1) high = i;
+
+		if (i != nums.size() - 1 && nums[i] <= 0 && nums[i] == nums[i + 1]) continue;
+		if (i != 0 && nums[i] > 0 && nums[i] == nums[i - 1]) continue;
+		map.insert({ nums[i], i });
 	}
 	if ((low == -1 || high == -1) && mid >= 3) return { {0, 0, 0} };
 	if ((low == -1 || high == -1) && mid < 3) return {};
 
+	vector<vector<int>> ret;
 	for (int i = 0; i <= low; i++)
 	{
 		if (i != 0 && nums[i] == nums[i - 1]) continue;
 		for (int j = nums.size() - 1; j >= high; j--)
 		{
 			if (j != nums.size() - 1 && nums[j] == nums[j + 1]) continue;
-			map_2.insert({ nums[i] + nums[j], {i, j} });
-		}
-	}
-	for (int i = 0; i < nums.size(); i++)
-	{
-		if (i < low && nums[i] == nums[i + 1]) continue;
-		if (nums[i] == 0 && nums[i + 1] == 0) continue;
-		if (i > high && nums[i] == nums[i - 1]) continue;
-		auto pr = map_2.equal_range(-nums[i]);
-		while (pr.first != pr.second)
-		{
-			if (pr.first->second.first < i && i < pr.first->second.second)
+			auto pr = map.equal_range(-(nums[i] + nums[j]));
+			while (pr.first != pr.second)
 			{
-				ret.push_back({ nums[pr.first->second.first], nums[i], nums[pr.first->second.second] });
+				if (i < pr.first->second && pr.first->second < j)
+				{
+					ret.push_back({ nums[i], nums[pr.first->second], nums[j] });
+				}
+				++pr.first;
 			}
-			++pr.first;
 		}
 	}
 	if (mid >= 3) ret.push_back({ 0, 0, 0 });

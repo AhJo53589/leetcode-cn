@@ -54,7 +54,7 @@ int main()
 	//string str = "[1,2,6,3,4,5,6]";
 	string str = "[1,2,2,1]";
 
-	InitListNode(&pHead, str);
+	StringToListNode(&pHead, str);
 	PrintLinkList(pHead);
 
 	ListNode *pNode = removeElements(pHead, 2);

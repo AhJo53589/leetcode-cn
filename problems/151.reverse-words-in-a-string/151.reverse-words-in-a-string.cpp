@@ -16,38 +16,79 @@
 #include <random>
 using namespace std;
 
+//string reverseWords(string s)
+//{
+//	stack<string> st;
+//	string sub;
+//	s += " ";
+//	for (int i = 0; i < s.size(); i++)
+//	{
+//		if (s[i] != ' ')
+//		{
+//			sub += s[i];
+//		}
+//		else
+//		{
+//			if (!sub.empty())
+//			{
+//				st.push(sub);
+//				sub.clear();
+//			}
+//		}
+//	}
+//	string str;
+//	while (!st.empty())
+//	{
+//		str += st.top();
+//		st.pop();
+//		str += " ";
+//	}
+//	if (!str.empty())
+//	{
+//		str = str.substr(0, str.size() - 1);
+//	}
+//	return str;
+//}
+
+//string reverseWords(string s)
+//{
+//	string ret;
+//	for (int i = s.size() - 1; i >= 0; i--)
+//	{
+//		if (s[i] == ' ')
+//		{
+//			ret += s.substr(i + 1, s.size() - i);
+//			ret += " ";
+//			s = s.substr(0, i);
+//		}
+//	}
+//	ret += s;
+//	return ret;
+//}
+
 string reverseWords(string s)
 {
-	stack<string> st;
-	string sub;
-	s += " ";
-	for (int i = 0; i < s.size(); i++)
+	string ret;
+	int ibeg = 0;			// 单词开始标志位
+	int iend = s.size();	// 单词结束标志位
+	for (int i = s.size() - 1; i >= 0; i--)	// 从后往前遍历
 	{
-		if (s[i] != ' ')
+		if (s[i] == ' ')	// 遇到空格，开始拷贝单词
 		{
-			sub += s[i];
-		}
-		else
-		{
-			if (!sub.empty())
+			ibeg = i + 1;	// 更新标志位
+			for (int j = ibeg; j < iend; j++)
 			{
-				st.push(sub);
-				sub.clear();
+				ret += s[j];
 			}
+			ret += " ";		// 补空格
+			iend = i;		// 更新标志位
 		}
 	}
-	string str;
-	while (!st.empty())
+	for (int j = 0; j < iend; j++)	// 原句第一个单词，因为最前面没空格
 	{
-		str += st.top();
-		st.pop();
-		str += " ";
+		ret += s[j];
 	}
-	if (!str.empty())
-	{
-		str = str.substr(0, str.size() - 1);
-	}
-	return str;
+	return ret;
 }
 
 
@@ -110,7 +151,7 @@ string reverseWords(string s)
 
 int main()
 {
-	string str = "   the  sky    is blue    ";
+	string str = "the sky is blue";
 	cout << str << endl;
 	cout << reverseWords(str) << endl;
 }
