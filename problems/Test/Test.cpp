@@ -22,46 +22,59 @@
 //#include "..\Common\ListNode.h"
 using namespace std;
 
-vector<vector<int>> threeSum(vector<int>& nums) 
+vector<vector<int>> threeSum(vector<int>& nums)
 {
-	if (nums.size() < 3) return {};
-	unordered_set<vector<int>> set;
-	int l = 0;
-	int r = 0;
+	vector<vector<int>> ret;
+	unordered_multimap<int, pair<int, int>> map;
+	int low = -1;
+	int high = -1;
+	int mid = 0;
 	sort(nums.begin(), nums.end());
+
+	if (nums.size() < 3) return {};
+	if (nums[0] > 0) return {};
+	if (nums[nums.size() - 1] < 0) return {};
 	for (int i = 0; i < nums.size(); i++)
 	{
-		if (nums[i] >= 0)
+		if (nums[i] < 0) low = i;
+		if (nums[i] == 0) mid++;
+		if (nums[i] > 0)
 		{
-			if (nums[i] == 0) l = i;
+			high = i;
 			break;
 		}
-		for (int j = nums.size() - 1; j >= 0; j--)
+	}
+	if ((low == -1 || high == -1) && mid >= 3) return { {0, 0, 0} };
+	if ((low == -1 || high == -1) && mid < 3) return {};
+
+	for (int i = 0; i <= low; i++)
+	{
+		if (i != 0 && nums[i] == nums[i - 1]) continue;
+		for (int j = nums.size() - 1; j >= high; j--)
 		{
-			if (nums[j] <= 0)
-			{
-				if (nums[j] == 0) r = j;
-				break;
-			}
-			for (int k = i + 1; k < j; k++)
-			{
-				if (nums[i] + nums[j] + nums[k] == 0)
-				{
-					if (set.count({ i, k, j })) break;
-					set.insert({ i, k, j });
-					break;
-				}
-			}
+			if (j != nums.size() - 1 && nums[j] == nums[j + 1]) continue;
+			map.insert({ nums[i] + nums[j], {i, j} });
 		}
 	}
-	if (r - l > 2) set.insert({ 0, 0, 0 });
-	vector<vector<int>> ret;
-	for (auto s : set)
+	for (int i = 0; i < nums.size(); i++)
 	{
-		ret.push_back(s);
+		if (i < low && nums[i] == nums[i + 1]) continue;
+		if (nums[i] == 0 && nums[i + 1] == 0) continue;
+		if (i > high && nums[i] == nums[i - 1]) continue;
+		auto pr = map.equal_range(-nums[i]);
+		while (pr.first != pr.second)
+		{
+			if (pr.first->second.first < i && i < pr.first->second.second)
+			{
+				ret.push_back({ nums[pr.first->second.first], nums[i], nums[pr.first->second.second] });
+			}
+			++pr.first;
+		}
 	}
+	if (mid >= 3) ret.push_back({ 0, 0, 0 });
 	return ret;
 }
+
 
 
 int main()
@@ -70,18 +83,31 @@ int main()
 	//vector<int> K;
 	//vector<double> A;
 
-	N.push_back({ -1, 0, 1, 2, -1, -4 });
-
-	//N.push_back({ 1,3,1 });
-	//K.push_back(2);
+	//N.push_back({ -1, 0, 1, 2, -1, -4 });
+	//K.push_back(1142);
 	//A.push_back(2);
+
+	//N.push_back({ -1, 0, 1, 2, -1, -4 });
+	//N.push_back({ 0, 0, 1 });
+	//N.push_back({ 0, 0, 0 });
+	//N.push_back({ 0, 0, 0, 1 });
+	//N.push_back({  });
+	//N.push_back({ -2, -3, 0, 0, -2 });
+	//N.push_back({ -1, 0, 1, 0 });
+	//N.push_back({ 3, 0, -2, -1, 1, 2 });
+	//N.push_back({ 1, 1, -2 });
+	//N.push_back({ -4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6 });
+	N.push_back({ -4,-2,1,-5,-4,-4,4,-2,0,4,0,-2,3,1,-5,0 });
+
 
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		printVectorInt(N[i]);
+		sort(N[i].begin(), N[i].end());
+		printVectorInt(N[i]);
 		vector<vector<int>> a = threeSum(N[i]);
-		cout << "three Sum: " << endl;
+		cout << "threeSum = " << endl;
 		printVectorVectorInt(a);
 	}
 }
