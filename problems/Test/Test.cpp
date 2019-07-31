@@ -22,88 +22,82 @@
 //#include "..\Common\ListNode.h"
 using namespace std;
 
-void findPalindrome(string s, int &low, int &high)
+vector<vector<int>> threeSum(vector<int>& nums) 
 {
-	while (s[low] == s[high])
+	if (nums.size() < 3) return {};
+	unordered_set<vector<int>> set;
+	int l = 0;
+	int r = 0;
+	sort(nums.begin(), nums.end());
+	for (int i = 0; i < nums.size(); i++)
 	{
-		low--;
-		high++;
-		if (low < 0 || high > s.size() - 1) break;
+		if (nums[i] >= 0)
+		{
+			if (nums[i] == 0) l = i;
+			break;
+		}
+		for (int j = nums.size() - 1; j >= 0; j--)
+		{
+			if (nums[j] <= 0)
+			{
+				if (nums[j] == 0) r = j;
+				break;
+			}
+			for (int k = i + 1; k < j; k++)
+			{
+				if (nums[i] + nums[j] + nums[k] == 0)
+				{
+					if (set.count({ i, k, j })) break;
+					set.insert({ i, k, j });
+					break;
+				}
+			}
+		}
 	}
-	low++;
-	high--;
+	if (r - l > 2) set.insert({ 0, 0, 0 });
+	vector<vector<int>> ret;
+	for (auto s : set)
+	{
+		ret.push_back(s);
+	}
+	return ret;
 }
 
-string longestPalindrome(string s) 
-{
-	if (s.size() == 1) return s;
-	string res;
-	res.push_back(s[0]);
-	for (int i = 1; i < s.size(); i++)
-	{
-		if (s[i] == s[i - 1])
-		{
-			int low = i - 1;
-			int high = i;
-			findPalindrome(s, low, high);
-			if (high - low + 1 > res.size()) res = s.substr(low, high - low + 1);
-		}
-		if ((i + 1 < s.size()) && s[i - 1] == s[i + 1])
-		{
-			int low = i - 1;
-			int high = i + 1;
-			findPalindrome(s, low, high);
-			if (high - low + 1 > res.size()) res = s.substr(low, high - low + 1);
-		}
-	}
-	return res;
-}
 
 int main()
 {
-	vector<string> str;
-	//str.push_back("babad");
-	//str.push_back("babab");
-	//str.push_back("cbbd");
-	str.push_back("ac");
+	vector<vector<int>> N;
+	//vector<int> K;
+	//vector<double> A;
 
-	for (auto s : str)
+	N.push_back({ -1, 0, 1, 2, -1, -4 });
+
+	//N.push_back({ 1,3,1 });
+	//K.push_back(2);
+	//A.push_back(2);
+
+	for (int i = 0; i < N.size(); i++)
 	{
-		cout << endl << "/////////////////////////////////" << endl;
-		cout << s << endl;
-		cout << longestPalindrome(s) << endl;
+		cout << endl << "/////////////////////////////" << endl;
+		printVectorInt(N[i]);
+		vector<vector<int>> a = threeSum(N[i]);
+		cout << "three Sum: " << endl;
+		printVectorVectorInt(a);
 	}
 }
 
-
 //int main()
 //{
-//	vector<vector<int>> N;
-//	vector<int> K;
-//	vector<double> A;
+//	vector<string> str;
+//	//str.push_back("babad");
+//	//str.push_back("babab");
+//	//str.push_back("cbbd");
+//	str.push_back("ac");
 //
-//	//N.push_back({ 1,3,1 });
-//	//K.push_back(1);
-//	//A.push_back(0);
-//
-//	//N.push_back({ 1,3,1 });
-//	//K.push_back(2);
-//	//A.push_back(2);
-//
-//	N.push_back({ 95, 29, 47, 58, 80, 65, 26, 7, 69, 0, 1, 53, 61, 46, 66, 30, 78, 25, 1, 62, 5, 1, 78, 60, 81, 100, 52, 33, 9, 52, 7, 74, 94, 93, 47, 68, 80, 81, 50, 31, 9, 96, 8, 8, 64, 4, 40, 22, 50, 93 });
-//	K.push_back(1142);
-//	A.push_back(2);
-//
-//	for (int i = 0; i < A.size(); i++)
+//	for (auto s : str)
 //	{
-//		cout << endl << "/////////////////////////////" << endl;
-//		printVectorInt(N[i]);
-//		int a = smallestDistancePair(N[i], K[i]);
-//		cout << "Find Smallest-Distance-Pair( " << K[i] << " ) = " << a << endl;
-//		cout << "Answer = " << A[i] << endl;
-//		if (a != A[i])
-//		{
-//			return 0;
-//		}
+//		cout << endl << "/////////////////////////////////" << endl;
+//		cout << s << endl;
+//		cout << longestPalindrome(s) << endl;
 //	}
 //}
