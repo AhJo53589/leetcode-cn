@@ -12,6 +12,7 @@
 * `（中等）`  [11.container-with-most-water 盛最多水的容器](./problems/11.container-with-most-water/README.md) 
 * `（简单）`  [13.RomanToInt 罗马数字转整数](./problems/13.RomanToInt/README.md) 
 * `（简单）`  [14.LongestCommonPrefix 最长公共前缀](./problems/14.LongestCommonPrefix/README.md) 
+* `（中等）`  [15.3sum 三数之和](./problems/15.3sum/README.md)
 * `（中等）`  [19.RemoveNthFromEnd 删除链表的倒数第N个节点](./problems/19.RemoveNthFromEnd/README.md) 
 * `（简单）`  [20.IsValid 有效的括号](./problems/20.IsValid/README.md) 
 * `（简单）`  [21.MergeTwoLists 合并两个有序链表](./problems/21.MergeTwoLists/README.md) 
