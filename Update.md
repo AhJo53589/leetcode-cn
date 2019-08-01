@@ -9,6 +9,10 @@
 
 ---
 ## 20190801
+* 230.kth-smallest-element-in-a-bst 二叉搜索树中第K小的元素
+
+* 148.sort-list 排序链表
+
 * 231.power-of-two 2的幂
 
 * 9.palindrome-number 回文数
