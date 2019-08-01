@@ -8,6 +8,13 @@
 
 
 ---
+## 20190801
+* 231.power-of-two 2的幂
+
+* 9.palindrome-number 回文数
+
+
+---
 ## 20190731
 * 23.merge-k-sorted-lists 合并K个排序链表
 

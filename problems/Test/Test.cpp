@@ -10,6 +10,7 @@
 #include <unordered_set>
 #include <vector>
 #include <queue>
+#include <deque>
 #include <set>
 #include <stack>
 #include <string>
@@ -19,76 +20,93 @@
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.h"
 //#include "..\Common\TreeNode.h"
-#include "..\Common\ListNode.h"
+//#include "..\Common\ListNode.h"
 using namespace std;
 
 
 
-ListNode* mergeKLists(vector<ListNode*>& lists) 
+bool isPalindrome(int x) 
 {
+	if (x < 0) return false;
+	if (x < 10) return true;
 
-	ListNode *pHead = new ListNode(0);
-	ListNode *pNode = pHead;
-	int len = lists.size();
-	int nullCount = 0;
-	while (nullCount < len)
+	deque<int> d;
+	while (x >= 1)
 	{
-		nullCount = 0;
-		pair<int, int> minVal = { -1, INT_MAX };
-		for (int i = 0; i < lists.size(); i++)
-		{
-			if (lists[i] == nullptr)
-			{
-				nullCount++;
-				continue;
-			}
-			if (lists[i]->val < minVal.second)
-			{
-				minVal.first = i;
-				minVal.second = lists[i]->val;
-			}
-		}
-		if (minVal.first == -1) continue;
-		pNode->next = lists[minVal.first];
-		pNode = pNode->next;
-		lists[minVal.first] = lists[minVal.first]->next;
+		d.push_back(x % 10);
+		x /= 10;
 	}
-	pNode->next = nullptr;
-	pNode = pHead->next;
-	delete pHead;
-	return pNode;
+	while (d.size() > 1)
+	{
+		int h = d.front();
+		d.pop_front();
+		int t = d.back();
+		d.pop_back();
+		if (h != t) return false;
+	}
+	return true;
+}
+
+bool isPalindrome(int x) {
+	if (x < 0 || ((x % 10 == 0) && x != 0)) {
+		return false;
+	}
+	int reverse = 0;
+	while (x > reverse) {
+		reverse = reverse * 10 + x % 10;
+		x /= 10;
+	}
+	return x == reverse || x == reverse / 10;
 }
 
 int main()
 {
-	vector<ListNode *> lists;
-	ListNode *pHead = nullptr;
-	StringToListNode(&pHead, "[1,5,5]");
-	lists.push_back(pHead);
-	pHead = nullptr;
+	vector<int> N;
+	N.push_back(121);
+	N.push_back(-121);
+	N.push_back(10);
+	N.push_back(9);
+	N.push_back(123454321);
+	N.push_back(123321);
 
-	StringToListNode(&pHead, "[1,3,4]");
-	lists.push_back(pHead);
-	pHead = nullptr;
-
-	StringToListNode(&pHead, "[2,6]");
-	lists.push_back(pHead);
-	pHead = nullptr;
-
-	StringToListNode(&pHead, "[1]");
-	lists.push_back(pHead);
-	pHead = nullptr;
-
-
-	for (auto p : lists)
+	for (int i = 0; i < N.size(); i++)
 	{
-		PrintLinkList(p);
+		cout << endl << "/////////////////////////////////" << endl;
+		cout << N[i] << endl;
+		bool ans = isPalindrome(N[i]);
+		cout << ans << endl;
 	}
-	pHead = mergeKLists(lists);
-	PrintLinkList(pHead);
-	cout << endl;
-
 }
+
+//int main()
+//{
+//	vector<ListNode *> lists;
+//	ListNode *pHead = nullptr;
+//	StringToListNode(&pHead, "[1,5,5]");
+//	lists.push_back(pHead);
+//	pHead = nullptr;
+//
+//	StringToListNode(&pHead, "[1,3,4]");
+//	lists.push_back(pHead);
+//	pHead = nullptr;
+//
+//	StringToListNode(&pHead, "[2,6]");
+//	lists.push_back(pHead);
+//	pHead = nullptr;
+//
+//	StringToListNode(&pHead, "[1]");
+//	lists.push_back(pHead);
+//	pHead = nullptr;
+//
+//
+//	for (auto p : lists)
+//	{
+//		PrintLinkList(p);
+//	}
+//	pHead = mergeKLists(lists);
+//	PrintLinkList(pHead);
+//	cout << endl;
+//}
 
 
 //int main()
