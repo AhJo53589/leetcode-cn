@@ -32,6 +32,8 @@ void StringToTreeNode(TreeNode **root, string strInitData);
 string TreeNodeToString(TreeNode *root);
 void printTreeNode(TreeNode *root);
 
+TreeNode *FindTreeNode(TreeNode *root, int val);
+
 
 
 #endif //TREE_NODE_H

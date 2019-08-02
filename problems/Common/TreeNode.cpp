@@ -47,8 +47,8 @@ void StringToTreeNode(TreeNode **root, string strInitData)
 	int i = 1;
 	while (!qTree.empty())
 	{
-		TreeNode *qHead = NULL;
-		while (qHead == NULL)
+		TreeNode *qHead = nullptr;
+		while (qHead == nullptr)
 		{
 			if (qTree.empty()) return;
 			qHead = qTree.front();
@@ -58,7 +58,7 @@ void StringToTreeNode(TreeNode **root, string strInitData)
 		if (i == initData.size()) return;
 		if (initData[i].isNull)
 		{
-			qTree.push(NULL);
+			qTree.push(nullptr);
 		}
 		else
 		{
@@ -70,7 +70,7 @@ void StringToTreeNode(TreeNode **root, string strInitData)
 		if (i == initData.size()) return;
 		if (initData[i].isNull)
 		{
-			qTree.push(NULL);
+			qTree.push(nullptr);
 		}
 		else
 		{
@@ -92,9 +92,9 @@ string TreeNodeToString(TreeNode * root)
 		TreeNode *qHead = qTree.front();
 		qTree.pop();
 
-		if (qHead == NULL)
+		if (qHead == nullptr)
 		{
-			str += "NULL - ";
+			str += "null - ";
 			continue;
 		}
 		str += to_string(qHead->val);
@@ -116,9 +116,9 @@ void printTreeNode(TreeNode *root)
 		TreeNode *qHead = qTree.front();
 		qTree.pop();
 
-		if (qHead == NULL)
+		if (qHead == nullptr)
 		{
-			cout << "NULL" << " - ";
+			cout << "null" << " - ";
 			continue;
 		}
 		cout << qHead->val << " - ";
@@ -126,4 +126,21 @@ void printTreeNode(TreeNode *root)
 		qTree.push(qHead->right);
 	}
 	cout << endl;
+}
+
+TreeNode * FindTreeNode(TreeNode * root, int val)
+{
+	queue<TreeNode *> qTree;
+	qTree.push(root);
+
+	while (!qTree.empty())
+	{
+		TreeNode *qHead = qTree.front();
+		qTree.pop();
+		if (qHead == nullptr) continue;
+		if (qHead->val == val) return qHead;
+		qTree.push(qHead->left);
+		qTree.push(qHead->right);
+	}
+	return nullptr;
 }

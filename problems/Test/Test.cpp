@@ -23,46 +23,63 @@
 //#include "..\Common\ListNode.h"
 using namespace std;
 
-void InOrder(TreeNode *root, int &k, int &val)
+
+
+bool canWinNim(int n)
 {
-	if (k == 0) return;
-	if (root == nullptr) return;
-	if (root->left != nullptr) InOrder(root->left, k, val);
-	if (k-- == 1) val = root->val;
-	if (root->right != nullptr) InOrder(root->right, k, val);
+	return n % 4 != 0;
 }
 
-int kthSmallest(TreeNode* root, int k) 
-{
-	int val;
-	InOrder(root, k, val);
-	return val;
-}
 
 int main()
 {
-	vector<TreeNode *> N;
-	TreeNode *pHead;
-	vector<int> K;
+	vector<int> N;
+	vector<int> A;
 
-	StringToTreeNode(&pHead, "3,1,4,null,2");
-	N.push_back(pHead);
-	pHead = nullptr;
-	K.push_back(1);
+	N.push_back(4);
+	A.push_back(1);
 
-	StringToTreeNode(&pHead, "5,3,6,2,4,null,null,1");
-	N.push_back(pHead);
-	pHead = nullptr;
-	K.push_back(3);
-		
+
 	for (int i = 0; i < N.size(); i++)
 	{
-		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
-		cout << "kth Smallest, k = " << K[i] << ", ans = ";
-		cout << kthSmallest(N[i], K[i]) << endl;
+		cout << endl << "/////////////////////////////////" << endl;
+		cout << N[i] << " = " << A[i] << endl;
+		bool ans = canWinNim(N[i]);
+		cout << "my answer = " << ans << endl;
 	}
 }
+
+
+
+//int main()
+//{
+//	vector<TreeNode *> N;
+//	TreeNode *pHead;
+//	vector<pair<TreeNode *, TreeNode *>> K;
+//	vector<int> A;
+//
+//	StringToTreeNode(&pHead, "3,5,1,6,2,0,8,null,null,7,4");
+//	N.push_back(pHead);
+//	K.push_back(make_pair(FindTreeNode(pHead, 5), FindTreeNode(pHead, 1)));
+//	A.push_back(3);
+//	pHead = nullptr;
+//
+//	StringToTreeNode(&pHead, "3,5,1,6,2,0,8,null,null,7,4");
+//	N.push_back(pHead);
+//	K.push_back(make_pair(FindTreeNode(pHead, 5), FindTreeNode(pHead, 4)));
+//	A.push_back(5);
+//	pHead = nullptr;
+//
+//
+//	for (int i = 0; i < N.size(); i++)
+//	{
+//		cout << endl << "///////////////////////////////////////" << endl;
+//		printTreeNode(N[i]);
+//		cout << "lowest Common Ancestor = " << A[i] << endl;
+//		TreeNode *pNode = lowestCommonAncestor(N[i], K[i].first, K[i].second);
+//		cout << "my answer = " << pNode->val << endl;
+//	}
+//}
 
 //int main()
 //{
@@ -78,25 +95,6 @@ int main()
 //		pHead = sortList(p);
 //		PrintLinkList(pHead);
 //		cout << endl;
-//	}
-//}
-
-//int main()
-//{
-//	vector<int> N;
-//	N.push_back(121);
-//	N.push_back(-121);
-//	N.push_back(10);
-//	N.push_back(9);
-//	N.push_back(123454321);
-//	N.push_back(123321);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "/////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		bool ans = isPalindrome(N[i]);
-//		cout << ans << endl;
 //	}
 //}
 

@@ -287,6 +287,14 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "148.sort-list", "148.sort-l
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "230.kth-smallest-element-in-a-bst", "230.kth-smallest-element-in-a-bst\230.kth-smallest-element-in-a-bst.vcxproj", "{B41CA68C-ACB5-42A2-85CC-D75CB84F3196}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "124.binary-tree-maximum-path-sum", "124.binary-tree-maximum-path-sum\124.binary-tree-maximum-path-sum.vcxproj", "{4DE65ABA-44C9-438A-872E-27327185FDE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "235.lowest-common-ancestor-of-a-binary-search-tree", "235.lowest-common-ancestor-of-a-binary-search-tree\235.lowest-common-ancestor-of-a-binary-search-tree.vcxproj", "{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "236.lowest-common-ancestor-of-a-binary-tree", "236.lowest-common-ancestor-of-a-binary-tree\236.lowest-common-ancestor-of-a-binary-tree.vcxproj", "{7D425E12-5A4B-4FC6-A847-3A3139095A8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "292.nim-game", "292.nim-game\292.nim-game.vcxproj", "{95633CFA-F794-4874-BDD4-152D524E84AC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1431,6 +1439,38 @@ Global
 		{B41CA68C-ACB5-42A2-85CC-D75CB84F3196}.Release|x64.Build.0 = Release|x64
 		{B41CA68C-ACB5-42A2-85CC-D75CB84F3196}.Release|x86.ActiveCfg = Release|Win32
 		{B41CA68C-ACB5-42A2-85CC-D75CB84F3196}.Release|x86.Build.0 = Release|Win32
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Debug|x64.ActiveCfg = Debug|x64
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Debug|x64.Build.0 = Debug|x64
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Debug|x86.ActiveCfg = Debug|Win32
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Debug|x86.Build.0 = Debug|Win32
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Release|x64.ActiveCfg = Release|x64
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Release|x64.Build.0 = Release|x64
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Release|x86.ActiveCfg = Release|Win32
+		{4DE65ABA-44C9-438A-872E-27327185FDE1}.Release|x86.Build.0 = Release|Win32
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Debug|x64.ActiveCfg = Debug|x64
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Debug|x64.Build.0 = Debug|x64
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Debug|x86.ActiveCfg = Debug|Win32
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Debug|x86.Build.0 = Debug|Win32
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Release|x64.ActiveCfg = Release|x64
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Release|x64.Build.0 = Release|x64
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Release|x86.ActiveCfg = Release|Win32
+		{8A4D3676-2A2C-44DF-BA3C-5A019A0466EF}.Release|x86.Build.0 = Release|Win32
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Debug|x64.ActiveCfg = Debug|x64
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Debug|x64.Build.0 = Debug|x64
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Debug|x86.Build.0 = Debug|Win32
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Release|x64.ActiveCfg = Release|x64
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Release|x64.Build.0 = Release|x64
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Release|x86.ActiveCfg = Release|Win32
+		{7D425E12-5A4B-4FC6-A847-3A3139095A8F}.Release|x86.Build.0 = Release|Win32
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Debug|x64.ActiveCfg = Debug|x64
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Debug|x64.Build.0 = Debug|x64
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Debug|x86.ActiveCfg = Debug|Win32
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Debug|x86.Build.0 = Debug|Win32
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x64.ActiveCfg = Release|x64
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x64.Build.0 = Release|x64
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x86.ActiveCfg = Release|Win32
+		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
