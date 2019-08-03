@@ -295,6 +295,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "236.lowest-common-ancestor-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "292.nim-game", "292.nim-game\292.nim-game.vcxproj", "{95633CFA-F794-4874-BDD4-152D524E84AC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "112.path-sum", "112.path-sum\112.path-sum.vcxproj", "{5C651940-43BF-4609-9424-5D6C40A171AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1471,6 +1473,14 @@ Global
 		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x64.Build.0 = Release|x64
 		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x86.ActiveCfg = Release|Win32
 		{95633CFA-F794-4874-BDD4-152D524E84AC}.Release|x86.Build.0 = Release|Win32
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Debug|x64.ActiveCfg = Debug|x64
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Debug|x64.Build.0 = Debug|x64
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Debug|x86.ActiveCfg = Debug|Win32
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Debug|x86.Build.0 = Debug|Win32
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Release|x64.ActiveCfg = Release|x64
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Release|x64.Build.0 = Release|x64
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Release|x86.ActiveCfg = Release|Win32
+		{5C651940-43BF-4609-9424-5D6C40A171AE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

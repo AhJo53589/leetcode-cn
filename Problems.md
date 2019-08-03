@@ -49,6 +49,7 @@
 * `（中等）`  [102.LevelOrder 二叉树的层次遍历](./problems/102.LevelOrder/README.md) 
 * `（简单）`  [104.MaxDepth 二叉树的最大深度](./problems/104.MaxDepth/README.md) 
 * `（简单）`  [108.SortedArrayToBST 将有序数组转换为二叉搜索树](./problems/108.SortedArrayToBST/README.md) 
+* `（简单）`  [112.path-sum 路径总和](./problems/112.path-sum/README.md)
 * `（简单）`  [118.pascals-triangle 杨辉三角](./problems/118.pascals-triangle/README.md) 
 * `（简单）`  [119.pascals-triangle-ii 杨辉三角 II](./problems/119.pascals-triangle-ii/README.md) 
 * `（简单）`  [121.MaxProfit 买卖股票的最佳时机](./problems/121.MaxProfit/README.md) 
