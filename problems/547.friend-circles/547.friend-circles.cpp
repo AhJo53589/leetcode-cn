@@ -24,66 +24,66 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-//vector<int> Tree;
-//int findCircleNum(vector<vector<int>>& M) {
-//	Tree.resize(M.size(), -1);
-//	for (int i = 0; i < M.size(); i++) {
-//		for (int j = i + 1; j < M.size(); j++) {
-//			if (M[i][j] == 1) {
-//				int a = findRoot(i);
-//				int b = findRoot(j);
-//				if (a != b) Tree[a] = b;
-//			}
-//		}
-//	}
-//	int ans = 0;
-//	for (auto i : Tree) {
-//		if (i == -1) ans++;
-//	}
-//	return ans;
-//}
-//
-//int findRoot(int x) {
-//	if (Tree[x] == -1) return x;
-//	int tmp = findRoot(Tree[x]);
-//	Tree[x] = tmp;
-//	return tmp;
-//}
+vector<int> Tree;
+int findRoot(int x) {
+	if (Tree[x] == -1) return x;
+	int tmp = findRoot(Tree[x]);
+	Tree[x] = tmp;
+	return tmp;
+}
 
-//////////////////////////////////////////////////////////////////////////
-int findCircleNum(vector<vector<int>>& M)
-{
-	int iNum = 0;
-	unordered_set<int> visited;
-	queue<int> que;
-	for (int i = 0; i < M.size(); i++)
-	{
-		if (visited.count(i)) continue;
-		visited.insert(i);
-		iNum++;
-		for (int j = 0; j < M.size(); j++)
-		{
-			if (visited.count(j)) continue;
-			if (M[i][j] == 0) continue;
-			visited.insert(j);
-			que.push(j);
-		}
-		while (!que.empty())
-		{
-			int q = que.front();
-			que.pop();
-			for (int j = 0; j < M.size(); j++)
-			{
-				if (visited.count(j)) continue;
-				if (M[q][j] == 0) continue;
-				visited.insert(j);
-				que.push(j);
+int findCircleNum(vector<vector<int>>& M) {
+	Tree.resize(M.size(), -1);
+	for (int i = 0; i < M.size(); i++) {
+		for (int j = i + 1; j < M.size(); j++) {
+			if (M[i][j] == 1) {
+				int a = findRoot(i);
+				int b = findRoot(j);
+				if (a != b) Tree[a] = b;
 			}
 		}
-		if (visited.size() == M.size()) return iNum;
 	}
-	return iNum;
+	int ans = 0;
+	for (auto i : Tree) {
+		if (i == -1) ans++;
+	}
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+//int findCircleNum(vector<vector<int>>& M)
+//{
+//	int iNum = 0;
+//	unordered_set<int> visited;
+//	queue<int> que;
+//	for (int i = 0; i < M.size(); i++)
+//	{
+//		if (visited.count(i)) continue;
+//		visited.insert(i);
+//		iNum++;
+//		for (int j = 0; j < M.size(); j++)
+//		{
+//			if (visited.count(j)) continue;
+//			if (M[i][j] == 0) continue;
+//			visited.insert(j);
+//			que.push(j);
+//		}
+//		while (!que.empty())
+//		{
+//			int q = que.front();
+//			que.pop();
+//			for (int j = 0; j < M.size(); j++)
+//			{
+//				if (visited.count(j)) continue;
+//				if (M[q][j] == 0) continue;
+//				visited.insert(j);
+//				que.push(j);
+//			}
+//		}
+//		if (visited.size() == M.size()) return iNum;
+//	}
+//	return iNum;
+//}
 
 int main()
 {
