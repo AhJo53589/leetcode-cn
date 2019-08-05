@@ -13,61 +13,30 @@
 #include <deque>
 #include <set>
 #include <stack>
+#include <list>
 #include <string>
 #include <random>
 #include <bitset>
 
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
+//#include "..\Common\TreeNode.h"
 //#include "..\Common\ListNode.h"
 using namespace std;
 
 
-
-bool canWinNim(int n)
-{
-	return n % 4 != 0;
-}
-
-
-int main()
-{
-	vector<int> N;
-	vector<int> A;
-
-	N.push_back(4);
-	A.push_back(1);
-
-
-	for (int i = 0; i < N.size(); i++)
-	{
-		cout << endl << "/////////////////////////////////" << endl;
-		cout << N[i] << " = " << A[i] << endl;
-		bool ans = canWinNim(N[i]);
-		cout << "my answer = " << ans << endl;
-	}
-}
 
 
 
 //int main()
 //{
 //	vector<TreeNode *> N;
-//	TreeNode *pHead;
-//	vector<pair<TreeNode *, TreeNode *>> K;
-//	vector<int> A;
+//	vector<vector<vector<int>>> A;
+//	TreeNode *pHead = nullptr;
 //
-//	StringToTreeNode(&pHead, "3,5,1,6,2,0,8,null,null,7,4");
+//	StringToTreeNode(&pHead, "3,9,20,null,null,15,7");
 //	N.push_back(pHead);
-//	K.push_back(make_pair(FindTreeNode(pHead, 5), FindTreeNode(pHead, 1)));
-//	A.push_back(3);
-//	pHead = nullptr;
-//
-//	StringToTreeNode(&pHead, "3,5,1,6,2,0,8,null,null,7,4");
-//	N.push_back(pHead);
-//	K.push_back(make_pair(FindTreeNode(pHead, 5), FindTreeNode(pHead, 4)));
-//	A.push_back(5);
+//	A.push_back({ {3}, { 20,9 }, { 15,7 } });
 //	pHead = nullptr;
 //
 //
@@ -75,11 +44,55 @@ int main()
 //	{
 //		cout << endl << "///////////////////////////////////////" << endl;
 //		printTreeNode(N[i]);
-//		cout << "lowest Common Ancestor = " << A[i] << endl;
-//		TreeNode *pNode = lowestCommonAncestor(N[i], K[i].first, K[i].second);
-//		cout << "my answer = " << pNode->val << endl;
+//		cout << "zigzagLevelOrder = " << endl;
+//		printVectorVectorInt(A[i]);
+//		vector<vector<int>> ans = zigzagLevelOrder(N[i]);
+//		cout << "my answer = " << endl;
+//		printVectorVectorInt(ans);
 //	}
 //}
+
+//int main()
+//{
+//	vector<vector<vector<int>>> N;
+//	vector<vector<vector<int>>> A;
+//
+//	N.push_back({ { 1,3 }, { 2,6 }, { 8,10 }, { 15,18 } });
+//	A.push_back({ { 1,6 }, { 8,10 }, { 15,18 } });
+//
+//	N.push_back({ { 1,4 }, { 4,5 } });
+//	A.push_back({ { 1,5 } });
+//
+//	for (int i = 0; i < N.size(); i++)
+//	{
+//		cout << endl << "/////////////////////////////////" << endl;
+//		printVectorVectorInt(N[i]);
+//		vector<vector<int>> ans = merge(N[i]);
+//		cout << "merge = " << endl;
+//		printVectorVectorInt(A[i]);
+//		cout << "my answer = " << endl;
+//		printVectorVectorInt(ans);
+//	}
+//}
+
+// int main()
+// {
+// 	vector<int> N;
+// 	vector<int> A;
+// 
+// 	N.push_back(4);
+// 	A.push_back(1);
+// 
+// 
+// 	for (int i = 0; i < N.size(); i++)
+// 	{
+// 		cout << endl << "/////////////////////////////////" << endl;
+// 		cout << N[i] << " = " << A[i] << endl;
+// 		bool ans = canWinNim(N[i]);
+// 		cout << "my answer = " << ans << endl;
+// 	}
+// }
+
 
 //int main()
 //{
@@ -99,19 +112,7 @@ int main()
 //}
 
 
-//int main()
-//{
-//	vector<vector<int>> N;
-//	N.push_back({ 1,2,3,4 });
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "/////////////////////////////////" << endl;
-//		printVectorInt(N[i]);
-//		vector<int> ans = productExceptSelf(N[i]);
-//		printVectorInt(ans);
-//	}
-//}
+
 
 //int main()
 //{
