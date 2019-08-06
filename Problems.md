@@ -63,6 +63,7 @@
 * `（中等）`  [138.copy-list-with-random-pointer 复制带随机指针的链表](./problems/138.copy-list-with-random-pointer/README.md) 
 * `（简单）`  [141.linked-list-cycle 环形链表](./problems/141.linked-list-cycle/README.md) 
 * `（中等）`  [142.linked-list-cycle-ii 环形链表 II](./problems/142.linked-list-cycle-ii/README.md) 
+* `（中等）`  [146.lru-cache LRU缓存机制](./problems/146.lru-cache/README.md)
 * `（中等）`  [148.sort-list 排序链表](./problems/148.sort-list/README.md)
 * `（中等）`  [150.EvalRPN 逆波兰表达式求值](./problems/150.EvalRPN/README.md) 
 * `（中等）`  [151.reverse-words-in-a-string 翻转字符串里的单词](./problems/151.reverse-words-in-a-string/README.md) 
