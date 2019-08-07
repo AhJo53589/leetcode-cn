@@ -8,6 +8,19 @@
 
 
 ---
+## 20190807
+* 102.binary-tree-level-order-traversal 二叉树的层次遍历
+
+* 94.binary-tree-inorder-traversal 二叉树的中序遍历
+
+* 145.binary-tree-postorder-traversal 二叉树的后序遍历
+
+* 144.binary-tree-preorder-traversal 二叉树的前序遍历
+
+* 176.second-highest-salary 第二高的薪水
+
+
+---
 ## 20190806
 * 146.lru-cache LRU缓存机制
 
@@ -305,8 +318,6 @@
 
 ---
 ## 20190621
-* 94.InorderTraversal 二叉树的中序遍历
-
 * 133.CloneGraph 克隆图
 
 * 494.FindTargetSumWays 目标和
@@ -381,8 +392,6 @@
 
 ---
 ## 20190516
-* 102.LevelOrder 二叉树的层次遍历
-
 * 108.SortedArrayToBST 将有序数组转换为二叉搜索树
 
 

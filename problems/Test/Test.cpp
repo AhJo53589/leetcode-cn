@@ -20,101 +20,63 @@
 
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.h"
-//#include "..\Common\TreeNode.h"
+#include "..\Common\TreeNode.h"
 //#include "..\Common\ListNode.h"
 using namespace std;
 
 
 
 //////////////////////////////////////////////////////////////////////////
-class LRUCache {
-private:
-	int cap;
-	list<pair<int, int>> cache;
-	unordered_map<int, list<pair<int, int>>::iterator> map;
-public:
-	LRUCache(int capacity) {
-		this->cap = capacity;
-	}
+vector<vector<int>> levelOrder(TreeNode* root)
+{
+	if (root == nullptr) return {};
+	vector<vector<int>> ans;
+	queue<TreeNode *> que[2];
+	int seq = 0;
 
-	int get(int key) {
-		auto it = map.find(key);
-		if (it == map.end()) return -1;
-		pair<int, int> kv = *map[key];
-		cache.erase(map[key]);
-		cache.push_front(kv);
-		map[key] = cache.begin();
-		return kv.second; // value
-	}
+	que[seq].push(root);
+	while (!(que[0].empty() && que[1].empty()))
+	{
+		int seq_next = (seq + 1) % 2;
+		vector<int> num;
+		while (!que[seq].empty())
+		{
+			TreeNode *pNode = que[seq].front();
+			que[seq].pop();
+			num.push_back(pNode->val);
 
-	void put(int key, int value) {
-
-		auto it = map.find(key);
-		if (it == map.end()) {
-			if (cache.size() == cap) {
-				auto lastPair = cache.back();
-				int lastKey = lastPair.first;
-				map.erase(lastKey);
-				cache.pop_back();
-			}
-			cache.push_front(make_pair(key, value));
-			map[key] = cache.begin();
+			if (pNode->left != nullptr) que[seq_next].push(pNode->left);
+			if (pNode->right != nullptr) que[seq_next].push(pNode->right);
 		}
-		else {
-			cache.erase(map[key]);
-			cache.push_front(make_pair(key, value));
-			map[key] = cache.begin();
-		}
+		ans.push_back(num);
+		seq = seq_next;
 	}
-};
-
-/**
- * Your LRUCache object will be instantiated and called as such:
- * LRUCache* obj = new LRUCache(capacity);
- * int param_1 = obj->get(key);
- * obj->put(key,value);
- */
+	return ans;
+}
 
 int main()
 {
-	int capacity = 2;
-	LRUCache* obj = new LRUCache(capacity);
+	vector<TreeNode *> N;
+	vector<vector<vector<int>>> A;
+	TreeNode *pHead = nullptr;
 
-	obj->put(1, 1);
-	obj->put(2, 2);
-	obj->get(1);
-	obj->put(3, 3);
-	obj->get(2);
-	obj->put(4, 4);
-	obj->get(1);
-	obj->get(3);
-	obj->get(4);
+	StringToTreeNode(&pHead, "3,9,20,null,null,15,7");
+	N.push_back(pHead);
+	A.push_back({ {3}, { 9,20 }, { 15,7 } });
+	pHead = nullptr;
+
+
+	for (int i = 0; i < N.size(); i++)
+	{
+		cout << endl << "///////////////////////////////////////" << endl;
+		printTreeNode(N[i]);
+		cout << "levelOrder = " << endl;
+		printVectorVectorInt(A[i]);
+		vector<vector<int>> ans = levelOrder(N[i]);
+		cout << "my answer = " << endl;
+		printVectorVectorInt(ans);
+	}
 }
-
-
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<vector<vector<int>>> A;
-//	TreeNode *pHead = nullptr;
-//
-//	StringToTreeNode(&pHead, "3,9,20,null,null,15,7");
-//	N.push_back(pHead);
-//	A.push_back({ {3}, { 20,9 }, { 15,7 } });
-//	pHead = nullptr;
-//
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		printTreeNode(N[i]);
-//		cout << "zigzagLevelOrder = " << endl;
-//		printVectorVectorInt(A[i]);
-//		vector<vector<int>> ans = zigzagLevelOrder(N[i]);
-//		cout << "my answer = " << endl;
-//		printVectorVectorInt(ans);
-//	}
-//}
 
 //int main()
 //{
