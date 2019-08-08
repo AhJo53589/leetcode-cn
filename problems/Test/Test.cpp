@@ -27,56 +27,80 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<vector<int>> levelOrder(TreeNode* root)
+TreeNode* buildTree(vector<int>& preorder, vector<int>& inorder) 
 {
-	if (root == nullptr) return {};
-	vector<vector<int>> ans;
-	queue<TreeNode *> que[2];
-	int seq = 0;
+	if (preorder.size() != inorder.size() || inorder.size() == 0) return nullptr;
 
-	que[seq].push(root);
-	while (!(que[0].empty() && que[1].empty()))
+	int val = preorder[0];
+	bool f = false;
+	vector<int> left_inorder;
+	vector<int> right_inorder;
+	for (auto n : inorder)
 	{
-		int seq_next = (seq + 1) % 2;
-		vector<int> num;
-		while (!que[seq].empty())
-		{
-			TreeNode *pNode = que[seq].front();
-			que[seq].pop();
-			num.push_back(pNode->val);
+		if (n == val) { f = true; continue; }
 
-			if (pNode->left != nullptr) que[seq_next].push(pNode->left);
-			if (pNode->right != nullptr) que[seq_next].push(pNode->right);
-		}
-		ans.push_back(num);
-		seq = seq_next;
+		if (!f) left_inorder.push_back(n);
+		else right_inorder.push_back(n);
 	}
-	return ans;
+	vector<int> left_preorder;
+	vector<int> right_preorder;
+	for (auto n : preorder)
+	{
+		if (n == val) continue;
+		if (left_inorder.size() > left_preorder.size()) left_preorder.push_back(n);
+		else if (right_inorder.size() > right_preorder.size()) right_preorder.push_back(n);
+	}
+
+	TreeNode *root = new TreeNode(val);
+	root->left = buildTree(left_preorder, left_inorder);
+	root->right = buildTree(right_preorder, right_inorder);
+	return root;
 }
 
 int main()
 {
-	vector<TreeNode *> N;
-	vector<vector<vector<int>>> A;
-	TreeNode *pHead = nullptr;
+	vector<pair<vector<int>, vector<int>>> N;
+	vector<string> A;
 
-	StringToTreeNode(&pHead, "3,9,20,null,null,15,7");
-	N.push_back(pHead);
-	A.push_back({ {3}, { 9,20 }, { 15,7 } });
-	pHead = nullptr;
+	N.push_back({ {3,9,20,15,7}, {9,3,15,20,7} });
+	A.push_back("3,9,20,null,null,15,7");
 
-
-	for (int i = 0; i < N.size(); i++)
+	for (size_t i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
-		cout << "levelOrder = " << endl;
-		printVectorVectorInt(A[i]);
-		vector<vector<int>> ans = levelOrder(N[i]);
+		printVectorInt(N[i].first);
+		printVectorInt(N[i].second);
+		TreeNode *pNode = buildTree(N[i].first, N[i].second);
+		cout << "buildTree = " << endl;
+		cout << A[i] << endl;
 		cout << "my answer = " << endl;
-		printVectorVectorInt(ans);
+		printTreeNode(pNode);
 	}
 }
+
+//int main()
+//{
+//	vector<TreeNode *> N;
+//	vector<vector<vector<int>>> A;
+//	TreeNode *pHead = nullptr;
+//
+//	StringToTreeNode(&pHead, "3,9,20,null,null,15,7");
+//	N.push_back(pHead);
+//	A.push_back({ {3}, { 9,20 }, { 15,7 } });
+//	pHead = nullptr;
+//
+//
+//	for (int i = 0; i < N.size(); i++)
+//	{
+//		cout << endl << "///////////////////////////////////////" << endl;
+//		printTreeNode(N[i]);
+//		cout << "levelOrder = " << endl;
+//		printVectorVectorInt(A[i]);
+//		vector<vector<int>> ans = levelOrder(N[i]);
+//		cout << "my answer = " << endl;
+//		printVectorVectorInt(ans);
+//	}
+//}
 
 //int main()
 //{

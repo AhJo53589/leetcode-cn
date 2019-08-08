@@ -8,6 +8,13 @@
 
 
 ---
+## 20190808
+* 105.construct-binary-tree-from-preorder-and-inorder-traversal 从前序与中序遍历序列构造二叉树
+
+* 106.construct-binary-tree-from-inorder-and-postorder-traversal 从中序与后序遍历序列构造二叉树
+
+
+---
 ## 20190807
 * 102.binary-tree-level-order-traversal 二叉树的层次遍历
 
