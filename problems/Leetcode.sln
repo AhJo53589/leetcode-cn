@@ -313,6 +313,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "102.binary-tree-level-order
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "106.construct-binary-tree-from-inorder-and-postorder-traversal", "106.construct-binary-tree-from-inorder-and-postorder-traversal\106.construct-binary-tree-from-inorder-and-postorder-traversal.vcxproj", "{318FFE40-565F-4217-84A8-82B541301282}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "105.construct-binary-tree-from-preorder-and-inorder-traversal", "105.construct-binary-tree-from-preorder-and-inorder-traversal\105.construct-binary-tree-from-preorder-and-inorder-traversal.vcxproj", "{7EF14C89-1008-42A5-A54F-181BDAB17528}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1561,6 +1563,14 @@ Global
 		{318FFE40-565F-4217-84A8-82B541301282}.Release|x64.Build.0 = Release|x64
 		{318FFE40-565F-4217-84A8-82B541301282}.Release|x86.ActiveCfg = Release|Win32
 		{318FFE40-565F-4217-84A8-82B541301282}.Release|x86.Build.0 = Release|Win32
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Debug|x64.ActiveCfg = Debug|x64
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Debug|x64.Build.0 = Debug|x64
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Debug|x86.ActiveCfg = Debug|Win32
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Debug|x86.Build.0 = Debug|Win32
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Release|x64.ActiveCfg = Release|x64
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Release|x64.Build.0 = Release|x64
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Release|x86.ActiveCfg = Release|Win32
+		{7EF14C89-1008-42A5-A54F-181BDAB17528}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
