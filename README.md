@@ -3,7 +3,6 @@
 
 
 ## Selected Solutions
-* `（简单）`  [1.two-sum 两数之和](./problems/1.two-sum/README.md) | [发布的题解]() |
 * `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md) | [发布的题解](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) |
 * `（困难）`  [124.binary-tree-maximum-path-sum 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) |
 * `（中等）`  [138.copy-list-with-random-pointer 复制带随机指针的链表](./problems/138.copy-list-with-random-pointer/README.md) | [发布的题解](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-shi-yong-m/) |
