@@ -39,13 +39,13 @@ int main()
 	vector<pair<TreeNode *, TreeNode *>> K;
 	vector<int> A;
 
-	StringToTreeNode(&pHead, "6,2,8,0,4,7,9,null,null,3,5");
+	pHead = StringToTreeNode("6,2,8,0,4,7,9,null,null,3,5");
 	N.push_back(pHead);
 	K.push_back(make_pair(FindTreeNode(pHead, 2), FindTreeNode(pHead, 8)));
 	A.push_back(6);
 	pHead = nullptr;
 
-	StringToTreeNode(&pHead, "6,2,8,0,4,7,9,null,null,3,5");
+	pHead = StringToTreeNode("6,2,8,0,4,7,9,null,null,3,5");
 	N.push_back(pHead);
 	K.push_back(make_pair(FindTreeNode(pHead, 2), FindTreeNode(pHead, 4)));
 	A.push_back(6);
@@ -55,7 +55,7 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
+		DrawTreeNode(N[i]);
 		cout << "lowest Common Ancestor = " << A[i] << endl;
 		TreeNode *pNode = lowestCommonAncestor(N[i], K[i].first, K[i].second);
 		cout << "my answer = " << pNode->val << endl;

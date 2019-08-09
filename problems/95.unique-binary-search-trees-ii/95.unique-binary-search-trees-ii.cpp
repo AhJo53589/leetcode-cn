@@ -167,6 +167,6 @@ int main()
 	vector<TreeNode *> tree = generateTrees(3);
 	for (auto t : tree)
 	{
-		printTreeNode(t);
+		DrawTreeNode(t);
 	}
 }

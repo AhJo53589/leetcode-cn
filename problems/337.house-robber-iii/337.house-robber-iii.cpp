@@ -104,9 +104,8 @@ int main()
 	{
 		cout << "////////////////////////////////////" << endl;
 		cout << "Input: " << endl;
-		TreeNode *root = NULL;
-		StringToTreeNode(&root, s);
-		printTreeNode(root);
+		TreeNode *root = StringToTreeNode(s);
+		DrawTreeNode(root);
 
 		//vector<TreeNode *> pNodeList;
 		//PostOrder(root, pNodeList);

@@ -65,7 +65,7 @@ int main()
 	vector<vector<vector<int>>> A;
 	TreeNode *pHead = nullptr;
 
-	StringToTreeNode(&pHead, "3,9,20,null,null,15,7");
+	pHead = StringToTreeNode("3,9,20,null,null,15,7");
 	N.push_back(pHead);
 	A.push_back({ {3}, { 20,9 }, { 15,7 } });
 	pHead = nullptr;
@@ -74,7 +74,7 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
+		DrawTreeNode(N[i]);
 		cout << "zigzagLevelOrder = " << endl;
 		printVectorVectorInt(A[i]);
 		vector<vector<int>> ans = zigzagLevelOrder(N[i]);

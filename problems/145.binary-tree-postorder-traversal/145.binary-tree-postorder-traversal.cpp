@@ -48,7 +48,7 @@ int main()
 	vector<vector<int>> A;
 	TreeNode *pHead = nullptr;
 
-	StringToTreeNode(&pHead, "1,null,2,3");
+	pHead = StringToTreeNode("1,null,2,3");
 	N.push_back(pHead);
 	A.push_back({ 3,2,1 });
 	pHead = nullptr;
@@ -57,7 +57,7 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
+		DrawTreeNode(N[i]);
 		cout << "postorderTraversal = " << endl;
 		printVectorInt(A[i]);
 		vector<int> ans = postorderTraversal(N[i]);

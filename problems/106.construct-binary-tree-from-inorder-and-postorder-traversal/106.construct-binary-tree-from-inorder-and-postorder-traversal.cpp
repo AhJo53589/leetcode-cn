@@ -100,6 +100,6 @@ int main()
 		cout << "buildTree = " << endl;
 		cout << A[i] << endl;
 		cout << "my answer = " << endl;
-		printTreeNode(pNode);
+		DrawTreeNode(pNode);
 	}
 }

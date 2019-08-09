@@ -56,13 +56,12 @@ vector<TreeNode*> findDuplicateSubtrees(TreeNode* root)
 
 int main()
 {
-	TreeNode *pRoot = NULL;
-	StringToTreeNode(&pRoot, "1,2,3,4,null,2,4,null,null,4,null,null,null");
-
+	TreeNode *pRoot = StringToTreeNode("1,2,3,4,null,2,4,null,null,4,null,null,null");
+	
 	vector<TreeNode *> treelist = findDuplicateSubtrees(pRoot);
 	for (auto t : treelist)
 	{
-		printTreeNode(t);
+		DrawTreeNode(t);
 		cout << endl;
 	}
 }

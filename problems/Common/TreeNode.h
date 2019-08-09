@@ -12,27 +12,41 @@
 using namespace std;
 
 
+struct TreeNode;
+
+
+TreeNode *StringToTreeNode(const string data);
+string TreeNodeToString(const TreeNode *root);
+string TreeNodeToString_Full(const TreeNode *root);
+vector<int> GetOffsetForDraw(int _size);
+void DrawTreeNode(const TreeNode *root);
+
+TreeNode *FindTreeNode(TreeNode *root, int val);
+
+
+
 struct TreeNode
 {
 	int val;
 	TreeNode *left;
 	TreeNode *right;
-	TreeNode(int x) : val(x), left(NULL), right(NULL) {}
+	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+
+	// for 116£¬117
+	//TreeNode *next;
+	//TreeNode(int x) : val(x), left(nullptr), right(nullptr), next(nullptr) {}
+
+	friend ostream & operator<<(ostream& os, const TreeNode *p)
+	{
+		string s = TreeNodeToString(p);
+		os << s.c_str();
+		return os;
+	}
+	friend void operator>>(string &s, TreeNode **rhs)
+	{
+		*rhs = StringToTreeNode(s);
+	}
 };
-
-struct TreeNode_Val
-{
-	int val;
-	bool isNull;
-	TreeNode_Val(int x) : val(x), isNull(false) {}
-	TreeNode_Val(bool isN) : val(0), isNull(isN) {}
-};
-
-void StringToTreeNode(TreeNode **root, string strInitData);
-string TreeNodeToString(TreeNode *root);
-void printTreeNode(TreeNode *root);
-
-TreeNode *FindTreeNode(TreeNode *root, int val);
 
 
 

@@ -56,5 +56,5 @@ int main()
 	Init(nums);
 	TreeNode *root = NULL;
 	root = sortedArrayToBST(nums);
-	printTreeNode(root);
+	DrawTreeNode(root);
 }

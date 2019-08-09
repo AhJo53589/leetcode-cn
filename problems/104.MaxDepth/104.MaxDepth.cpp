@@ -23,9 +23,7 @@ int maxDepth(TreeNode* root)
 
 int main()
 {
-	string strInput{ "3,9,20,0,0,15,7" };
-	TreeNode *root = NULL;
-	StringToTreeNode(&root, strInput);
-	printTreeNode(root);
+	TreeNode *root = StringToTreeNode("3,9,20,0,0,15,7");
+	DrawTreeNode(root);
 	cout << endl << maxDepth(root) << endl;
 }

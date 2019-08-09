@@ -48,13 +48,13 @@ int main()
 	//vector<int> K;
 	vector<int> A;
 
-	StringToTreeNode(&pHead, "-10,9,20,null,null,15,7");
+	pHead = StringToTreeNode("-10,9,20,null,null,15,7");
 	N.push_back(pHead);
 	pHead = nullptr;
 	//K.push_back(1);
 	A.push_back(42);
 
-	StringToTreeNode(&pHead, "5,4,8,11,null,13,4,7,2,null,null,null,1");
+	pHead = StringToTreeNode("5,4,8,11,null,13,4,7,2,null,null,null,1");
 	N.push_back(pHead);
 	pHead = nullptr;
 	//K.push_back(1);
@@ -64,7 +64,7 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
+		DrawTreeNode(N[i]);
 		cout << "max Path Sum = " << A[i] << endl;
 		cout << "my answer = " << maxPathSum(N[i]) << endl;
 	}

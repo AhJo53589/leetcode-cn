@@ -45,12 +45,12 @@ int main()
 	TreeNode *pHead;
 	vector<int> K;
 
-	StringToTreeNode(&pHead, "3,1,4,null,2");
+	pHead = StringToTreeNode("3,1,4,null,2");
 	N.push_back(pHead);
 	pHead = nullptr;
 	K.push_back(1);
 
-	StringToTreeNode(&pHead, "5,3,6,2,4,null,null,1");
+	pHead = StringToTreeNode("5,3,6,2,4,null,null,1");
 	N.push_back(pHead);
 	pHead = nullptr;
 	K.push_back(3);
@@ -58,7 +58,7 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printTreeNode(N[i]);
+		DrawTreeNode(N[i]);
 		cout << "kth Smallest, k = " << K[i] << ", ans = ";
 		cout << kthSmallest(N[i], K[i]) << endl;
 	}
