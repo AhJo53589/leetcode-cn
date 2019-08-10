@@ -53,11 +53,16 @@ int main()
 	A.push_back({ 1,3,2 });
 	pHead = nullptr;
 
+	pHead = StringToTreeNode("1,0,15,null,null,4,35,3,8,25,49,2,null,5,12,21,27,47,null,null,null,null,7,11,13,19,24,26,31,40,48,6,null,9,null,null,14,17,20,23,null,null,null,30,33,39,42,null,null,null,null,null,10,null,null,16,18,null,null,null,null,28,null,32,34,36,null,41,44,null,null,null,null,null,null,null,29,null,null,null,null,null,37,null,null,43,46,null,null,null,38,null,null,45");
+	N.push_back(pHead);
+	A.push_back({ 1,3,2 });
+	pHead = nullptr;
+
 
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		DrawTreeNode(N[i]);
+		//DrawTreeNode(N[i]);
 		cout << "inorderTraversal = " << endl;
 		printVectorInt(A[i]);
 		vector<int> ans = inorderTraversal(N[i]);

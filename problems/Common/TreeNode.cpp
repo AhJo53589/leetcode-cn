@@ -38,8 +38,10 @@ TreeNode * StringToTreeNode(const string data)
 			qTree.pop();
 		}
 
-		auto f = [&qTree](const string &s, TreeNode **p)
+		auto f = [&qTree](string &s, TreeNode **p)
 		{
+			while (s.front() == ' ') s = s.substr(1, s.size() - 1);
+			while (s.back() == ' ') s.pop_back();
 			if (s == "null")
 			{
 				qTree.push(nullptr);
@@ -156,7 +158,7 @@ vector<int> GetOffsetForDraw(int _size)
 		}
 		s /= 2;
 	}
-	for (int i = 0; i < pos.size() - 2; i++)
+	for (size_t i = 0; i < pos.size() - 1; i++)
 	{
 		pos[i] = pos[i + 1];
 	}
@@ -173,20 +175,24 @@ void DrawTreeNode(const TreeNode *root)
 	string strVal;
 	int x = 0;
 	int y = 1;
+	vector<int> pos = GetOffsetForDraw(splitData.size());
 	for (int i = 0; i < splitData.size(); i++)
 	{
-		vector<int> pos = GetOffsetForDraw(splitData.size());
-		while (x++ < pos[i])
+		while (x < pos[i])
 		{
+			x++;
 			cout << " ";
 			strVal += " ";
 		}
-		if (i != 0 && i % 2 == 0) cout << "\\";
-		if (i != 0 && i % 2 == 1) cout << "/";
-		int val_x = splitData[i].size() - 1;
-		while (val_x-- > 0) cout << " ";
-		strVal += splitData[i];
-
+		if (splitData[i] != "null")
+		{
+			if (i != 0 && i % 2 == 0) cout << "\\";
+			if (i != 0 && i % 2 == 1) cout << "/";
+			int val_x = splitData[i].size() - 1;
+			while (val_x-- > 0) cout << " ";
+			strVal += splitData[i];
+		}
+		
 		if (i == pow(2, y) - 1 - 1)
 		{
 			x = 0;

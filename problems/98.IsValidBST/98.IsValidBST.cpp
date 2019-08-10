@@ -48,7 +48,9 @@ int main()
 	//string strInput{ "2,1,4,0,0,3,6" };
 	//string strInput{ "10,5,15,0,0,6,20" };
 	string strInput{ 1,1 };
-	TreeNode *root = StringToTreeNode(strInput);	
-	DrawTreeNode(root);
+	//TreeNode *root = StringToTreeNode("2,0,31,null,1,25,40,null,null,11,30,34,45,10,18,29,32,null,36,43,46,4,null,12,24,26,null,null,null,35,39,42,44,null,48,3,9,null,14,22,null,null,27,null,null,38,null,41,null,null,null,47,49,null,null,5,null,13,15,21,23,null,28,37,null,null,null,null,null,null,null,null,8,null,null,null,17,19,null,null,null,null,null,null,null,7,null,16,null,null,20,6");
+	TreeNode *root = StringToTreeNode(strInput);
+	//DrawTreeNode(root);
+	cout << root << endl;
 	cout << endl << isValidBST(root) << endl;
 }
