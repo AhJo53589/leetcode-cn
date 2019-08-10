@@ -175,7 +175,6 @@ TreeNode* deserialize(string data)
 	};
 
 	if (data.empty()) return nullptr;
-	if (data.back() == '\n') data.pop_back();
 	vector<string> splitData = split(data, ",");
 	if (data == "" || splitData[0] == "null") return nullptr;
 
@@ -194,8 +193,10 @@ TreeNode* deserialize(string data)
 			qTree.pop();
 		}
 
-		auto f = [&qTree](const string &s, TreeNode **p)
+		auto f = [&qTree](string &s, TreeNode **p)
 		{
+			while (s.front() == ' ') s = s.substr(1, s.size() - 1);
+			while (s.back() == ' ') s.pop_back();
 			if (s == "null")
 			{
 				qTree.push(nullptr);
