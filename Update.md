@@ -8,6 +8,15 @@
 
 
 ---
+## 20190812
+* 110.balanced-binary-tree 平衡二叉树
+
+* 220.contains-duplicate-iii 存在重复元素 III
+
+* 703.kth-largest-element-in-a-stream 数据流中的第K大元素
+
+
+---
 ## 20190810
 * 450.delete-node-in-a-bst 删除二叉搜索树中的节点
 

@@ -26,4 +26,24 @@ void printVectorVectorInt(vector<vector<int>>& matrix);
 void printVectorInt(vector<int>& nums);
 
 
+template<typename T>
+inline string checkAnswer(T a, T b)
+{
+	string check = (a == b) ? "" : "\t\tWRONG!";
+	return a + "\t <== " + b + check;
+}
+
+template<>
+inline string checkAnswer(bool a, bool b)
+{
+	string res;
+	res += a ? "true" : "false";
+	res += "\t <== ";
+	res += b ? "true" : "false";
+	res += (a == b) ? "" : "\t\tWRONG!";
+	return res;
+}
+
+
 #endif //COMMON_H
+

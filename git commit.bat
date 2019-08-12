@@ -1,9 +1,6 @@
 git pull
 git add -A
 
-git commit -m"* 450.delete-node-in-a-bst 删除二叉搜索树中的节点
-* 701.insert-into-a-binary-search-tree 二叉搜索树中的插入操作
-* 700.search-in-a-binary-search-tree 二叉搜索树中的搜索
-* 173.binary-search-tree-iterator 二叉搜索树迭代器"
+git commit -m"110.balanced-binary-tree 平衡二叉树\n220.contains-duplicate-iii 存在重复元素 III\n703.kth-largest-element-in-a-stream 数据流中的第K大元素"
 
 git push
