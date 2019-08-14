@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 451.sort-characters-by-frequency.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -26,9 +26,9 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-string frequencySort(string s) 
+string frequencySort(string s)
 {
-	auto f_cmp = [](const pair<char, int> &a, const pair<char, int> &b){ return a.second > b.second; };
+	auto f_cmp = [](const pair<char, int> &a, const pair<char, int> &b) { return a.second > b.second; };
 	auto f_sort = [f_cmp](map<char, int> &_m, vector<pair<char, int>> &_v)
 	{
 		for (auto i : _m) _v.push_back(i);
@@ -68,57 +68,3 @@ int main()
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
-
-
-
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<int> K;
-//	vector<bool> A;
-//
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-//	//K.push_back(3);
-//	A.push_back(true);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,null,null,4,4"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
-//
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
-//		//DrawTreeNode(ans);
-//
-//	}
-//}
-
-
-
-//int main()
-//{
-//	vector<ListNode *> lists;
-//	ListNode *pHead = nullptr;
-//	StringToListNode(&pHead, "[4,7,5,3]");
-//	lists.push_back(pHead);
-//	pHead = nullptr;
-//
-//	for (auto p : lists)
-//	{
-//		PrintLinkList(p);
-//		pHead = sortList(p);
-//		PrintLinkList(pHead);
-//		cout << endl;
-//	}
-//}
-
-

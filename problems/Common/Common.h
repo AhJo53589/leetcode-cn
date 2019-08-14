@@ -29,7 +29,7 @@ void printVectorInt(vector<int>& nums);
 template<typename T>
 inline string checkAnswer(T a, T b)
 {
-	string check = (a == b) ? "" : "\t\tWRONG!";
+	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	return a + "\t <== " + b + check;
 }
 
@@ -40,7 +40,7 @@ inline string checkAnswer(bool a, bool b)
 	res += a ? "true" : "false";
 	res += "\t <== ";
 	res += b ? "true" : "false";
-	res += (a == b) ? "" : "\t\tWRONG!";
+	res += (a == b) ? "" : "\t\t\t WRONG!";
 	return res;
 }
 

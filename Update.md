@@ -8,6 +8,13 @@
 
 
 ---
+## 20190814
+* 18.4sum 四数之和
+
+* 451.sort-characters-by-frequency 根据字符出现频率排序
+
+
+---
 ## 20190812
 * 110.balanced-binary-tree 平衡二叉树
 
