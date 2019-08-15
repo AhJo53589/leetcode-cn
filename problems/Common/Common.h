@@ -30,13 +30,14 @@ template<typename T>
 inline string checkAnswer(T a, T b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return a + "\t <== " + b + check;
+	return "Result = " + to_string(a) + "\t <== " + to_string(b) + check;
 }
 
 template<>
 inline string checkAnswer(bool a, bool b)
 {
 	string res;
+	res += "Result = ";
 	res += a ? "true" : "false";
 	res += "\t <== ";
 	res += b ? "true" : "false";

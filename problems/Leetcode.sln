@@ -339,6 +339,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "451.sort-characters-by-freq
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18.4sum", "18.4sum\18.4sum.vcxproj", "{82E0CCA1-4C44-404C-B272-F2D3E1650DE7}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "447.number-of-boomerangs", "447.number-of-boomerangs\447.number-of-boomerangs.vcxproj", "{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1691,6 +1693,14 @@ Global
 		{82E0CCA1-4C44-404C-B272-F2D3E1650DE7}.Release|x64.Build.0 = Release|x64
 		{82E0CCA1-4C44-404C-B272-F2D3E1650DE7}.Release|x86.ActiveCfg = Release|Win32
 		{82E0CCA1-4C44-404C-B272-F2D3E1650DE7}.Release|x86.Build.0 = Release|Win32
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Debug|x64.ActiveCfg = Debug|x64
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Debug|x64.Build.0 = Debug|x64
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Debug|x86.ActiveCfg = Debug|Win32
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Debug|x86.Build.0 = Debug|Win32
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Release|x64.ActiveCfg = Release|x64
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Release|x64.Build.0 = Release|x64
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Release|x86.ActiveCfg = Release|Win32
+		{30BFEF20-A1AB-4CAD-AAD2-902BF7A5997A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

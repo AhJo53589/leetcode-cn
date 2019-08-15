@@ -24,47 +24,32 @@
 //#include "..\Common\ListNode.h"
 using namespace std;
 
+//////////////////////////////////////////////////////////////////////////
+
 
 //////////////////////////////////////////////////////////////////////////
-string frequencySort(string s) 
+int maxPoints(vector<vector<int>>& points) 
 {
-	auto f_cmp = [](const pair<char, int> &a, const pair<char, int> &b){ return a.second > b.second; };
-	auto f_sort = [f_cmp](map<char, int> &_m, vector<pair<char, int>> &_v)
-	{
-		for (auto i : _m) _v.push_back(i);
-		sort(_v.begin(), _v.end(), f_cmp);
-	};
 
-	map<char, int> m;
-	for (auto &c : s)m[c]++;
-	vector<pair<char, int>> v;
-	f_sort(m, v);
-	string res;
-	for (auto p : v) for (int i = 0; i < p.second; i++) res += p.first;
-	return res;
 }
 
 
 int main()
 {
-	vector<string> TESTS;
+	vector<vector<vector<int>>> TESTS;
 	//vector<int> K;
-	vector<string> ANSWERS;
+	vector<int> ANSWERS;
 
-	TESTS.push_back("tree");
-	ANSWERS.push_back("eert");
+	TESTS.push_back({ { 1,1 }, { 2,2 }, { 3,3 } });
+	ANSWERS.push_back(3);
 
-	TESTS.push_back("cccaaa");
-	ANSWERS.push_back("aaaccc");
-
-	TESTS.push_back("Aabb");
-	ANSWERS.push_back("bbAa");
-
+	TESTS.push_back({ {1,1},{3,2},{5,3},{4,1},{2,3},{1,4} });
+	ANSWERS.push_back(4);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = frequencySort(TESTS[i]);
+		auto ans = maxPoints(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
