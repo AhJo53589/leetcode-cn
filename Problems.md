@@ -73,6 +73,7 @@
 * `（困难）`  [145.binary-tree-postorder-traversal 二叉树的后序遍历](./problems/145.binary-tree-postorder-traversal/README.md)
 * `（中等）`  [146.lru-cache LRU缓存机制](./problems/146.lru-cache/README.md)
 * `（中等）`  [148.sort-list 排序链表](./problems/148.sort-list/README.md)
+* `（困难）`  [149.max-points-on-a-line 直线上最多的点数](./problems/149.max-points-on-a-line/README.md)
 * `（中等）`  [150.EvalRPN 逆波兰表达式求值](./problems/150.EvalRPN/README.md) 
 * `（中等）`  [151.reverse-words-in-a-string 翻转字符串里的单词](./problems/151.reverse-words-in-a-string/README.md) 
 * `（中等）`  [153.find-minimum-in-rotated-sorted-array 寻找旋转排序数组中的最小值](./problems/153.find-minimum-in-rotated-sorted-array/README.md)

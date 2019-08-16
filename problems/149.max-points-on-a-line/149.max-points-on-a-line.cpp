@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 149.max-points-on-a-line.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -25,7 +25,11 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////
+bool cmp(vector<int>& a, vector<int>& b)
+{
+	if (a[0] != b[0]) return a[0] < b[0];
+	else return a[1] < b[1];
+}
 
 bool isLine(vector<int>& a, vector<int>& b, vector<int>& c)
 {
@@ -35,32 +39,74 @@ bool isLine(vector<int>& a, vector<int>& b, vector<int>& c)
 	return false;
 }
 
-int maxPoints(vector<vector<int>>& points)
+int maxPoints(vector<vector<int>>& points) 
 {
 	if (points.size() < 3) return points.size();
-	int res = 0;
-	for (int i = 0; i < points.size(); i++)
+	sort(points.begin(), points.end(), cmp);
+
+	int ans = 2, count1 = 1, count2 = 1;
+	for (int i = 0; i < points.size() - 2; i++) 
 	{
-		int cnt1 = 1;
-		for (int j = i + 1; j < points.size(); j++)
+		count1 = 1;
+		while (i < points.size() - 3 && points[i + 1][0] == points[i][0] && points[i + 1][1] == points[i][1]) 
 		{
-			if (points[i] == points[j])
+			count1++;
+			i++;
+		}
+		for (int j = i + 1; j < points.size() - 1; j++) 
+		{
+			count2 = 1;
+			while (j < points.size() - 2 && points[j + 1][0] == points[j][0] && points[j + 1][1] == points[j][1]) 
 			{
-				cnt1++;
-				res = max(res, cnt1);
-				continue;
+				count2++;
+				j++;
 			}
-			int cnt2 = 1;
-			for (int k = j + 1; k < points.size(); k++)
-			{
-				if (points[i] == points[k] || points[j] == points[k]) cnt2++;
-				else if (isLine(points[i], points[j], points[k])) cnt2++;
+			int tmp = count1 + count2;
+			for (int k = j + 1; k < points.size(); k++) {
+				if (isLine(points[i], points[j], points[k])) tmp++;
 			}
-			res = max(res, cnt1 + cnt2);
+			ans = ans > tmp ? ans : tmp;
 		}
 	}
-	return res;
+	return ans;
 }
+
+
+//////////////////////////////////////////////////////////////////////////
+//bool isLine(vector<int>& a, vector<int>& b, vector<int>& c)
+//{
+//	long long tmp1 = ((long long)a[0] - b[0]) * ((long long)a[1] - c[1]);
+//	long long tmp2 = ((long long)a[0] - c[0]) * ((long long)a[1] - b[1]);
+//	if (tmp1 == tmp2) return true;
+//	return false;
+//}
+//
+//int maxPoints(vector<vector<int>>& points)
+//{
+//	if (points.size() < 3) return points.size();
+//	int res = 0;
+//	for (int i = 0; i < points.size(); i++)
+//	{
+//		int cnt1 = 1;
+//		for (int j = i + 1; j < points.size(); j++)
+//		{
+//			if (points[i] == points[j])
+//			{
+//				cnt1++;
+//				res = max(res, cnt1);
+//				continue;
+//			}
+//			int cnt2 = 1;
+//			for (int k = j + 1; k < points.size(); k++)
+//			{
+//				if (points[i] == points[k] || points[j] == points[k]) cnt2++;
+//				else if (isLine(points[i], points[j], points[k])) cnt2++;
+//			}
+//			res = max(res, cnt1 + cnt2);
+//		}
+//	}
+//	return res;
+//}
 
 
 int main()
@@ -94,57 +140,3 @@ int main()
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
-
-
-
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<int> K;
-//	vector<bool> A;
-//
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-//	//K.push_back(3);
-//	A.push_back(true);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,null,null,4,4"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
-//
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
-//		//DrawTreeNode(ans);
-//
-//	}
-//}
-
-
-
-//int main()
-//{
-//	vector<ListNode *> lists;
-//	ListNode *pHead = nullptr;
-//	StringToListNode(&pHead, "[4,7,5,3]");
-//	lists.push_back(pHead);
-//	pHead = nullptr;
-//
-//	for (auto p : lists)
-//	{
-//		PrintLinkList(p);
-//		pHead = sortList(p);
-//		PrintLinkList(pHead);
-//		cout << endl;
-//	}
-//}
-
-
