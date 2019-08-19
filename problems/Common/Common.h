@@ -45,6 +45,12 @@ inline string checkAnswer(bool a, bool b)
 	return res;
 }
 
+template<>
+inline string checkAnswer(vector<vector<int>> &a, vector<vector<int>> &b)
+{
+	string check = (a == b) ? "" : "\t\t\t WRONG!";
+	return "Result = " + VectorVectorIntToString(a) + "\t <== " + VectorVectorIntToString(b) + check;
+}
 
 #endif //COMMON_H
 
