@@ -25,86 +25,109 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////
-void setZeroes(vector<vector<int>>& matrix) 
+bool increasingTriplet(vector<int>& nums)
 {
-	int m = matrix.size();
-	if (m == 0) return;
-	int n = matrix[0].size();
-
-	bool bZeroH = (matrix[0][0] == 0);
-	bool bZeroV = (matrix[0][0] == 0);
-
-	for (int i = 0; i < m; i++)
+	if (nums.size() < 3) return false;
+	int l = 0;
+	int l2 = 0;
+	int m = 0;
+	for (int i = 1; i < nums.size(); i++)
 	{
-		for (int j = 0; j < n; j++)
+		if (m == l)
 		{
-			if (matrix[i][j] == 0)
+			if (nums[l] < nums[i]) m = i;
+			else
 			{
-				if (i == 0) bZeroH = true;
-				else matrix[i][0] = 0;
-				if (j == 0) bZeroV = true;
-				else matrix[0][j] = 0;
+				l = i;
+				l2 = i;
+				m = i;
+			}
+		}
+		else
+		{
+			if (nums[m] < nums[i]) return true;
+			if (nums[i] < nums[l2]) l2 = i;
+			else if (nums[l2] < nums[i] && nums[i] < nums[m])
+			{
+				l = l2;
+				m = i;
 			}
 		}
 	}
-
-	for (int i = 1; i < m; i++)
-	{
-		if (matrix[i][0] == 0)
-		{
-			for (int j = 1; j < n; j++) matrix[i][j] = 0;
-		}
-	}
-
-	for (int j = 1; j < n; j++)
-	{
-		if (matrix[0][j] == 0)
-		{
-			for (int i = 1; i < m; i++) matrix[i][j] = 0;
-		}
-	}
-	if (bZeroH)
-	{
-		for (int j = 0; j < n; j++) matrix[0][j] = 0;
-	}
-	if (bZeroV)
-	{
-		for (int i = 0; i < m; i++) matrix[i][0] = 0;
-	}
+	return false;
 }
-
 
 int main()
 {
-	vector<vector<vector<int>>> TESTS;
+	vector<vector<int>> TESTS;
 	//vector<int> K;
-	vector<vector<vector<int>>> ANSWERS;
+	vector<bool> ANSWERS;
 
-	TESTS.push_back(StringToVectorVectorInt("[[1, 0]]"));
-	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0]]"));
+	//TESTS.push_back(StringToVectorInt("[1,2,3,4,5]"));
+	//ANSWERS.push_back(true);
 
-	TESTS.push_back(StringToVectorVectorInt("[[1, 0, 3]]"));
-	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0, 0]]"));
+	//TESTS.push_back(StringToVectorInt("[5,4,3,2,1]"));
+	//ANSWERS.push_back(false);
 
-	TESTS.push_back(StringToVectorVectorInt("[[1, 1, 1],[1, 0, 1],[1, 1, 1]]"));
-	ANSWERS.push_back(StringToVectorVectorInt("[[1, 0, 1],[0, 0, 0],[1, 0, 1]]"));
+	//TESTS.push_back(StringToVectorInt("[9,7,8,5,6,3,4,1,2]"));
+	//ANSWERS.push_back(false);
 
-	TESTS.push_back(StringToVectorVectorInt("[[0, 1, 2, 0],[3, 4, 5, 2],[1, 3, 1, 5]]"));
-	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0, 0, 0],[0, 4, 5, 0],[0, 3, 1, 0]]"));
+	//TESTS.push_back(StringToVectorInt("[9,7,8,5,6,1,4,2,3]"));
+	//ANSWERS.push_back(true);
+
+	//TESTS.push_back(StringToVectorInt("[3,9,8,5,2,1,2,3,4]"));
+	//ANSWERS.push_back(true);
+
+	//TESTS.push_back(StringToVectorInt("[5,1,5,5,2,5,4]"));
+	//ANSWERS.push_back(true);
+
+	TESTS.push_back(StringToVectorInt("[1,1,-2,6]"));
+	ANSWERS.push_back(false);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		//auto ans = setZeroes(TESTS[i]);
-		printVectorVectorInt(TESTS[i]);
-		setZeroes(TESTS[i]);
-		cout << checkAnswer<decltype(TESTS[i])>(TESTS[i], ANSWERS[i]) << endl;
+		printVectorInt(TESTS[i]);
+		bool ans = increasingTriplet(TESTS[i]);
+		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
 
 
+//////////////////////////////////////////////////////////////////////////
+// 二维数组
+//int main()
+//{
+//	vector<vector<vector<int>>> TESTS;
+//	//vector<int> K;
+//	vector<vector<vector<int>>> ANSWERS;
+//
+//	TESTS.push_back(StringToVectorVectorInt("[[1, 0]]"));
+//	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0]]"));
+//
+//	TESTS.push_back(StringToVectorVectorInt("[[1, 0, 3]]"));
+//	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0, 0]]"));
+//
+//	TESTS.push_back(StringToVectorVectorInt("[[1, 1, 1],[1, 0, 1],[1, 1, 1]]"));
+//	ANSWERS.push_back(StringToVectorVectorInt("[[1, 0, 1],[0, 0, 0],[1, 0, 1]]"));
+//
+//	TESTS.push_back(StringToVectorVectorInt("[[0, 1, 2, 0],[3, 4, 5, 2],[1, 3, 1, 5]]"));
+//	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0, 0, 0],[0, 4, 5, 0],[0, 3, 1, 0]]"));
+//
+//	for (int i = 0; i < TESTS.size(); i++)
+//	{
+//		cout << endl << "/////////////////////////////" << endl;
+//		//auto ans = setZeroes(TESTS[i]);
+//		printVectorVectorInt(TESTS[i]);
+//		setZeroes(TESTS[i]);
+//		cout << checkAnswer<decltype(TESTS[i])>(TESTS[i], ANSWERS[i]) << endl;
+//	}
+//}
 
+
+//////////////////////////////////////////////////////////////////////////
+// TreeNode
 //int main()
 //{
 //	vector<TreeNode *> N;
@@ -137,7 +160,8 @@ int main()
 //}
 
 
-
+//////////////////////////////////////////////////////////////////////////
+// List Node
 //int main()
 //{
 //	vector<ListNode *> lists;

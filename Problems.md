@@ -122,6 +122,7 @@
 * `（困难）`  [297.serialize-and-deserialize-binary-tree 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree/README.md)
 * `（简单）`  [326.IsPowerOfThree 3的幂](./problems/326.IsPowerOfThree/README.md) 
 * `（中等）`  [328.odd-even-linked-list 奇偶链表](./problems/328.odd-even-linked-list/README.md) 
+* `（中等）`  [334.increasing-triplet-subsequence 递增的三元子序列](./problems/334.increasing-triplet-subsequence/README.md)
 * `（中等）`  [337.house-robber-iii 打家劫舍 III](./problems/337.house-robber-iii/README.md)
 * `（简单）`  [344.ReverseString 反转字符串](./problems/344.ReverseString/README.md) 
 * `（简单）`  [345.reverse-vowels-of-a-string 反转字符串中的元音字母](./problems/345.reverse-vowels-of-a-string/README.md) 
