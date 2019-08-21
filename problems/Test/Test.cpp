@@ -25,74 +25,84 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-bool increasingTriplet(vector<int>& nums)
+vector<string> letterCombinations(string digits) 
 {
-	if (nums.size() < 3) return false;
-	int l = 0;
-	int l2 = 0;
-	int m = 0;
-	for (int i = 1; i < nums.size(); i++)
+	if (digits.empty()) return {};
+	vector<string> data{ "abc","def","ghi","jkl","mno","pqrs","tuv","wxyz" };
+	vector<string> res;
+	res.push_back("");
+
+	for (int i = 0; i < digits.size(); i++)
 	{
-		if (m == l)
+		int d = digits[i] - '2';
+		int len = res.size();
+		for (int j = 0; j < len; j++)
 		{
-			if (nums[l] < nums[i]) m = i;
-			else
+			for (auto m : data[d])
 			{
-				l = i;
-				l2 = i;
-				m = i;
+				res.push_back(res[j] + m);
 			}
 		}
-		else
-		{
-			if (nums[m] < nums[i]) return true;
-			if (nums[i] < nums[l2]) l2 = i;
-			else if (nums[l2] < nums[i] && nums[i] < nums[m])
-			{
-				l = l2;
-				m = i;
-			}
-		}
+		res.erase(res.begin(), res.begin() + len);
 	}
-	return false;
+	return res;
 }
+
 
 int main()
 {
-	vector<vector<int>> TESTS;
+	vector<string> TESTS;
 	//vector<int> K;
-	vector<bool> ANSWERS;
+	vector<vector<string>> ANSWERS;
 
-	//TESTS.push_back(StringToVectorInt("[1,2,3,4,5]"));
-	//ANSWERS.push_back(true);
-
-	//TESTS.push_back(StringToVectorInt("[5,4,3,2,1]"));
-	//ANSWERS.push_back(false);
-
-	//TESTS.push_back(StringToVectorInt("[9,7,8,5,6,3,4,1,2]"));
-	//ANSWERS.push_back(false);
-
-	//TESTS.push_back(StringToVectorInt("[9,7,8,5,6,1,4,2,3]"));
-	//ANSWERS.push_back(true);
-
-	//TESTS.push_back(StringToVectorInt("[3,9,8,5,2,1,2,3,4]"));
-	//ANSWERS.push_back(true);
-
-	//TESTS.push_back(StringToVectorInt("[5,1,5,5,2,5,4]"));
-	//ANSWERS.push_back(true);
-
-	TESTS.push_back(StringToVectorInt("[1,1,-2,6]"));
-	ANSWERS.push_back(false);
+	TESTS.push_back("23");
+	ANSWERS.push_back({ "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" });
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		//auto ans = setZeroes(TESTS[i]);
-		printVectorInt(TESTS[i]);
-		bool ans = increasingTriplet(TESTS[i]);
+		auto ans = letterCombinations(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
+
+
+// int main()
+// {
+// 	vector<vector<int>> TESTS;
+// 	//vector<int> K;
+// 	vector<bool> ANSWERS;
+// 
+// 	//TESTS.push_back(StringToVectorInt("[1,2,3,4,5]"));
+// 	//ANSWERS.push_back(true);
+// 
+// 	//TESTS.push_back(StringToVectorInt("[5,4,3,2,1]"));
+// 	//ANSWERS.push_back(false);
+// 
+// 	//TESTS.push_back(StringToVectorInt("[9,7,8,5,6,3,4,1,2]"));
+// 	//ANSWERS.push_back(false);
+// 
+// 	//TESTS.push_back(StringToVectorInt("[9,7,8,5,6,1,4,2,3]"));
+// 	//ANSWERS.push_back(true);
+// 
+// 	//TESTS.push_back(StringToVectorInt("[3,9,8,5,2,1,2,3,4]"));
+// 	//ANSWERS.push_back(true);
+// 
+// 	//TESTS.push_back(StringToVectorInt("[5,1,5,5,2,5,4]"));
+// 	//ANSWERS.push_back(true);
+// 
+// 	TESTS.push_back(StringToVectorInt("[1,1,-2,6]"));
+// 	ANSWERS.push_back(false);
+// 
+// 	for (int j = 0; j < TESTS.size(); j++)
+// 	{
+// 		cout << endl << "/////////////////////////////" << endl;
+// 		//auto ans = setZeroes(TESTS[j]);
+// 		printVectorInt(TESTS[j]);
+// 		bool ans = increasingTriplet(TESTS[j]);
+// 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[j]) << endl;
+// 	}
+// }
 
 
 //////////////////////////////////////////////////////////////////////////
@@ -115,13 +125,13 @@ int main()
 //	TESTS.push_back(StringToVectorVectorInt("[[0, 1, 2, 0],[3, 4, 5, 2],[1, 3, 1, 5]]"));
 //	ANSWERS.push_back(StringToVectorVectorInt("[[0, 0, 0, 0],[0, 4, 5, 0],[0, 3, 1, 0]]"));
 //
-//	for (int i = 0; i < TESTS.size(); i++)
+//	for (int j = 0; j < TESTS.size(); j++)
 //	{
 //		cout << endl << "/////////////////////////////" << endl;
-//		//auto ans = setZeroes(TESTS[i]);
-//		printVectorVectorInt(TESTS[i]);
-//		setZeroes(TESTS[i]);
-//		cout << checkAnswer<decltype(TESTS[i])>(TESTS[i], ANSWERS[i]) << endl;
+//		//auto ans = setZeroes(TESTS[j]);
+//		printVectorVectorInt(TESTS[j]);
+//		setZeroes(TESTS[j]);
+//		cout << checkAnswer<decltype(TESTS[j])>(TESTS[j], ANSWERS[j]) << endl;
 //	}
 //}
 
@@ -146,14 +156,14 @@ int main()
 //	//K.push_back(3);
 //	A.push_back(false);
 //
-//	for (int i = 0; i < N.size(); i++)
+//	for (int j = 0; j < N.size(); j++)
 //	{
 //		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
+//		cout << N[j] << endl;
+//		//DrawTreeNode(N[j]);
 //
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
+//		bool ans = isBalanced(N[j]);
+//		cout << checkAnswer<bool>(ans, A[j]) << endl;
 //		//DrawTreeNode(ans);
 //
 //	}
