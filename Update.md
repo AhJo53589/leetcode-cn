@@ -8,6 +8,11 @@
 
 
 ---
+## 20190822
+* 22.generate-parentheses 括号生成
+
+
+---
 ## 20190821
 * 17.letter-combinations-of-a-phone-number 电话号码的字母组合
 

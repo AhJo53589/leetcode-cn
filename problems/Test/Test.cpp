@@ -25,43 +25,53 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> letterCombinations(string digits) 
+
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> generateParenthesis(int n) 
 {
-	if (digits.empty()) return {};
-	vector<string> data{ "abc","def","ghi","jkl","mno","pqrs","tuv","wxyz" };
+	vector<int> res_left;
 	vector<string> res;
+	res_left.push_back(0);
 	res.push_back("");
 
-	for (int i = 0; i < digits.size(); i++)
+	for (int i = 0; i < 2 * n; i++)
 	{
-		int d = digits[i] - '2';
 		int len = res.size();
 		for (int j = 0; j < len; j++)
 		{
-			for (auto m : data[d])
+			int left = res_left[j];
+			if (left < n)
 			{
-				res.push_back(res[j] + m);
+				res_left.push_back(left + 1);
+				res.push_back(res[j] + "(");
+			}
+
+			if (i - left < left)
+			{
+				res_left.push_back(left);
+				res.push_back(res[j] + ")");
 			}
 		}
+		res_left.erase(res_left.begin(), res_left.begin() + len);
 		res.erase(res.begin(), res.begin() + len);
 	}
 	return res;
 }
 
-
 int main()
 {
-	vector<string> TESTS;
+	vector<int> TESTS;
 	//vector<int> K;
 	vector<vector<string>> ANSWERS;
 
-	TESTS.push_back("23");
-	ANSWERS.push_back({ "ad", "ae", "af", "bd", "be", "bf", "cd", "ce", "cf" });
+	TESTS.push_back(3);
+	ANSWERS.push_back({ "((()))","(()())","(())()","()(())","()()()"});
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = letterCombinations(TESTS[i]);
+		auto ans = generateParenthesis(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

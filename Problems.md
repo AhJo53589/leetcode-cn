@@ -20,6 +20,7 @@
 * `（中等）`  [19.RemoveNthFromEnd 删除链表的倒数第N个节点](./problems/19.RemoveNthFromEnd/README.md) 
 * `（简单）`  [20.IsValid 有效的括号](./problems/20.IsValid/README.md) 
 * `（简单）`  [21.MergeTwoLists 合并两个有序链表](./problems/21.MergeTwoLists/README.md) 
+* `（中等）`  [22.generate-parentheses 括号生成](./problems/22.generate-parentheses/README.md)
 * `（困难）`  [23.merge-k-sorted-lists 合并K个排序链表](./problems/23.merge-k-sorted-lists/README.md)
 * `（中等）`  [24.swap-nodes-in-pairs 两两交换链表中的节点](./problems/24.swap-nodes-in-pairs/README.md) 
 * `（简单）`  [26.RemoveDuplicates 删除排序数组中的重复项](./problems/26.RemoveDuplicates/README.md) 

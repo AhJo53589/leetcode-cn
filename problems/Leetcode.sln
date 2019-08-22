@@ -349,6 +349,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "334.increasing-triplet-subs
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "17.letter-combinations-of-a-phone-number", "17.letter-combinations-of-a-phone-number\17.letter-combinations-of-a-phone-number.vcxproj", "{55CBCC2C-5661-4B1D-983B-D37E212D03DD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22.generate-parentheses", "22.generate-parentheses\22.generate-parentheses.vcxproj", "{3D381AE2-9E30-4A10-B70F-839F64C51BE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1741,6 +1743,14 @@ Global
 		{55CBCC2C-5661-4B1D-983B-D37E212D03DD}.Release|x64.Build.0 = Release|x64
 		{55CBCC2C-5661-4B1D-983B-D37E212D03DD}.Release|x86.ActiveCfg = Release|Win32
 		{55CBCC2C-5661-4B1D-983B-D37E212D03DD}.Release|x86.Build.0 = Release|Win32
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Debug|x64.ActiveCfg = Debug|x64
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Debug|x64.Build.0 = Debug|x64
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Debug|x86.ActiveCfg = Debug|Win32
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Debug|x86.Build.0 = Debug|Win32
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Release|x64.ActiveCfg = Release|x64
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Release|x64.Build.0 = Release|x64
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Release|x86.ActiveCfg = Release|Win32
+		{3D381AE2-9E30-4A10-B70F-839F64C51BE0}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
