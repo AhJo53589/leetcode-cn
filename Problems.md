@@ -31,6 +31,7 @@
 * `（中等）`  [36.IsValidSudoku 有效的数独](./problems/36.IsValidSudoku/README.md) 
 * `（简单）`  [38.CountAndSay 报数](./problems/38.CountAndSay/README.md) 
 * `（中等）`  [43.multiply-strings 字符串相乘](./problems/43.multiply-strings/README.md)
+* `（中等）`  [46.permutations 全排列](./problems/46.permutations/README.md)
 * `（中等）`  [48.Rotate 旋转图像](./problems/48.Rotate/README.md) 
 * `（中等）`  [49.group-anagrams 字母异位词分组](./problems/49.group-anagrams/README.md) 
 * `（中等）`  [50.MyPow](./problems/50.MyPow/README.md) 

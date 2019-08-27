@@ -1,6 +1,6 @@
 git pull
 git add -A
 
-git commit -m"22.generate-parentheses"
+git commit -m"46.permutations"
 
 git push

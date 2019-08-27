@@ -46,10 +46,10 @@ inline string checkAnswer(bool a, bool b)
 }
 
 template<>
-inline string checkAnswer(vector<vector<int>> &a, vector<vector<int>> &b)
+inline string checkAnswer(vector<vector<int>> a, vector<vector<int>> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return "Result = " + VectorVectorIntToString(a) + "\t <== " + VectorVectorIntToString(b) + check;
+	return "Result = \n" + VectorVectorIntToString(a) + "\n" + VectorVectorIntToString(b) + "\n" + check;
 }
 
 template<>

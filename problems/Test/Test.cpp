@@ -28,50 +28,40 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> generateParenthesis(int n) 
+void backtrack(vector<int> &nums, vector<vector<int>> &res, int i)
 {
-	vector<int> res_left;
-	vector<string> res;
-	res_left.push_back(0);
-	res.push_back("");
+	if (i == nums.size()) res.push_back(nums);
 
-	for (int i = 0; i < 2 * n; i++)
+	for (int j = i; j < nums.size(); j++)
 	{
-		int len = res.size();
-		for (int j = 0; j < len; j++)
-		{
-			int left = res_left[j];
-			if (left < n)
-			{
-				res_left.push_back(left + 1);
-				res.push_back(res[j] + "(");
-			}
-
-			if (i - left < left)
-			{
-				res_left.push_back(left);
-				res.push_back(res[j] + ")");
-			}
-		}
-		res_left.erase(res_left.begin(), res_left.begin() + len);
-		res.erase(res.begin(), res.begin() + len);
+		swap(nums[i], nums[j]);
+		backtrack(nums, res, i + 1);
+		swap(nums[i], nums[j]);
 	}
+}
+
+vector<vector<int>> permute(vector<int>& nums) 
+{
+	vector<vector<int>> res;
+	backtrack(nums, res, 0);
 	return res;
 }
 
+
+
 int main()
 {
-	vector<int> TESTS;
+	vector<vector<int>> TESTS;
 	//vector<int> K;
-	vector<vector<string>> ANSWERS;
+	vector<vector<vector<int>>> ANSWERS;
 
-	TESTS.push_back(3);
-	ANSWERS.push_back({ "((()))","(()())","(())()","()(())","()()()"});
+	TESTS.push_back({1,2,3});
+	ANSWERS.push_back({ {1,2,3}, {1,3,2}, {2,1,3}, {2,3,1}, {3,2,1}, {3,1,2} });
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = generateParenthesis(TESTS[i]);
+		auto ans = permute(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

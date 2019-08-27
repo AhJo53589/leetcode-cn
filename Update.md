@@ -8,6 +8,11 @@
 
 
 ---
+## 20190827
+* 46.permutations 全排列
+
+
+---
 ## 20190822
 * 22.generate-parentheses 括号生成
 
