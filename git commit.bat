@@ -1,6 +1,6 @@
 git pull
 git add -A
 
-git commit -m"46.permutations"
+git commit -m"78.subsets"
 
 git push

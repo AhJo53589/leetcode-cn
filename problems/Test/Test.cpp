@@ -25,25 +25,25 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-
-
 //////////////////////////////////////////////////////////////////////////
-void backtrack(vector<int> &nums, vector<vector<int>> &res, int i)
+void backtrack(vector<int> &nums, vector<vector<int>> &res, vector<int> record, int n)
 {
-	if (i == nums.size()) res.push_back(nums);
-
-	for (int j = i; j < nums.size(); j++)
+	if (n == nums.size()) return;
+	for (int i = n; i < nums.size(); i++)
 	{
-		swap(nums[i], nums[j]);
-		backtrack(nums, res, i + 1);
-		swap(nums[i], nums[j]);
+		record.push_back(nums[i]);
+		res.push_back(record);
+		backtrack(nums, res, record, i + 1);
+		record.pop_back();
 	}
 }
 
-vector<vector<int>> permute(vector<int>& nums) 
+vector<vector<int>> subsets(vector<int>& nums)
 {
 	vector<vector<int>> res;
-	backtrack(nums, res, 0);
+	vector<int> record;
+	res.push_back(record);
+	backtrack(nums, res, record, 0);
 	return res;
 }
 
@@ -56,12 +56,12 @@ int main()
 	vector<vector<vector<int>>> ANSWERS;
 
 	TESTS.push_back({1,2,3});
-	ANSWERS.push_back({ {1,2,3}, {1,3,2}, {2,1,3}, {2,3,1}, {3,2,1}, {3,1,2} });
+	ANSWERS.push_back({ {}, {1}, {1,2}, {1,2,3}, {1,3}, {2}, {2,3}, {3} });
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = permute(TESTS[i]);
+		auto ans = subsets(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

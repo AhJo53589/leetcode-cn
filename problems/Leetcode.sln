@@ -353,6 +353,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "22.generate-parentheses", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "46.permutations", "46.permutations\46.permutations.vcxproj", "{23848567-AD9B-4538-9C5F-6B90BE16BA7A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "78.subsets", "78.subsets\78.subsets.vcxproj", "{B9B7B19F-7435-40CF-90DC-76FC83289628}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1761,6 +1763,14 @@ Global
 		{23848567-AD9B-4538-9C5F-6B90BE16BA7A}.Release|x64.Build.0 = Release|x64
 		{23848567-AD9B-4538-9C5F-6B90BE16BA7A}.Release|x86.ActiveCfg = Release|Win32
 		{23848567-AD9B-4538-9C5F-6B90BE16BA7A}.Release|x86.Build.0 = Release|Win32
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Debug|x64.ActiveCfg = Debug|x64
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Debug|x64.Build.0 = Debug|x64
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Debug|x86.Build.0 = Debug|Win32
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Release|x64.ActiveCfg = Release|x64
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Release|x64.Build.0 = Release|x64
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Release|x86.ActiveCfg = Release|Win32
+		{B9B7B19F-7435-40CF-90DC-76FC83289628}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
