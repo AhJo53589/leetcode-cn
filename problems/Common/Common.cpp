@@ -44,9 +44,37 @@ vector<char> StringToVectorChar(string str)
 	{
 		int i = 0;
 		while (s[i] == ' ') i++;
+		while (s[i] == '\'') i++;
 		chars.push_back(s[i]);
 	}
 	return chars;
+}
+
+vector<vector<char>> StringToVectorVectorChar(string str)
+{
+	vector<vector<char>> matrix;
+	if (str.size() < 3) return {};
+	str = str.substr(1, str.size() - 2);
+
+	string strSub;
+	char last = ' ';
+	for (auto c : str)
+	{
+		if (last == ']')
+		{
+			last = ' ';
+			continue;
+		}
+		strSub += c;
+		last = c;
+		if (c == ']')
+		{
+			matrix.push_back(StringToVectorChar(strSub));
+			strSub.clear();
+		}
+	}
+
+	return matrix;
 }
 
 vector<string> StringToVectorString(string str)

@@ -56,11 +56,13 @@ int rob(vector<int>& nums)
 
 int main()
 {
-	vector<int> nums = StringToVectorInt("[1]");
+	//vector<int> nums = StringToVectorInt("[1]");
 
 	//vector<int> nums = StringToVectorInt("[2,3,2]");
 	//vector<int> nums = StringToVectorInt("[1,2,3,1]");
 	//vector<int> nums = StringToVectorInt("[2,1,1,4,1,5]");
+
+	vector<int> nums = { 1,2,10,1,1,1,10,1,1,10 };
 
 	cout << rob(nums) << endl;
 }

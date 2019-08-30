@@ -1,6 +1,6 @@
 git pull
 git add -A
 
-git commit -m"78.subsets"
+git commit -m"79.word-search"
 
 git push

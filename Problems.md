@@ -47,6 +47,7 @@
 * `（中等）`  [73.set-matrix-zeroes 矩阵置零](./problems/73.set-matrix-zeroes/README.md)
 * `（中等）`  [75.sort-colors 颜色分类](./problems/75.sort-colors/README.md) 
 * `（中等）`  [78.subsets 子集](./problems/78.subsets/README.md)
+* `（中等）`  [79.word-search 单词搜索](./problems/79.word-search/README.md)
 * `（简单）`  [80.remove-duplicates-from-sorted-array-ii 删除排序数组中的重复项](./problems/80.remove-duplicates-from-sorted-array-ii/README.md) 
 * `（简单）`  [88.Merge 合并两个有序数组](./problems/88.Merge/README.md) 
 * `（中等）`  [94.binary-tree-inorder-traversal 二叉树的中序遍历](./problems/94.binary-tree-inorder-traversal/README.md)
