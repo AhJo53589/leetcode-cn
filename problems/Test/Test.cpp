@@ -26,88 +26,34 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-bool exist(vector<vector<char>> &board, size_t i, size_t j, string word, unordered_set<size_t> visited)
+bool canJump(vector<int>& nums) 
 {
-	if (word.empty()) return true;
-	if (board.size() == 0 || board.size() <= i) return false;
-	if (board[0].size() == 0 || board[0].size() <= j) return false;
-	if (visited.count(i * board[0].size() + j)) return false;
-	
-	if (board[i][j] != word.front()) return false;
-	word = word.substr(1, word.size() - 1);
-	visited.insert(i * board[0].size() + j);
-
-	if (exist(board, i - 1, j, word, visited)) return true;
-	if (exist(board, i + 1, j, word, visited)) return true;
-	if (exist(board, i, j - 1, word, visited)) return true;
-	if (exist(board, i, j + 1, word, visited)) return true;
-
-	return false;
+	int k = 0;
+	for (int i = 0; i < nums.size(); i++)
+	{
+		if (i > k) return false;
+		k = max(k, i + nums[i]);
+	}
+	return true;
 }
-
-bool exist(vector<vector<char>>& board, string word) 
-{
-	unordered_map<char, int> map_board;
-	unordered_map<char, int> map_word;
-	for (int i = 0; i < board.size(); i++)
-	{
-		for (int j = 0; j < board[i].size(); j++)
-		{
-			map_board[board[i][j]]++;
-		}
-	}
-	for (auto &c : word)
-	{
-		map_word[c]++;
-		if (map_word[c] > map_board[c]) return false;
-	}
-
-	unordered_set<size_t> visited;
-	for (int i = 0; i < board.size(); i++)
-	{
-		for (int j = 0; j < board[i].size(); j++)
-		{
-			if (board[i][j] == word.front())
-			{
-				if (exist(board, i, j, word, visited)) return true;
-			}
-		}
-	}
-	return false;
-}
-
 
 
 int main()
 {
-	vector<vector<vector<char>>> TESTS;
-	vector<string> K;
+	vector<vector<int>> TESTS;
+	//vector<string> K;
 	vector<bool> ANSWERS;
 
-	TESTS.push_back(StringToVectorVectorChar("[['A', 'B', 'C', 'E'],['S', 'F', 'C', 'S'],['A', 'D', 'E', 'E']]"));
-	K.push_back("ABCCED");
+	TESTS.push_back({2,3,1,1,4});
 	ANSWERS.push_back(true);
 
-	TESTS.push_back(StringToVectorVectorChar("[['A', 'B', 'C', 'E'],['S', 'F', 'C', 'S'],['A', 'D', 'E', 'E']]"));
-	K.push_back("SEE");
-	ANSWERS.push_back(true);
-
-	TESTS.push_back(StringToVectorVectorChar("[['A', 'B', 'C', 'E'],['S', 'F', 'C', 'S'],['A', 'D', 'E', 'E']]"));
-	K.push_back("ABCB");
-	ANSWERS.push_back(false);
-
-	TESTS.push_back(StringToVectorVectorChar("[['A', 'B', 'C', 'E'],['S', 'F', 'E', 'S'],['A', 'D', 'E', 'E']]"));
-	K.push_back("ABCESEEEFS");
-	ANSWERS.push_back(true);
-
-	TESTS.push_back(StringToVectorVectorChar("[[a,a,a,a],[a,a,a,a],[a,a,a,a],[a,a,a,a],[a,a,a,b]"));
-	K.push_back("aaaaaaaaaaaaaaaaaaaa");
+	TESTS.push_back({ 3,2,1,0,4 });
 	ANSWERS.push_back(false);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = exist(TESTS[i], K[i]);
+		auto ans = canJump(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
