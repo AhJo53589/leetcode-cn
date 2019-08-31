@@ -25,35 +25,50 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////
-bool canJump(vector<int>& nums) 
+int uniquePaths(int m, int n)
 {
-	int k = 0;
-	for (int i = 0; i < nums.size(); i++)
+	int dp[101][101] = { 0 };
+	for (int i = 0; i < m; i++)
 	{
-		if (i > k) return false;
-		k = max(k, i + nums[i]);
+		dp[i][0] = 1;
 	}
-	return true;
+	for (int j = 0; j < n; j++)
+	{
+		dp[0][j] = 1;
+	}
+	for (int i = 1; i < m; i++)
+	{
+		for (int j = 1; j < n; j++)
+		{
+			dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
+		}
+	}
+	return dp[m - 1][n - 1];
 }
 
+//////////////////////////////////////////////////////////////////////////
+//int uniquePaths(int m, int n)
+//{
+//	if (m == 1 || n == 1) return 1;
+//	return uniquePaths(m - 1, n) + uniquePaths(m, n - 1);
+//}
 
 int main()
 {
 	vector<vector<int>> TESTS;
 	//vector<string> K;
-	vector<bool> ANSWERS;
+	vector<int> ANSWERS;
 
-	TESTS.push_back({2,3,1,1,4});
-	ANSWERS.push_back(true);
+	TESTS.push_back({ 3,2 });
+	ANSWERS.push_back(3);
 
-	TESTS.push_back({ 3,2,1,0,4 });
-	ANSWERS.push_back(false);
+	TESTS.push_back({ 7,3 });
+	ANSWERS.push_back(28);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = canJump(TESTS[i]);
+		auto ans = uniquePaths(TESTS[i][0], TESTS[i][1]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

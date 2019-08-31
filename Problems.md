@@ -41,6 +41,7 @@
 * `（中等）`  [56.merge-intervals 合并区间](./problems/56.merge-intervals/README.md)
 * `（中等）`  [59.spiral-matrix-ii 螺旋矩阵 II](./problems/59.spiral-matrix-ii/README.md)
 * `（中等）`  [61.rotate-list 旋转链表](./problems/61.rotate-list/README.md) 
+* `（中等）`  [62.unique-paths 不同路径](./problems/62.unique-paths/README.md)
 * `（简单）`  [66.PlusOne 加一](./problems/66.PlusOne/README.md) 
 * `（简单）`  [67.add-binary 二进制求和](./problems/67.add-binary/README.md) 
 * `（简单）`  [69.sqrtx x 的平方根](./problems/69.sqrtx/README.md)
