@@ -25,50 +25,112 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-int uniquePaths(int m, int n)
-{
-	int dp[101][101] = { 0 };
-	for (int i = 0; i < m; i++)
-	{
-		dp[i][0] = 1;
-	}
-	for (int j = 0; j < n; j++)
-	{
-		dp[0][j] = 1;
-	}
-	for (int i = 1; i < m; i++)
-	{
-		for (int j = 1; j < n; j++)
-		{
-			dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
-		}
-	}
-	return dp[m - 1][n - 1];
-}
+//int coinChange(vector<int>& coins, int amount)
+//{
+//	if (amount == 0) return 0;
+//	sort(coins.begin(), coins.end());
+//	vector<int> _in;
+//	vector<int> _out;
+//	unordered_set<int> _set;
+//
+//	for (int i = 0; i < coins.size(); i++)
+//	{
+//		if (coins[i] == amount) return 1;
+//		if (coins[i] > amount) continue;
+//		_in.push_back(coins[i]);
+//		_set.insert(coins[i]);
+//	}
+//	int k = 2;
+//	while (!_in.empty())
+//	{
+//		bool bOverFlag = true;
+//		for (auto &a : _in)
+//		{
+//			for (auto &c : coins)
+//			{
+//				if (a + c == amount) return k;
+//				if (a + c > amount)
+//				{
+//					if (bOverFlag) return -1;
+//					continue;
+//				}
+//				bOverFlag = false;
+//				if (_set.count(a + c)) continue;
+//				_out.push_back(a + c);
+//				_set.insert(a + c);
+//			}
+//		}
+//		k++;
+//		_in.swap(_out);
+//		_out.clear();
+//	}
+//	return -1;
+//}
 
 //////////////////////////////////////////////////////////////////////////
-//int uniquePaths(int m, int n)
-//{
-//	if (m == 1 || n == 1) return 1;
-//	return uniquePaths(m - 1, n) + uniquePaths(m, n - 1);
-//}
+void coinChange(vector<int>& coins, int amount, int c_index, int count, int &ans)
+{
+	if (amount == 0)
+	{
+		ans = min(ans, count);
+		return;
+	}
+	if (c_index == coins.size()) return;
+
+	for (int k = amount / coins[c_index]; k >= 0 && k + count < ans; k--)
+	{
+		coinChange(coins, amount - k * coins[c_index], c_index + 1, count + k, ans);
+	}
+	return;
+}
+
+int coinChange(vector<int>& coins, int amount)
+{
+	if (amount == 0) return 0;
+	sort(coins.rbegin(), coins.rend());
+	int ans = INT_MAX;
+	coinChange(coins, amount, 0, 0, ans);
+	return ans == INT_MAX ? -1 : ans;
+}
 
 int main()
 {
 	vector<vector<int>> TESTS;
-	//vector<string> K;
+	vector<int> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ 3,2 });
+	TESTS.push_back({ 1,2,5 });
+	K.push_back(11);
 	ANSWERS.push_back(3);
 
-	TESTS.push_back({ 7,3 });
-	ANSWERS.push_back(28);
+	TESTS.push_back({ 2 });
+	K.push_back(3);
+	ANSWERS.push_back(-1);
+
+	TESTS.push_back({ 2 });
+	K.push_back(1);
+	ANSWERS.push_back(-1);
+
+	TESTS.push_back({ 1 });
+	K.push_back(0);
+	ANSWERS.push_back(0);
+
+	TESTS.push_back({ 186,419,83,408 });
+	K.push_back(6249);
+	ANSWERS.push_back(20);
+
+	TESTS.push_back({ 3,7,405,436 });
+	K.push_back(8839);
+	ANSWERS.push_back(25);
+
+	TESTS.push_back({ 71,440,63,321,461,310,467,456,361 });
+	K.push_back(9298);
+	ANSWERS.push_back(20);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = uniquePaths(TESTS[i][0], TESTS[i][1]);
+		auto ans = coinChange(TESTS[i], K[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
