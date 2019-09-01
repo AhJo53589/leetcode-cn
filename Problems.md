@@ -127,6 +127,7 @@
 * `（中等）`  [287.find-the-duplicate-number 寻找重复数](./problems/287.find-the-duplicate-number/README.md)
 * `（简单）`  [292.nim-game Nim 游戏](./problems/292.nim-game/README.md)
 * `（困难）`  [297.serialize-and-deserialize-binary-tree 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree/README.md)
+* `（中等）`  [300.longest-increasing-subsequence 最长上升子序列](./problems/300.longest-increasing-subsequence/README.md)
 * `（中等）`  [322.coin-change 零钱兑换](./problems/322.coin-change/README.md)
 * `（简单）`  [326.IsPowerOfThree 3的幂](./problems/326.IsPowerOfThree/README.md) 
 * `（中等）`  [328.odd-even-linked-list 奇偶链表](./problems/328.odd-even-linked-list/README.md) 

@@ -10,6 +10,11 @@
 
 
 ---
+## 20190901
+* 300.longest-increasing-subsequence 最长上升子序列
+
+
+---
 ## 20190831
 * 322.coin-change 零钱兑换
 
