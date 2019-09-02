@@ -90,6 +90,7 @@
 * `（简单）`  [155.MinStack 最小栈](./problems/155.MinStack/README.md) 
 * `（简单）`  [160.intersection-of-two-linked-lists 相交链表](./problems/160.intersection-of-two-linked-lists/README.md) 
 * `（中等）`  [162.find-peak-element 寻找峰值](./problems/162.find-peak-element/README.md)
+* `（中等）`  [166.fraction-to-recurring-decimal 分数到小数](./problems/166.fraction-to-recurring-decimal/README.md)
 * `（简单）`  [167.two-sum-ii-input-array-is-sorted 两数之和 II - 输入有序数组](./problems/167.two-sum-ii-input-array-is-sorted/README.md) 
 * `（简单）`  [169.MajorityElement 求众数](./problems/169.MajorityElement/README.md) 
 * `（简单）`  [171.excel-sheet-column-number Excel表列序号](./problems/171.excel-sheet-column-number/README.md)

@@ -26,23 +26,42 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-int divide(int dividend, int divisor) 
-{
-	if (divisor == 0 || (dividend == INT_MIN && divisor == -1)) return INT_MAX;
-	int sign = ((dividend < 0) ^ (divisor < 0)) ? -1 : 1;
-	long long m = abs((long long)dividend), n = abs((long long)divisor), res = 0;
-	while (m >= n)
-	{
-		long long t = n, p = 1;
-		while (m >= (t << 1))
-		{
-			t <<= 1;
-			p <<= 1;
-		}
-		m -= t;
-		res += p;
+string fractionToDecimal(int numerator, int denominator) {
+	string result;
+	if (denominator == 0)
+		return result;
+	long long num = static_cast<long long>(numerator);
+	long long denom = static_cast<long long>(denominator);
+	//处理符号
+	if ((num < 0 && denom > 0) || (num > 0 && denom < 0))
+		result += "-";
+	num = abs(num);
+	denom = abs(denom);
+	//处理整数部分
+	result += to_string(num / denom);
+	num %= denom;
+	//处理小数部分
+	if (num)
+		result += ".";
+	//利用hash表记录出现过的除数从而定位循环
+	unordered_map<long long, int> map;
+	int index = 0;//当前index - map[num]可以定位循环的长度
+	while (num && map.find(num) == map.end()) {
+		map[num] = index++;
+		num *= 10;
+		result += to_string(num / denom);
+		num %= denom;
 	}
-	return sign == 1 ? res : -res;
+	//如果是出现了循环小数
+	if (map.find(num) != map.end()) {
+		result += "()";
+		int cur = result.size() - 2;
+		while (index-- > map[num]) {
+			swap(result[cur], result[cur - 1]);
+			--cur;
+		}
+	}
+	return result;
 }
 
 
@@ -50,18 +69,28 @@ int main()
 {
 	vector<vector<int>> TESTS;
 	//vector<int> K;
-	vector<int> ANSWERS;
+	vector<string> ANSWERS;
 
-	TESTS.push_back({ 10,3 });
-	ANSWERS.push_back(3);
+	TESTS.push_back({ 1,2 });
+	ANSWERS.push_back("0.5");
 
-	TESTS.push_back({ 7,-3 });
-	ANSWERS.push_back(-2);
+	TESTS.push_back({ 2,1 });
+	ANSWERS.push_back("2");
+
+	TESTS.push_back({ 2,3 });
+	ANSWERS.push_back("0.(6)");
+
+	TESTS.push_back({ 0,1 });
+	ANSWERS.push_back("0");
+
+	//TESTS.push_back({ -2147483648​,-1 });
+	//ANSWERS.push_back("0.5");
+
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = divide(TESTS[i][0], TESTS[i][1]);
+		auto ans = fractionToDecimal(TESTS[i][0], TESTS[i][1]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

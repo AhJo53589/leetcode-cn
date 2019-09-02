@@ -371,6 +371,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "171.excel-sheet-column-numb
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "29.divide-two-integers", "29.divide-two-integers\29.divide-two-integers.vcxproj", "{AF356747-B48F-4327-AB6D-8F86B90CFF0F}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "166.fraction-to-recurring-decimal", "166.fraction-to-recurring-decimal\166.fraction-to-recurring-decimal.vcxproj", "{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1851,6 +1853,14 @@ Global
 		{AF356747-B48F-4327-AB6D-8F86B90CFF0F}.Release|x64.Build.0 = Release|x64
 		{AF356747-B48F-4327-AB6D-8F86B90CFF0F}.Release|x86.ActiveCfg = Release|Win32
 		{AF356747-B48F-4327-AB6D-8F86B90CFF0F}.Release|x86.Build.0 = Release|Win32
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Debug|x64.ActiveCfg = Debug|x64
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Debug|x64.Build.0 = Debug|x64
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Debug|x86.ActiveCfg = Debug|Win32
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Debug|x86.Build.0 = Debug|Win32
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Release|x64.ActiveCfg = Release|x64
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Release|x64.Build.0 = Release|x64
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Release|x86.ActiveCfg = Release|Win32
+		{204D99F2-6F02-4E8F-B6B4-1945AE1A2791}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
