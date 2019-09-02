@@ -26,39 +26,41 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-int trailingZeroes(int n) 
+int titleToNumber(string s)
 {
 	int res = 0;
-	while (n) 
+	double i = 1;
+	while (!s.empty())
 	{
-		res += n / 5;
-		n /= 5;
+		res += (s.back() - 'A' + 1) * i;
+		s.pop_back();
+		i *= 26;
 	}
 	return res;
 }
 
 int main()
 {
-	vector<int> TESTS;
+	vector<string> TESTS;
 	//vector<int> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ 3 });
-	ANSWERS.push_back(0);
-
-	TESTS.push_back({ 5 });
+	TESTS.push_back({ "A" });
 	ANSWERS.push_back(1);
 
-	TESTS.push_back({ 5 });
-	ANSWERS.push_back(1);
+	TESTS.push_back({ "AB" });
+	ANSWERS.push_back(28);
 
-	TESTS.push_back({ 10 });
-	ANSWERS.push_back(2);
+	TESTS.push_back({ "ZY" });
+	ANSWERS.push_back(701);
+
+	TESTS.push_back({ "CFDGSXM" });
+	ANSWERS.push_back(1000000001);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = trailingZeroes(TESTS[i]);
+		auto ans = titleToNumber(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

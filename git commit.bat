@@ -1,6 +1,6 @@
 git pull
 git add -A
 
-git commit -m"172.factorial-trailing-zeroes"
+git commit -m"171.excel-sheet-column-number"
 
 git push
