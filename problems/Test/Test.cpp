@@ -26,41 +26,39 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-int lengthOfLIS(vector<int>& nums) 
+int trailingZeroes(int n) 
 {
-	if (nums.empty()) return 0;
 	int res = 0;
-	vector<int> dp(nums.size(), 0);
-	for (int i = 1; i < nums.size(); i++)
+	while (n) 
 	{
-		for (int j = 0; j < i; j++)
-		{
-			if (nums[i] > nums[j])
-			{
-				dp[i] = max(dp[i], dp[j] + 1);
-				res = max(res, dp[i]);
-			}
-		}
+		res += n / 5;
+		n /= 5;
 	}
-	return res + 1;
+	return res;
 }
 
 int main()
 {
-	vector<vector<int>> TESTS;
+	vector<int> TESTS;
 	//vector<int> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ 10,9,2,5,3,7,101,18 });
-	ANSWERS.push_back(4);
+	TESTS.push_back({ 3 });
+	ANSWERS.push_back(0);
 
-	TESTS.push_back({ 10,22,9,33,21,50,41,60,80 });
-	ANSWERS.push_back(6);
+	TESTS.push_back({ 5 });
+	ANSWERS.push_back(1);
+
+	TESTS.push_back({ 5 });
+	ANSWERS.push_back(1);
+
+	TESTS.push_back({ 10 });
+	ANSWERS.push_back(2);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = lengthOfLIS(TESTS[i]);
+		auto ans = trailingZeroes(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

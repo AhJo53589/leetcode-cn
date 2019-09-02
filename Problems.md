@@ -91,6 +91,7 @@
 * `（中等）`  [162.find-peak-element 寻找峰值](./problems/162.find-peak-element/README.md)
 * `（简单）`  [167.two-sum-ii-input-array-is-sorted 两数之和 II - 输入有序数组](./problems/167.two-sum-ii-input-array-is-sorted/README.md) 
 * `（简单）`  [169.MajorityElement 求众数](./problems/169.MajorityElement/README.md) 
+* `（简单）`  [172.factorial-trailing-zeroes 阶乘后的零](./problems/172.factorial-trailing-zeroes/README.md)
 * `（中等）`  [173.binary-search-tree-iterator 二叉搜索树迭代器](./problems/173.binary-search-tree-iterator/README.md)
 * `（简单）`  [176.second-highest-salary 第二高的薪水](./problems/176.second-highest-salary/README.md)
 * `（简单）`  [189.Rotate 旋转数组](./problems/189.Rotate/README.md) 

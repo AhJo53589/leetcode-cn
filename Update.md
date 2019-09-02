@@ -10,6 +10,11 @@
 
 
 ---
+## 20190902
+* 172.factorial-trailing-zeroes 阶乘后的零
+
+
+---
 ## 20190901
 * 300.longest-increasing-subsequence 最长上升子序列
 
