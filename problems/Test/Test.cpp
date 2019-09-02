@@ -26,41 +26,42 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-int titleToNumber(string s)
+int divide(int dividend, int divisor) 
 {
-	int res = 0;
-	double i = 1;
-	while (!s.empty())
+	if (divisor == 0 || (dividend == INT_MIN && divisor == -1)) return INT_MAX;
+	int sign = ((dividend < 0) ^ (divisor < 0)) ? -1 : 1;
+	long long m = abs((long long)dividend), n = abs((long long)divisor), res = 0;
+	while (m >= n)
 	{
-		res += (s.back() - 'A' + 1) * i;
-		s.pop_back();
-		i *= 26;
+		long long t = n, p = 1;
+		while (m >= (t << 1))
+		{
+			t <<= 1;
+			p <<= 1;
+		}
+		m -= t;
+		res += p;
 	}
-	return res;
+	return sign == 1 ? res : -res;
 }
+
 
 int main()
 {
-	vector<string> TESTS;
+	vector<vector<int>> TESTS;
 	//vector<int> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ "A" });
-	ANSWERS.push_back(1);
+	TESTS.push_back({ 10,3 });
+	ANSWERS.push_back(3);
 
-	TESTS.push_back({ "AB" });
-	ANSWERS.push_back(28);
-
-	TESTS.push_back({ "ZY" });
-	ANSWERS.push_back(701);
-
-	TESTS.push_back({ "CFDGSXM" });
-	ANSWERS.push_back(1000000001);
+	TESTS.push_back({ 7,-3 });
+	ANSWERS.push_back(-2);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = titleToNumber(TESTS[i]);
+		auto ans = divide(TESTS[i][0], TESTS[i][1]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

@@ -26,6 +26,7 @@
 * `（简单）`  [26.RemoveDuplicates 删除排序数组中的重复项](./problems/26.RemoveDuplicates/README.md) 
 * `（简单）`  [27.remove-element 移除元素](./problems/27.remove-element/README.md) 
 * `（简单）`  [28.StrStr 实现strStr()](./problems/28.StrStr/README.md) 
+* `（中等）`  [29.divide-two-integers 两数相除](./problems/29.divide-two-integers/README.md)
 * `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md)
 * `（中等）`  [34.find-first-and-last-position-of-element-in-sorted-array 在排序数组中查找元素的第一个和最后一个位置](./problems/34.find-first-and-last-position-of-element-in-sorted-array/README.md)
 * `（中等）`  [36.IsValidSudoku 有效的数独](./problems/36.IsValidSudoku/README.md) 
