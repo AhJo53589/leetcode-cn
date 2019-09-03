@@ -20,7 +20,7 @@
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) | [发布的题解](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/) |
 
 ## Problems & Solutions
-完成进度 （187 / 1158）
+完成进度 （188 / 1158）
 [查看详情](./Problems.md)  
 
 ## Update

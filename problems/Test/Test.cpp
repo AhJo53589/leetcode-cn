@@ -26,62 +26,60 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////////////
-int leastInterval(vector<char>& tasks, int n)
+vector<int> grayCode(int n)
 {
-	array<int, 26> task_count = {};
-	vector<int> task_order;
+	if (n == 0) return { 0 };
+	if (n == 1) return { 0, 1 };
 
-	for (auto &c : tasks)
+	vector<int> prev = grayCode(n - 1);
+	vector<int> res;
+	bool bFlag = true;
+	for (int i = 0; i < prev.size(); i += 2)
 	{
-		task_count[c - 'A']++;
-	}
-	for (int i = 0; i < task_count.size(); i++)
-	{
-		if (task_count[i] == 0) continue;
-		task_order.push_back(task_count[i]);
-	}
-	sort(task_order.rbegin(), task_order.rend());
+		int add1 = prev[i] & 1;
+		int add2 = (add1 == 1) ? 0 : 1;
+		if (!bFlag) swap(add1, add2);
+		res.push_back((prev[i] << 1) + add1);
+		res.push_back((prev[i] << 1) + add2);
 
-	int res = 0;
-	while (!task_order.empty())
-	{
-		int count = 0;
-		for (int i = 0; i < task_order.size(); i++)
-		{
-			task_order[i]--;
-			count++;
-			if (count == n + 1) break;
-		}
-		sort(task_order.rbegin(), task_order.rend());
-		while (!task_order.empty() && task_order.back() == 0) task_order.pop_back();
+		add1 = prev[i + 1] & 1;
+		add2 = (add1 == 1) ? 0 : 1;
+		if (!bFlag) swap(add1, add2);
+		res.push_back((prev[i + 1] << 1) + add1);
+		res.push_back((prev[i + 1] << 1) + add2);
 
-		res += task_order.empty() ? count : n + 1;
+		bFlag = !bFlag;
 	}
-
 	return res;
 }
+
+//////////////////////////////////////////////////////////////////////////
+
 
 
 
 int main()
 {
-	vector<vector<char>> TESTS;
-	vector<int> K;
-	vector<int> ANSWERS;
+	vector<int> TESTS;
+	//vector<int> K;
+	vector<vector<int>> ANSWERS;
 
-	TESTS.push_back({ 'A','A','A','B','B','B' });
-	K.push_back(2);
-	ANSWERS.push_back(8);
+	TESTS.push_back(0);
+	ANSWERS.push_back({0});
 
-	TESTS.push_back({ 'A','B','C','B','C','C','D','E' });
-	K.push_back(2);
-	ANSWERS.push_back(8);
+	TESTS.push_back(2);
+	ANSWERS.push_back({ 0,1,3,2 });
+
+	TESTS.push_back(3);
+	ANSWERS.push_back({ 0,1,3,2,6,7,5,4 });
+
+	TESTS.push_back(4);
+	ANSWERS.push_back({ 0,1,3,2,6,7,5,4,12,13,15,14,10,11,9,8 });
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = leastInterval(TESTS[i], K[i]);
+		auto ans = grayCode(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
