@@ -5,6 +5,7 @@
 #include <iostream>
 
 #include <algorithm>
+#include <array>
 #include <map>
 #include <unordered_map>
 #include <unordered_set>
@@ -26,47 +27,61 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-int getSum(int a, int b) 
+int leastInterval(vector<char>& tasks, int n)
 {
-	int c = a ^ b;
-	unsigned int d = a & b;
-	if (d != 0)
+	array<int, 26> task_count = {};
+	vector<int> task_order;
+
+	for (auto &c : tasks)
 	{
-		//说明存在进位
-		d <<= 1;
-		return getSum(c, d);
+		task_count[c - 'A']++;
 	}
-	return c;
+	for (int i = 0; i < task_count.size(); i++)
+	{
+		if (task_count[i] == 0) continue;
+		task_order.push_back(task_count[i]);
+	}
+	sort(task_order.rbegin(), task_order.rend());
+
+	int res = 0;
+	while (!task_order.empty())
+	{
+		int count = 0;
+		for (int i = 0; i < task_order.size(); i++)
+		{
+			task_order[i]--;
+			count++;
+			if (count == n + 1) break;
+		}
+		sort(task_order.rbegin(), task_order.rend());
+		while (!task_order.empty() && task_order.back() == 0) task_order.pop_back();
+
+		res += task_order.empty() ? count : n + 1;
+	}
+
+	return res;
 }
 
 
 
 int main()
 {
-	vector<vector<int>> TESTS;
-	//vector<int> K;
+	vector<vector<char>> TESTS;
+	vector<int> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ 1,2 });
-	ANSWERS.push_back(3);
+	TESTS.push_back({ 'A','A','A','B','B','B' });
+	K.push_back(2);
+	ANSWERS.push_back(8);
 
-	TESTS.push_back({ 2,1 });
-	ANSWERS.push_back(3);
-
-	TESTS.push_back({ 2,3 });
-	ANSWERS.push_back(5);
-
-	TESTS.push_back({ 0,1 });
-	ANSWERS.push_back(1);
-
-	//TESTS.push_back({ -2147483648​,-1 });
-	//ANSWERS.push_back("0.5");
-
+	TESTS.push_back({ 'A','B','C','B','C','C','D','E' });
+	K.push_back(2);
+	ANSWERS.push_back(8);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = getSum(TESTS[i][0], TESTS[i][1]);
+		auto ans = leastInterval(TESTS[i], K[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
