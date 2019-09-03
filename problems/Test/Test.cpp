@@ -26,62 +26,38 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-string fractionToDecimal(int numerator, int denominator) {
-	string result;
-	if (denominator == 0)
-		return result;
-	long long num = static_cast<long long>(numerator);
-	long long denom = static_cast<long long>(denominator);
-	//处理符号
-	if ((num < 0 && denom > 0) || (num > 0 && denom < 0))
-		result += "-";
-	num = abs(num);
-	denom = abs(denom);
-	//处理整数部分
-	result += to_string(num / denom);
-	num %= denom;
-	//处理小数部分
-	if (num)
-		result += ".";
-	//利用hash表记录出现过的除数从而定位循环
-	unordered_map<long long, int> map;
-	int index = 0;//当前index - map[num]可以定位循环的长度
-	while (num && map.find(num) == map.end()) {
-		map[num] = index++;
-		num *= 10;
-		result += to_string(num / denom);
-		num %= denom;
+int getSum(int a, int b) 
+{
+	int c = a ^ b;
+	unsigned int d = a & b;
+	if (d != 0)
+	{
+		//说明存在进位
+		d <<= 1;
+		return getSum(c, d);
 	}
-	//如果是出现了循环小数
-	if (map.find(num) != map.end()) {
-		result += "()";
-		int cur = result.size() - 2;
-		while (index-- > map[num]) {
-			swap(result[cur], result[cur - 1]);
-			--cur;
-		}
-	}
-	return result;
+	return c;
 }
+
 
 
 int main()
 {
 	vector<vector<int>> TESTS;
 	//vector<int> K;
-	vector<string> ANSWERS;
+	vector<int> ANSWERS;
 
 	TESTS.push_back({ 1,2 });
-	ANSWERS.push_back("0.5");
+	ANSWERS.push_back(3);
 
 	TESTS.push_back({ 2,1 });
-	ANSWERS.push_back("2");
+	ANSWERS.push_back(3);
 
 	TESTS.push_back({ 2,3 });
-	ANSWERS.push_back("0.(6)");
+	ANSWERS.push_back(5);
 
 	TESTS.push_back({ 0,1 });
-	ANSWERS.push_back("0");
+	ANSWERS.push_back(1);
 
 	//TESTS.push_back({ -2147483648​,-1 });
 	//ANSWERS.push_back("0.5");
@@ -90,7 +66,7 @@ int main()
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = fractionToDecimal(TESTS[i][0], TESTS[i][1]);
+		auto ans = getSum(TESTS[i][0], TESTS[i][1]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
