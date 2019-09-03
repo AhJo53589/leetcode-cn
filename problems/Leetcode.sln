@@ -379,6 +379,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "621.task-scheduler", "621.t
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "89.gray-code", "89.gray-code\89.gray-code.vcxproj", "{595D13D8-041C-43A3-BF7E-9935B9C2D850}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "134.gas-station", "134.gas-station\134.gas-station.vcxproj", "{C5078C68-C1BA-4807-8CBE-022B1A05AF23}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1891,6 +1893,14 @@ Global
 		{595D13D8-041C-43A3-BF7E-9935B9C2D850}.Release|x64.Build.0 = Release|x64
 		{595D13D8-041C-43A3-BF7E-9935B9C2D850}.Release|x86.ActiveCfg = Release|Win32
 		{595D13D8-041C-43A3-BF7E-9935B9C2D850}.Release|x86.Build.0 = Release|Win32
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Debug|x64.ActiveCfg = Debug|x64
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Debug|x64.Build.0 = Debug|x64
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Debug|x86.ActiveCfg = Debug|Win32
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Debug|x86.Build.0 = Debug|Win32
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Release|x64.ActiveCfg = Release|x64
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Release|x64.Build.0 = Release|x64
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Release|x86.ActiveCfg = Release|Win32
+		{C5078C68-C1BA-4807-8CBE-022B1A05AF23}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

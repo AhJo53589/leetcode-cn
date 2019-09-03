@@ -26,60 +26,65 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> grayCode(int n)
-{
-	if (n == 0) return { 0 };
-	if (n == 1) return { 0, 1 };
-
-	vector<int> prev = grayCode(n - 1);
-	vector<int> res;
-	bool bFlag = true;
-	for (int i = 0; i < prev.size(); i += 2)
-	{
-		int add1 = prev[i] & 1;
-		int add2 = (add1 == 1) ? 0 : 1;
-		if (!bFlag) swap(add1, add2);
-		res.push_back((prev[i] << 1) + add1);
-		res.push_back((prev[i] << 1) + add2);
-
-		add1 = prev[i + 1] & 1;
-		add2 = (add1 == 1) ? 0 : 1;
-		if (!bFlag) swap(add1, add2);
-		res.push_back((prev[i + 1] << 1) + add1);
-		res.push_back((prev[i + 1] << 1) + add2);
-
-		bFlag = !bFlag;
-	}
-	return res;
-}
-
 //////////////////////////////////////////////////////////////////////////
+int canCompleteCircuit(vector<int>& gas, vector<int>& cost) 
+{
+	int n = gas.size();
+	int f = 0;
+	vector<int> fuel(n, 0);
+	for (int i = 0; i < n; i++)
+	{
+		fuel[i] = gas[i] - cost[i];
+		f += fuel[i];
+	}
+	if (f < 0) return -1;
 
+	for (int i = 0; i < n; i++)
+	{
+		if (fuel[i] < 0) continue;
+		f = fuel[i];
+
+		int j = (i + 1) % n;
+		while (true)
+		{
+			f += fuel[j];
+			if (f < 0)
+			{
+				i = j;
+				break;
+			}
+
+			j = (j + 1) % n;
+			if (j == i) return i;
+		}
+	}
+	return -1;
+}
 
 
 
 int main()
 {
-	vector<int> TESTS;
-	//vector<int> K;
-	vector<vector<int>> ANSWERS;
+	vector<vector<int>> TESTS;
+	vector<vector<int>> K;
+	vector<int> ANSWERS;
 
-	TESTS.push_back(0);
-	ANSWERS.push_back({0});
+	TESTS.push_back({ 1,2,3,4,5 });
+	K.push_back({ 3,4,5,1,2 });
+	ANSWERS.push_back(3);
 
-	TESTS.push_back(2);
-	ANSWERS.push_back({ 0,1,3,2 });
+	TESTS.push_back({ 2,3,4 });
+	K.push_back({ 3,4,3 });
+	ANSWERS.push_back(-1);
 
-	TESTS.push_back(3);
-	ANSWERS.push_back({ 0,1,3,2,6,7,5,4 });
-
-	TESTS.push_back(4);
-	ANSWERS.push_back({ 0,1,3,2,6,7,5,4,12,13,15,14,10,11,9,8 });
+	TESTS.push_back({ 2 });
+	K.push_back({ 2 });
+	ANSWERS.push_back(0);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = grayCode(TESTS[i]);
+		auto ans = canCompleteCircuit(TESTS[i], K[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
