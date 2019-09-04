@@ -27,64 +27,65 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-int canCompleteCircuit(vector<int>& gas, vector<int>& cost) 
+
+int maximalSquare(vector<vector<char>>& matrix)
 {
-	int n = gas.size();
-	int f = 0;
-	vector<int> fuel(n, 0);
-	for (int i = 0; i < n; i++)
+	if (matrix.empty()) return 0;
+	int res = 0;
+	vector<vector<int>> m(matrix.size(), vector<int>{});
+	for (auto &_m : m) _m.resize(matrix[0].size());
+
+	for (int i = 0; i < matrix.size(); i++)
 	{
-		fuel[i] = gas[i] - cost[i];
-		f += fuel[i];
+		m[i][0] = matrix[i][0] - '0';
+		if (m[i][0] == 1) res = 1;
+		if (matrix[0].size() == 1 && m[i][0] == 1) return res;
 	}
-	if (f < 0) return -1;
-
-	for (int i = 0; i < n; i++)
+	for (int j = 0; j < matrix[0].size(); j++)
 	{
-		if (fuel[i] < 0) continue;
-		f = fuel[i];
-
-		int j = (i + 1) % n;
-		while (true)
+		m[0][j] = matrix[0][j] - '0';
+		if (m[0][j] == 1) res = 1;
+		if (matrix.size() == 1 && m[0][j] == 1) return res;
+	}
+	for (int i = 1; i < matrix.size(); i++)
+	{
+		for (int j = 1; j < matrix[i].size(); j++)
 		{
-			f += fuel[j];
-			if (f < 0)
+			if (matrix[i][j] == '1')
 			{
-				i = j;
-				break;
+				m[i][j] = min(min(m[i - 1][j], m[i][j - 1]), m[i - 1][j - 1]) + 1;
+				res = max(res, m[i][j]);
 			}
-
-			j = (j + 1) % n;
-			if (j == i) return i;
 		}
 	}
-	return -1;
+	return pow(res, 2);
 }
 
 
 
 int main()
 {
-	vector<vector<int>> TESTS;
-	vector<vector<int>> K;
+	vector<vector<vector<char>>> TESTS;
+	//vector<vector<int>> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ 1,2,3,4,5 });
-	K.push_back({ 3,4,5,1,2 });
-	ANSWERS.push_back(3);
+	TESTS.push_back({ { '1' } });
+	ANSWERS.push_back(1);
 
-	TESTS.push_back({ 2,3,4 });
-	K.push_back({ 3,4,3 });
-	ANSWERS.push_back(-1);
+	TESTS.push_back({ { '0','1' }, {'1','0'} });
+	ANSWERS.push_back(1);
 
-	TESTS.push_back({ 2 });
-	K.push_back({ 2 });
-	ANSWERS.push_back(0);
+	TESTS.push_back({ { '1','0','1','0','0' }, { '1','0','1','1','1' }, { '1','1','1','1','1' }, { '1','0','0','1','0' } });
+	ANSWERS.push_back(4);
+
+	TESTS.push_back({ { '1','0','1','0','0' }, { '1','0','1','1','1' }, { '1','1','1','1','1' }, { '1','0','1','1','1' } });
+	ANSWERS.push_back(9);
+
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = canCompleteCircuit(TESTS[i], K[i]);
+		auto ans = maximalSquare(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }
