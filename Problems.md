@@ -146,6 +146,7 @@
 * `（中等）`  [347.top-k-frequent-elements 前 K 个高频元素](./problems/347.top-k-frequent-elements/README.md) 
 * `（简单）`  [349.intersection-of-two-arrays 两个数组的交集](./problems/349.intersection-of-two-arrays/README.md) 
 * `（简单）`  [350.Intersect 两个数组的交集 II](./problems/350.Intersect/README.md) 
+* `（困难）`  [354.russian-doll-envelopes 俄罗斯套娃信封问题](./problems/354.russian-doll-envelopes/README.md)
 * `（简单）`  [367.valid-perfect-square 有效的完全平方数](./problems/367.valid-perfect-square/README.md)
 * `（简单）`  [371.sum-of-two-integers 两整数之和](./problems/371.sum-of-two-integers/README.md)
 * `（简单）`  [374.guess-number-higher-or-lower 猜数字大小](./problems/374.guess-number-higher-or-lower/README.md)
