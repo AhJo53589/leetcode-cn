@@ -27,65 +27,40 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-
-int maximalSquare(vector<vector<char>>& matrix)
+int minimumTotal(vector<vector<int>>& triangle) 
 {
-	if (matrix.empty()) return 0;
-	int res = 0;
-	vector<vector<int>> m(matrix.size(), vector<int>{});
-	for (auto &_m : m) _m.resize(matrix[0].size());
+	if (triangle.empty()) return 0;
+	vector<int> dp(triangle.back().begin(), triangle.back().end());
 
-	for (int i = 0; i < matrix.size(); i++)
+	for (int i = triangle.size() - 2; i >= 0; i--)
 	{
-		m[i][0] = matrix[i][0] - '0';
-		if (m[i][0] == 1) res = 1;
-		if (matrix[0].size() == 1 && m[i][0] == 1) return res;
-	}
-	for (int j = 0; j < matrix[0].size(); j++)
-	{
-		m[0][j] = matrix[0][j] - '0';
-		if (m[0][j] == 1) res = 1;
-		if (matrix.size() == 1 && m[0][j] == 1) return res;
-	}
-	for (int i = 1; i < matrix.size(); i++)
-	{
-		for (int j = 1; j < matrix[i].size(); j++)
+		for (int j = 0; j < triangle[i].size(); j++)
 		{
-			if (matrix[i][j] == '1')
-			{
-				m[i][j] = min(min(m[i - 1][j], m[i][j - 1]), m[i - 1][j - 1]) + 1;
-				res = max(res, m[i][j]);
-			}
+			dp[j] = min(dp[j], dp[j + 1]) + triangle[i][j];
 		}
 	}
-	return pow(res, 2);
+	return dp[0];
 }
 
 
 
 int main()
 {
-	vector<vector<vector<char>>> TESTS;
+	vector<vector<vector<int>>> TESTS;
 	//vector<vector<int>> K;
 	vector<int> ANSWERS;
 
-	TESTS.push_back({ { '1' } });
-	ANSWERS.push_back(1);
+	TESTS.push_back({ {2}, {3,4},{6,5,7},{4,1,8,3} });
+	ANSWERS.push_back(11);
 
-	TESTS.push_back({ { '0','1' }, {'1','0'} });
-	ANSWERS.push_back(1);
-
-	TESTS.push_back({ { '1','0','1','0','0' }, { '1','0','1','1','1' }, { '1','1','1','1','1' }, { '1','0','0','1','0' } });
-	ANSWERS.push_back(4);
-
-	TESTS.push_back({ { '1','0','1','0','0' }, { '1','0','1','1','1' }, { '1','1','1','1','1' }, { '1','0','1','1','1' } });
-	ANSWERS.push_back(9);
+	TESTS.push_back({ { -10 } });
+	ANSWERS.push_back(-10);
 
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = maximalSquare(TESTS[i]);
+		auto ans = minimumTotal(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}
 }

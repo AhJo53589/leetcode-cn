@@ -70,6 +70,7 @@
 * `（中等）`  [117.populating-next-right-pointers-in-each-node-ii 填充每个节点的下一个右侧节点指针 II](./problems/117.populating-next-right-pointers-in-each-node-ii/README.md)
 * `（简单）`  [118.pascals-triangle 杨辉三角](./problems/118.pascals-triangle/README.md) 
 * `（简单）`  [119.pascals-triangle-ii 杨辉三角 II](./problems/119.pascals-triangle-ii/README.md) 
+* `（中等）`  [120.triangle 三角形最小路径和](./problems/120.triangle/README.md)
 * `（简单）`  [121.MaxProfit 买卖股票的最佳时机](./problems/121.MaxProfit/README.md) 
 * `（简单）`  [122.MaxProfit 买卖股票的最佳时机 II](./problems/122.MaxProfit/README.md) 
 * `（困难）`  [124.binary-tree-maximum-path-sum 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum/README.md)

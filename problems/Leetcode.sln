@@ -383,6 +383,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "134.gas-station", "134.gas-
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "221.maximal-square", "221.maximal-square\221.maximal-square.vcxproj", "{8EA332F2-81F1-45D7-9BBB-09CA5E57456C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "120.triangle", "120.triangle\120.triangle.vcxproj", "{34C0B25A-5418-430D-AB61-7C7059A3F1EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1911,6 +1913,14 @@ Global
 		{8EA332F2-81F1-45D7-9BBB-09CA5E57456C}.Release|x64.Build.0 = Release|x64
 		{8EA332F2-81F1-45D7-9BBB-09CA5E57456C}.Release|x86.ActiveCfg = Release|Win32
 		{8EA332F2-81F1-45D7-9BBB-09CA5E57456C}.Release|x86.Build.0 = Release|Win32
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Debug|x64.ActiveCfg = Debug|x64
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Debug|x64.Build.0 = Debug|x64
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Debug|x86.ActiveCfg = Debug|Win32
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Debug|x86.Build.0 = Debug|Win32
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Release|x64.ActiveCfg = Release|x64
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Release|x64.Build.0 = Release|x64
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Release|x86.ActiveCfg = Release|Win32
+		{34C0B25A-5418-430D-AB61-7C7059A3F1EE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
