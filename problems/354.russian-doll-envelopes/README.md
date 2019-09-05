@@ -25,48 +25,58 @@
 先按照w来排序，如果w相同，h按照从大到小排序。
 排序的作用是将w固定好，将2维问题简化成1维问题。
 
-后半部分我使用的是“最长递增子序列”的思路来解题的，
+后半部分我使用的是“最长上升子序列”的思路来解题的，
 虽然用例都通过了，但是我从原理上分析，隐隐的感觉可能会有一些情况不能通过。
 对比别人的代码，后半部分的处理逻辑上就非常清晰。
 但是看起来好像跟我的算法本质又一样的。
 可能我还需要再想一想。
+
+更新：
+今天通过自己手动跑了一遍针对用例，彻底捋清楚了。
+算法是没问题的。
+详情查看发布的题解。  
+
+[[1,1],[2,2],[3,3],[10,10],[11,11],[12,5],[12,4],[13,5],[20,6]]
+
 ```
+
+[发布的题解](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/)
 
 ### 答题
 ``` C++
-int maxEnvelopes(vector<vector<int>>& envelopes) 
+int maxEnvelopes(vector<vector<int>>& envelopes)
 {
 	if (envelopes.size() <= 1) return envelopes.size();
-	auto fSort = [](vector<int> &a, vector<int> &b) 
+
+	sort(envelopes.begin(), envelopes.end(), [](vector<int> &a, vector<int> &b)
 	{
 		if (a[0] == b[0]) return a[1] > b[1];
-		return a[0] < b[0]; 
-	};
+		return a[0] < b[0];
+	});
 
-	sort(envelopes.begin(), envelopes.end(), fSort);
 	vector<int> vec;
-	for (auto &e : envelopes)
+	for (int i = 0; i < envelopes.size(); i++)
 	{
-		vec.push_back(e[1]);
-	}
-	vector<int> vec2;
-	vec2.push_back(vec[0]);
-	for (int i = 1; i < vec.size(); i++)
-	{
-		if (vec[i] > vec2.back()) vec2.push_back(vec[i]);
-		for (int j = 0; j < vec2.size(); j++)
+		int h = envelopes[i][1];
+		if (vec.empty() || h > vec.back())
 		{
-			if (vec[i] <= vec2[j])
+			vec.push_back(h);
+		}
+
+		for (int j = 0; j < vec.size(); j++)
+		{
+			if (h <= vec[j])
 			{
-				vec2[j] = vec[i];
+				vec[j] = h;
 				break;
 			}
 		}
 	}
 
-	return vec2.size();
+	return vec.size();
 }
 ```
+
 
 ### 其它
 ```
@@ -76,20 +86,24 @@ int maxEnvelopes(vector<vector<int>>& envelopes)
 然后记录长度，并max更新ans。
 ```
 ``` C++
-int maxEnvelopes(vector<vector<int>>& envelopes) {
-	int size = envelopes.size();
-	if (size <= 1) return size;
-	sort(envelopes.begin(), envelopes.end(), [](const vector<int>& a, const vector<int>& b) {
+int maxEnvelopes(vector<vector<int>>& envelopes) 
+{
+	if (envelopes.size() <= 1) return envelopes.size();
+
+	sort(envelopes.begin(), envelopes.end(), [](const vector<int>& a, const vector<int>& b) 
+	{
 		return a[0] < b[0] || a[0] == b[0] && a[1] > b[1];
 	});
+
 	int ans = 0;
-	vector<int> buf(size, INT_MAX);
-	for (auto& env : envelopes) {
-		auto it = lower_bound(buf.begin(), buf.end(), env[1]);
-		*it = env[1];
-		ans = max(ans, int(it - buf.begin()) + 1);
+	vector<int> vec(envelopes.size(), INT_MAX);
+	for (auto &e : envelopes) 
+	{
+		auto it = lower_bound(vec.begin(), vec.end(), e[1]);
+		*it = e[1];
+		ans = max(ans, int(it - vec.begin()));
 	}
-	return ans;
+	return ans + 1;
 }
 ```
 
