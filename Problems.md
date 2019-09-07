@@ -154,6 +154,7 @@
 * `（中等）`  [384.Shuffle 打乱数组](./problems/384.Shuffle/README.md) 
 * `（简单）`  [387.FirstUniqChar 字符串中的第一个唯一字符](./problems/387.FirstUniqChar/README.md) 
 * `（中等）`  [394.decode-string 字符串解码](./problems/394.decode-string/README.md) 
+* `（困难）`  [410.split-array-largest-sum 分割数组的最大值](./problems/410.split-array-largest-sum/README.md)
 * `（简单）`  [412.FizzBuzz Fizz Buzz](./problems/412.FizzBuzz/README.md) 
 * `（简单）`  [415.add-strings 字符串相加](./problems/415.add-strings/README.md) 
 * `（中等）`  [430.flatten-a-multilevel-doubly-linked-list 扁平化多级双向链表](./problems/430.flatten-a-multilevel-doubly-linked-list/README.md) 

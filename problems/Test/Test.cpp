@@ -28,11 +28,28 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-//double splitArray(vector<int>& nums, int m, vector<double> &split_nums)
-//{
-//
-//	return ans;
-//}
+int splitArray(vector<vector<double>>& sums, vector<int> &split_index, int split_sum)
+{
+	int l = 0;
+	int i = 0;
+	int j = 0;
+	double nextsum = 0;
+	while (true)
+	{
+		if (sums[i][l] > split_sum)
+		{
+			nextsum = (nextsum == 0) ? sums[i][l] : min(nextsum, sums[i][l]);
+
+			split_index[j++] = i - 1;
+			l = i;
+			if (j == split_index.size()) break;
+		}
+		i++;
+		if (i == sums.size()) return split_sum;
+	}
+	cout << "next sum = " << nextsum << endl;
+	return splitArray(sums, split_index, nextsum);
+}
 
 int splitArray(vector<int>& nums, int m) 
 {
@@ -45,13 +62,12 @@ int splitArray(vector<int>& nums, int m)
 	{
 		num_max = max(num_max, nums[i]);
 
-		sums[i].resize(i + 1);
 		for (int j = 0; j < i - 1; j++)
 		{
-			sums[i][j] = sums[i - 1][j] + nums[i];
+			sums[i].push_back(sums[i - 1][j] + (double)nums[i]);
 		}
-		sums[i][i - 1] = nums[i] + nums[i - 1];
-		sums[i][i] = nums[i];
+		sums[i].push_back((double)nums[i] + (double)nums[i - 1]);
+		sums[i].push_back((double)nums[i]);
 	}
 	num_average = sums[nums.size() - 1][0] / m;
 
@@ -59,10 +75,8 @@ int splitArray(vector<int>& nums, int m)
 	printVectorVectorT(sums);
 	cout << "num_max = " << num_max << ", num_average = " << num_average << endl;
 
-
-	vector<double> split_nums(m, 0);
-
-	return 0;
+	vector<int> split_index(m, 0);
+	return splitArray(sums, split_index, max(num_average, num_max));
 }
 
 
@@ -80,6 +94,12 @@ int main()
 		time = (double)(nEndTime.QuadPart - nBeginTime.QuadPart) / (double)nFreq.QuadPart;
 		cout << "////////////////////////////////////////////////////////// time: " << time * 1000 << "ms" << endl;
 	};
+
+	vector<int> d(2, 0);
+	for (size_t i = d.size(); i > 0; i--)
+	{
+		cout << d[i - 1];
+	}
 
 	vector<vector<int>> TESTS;
 	vector<int> K;

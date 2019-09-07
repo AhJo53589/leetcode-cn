@@ -8,6 +8,11 @@
 
 
 ---
+## 20190908
+* 410.split-array-largest-sum 分割数组的最大值
+
+
+---
 ## 20190904
 * 354.russian-doll-envelopes 俄罗斯套娃信封问题
 
