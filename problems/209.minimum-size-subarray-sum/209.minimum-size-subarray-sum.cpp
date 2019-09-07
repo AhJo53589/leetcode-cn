@@ -51,7 +51,7 @@ int main()
 	string str = "[2,3,1,2,4,3]";
 	int s = 7;
 	vector<int> nums = StringToVectorInt(str);
-	printVectorInt(nums);
+	printVectorT(nums);
 	int len = minSubArrayLen(s, nums);
 	cout << "len = " << len << endl;
 }

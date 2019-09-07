@@ -36,7 +36,7 @@ int main()
 	string str = "[2, 7, 11, 15]";
 	int target = 9;
 	vector<int> nums = StringToVectorInt(str);
-	printVectorInt(nums);
+	printVectorT(nums);
 	vector<int> res = twoSum(nums, target);
-	printVectorInt(res);
+	printVectorT(res);
 }

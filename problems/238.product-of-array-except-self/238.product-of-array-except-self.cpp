@@ -43,8 +43,8 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "/////////////////////////////////" << endl;
-		printVectorInt(N[i]);
+		printVectorT(N[i]);
 		vector<int> ans = productExceptSelf(N[i]);
-		printVectorInt(ans);
+		printVectorT(ans);
 	}
 }

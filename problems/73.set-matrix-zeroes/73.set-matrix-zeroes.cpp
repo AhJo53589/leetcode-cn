@@ -97,8 +97,8 @@ int main()
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		//auto ans = setZeroes(TESTS[i]);
-		printVectorVectorInt(TESTS[i]);
+		printVectorVectorT(TESTS[i]);
 		setZeroes(TESTS[i]);
-		cout << checkAnswer<decltype(TESTS[i])>(TESTS[i], ANSWERS[i]) << endl;
+		cout << checkAnswer<vector<vector<int>>>(TESTS[i], ANSWERS[i]) << endl;
 	}
 }

@@ -92,7 +92,7 @@ int main()
 	for (auto s : str)
 	{
 		vector<int> nums = StringToVectorInt(s);
-		printVectorInt(nums);
+		printVectorT(nums);
 		cout << rob(nums) << endl << endl;
 	}
 }

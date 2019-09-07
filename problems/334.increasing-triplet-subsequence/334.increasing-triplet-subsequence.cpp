@@ -159,7 +159,7 @@ int main()
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		//auto ans = setZeroes(TESTS[i]);
-		printVectorInt(TESTS[i]);
+		printVectorT(TESTS[i]);
 		bool ans = increasingTriplet(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 	}

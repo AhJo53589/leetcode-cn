@@ -109,11 +109,11 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "/////////////////////////////////" << endl;
-		printVectorVectorInt(N[i]);
+		printVectorVectorT(N[i]);
 		vector<vector<int>> ans = merge(N[i]);
 		cout << "merge = " << endl;
-		printVectorVectorInt(A[i]);
+		printVectorVectorT(A[i]);
 		cout << "my answer = " << endl;
-		printVectorVectorInt(ans);
+		printVectorVectorT(ans);
 	}
 }

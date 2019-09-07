@@ -59,9 +59,9 @@ int main()
 		cout << endl << "///////////////////////////////////////" << endl;
 		DrawTreeNode(N[i]);
 		cout << "preorderTraversal = " << endl;
-		printVectorInt(A[i]);
+		printVectorT(A[i]);
 		vector<int> ans = preorderTraversal(N[i]);
 		cout << "my answer = " << endl;
-		printVectorInt(ans);
+		printVectorT(ans);
 	}
 }

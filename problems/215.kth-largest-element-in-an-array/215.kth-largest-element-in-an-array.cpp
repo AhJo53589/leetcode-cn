@@ -86,10 +86,10 @@ int main()
 	for (int i = 0; i < vStr.size(); i++)
 	{
 		vector<int> nums = StringToVectorInt(vStr[i]);
-		printVectorInt(nums);
+		printVectorT(nums);
 
 		int res = findKthLargest(nums, vk[i]);
-		printVectorInt(nums);
+		printVectorT(nums);
 		cout << "nums[" << vk[i] << "] = " << res << endl << endl;
 	}
 }

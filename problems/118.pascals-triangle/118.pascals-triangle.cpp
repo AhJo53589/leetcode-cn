@@ -53,5 +53,5 @@ vector<vector<int>> generate(int numRows)
 int main()
 {
 	vector<vector<int>> matrix = generate(10);
-	printVectorVectorInt(matrix);
+	printVectorVectorT(matrix);
 }

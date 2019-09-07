@@ -123,11 +123,11 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		printVectorInt(N[i]);
+		printVectorT(N[i]);
 		sort(N[i].begin(), N[i].end());
-		printVectorInt(N[i]);
+		printVectorT(N[i]);
 		vector<vector<int>> a = threeSum(N[i]);
 		cout << "threeSum = " << endl;
-		printVectorVectorInt(a);
+		printVectorVectorT(a);
 	}
 }

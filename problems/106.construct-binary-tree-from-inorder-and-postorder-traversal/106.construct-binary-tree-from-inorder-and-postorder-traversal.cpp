@@ -94,8 +94,8 @@ int main()
 	for (size_t i = 0; i < N.size(); i++)
 	{
 		cout << endl << "///////////////////////////////////////" << endl;
-		printVectorInt(N[i].first);
-		printVectorInt(N[i].second);
+		printVectorT(N[i].first);
+		printVectorT(N[i].second);
 		TreeNode *pNode = buildTree(N[i].first, N[i].second);
 		cout << "buildTree = " << endl;
 		cout << A[i] << endl;

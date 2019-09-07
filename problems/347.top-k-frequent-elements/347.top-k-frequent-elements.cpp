@@ -63,5 +63,5 @@ int main()
 	vector<int> nums = StringToVectorInt("[1,1,1,1,1,2,2,3,3,3,3,3]");
 	int k = 2;
 	vector<int> r = topKFrequent(nums, k);
-	printVectorInt(r);
+	printVectorT(r);
 }

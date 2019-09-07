@@ -68,7 +68,7 @@ int main()
 	for (int t = 0; t < vStr.size(); t++)
 	{
 		vector<int> nums = StringToVectorInt(vStr[t]);
-		printVectorInt(nums);
+		printVectorT(nums);
 
 		// nums 是以“引用”方式传递的。也就是说，不对实参作任何拷贝
 		int len = removeElement(nums, vVal[t]);

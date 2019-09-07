@@ -94,6 +94,6 @@ int main()
 		cout << endl << "/////////////////////////////////" << endl;
 		cout << N[i] << " = " << endl;
 		vector<vector<int>> ans = generateMatrix(N[i]);
-		printVectorVectorInt(ans);
+		printVectorVectorT(ans);
 	}
 }

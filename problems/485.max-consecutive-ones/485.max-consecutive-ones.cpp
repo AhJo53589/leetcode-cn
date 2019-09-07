@@ -39,7 +39,7 @@ int main()
 {
 	string str = "[1,1,0,1,1,1]";
 	vector<int> nums = StringToVectorInt(str);
-	printVectorInt(nums);
+	printVectorT(nums);
 	int len = findMaxConsecutiveOnes(nums);
 	cout << "len = " << len << endl;
 }

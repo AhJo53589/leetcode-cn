@@ -90,7 +90,7 @@ int main()
 	//string str = "[[3],[2]]";
 
 	vector<vector<int>> matrix = StringToVectorVectorInt(str);
-	printVectorVectorInt(matrix);
+	printVectorVectorT(matrix);
 	vector<int> nums = findDiagonalOrder(matrix);
-	printVectorInt(nums);
+	printVectorT(nums);
 }

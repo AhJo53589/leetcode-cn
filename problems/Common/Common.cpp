@@ -105,7 +105,7 @@ vector<int> StringToVectorInt(string str)
 	return nums;
 }
 
-string VectorIntToString(vector<int>& nums)
+string VectorIntToString(const vector<int>& nums)
 {
 	string str = "[";
 	for (auto i : nums)
@@ -143,7 +143,7 @@ vector<vector<int>> StringToVectorVectorInt(string str)
 	return matrix;
 }
 
-string VectorVectorIntToString(vector<vector<int>>& matrix)
+string VectorVectorIntToString(const vector<vector<int>>& matrix)
 {
 	string str = "[";
 	for (auto n : matrix)
@@ -155,24 +155,3 @@ string VectorVectorIntToString(vector<vector<int>>& matrix)
 	return str;
 }
 
-void printVectorVectorInt(vector<vector<int>>& matrix)
-{
-	for (auto n : matrix)
-	{
-		for (auto i : n)
-		{
-			cout << i << ", ";
-		}
-		cout << endl;
-	}
-	cout << endl;
-}
-
-void printVectorInt(vector<int>& nums)
-{
-	for (auto i : nums)
-	{
-		cout << i << ", ";
-	}
-	cout << endl;
-}

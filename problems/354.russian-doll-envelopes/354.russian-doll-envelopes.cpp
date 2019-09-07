@@ -47,34 +47,34 @@ using namespace std;
 //}
 
 //////////////////////////////////////////////////////////////////////////
-int maxEnvelopes(vector<vector<int>>& envelopes)
-{
-	if (envelopes.size() <= 1) return envelopes.size();
-
-	sort(envelopes.begin(), envelopes.end(), [](const vector<int> &a, const vector<int> &b)
-	{
-		if (a[0] == b[0]) return a[1] > b[1];
-		return a[0] < b[0];
-	});
-
-	int ans = 0;
-	vector<int> vec(envelopes.size(), INT_MAX);
-	for (auto &e : envelopes)
-	{
-		int low = 0;
-		int high = envelopes.size() - 1;
-		while (high > low)
-		{
-			int mid = low + (high - low) / 2;
-			if (vec[mid] >= e[1]) high = mid;
-			else low = mid + 1;
-		}
-
-		vec[low] = e[1];
-		ans = max(ans, low);
-	}
-	return ans + 1;
-}
+//int maxEnvelopes(vector<vector<int>>& envelopes)
+//{
+//	if (envelopes.size() <= 1) return envelopes.size();
+//
+//	sort(envelopes.begin(), envelopes.end(), [](const vector<int> &a, const vector<int> &b)
+//	{
+//		if (a[0] == b[0]) return a[1] > b[1];
+//		return a[0] < b[0];
+//	});
+//
+//	int ans = 0;
+//	vector<int> vec(envelopes.size(), INT_MAX);
+//	for (auto &e : envelopes)
+//	{
+//		int low = 0;
+//		int high = envelopes.size() - 1;
+//		while (high > low)
+//		{
+//			int mid = low + (high - low) / 2;
+//			if (vec[mid] >= e[1]) high = mid;
+//			else low = mid + 1;
+//		}
+//
+//		vec[low] = e[1];
+//		ans = max(ans, low);
+//	}
+//	return ans + 1;
+//}
 
 //////////////////////////////////////////////////////////////////////////
 int maxEnvelopes(vector<vector<int>>& envelopes)

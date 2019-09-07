@@ -60,7 +60,7 @@ int main()
 	for (int i = 0; i < vStr.size(); i++)
 	{
 		vector<int> nums = StringToVectorInt(vStr[i]);
-		printVectorInt(nums);
+		printVectorT(nums);
 
 		int res = maxArea(nums);
 		cout << res << endl << endl;

@@ -99,7 +99,7 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "/////////////////////////////////" << endl;
-		printVectorVectorInt(N[i]);
+		printVectorVectorT(N[i]);
 		int ans = findCircleNum(N[i]);
 		cout << "Find Circle Num = " << A[i] << ", my answer = " << ans << endl;
 	}

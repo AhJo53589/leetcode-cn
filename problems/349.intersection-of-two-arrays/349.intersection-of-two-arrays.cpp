@@ -45,5 +45,5 @@ int main()
 	vector<int> nums2 = StringToVectorInt("[9,4,9,8,4]");
 
 	vector<int> rst = intersection(nums1, nums2);
-	printVectorInt(rst);
+	printVectorT(rst);
 }

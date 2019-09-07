@@ -64,9 +64,9 @@ int main()
 	for (int i = 0; i < N.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		printVectorInt(N[i]);
+		printVectorT(N[i]);
 		sort(N[i].begin(), N[i].end());
-		printVectorInt(N[i]);
+		printVectorT(N[i]);
 		int a = threeSumClosest(N[i], K[i]);
 		cout << "target = " << K[i] << endl;
 		cout << "threeSum = " << a << endl;

@@ -71,7 +71,7 @@ int main()
 		cout << endl << "////////////////////////////////////" << endl;
 		cout << "Input: " << endl;
 		vector<int> nums = StringToVectorInt(strInput[i]);
-		printVectorInt(nums);
+		printVectorT(nums);
 
 		int f = search(nums, target[i]);
 		cout << "Find value = " << target[i] << endl;

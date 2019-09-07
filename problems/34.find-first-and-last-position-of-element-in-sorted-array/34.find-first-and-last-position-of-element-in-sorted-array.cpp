@@ -70,11 +70,11 @@ int main()
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		vector<int> nums = StringToVectorInt(str[i]);
-		printVectorInt(nums);
+		printVectorT(nums);
 		cout << "Find = " << target[i] << endl;
 		cout << "Pos = ";
 		vector<int> a = searchRange(nums, target[i]);
-		printVectorInt(a);
+		printVectorT(a);
 		cout << "Answer = " << answer[i].first << " , " << answer[i].second << endl;
 	}
 }

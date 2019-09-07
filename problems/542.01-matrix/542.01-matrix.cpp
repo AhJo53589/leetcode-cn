@@ -118,12 +118,12 @@ int main()
 
 	vector<vector<int>> m = StringToVectorVectorInt(strInit);
 	//cout << VectorVectorIntToString(m) << endl;
-	printVectorVectorInt(m);
+	printVectorVectorT(m);
 
 	cout << endl;
 
 	updateMatrix(m);
 	//cout << VectorVectorIntToString(m) << endl;
-	printVectorVectorInt(m);
+	printVectorVectorT(m);
 
 }

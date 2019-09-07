@@ -105,11 +105,11 @@ int main()
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		vector<int> nums = StringToVectorInt(str[i]);
-		printVectorInt(nums);
+		printVectorT(nums);
 		cout << "k = " << k[i] << ", x = " << x[i] << endl;
 		vector<int> n = findClosestElements(nums, k[i], x[i]);
-		printVectorInt(n);
+		printVectorT(n);
 		cout << "Answer = ";
-		printVectorInt(answer[i]);
+		printVectorT(answer[i]);
 	}
 }

@@ -33,6 +33,6 @@ int main()
 {
 	string str = "[1,4,3,2]";
 	vector<int> nums = StringToVectorInt(str);
-	printVectorInt(nums);
+	printVectorT(nums);
 	cout << arrayPairSum(nums) << endl;
 }

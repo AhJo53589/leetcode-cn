@@ -76,9 +76,9 @@ int main()
 		cout << endl << "///////////////////////////////////////" << endl;
 		DrawTreeNode(N[i]);
 		cout << "zigzagLevelOrder = " << endl;
-		printVectorVectorInt(A[i]);
+		printVectorVectorT(A[i]);
 		vector<vector<int>> ans = zigzagLevelOrder(N[i]);
 		cout << "my answer = " << endl;
-		printVectorVectorInt(ans);
+		printVectorVectorT(ans);
 	}
 }

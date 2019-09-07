@@ -43,7 +43,7 @@ int main()
 {
 	string str = "[0,0,1,1,1,1,2,3,3]";
 	vector<int> nums = StringToVectorInt(str);
-	printVectorInt(nums);
+	printVectorT(nums);
 
 	// nums 是以“引用”方式传递的。也就是说，不对实参做任何拷贝
 	int len = removeDuplicates(nums);

@@ -46,6 +46,6 @@ int main()
 {
 	string str = "[9,6,4,2,3,5,7,0,1]";
 	vector<int> nums = StringToVectorInt(str);
-	printVectorInt(nums);
+	printVectorT(nums);
 	cout << endl << missingNumber(nums) << endl;
 }

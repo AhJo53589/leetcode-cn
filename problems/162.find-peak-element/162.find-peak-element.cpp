@@ -48,7 +48,7 @@ int main()
 	{
 		cout << endl << "/////////////////////////////" << endl;
 		vector<int> nums = StringToVectorInt(s);
-		printVectorInt(nums);
+		printVectorT(nums);
 		cout << "Find Peak Element = " << findPeakElement(nums) << endl;
 	}
 }

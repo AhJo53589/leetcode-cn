@@ -52,10 +52,10 @@ int main()
 	for (auto s : vStr)
 	{
 		vector<int> nums = StringToVectorInt(s);
-		printVectorInt(nums);
+		printVectorT(nums);
 
 		sortColors(nums);
-		printVectorInt(nums);
+		printVectorT(nums);
 		cout << endl;
 	}
 }

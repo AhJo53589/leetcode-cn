@@ -76,7 +76,7 @@ int main()
 	for (int i = 0; i < A.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
-		printVectorInt(N[i]);
+		printVectorT(N[i]);
 		int a = smallestDistancePair(N[i], K[i]);
 		cout << "Find Smallest-Distance-Pair( " << K[i] << " ) = " << a << endl;
 		cout << "Answer = " << A[i] << endl;

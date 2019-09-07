@@ -81,7 +81,7 @@ int main()
 	string str = "[[1,2,3,4],[5,6,7,8],[9,10,11,12]]";
 
 	vector<vector<int>> matrix = StringToVectorVectorInt(str);
-	printVectorVectorInt(matrix);
+	printVectorVectorT(matrix);
 	vector<int> nums = spiralOrder(matrix);
-	printVectorInt(nums);
+	printVectorT(nums);
 }

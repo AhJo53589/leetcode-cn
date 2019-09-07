@@ -19,19 +19,37 @@ vector<vector<char>> StringToVectorVectorChar(string str);
 vector<string> StringToVectorString(string str);
 
 vector<int> StringToVectorInt(string str);
-string VectorIntToString(vector<int>& nums);
+string VectorIntToString(const vector<int>& nums);
 vector<vector<int>> StringToVectorVectorInt(string str);
-string VectorVectorIntToString(vector<vector<int>>& matrix);
+string VectorVectorIntToString(const vector<vector<int>>& matrix);
 
-void printVectorVectorInt(vector<vector<int>>& matrix);
-void printVectorInt(vector<int>& nums);
 
+template<typename T>
+void printVectorT(T &nums)
+{
+	for (auto i : nums) cout << i << ",";
+	cout << endl;
+}
+
+template<typename T>
+void printVectorVectorT(T &matrix)
+{
+	for (auto n : matrix) printVectorT(n);
+	cout << endl;
+}
 
 template<typename T>
 inline string checkAnswer(T a, T b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	return "Result = " + to_string(a) + "\t <== " + to_string(b) + check;
+}
+
+template<>
+inline string checkAnswer(const string a, const string b)
+{
+	string check = (a == b) ? "" : "\t\t\t WRONG!";
+	return "Result = " + a + "\t <== " + b + check;
 }
 
 template<>
@@ -47,21 +65,21 @@ inline string checkAnswer(bool a, bool b)
 }
 
 template<>
-inline string checkAnswer(vector<int> a, vector<int> b)
+inline string checkAnswer(const vector<int> a, const vector<int> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	return "Result = \n" + VectorIntToString(a) + "\n" + VectorIntToString(b) + "\n" + check;
 }
 
 template<>
-inline string checkAnswer(vector<vector<int>> a, vector<vector<int>> b)
+inline string checkAnswer(const vector<vector<int>> a, const vector<vector<int>> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	return "Result = \n" + VectorVectorIntToString(a) + "\n" + VectorVectorIntToString(b) + "\n" + check;
 }
 
 template<>
-inline string checkAnswer(vector<string> a, vector<string> b)
+inline string checkAnswer(const vector<string> a, const vector<string> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	string res = "Result = ";
@@ -74,4 +92,5 @@ inline string checkAnswer(vector<string> a, vector<string> b)
 }
 
 #endif //COMMON_H
+
 
