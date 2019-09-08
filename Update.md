@@ -8,6 +8,11 @@
 
 
 ---
+## 20190909
+* 71.simplify-path 简化路径
+
+
+---
 ## 20190908
 * 567.permutation-in-string 字符串的排列
 

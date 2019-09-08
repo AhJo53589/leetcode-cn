@@ -19,6 +19,7 @@
 #include <string>
 #include <random>
 #include <bitset>
+#include <sstream>
 
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.h"
@@ -28,46 +29,30 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-bool checkInclusion(string s1, string s2) 
+string simplifyPath(string &path)
 {
-	int cc_s1[26] = { 0 };
-	for (auto &c : s1)
+	for (size_t i = path.size(); i > 0; )
 	{
-		cc_s1[c - 'a']++;
+		i--;
+		path[i] = (path[i] == '/' ? ' ' : path[i]);
 	}
-
-	int cc_s2[26] = { 0 };
-	size_t left = 0;
-	for (size_t i = 0; i < s2.size(); i++)
+	stringstream istr(path);
+	vector<string> vs;
+	string str;
+	while (istr >> str)
 	{
-		int t = s2[i] - 'a';
-		cc_s2[t]++;
-		if (cc_s2[t] == cc_s1[t])
-		{
-			bool bFlag = true;
-			for (size_t j = 0; j < 26; j++)
-			{
-				if (cc_s2[j] != cc_s1[j])
-				{
-					bFlag = false;
-					break;
-				}
-			}
-			if (bFlag) return true;
-		}
-		else if (cc_s2[t] > cc_s1[t])
-		{
-			for (size_t j = left; j <= i; j++)
-			{
-				int t2 = s2[j] - 'a';
-				cc_s2[t2]--;
-				left++;
-				if (s2[j] == s2[i]) break;
-			}
-		}
+		if (str == ".") continue;
+		if (str != "..") vs.push_back(str);
+		else if (vs.size()) vs.pop_back();
 	}
-	return false;
+	str.clear();
+	for (auto &s : vs)
+	{
+		str.append("/" + s);
+	}
+	return str.empty() ? "/" : str;
 }
+
 
 
 
@@ -85,29 +70,41 @@ int main()
 		cout << "////////////////////////////////////////////////////////// time: " << time * 1000 << "ms" << endl;
 	};
 
-
+	//////////////////////////////////////////////////////////////////////////
 	vector<string> TESTS;
-	vector<string> K;
-	vector<bool> ANSWERS;
+	//vector<string> K;
+	vector<string> ANSWERS;
 
-	TESTS.push_back("ab");
-	K.push_back("eidbaooo");
-	ANSWERS.push_back(true);
+	TESTS.push_back("/home/");
+	ANSWERS.push_back("/home");
 
-	TESTS.push_back("ab");
-	K.push_back("eidboaoo");
-	ANSWERS.push_back(false);
+	TESTS.push_back("/../");
+	ANSWERS.push_back("/");
 
-	TESTS.push_back("adc");
-	K.push_back("dcda");
-	ANSWERS.push_back(true);
+	TESTS.push_back("/home//foo/");
+	ANSWERS.push_back("/home/foo");
+
+	TESTS.push_back("/a/./b/../../c/");
+	ANSWERS.push_back("/c");
+
+	TESTS.push_back("/a/../../b/../c//.//");
+	ANSWERS.push_back("/c");
+
+	TESTS.push_back("/a//b////c/d//././/..");
+	ANSWERS.push_back("/a/b/c");
+
+	TESTS.push_back("/.../");
+	ANSWERS.push_back("/...");
+
+	TESTS.push_back("/...");
+	ANSWERS.push_back("/...");
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = checkInclusion(TESTS[i], K[i]);
+		auto ans = simplifyPath(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
@@ -229,10 +226,10 @@ int main()
 //	lists.push_back(pHead);
 //	pHead = nullptr;
 //
-//	for (auto p : lists)
+//	for (auto i : lists)
 //	{
-//		PrintLinkList(p);
-//		pHead = sortList(p);
+//		PrintLinkList(i);
+//		pHead = sortList(i);
 //		PrintLinkList(pHead);
 //		cout << endl;
 //	}

@@ -391,6 +391,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "410.split-array-largest-sum
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567.permutation-in-string", "567.permutation-in-string\567.permutation-in-string.vcxproj", "{D5EF5618-CCB6-4A41-98CA-139284EA482D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "71.simplify-path", "71.simplify-path\71.simplify-path.vcxproj", "{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1951,6 +1953,14 @@ Global
 		{D5EF5618-CCB6-4A41-98CA-139284EA482D}.Release|x64.Build.0 = Release|x64
 		{D5EF5618-CCB6-4A41-98CA-139284EA482D}.Release|x86.ActiveCfg = Release|Win32
 		{D5EF5618-CCB6-4A41-98CA-139284EA482D}.Release|x86.Build.0 = Release|Win32
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Debug|x64.ActiveCfg = Debug|x64
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Debug|x64.Build.0 = Debug|x64
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Debug|x86.ActiveCfg = Debug|Win32
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Debug|x86.Build.0 = Debug|Win32
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x64.ActiveCfg = Release|x64
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x64.Build.0 = Release|x64
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x86.ActiveCfg = Release|Win32
+		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

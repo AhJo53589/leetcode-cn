@@ -47,6 +47,7 @@
 * `（简单）`  [67.add-binary 二进制求和](./problems/67.add-binary/README.md) 
 * `（简单）`  [69.sqrtx x 的平方根](./problems/69.sqrtx/README.md)
 * `（简单）`  [70.ClimbStairs 爬楼梯](./problems/70.ClimbStairs/README.md) 
+* `（中等）`  [71.simplify-path 简化路径](./problems/71.simplify-path/README.md)
 * `（中等）`  [73.set-matrix-zeroes 矩阵置零](./problems/73.set-matrix-zeroes/README.md)
 * `（中等）`  [75.sort-colors 颜色分类](./problems/75.sort-colors/README.md) 
 * `（中等）`  [78.subsets 子集](./problems/78.subsets/README.md)
