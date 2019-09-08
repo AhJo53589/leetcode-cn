@@ -9,6 +9,8 @@
 
 ---
 ## 20190908
+* 567.permutation-in-string 字符串的排列
+
 * 410.split-array-largest-sum 分割数组的最大值
 
 

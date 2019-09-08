@@ -172,6 +172,7 @@
 * `（中等）`  [547.friend-circles 朋友圈](./problems/547.friend-circles/README.md)
 * `（简单）`  [557.reverse-words-in-a-string-iii 反转字符串中的单词 III](./problems/557.reverse-words-in-a-string-iii/README.md) 
 * `（简单）`  [561.array-partition-i 数组拆分 I](./problems/561.array-partition-i/README.md) 
+* `（中等）`  [567.permutation-in-string 字符串的排列](./problems/567.permutation-in-string/README.md)
 * `（简单）`  [599.minimum-index-sum-of-two-lists 两个列表的最小索引总和](./problems/599.minimum-index-sum-of-two-lists/README.md) 
 * `（中等）`  [621.task-scheduler 任务调度器](./problems/621.task-scheduler/README.md)
 * `（中等）`  [622.MyCircularQueue 设计循环队列](./problems/622.MyCircularQueue/README.md) 
