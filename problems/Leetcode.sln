@@ -393,6 +393,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "567.permutation-in-string",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "71.simplify-path", "71.simplify-path\71.simplify-path.vcxproj", "{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "93.restore-ip-addresses", "93.restore-ip-addresses\93.restore-ip-addresses.vcxproj", "{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1961,6 +1963,14 @@ Global
 		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x64.Build.0 = Release|x64
 		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x86.ActiveCfg = Release|Win32
 		{5B8AD24F-B5E5-4A14-8D36-D8FAEB29AE3B}.Release|x86.Build.0 = Release|Win32
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Debug|x64.ActiveCfg = Debug|x64
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Debug|x64.Build.0 = Debug|x64
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Debug|x86.Build.0 = Debug|Win32
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Release|x64.ActiveCfg = Release|x64
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Release|x64.Build.0 = Release|x64
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Release|x86.ActiveCfg = Release|Win32
+		{6E5C4C42-C0F0-4AEE-83E6-6E06E529593E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

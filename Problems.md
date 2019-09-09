@@ -55,6 +55,7 @@
 * `（简单）`  [80.remove-duplicates-from-sorted-array-ii 删除排序数组中的重复项](./problems/80.remove-duplicates-from-sorted-array-ii/README.md) 
 * `（简单）`  [88.Merge 合并两个有序数组](./problems/88.Merge/README.md) 
 * `（中等）`  [89.gray-code 格雷编码](./problems/89.gray-code/README.md)
+* `（中等）`  [93.restore-ip-addresses 复原IP地址](./problems/93.restore-ip-addresses/README.md)
 * `（中等）`  [94.binary-tree-inorder-traversal 二叉树的中序遍历](./problems/94.binary-tree-inorder-traversal/README.md)
 * `（中等）`  [95.unique-binary-search-trees-ii 不同的二叉搜索树 II](./problems/95.unique-binary-search-trees-ii/README.md) 
 * `（中等）`  [98.IsValidBST 验证二叉搜索树](./problems/98.IsValidBST/README.md) 

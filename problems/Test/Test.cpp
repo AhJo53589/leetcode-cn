@@ -29,28 +29,37 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////
-string simplifyPath(string &path)
+vector<string> restoreIpAddresses(string &s, int count, int iBegin)
 {
-	for (size_t i = path.size(); i > 0; )
+	int len = s.length();
+	vector<string> ret;
+	for (int i = iBegin; i < iBegin + 3; i++)
 	{
-		i--;
-		path[i] = (path[i] == '/' ? ' ' : path[i]);
+		if (count == 0 && i != len - 1) continue;
+		if ((len - i - 1) > (count * 3)) continue;
+		if ((len - i - 1) < (count * 1)) continue;
+		
+		string sub = s.substr(iBegin, i - iBegin + 1);
+		int ip = stoi(sub);
+		if (ip < 0 || ip > 255) continue;
+		if (to_string(ip) != sub) break;
+
+		if (count == 0)
+		{
+			ret.push_back(sub);
+		}
+		vector<string> vs = restoreIpAddresses(s, count - 1, i + 1);
+		for (auto &v : vs)
+		{
+			ret.push_back(sub + "." + v);
+		}
 	}
-	stringstream istr(path);
-	vector<string> vs;
-	string str;
-	while (istr >> str)
-	{
-		if (str == ".") continue;
-		if (str != "..") vs.push_back(str);
-		else if (vs.size()) vs.pop_back();
-	}
-	str.clear();
-	for (auto &s : vs)
-	{
-		str.append("/" + s);
-	}
-	return str.empty() ? "/" : str;
+	return ret;
+}
+
+vector<string> restoreIpAddresses(string s)
+{
+	return restoreIpAddresses(s, 3, 0);
 }
 
 
@@ -73,38 +82,20 @@ int main()
 	//////////////////////////////////////////////////////////////////////////
 	vector<string> TESTS;
 	//vector<string> K;
-	vector<string> ANSWERS;
+	vector<vector<string>> ANSWERS;
 
-	TESTS.push_back("/home/");
-	ANSWERS.push_back("/home");
+	TESTS.push_back("25525511135");
+	ANSWERS.push_back({ "255.255.11.135", "255.255.111.35" });
 
-	TESTS.push_back("/../");
-	ANSWERS.push_back("/");
-
-	TESTS.push_back("/home//foo/");
-	ANSWERS.push_back("/home/foo");
-
-	TESTS.push_back("/a/./b/../../c/");
-	ANSWERS.push_back("/c");
-
-	TESTS.push_back("/a/../../b/../c//.//");
-	ANSWERS.push_back("/c");
-
-	TESTS.push_back("/a//b////c/d//././/..");
-	ANSWERS.push_back("/a/b/c");
-
-	TESTS.push_back("/.../");
-	ANSWERS.push_back("/...");
-
-	TESTS.push_back("/...");
-	ANSWERS.push_back("/...");
+	TESTS.push_back("010010");
+	ANSWERS.push_back({ "0.10.0.10","0.100.1.0" });
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = simplifyPath(TESTS[i]);
+		auto ans = restoreIpAddresses(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
