@@ -180,6 +180,7 @@
 * `（中等）`  [622.MyCircularQueue 设计循环队列](./problems/622.MyCircularQueue/README.md) 
 * `（中等）`  [652.find-duplicate-subtrees 寻找重复的子树](./problems/652.find-duplicate-subtrees/README.md) 
 * `（中等）`  [658.find-k-closest-elements 找到 K 个最接近的元素](./problems/658.find-k-closest-elements/README.md)
+* `（中等）`  [695.max-area-of-island 岛屿的最大面积](./problems/695.max-area-of-island/README.md)
 * `（简单）`  [700.search-in-a-binary-search-tree 二叉搜索树中的搜索](./problems/700.search-in-a-binary-search-tree/README.md)
 * `（中等）`  [701.insert-into-a-binary-search-tree 二叉搜索树中的插入操作](./problems/701.insert-into-a-binary-search-tree/README.md)
 * `（简单）`  [703.kth-largest-element-in-a-stream 数据流中的第K大元素](./problems/703.kth-largest-element-in-a-stream/README.md)

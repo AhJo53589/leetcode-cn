@@ -9,6 +9,8 @@
 
 ---
 ## 20190909
+* 695.max-area-of-island 岛屿的最大面积
+
 * 93.restore-ip-addresses 复原IP地址
 
 * 71.simplify-path 简化路径
