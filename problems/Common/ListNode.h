@@ -13,10 +13,11 @@ using namespace std;
 
 struct ListNode;
 
+ListNode *FindNodeByVal(ListNode *pHead, int i);
 const ListNode *DetectCycle(const ListNode *pHead);
 string ListNodeToString(const ListNode *pHead);
 ListNode *StringToListNode(const string data);
-ListNode *StringToListNode(const string data, int valBegin, int valEnd);
+ListNode *StringToListNode(const string data, int iBeg, int iEnd);
 ListNode *InitCycleListNode(string strValList, int iCyclePos);
 
 struct ListNode

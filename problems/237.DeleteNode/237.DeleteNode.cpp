@@ -8,14 +8,9 @@
 #include <algorithm>
 #include <map>
 #include <vector>
-using namespace std;
 
-struct ListNode
-{
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
+#include "..\Common\ListNode.h"
+using namespace std;
 
 void deleteNode(ListNode *node)
 {
@@ -23,59 +18,20 @@ void deleteNode(ListNode *node)
 	node->val = pNext->val;
 	node->next = pNext->next;
 	delete(pNext);
-	pNext = NULL;
-}
-
-ListNode *FindNode(ListNode *pHead, int i)
-{
-	ListNode *pReturn = pHead;
-	while (pReturn->val != i)
-	{
-		pReturn = pReturn->next;
-	}
-	return pReturn;
-}
-
-void PrintLinkList(ListNode *pHead)
-{
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
-}
-
-void Init(ListNode **pHead)
-{
-	const int cLinkListLen = 10;
-
-	ListNode *pNode = NULL;
-	ListNode *pNodeNew = NULL;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(i);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	*pHead = pNode;
+	pNext = nullptr;
 }
 
 int main()
 {
-	ListNode *pHead = NULL;
-	Init(&pHead);
-	PrintLinkList(pHead);
+	ListNode *pHead = StringToListNode("[1,2,3,4,5,6,7,8,9,10]");
+	cout << pHead << endl;
 
 	const int cCheckNum = 10;
 	for (int i = 3; i < cCheckNum; i++)
 	{
 		cout << "delete num = " << i << endl;
-		deleteNode(FindNode(pHead, i));
-		PrintLinkList(pHead);
+		deleteNode(FindNodeByVal(pHead, i));
+		cout << pHead << endl;
 		cout << endl;
 	}
 }

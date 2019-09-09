@@ -7,36 +7,32 @@
 #include <algorithm>
 #include <map>
 #include <vector>
-using namespace std;
 
-struct ListNode
-{
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
+#include "..\Common\ListNode.h"
+
+using namespace std;
 
 ListNode* removeNthFromEnd(ListNode* head, int n)
 {
-	if (head == NULL || n == 0) return NULL;
-	if (head->next == NULL) return NULL;
+	if (head == nullptr || n == 0) return nullptr;
+	if (head->next == nullptr) return nullptr;
 
 	ListNode *pTemp = head;
 	ListNode *pDeletePrev = head;
-	ListNode *pDelete = NULL;
+	ListNode *pDelete = nullptr;
 	while (n > 0)
 	{
 		pTemp = pTemp->next;
 		--n;
 	}
-	if (pTemp == NULL)
+	if (pTemp == nullptr)
 	{
 		pDelete = head;
 		head = head->next;
 		delete(pDelete);
 		return head;
 	}
-	while (pTemp->next != NULL)
+	while (pTemp->next != nullptr)
 	{
 		pTemp = pTemp->next;
 		pDeletePrev = pDeletePrev->next;
@@ -47,46 +43,17 @@ ListNode* removeNthFromEnd(ListNode* head, int n)
 	return head;
 }
 
-void PrintLinkList(ListNode *pHead)
-{
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
-}
-
-void Init(ListNode **pHead)
-{
-	const int cLinkListLen = 3;
-
-	ListNode *pNode = NULL;
-	ListNode *pNodeNew = NULL;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(i);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	*pHead = pNode;
-}
-
 int main()
 {
-	ListNode *pHead = NULL;
-	Init(&pHead);
-	PrintLinkList(pHead);
+	ListNode *pHead = StringToListNode("[1,2,3,4,5,6,7,8,9]");
+	cout << pHead << endl;
 
 	//for (int i = 1; i < 2; i++)
 	{
 		int i = 3;
 		cout << "delete num = " << i << endl;
 		pHead = removeNthFromEnd(pHead, i);
-		PrintLinkList(pHead);
+		cout << pHead << endl;
 		cout << endl;
 	}
 }

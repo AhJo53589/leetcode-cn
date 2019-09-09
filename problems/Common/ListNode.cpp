@@ -16,6 +16,16 @@
 using namespace std;
 
 
+ListNode *FindNodeByVal(ListNode *pHead, int val)
+{
+	ListNode *pNode = pHead;
+	while (pNode != nullptr && pNode->val != val)
+	{
+		pNode = pNode->next;
+	}
+	return pNode;
+}
+
 const ListNode *DetectCycle(const ListNode *pHead)
 {
 	if (pHead == nullptr) return nullptr;
@@ -81,12 +91,12 @@ ListNode * StringToListNode(const string data)
 	return StringToListNode(data, 0, val.size());
 }
 
-ListNode * StringToListNode(const string data, int valBegin, int valEnd)
+ListNode * StringToListNode(const string data, int iBeg, int iEnd)
 {
 	vector<int> val = StringToVectorInt(data);
 
 	ListNode *pNode = nullptr;
-	for (int i = valEnd - 1; i >= valBegin; i--)
+	for (int i = iEnd - 1; i >= iBeg; i--)
 	{
 		ListNode *pNew = new ListNode(val[i]);
 		pNew->next = pNode;

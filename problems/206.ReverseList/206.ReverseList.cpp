@@ -7,80 +7,31 @@
 #include <algorithm>
 #include <map>
 #include <vector>
+
+#include "..\Common\ListNode.h"
 using namespace std;
 
-struct ListNode
-{
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
 
-
-ListNode* reverseList(ListNode* head)
+ListNode *reverseList(ListNode *pHead)
 {
-	ListNode* pReversedHead = NULL;
-	ListNode* pNode = head;
-	ListNode* pPrev = NULL;
-	while (pNode != NULL)
+	ListNode *pNode = pHead;
+	ListNode *pPrev = nullptr;
+
+	while (pNode != nullptr)
 	{
-		// get the next node, and save it at pNext
-		ListNode* pNext = pNode->next;
-		// reverse the linkage between nodes
+		ListNode *pNext = pNode->next;
 		pNode->next = pPrev;
-
-		// move forward on the the list
 		pPrev = pNode;
 		pNode = pNext;
 	}
-	pReversedHead = pPrev;
-	return pReversedHead;
-}
-
-ListNode *FindNode(ListNode *pHead, int i)
-{
-	ListNode *pReturn = pHead;
-	while (pReturn->val != i)
-	{
-		pReturn = pReturn->next;
-	}
-	return pReturn;
-}
-
-void PrintLinkList(ListNode *pHead)
-{
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
-}
-
-void Init(ListNode **pHead)
-{
-	const int cLinkListLen = 10;
-
-	ListNode *pNode = NULL;
-	ListNode *pNodeNew = NULL;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(i);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	*pHead = pNode;
+	return pPrev;
 }
 
 int main()
 {
-	ListNode *pHead = NULL;
-	Init(&pHead);
-	PrintLinkList(pHead);
+	ListNode *pHead = StringToListNode("[1,2,3,4,5,6,7,8,9]");
+	cout << pHead << endl;
 
 	ListNode *pReverseHead = reverseList(pHead);
-	PrintLinkList(pReverseHead);
+	cout << pReverseHead << endl;
 }

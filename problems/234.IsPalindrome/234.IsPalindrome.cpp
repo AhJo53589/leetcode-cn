@@ -7,27 +7,23 @@
 #include <algorithm>
 #include <map>
 #include <vector>
-using namespace std;
 
-struct ListNode
-{
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
-};
+#include "..\Common\ListNode.h"
+
+using namespace std;
 
 bool isPalindrome(ListNode* head)
 {
 	ListNode *fast = head;
 	ListNode *slow = head;
-	while (fast != NULL)
+	while (fast != nullptr)
 	{
 		slow = slow->next;
-		fast = (fast->next != NULL) ? fast->next->next : fast->next;
+		fast = (fast->next != nullptr) ? fast->next->next : fast->next;
 	}
 
-	ListNode *prev = NULL;
-	while (slow != NULL)
+	ListNode *prev = nullptr;
+	while (slow != nullptr)
 	{
 		ListNode *tmp = slow->next;
 		slow->next = prev;
@@ -35,7 +31,7 @@ bool isPalindrome(ListNode* head)
 		slow = tmp;
 	}
 
-	while (head != NULL && prev != NULL)
+	while (head != nullptr && prev != nullptr)
 	{
 		if (head->val != prev->val) return false;
 
@@ -68,39 +64,10 @@ bool isPalindrome(ListNode* head)
 //	return true;
 //}
 
-void PrintLinkList(ListNode *pHead)
-{
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
-}
-
-void Init(ListNode **pHead)
-{
-	const int cLinkListLen = 3;
-
-	ListNode *pNode = NULL;
-	ListNode *pNodeNew = NULL;
-
-	for (int i = 0; i < cLinkListLen; i++)
-	{
-		pNodeNew = new ListNode(cLinkListLen - i);
-		pNodeNew->next = pNode;
-		pNode = pNodeNew;
-	}
-
-	*pHead = pNode;
-}
-
 int main()
 {
-	ListNode *pHead = NULL;
-	Init(&pHead);
-	PrintLinkList(pHead);
+	ListNode *pHead = StringToListNode("[1,2,2,1]");
+	cout << pHead << endl;
 
 	//for (int i = 1; i < 2; i++)
 	{

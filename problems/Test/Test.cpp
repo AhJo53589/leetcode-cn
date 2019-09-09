@@ -141,16 +141,15 @@ int main()
 //int main()
 //{
 //	vector<ListNode *> lists;
-//	ListNode *pHead = nullptr;
-//	StringToListNode(&pHead, "[4,7,5,3]");
+//	ListNode *pHead = StringToListNode("[4,7,5,3]");
 //	lists.push_back(pHead);
 //	pHead = nullptr;
 //
 //	for (auto i : lists)
 //	{
-//		PrintLinkList(i);
+//		cout << i << endl;
 //		pHead = sortList(i);
-//		PrintLinkList(pHead);
+//		cout << pHead << endl;
 //		cout << endl;
 //	}
 //}
