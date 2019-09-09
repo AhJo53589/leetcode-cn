@@ -50,11 +50,10 @@ ListNode* rotateRight(ListNode* head, int k)
 
 int main()
 {
-	string str = "[1,2,3,4,5,6,7,8,9]";
 	ListNode *pHead = NULL;
-	StringToListNode(&pHead, str);
-	PrintLinkList(pHead);
+	pHead = StringToListNode("[1,2,3,4,5,6,7,8,9]");
+	cout << pHead << endl;
 
 	pHead = rotateRight(pHead, 3);
-	PrintLinkList(pHead);
+	cout << pHead << endl;
 }

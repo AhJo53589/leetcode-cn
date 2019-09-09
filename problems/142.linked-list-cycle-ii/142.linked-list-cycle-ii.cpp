@@ -52,11 +52,8 @@ ListNode *detectCycle(ListNode *head)
 
 int main()
 {
-	string strValList = "[1,2,3,4,5,6,7,8,9]";
-	int iCyclePos = 5;
-	ListNode *pHead = NULL;
-	InitCycleListNode(&pHead, strValList, iCyclePos);
-	PrintCycleLinkList(pHead);
+	ListNode *pHead = InitCycleListNode("[1,2,3,4,5,6,7,8,9]", 5);
+	cout << pHead << endl;
 
 	ListNode *pNode = detectCycle(pHead);
 	cout << pNode->val;

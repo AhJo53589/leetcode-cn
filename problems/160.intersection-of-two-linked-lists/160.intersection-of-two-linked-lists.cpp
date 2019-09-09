@@ -62,12 +62,11 @@ ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
 
 void Init(ListNode **pHeadA, ListNode **pHeadB, string strListA, string strListB, int skipA, int skipB)
 {
-	StringToListNode(pHeadA, strListA, 0, skipA);
-	StringToListNode(pHeadB, strListB, 0, skipB);
+	*pHeadA = StringToListNode(strListA, 0, skipA);
+	*pHeadB = StringToListNode(strListB, 0, skipB);
 
-	ListNode *pNode = NULL;
 	vector<int> listA = StringToVectorInt(strListA);
-	StringToListNode(&pNode, strListA, skipA, listA.size());
+	ListNode *pNode = StringToListNode(strListA, skipA, listA.size());
 
 	ListNode *pTailA = *pHeadA;
 	ListNode *pTailB = *pHeadB;
@@ -88,9 +87,9 @@ int main()
 	ListNode *pHeadA = NULL;
 	ListNode *pHeadB = NULL;
 	Init(&pHeadA, &pHeadB, strListA, strListB, skipA, skipB);
-	PrintLinkList(pHeadA);
-	PrintLinkList(pHeadB);
+	cout << pHeadA << endl;
+	cout << pHeadB << endl;
 
 	ListNode *pNode = getIntersectionNode(pHeadA, pHeadB);
-	cout << pNode->val;
+	cout << pNode->val << endl;
 }

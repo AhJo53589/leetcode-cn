@@ -11,33 +11,44 @@
 
 using namespace std;
 
+struct ListNode;
+
+const ListNode *DetectCycle(const ListNode *pHead);
+string ListNodeToString(const ListNode *pHead);
+ListNode *StringToListNode(const string data);
+ListNode *StringToListNode(const string data, int valBegin, int valEnd);
+ListNode *InitCycleListNode(string strValList, int iCyclePos);
+
 struct ListNode
 {
 	int val;
 	ListNode *next;
-	ListNode(int x) : val(x), next(NULL) {}
+	ListNode(int x) : val(x), next(nullptr) {}
 	ListNode(int x, ListNode * pNext) : val(x), next(pNext) {}
+
+	friend ostream & operator<<(ostream& os, const ListNode *p)
+	{
+		string s = ListNodeToString(p);
+		os << s.c_str();
+		return os;
+	}
 };
 
-void PrintLinkList(ListNode *pHead);
-void PrintCycleLinkList(ListNode *pHead);
 
-void StringToListNode(ListNode **pHead, string strValList);
-void StringToListNode(ListNode **pHead, string strValList, int valBegin, int valEnd);
-void InitCycleListNode(ListNode **pHead, string strValList, int iCyclePos);
-//void printNode(Node *root);
 
+//////////////////////////////////////////////////////////////////////////
+struct DoublyListNode;
+
+string ListNodeToString(const DoublyListNode *pHead);
 
 struct DoublyListNode 
 {
 	int val;
 	DoublyListNode *next, *prev;
-	DoublyListNode() : val(0), next(NULL), prev(NULL) {}
-	DoublyListNode(int x) : val(x), next(NULL), prev(NULL) {}
+	DoublyListNode() : val(0), next(nullptr), prev(nullptr) {}
+	DoublyListNode(int x) : val(x), next(nullptr), prev(nullptr) {}
 	DoublyListNode(int x, DoublyListNode *pNext, DoublyListNode *pPrev) : val(x), next(pNext), prev(pPrev) {}
 };
-
-void PrintLinkList(DoublyListNode *pHead);
 
 
 #endif //LIST_NODE_H

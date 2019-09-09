@@ -223,7 +223,7 @@ public:
 			delete pNode;
 			m_len--;
 		}
-		else if(index < m_len / 2)
+		else if (index < m_len / 2)
 		{
 			pNode = m_pHead;
 			while (index-- > 1) pNode = pNode->next;
@@ -276,6 +276,28 @@ private:
  * obj->deleteAtIndex(index);
  */
 
+
+void PrintLinkList(ListNode *pHead)
+{
+	ListNode *pNode = pHead;
+	while (pNode != nullptr)
+	{
+		cout << pNode->val << " - ";
+		pNode = pNode->next;
+	}
+	cout << endl;
+}
+
+void PrintLinkList(DoublyListNode * pHead)
+{
+	DoublyListNode *pNode = pHead;
+	while (pNode != NULL)
+	{
+		cout << pNode->val << " - ";
+		pNode = pNode->next;
+	}
+	cout << endl;
+}
 
 int main()
 {

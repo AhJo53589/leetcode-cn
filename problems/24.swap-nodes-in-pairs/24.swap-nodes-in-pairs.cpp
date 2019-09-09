@@ -65,11 +65,11 @@ int main()
 	for (int i = 0; i < vStr.size(); i++)
 	{
 		ListNode *pHead;
-		StringToListNode(&pHead, vStr[i]);
-		PrintLinkList(pHead);
+		pHead = StringToListNode(vStr[i]);
+		cout << pHead << endl;
 
 		pHead = swapPairs(pHead);
-		PrintLinkList(pHead);
+		cout << pHead << endl;
 		cout << endl;
 	}
 }

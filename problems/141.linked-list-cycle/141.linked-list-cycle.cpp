@@ -16,10 +16,10 @@ bool hasCycle(ListNode *head)
 {
 	ListNode *fast = head;
 	ListNode *slow = head;
-	while (fast != NULL)
+	while (fast != nullptr)
 	{
 		fast = fast->next;
-		if (fast == NULL) return false;
+		if (fast == nullptr) return false;
 		slow = slow->next;
 		fast = fast->next;
 
@@ -30,11 +30,8 @@ bool hasCycle(ListNode *head)
 
 int main()
 {
-	string strValList = "[1,2,3,4,5,6,7,8,9]";
-	int iCyclePos = 5;
-	ListNode *pHead = NULL;
-	InitCycleListNode(&pHead, strValList, iCyclePos);
-	PrintCycleLinkList(pHead);
+	ListNode *pHead = InitCycleListNode("[1,2,3,4,5,6,7,8,9]", 5);
+	cout << pHead << endl;
 
 	//for (int i = 1; i < 2; i++)
 	{

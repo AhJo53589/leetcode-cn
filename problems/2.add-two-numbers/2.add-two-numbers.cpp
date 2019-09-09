@@ -44,13 +44,12 @@ ListNode* addTwoNumbers(ListNode* l1, ListNode* l2)
 
 int main()
 {
-	ListNode *pHead = NULL;
-	//string str = "[1,2,6,3,4,5,6]";
-	string str = "[1,2,3,4,5,6,7,8,9]";
+	ListNode *pHead = nullptr;
 
-	StringToListNode(&pHead, str);
-	PrintLinkList(pHead);
+	//pHead = StringToListNode("[1,2,6,3,4,5,6]");
+	pHead = StringToListNode("[1,2,3,4,5,6,7,8,9]");
+	cout << pHead << endl;
 
 	ListNode *pNode = addTwoNumbers(pHead, pHead);
-	PrintLinkList(pNode);
+	cout << pNode << endl;
 }

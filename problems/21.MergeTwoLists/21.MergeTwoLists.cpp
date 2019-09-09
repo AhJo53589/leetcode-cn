@@ -71,15 +71,15 @@ int main()
 {
 	ListNode *pHead = NULL;
 	ListNode *pHead2 = NULL;
-	StringToListNode(&pHead, "[1,2,3,4]");
-	StringToListNode(&pHead2, "[1,2,3,4]");
-	PrintLinkList(pHead);
-	PrintLinkList(pHead2);
+	pHead = StringToListNode("[1,2,3,4]");
+	pHead2 = StringToListNode("[1,2,3,4]");
+	cout << pHead << endl;
+	cout << pHead2 << endl;
 
 	//for (int i = 1; i < 2; i++)
 	{
 		pHead = mergeTwoLists(pHead, pHead2);
-		PrintLinkList(pHead);
+		cout << pHead << endl;
 		cout << endl;
 	}
 }

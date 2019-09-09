@@ -62,16 +62,15 @@ int main()
 {
 	vector<ListNode *> lists;
 	ListNode *pHead = nullptr;
-	StringToListNode(&pHead, "[4,7,5,3]");
+	pHead = StringToListNode("[4,7,5,3]");
 	lists.push_back(pHead);
 	pHead = nullptr;
 
 	for (auto p : lists)
 	{
-		PrintLinkList(p);
+		cout << p << endl;
 		pHead = sortList(p);
-		PrintLinkList(pHead);
-		cout << endl;
+		cout << pHead << endl;
 	}
 }
 

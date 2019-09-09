@@ -15,74 +15,112 @@
 #include "ListNode.h"
 using namespace std;
 
-void PrintLinkList(ListNode *pHead)
+
+const ListNode *DetectCycle(const ListNode *pHead)
 {
-	ListNode *pNode = pHead;
-	while (pNode != NULL)
+	if (pHead == nullptr) return nullptr;
+
+	bool hasCycle = false;
+	const ListNode *pLow = pHead;
+	const ListNode *pFast = pHead;
+	while (pFast->next != nullptr && pFast->next->next != nullptr)
 	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
+		pLow = pLow->next;
+		pFast = pFast->next->next;
+		if (pLow == pFast)
+		{
+			hasCycle = true;
+			break;
+		}
 	}
-	cout << endl;
-}
+	if (!hasCycle) return nullptr;
 
-void PrintCycleLinkList(ListNode * pHead)
-{
-	int num = 100;
-	ListNode *pNode = pHead;
-	while (pNode != NULL && num-- > 0)
+	const ListNode *pEnter = pHead;
+	while (pLow != pEnter)
 	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
+		pLow = pLow->next;
+		pEnter = pEnter->next;
 	}
-	cout << endl;
-
+	return pEnter;
 }
 
-void StringToListNode(ListNode **pHead, string strValList)
+string ListNodeToString(const ListNode * pHead)
 {
-	vector<int> val = StringToVectorInt(strValList);
-
-	StringToListNode(pHead, strValList, 0, val.size());
+	string ret;
+	bool bEnter = false;
+	const ListNode *pCycleEnter = DetectCycle(pHead);
+	const ListNode *pNode = pHead;
+	while (pNode != nullptr)
+	{
+		if (pCycleEnter != nullptr && pCycleEnter == pNode)
+		{
+			if (!bEnter)
+			{
+				bEnter = true;
+				ret += "(";
+			}
+			else
+			{
+				ret += ")";
+				break;
+			}
+		}
+		ret += to_string(pNode->val);
+		pNode = pNode->next;
+		if (pNode != nullptr)
+		{
+			ret += ",";
+		}
+	}
+	return ret;
 }
 
-void StringToListNode(ListNode ** pHead, string strValList, int valBegin, int valEnd)
+ListNode * StringToListNode(const string data)
 {
-	vector<int> val = StringToVectorInt(strValList);
+	vector<int> val = StringToVectorInt(data);
+	return StringToListNode(data, 0, val.size());
+}
 
-	ListNode *pNode = NULL;
+ListNode * StringToListNode(const string data, int valBegin, int valEnd)
+{
+	vector<int> val = StringToVectorInt(data);
+
+	ListNode *pNode = nullptr;
 	for (int i = valEnd - 1; i >= valBegin; i--)
 	{
 		ListNode *pNew = new ListNode(val[i]);
 		pNew->next = pNode;
 		pNode = pNew;
 	}
-	*pHead = pNode;
+	return pNode;
 }
 
-void InitCycleListNode(ListNode **pHead, string strValList, int iCyclePos)
+ListNode * InitCycleListNode(string strValList, int iCyclePos)
 {
-	StringToListNode(pHead, strValList);
+	ListNode *pHead = StringToListNode(strValList);
 
-	ListNode *pNode = *pHead;
+	ListNode *pNode = pHead;
 	while (iCyclePos-- > 0) pNode = pNode->next;
 	ListNode *pTail = pNode;
-	while (pTail->next != NULL) pTail = pTail->next;
+	while (pTail->next != nullptr) pTail = pTail->next;
 	pTail->next = pNode;
+	return pHead;
 }
 
-void PrintLinkList(DoublyListNode * pHead)
+string ListNodeToString(const DoublyListNode * pHead)
 {
-	DoublyListNode *pNode = pHead;
-	while (pNode != NULL)
+	string ret;
+	const DoublyListNode *pNode = pHead;
+	while (pNode != nullptr)
 	{
-		cout << pNode->val << " - ";
+		ret += pNode->val;
 		pNode = pNode->next;
+		if (pNode != nullptr)
+		{
+			ret += ",";
+		}
 	}
-	cout << endl;
+	return ret;
 }
 
-//
-//void printNode(Node * root)
-//{
-//}
+

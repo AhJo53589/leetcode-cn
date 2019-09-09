@@ -50,13 +50,11 @@ ListNode* removeElements(ListNode* head, int val)
 
 int main()
 {
-	ListNode *pHead = NULL;
-	//string str = "[1,2,6,3,4,5,6]";
-	string str = "[1,2,2,1]";
-
-	StringToListNode(&pHead, str);
-	PrintLinkList(pHead);
+	ListNode *pHead = nullptr;
+	//pHead = StringToListNode("[1,2,6,3,4,5,6]");
+	pHead = StringToListNode("[1,2,2,1]");
+	cout << pHead << endl;
 
 	ListNode *pNode = removeElements(pHead, 2);
-	PrintLinkList(pNode);
+	cout << pNode << endl;
 }

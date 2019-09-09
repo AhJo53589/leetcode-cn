@@ -63,28 +63,28 @@ int main()
 {
 	vector<ListNode *> lists;
 	ListNode *pHead = nullptr;
-	StringToListNode(&pHead, "[1,5,5]");
+	pHead = StringToListNode("[1,5,5]");
 	lists.push_back(pHead);
 	pHead = nullptr;
 
-	StringToListNode(&pHead, "[1,3,4]");
+	pHead = StringToListNode("[1,3,4]");
 	lists.push_back(pHead);
 	pHead = nullptr;
 
-	StringToListNode(&pHead, "[2,6]");
+	pHead = StringToListNode("[2,6]");
 	lists.push_back(pHead);
 	pHead = nullptr;
 
-	StringToListNode(&pHead, "[1]");
+	pHead = StringToListNode("[1]");
 	lists.push_back(pHead);
 	pHead = nullptr;
 
 
 	for (auto p : lists)
 	{
-		PrintLinkList(p);
+		cout << p << endl;
 	}
 	pHead = mergeKLists(lists);
-	PrintLinkList(pHead);
+	cout << pHead << endl;
 	cout << endl;
 }
