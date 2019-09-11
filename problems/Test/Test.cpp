@@ -28,103 +28,53 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-int trap(vector<int>& height)
-{
-	if (height.empty()) return 0;
-
-	int ans = 0;
-	int left = -1;
-	int cut = 0;
-	for (int i = 0; i < height.size(); i++)
-	{
-		if (left == -1)
-		{
-			left = (height[i] != 0) ? i : left;
-			continue;
-		}
-
-		if (height[i] < height[left])
-		{
-			cut += height[i];
-		}
-		else
-		{
-			ans += (i - left - 1) * min(height[left], height[i]) - cut;
-			left = i;
-			cut = 0;
-		}
-	}
-	if (left == -1) return ans;
-
-	cut = 0;
-	int right = height.size();
-	for (int i = height.size() - 1; i >= left; i--)
-	{
-		if (right == height.size())
-		{
-			right = (height[i] != 0) ? i : right;
-			continue;
-		}
-
-		if (height[i] < height[right])
-		{
-			cut += height[i];
-		}
-		else
-		{
-			ans += (right - i - 1) * min(height[right], height[i]) - cut;
-			right = i;
-			cut = 0;
-		}
-	}
-	return ans;
-}
 //////////////////////////////////////////////////////////////////////////
-int trap(vector<int>& height, int &first, int last)
+bool validUtf8(vector<int>& data, size_t start)
 {
-	int ans = 0;
-	int cut = 0;
+	bitset<8> n = data[start];
 
-	for (int i = 0; i < last; i++)
+	if (n[7] == 0) return validUtf8(data, start + 1);
+
+	int len = 0;
+	int i = 7;
+	while (i >= 4)
 	{
-		if (first == -1)
+		if (n[i] == 0) break;
+		if (n[i] == 1)
 		{
-			first = (height[i] != 0) ? i : first;
-			continue;
-		}
-
-		if (height[i] < height[first])
-		{
-			cut += height[i];
-		}
-		else
-		{
-			ans += (i - first - 1) * min(height[first], height[i]) - cut;
-			first = i;
-			cut = 0;
+			len++;
 		}
 	}
 
-	return ans;
+
 }
 
-int trap(vector<int>& height) 
+bool validUtf8(vector<int>& data) 
 {
-	if (height.empty()) return 0;
+	size_t len = data.size();
+	bitset<8> n;
+	n = data[0];
+	if (n[7] == 0)
+	{
+	}
+	if (len == 1)
+	{
+		return (n[7] == 0);
+	}
+	for (size_t i = 0; i < len - 1; i++)
+	{
+		if (n[7 - i] != 1) return false;
+	}
+	if (n[7 - len + 1] != 0) return false;
 
-	int ans = 0;
-	int first = -1;
-	int last = height.size();
-	ans = trap(height, first, last);
-	if (first == -1) return ans;
-
-	reverse(height.begin(), height.end());
-	last = height.size() - first;
-	first = -1;
-	ans += trap(height, first, last);
-
-	return ans;
+	for (size_t i = 1; i < len; i++)
+	{
+		n = data[i];
+		if (n[7] != 1 || n[6] != 0) return false;
+	}
+	return true;
 }
+
 
 int main()
 {
@@ -143,20 +93,20 @@ int main()
 	//////////////////////////////////////////////////////////////////////////
 	vector<vector<int>> TESTS;
 	//vector<int> K;
-	vector<int> ANSWERS;
+	vector<bool> ANSWERS;
 
-	TESTS.push_back({ 0,1,0,2,1,0,1,3,2,1,2,1 });
-	ANSWERS.push_back(6);
+	TESTS.push_back({ 197, 130, 1 });
+	ANSWERS.push_back(true);
 
-	TESTS.push_back({ 0 });
-	ANSWERS.push_back(0);
+	TESTS.push_back({ 235, 140, 4 });
+	ANSWERS.push_back(false);
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = trap(TESTS[i]);
+		auto ans = validUtf8(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
