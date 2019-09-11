@@ -6,6 +6,10 @@
 
 
 
+---
+## 20190911
+* 674.longest-continuous-increasing-subsequence 最长连续递增序列
+
 
 ---
 ## 20190909
