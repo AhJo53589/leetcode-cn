@@ -8,6 +8,8 @@
 
 ---
 ## 20190911
+* 393.utf-8-validation UTF-8 编码验证
+
 * 42.trapping-rain-water 接雨水
 
 * 60.permutation-sequence 第k个排列

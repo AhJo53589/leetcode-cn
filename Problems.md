@@ -158,6 +158,7 @@
 * `（中等）`  [380.insert-delete-getrandom-o1 常数时间插入、删除和获取随机元素](./problems/380.insert-delete-getrandom-o1/README.md) 
 * `（中等）`  [384.Shuffle 打乱数组](./problems/384.Shuffle/README.md) 
 * `（简单）`  [387.FirstUniqChar 字符串中的第一个唯一字符](./problems/387.FirstUniqChar/README.md) 
+* `（中等）`  [393.utf-8-validation UTF-8 编码验证](./problems/393.utf-8-validation/README.md)
 * `（中等）`  [394.decode-string 字符串解码](./problems/394.decode-string/README.md) 
 * `（困难）`  [410.split-array-largest-sum 分割数组的最大值](./problems/410.split-array-largest-sum/README.md)
 * `（简单）`  [412.FizzBuzz Fizz Buzz](./problems/412.FizzBuzz/README.md) 
