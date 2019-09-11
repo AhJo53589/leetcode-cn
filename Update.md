@@ -8,6 +8,8 @@
 
 ---
 ## 20190911
+* 60.permutation-sequence 第k个排列
+
 * 128.longest-consecutive-sequence 最长连续序列
 
 * 674.longest-continuous-increasing-subsequence 最长连续递增序列

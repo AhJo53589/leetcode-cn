@@ -41,6 +41,7 @@
 * `（中等）`  [55.jump-game 跳跃游戏](./problems/55.jump-game/README.md)
 * `（中等）`  [56.merge-intervals 合并区间](./problems/56.merge-intervals/README.md)
 * `（中等）`  [59.spiral-matrix-ii 螺旋矩阵 II](./problems/59.spiral-matrix-ii/README.md)
+* `（中等）`  [60.permutation-sequence 第k个排列](./problems/60.permutation-sequence/README.md)
 * `（中等）`  [61.rotate-list 旋转链表](./problems/61.rotate-list/README.md) 
 * `（中等）`  [62.unique-paths 不同路径](./problems/62.unique-paths/README.md)
 * `（简单）`  [66.PlusOne 加一](./problems/66.PlusOne/README.md) 

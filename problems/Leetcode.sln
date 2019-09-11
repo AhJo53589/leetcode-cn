@@ -401,6 +401,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "674.longest-continuous-incr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "128.longest-consecutive-sequence", "128.longest-consecutive-sequence\128.longest-consecutive-sequence.vcxproj", "{476DA692-18BF-49A6-841D-25E221E36CBB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "60.permutation-sequence", "60.permutation-sequence\60.permutation-sequence.vcxproj", "{8ABED258-1675-43E2-9F14-AD9FD75AA041}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2001,6 +2003,14 @@ Global
 		{476DA692-18BF-49A6-841D-25E221E36CBB}.Release|x64.Build.0 = Release|x64
 		{476DA692-18BF-49A6-841D-25E221E36CBB}.Release|x86.ActiveCfg = Release|Win32
 		{476DA692-18BF-49A6-841D-25E221E36CBB}.Release|x86.Build.0 = Release|Win32
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Debug|x64.ActiveCfg = Debug|x64
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Debug|x64.Build.0 = Debug|x64
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Debug|x86.ActiveCfg = Debug|Win32
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Debug|x86.Build.0 = Debug|Win32
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Release|x64.ActiveCfg = Release|x64
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Release|x64.Build.0 = Release|x64
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Release|x86.ActiveCfg = Release|Win32
+		{8ABED258-1675-43E2-9F14-AD9FD75AA041}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
