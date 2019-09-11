@@ -3,9 +3,8 @@
 
 
 ## Selected Solutions
-* `（中等）`  [17.letter-combinations-of-a-phone-number 电话号码的字母组合](./problems/17.letter-combinations-of-a-phone-number/README.md) | [发布的题解]() |
-* `（中等）`  [18.4sum 四数之和](./problems/18.4sum/README.md) | [发布的题解]() |
 * `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md) | [发布的题解](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) |
+* `（困难）`  [42.trapping-rain-water 接雨水](./problems/42.trapping-rain-water/README.md) | [发布的题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) |
 * `（中等）`  [55.jump-game 跳跃游戏](./problems/55.jump-game/README.md) | [发布的题解](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) |
 * `（中等）`  [79.word-search 单词搜索](./problems/79.word-search/README.md) | [发布的题解](https://leetcode-cn.com/problems/word-search/solution/79-by-ikaruga/) |
 * `（中等）`  [93.restore-ip-addresses 复原IP地址](./problems/93.restore-ip-addresses/README.md) | [发布的题解](https://leetcode-cn.com/problems/restore-ip-addresses/solution/93-by-ikaruga/) |
@@ -23,7 +22,7 @@
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) | [发布的题解](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/) |
 
 ## Problems & Solutions
-完成进度 （200 / 1170）
+完成进度 （201 / 1170）
 [查看详情](./Problems.md)  
 
 ## Update

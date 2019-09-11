@@ -8,6 +8,8 @@
 
 ---
 ## 20190911
+* 42.trapping-rain-water 接雨水
+
 * 60.permutation-sequence 第k个排列
 
 * 128.longest-consecutive-sequence 最长连续序列
