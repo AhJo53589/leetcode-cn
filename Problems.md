@@ -93,6 +93,7 @@
 * `（困难）`  [149.max-points-on-a-line 直线上最多的点数](./problems/149.max-points-on-a-line/README.md)
 * `（中等）`  [150.EvalRPN 逆波兰表达式求值](./problems/150.EvalRPN/README.md) 
 * `（中等）`  [151.reverse-words-in-a-string 翻转字符串里的单词](./problems/151.reverse-words-in-a-string/README.md) 
+* `（中等）`  [152.maximum-product-subarray 乘积最大子序列](./problems/152.maximum-product-subarray/README.md)
 * `（中等）`  [153.find-minimum-in-rotated-sorted-array 寻找旋转排序数组中的最小值](./problems/153.find-minimum-in-rotated-sorted-array/README.md)
 * `（困难）`  [154.find-minimum-in-rotated-sorted-array-ii 寻找旋转排序数组中的最小值 II](./problems/154.find-minimum-in-rotated-sorted-array-ii/README.md)
 * `（简单）`  [155.MinStack 最小栈](./problems/155.MinStack/README.md) 

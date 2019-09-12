@@ -7,6 +7,11 @@
 
 
 ---
+## 20190912
+* 152.maximum-product-subarray 乘积最大子序列
+
+
+---
 ## 20190911
 * 393.utf-8-validation UTF-8 编码验证
 
