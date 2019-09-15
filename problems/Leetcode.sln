@@ -411,6 +411,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "152.maximum-product-subarra
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "218.the-skyline-problem", "218.the-skyline-problem\218.the-skyline-problem.vcxproj", "{A839760F-C356-41C8-8948-6999C8B613D1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "179.largest-number", "179.largest-number\179.largest-number.vcxproj", "{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2051,6 +2053,14 @@ Global
 		{A839760F-C356-41C8-8948-6999C8B613D1}.Release|x64.Build.0 = Release|x64
 		{A839760F-C356-41C8-8948-6999C8B613D1}.Release|x86.ActiveCfg = Release|Win32
 		{A839760F-C356-41C8-8948-6999C8B613D1}.Release|x86.Build.0 = Release|Win32
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Debug|x64.ActiveCfg = Debug|x64
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Debug|x64.Build.0 = Debug|x64
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Debug|x86.ActiveCfg = Debug|Win32
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Debug|x86.Build.0 = Debug|Win32
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Release|x64.ActiveCfg = Release|x64
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Release|x64.Build.0 = Release|x64
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Release|x86.ActiveCfg = Release|Win32
+		{FDA9B0B3-5DB0-40FF-B8D2-FD4FA26EA70A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
