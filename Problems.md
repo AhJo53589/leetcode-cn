@@ -167,6 +167,7 @@
 * `（困难）`  [410.split-array-largest-sum 分割数组的最大值](./problems/410.split-array-largest-sum/README.md)
 * `（简单）`  [412.FizzBuzz Fizz Buzz](./problems/412.FizzBuzz/README.md) 
 * `（简单）`  [415.add-strings 字符串相加](./problems/415.add-strings/README.md) 
+* `（中等）`  [416.partition-equal-subset-sum 分割等和子集](./problems/416.partition-equal-subset-sum/README.md)
 * `（中等）`  [430.flatten-a-multilevel-doubly-linked-list 扁平化多级双向链表](./problems/430.flatten-a-multilevel-doubly-linked-list/README.md) 
 * `（困难）`  [432.all-oone-data-structure 全 O(1) 的数据结构](./problems/432.all-oone-data-structure/README.md)
 * `（简单）`  [447.number-of-boomerangs 回旋镖的数量](./problems/447.number-of-boomerangs/README.md)
