@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 324.wiggle-sort-ii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -29,8 +29,30 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
+//void wiggleSort(vector<int>& nums) {
+//	if (2 > nums.size()) {
+//		return;
+//	}
+//
+//	int nums_size = nums.size();
+//	auto midptr = nums.begin() + nums_size / 2;
+//	nth_element(nums.begin(), midptr, nums.end());
+//	int mid = *midptr;
+//#define A(i) nums[(1+2*(i)) % (nums_size|1)]
+//	int i = 0, j = 0, k = nums_size - 1;
+//	while (j <= k) {
+//		if (A(j) > mid)
+//			swap(A(i++), A(j++));
+//		else if (A(j) < mid)
+//			swap(A(j), A(k--));
+//		else
+//			j++;
+//	}
+//}
+
 //////////////////////////////////////////////////////////////////////////
 void wiggleSort(vector<int>& nums) {
+	/**/
 	vector<int> tmp(nums.begin(), nums.end());
 	int len = nums.size();
 	int k = (len + 1) >> 1;
@@ -81,58 +103,3 @@ int main()
 		f_time_cout();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<int> K;
-//	vector<bool> A;
-//
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-//	//K.push_back(3);
-//	A.push_back(true);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,null,null,4,4"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
-//
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
-//		//DrawTreeNode(ans);
-//
-//	}
-//}
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//int main()
-//{
-//	vector<ListNode *> lists;
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-//	lists.push_back(pHead);
-//	pHead = nullptr;
-//
-//	for (auto i : lists)
-//	{
-//		cout << i << endl;
-//		pHead = sortList(i);
-//		cout << pHead << endl;
-//		cout << endl;
-//	}
-//}
-
-
