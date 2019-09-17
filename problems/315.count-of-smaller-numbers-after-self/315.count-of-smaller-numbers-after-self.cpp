@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 315.count-of-smaller-numbers-after-self.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -29,7 +29,7 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> countSmaller(vector<int>& nums) 
+vector<int> countSmaller(vector<int>& nums)
 {
 	if (nums.empty()) return {};
 	if (nums.size() == 1) return { 0 };
@@ -45,7 +45,7 @@ vector<int> countSmaller(vector<int>& nums)
 		counts[i] = it - sort_nums.begin();
 		sort_nums.insert(it, nums[i]);
 	} while (i-- != 0);
-	
+
 	return counts;
 }
 
@@ -91,58 +91,3 @@ int main()
 		f_time_cout();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<int> K;
-//	vector<bool> A;
-//
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-//	//K.push_back(3);
-//	A.push_back(true);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,null,null,4,4"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
-//
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
-//		//DrawTreeNode(ans);
-//
-//	}
-//}
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//int main()
-//{
-//	vector<ListNode *> lists;
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-//	lists.push_back(pHead);
-//	pHead = nullptr;
-//
-//	for (auto i : lists)
-//	{
-//		cout << i << endl;
-//		pHead = sortList(i);
-//		cout << pHead << endl;
-//		cout << endl;
-//	}
-//}
-
-

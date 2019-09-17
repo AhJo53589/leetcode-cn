@@ -144,6 +144,7 @@
 * `（简单）`  [292.nim-game Nim 游戏](./problems/292.nim-game/README.md)
 * `（困难）`  [297.serialize-and-deserialize-binary-tree 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree/README.md)
 * `（中等）`  [300.longest-increasing-subsequence 最长上升子序列](./problems/300.longest-increasing-subsequence/README.md)
+* `（困难）`  [315.count-of-smaller-numbers-after-self 计算右侧小于当前元素的个数](./problems/315.count-of-smaller-numbers-after-self/README.md)
 * `（中等）`  [322.coin-change 零钱兑换](./problems/322.coin-change/README.md)
 * `（中等）`  [324.wiggle-sort-ii 摆动排序 II](./problems/324.wiggle-sort-ii/README.md)
 * `（简单）`  [326.IsPowerOfThree 3的幂](./problems/326.IsPowerOfThree/README.md) 

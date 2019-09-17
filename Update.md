@@ -8,6 +8,8 @@
 
 ---
 ## 20190917
+* 315.count-of-smaller-numbers-after-self 计算右侧小于当前元素的个数
+
 * 416.partition-equal-subset-sum 分割等和子集
 
 
