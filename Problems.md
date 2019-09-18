@@ -165,6 +165,7 @@
 * `（简单）`  [387.FirstUniqChar 字符串中的第一个唯一字符](./problems/387.FirstUniqChar/README.md) 
 * `（中等）`  [393.utf-8-validation UTF-8 编码验证](./problems/393.utf-8-validation/README.md)
 * `（中等）`  [394.decode-string 字符串解码](./problems/394.decode-string/README.md) 
+* `（中等）`  [395.longest-substring-with-at-least-k-repeating-characters 至少有K个重复字符的最长子串](./problems/395.longest-substring-with-at-least-k-repeating-characters/README.md)
 * `（困难）`  [410.split-array-largest-sum 分割数组的最大值](./problems/410.split-array-largest-sum/README.md)
 * `（简单）`  [412.FizzBuzz Fizz Buzz](./problems/412.FizzBuzz/README.md) 
 * `（简单）`  [415.add-strings 字符串相加](./problems/415.add-strings/README.md) 
