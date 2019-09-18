@@ -421,6 +421,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "315.count-of-smaller-number
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "395.longest-substring-with-at-least-k-repeating-characters", "395.longest-substring-with-at-least-k-repeating-characters\395.longest-substring-with-at-least-k-repeating-characters.vcxproj", "{94BF416B-F3A6-4630-9C53-0EACB1C9B85E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "455.assign-cookies", "455.assign-cookies\455.assign-cookies.vcxproj", "{021170E5-B600-4B97-A4B6-7F5D11EB3607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2101,6 +2103,14 @@ Global
 		{94BF416B-F3A6-4630-9C53-0EACB1C9B85E}.Release|x64.Build.0 = Release|x64
 		{94BF416B-F3A6-4630-9C53-0EACB1C9B85E}.Release|x86.ActiveCfg = Release|Win32
 		{94BF416B-F3A6-4630-9C53-0EACB1C9B85E}.Release|x86.Build.0 = Release|Win32
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Debug|x64.ActiveCfg = Debug|x64
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Debug|x64.Build.0 = Debug|x64
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Debug|x86.ActiveCfg = Debug|Win32
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Debug|x86.Build.0 = Debug|Win32
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Release|x64.ActiveCfg = Release|x64
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Release|x64.Build.0 = Release|x64
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Release|x86.ActiveCfg = Release|Win32
+		{021170E5-B600-4B97-A4B6-7F5D11EB3607}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
