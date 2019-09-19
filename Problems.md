@@ -141,6 +141,7 @@
 * `（中等）`  [279.NumSquares 完全平方数](./problems/279.NumSquares/README.md) 
 * `（简单）`  [283.MoveZeroes 移动零](./problems/283.MoveZeroes/README.md) 
 * `（中等）`  [287.find-the-duplicate-number 寻找重复数](./problems/287.find-the-duplicate-number/README.md)
+* `（中等）`  [289.game-of-life 生命游戏](./problems/289.game-of-life/README.md)
 * `（简单）`  [292.nim-game Nim 游戏](./problems/292.nim-game/README.md)
 * `（困难）`  [297.serialize-and-deserialize-binary-tree 二叉树的序列化与反序列化](./problems/297.serialize-and-deserialize-binary-tree/README.md)
 * `（中等）`  [300.longest-increasing-subsequence 最长上升子序列](./problems/300.longest-increasing-subsequence/README.md)
