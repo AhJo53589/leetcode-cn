@@ -24,6 +24,8 @@
 * `（中等）`  [498.diagonal-traverse 对角线遍历](./problems/498.diagonal-traverse/README.md) | [发布的题解](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) |
 * `（简单）`  [704.binary-search 二分查找](./problems/704.binary-search/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-ikaruga/) |
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) | [发布的题解](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/) |
+* `（困难）`  [887.super-egg-drop 鸡蛋掉落](./problems/887.super-egg-drop/README.md) | [发布的题解](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) |
+
 
 ## Problems & Solutions
 完成进度 （211 / 1170）

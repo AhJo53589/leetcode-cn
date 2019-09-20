@@ -1,4 +1,4 @@
-# `（困难）`  [887.SuperEggDrop 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/)
+# `（困难）`  [887.super-egg-drop 鸡蛋掉落](https://leetcode-cn.com/problems/super-egg-drop/)
 
 ### 题目描述
 <p>你将获得&nbsp;<code>K</code>&nbsp;个鸡蛋，并可以使用一栋从&nbsp;<code>1</code>&nbsp;到&nbsp;<code>N</code>&nbsp;&nbsp;共有 <code>N</code>&nbsp;层楼的建筑。</p>
@@ -51,7 +51,6 @@
 </ol>
 
 
-
 ---
 ### 思路
 ```
@@ -59,41 +58,36 @@
 变成【已知K个蛋，求T次行动可以判断的楼层数>N】
 ```
 > Solution.jpg  
-![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/problems/887.SuperEggDrop/Solution.jpg)
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/problems/887.super-egg-drop/Solution.jpg)
 > Solution2.jpg  
-![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/problems/887.SuperEggDrop/Solution2.jpg)
+![](https://raw.githubusercontent.com/AhJo53589/leetcode-cn/master/problems/887.super-egg-drop/Solution2.jpg)
+
+
+[发布的题解](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/)
 
 ### 答题
 ``` C++
 int calcMaximumCoverage(int iTime, int K)
 {
-	// 有K个蛋，行动iTime次，计算能判断多少层
+	// 有K个蛋，行动ans次，计算能判断多少层
 
-	// 如果只有1次行动了，无论有几个蛋，都只能判断出2层
-	if (iTime == 1) return 2;	
+	if (iTime == 1) return 2;		// 如果只有1次行动了，无论有几个蛋，都只能判断出2层
+	if (K == 1) return iTime + 1;	// 如果只有1个蛋了，蛋不能碎，只能一层一层判断，可以判断出ans + 1层
 
-	// 如果只有1个蛋了，蛋不能碎，只能一层一层判断，可以判断出iTime + 1层	
-	if (K == 1) return iTime + 1;	
-
-	// 行动一次，扔个蛋，计算蛋碎了的情况下能判断多少层
-	// + 蛋没碎的情况能判断多少层
-	return calcMaximumCoverage(iTime - 1, K - 1)
-	 + calcMaximumCoverage(iTime - 1, K);
+	// 行动一次，扔个蛋，计算蛋碎了的情况下能判断多少层 + 蛋没碎的情况能判断多少层
+	return calcMaximumCoverage(iTime - 1, K - 1) + calcMaximumCoverage(iTime - 1, K);
 }
 
 int superEggDrop(int K, int N)	// 8ms
 {
-	int iTime = 0;
-	int iMaxCoverage = 0;
-	do
+	int ans = 1;
+	while (calcMaximumCoverage(ans, K) < N + 1)
 	{
-		++iTime;
-		iMaxCoverage = calcMaximumCoverage(iTime, K);
-	} while (iMaxCoverage < N + 1);
-	return iTime;
+		++ans;
+	}
+	return ans;
 }
-``` 
-
+```
 
 ### 其它
 这两天开始做leetcode，随便选了一个2018算法的习题集，然后有5道热身题，做完真是大开眼界，同时也被虐的很惨。

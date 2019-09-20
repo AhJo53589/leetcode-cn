@@ -212,4 +212,4 @@
 * `（简单）`  [771.jewels-and-stones 宝石与石头](./problems/771.jewels-and-stones/README.md) 
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) 
 * `（中等）`  [841.keys-and-rooms 钥匙和房间](./problems/841.keys-and-rooms/README.md) 
-* `（困难）`  [887.SuperEggDrop 鸡蛋掉落](./problems/887.SuperEggDrop/README.md) 
+* `（困难）`  [887.super-egg-drop 鸡蛋掉落](./problems/887.super-egg-drop/README.md)
