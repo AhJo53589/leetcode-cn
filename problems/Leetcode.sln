@@ -425,6 +425,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "289.game-of-life", "289.gam
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "887.super-egg-drop", "887.super-egg-drop\887.super-egg-drop.vcxproj", "{3EE6855C-7730-4D7F-A496-24C15743EE82}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "378.kth-smallest-element-in-a-sorted-matrix", "378.kth-smallest-element-in-a-sorted-matrix\378.kth-smallest-element-in-a-sorted-matrix.vcxproj", "{C46D3132-829F-4F3A-9F5B-C8A9564BC681}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2121,6 +2123,14 @@ Global
 		{3EE6855C-7730-4D7F-A496-24C15743EE82}.Release|x64.Build.0 = Release|x64
 		{3EE6855C-7730-4D7F-A496-24C15743EE82}.Release|x86.ActiveCfg = Release|Win32
 		{3EE6855C-7730-4D7F-A496-24C15743EE82}.Release|x86.Build.0 = Release|Win32
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Debug|x64.ActiveCfg = Debug|x64
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Debug|x64.Build.0 = Debug|x64
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Debug|x86.ActiveCfg = Debug|Win32
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Debug|x86.Build.0 = Debug|Win32
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Release|x64.ActiveCfg = Release|x64
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Release|x64.Build.0 = Release|x64
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Release|x86.ActiveCfg = Release|Win32
+		{C46D3132-829F-4F3A-9F5B-C8A9564BC681}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
