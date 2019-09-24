@@ -29,110 +29,238 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-//int lowerbound(vector<int>& row, int val)
+//void nextPermutation(vector<int>& nums) 
 //{
-//	int low = 0;
-//	int high = row.size();
-//	while (low < high)
+//	if (nums.empty()) return;
+//
+//	vector<int> vec;
+//	for (size_t i = nums.size() - 1; i > 0;)
 //	{
-//		int mid = low + (high - low) / 2;
-//		if (row[mid] <= val)
+//		i--;
+//		vec.push_back(nums[i + 1]);
+//		if (nums[i] < nums[i + 1])
 //		{
-//			low = mid + 1;
-//		}
-//		else
-//		{
-//			high = mid;
+//			sort(vec.begin(), vec.end());
+//			auto it = lower_bound(vec.begin(), vec.end(), nums[i]);
+//			swap(nums[i], *it);
+//			for (size_t j = 0; j < vec.size(); j++)
+//			{
+//				nums[j + i + 1] = vec[j];
+//			}
+//			break;
 //		}
 //	}
-//	return low;
 //}
-//
-//int kthSmallest(vector<vector<int>>& matrix, int k)
-//{
-//	size_t m = matrix.size();
-//	if (m == 0) return 0;
-//
-//	int low = matrix[0][0];
-//	int high = matrix.back().back();
-//
-//	while (low < high)
-//	{
-//		int mid = low + (high - low) / 2;
-//		cout << "low = " << low << ", high = " << high << endl;
-//		cout << "mid = " << mid << endl;
-//
-//		int count = 0;
-//		for (auto &row : matrix)
-//		{
-//			count += lowerbound(row, mid);
-//			printVectorT(row);
-//			cout << "count = " << count << endl;
-//			if (count > k) break;
-//		}
-//		cout << endl;
-//		if (count < k)
-//		{
-//			low = mid + 1;
-//		}
-//		else
-//		{
-//			high = mid;
-//		}
-//	}
-//	return low;
-//}
-
 
 //////////////////////////////////////////////////////////////////////////
-int lowerbound(vector<int>& row, int val)
+//int game(vector<int>& guess, vector<int>& answer)
+//{
+//	int ans = 0;
+//	for (size_t i = 0; i < guess.size(); i++)
+//	{
+//		ans = (guess[i] == answer[i]) ? ans + 1 : ans;
+//	}
+//	return ans;
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//int gcd(int a, int b)
+//{
+//	return b == 0 ? a : gcd(b, a % b);
+//}
+//
+//void fraction(vector<int>& cont, size_t last, vector<int>& val)
+//{
+//	if (last == cont.size() - 1)
+//	{
+//		last--;
+//		val[0] = cont[last + 1];
+//		val[1] = cont[last] * cont[last + 1] + 1;
+//		cout << "val[0] = " << val[0] << ", val[1] = " << val[1] << endl;
+//	}
+//	else if (last != 0)
+//	{
+//		last--;
+//		int temp = val[1];
+//		val[1] = cont[last] * val[1] + val[0];
+//		val[0] = temp;
+//		cout << "val[0] = " << val[0] << ", val[1] = " << val[1] << endl;
+//	}
+//	int g = gcd(val[0], val[1]);
+//	val[0] /= g;
+//	val[1] /= g;
+//	cout << "val[0] = " << val[0] << ", val[1] = " << val[1] << endl;
+//	if (last == 0)
+//	{
+//		swap(val[0], val[1]);
+//		return;
+//	}
+//	fraction(cont, last, val);
+//}
+//
+//vector<int> fraction(vector<int>& cont)
+//{
+//	if (cont.size() == 1) return { cont[0], 1 };
+//	vector<int> val(2, 0);
+//	fraction(cont, cont.size() - 1, val);
+//	return val;
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//bool robot(string command, vector<vector<int>>& obstacles, int x, int y) 
+//{
+//	vector<vector<int>> ob2(obstacles.begin(), obstacles.end());
+//	sort(obstacles.begin(), obstacles.end(), [](const vector<int>& a, const vector<int>& b)
+//	{
+//		return a[0] < b[0];
+//	});
+//	sort(ob2.begin(), ob2.end(), [](const vector<int>& a, const vector<int>& b)
+//	{
+//		return a[1] < b[1];
+//	});
+//
+//	size_t i_x = 0;
+//	size_t i_y = 0;
+//
+//	vector<int> pos(2, 0);
+//	while (true)
+//	{
+//		for (auto &c : command)
+//		{
+//			if (pos[0] == x && pos[1] == y) return true;
+//			if (pos[0] > x || pos[1] > y) return false;
+//
+//			if (c == 'R')
+//			{
+//				pos[0]++;
+//				if (obstacles.size() == 0) continue;
+//				while (i_x < obstacles.size() && obstacles[i_x][0] < pos[0]) i_x++;
+//				while (i_x < obstacles.size() && obstacles[i_x][0] == pos[0])
+//				{
+//					if (obstacles[i_x][1] == pos[1]) return false;
+//					i_x++;
+//				}
+//			}
+//			else if (c == 'U')
+//			{
+//				pos[1]++;
+//				if (ob2.size() == 0) continue;
+//				while (i_y < ob2.size() && ob2[i_y][1] < pos[1]) i_y++;
+//				while (i_y < ob2.size() && ob2[i_y][1] == pos[1])
+//				{
+//					if (ob2[i_y][0] == pos[0]) return false;
+//					i_y++;
+//				}
+//			}
+//		}
+//	}
+//	return false;
+//}
+
+//////////////////////////////////////////////////////////////////////////
+const int mod = 1000000007;
+
+struct Person
 {
-	int low = 0;
-	int high = row.size();
-	while (low < high)
-	{
-		int mid = low + (high - low) / 2;
-		if (row[mid] <= val)
-		{
-			low = mid + 1;
-		}
-		else
-		{
-			high = mid;
-		}
-	}
-	return low;
+	Person() : parent(nullptr), coins(0), all_coins(0) {}
+	Person *parent;
+	vector<Person *> childs;
+	int coins;
+	int all_coins;
+};
+
+void addCoins(Person *p, int coins)
+{
+	if (p == nullptr) return;
+	p->coins += coins;
+	p->coins %= mod;
+
+	addCoinsAllUp(p, coins);
 }
 
-int kthSmallest(vector<vector<int>>& matrix, int k) 
+void addCoinsAllUp(Person *p, int coins)
 {
-	size_t m = matrix.size();
-	if (m == 0) return 0;
-
-	int low = matrix[0][0];
-	int high = matrix.back().back();
-
-	while (low < high)
-	{
-		int mid = low + (high - low) / 2;
-		int count = 0;
-		for (auto &row : matrix)
-		{
-			count += lowerbound(row, mid);
-			if (count > k) break;
-		}
-		if (count < k)
-		{
-			low = mid + 1;
-		}
-		else
-		{
-			high = mid;
-		}
-	}
-	return low;
+	if (p == nullptr) return;
+	p->all_coins += coins;
+	p->all_coins %= mod;
+	addCoinsAllUp(p->parent, coins);
 }
 
+void addCoinsDown(Person *p, int coins)
+{
+	if (p == nullptr) return;
+	for (auto pChild : p->childs)
+	{
+		addCoins(pChild, coins);
+	}
+
+	p->coins += coins;
+	p->coins %= mod;
+}
+
+void getCoins(Person *p, int &val)
+{
+	if (p == nullptr) return;
+	val += p->coins;
+
+	for (auto pChild : p->childs)
+	{
+		getCoins(pChild, val);
+	}
+}
+
+int getChildsCount(Person *p)
+{
+	if (p == nullptr) return;
+	int cnt = 0;
+	for (auto &pChild : p->childs)
+	{
+		cnt += pChild->childs.size();
+	}
+	return cnt;
+}
+
+vector<int> bonus(int n, vector<vector<int>>& leadership, vector<vector<int>>& operations)
+{
+	unordered_map<int, Person *> _map;
+	unordered_map<int, int> _map_childs;
+	for (int i = 1; i <= n; i++)
+	{
+		_map[i] = new Person();
+	}
+	for (auto &l : leadership)
+	{
+		_map[l[0]]->childs.push_back(_map[l[1]]);
+		_map[l[1]]->parent = _map[l[0]];
+	}
+	for (int i = n; i >= 1; i--)
+	{
+		_map_childs[i] = getChildsCount(_map[i]);
+	}
+
+
+	vector<int> ans;
+	for (auto &op : operations)
+	{
+		if (op[0] == 1)
+		{
+			_map[op[1]]->coins += op[2];
+		}
+		else if (op[0] == 2)
+		{
+			addCoins(_map[op[1]], op[2]);
+		}
+		else if (op[0] == 3)
+		{
+			int val = 0;
+			getCoins(_map[op[1]], val);
+			val %= mod;
+			ans.push_back(val);
+		}
+	}
+
+	return ans;
+}
 
 int main()
 {
@@ -149,24 +277,64 @@ int main()
 	};
 
 	//////////////////////////////////////////////////////////////////////////
-	vector<vector<vector<int>>> TESTS;
-	vector<int> K;
-	vector<int> ANSWERS;
+	//vector<vector<vector<int>>> TESTS;
+	////vector<int> K;
+	//vector<vector<int>> ANSWERS;
 
-	TESTS.push_back({ {1,5,9},{10,11,13},{12,13,15} });	
-	K.push_back(8);
-	ANSWERS.push_back(13);
+	//TESTS.push_back({ 3,2,0,2 });
+	//ANSWERS.push_back({ 13,4 });
+
+	//TESTS.push_back({ 0,0,3 });
+	//ANSWERS.push_back({ 3,1 });
+
+	//TESTS.push_back({ 3 });
+	//ANSWERS.push_back({ 3,1 });
+
+	//////////////////////////////////////////////////////////////////////////
+	//vector<vector<vector<int>>> TESTS;
+	//vector<string> C;
+	//vector<int> X;
+	//vector<int> Y;
+	//vector<bool> ANSWERS;
+
+	//TESTS.push_back({  });
+	//C.push_back("URR");
+	//X.push_back(3);
+	//Y.push_back(2);
+	//ANSWERS.push_back(true);
+
+	//TESTS.push_back({ {2,2} });
+	//C.push_back("URR");
+	//X.push_back(3);
+	//Y.push_back(2);
+	//ANSWERS.push_back(false);
+
+	//TESTS.push_back({ {4,2} });
+	//C.push_back("URR");
+	//X.push_back(3);
+	//Y.push_back(2);
+	//ANSWERS.push_back(true);
+
+	//////////////////////////////////////////////////////////////////////////
+	vector<int> TESTS;
+	vector<vector<vector<int>>> L;
+	vector<vector<vector<int>>> O;
+	vector<vector<int>> ANSWERS;
+
+	TESTS.push_back(6);
+	L.push_back({ {1, 2},{1, 6},{2, 3},{2, 5},{1, 4} });
+	O.push_back({ {1, 1, 500},{2, 2, 50},{3, 1},{2, 6, 15},{3, 1} });
+	ANSWERS.push_back({ 650, 665 });
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		printVectorVectorT(TESTS[i]);
-		auto ans = kthSmallest(TESTS[i], K[i]);
+		auto ans = bonus(TESTS[i], L[i], O[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//kthSmallest(TESTS[i], K[i]);
-		//cout << checkAnswer<vector<vector<int>>>(TESTS[i], ANSWERS[i]) << endl;
+		//nextPermutation(TESTS[i]);
+		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
 		f_time_cout();
