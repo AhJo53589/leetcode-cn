@@ -29,8 +29,10 @@
 
 ## Problems & Solutions
 完成进度 （211 / 1170）
-[查看详情](./Problems.md)  
+[查看全部](./Problems.md)  
 
 ## Update
-[查看详情](./Update.md)  
+[查看全部](./Update.md)  
 
+## Season
+* [2019 力扣杯全国秋季编程大赛](.\season\2019-fall/README.md) （排名：220 / 1541）

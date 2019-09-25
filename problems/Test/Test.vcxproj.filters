@@ -3,13 +3,13 @@
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
     <ClCompile Include="Test.cpp" />
+    <ClCompile Include="..\Common\Common.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
     <ClCompile Include="..\Common\GraphNode.cpp">
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\ListNode.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
-    <ClCompile Include="..\Common\Common.cpp">
       <Filter>Common</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\TreeNode.cpp">
@@ -18,13 +18,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
+    <ClInclude Include="..\Common\Common.h">
+      <Filter>Common</Filter>
+    </ClInclude>
     <ClInclude Include="..\Common\GraphNode.h">
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\ListNode.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\Common.h">
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\TreeNode.h">

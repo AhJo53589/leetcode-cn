@@ -169,6 +169,14 @@ struct Person
 	int all_coins;
 };
 
+void addCoinsAllUp(Person *p, int coins)
+{
+	if (p == nullptr) return;
+	p->all_coins += coins;
+	p->all_coins %= mod;
+	addCoinsAllUp(p->parent, coins);
+}
+
 void addCoins(Person *p, int coins)
 {
 	if (p == nullptr) return;
@@ -176,14 +184,6 @@ void addCoins(Person *p, int coins)
 	p->coins %= mod;
 
 	addCoinsAllUp(p, coins);
-}
-
-void addCoinsAllUp(Person *p, int coins)
-{
-	if (p == nullptr) return;
-	p->all_coins += coins;
-	p->all_coins %= mod;
-	addCoinsAllUp(p->parent, coins);
 }
 
 void addCoinsDown(Person *p, int coins)
@@ -211,7 +211,7 @@ void getCoins(Person *p, int &val)
 
 int getChildsCount(Person *p)
 {
-	if (p == nullptr) return;
+	if (p == nullptr) return 0;
 	int cnt = 0;
 	for (auto &pChild : p->childs)
 	{

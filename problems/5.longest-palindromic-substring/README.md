@@ -38,11 +38,12 @@ void findPalindrome(string s, int &low, int &high)
 	high--;
 }
 
-string longestPalindrome(string s) 
+string longestPalindrome(string s)
 {
 	if (s.size() == 1) return s;
-	string res;
-	res.push_back(s[0]);
+
+	string ans;
+	ans.push_back(s[0]);
 	for (int i = 1; i < s.size(); i++)
 	{
 		if (s[i] == s[i - 1])
@@ -50,16 +51,22 @@ string longestPalindrome(string s)
 			int low = i - 1;
 			int high = i;
 			findPalindrome(s, low, high);
-			if (high - low + 1 > res.size()) res = s.substr(low, high - low + 1);
+			if (high - low + 1 > ans.size())
+			{
+				ans = s.substr(low, high - low + 1);
+			}
 		}
 		if ((i + 1 < s.size()) && s[i - 1] == s[i + 1])
 		{
 			int low = i - 1;
 			int high = i + 1;
 			findPalindrome(s, low, high);
-			if (high - low + 1 > res.size()) res = s.substr(low, high - low + 1);
+			if (high - low + 1 > ans.size())
+			{
+				ans = s.substr(low, high - low + 1);
+			}
 		}
 	}
-	return res;
+	return ans;
 }
 ```

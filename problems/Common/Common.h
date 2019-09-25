@@ -23,7 +23,6 @@ string VectorIntToString(const vector<int>& nums);
 vector<vector<int>> StringToVectorVectorInt(string str);
 string VectorVectorIntToString(const vector<vector<int>>& matrix);
 
-
 template<typename T>
 void printVectorT(T &nums)
 {
