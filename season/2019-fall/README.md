@@ -1,5 +1,5 @@
-# leetcode-cn
-[返回](./README.md)
+# 2019 力扣杯全国秋季编程大赛
+[返回](../../README.md)
 
 ## Problems & Solutions
 * `（简单）`  [1.guess-numbers 猜数字](./problems/1.guess-numbers/README.md)

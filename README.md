@@ -35,4 +35,4 @@
 [查看全部](./Update.md)  
 
 ## Season
-* [2019 力扣杯全国秋季编程大赛](.\season\2019-fall/README.md) （排名：220 / 1541）
+* [2019 力扣杯全国秋季编程大赛](./season/2019-fall/README.md) （排名：220 / 1541）
