@@ -50,6 +50,12 @@ int main()
 	TESTS.push_back({ 3,2,1,0,4 });
 	ANSWERS.push_back(false);
 
+	TESTS.push_back({ 0,1 });
+	ANSWERS.push_back(false);
+
+	TESTS.push_back({ 0 });
+	ANSWERS.push_back(true);
+
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		cout << endl << "/////////////////////////////" << endl;
