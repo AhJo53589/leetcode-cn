@@ -22,9 +22,6 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.Hi"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
@@ -74,22 +71,6 @@ string longestPalindrome(string s)
 
 int main()
 {
-	vector<string> str;
-	str.push_back("babad");
-	str.push_back("babab");
-	str.push_back("cbbd");
-	str.push_back("ac");
-
-	for (auto s : str)
-	{
-		cout << endl << "/////////////////////////////////" << endl;
-		cout << s << endl;
-		cout << longestPalindrome(s) << endl;
-	}
-}
-
-int main()
-{
 	double time = 0;
 	LARGE_INTEGER nFreq;
 	LARGE_INTEGER nBeginTime;
@@ -103,23 +84,28 @@ int main()
 	};
 
 	//////////////////////////////////////////////////////////////////////////
-	vector<vector<vector<int>>> TESTS;
-	vector<int> K;
-	vector<int> ANSWERS;
+	vector<string> TESTS;
+	vector<string> ANSWERS;
 
-	TESTS.push_back({ {1,5,9},{10,11,13},{12,13,15} });
-	K.push_back(8);
-	ANSWERS.push_back(13);
+	TESTS.push_back("babad");
+	ANSWERS.push_back("bab");
+
+	TESTS.push_back("cbbd");
+	ANSWERS.push_back("bb");
+
+	TESTS.push_back("babab");
+	ANSWERS.push_back("babab");
+
+	TESTS.push_back("ac");
+	ANSWERS.push_back("a");
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		auto ans = kthSmallest(TESTS[i], K[i]);
+		auto ans = longestPalindrome(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//kthSmallest(TESTS[i], K[i]);
-		//cout << checkAnswer<vector<vector<int>>>(TESTS[i], ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
 		f_time_cout();

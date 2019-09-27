@@ -22,9 +22,6 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.Hi"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
@@ -80,7 +77,6 @@ int main()
 
 	//////////////////////////////////////////////////////////////////////////
 	vector<vector<int>> TESTS;
-	//vector<int> K;
 	vector<vector<int>> ANSWERS;
 
 	TESTS.push_back({ 1, 5, 1, 1, 6, 4 });
@@ -94,8 +90,6 @@ int main()
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		//auto ans = wiggleSort(TESTS[i]);
-		//cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 		wiggleSort(TESTS[i]);
 		cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
