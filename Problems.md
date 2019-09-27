@@ -29,6 +29,7 @@
 * `（中等）`  [29.divide-two-integers 两数相除](./problems/29.divide-two-integers/README.md)
 * `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md)
 * `（中等）`  [34.find-first-and-last-position-of-element-in-sorted-array 在排序数组中查找元素的第一个和最后一个位置](./problems/34.find-first-and-last-position-of-element-in-sorted-array/README.md)
+* `（简单）`  [35.search-insert-position 搜索插入位置](./problems/35.search-insert-position/README.md)
 * `（中等）`  [36.IsValidSudoku 有效的数独](./problems/36.IsValidSudoku/README.md) 
 * `（简单）`  [38.CountAndSay 报数](./problems/38.CountAndSay/README.md) 
 * `（困难）`  [42.trapping-rain-water 接雨水](./problems/42.trapping-rain-water/README.md)
