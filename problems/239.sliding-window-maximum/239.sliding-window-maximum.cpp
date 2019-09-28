@@ -107,16 +107,14 @@ vector<int> maxSlidingWindow(vector<int>& nums, int k)
 	for (size_t i = 0; i < nums.size(); i++)
 	{
 		cur_queue.push(nums[i]);
+		if (i < k - 1) continue;
 
-		if (i >= k - 1)
+		ans.push_back(cur_queue.top());
+		del_queue.push(nums[i - k + 1]);
+		while (!cur_queue.empty() && !del_queue.empty() && cur_queue.top() == del_queue.top())
 		{
-			ans.push_back(cur_queue.top());
-			del_queue.push(nums[i - k + 1]);
-			while (!cur_queue.empty() && !del_queue.empty() && cur_queue.top() == del_queue.top())
-			{
-				cur_queue.pop();
-				del_queue.pop();
-			}
+			cur_queue.pop();
+			del_queue.pop();
 		}
 	}
 	return ans;
