@@ -27,6 +27,7 @@
 * `（简单）`  [27.remove-element 移除元素](./problems/27.remove-element/README.md) 
 * `（简单）`  [28.StrStr 实现strStr()](./problems/28.StrStr/README.md) 
 * `（中等）`  [29.divide-two-integers 两数相除](./problems/29.divide-two-integers/README.md)
+* `（中等）`  [31.next-permutation 下一个排列](./problems/31.next-permutation/README.md)
 * `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md)
 * `（中等）`  [34.find-first-and-last-position-of-element-in-sorted-array 在排序数组中查找元素的第一个和最后一个位置](./problems/34.find-first-and-last-position-of-element-in-sorted-array/README.md)
 * `（简单）`  [35.search-insert-position 搜索插入位置](./problems/35.search-insert-position/README.md)

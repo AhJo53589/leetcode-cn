@@ -1,6 +1,6 @@
 git pull
 git add -A
 
-git commit -m"239.sliding-window-maximum"
+git commit -m"31.next-permutation"
 
 git push

@@ -431,6 +431,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "35.search-insert-position",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "239.sliding-window-maximum", "239.sliding-window-maximum\239.sliding-window-maximum.vcxproj", "{9724399C-25EF-46A2-ADC7-EEA92241832E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "31.next-permutation", "31.next-permutation\31.next-permutation.vcxproj", "{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2151,6 +2153,14 @@ Global
 		{9724399C-25EF-46A2-ADC7-EEA92241832E}.Release|x64.Build.0 = Release|x64
 		{9724399C-25EF-46A2-ADC7-EEA92241832E}.Release|x86.ActiveCfg = Release|Win32
 		{9724399C-25EF-46A2-ADC7-EEA92241832E}.Release|x86.Build.0 = Release|Win32
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Debug|x64.ActiveCfg = Debug|x64
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Debug|x64.Build.0 = Debug|x64
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Debug|x86.ActiveCfg = Debug|Win32
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Debug|x86.Build.0 = Debug|Win32
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Release|x64.ActiveCfg = Release|x64
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Release|x64.Build.0 = Release|x64
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Release|x86.ActiveCfg = Release|Win32
+		{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

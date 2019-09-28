@@ -9,6 +9,8 @@
 
 ---
 ## 20190928
+* 31.next-permutation 下一个排列
+
 * 239.sliding-window-maximum 滑动窗口最大值
 
 
