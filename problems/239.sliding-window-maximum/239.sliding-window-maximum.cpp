@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 239.sliding-window-maximum.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -22,9 +22,6 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.Hi"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
@@ -50,6 +47,54 @@ using namespace std;
 //			break;
 //		}
 //	}
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+//	if (k <= 1)
+//		return nums;
+//	else {
+//		deque<int> d;
+//		d.push_back(0);
+//		for (int i = 1; i < k; i++) {
+//			if (nums[d.back()] > nums[i])
+//				d.push_back(i);
+//			else {
+//				while (!d.empty() && nums[d.back()] < nums[i])
+//					d.pop_back();
+//				d.push_back(i);
+//			}
+//		}
+//		vector<int> res;
+//		res.clear();
+//		res.push_back(nums[d.front()]);
+//		for (int i = k; i < nums.size(); i++) {
+//			if (d.front() < i - k + 1)
+//				d.pop_front();
+//			if (nums[d.back()] > nums[i])
+//				d.push_back(i);
+//			else {
+//				while (!d.empty() && nums[d.back()] < nums[i])
+//					d.pop_back();
+//				d.push_back(i);
+//			}
+//			res.push_back(nums[d.front()]);
+//		}
+//		return res;
+//	}
+//}
+
+//////////////////////////////////////////////////////////////////////////
+//vector<int> maxSlidingWindow(vector<int>& nums, int k) {
+//	vector<int> res;
+//	deque<int> dq;
+//	for (int i = 0; i < nums.size(); i++) {
+//		while (!dq.empty() && nums[i] > nums[dq.back()]) dq.pop_back();
+//		dq.push_back(i);
+//		while (!dq.empty() && dq.front() <= i - k) dq.pop_front();
+//		if (i >= k - 1) res.push_back(nums[dq.front()]);
+//	}
+//	return res;
 //}
 
 //////////////////////////////////////////////////////////////////////////
@@ -119,65 +164,8 @@ int main()
 		cout << endl << "/////////////////////////////" << endl;
 		auto ans = maxSlidingWindow(TESTS[i], K[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//nextPermutation(TESTS[i]);
-		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
 		f_time_cout();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<int> K;
-//	vector<bool> A;
-//
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-//	//K.push_back(3);
-//	A.push_back(true);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,null,null,4,4"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
-//
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
-//		//DrawTreeNode(ans);
-//
-//	}
-//}
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//int main()
-//{
-//	vector<ListNode *> lists;
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-//	lists.push_back(pHead);
-//	pHead = nullptr;
-//
-//	for (auto i : lists)
-//	{
-//		cout << i << endl;
-//		pHead = sortList(i);
-//		cout << pHead << endl;
-//		cout << endl;
-//	}
-//}
-
-
