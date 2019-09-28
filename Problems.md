@@ -82,6 +82,7 @@
 * `（困难）`  [124.binary-tree-maximum-path-sum 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum/README.md)
 * `（简单）`  [125.valid-palindrome 验证回文串](./problems/125.valid-palindrome/README.md)
 * `（困难）`  [128.longest-consecutive-sequence 最长连续序列](./problems/128.longest-consecutive-sequence/README.md)
+* `（中等）`  [130.surrounded-regions 被围绕的区域](./problems/130.surrounded-regions/README.md)
 * `（中等）`  [133.CloneGraph 克隆图](./problems/133.CloneGraph/README.md) 
 * `（中等）`  [134.gas-station 加油站](./problems/134.gas-station/README.md)
 * `（简单）`  [136.SingleNumber 只出现一次的数字](./problems/136.SingleNumber/README.md) 
