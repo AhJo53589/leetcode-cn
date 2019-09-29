@@ -4,7 +4,12 @@
 
 
 
-
+---
+## 20190929
+* 5205.unique-number-of-occurrences 独一无二的出现次数
+* 5207.get-equal-substrings-within-budget 尽可能使字符串相等
+* 5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II
+* 5208.minimum-moves-to-reach-target-with-rotations 穿过迷宫的最少移动次数
 
 
 ---
@@ -19,6 +24,15 @@
 ---
 ## 20190927
 * 35.search-insert-position 搜索插入位置
+
+
+---
+## 20190924
+* 1.guess-numbers 猜数字
+* 2.deep-dark-fraction 分式化简
+* 3.programmable-robot 机器人大冒险
+* 4.broken-board-dominoes 覆盖
+* 5.coin-bonus 发 LeetCoin
 
 
 ---
