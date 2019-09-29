@@ -29,42 +29,74 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-void dfs(vector<vector<char>>& board, size_t x, size_t y)
+bool uniqueOccurrences(vector<int>& arr)
 {
-	if (x >= board.size() || y >= board[x].size() || board[x][y] != 'O') return;
-	board[x][y] = '-';
-	dfs(board, x - 1, y);
-	dfs(board, x + 1, y);
-	dfs(board, x, y - 1);
-	dfs(board, x, y + 1);
+	map<int, int> m;
+	for (auto n : arr)
+	{
+		m[n]++;
+	}
+	unordered_set<int> s;
+	for (auto k : m)
+	{
+		if (s.find(k.second) != s.end()) return false;
+		s.insert(k.second);
+	}
+	return true;
 }
 
-void solve(vector<vector<char>>& board) 
+//////////////////////////////////////////////////////////////////////////
+int equalSubstring(string s, string t, int maxCost)
 {
-	size_t m = board.size();
-	if (m == 0) return;
-	size_t n = board[0].size();
+	auto f_cost = [s, t](size_t i)
+	{
+		return abs(s[i] - t[i]);
+	};
 
-	for (size_t i = 0; i < m; i++)
+	size_t start = 0;
+	int c = 0;
+	int ans = 0;
+	for (size_t i = 0; i < s.size(); i++)
 	{
-		dfs(board, i, 0);
-		dfs(board, i, n - 1);
-	}
-	for (size_t j = 0; j < n; j++)
-	{
-		dfs(board, 0, j);
-		dfs(board, m - 1, j);
-	}
-
-	for (size_t i = 0; i < m; i++)
-	{
-		for (size_t j = 0; j < n; j++)
+		c += f_cost(i);
+		while (c > maxCost)
 		{
-			board[i][j] = (board[i][j] != '-') ? 'X' : 'O';
+			c -= f_cost(start++);		
+		}
+		ans = max(ans, (int)(i - start) + 1);
+	}
+	return ans;
+}
+
+//////////////////////////////////////////////////////////////////////////
+string removeDuplicates(string s, int k) 
+{
+	string ans;
+	int cnt = 1;
+	for (size_t i = 1; i < s.size(); i++)
+	{
+		if (s[i] == s[i - 1])
+		{
+			cnt = (cnt + 1) % k;
+		}
+
+		if (s[i] != s[i - 1] || i == s.size() - 1)
+		{
+			while (cnt > 0)
+			{
+				cnt--;
+				ans.push_back(s[i - 1]);
+			} 
+			cnt = 1;
+			if (s[i] != s[i - 1] && i == s.size() - 1)
+			{
+				ans.push_back(s[i]);
+			}
 		}
 	}
-}
 
+	return (ans.size() == s.size()) ? ans : removeDuplicates(ans, k);
+}
 
 int main()
 {
@@ -81,23 +113,77 @@ int main()
 	};
 
 	//////////////////////////////////////////////////////////////////////////
-	vector<vector<vector<char>>> TESTS;
+	//vector<vector<int>> TESTS;
+	////vector<int> K;
+	//vector<bool> ANSWERS;
+
+	//TESTS.push_back({ 1,2,2,1,1,3 });
+	//ANSWERS.push_back(true);
+
+	//TESTS.push_back({ 1,2 });
+	//ANSWERS.push_back(false);
+
+	//TESTS.push_back({ -3,0,1,-3,1,1,1,-3,10,0 });
+	//ANSWERS.push_back(true);
+
+	//////////////////////////////////////////////////////////////////////////
+	vector<string> TESTS;
+	vector<string> T;
+	vector<int> M;
+	vector<int> ANSWERS;
+
+	TESTS.push_back("abcd");
+	T.push_back("bcdf");
+	M.push_back(3);
+	ANSWERS.push_back(3);
+
+	TESTS.push_back("abcd");
+	T.push_back("cdef");
+	M.push_back(3);
+	ANSWERS.push_back(1);
+
+	TESTS.push_back("abcd");
+	T.push_back("acde");
+	M.push_back(0);
+	ANSWERS.push_back(1);
+
+	TESTS.push_back("krrgw");
+	T.push_back("zjxss");
+	M.push_back(19);
+	ANSWERS.push_back(2);
+
+	//////////////////////////////////////////////////////////////////////////
+	//vector<string> TESTS;
 	//vector<int> K;
-	vector<vector<vector<char>>> ANSWERS;
+	//vector<string> ANSWERS;
 
-	TESTS.push_back({ {'X','X','X','X'}, {'X','O','O','X'}, {'X','X','O','X'}, {'X','O','X','X'} });
-	ANSWERS.push_back({ {'X','X','X','X'}, {'X','X','X','X'}, {'X','X','X','X'}, {'X','O','X','X'} });
+	//TESTS.push_back("abcd");
+	//K.push_back(2);
+	//ANSWERS.push_back("abcd");
 
+	//TESTS.push_back("deeedbbcccbdaa");
+	//K.push_back(3);
+	//ANSWERS.push_back("aa");
+
+	//TESTS.push_back("pbbcggttciiippooaais");
+	//K.push_back(2);
+	//ANSWERS.push_back("ps");
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		//auto ans = maxSlidingWindow(TESTS[i], K[i]);
+		//auto ans = uniqueOccurrences(TESTS[i]);
 		//cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		solve(TESTS[i]);
-		cout << checkAnswer<vector<vector<char>>>(TESTS[i], ANSWERS[i]) << endl;
+
+		auto ans = equalSubstring(TESTS[i], T[i], M[i]);
+		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
+
+		//auto ans = removeDuplicates(TESTS[i], K[i]);
+		//cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
+		//solve(TESTS[i]);
+		//cout << checkAnswer<vector<vector<char>>>(TESTS[i], ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
 		f_time_cout();
