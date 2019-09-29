@@ -26,7 +26,7 @@
     <ClCompile Include="pch.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="324.wiggle-sort-ii.cpp">
+    <ClCompile Include="31.next-permutation.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="..\Common\Common.cpp">

@@ -22,9 +22,6 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.Hi"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
@@ -99,11 +96,9 @@ int main()
 
 	//////////////////////////////////////////////////////////////////////////
 	vector<vector<vector<int>>> TESTS;
-	//vector<vector<int>> K;
 	vector<vector<vector<int>>> ANSWERS;
 
 	TESTS.push_back({ {0,1,0},{0,0,1},{1,1,1},{0,0,0} });
-	//K.push_back({ 1,1 });
 	ANSWERS.push_back({ {0,0,0},{1,0,1},{0,1,1},{0,1,0} });
 
 	for (int i = 0; i < TESTS.size(); i++)
@@ -111,8 +106,6 @@ int main()
 		QueryPerformanceCounter(&nBeginTime);
 
 		cout << endl << "/////////////////////////////" << endl;
-		//auto ans = gameOfLife(TESTS[i], K[i]);
-		//cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 		gameOfLife(TESTS[i]);
 		cout << checkAnswer<vector<vector<int>>>(TESTS[i], ANSWERS[i]) << endl;
 

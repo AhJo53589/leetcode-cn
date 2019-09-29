@@ -50,6 +50,22 @@ vector<char> StringToVectorChar(string str)
 	return chars;
 }
 
+std::string VectorCharToString(const vector<char>& nums)
+{
+	string str = "[";
+	for (auto i : nums)
+	{
+		str += i;
+		str += ",";
+	}
+	if (str.back() == ',')
+	{
+		str.pop_back();
+	}
+	str.push_back(']');
+	return str;
+}
+
 vector<vector<char>> StringToVectorVectorChar(string str)
 {
 	vector<vector<char>> matrix;
@@ -77,19 +93,20 @@ vector<vector<char>> StringToVectorVectorChar(string str)
 	return matrix;
 }
 
-vector<string> StringToVectorString(string str)
+std::string VectorVectorCharToString(const vector<vector<char>>& matrix)
 {
-	vector<string> strs;
-	if (str.size() < 3) return strs;
-	str = str.substr(1, str.size() - 2);
-	vector<string> vStr = split(str, ",");
-	for (auto s : vStr)
+	string str = "[";
+	for (auto n : matrix)
 	{
-		int i1 = s.find_first_of('"');
-		int i2 = s.find_last_of('"');
-		strs.push_back(s.substr(i1 + 1, i2 - i1 - 1));
+		str += VectorCharToString(n);
+		str += ",";
 	}
-	return strs;
+	if (str.back() == ',')
+	{
+		str.pop_back();
+	}
+	str.push_back(']');
+	return str;
 }
 
 vector<int> StringToVectorInt(string str)
@@ -113,7 +130,11 @@ string VectorIntToString(const vector<int>& nums)
 		str += to_string(i);
 		str += ",";
 	}
-	str[str.size() - 1] = ']';
+	if (str.back() == ',')
+	{
+		str.pop_back();
+	}
+	str.push_back(']');
 	return str;
 }
 
@@ -151,7 +172,26 @@ string VectorVectorIntToString(const vector<vector<int>>& matrix)
 		str += VectorIntToString(n);
 		str += ",";
 	}
-	str[str.size() - 1] = ']';
+	if (str.back() == ',')
+	{
+		str.pop_back();
+	}
+	str.push_back(']');
 	return str;
+}
+
+vector<string> StringToVectorString(string str)
+{
+	vector<string> strs;
+	if (str.size() < 3) return strs;
+	str = str.substr(1, str.size() - 2);
+	vector<string> vStr = split(str, ",");
+	for (auto s : vStr)
+	{
+		int i1 = s.find_first_of('"');
+		int i2 = s.find_last_of('"');
+		strs.push_back(s.substr(i1 + 1, i2 - i1 - 1));
+	}
+	return strs;
 }
 

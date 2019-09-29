@@ -15,13 +15,16 @@ using namespace std;
 std::vector<std::string> split(std::string str, std::string pattern);
 
 vector<char> StringToVectorChar(string str);
+string VectorCharToString(const vector<char>& nums);
 vector<vector<char>> StringToVectorVectorChar(string str);
-vector<string> StringToVectorString(string str);
+string VectorVectorCharToString(const vector<vector<char>>& matrix);
 
 vector<int> StringToVectorInt(string str);
 string VectorIntToString(const vector<int>& nums);
 vector<vector<int>> StringToVectorVectorInt(string str);
 string VectorVectorIntToString(const vector<vector<int>>& matrix);
+
+vector<string> StringToVectorString(string str);
 
 template<typename T>
 void printVectorT(T &nums)
@@ -75,6 +78,13 @@ inline string checkAnswer(const vector<vector<int>> a, const vector<vector<int>>
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	return "Result = \n" + VectorVectorIntToString(a) + "\n" + VectorVectorIntToString(b) + "\n" + check;
+}
+
+template<>
+inline string checkAnswer(const vector<vector<char>> a, const vector<vector<char>> b)
+{
+	string check = (a == b) ? "" : "\t\t\t WRONG!";
+	return "Result = \n" + VectorVectorCharToString(a) + "\n" + VectorVectorCharToString(b) + "\n" + check;
 }
 
 template<>

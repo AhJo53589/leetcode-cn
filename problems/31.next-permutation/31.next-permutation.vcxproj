@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{8DD63800-11C1-458D-BDFA-B9B01B8907CA}</ProjectGuid>
+    <ProjectGuid>{4CE96DD6-6491-4CD9-A0CC-27B7BF9E8837}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>My324wigglesortii</RootNamespace>
+    <RootNamespace>My31nextpermutation</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -156,7 +156,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Common\Common.cpp" />
-    <ClCompile Include="324.wiggle-sort-ii.cpp" />
+    <ClCompile Include="31.next-permutation.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
