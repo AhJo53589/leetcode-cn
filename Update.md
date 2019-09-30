@@ -5,6 +5,11 @@
 
 
 ---
+## 20190930
+* 41.first-missing-positive 缺失的第一个正数
+
+
+---
 ## 20190929
 * 5205.unique-number-of-occurrences 独一无二的出现次数
 * 5207.get-equal-substrings-within-budget 尽可能使字符串相等

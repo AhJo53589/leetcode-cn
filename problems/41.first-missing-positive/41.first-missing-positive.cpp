@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 41.first-missing-positive.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -22,14 +22,11 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.Hi"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-int firstMissingPositive(vector<int>& nums) 
+int firstMissingPositive(vector<int>& nums)
 {
 	for (size_t i = 0; i < nums.size(); i++)
 	{
@@ -97,65 +94,8 @@ int main()
 
 		auto ans = firstMissingPositive(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//solve(TESTS[i]);
-		//cout << checkAnswer<vector<vector<char>>>(TESTS[i], ANSWERS[i]) << endl;
 
 		QueryPerformanceCounter(&nEndTime);
 		f_time_cout();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//int main()
-//{
-//	vector<TreeNode *> N;
-//	vector<int> K;
-//	vector<bool> A;
-//
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-//	//K.push_back(3);
-//	A.push_back(true);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,null,null,4,4"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	N.push_back(StringToTreeNode("1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5"));
-//	//K.push_back(3);
-//	A.push_back(false);
-//
-//	for (int i = 0; i < N.size(); i++)
-//	{
-//		cout << endl << "///////////////////////////////////////" << endl;
-//		cout << N[i] << endl;
-//		//DrawTreeNode(N[i]);
-//
-//		bool ans = isBalanced(N[i]);
-//		cout << checkAnswer<bool>(ans, A[i]) << endl;
-//		//DrawTreeNode(ans);
-//
-//	}
-//}
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//int main()
-//{
-//	vector<ListNode *> lists;
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-//	lists.push_back(pHead);
-//	pHead = nullptr;
-//
-//	for (auto i : lists)
-//	{
-//		cout << i << endl;
-//		pHead = sortList(i);
-//		cout << pHead << endl;
-//		cout << endl;
-//	}
-//}
-
-
