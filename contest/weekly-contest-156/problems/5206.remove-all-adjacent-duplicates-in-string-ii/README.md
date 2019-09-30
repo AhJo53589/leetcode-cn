@@ -80,3 +80,35 @@ string removeDuplicates(string s, int k)
 	return (ans.size() == s.size()) ? ans : removeDuplicates(ans, k);
 }
 ```
+
+### 其它
+```C++
+string removeDuplicates(string s, int k)
+{
+	string sub;
+	vector<int> cnt;
+	for (size_t i = 0; i < s.size(); i++)
+	{
+		if (sub.empty() || s[i] != sub.back())
+		{
+			sub.push_back(s[i]);
+			cnt.push_back(1);
+			continue;
+		}
+		if (++cnt.back() == k)
+		{
+			sub.pop_back();
+			cnt.pop_back();
+		}
+	}
+	string ans;
+	for (size_t i = 0; i < sub.size(); i++)
+	{
+		while (cnt[i]-- > 0)
+		{
+			ans += sub[i];
+		}
+	}
+	return ans;
+}
+```
