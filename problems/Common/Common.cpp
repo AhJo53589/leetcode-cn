@@ -4,6 +4,7 @@
 //#include "pch.h"
 
 #include <iostream>
+#include <sstream>
 
 #include <algorithm>
 #include <map>
@@ -14,6 +15,19 @@
 #include "Common.h"
 using namespace std;
 
+void trimLeftTrailingSpaces(string &input) 
+{
+	input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
+		return !isspace(ch);
+	}));
+}
+
+void trimRightTrailingSpaces(string &input) 
+{
+	input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
+		return !isspace(ch);
+	}).base(), input.end());
+}
 
 std::vector<std::string> split(std::string str, std::string pattern)
 {
@@ -109,17 +123,20 @@ std::string VectorVectorCharToString(const vector<vector<char>>& matrix)
 	return str;
 }
 
-vector<int> StringToVectorInt(string str)
+vector<int> StringToVectorInt(string input)
 {
-	vector<int> nums;
-	if (str.size() < 3) return nums;
-	str = str.substr(1, str.size() - 2);
-	vector<string> vStr = split(str, ",");
-	for (auto s : vStr)
-	{
-		nums.push_back(stoi(s));
+	vector<int> output;
+	trimLeftTrailingSpaces(input);
+	trimRightTrailingSpaces(input);
+	input = input.substr(1, input.length() - 2);
+	stringstream ss;
+	ss.str(input);
+	string item;
+	char delim = ',';
+	while (getline(ss, item, delim)) {
+		output.push_back(stoi(item));
 	}
-	return nums;
+	return output;
 }
 
 string VectorIntToString(const vector<int>& nums)

@@ -130,6 +130,7 @@
 * `（中等）`  [220.contains-duplicate-iii 存在重复元素 III](./problems/220.contains-duplicate-iii/README.md)
 * `（中等）`  [221.maximal-square 最大正方形](./problems/221.maximal-square/README.md)
 * `（简单）`  [225.implement-stack-using-queues  用队列实现栈](./problems/225.implement-stack-using-queues/README.md) 
+* `（中等）`  [227.basic-calculator-ii 基本计算器 II](./problems/227.basic-calculator-ii/README.md)
 * `（中等）`  [230.kth-smallest-element-in-a-bst 二叉搜索树中第K小的元素](./problems/230.kth-smallest-element-in-a-bst/README.md)
 * `（简单）`  [231.power-of-two 2的幂](./problems/231.power-of-two/README.md)
 * `（简单）`  [232.implement-queue-using-stacks  用栈实现队列](./problems/232.implement-queue-using-stacks/README.md) 
