@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 290.word-pattern.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,11 +23,25 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
+
+//////////////////////////////////////////////////////////////////////////
+//bool wordPattern(string pattern, string str) 
+//{
+//	map<char, int> m1;
+//	map<string, int> m2;
+//	int i = 0, n = pattern.size();
+//	istringstream in(str);
+//
+//	for (string word; in >> word; i++)
+//	{
+//		if (i == n || m1[pattern[i]] != m2[word]) return false;
+//		m1[pattern[i]] = m2[word] = i + 1;
+//	}
+//
+//	return i == n;
+//}
 
 //////////////////////////////////////////////////////////////////////////
 bool wordPattern(string pattern, string str)
@@ -58,13 +72,6 @@ bool wordPattern(string pattern, string str)
 	}
 	return true;
 }
-
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
 
 int main()
 {
@@ -122,22 +129,7 @@ int main()
 
 		auto ans = wordPattern(TESTS[i], K[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//solve(TESTS[i]);
-		//cout << checkAnswer<vector<vector<char>>>(TESTS[i], ANSWERS[i]) << endl;
 
 		f_time_end();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-

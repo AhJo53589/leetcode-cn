@@ -32,7 +32,7 @@
 * `（中等）`  [5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II](./contest/weekly-contest-156/problems/5206.remove-all-adjacent-duplicates-in-string-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) |
 
 ## Problems & Solutions
-完成进度 （219 / 1170）
+完成进度 （220 / 1170）
 [查看全部](./Problems.md)  
 
 ## Update
