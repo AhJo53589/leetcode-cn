@@ -143,6 +143,7 @@
 * `（困难）`  [239.sliding-window-maximum 滑动窗口最大值](./problems/239.sliding-window-maximum/README.md)
 * `（中等）`  [240.SearchMatrix 搜索二维矩阵 II](./problems/240.SearchMatrix/README.md) 
 * `（简单）`  [242.IsAnagram 有效的字母异位词](./problems/242.IsAnagram/README.md) 
+* `（简单）`  [257.binary-tree-paths 二叉树的所有路径](./problems/257.binary-tree-paths/README.md)
 * `（简单）`  [268.missing-number 缺失数字](./problems/268.missing-number/README.md) 
 * `（简单）`  [278.FirstBadVersion 第一个错误的版本](./problems/278.FirstBadVersion/README.md) 
 * `（中等）`  [279.NumSquares 完全平方数](./problems/279.NumSquares/README.md) 

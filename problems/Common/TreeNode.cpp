@@ -17,9 +17,10 @@
 using namespace std;
 
 
-TreeNode * StringToTreeNode(const string data)
+TreeNode * StringToTreeNode(string data)
 {
 	if (data.empty()) return nullptr;
+	if (data[0] == '[') data = data.substr(1, data.size() - 2);
 	vector<string> splitData = split(data, ",");
 	if (data == "" || splitData[0] == "null") return nullptr;
 

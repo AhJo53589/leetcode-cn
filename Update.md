@@ -6,6 +6,8 @@
 
 ---
 ## 20191003
+* 257.binary-tree-paths 二叉树的所有路径
+
 * 111.minimum-depth-of-binary-tree 二叉树的最小深度
 
 

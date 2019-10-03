@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 257.binary-tree-paths.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,9 +23,7 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
 #include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
@@ -48,7 +46,7 @@ void binaryTreePaths(TreeNode* root, string path, vector<string> &vec)
 	}
 }
 
-vector<string> binaryTreePaths(TreeNode* root) 
+vector<string> binaryTreePaths(TreeNode* root)
 {
 	if (root == nullptr) return {};
 	string path;
@@ -56,13 +54,6 @@ vector<string> binaryTreePaths(TreeNode* root)
 	binaryTreePaths(root, path, vec);
 	return vec;
 }
-
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
 
 int main()
 {
@@ -98,22 +89,7 @@ int main()
 
 		auto ans = binaryTreePaths(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//solve(TESTS[i]);
-		//cout << checkAnswer<vector<vector<char>>>(TESTS[i], ANSWERS[i]) << endl;
 
 		f_time_end();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-

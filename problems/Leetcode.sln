@@ -441,6 +441,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "227.basic-calculator-ii", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "111.minimum-depth-of-binary-tree", "111.minimum-depth-of-binary-tree\111.minimum-depth-of-binary-tree.vcxproj", "{C10CED45-9D2D-4FC7-8652-26E39D711A4B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "257.binary-tree-paths", "257.binary-tree-paths\257.binary-tree-paths.vcxproj", "{EC125045-C228-4F11-B9DD-C7D036AD7438}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2201,6 +2203,14 @@ Global
 		{C10CED45-9D2D-4FC7-8652-26E39D711A4B}.Release|x64.Build.0 = Release|x64
 		{C10CED45-9D2D-4FC7-8652-26E39D711A4B}.Release|x86.ActiveCfg = Release|Win32
 		{C10CED45-9D2D-4FC7-8652-26E39D711A4B}.Release|x86.Build.0 = Release|Win32
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Debug|x64.ActiveCfg = Debug|x64
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Debug|x64.Build.0 = Debug|x64
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Debug|x86.ActiveCfg = Debug|Win32
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Debug|x86.Build.0 = Debug|Win32
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Release|x64.ActiveCfg = Release|x64
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Release|x64.Build.0 = Release|x64
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Release|x86.ActiveCfg = Release|Win32
+		{EC125045-C228-4F11-B9DD-C7D036AD7438}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
