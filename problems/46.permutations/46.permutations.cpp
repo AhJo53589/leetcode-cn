@@ -19,9 +19,6 @@
 #include <bitset>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.h"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.h"
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
@@ -52,7 +49,6 @@ vector<vector<int>> permute(vector<int>& nums)
 int main()
 {
 	vector<vector<int>> TESTS;
-	//vector<int> K;
 	vector<vector<vector<int>>> ANSWERS;
 
 	TESTS.push_back({ 1,2,3 });

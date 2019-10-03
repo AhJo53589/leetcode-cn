@@ -72,6 +72,7 @@
 * `（中等）`  [106.construct-binary-tree-from-inorder-and-postorder-traversal 从中序与后序遍历序列构造二叉树](./problems/106.construct-binary-tree-from-inorder-and-postorder-traversal/README.md)
 * `（简单）`  [108.SortedArrayToBST 将有序数组转换为二叉搜索树](./problems/108.SortedArrayToBST/README.md) 
 * `（简单）`  [110.balanced-binary-tree 平衡二叉树](./problems/110.balanced-binary-tree/README.md)
+* `（简单）`  [111.minimum-depth-of-binary-tree 二叉树的最小深度](./problems/111.minimum-depth-of-binary-tree/README.md)
 * `（简单）`  [112.path-sum 路径总和](./problems/112.path-sum/README.md)
 * `（中等）`  [116.populating-next-right-pointers-in-each-node 填充每个节点的下一个右侧节点指针](./problems/116.populating-next-right-pointers-in-each-node/README.md)
 * `（中等）`  [117.populating-next-right-pointers-in-each-node-ii 填充每个节点的下一个右侧节点指针 II](./problems/117.populating-next-right-pointers-in-each-node-ii/README.md)
