@@ -1,6 +1,6 @@
 git pull
 git add -A
 
-git commit -m"290.word-pattern"
+git commit -m"189.rotate-array"
 
 git push

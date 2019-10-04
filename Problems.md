@@ -113,6 +113,7 @@
 * `（简单）`  [176.second-highest-salary 第二高的薪水](./problems/176.second-highest-salary/README.md)
 * `（中等）`  [179.largest-number 最大数](./problems/179.largest-number/README.md)
 * `（简单）`  [189.Rotate 旋转数组](./problems/189.Rotate/README.md) 
+* `（简单）`  [189.rotate-array 旋转数组](./problems/189.rotate-array/README.md)
 * `（简单）`  [190.reverse-bits 颠倒二进制位](./problems/190.reverse-bits/README.md) 
 * `（简单）`  [191.number-of-1-bits 位1的个数](./problems/191.number-of-1-bits/README.md) 
 * `（简单）`  [198.house-robber 打家劫舍](./problems/198.house-robber/README.md)

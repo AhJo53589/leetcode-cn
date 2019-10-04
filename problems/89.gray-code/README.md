@@ -37,6 +37,9 @@
 ### 思路
 ```
 ```
+[别人的题解](https://leetcode-cn.com/problems/gray-code/solution/gray-code-jing-xiang-fan-she-fa-by-jyd/)
+[别人的题解](https://leetcode-cn.com/problems/gray-code/solution/gen-ju-ge-lei-ma-de-xing-zhi-by-powcai/)
+
 
 ### 答题
 ``` C++

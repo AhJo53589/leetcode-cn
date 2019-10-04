@@ -12,6 +12,7 @@
 * `（困难）`  [124.binary-tree-maximum-path-sum 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) |
 * `（中等）`  [138.copy-list-with-random-pointer 复制带随机指针的链表](./problems/138.copy-list-with-random-pointer/README.md) | [发布的题解](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-shi-yong-m/) |
 * `（中等）`  [179.largest-number 最大数](./problems/179.largest-number/README.md) | [发布的题解](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) |
+* `（简单）`  [189.rotate-array 旋转数组](./problems/189.rotate-array/README.md) | [发布的题解](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) |
 * `（简单）`  [198.house-robber 打家劫舍](./problems/198.house-robber/README.md) | [发布的题解](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) |
 * `（中等）`  [213.house-robber-ii 打家劫舍 II](./problems/213.house-robber-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/house-robber-ii/solution/da-jia-jie-she-ii-dai-ma-jian-ji-yi-dong-ii-by-ika/) |
 * `（困难）`  [218.the-skyline-problem 天际线问题](./problems/218.the-skyline-problem/README.md) | [发布的题解](https://leetcode-cn.com/problems/the-skyline-problem/solution/218-by-ikaruga/) |
@@ -32,7 +33,7 @@
 * `（中等）`  [5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II](./contest/weekly-contest-156/problems/5206.remove-all-adjacent-duplicates-in-string-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) |
 
 ## Problems & Solutions
-完成进度 （220 / 1170）
+完成进度 （221 / 1170）
 [查看全部](./Problems.md)  
 
 ## Update

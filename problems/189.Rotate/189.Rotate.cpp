@@ -22,14 +22,9 @@ void rotate(vector<int>& nums, int k)	// 28ms
 	int iLen = nums.size();
 	while (k > 0 && iLen > 1 && iLen != k)
 	{
-		//for (int i = iLen - 1; i > k - 1; i--)
-		//{
-		//	swap(nums[i], nums[i - k]);
-		//}
-
 		for (int i = iLen - 1; i > k - 1; i--)
 		{
-			[](int &a, int &b) { if (a == b) return; a ^= b; b ^= a; a ^= b; } (nums[i], nums[i - k]);
+			swap(nums[i], nums[i - k]);
 		}
 
 		int tmp = k;
