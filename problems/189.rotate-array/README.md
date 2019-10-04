@@ -69,13 +69,40 @@ void rotate(vector<int>& nums, int k)	// 28ms
 ```
 
 ### 思路 20191004
-使用stl库方法。
+使用std::rotate库方法。
 ``` C++
 void rotate(vector<int>& nums, int k)
 {
 	k = nums.size() - k % nums.size();
 	auto it_k = nums.begin() + k;
 	std::rotate(nums.begin(), it_k, nums.end());
+}
+```
+
+使用list剪切方法。
+```C++
+void rotate(vector<int>& nums, int k)
+{
+	k = nums.size() - k % nums.size();
+	list<int> lst(nums.begin(), nums.end());
+	auto it_k = lst.begin();
+	while (k--) it_k++;
+	lst.splice(lst.begin(), lst, it_k, lst.end());
+	copy(lst.begin(), lst.end(), nums.begin());
+}
+```
+
+使用翻转翻转再翻转方法。
+```C++
+void rotate(vector<int>& nums, int k)
+{
+	k = k >= nums.size() ? k - nums.size() : k;
+	if (k)
+	{
+		reverse(nums.begin(), nums.end() - k);
+		reverse(nums.end() - k, nums.end());
+		reverse(nums.begin(), nums.end());
+	}
 }
 ```
 
