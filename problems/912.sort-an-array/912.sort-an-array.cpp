@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 912.sort-an-array.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,9 +23,6 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
@@ -52,18 +49,11 @@ void quickSort(vector<int>& nums, size_t left, size_t right)
 	quickSort(nums, mid + 1, right);
 }
 
-vector<int> sortArray(vector<int>& nums) 
+vector<int> sortArray(vector<int>& nums)
 {
 	quickSort(nums, 0, nums.size());
 	return nums;
 }
-
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
 
 int main()
 {
@@ -88,7 +78,6 @@ int main()
 
 	//////////////////////////////////////////////////////////////////////////
 	vector<vector<int>> TESTS;
-	//vector<string> K;
 	vector<vector<int>> ANSWERS;
 
 	TESTS.push_back({ 5,2,3,1 });
@@ -101,24 +90,9 @@ int main()
 	{
 		f_time_begin();
 
-		//auto ans = wordPattern(TESTS[i], K[i]);
-		//cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 		sortArray(TESTS[i]);
 		cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
 		f_time_end();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-

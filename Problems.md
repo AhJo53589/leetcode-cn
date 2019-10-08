@@ -223,3 +223,4 @@
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) 
 * `（中等）`  [841.keys-and-rooms 钥匙和房间](./problems/841.keys-and-rooms/README.md) 
 * `（困难）`  [887.super-egg-drop 鸡蛋掉落](./problems/887.super-egg-drop/README.md)
+* `（中等）`  [912.sort-an-array 排序数组](./problems/912.sort-an-array/README.md)
