@@ -45,6 +45,7 @@
 * `（中等）`  [54.spiral-matrix 螺旋矩阵](./problems/54.spiral-matrix/README.md) 
 * `（中等）`  [55.jump-game 跳跃游戏](./problems/55.jump-game/README.md)
 * `（中等）`  [56.merge-intervals 合并区间](./problems/56.merge-intervals/README.md)
+* `（简单）`  [58.length-of-last-word 最后一个单词的长度](./problems/58.length-of-last-word/README.md)
 * `（中等）`  [59.spiral-matrix-ii 螺旋矩阵 II](./problems/59.spiral-matrix-ii/README.md)
 * `（中等）`  [60.permutation-sequence 第k个排列](./problems/60.permutation-sequence/README.md)
 * `（中等）`  [61.rotate-list 旋转链表](./problems/61.rotate-list/README.md) 

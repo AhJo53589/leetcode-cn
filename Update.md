@@ -6,6 +6,8 @@
 
 ---
 ## 20191012
+* 58.length-of-last-word 最后一个单词的长度
+
 * 6.zigzag-conversion Z 字形变换
 
 * 76.minimum-window-substring 最小覆盖子串

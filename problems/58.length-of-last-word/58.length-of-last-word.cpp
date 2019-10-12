@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 58.length-of-last-word.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,10 +23,22 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
+
+//////////////////////////////////////////////////////////////////////////
+//void trimRightTrailingSpaces(string &input)
+//{
+//	input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
+//		return !isspace(ch);
+//	}).base(), input.end());
+//}
+//
+//int lengthOfLastWord(string s)
+//{
+//	trimRightTrailingSpaces(s);
+//	string::size_type p = s.find_last_of(' ');
+//	return (p == string::npos) ? s.size() : s.size() - p - 1;
+//}
 
 //////////////////////////////////////////////////////////////////////////
 //int lengthOfLastWord(string s)
@@ -58,12 +70,6 @@ int lengthOfLastWord(string s)
 	return s.size();
 }
 
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
 
 int main()
 {
@@ -88,7 +94,6 @@ int main()
 
 	//////////////////////////////////////////////////////////////////////////
 	vector<string> TESTS;
-	//vector<int> K;
 	vector<int> ANSWERS;
 
 	TESTS.push_back("Hello World");
@@ -109,22 +114,7 @@ int main()
 
 		auto ans = lengthOfLastWord(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//sortArray(TESTS[i]);
-		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
 		f_time_end();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-
