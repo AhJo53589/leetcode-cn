@@ -5,6 +5,13 @@
 
 
 ---
+## 20191012
+* 6.zigzag-conversion Z 字形变换
+
+* 76.minimum-window-substring 最小覆盖子串
+
+
+---
 ## 20191008
 * 912.sort-an-array 排序数组
 

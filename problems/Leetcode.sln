@@ -447,6 +447,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "189.rotate-array", "189.rot
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "912.sort-an-array", "912.sort-an-array\912.sort-an-array.vcxproj", "{2E63707C-6147-4552-8316-07DA9342C983}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "76.minimum-window-substring", "76.minimum-window-substring\76.minimum-window-substring.vcxproj", "{DC675B1E-D44F-4D4F-819C-47C8B628CD79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2231,6 +2233,14 @@ Global
 		{2E63707C-6147-4552-8316-07DA9342C983}.Release|x64.Build.0 = Release|x64
 		{2E63707C-6147-4552-8316-07DA9342C983}.Release|x86.ActiveCfg = Release|Win32
 		{2E63707C-6147-4552-8316-07DA9342C983}.Release|x86.Build.0 = Release|Win32
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Debug|x64.ActiveCfg = Debug|x64
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Debug|x64.Build.0 = Debug|x64
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Debug|x86.Build.0 = Debug|Win32
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Release|x64.ActiveCfg = Release|x64
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Release|x64.Build.0 = Release|x64
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Release|x86.ActiveCfg = Release|Win32
+		{DC675B1E-D44F-4D4F-819C-47C8B628CD79}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

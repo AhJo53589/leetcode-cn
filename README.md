@@ -7,6 +7,7 @@
 * `（困难）`  [41.first-missing-positive 缺失的第一个正数](./problems/41.first-missing-positive/README.md) | [发布的题解](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) |
 * `（困难）`  [42.trapping-rain-water 接雨水](./problems/42.trapping-rain-water/README.md) | [发布的题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) |
 * `（中等）`  [55.jump-game 跳跃游戏](./problems/55.jump-game/README.md) | [发布的题解](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) |
+* `（困难）`  [76.minimum-window-substring 最小覆盖子串](./problems/76.minimum-window-substring/README.md) | [发布的题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/76-by-ikaruga/) |
 * `（中等）`  [79.word-search 单词搜索](./problems/79.word-search/README.md) | [发布的题解](https://leetcode-cn.com/problems/word-search/solution/79-by-ikaruga/) |
 * `（中等）`  [93.restore-ip-addresses 复原IP地址](./problems/93.restore-ip-addresses/README.md) | [发布的题解](https://leetcode-cn.com/problems/restore-ip-addresses/solution/93-by-ikaruga/) |
 * `（困难）`  [124.binary-tree-maximum-path-sum 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) |
@@ -33,7 +34,7 @@
 * `（中等）`  [5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II](./contest/weekly-contest-156/problems/5206.remove-all-adjacent-duplicates-in-string-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) |
 
 ## Problems & Solutions
-完成进度 （222 / 1170）
+完成进度 （224 / 1170）
 [查看全部](./Problems.md)  
 
 ## Update

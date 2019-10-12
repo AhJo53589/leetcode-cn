@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 6.zigzag-conversion.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,14 +23,11 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-string convert(string s, int numRows) 
+string convert(string s, int numRows)
 {
 	if (numRows == 1) return s;
 	string ans;
@@ -51,13 +48,6 @@ string convert(string s, int numRows)
 	}
 	return ans;
 }
-
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
 
 int main()
 {
@@ -100,22 +90,7 @@ int main()
 
 		auto ans = convert(TESTS[i], K[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//sortArray(TESTS[i]);
-		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
 		f_time_end();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-
