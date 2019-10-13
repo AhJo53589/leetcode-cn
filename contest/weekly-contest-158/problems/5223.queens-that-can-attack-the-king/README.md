@@ -98,3 +98,25 @@ vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>
 	return ans;
 }
 ```
+
+### 其它
+```C++
+const int dx[8]={-1,-1,-1,0,0,1,1,1},dy[8]={-1,0,1,-1,1,-1,0,1};
+vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king) {
+	int i,x,y;
+	bool b[8][8];
+	memset(b,0,sizeof(b));
+	for(auto q:queens)b[q[0]][q[1]]=1;
+	vector<vector<int>> ans;
+	vector<int> a;
+	for(i=0;i<8;i++)for(x=king[0],y=king[1];x>=0&&x<8&&y>=0&&y<8;x+=dx[i],y+=dy[i])if(b[x][y])
+	{
+		a.clear();
+		a.push_back(x);
+		a.push_back(y);
+		ans.push_back(a);
+		break;
+	}
+	return ans;
+}
+```
