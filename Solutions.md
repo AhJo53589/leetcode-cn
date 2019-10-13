@@ -1,8 +1,7 @@
-# leetcode-cn
+# Solution
+[返回](./README.md)
 
-
-
-## Selected Solutions
+## All Solutions
 * `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md) | [发布的题解](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) |
 * `（困难）`  [41.first-missing-positive 缺失的第一个正数](./problems/41.first-missing-positive/README.md) | [发布的题解](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) |
 * `（困难）`  [42.trapping-rain-water 接雨水](./problems/42.trapping-rain-water/README.md) | [发布的题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) |
@@ -33,18 +32,3 @@
 * `（困难）`  [887.super-egg-drop 鸡蛋掉落](./problems/887.super-egg-drop/README.md) | [发布的题解](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) |
 * `（中等）`  [5207.get-equal-substrings-within-budget 尽可能使字符串相等](./contest/weekly-contest-156/problems/5207.get-equal-substrings-within-budget/README.md) | [发布的题解](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) |
 * `（中等）`  [5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II](./contest/weekly-contest-156/problems/5206.remove-all-adjacent-duplicates-in-string-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) |
-
-[查看全部](./Solutions.md)  
-
-## Problems & Solutions
-完成进度 （225 / 1170）
-[查看全部](./Problems.md)  
-
-## Update
-[查看全部](./Update.md)  
-
-## Contest
-* [第 156 场周赛](./contest/weekly-contest-156/README.md) 2019/9/29 | 完成：3 / 4 | 排名：192 / 1432 |
-
-## Season
-* [2019 力扣杯全国秋季编程大赛](./season/2019-fall/README.md) 2019/9/24 | 完成：3 / 5 | 排名：220 / 1541 |
