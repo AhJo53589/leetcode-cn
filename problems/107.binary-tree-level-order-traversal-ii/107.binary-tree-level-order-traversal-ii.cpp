@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 107.binary-tree-level-order-traversal-ii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -23,9 +23,7 @@
 #include <sstream>
 
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
 #include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
@@ -39,14 +37,14 @@ void levelOrderBottom(queue<TreeNode *> que, vector<vector<int>> &ans)
 		TreeNode *pNode = que.front();
 		que.pop();
 		vec.push_back(pNode->val);
-		if (pNode->left != nullptr) queNext.push(pNode->left);	
+		if (pNode->left != nullptr) queNext.push(pNode->left);
 		if (pNode->right != nullptr) queNext.push(pNode->right);
 	}
 	levelOrderBottom(queNext, ans);
 	ans.push_back(vec);
 }
 
-vector<vector<int>> levelOrderBottom(TreeNode* root) 
+vector<vector<int>> levelOrderBottom(TreeNode* root)
 {
 	vector<vector<int>> ans;
 	queue<TreeNode *> q;
@@ -54,12 +52,6 @@ vector<vector<int>> levelOrderBottom(TreeNode* root)
 	levelOrderBottom(q, ans);
 	return ans;
 }
-
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
 
 
 int main()
@@ -85,7 +77,6 @@ int main()
 
 	//////////////////////////////////////////////////////////////////////////
 	vector<TreeNode*> TESTS;
-	//vector<int> K;
 	vector<vector<vector<int>>> ANSWERS;
 
 	TESTS.push_back(StringToTreeNode("[3,9,20,null,null,15,7]"));
@@ -98,22 +89,7 @@ int main()
 
 		auto ans = levelOrderBottom(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//sortArray(TESTS[i]);
-		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
 		f_time_end();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-
