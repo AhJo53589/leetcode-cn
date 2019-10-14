@@ -100,13 +100,75 @@ using namespace std;
 //}
 
 //////////////////////////////////////////////////////////////////////////
+//void calc(vector<int> &king, vector<int> &queen, vector<int> &distance)
+//{
+//	int kx = king[0];
+//	int ky = king[1];
+//	int qx = queen[0];
+//	int qy = queen[1];
+//
+//	int i = 0;
+//	if (kx == qx)
+//	{
+//		i = (ky < qy) ? 0 : 4;
+//		distance[i] = min(distance[i], abs(qy - ky));
+//	}
+//	else if (ky == qy)
+//	{
+//		i = (kx < qx) ? 2 : 6;
+//		distance[i] = min(distance[i], abs(qx - kx));
+//	}
+//	else if (qy - ky == qx - kx)
+//	{
+//		i = (ky < qy) ? 1 : 5;
+//		distance[i] = min(distance[i], abs(qy - ky));
+//	}
+//	else if (qy - ky == -(qx - kx))
+//	{
+//		i = (kx < qx) ? 3 : 7;
+//		distance[i] = min(distance[i], abs(qy - ky));
+//	}
+//}
+//
+//vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king)
+//{
+//	// test for map_fun
+//	unordered_map<size_t, std::function<vector<int>(int)>> map_fun;
+//	map_fun[0] = [&king](int dis) -> vector<int> { return { king[0], king[1] + dis }; };
+//	map_fun[1] = [&king](int dis) -> vector<int> { return { king[0] + dis, king[1] + dis }; };
+//	map_fun[2] = [&king](int dis) -> vector<int> { return { king[0] + dis, king[1] }; };
+//	map_fun[3] = [&king](int dis) -> vector<int> { return { king[0] + dis, king[1] - dis }; };
+//	map_fun[4] = [&king](int dis) -> vector<int> { return { king[0], king[1] - dis }; };
+//	map_fun[5] = [&king](int dis) -> vector<int> { return { king[0] - dis, king[1] - dis }; };
+//	map_fun[6] = [&king](int dis) -> vector<int> { return { king[0] - dis, king[1]}; };
+//	map_fun[7] = [&king](int dis) -> vector<int> { return { king[0] - dis, king[1] + dis }; };
+//
+//
+//	vector<int> distance(8, INT_MAX);
+//	for (auto v : queens)
+//	{
+//		calc(king, v, distance);
+//	}
+//	vector<vector<int>> ans;
+//	for (auto i = 0; i < distance.size(); i++)
+//	{
+//		if (distance[i] == INT_MAX) continue;
+//		// test for map_fun
+//		ans.push_back(map_fun[i](distance[i]));
+//	}
+//	return ans;
+//}
+
+//////////////////////////////////////////////////////////////////////////
 vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>& king) 
 {
-	vector<vector<bool>> board(8, vector<bool>());
-	for (auto &b : board)
-	{
-		b.resize(8);
-	}
+	//vector<vector<bool>> board(8, vector<bool>());
+	//for (auto &b : board)
+	//{
+	//	b.resize(8);
+	//}
+	bool board[8][8];
+	memset(board, 0, sizeof(board));
 	for (const auto &q : queens)
 	{
 		board[q[0]][q[1]] = true;
@@ -115,7 +177,7 @@ vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>
 	vector<int> dx = {1, 1, 1, 0,-1,-1,-1, 0};
 	vector<int> dy = {1, 0,-1,-1,-1, 0, 1, 1};
 
-	vector<vector<int>> ans;
+	vector<vector<int>> distance;
 	for (size_t i = 0; i != dx.size(); i++)
 	{
 		int x = king[0];
@@ -124,14 +186,14 @@ vector<vector<int>> queensAttacktheKing(vector<vector<int>>& queens, vector<int>
 		{
 			if (board[x][y])
 			{
-				ans.push_back({ x,y });
+				distance.push_back({ x,y });
 				break;
 			}
 			x += dx[i];
 			y += dy[i];
 		}
 	}
-	return ans;
+	return distance;
 }
 
 int main()
