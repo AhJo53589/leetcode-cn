@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"weekly-contest-158" 
+git commit -m"update" 
 git push 

@@ -3,6 +3,8 @@
 
 #include "pch.h"
 #include <iostream>
+#include <sstream>
+#include <fstream>
 #include <windows.h>
 #include <functional>
 
@@ -20,88 +22,61 @@
 #include <string>
 #include <random>
 #include <bitset>
-#include <sstream>
 
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.Hi"
-#include "..\Common\TreeNode.h"
+//#include "..\Common\TreeNode.h"
 //#include "..\Common\ListNode.Hi"
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-void levelOrderBottom(queue<TreeNode *> que, vector<vector<int>> &ans)
+int jump(vector<int>& nums) 
 {
-	if (que.empty()) return;
-	queue<TreeNode *> queNext;
-	vector<int> vec;
-	while (!que.empty())
+	if (nums.size() < 2) return 0;
+	int ans = 0;
+	int l = 0;
+	int r = 1;
+	while (r < nums.size())
 	{
-		TreeNode *pNode = que.front();
-		que.pop();
-		vec.push_back(pNode->val);
-		if (pNode->left != nullptr) queNext.push(pNode->left);	
-		if (pNode->right != nullptr) queNext.push(pNode->right);
+		int temp = 0;
+		for (int i = l; i < r && i < nums.size(); i++)
+		{
+			temp = max(temp, i + nums[i]);
+		}
+		l = r;
+		r = temp + 1;
+		ans++;
 	}
-	levelOrderBottom(queNext, ans);
-	ans.push_back(vec);
-}
-
-vector<vector<int>> levelOrderBottom(TreeNode* root) 
-{
-	vector<vector<int>> ans;
-	queue<TreeNode *> q;
-	if (root != nullptr) q.push(root);
-	levelOrderBottom(q, ans);
 	return ans;
 }
 
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
-
 int main()
 {
-	double time = 0;
-	LARGE_INTEGER nFreq;
-	LARGE_INTEGER nBeginTime;
-	LARGE_INTEGER nEndTime;
-	QueryPerformanceFrequency(&nFreq);
-
-	auto f_time_begin = [&time, &nFreq, &nBeginTime, &nEndTime]()
-	{
-		cout << endl << "/////////////////////////////" << endl;
-		QueryPerformanceCounter(&nBeginTime);
-	};
-
-	auto f_time_end = [&time, &nFreq, &nBeginTime, &nEndTime]()
-	{
-		QueryPerformanceCounter(&nEndTime);
-		time = (double)(nEndTime.QuadPart - nBeginTime.QuadPart) / (double)nFreq.QuadPart;
-		cout << "////////////////////////////////////////////////////////// time: " << time * 1000 << "ms" << endl;
-	};
+	PerformanceTimer timer;
+	ifstream f("tests.txt");
+	TestCases testcases(f);
 
 	//////////////////////////////////////////////////////////////////////////
-	vector<TreeNode*> TESTS;
+	vector<vector<int>> TESTS;
 	//vector<int> K;
-	vector<vector<vector<int>>> ANSWERS;
+	vector<int> ANSWERS;
 
-	TESTS.push_back(StringToTreeNode("[3,9,20,null,null,15,7]"));
-	ANSWERS.push_back({ {15,7},{9,20},{3} });
-
+	while (!testcases.empty())
+	{
+		TESTS.push_back(StringToVectorInt(testcases.popString()));
+		ANSWERS.push_back(stoi(testcases.popString()));
+	}
 
 	for (int i = 0; i < TESTS.size(); i++)
 	{
-		f_time_begin();
+		timer.start();
 
-		auto ans = levelOrderBottom(TESTS[i]);
+		auto ans = jump(TESTS[i]);
 		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
 		//sortArray(TESTS[i]);
 		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
 
-		f_time_end();
+		timer.stop();
 	}
 }
 
