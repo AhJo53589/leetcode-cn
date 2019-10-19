@@ -23,6 +23,7 @@
 #include <random>
 #include <bitset>
 
+#include "..\Common\ParameterType.h"
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.Hi"
 //#include "..\Common\TreeNode.h"
@@ -30,7 +31,8 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-int jump(vector<int>& nums) 
+
+int jump(vector<int> nums) 
 {
 	if (nums.size() < 2) return 0;
 	int ans = 0;
@@ -50,45 +52,22 @@ int jump(vector<int>& nums)
 	return ans;
 }
 
+#define TEST_FUNC jump
 int main()
 {
 	PerformanceTimer timer;
 	ifstream f("tests.txt");
-	TestCases testcases(f);
+	TestCases test_cases(f);
 
-	//////////////////////////////////////////////////////////////////////////
-	vector<vector<int>> TESTS;
-	//vector<int> K;
-	vector<int> ANSWERS;
-
-	while (!testcases.empty())
-	{
-		TESTS.push_back(StringToVectorInt(testcases.popString()));
-		ANSWERS.push_back(stoi(testcases.popString()));
-	}
-
-	for (int i = 0; i < TESTS.size(); i++)
+	using func_t = function_type<function<decltype(TEST_FUNC)>>;
+	while (!test_cases.empty())
 	{
 		timer.start();
 
-		auto ans = jump(TESTS[i]);
-		cout << checkAnswer<decltype(ans)>(ans, ANSWERS[i]) << endl;
-		//sortArray(TESTS[i]);
-		//cout << checkAnswer<vector<int>>(TESTS[i], ANSWERS[i]) << endl;
+		func_t::return_type ans = func_t::call(TEST_FUNC, test_cases);
+		func_t::return_type answer = test_cases.get<func_t::return_type>();
+		cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
 
 		timer.stop();
 	}
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// TreeNode
-//	vector<TreeNode *> N;
-//	N.push_back(StringToTreeNode("3,9,20,null,null,15,7"));
-
-
-//////////////////////////////////////////////////////////////////////////
-// List Node
-//	ListNode *pHead = StringToListNode("[4,7,5,3]");
-
-

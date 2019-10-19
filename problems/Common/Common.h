@@ -38,36 +38,6 @@ private:
 	LARGE_INTEGER nEndTime;
 };
 
-//////////////////////////////////////////////////////////////////////////
-class TestCases
-{
-public:
-	TestCases(std::ifstream& is) : curr(0)
-	{
-		string text;
-		while (getline(is, text))
-		{
-			file.push_back(text);
-		}
-	}
-	std::string popString()
-	{
-		if (curr == file.size()) return {};
-		return file[curr++];
-	}
-	bool empty() { return curr == file.size(); }
-private:
-	std::vector<std::string> file;
-	std::size_t curr;
-};
-
-//////////////////////////////////////////////////////////////////////////
-//template<typename... Args>
-//auto FunForward(Args... args)
-//{
-//	return calculate(args...);
-//}
-
 
 
 
