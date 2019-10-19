@@ -48,6 +48,7 @@
 ## Contest
 * [第 156 场周赛](./contest/weekly-contest-156/README.md) | 2019/9/29 | 完成：3 / 4 | 排名：192 / 1432 |
 * [第 158 场周赛](./contest/weekly-contest-158/README.md) | 2019/10/13 | 完成：2 / 4 | 排名：633 / 1715 |
+* [第 11 场双周赛](./contest/biweekly-contest-11/README.md) | 2019/10/19 | 完成：2 / 4 | 排名：302 / 912 |
 
 ## Season
-* [2019 力扣杯全国秋季编程大赛](./season/2019-fall/README.md) 2019/9/24 | 完成：3 / 5 | 排名：220 / 1541 |
+* [2019 力扣杯全国秋季编程大赛](./season/2019-fall/README.md) | 2019/9/24 | 完成：3 / 5 | 排名：220 / 1541 |
