@@ -1,6 +1,34 @@
 #pragma once
 
 //////////////////////////////////////////////////////////////////////////
+//template <typename T>
+//class GetType
+//{
+//public:
+//	typedef T type;
+//	typedef T& type_ref;
+//	typedef T* type_pointer;
+//};
+//
+//template<typename T>
+//class GetType<T&>
+//{
+//public:
+//	typedef typename remove_reference<T>::type type;
+//	typedef typename remove_reference<T>::type_ref type_ref;
+//	typedef typename remove_reference<T>::type_pointer type_pointer;
+//};
+//
+//template<typename T>
+//class GetType<T*>
+//{
+//public:
+//	typedef typename remove_reference<T>::type type;
+//	typedef typename remove_reference<T>::type_ref type_ref;
+//	typedef typename remove_reference<T>::type_pointer type_pointer;
+//};
+
+//////////////////////////////////////////////////////////////////////////
 class TestCases
 {
 public:
@@ -80,7 +108,8 @@ public:
 	using Base = type_warp<R, Tail...>;
 	template<class F, class... Args>
 	static R call(F&& f, TestCases& caster, Args&&... args)
-	{
+	{		
+		//typedef GetType<Head>::type HeadType;
 		Head head = caster.get<Head>();
 		return Base::call(f, caster, std::forward<Args>(args)..., std::forward<Head>(head));
 	}

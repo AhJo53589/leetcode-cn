@@ -37,6 +37,7 @@
 * `（困难）`  [41.first-missing-positive 缺失的第一个正数](./problems/41.first-missing-positive/README.md)
 * `（困难）`  [42.trapping-rain-water 接雨水](./problems/42.trapping-rain-water/README.md)
 * `（中等）`  [43.multiply-strings 字符串相乘](./problems/43.multiply-strings/README.md)
+* `（困难）`  [45.jump-game-ii 跳跃游戏 II](./problems/45.jump-game-ii/README.md)
 * `（中等）`  [46.permutations 全排列](./problems/46.permutations/README.md)
 * `（中等）`  [48.Rotate 旋转图像](./problems/48.Rotate/README.md) 
 * `（中等）`  [49.group-anagrams 字母异位词分组](./problems/49.group-anagrams/README.md) 

@@ -455,6 +455,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "58.length-of-last-word", "5
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "107.binary-tree-level-order-traversal-ii", "107.binary-tree-level-order-traversal-ii\107.binary-tree-level-order-traversal-ii.vcxproj", "{E87780D1-C481-491D-BC69-F639A53786AB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "45.jump-game-ii", "45.jump-game-ii\45.jump-game-ii.vcxproj", "{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -2271,6 +2273,14 @@ Global
 		{E87780D1-C481-491D-BC69-F639A53786AB}.Release|x64.Build.0 = Release|x64
 		{E87780D1-C481-491D-BC69-F639A53786AB}.Release|x86.ActiveCfg = Release|Win32
 		{E87780D1-C481-491D-BC69-F639A53786AB}.Release|x86.Build.0 = Release|Win32
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Debug|x64.ActiveCfg = Debug|x64
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Debug|x64.Build.0 = Debug|x64
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Debug|x86.ActiveCfg = Debug|Win32
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Debug|x86.Build.0 = Debug|Win32
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Release|x64.ActiveCfg = Release|x64
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Release|x64.Build.0 = Release|x64
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Release|x86.ActiveCfg = Release|Win32
+		{AB7A8FC2-EAB1-40E7-938F-C6316DB8457B}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

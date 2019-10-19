@@ -1,4 +1,4 @@
-﻿// Test.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
+﻿// 45.jump-game-ii.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
 //
 
 #include "pch.h"
@@ -25,12 +25,10 @@
 
 #include "..\Common\ParameterType.h"
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
+
 //int jump(vector<int> nums) 
 //{
 //	if (nums.size() < 2) return 0;
