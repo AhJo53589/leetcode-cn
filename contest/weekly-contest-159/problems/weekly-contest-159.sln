@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5230.check-if-it-is-a-straight-line", "5230.check-if-it-is-a-straight-line\5230.check-if-it-is-a-straight-line.vcxproj", "{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5231.remove-sub-folders-from-the-filesystem", "5231.remove-sub-folders-from-the-filesystem\5231.remove-sub-folders-from-the-filesystem.vcxproj", "{992B793C-27DC-44F9-ACF9-77824F5AE126}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5232.replace-the-substring-for-balanced-string", "5232.replace-the-substring-for-balanced-string\5232.replace-the-substring-for-balanced-string.vcxproj", "{994A81F1-6E78-4749-9F8F-88D595A74A10}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5233.maximum-profit-in-job-scheduling", "5233.maximum-profit-in-job-scheduling\5233.maximum-profit-in-job-scheduling.vcxproj", "{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Debug|x64.ActiveCfg = Debug|x64
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Debug|x64.Build.0 = Debug|x64
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Debug|x86.ActiveCfg = Debug|Win32
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Debug|x86.Build.0 = Debug|Win32
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Release|x64.ActiveCfg = Release|x64
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Release|x64.Build.0 = Release|x64
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Release|x86.ActiveCfg = Release|Win32
+		{3C2C053D-8DC1-4404-8868-C56F25D2D3E5}.Release|x86.Build.0 = Release|Win32
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Debug|x64.ActiveCfg = Debug|x64
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Debug|x64.Build.0 = Debug|x64
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Debug|x86.ActiveCfg = Debug|Win32
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Debug|x86.Build.0 = Debug|Win32
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Release|x64.ActiveCfg = Release|x64
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Release|x64.Build.0 = Release|x64
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Release|x86.ActiveCfg = Release|Win32
+		{992B793C-27DC-44F9-ACF9-77824F5AE126}.Release|x86.Build.0 = Release|Win32
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Debug|x64.ActiveCfg = Debug|x64
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Debug|x64.Build.0 = Debug|x64
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Debug|x86.ActiveCfg = Debug|Win32
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Debug|x86.Build.0 = Debug|Win32
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Release|x64.ActiveCfg = Release|x64
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Release|x64.Build.0 = Release|x64
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Release|x86.ActiveCfg = Release|Win32
+		{994A81F1-6E78-4749-9F8F-88D595A74A10}.Release|x86.Build.0 = Release|Win32
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Debug|x64.ActiveCfg = Debug|x64
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Debug|x64.Build.0 = Debug|x64
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Debug|x86.Build.0 = Debug|Win32
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Release|x64.ActiveCfg = Release|x64
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Release|x64.Build.0 = Release|x64
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Release|x86.ActiveCfg = Release|Win32
+		{BDC0ED3E-978C-4FE9-BE5C-672C5A415D94}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86276913-9E0D-46CB-B521-E2E9623A946D}
+	EndGlobalSection
+EndGlobal
