@@ -59,8 +59,46 @@
 ### 思路
 ```
 注意题目要求是用一个子串替换，子串的意思是连续的，而不是单个字母替换多少次。
+
+使用滑动窗口，
+当 字符串中各字符数 - 替换掉的子串中各字符数 符合不超过s.size() / 4个数，
+符合题目要求，记录最小值。
 ```
 
 ### 答题
 ``` C++
+int balancedString(string s) 
+{
+	int ans = s.size();
+	int n = s.size() / 4;
+	unordered_map<char, int> um_count;
+	unordered_map<char, int> um_replace;
+	auto f_check = [&um_count, &um_replace, n]()
+	{
+		return (um_count['Q'] - um_replace['Q'] <= n
+			&& um_count['W'] - um_replace['W'] <= n
+			&& um_count['E'] - um_replace['E'] <= n
+			&& um_count['R'] - um_replace['R'] <= n);
+	};
+
+	for (auto c : s)
+	{
+		um_count[c]++;
+	}
+
+	int i = 0, j = 0;
+	while (i < s.size())
+	{
+		while (j < s.size() && !f_check())
+		{
+			um_replace[s[j++]]++;
+		}
+		if (f_check())
+		{
+			ans = min(ans, j - i);
+		}
+		um_replace[s[i++]]--;
+	}
+	return ans;
+}
 ```
