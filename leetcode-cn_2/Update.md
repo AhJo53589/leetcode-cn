@@ -4,6 +4,30 @@
 
 
 ---
+
+## 20191021
+
+|      | #    | 题名                           | 题目&答题                                                    | 题解                                                         | 难度 |
+| ---- | ---- | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| √    | 33   | search-in-rotated-sorted-array | [搜索旋转排序数组](./problems/search-in-rotated-sorted-array/README.md) | [查看](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) | 中等 |
+
+## 20191021
+
+|      | #    | 题名                           | 题目&答题                                                    | 题解                                                         | 难度 |
+| ---- | ---- | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| √    | 33   | search-in-rotated-sorted-array | [搜索旋转排序数组](./problems/search-in-rotated-sorted-array/README.md) | [查看](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) | 中等 |
+
+## 20191021
+
+|      | #    | 题名                           | 题目&答题                                                    | 题解                                                         | 难度 |
+| ---- | ---- | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| √    | 33   | search-in-rotated-sorted-array | [搜索旋转排序数组](./problems/search-in-rotated-sorted-array/README.md) | [查看](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) | 中等 |
+
+
+
+
+
+---
 ## 20191020
 * 5230.check-if-it-is-a-straight-line 缀点成线
 * 5231.remove-sub-folders-from-the-filesystem 删除子文件夹
