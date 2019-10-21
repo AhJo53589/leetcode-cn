@@ -3,20 +3,15 @@
 
 
 ## Selected Solutions
-* `（中等）`  [33.search-in-rotated-sorted-array 搜索旋转排序数组](./problems/33.search-in-rotated-sorted-array/README.md) | [发布的题解](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) |
 * `（困难）`  [41.first-missing-positive 缺失的第一个正数](./problems/41.first-missing-positive/README.md) | [发布的题解](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) |
 * `（困难）`  [42.trapping-rain-water 接雨水](./problems/42.trapping-rain-water/README.md) | [发布的题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) |
 * `（困难）`  [45.jump-game-ii 跳跃游戏 II](./problems/45.jump-game-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) |
 * `（中等）`  [55.jump-game 跳跃游戏](./problems/55.jump-game/README.md) | [发布的题解](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) |
-* `（简单）`  [58.length-of-last-word 最后一个单词的长度](./problems/58.length-of-last-word/README.md) | [发布的题解](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) |
 * `（困难）`  [76.minimum-window-substring 最小覆盖子串](./problems/76.minimum-window-substring/README.md) | [发布的题解](https://leetcode-cn.com/problems/minimum-window-substring/solution/76-by-ikaruga/) |
-* `（中等）`  [79.word-search 单词搜索](./problems/79.word-search/README.md) | [发布的题解](https://leetcode-cn.com/problems/word-search/solution/79-by-ikaruga/) |
 * `（中等）`  [93.restore-ip-addresses 复原IP地址](./problems/93.restore-ip-addresses/README.md) | [发布的题解](https://leetcode-cn.com/problems/restore-ip-addresses/solution/93-by-ikaruga/) |
-* `（简单）`  [107.binary-tree-level-order-traversal-ii 二叉树的层次遍历 II](./problems/107.binary-tree-level-order-traversal-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-tree-level-order-traversal-ii/solution/107-by-ikaruga/) |
 * `（困难）`  [124.binary-tree-maximum-path-sum 二叉树中的最大路径和](./problems/124.binary-tree-maximum-path-sum/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) |
 * `（中等）`  [138.copy-list-with-random-pointer 复制带随机指针的链表](./problems/138.copy-list-with-random-pointer/README.md) | [发布的题解](https://leetcode-cn.com/problems/copy-list-with-random-pointer/solution/fu-zhi-dai-sui-ji-zhi-zhen-de-lian-biao-shi-yong-m/) |
 * `（中等）`  [179.largest-number 最大数](./problems/179.largest-number/README.md) | [发布的题解](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) |
-* `（简单）`  [189.rotate-array 旋转数组](./problems/189.rotate-array/README.md) | [发布的题解](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) |
 * `（简单）`  [198.house-robber 打家劫舍](./problems/198.house-robber/README.md) | [发布的题解](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) |
 * `（中等）`  [213.house-robber-ii 打家劫舍 II](./problems/213.house-robber-ii/README.md) | [发布的题解](https://leetcode-cn.com/problems/house-robber-ii/solution/da-jia-jie-she-ii-dai-ma-jian-ji-yi-dong-ii-by-ika/) |
 * `（困难）`  [218.the-skyline-problem 天际线问题](./problems/218.the-skyline-problem/README.md) | [发布的题解](https://leetcode-cn.com/problems/the-skyline-problem/solution/218-by-ikaruga/) |
@@ -30,7 +25,6 @@
 * `（困难）`  [410.split-array-largest-sum 分割数组的最大值](./problems/410.split-array-largest-sum/README.md) | [发布的题解](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) |
 * `（中等）`  [450.delete-node-in-a-bst 删除二叉搜索树中的节点](./problems/450.delete-node-in-a-bst/README.md) | [发布的题解](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) |
 * `（中等）`  [498.diagonal-traverse 对角线遍历](./problems/498.diagonal-traverse/README.md) | [发布的题解](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) |
-* `（简单）`  [704.binary-search 二分查找](./problems/704.binary-search/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-ikaruga/) |
 * `（中等）`  [779.k-th-symbol-in-grammar 第K个语法符号](./problems/779.k-th-symbol-in-grammar/README.md) | [发布的题解](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/) |
 * `（困难）`  [887.super-egg-drop 鸡蛋掉落](./problems/887.super-egg-drop/README.md) | [发布的题解](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) |
 * `（中等）`  [5207.get-equal-substrings-within-budget 尽可能使字符串相等](./contest/weekly-contest-156/problems/5207.get-equal-substrings-within-budget/README.md) | [发布的题解](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) |
@@ -48,8 +42,8 @@
 ## Contest
 * [第 156 场周赛](./contest/weekly-contest-156/README.md) | 2019/9/29 | 完成：3 / 4 | 排名：192 / 1432 |
 * [第 158 场周赛](./contest/weekly-contest-158/README.md) | 2019/10/13 | 完成：2 / 4 | 排名：633 / 1715 |
-* [第 11 场双周赛](./contest/biweekly-contest-11/README.md) | 2019/10/19 | 完成：2 / 4 | 排名：302 / 912 |
-* [第 159 场周赛](./contest/weekly-contest-159/README.md) | 2019/10/20 | 完成：2 / 4 | 排名：396 / 1633 |
+* [第 11 场双周赛](./contest/biweekly-contest-11/README.md) | 2019/10/19 | 完成：2 + 1 / 4 | 排名：302 / 912 |
+* [第 159 场周赛](./contest/weekly-contest-159/README.md) | 2019/10/20 | 完成：2 + 1 / 4 | 排名：396 / 1633 |
 
 ## Season
 * [2019 力扣杯全国秋季编程大赛](./season/2019-fall/README.md) | 2019/9/24 | 完成：3 / 5 | 排名：220 / 1541 |
