@@ -49,28 +49,19 @@ public:
 	}
 
 
+
 	template<class T>
-	T get();
+	T get()
+	{
+		if (curr == file.size()) return {};
+		return convert<T>(popString());
+	}
 
 	template<>
 	bool get<bool>()
 	{
 		if (curr == file.size()) return {};
 		return stringToBool(popString());
-	}
-
-	template<>
-	int get<int>()
-	{
-		if (curr == file.size()) return {};
-		return stringToInt(popString());
-	}
-
-	template<>
-	std::string get<std::string>()
-	{
-		if (curr == file.size()) return {};
-		return popString();
 	}
 
 	template<>

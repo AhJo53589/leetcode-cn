@@ -4,6 +4,7 @@
 #include <iostream>
 #include <windows.h>
 #include <fstream>
+#include <sstream>
 
 #include <algorithm>
 #include <map>
@@ -56,6 +57,18 @@ string VectorVectorIntToString(const vector<vector<int>>& matrix);
 
 vector<string> StringToVectorString(string str);
 
+//////////////////////////////////////////////////////////////////////////
+template<typename out_type, typename in_value>
+out_type convert(const in_value & t)
+{
+	std::stringstream stream;
+	stream << t;
+	out_type result;
+	stream >> result;
+	return result;
+}
+
+//////////////////////////////////////////////////////////////////////////
 template<typename T>
 void printVectorT(T &nums)
 {
