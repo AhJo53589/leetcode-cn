@@ -23,6 +23,7 @@
 #include <random>
 #include <bitset>
 
+#include "..\Common\Define_IdName.h"
 #include "..\Common\ParameterType.h"
 #include "..\Common\Common.h"
 //#include "..\Common\GraphNode.Hi"
@@ -30,19 +31,20 @@
 //#include "..\Common\ListNode.Hi"
 using namespace std;
 
-#define PROBLEMS_ID_0 "..\0.test\0.test.cpp"
+#define SOLUTION_CPP	SOLUTION_CPP_ID_1
+#define TESTS_TXT		TESTS_TXT_ID_1
+#define TEST_FUNC		solution
 
-#include PROBLEMS_ID_0
+#include SOLUTION_CPP
 
 //////////////////////////////////////////////////////////////////////////
 
 
 
-#define TEST_FUNC testFunc
 int main()
 {
 	PerformanceTimer timer;
-	ifstream f("tests.txt");
+	ifstream f(TESTS_TXT);
 	TestCases test_cases(f);
 
 	using func_t = function_type<function<decltype(TEST_FUNC)>>;
