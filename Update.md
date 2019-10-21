@@ -21,6 +21,10 @@
 ---
 ## 20191013
 * 107.binary-tree-level-order-traversal-ii 二叉树的层次遍历 II
+* 5222.split-a-string-in-balanced-strings 分割平衡字符串
+* 5223.queens-that-can-attack-the-king 可以攻击国王的皇后
+* （未完成）5224.dice-roll-simulation 掷骰子模拟
+* （未完成）5225.maximum-equal-frequency 最大相等频率
 
 ---
 ## 20191012
@@ -59,7 +63,7 @@
 * 5205.unique-number-of-occurrences 独一无二的出现次数
 * 5207.get-equal-substrings-within-budget 尽可能使字符串相等
 * 5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II
-* 5208.minimum-moves-to-reach-target-with-rotations 穿过迷宫的最少移动次数
+* （未完成）5208.minimum-moves-to-reach-target-with-rotations 穿过迷宫的最少移动次数
 
 ---
 ## 20190928
@@ -78,8 +82,8 @@
 * 1.guess-numbers 猜数字
 * 2.deep-dark-fraction 分式化简
 * 3.programmable-robot 机器人大冒险
-* 4.broken-board-dominoes 覆盖
-* 5.coin-bonus 发 LeetCoin
+* （未完成）4.broken-board-dominoes 覆盖
+* （未完成）5.coin-bonus 发 LeetCoin
 
 ---
 ## 20190919

@@ -27,6 +27,7 @@
 * `（中等）`  [337.house-robber-iii 打家劫舍 III](./problems/337.house-robber-iii/README.md) | [发布的题解](https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/) |
 * `（困难）`  [354.russian-doll-envelopes 俄罗斯套娃信封问题](./problems/354.russian-doll-envelopes/README.md) | [发布的题解](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/) |
 * `（困难）`  [410.split-array-largest-sum 分割数组的最大值](./problems/410.split-array-largest-sum/README.md) | [发布的题解](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) |
+* `（简单）`  [430.flatten-a-multilevel-doubly-linked-list 扁平化多级双向链表](./problems/430.flatten-a-multilevel-doubly-linked-list/README.md) | [发布的题解](https://leetcode-cn.com/problems/flatten-a-multilevel-doubly-linked-list/solution/bian-ping-hua-duo-ji-shuang-xiang-lian-biao-zheng-/) |
 * `（中等）`  [450.delete-node-in-a-bst 删除二叉搜索树中的节点](./problems/450.delete-node-in-a-bst/README.md) | [发布的题解](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) |
 * `（中等）`  [498.diagonal-traverse 对角线遍历](./problems/498.diagonal-traverse/README.md) | [发布的题解](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) |
 * `（简单）`  [704.binary-search 二分查找](./problems/704.binary-search/README.md) | [发布的题解](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-ikaruga/) |

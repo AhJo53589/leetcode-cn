@@ -28,45 +28,44 @@
 using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
-
-//int jump(vector<int> nums) 
-//{
-//	if (nums.size() < 2) return 0;
-//	int ans = 0;
-//	int l = 0;
-//	int r = 1;
-//	while (r < nums.size())
-//	{
-//		int temp = 0;
-//		for (int i = l; i < r && i < nums.size(); i++)
-//		{
-//			temp = max(temp, i + nums[i]);
-//		}
-//		l = r;
-//		r = temp + 1;
-//		ans++;
-//	}
-//	return ans;
-//}
-
-//////////////////////////////////////////////////////////////////////////
 //int jump(vector<int> &nums)
 int jump(vector<int> nums)
 {
 	int ans = 0;
-	int end = 0;
-	int maxPos = 0;
-	for (int i = 0; i < nums.size() - 1; i++)
+	int begin = 0;
+	int end = 1;
+	while (end < nums.size())
 	{
-		maxPos = max(nums[i] + i, maxPos);
-		if (i == end)
+		int temp = 0;
+		for (int i = begin; i < end; i++)
 		{
-			end = maxPos;
-			ans++;
+			temp = max(temp, i + nums[i]);
 		}
+		begin = end;
+		end = temp + 1;
+		ans++;
 	}
 	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+//int jump(vector<int> &nums)
+//int jump(vector<int> nums)
+//{
+//	int ans = 0;
+//	int end = 0;
+//	int maxPos = 0;
+//	for (int i = 0; i < nums.size() - 1; i++)
+//	{
+//		maxPos = max(nums[i] + i, maxPos);
+//		if (i == end)
+//		{
+//			end = maxPos;
+//			ans++;
+//		}
+//	}
+//	return ans;
+//}
 
 
 #define TEST_FUNC jump
