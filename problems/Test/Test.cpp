@@ -30,15 +30,15 @@
 //#include "..\Common\ListNode.Hi"
 using namespace std;
 
-#define PROBLEMS_ID_0 "..\0.test\0.test.cpp"
+//#define PROBLEMS_ID_0 "..\1.two-sum\1.two-sum.cpp"
+//
+//#include PROBLEMS_ID_0
 
-#include PROBLEMS_ID_0
+//#include "Test_1.cpp"
 
 //////////////////////////////////////////////////////////////////////////
 
-
-
-#define TEST_FUNC testFunc
+#define TEST_FUNC SOLUTION
 int main()
 {
 	PerformanceTimer timer;

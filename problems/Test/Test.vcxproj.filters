@@ -30,6 +30,12 @@
     <ClInclude Include="..\Common\TreeNode.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\leetcode-cn_2\test\Common\Define_IdName.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\leetcode-cn_2\test\Common\ParameterType.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">

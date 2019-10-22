@@ -24,36 +24,61 @@
 #include <bitset>
 
 #include "..\Common\Define_IdName.h"
-#include "..\Common\ParameterType.h"
 #include "..\Common\Common.h"
-//#include "..\Common\GraphNode.Hi"
+#include "..\Common\TestCases.h"
+#include "..\Common\ParameterType.h"
+#include "..\Common\PerformanceTimer.h"
+//#include "..\Common\GraphNode.i"
 //#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.Hi"
+//#include "..\Common\ListNode.i"
 using namespace std;
 
-#define SOLUTION_CPP	SOLUTION_CPP_ID_1
-#define TESTS_TXT		TESTS_TXT_ID_1
-#define TEST_FUNC		solution
-
-#include SOLUTION_CPP
 
 //////////////////////////////////////////////////////////////////////////
+// 选择测试代码
+
+// 1.选择使用（本路径的测试代码）
+#include "Test_1.cpp"
+//#include "Test_2.cpp"
+//#include "Test_3.cpp"
+//#include "Test_4.cpp"
+//#include "Test_5.cpp"
+
+// 2.或者选择使用（题库中的题，根据编号加载，使用Define_IdName.h中定义的宏）
+// SOLUTION_CPP_PATH_ID_1 ==> 最后的数值是题目编号
+//#include SOLUTION_CPP_PATH_ID_1
+
+// 3.或者选择使用（题库中的题，根据名字加载）
+// SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字
+//#define ADD_QUOTES(A) #A
+//#define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
+//#include SOLUTION_CPP_PATH(two-sum)
 
 
 
+//////////////////////////////////////////////////////////////////////////
 int main()
 {
 	PerformanceTimer timer;
-	ifstream f(TESTS_TXT);
+#ifdef USE_GET_TEST_CASES_FILESTREAM
+	ifstream f(_get_test_cases_filestream());
 	TestCases test_cases(f);
+#else
+	TestCases test_cases(_get_test_cases_string());
+#endif // USE_GET_TEST_CASES
 
-	using func_t = function_type<function<decltype(TEST_FUNC)>>;
+	using func_t = function_type<function<decltype(_solution_run)>>;
 	while (!test_cases.empty())
 	{
 		timer.start();
 
-		func_t::return_type ans = func_t::call(TEST_FUNC, test_cases);
+#ifdef USE_SOLUTION_CUSTOM
+		auto ans = _solution_custom(test_cases);
+		auto answer = test_cases.get<decltype(ans)>();
+#else
+		func_t::return_type ans = func_t::call(_solution_run, test_cases);
 		func_t::return_type answer = test_cases.get<func_t::return_type>();
+#endif
 		cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
 
 		timer.stop();

@@ -16,18 +16,18 @@
 //class GetType<T&>
 //{
 //public:
-//	typedef typename remove_reference<T>::type type;
-//	typedef typename remove_reference<T>::type_ref type_ref;
-//	typedef typename remove_reference<T>::type_pointer type_pointer;
+//	typedef typename std::remove_reference<T>::type type;
+//	typedef typename std::remove_reference<T>::type_ref type_ref;
+//	typedef typename std::remove_reference<T>::type_pointer type_pointer;
 //};
 //
 //template<typename T>
 //class GetType<T*>
 //{
 //public:
-//	typedef typename remove_reference<T>::type type;
-//	typedef typename remove_reference<T>::type_ref type_ref;
-//	typedef typename remove_reference<T>::type_pointer type_pointer;
+//	typedef typename std::remove_reference<T>::type type;
+//	typedef typename std::remove_reference<T>::type_ref type_ref;
+//	typedef typename std::remove_reference<T>::type_pointer type_pointer;
 //};
 
 //////////////////////////////////////////////////////////////////////////
@@ -157,7 +157,20 @@ private:
 };
 
 //////////////////////////////////////////////////////////////////////////
-// 获取函数的返回值和参数列表
+// 用来解决函数的参数有引用类型
+template<class T>
+struct cover
+{
+	static T Get(TestCases& caster) { return caster.get<T>(); }
+};
+
+template<class T>
+struct cover<T&>
+{
+	static T Get(TestCases& caster) { return caster.get<T>(); }
+};
+
+//////////////////////////////////////////////////////////////////////////
 // 将参数列表展开
 // 将参数填入测试数据
 // 调用函数
@@ -172,9 +185,8 @@ public:
 	template<class F, class... Args>
 	static R call(F&& f, TestCases& caster, Args&&... args)
 	{		
-		//typedef GetType<Head>::type HeadType;
-		Head head = caster.get<Head>();
-		return Base::call(f, caster, std::forward<Args>(args)..., std::forward<Head>(head));
+		auto head = cover<Head>::Get(caster);
+		return Base::call(f, caster, std::forward<Args>(args)..., (head));
 	}
 };
 
@@ -189,6 +201,8 @@ public:
 	}
 };
 
+//////////////////////////////////////////////////////////////////////////
+// 获取函数的返回值和参数列表
 template<typename T>
 struct function_type;
 template<typename R, typename ...Args>

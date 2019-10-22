@@ -1,19 +1,4 @@
-﻿//vector<int> twoSum(vector<int> &nums, int target)	// 4ms
-//{
-//	vector<int> v;
-//	unordered_map<int, int> hash;
-//	for (int i = nums.size() - 1; i >= 0; hash[nums[i]] = i, i--)
-//	{
-//		if (hash.find(target - nums[i]) == hash.end())
-//			continue;
-//		v.push_back(i);
-//		v.push_back(hash[target - nums[i]]);
-//		return v;
-//	}
-//	return v;
-//}
-
-//////////////////////////////////////////////////////////////////////////
+﻿//////////////////////////////////////////////////////////////////////////
 vector<int> twoSum(vector<int> &nums, int target)
 {
 	map<int, int> sum;
@@ -67,3 +52,5 @@ string _get_test_cases_filestream()
 {
 	return "tests_1.txt";
 }
+
+

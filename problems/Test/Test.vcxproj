@@ -152,6 +152,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\leetcode-cn_2\test\Common\Define_IdName.h" />
+    <ClInclude Include="..\..\leetcode-cn_2\test\Common\ParameterType.h" />
     <ClInclude Include="..\Common\Common.h" />
     <ClInclude Include="..\Common\GraphNode.h" />
     <ClInclude Include="..\Common\ListNode.h" />

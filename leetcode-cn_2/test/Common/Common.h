@@ -12,61 +12,10 @@
 #include <queue>
 #include <string>
 
+#include "StringConvert.h"
+
 using namespace std;
 
-
-//////////////////////////////////////////////////////////////////////////
-class PerformanceTimer
-{
-public:
-	PerformanceTimer() { QueryPerformanceFrequency(&nFreq); }
-	void start()
-	{
-		std::cout << std::endl << "/////////////////////////////" << std::endl;
-		QueryPerformanceCounter(&nBeginTime);
-	}
-
-	void stop()
-	{
-		QueryPerformanceCounter(&nEndTime);
-		double time = (double)(nEndTime.QuadPart - nBeginTime.QuadPart) / (double)nFreq.QuadPart;
-		std::cout << "////////////////////////////////////////////////////////// time: " << time * 1000 << "ms" << std::endl;
-	}
-
-private:
-	LARGE_INTEGER nFreq;
-	LARGE_INTEGER nBeginTime;
-	LARGE_INTEGER nEndTime;
-};
-
-
-
-
-//////////////////////////////////////////////////////////////////////////
-std::vector<std::string> split(std::string str, std::string pattern);
-
-vector<char> StringToVectorChar(string str);
-string VectorCharToString(const vector<char>& nums);
-vector<vector<char>> StringToVectorVectorChar(string str);
-string VectorVectorCharToString(const vector<vector<char>>& matrix);
-
-vector<int> StringToVectorInt(string str);
-string VectorIntToString(const vector<int>& nums);
-vector<vector<int>> StringToVectorVectorInt(string str);
-string VectorVectorIntToString(const vector<vector<int>>& matrix);
-
-vector<string> StringToVectorString(string str);
-
-//////////////////////////////////////////////////////////////////////////
-template<typename out_type, typename in_value>
-out_type convert(const in_value & t)
-{
-	std::stringstream stream;
-	stream << t;
-	out_type result;
-	stream >> result;
-	return result;
-}
 
 //////////////////////////////////////////////////////////////////////////
 template<typename T>

@@ -156,6 +156,10 @@
     <ClInclude Include="..\Common\Define_IdName.h" />
     <ClInclude Include="..\Common\GraphNode.h" />
     <ClInclude Include="..\Common\ListNode.h" />
+    <ClInclude Include="..\Common\ParameterType.h" />
+    <ClInclude Include="..\Common\PerformanceTimer.h" />
+    <ClInclude Include="..\Common\StringConvert.h" />
+    <ClInclude Include="..\Common\TestCases.h" />
     <ClInclude Include="..\Common\TreeNode.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
@@ -163,6 +167,7 @@
     <ClCompile Include="..\Common\Common.cpp" />
     <ClCompile Include="..\Common\GraphNode.cpp" />
     <ClCompile Include="..\Common\ListNode.cpp" />
+    <ClCompile Include="..\Common\StringConvert.cpp" />
     <ClCompile Include="..\Common\TreeNode.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
