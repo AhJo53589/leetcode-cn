@@ -1,4 +1,4 @@
-# `（简单）`  [101.IsSymmetric 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
+# `（简单）` [101.symmetric-tree 对称二叉树](https://leetcode-cn.com/problems/symmetric-tree/)
 
 ### 题目描述
 <p>给定一个二叉树，检查它是否是镜像对称的。</p>

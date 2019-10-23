@@ -11,6 +11,9 @@
 #include <queue>
 #include <string>
 
+#include "TreeNode.h"
+#include "ListNode.h"
+
 using namespace std;
 
 
@@ -87,4 +90,16 @@ template<>
 inline bool convert(const std::string &s)
 {
 	return (s == "true" || s == "True" || s == "TRUE");
+}
+
+template<>
+inline TreeNode* convert(const std::string &s)
+{
+	return StringToTreeNode(s);
+}
+
+template<>
+inline ListNode* convert(const std::string &s)
+{
+	return StringToListNode(s);
 }

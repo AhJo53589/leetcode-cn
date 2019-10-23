@@ -1,4 +1,4 @@
-# `（简单）`  [104.MaxDepth 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
+# `（简单）` [104.maximum-depth-of-binary-tree 二叉树的最大深度](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/)
 
 ### 题目描述
 <p>给定一个二叉树，找出其最大深度。</p>

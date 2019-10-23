@@ -1,4 +1,4 @@
-# `（中等）`  [106.construct-binary-tree-from-inorder-and-postorder-traversal 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
+# `（中等）` [106.construct-binary-tree-from-inorder-and-postorder-traversal 从中序与后序遍历序列构造二叉树](https://leetcode-cn.com/problems/construct-binary-tree-from-inorder-and-postorder-traversal/)
 
 ### 题目描述
 <p>根据一棵树的中序遍历与后序遍历构造二叉树。</p>

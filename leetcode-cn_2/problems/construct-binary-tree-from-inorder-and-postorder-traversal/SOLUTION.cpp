@@ -1,29 +1,3 @@
-﻿// 106.construct-binary-tree-from-inorder-and-postorder-traversal.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include "pch.h"
-#include <iostream>
-
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-#include <queue>
-#include <deque>
-#include <set>
-#include <stack>
-#include <list>
-#include <string>
-#include <random>
-#include <bitset>
-
-#include "..\Common\Common.h"
-//#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.h"
-using namespace std;
-
 
 //////////////////////////////////////////////////////////////////////////
 //TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder) {
@@ -83,23 +57,27 @@ TreeNode* buildTree(vector<int>& inorder, vector<int>& postorder)
 	return root;
 }
 
-int main()
+//////////////////////////////////////////////////////////////////////////
+TreeNode* _solution_run(vector<int>& inorder, vector<int>& postorder)
 {
-	vector<pair<vector<int>, vector<int>>> N;
-	vector<string> A;
-
-	N.push_back({ {9,3,15,20,7}, {9,15,7,20,3} });
-	A.push_back("3,9,20,null,null,15,7");
-
-	for (size_t i = 0; i < N.size(); i++)
-	{
-		cout << endl << "///////////////////////////////////////" << endl;
-		printVectorT(N[i].first);
-		printVectorT(N[i].second);
-		TreeNode *pNode = buildTree(N[i].first, N[i].second);
-		cout << "buildTree = " << endl;
-		cout << A[i] << endl;
-		cout << "my answer = " << endl;
-		DrawTreeNode(pNode);
-	}
+	return buildTree(inorder,postorder);
 }
+
+//#define USE_SOLUTION_CUSTOM
+//TreeNode* _solution_custom(TestCases &tc)
+//{
+//}
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {
+};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "..\..\problems\construct-binary-tree-from-inorder-and-postorder-traversal\tests.txt";
+}
+
