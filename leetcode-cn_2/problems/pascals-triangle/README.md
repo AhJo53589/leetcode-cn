@@ -1,4 +1,4 @@
-# `（简单）`  [118.pascals-triangle 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
+# `（简单）` [118.pascals-triangle 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle/)
 
 ### 题目描述
 <p>给定一个非负整数&nbsp;<em>numRows，</em>生成杨辉三角的前&nbsp;<em>numRows&nbsp;</em>行。</p>

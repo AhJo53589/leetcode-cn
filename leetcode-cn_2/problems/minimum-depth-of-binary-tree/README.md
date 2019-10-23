@@ -1,4 +1,4 @@
-# `（简单）`  [111.minimum-depth-of-binary-tree 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
+# `（简单）` [111.minimum-depth-of-binary-tree 二叉树的最小深度](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/)
 
 ### 题目描述
 <p>给定一个二叉树，找出其最小深度。</p>

@@ -78,6 +78,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "..\..\problems\construct-binary-tree-from-inorder-and-postorder-traversal\tests.txt";
+	return "../../problems/construct-binary-tree-from-inorder-and-postorder-traversal/tests.txt";
 }
 

@@ -1,4 +1,4 @@
-# `（简单）`  [119.pascals-triangle-ii 杨辉三角 II](https://leetcode-cn.com/problems/pascals-triangle-ii/)
+# `（简单）` [119.pascals-triangle-ii 杨辉三角](https://leetcode-cn.com/problems/pascals-triangle-ii/)
 
 ### 题目描述
 <p>给定一个非负索引&nbsp;<em>k</em>，其中 <em>k</em>&nbsp;≤&nbsp;33，返回杨辉三角的第 <em>k </em>行。</p>

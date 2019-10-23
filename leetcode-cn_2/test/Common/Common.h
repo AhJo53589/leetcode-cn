@@ -32,6 +32,7 @@ void printVectorVectorT(T &matrix)
 	cout << endl;
 }
 
+//////////////////////////////////////////////////////////////////////////
 template<typename T>
 inline string checkAnswer(T a, T b)
 {
@@ -90,6 +91,14 @@ inline string checkAnswer(const vector<string> a, const vector<string> b)
 	res += "\n";
 	res += "\t\t\t" + check;
 	return res;
+}
+
+template<>
+inline string checkAnswer(TreeNode* a, TreeNode* b)
+{
+	string stra = TreeNodeToString(a);
+	string strb = TreeNodeToString(b);
+	return checkAnswer(stra, strb);
 }
 
 #endif //COMMON_H

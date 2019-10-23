@@ -1,0 +1,6 @@
+[3,9,20,null,null,15,7]
+true
+[1,2,2,3,3,null,null,4,4]
+false
+[1,2,2,3,3,3,3,4,4,4,4,4,4,null,null,5,5]
+true

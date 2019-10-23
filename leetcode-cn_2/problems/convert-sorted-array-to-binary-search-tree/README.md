@@ -1,4 +1,4 @@
-# `（简单）`  [108.SortedArrayToBST 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
+# `（简单）` [108.convert-sorted-array-to-binary-search-tree 将有序数组转换为二叉搜索树](https://leetcode-cn.com/problems/convert-sorted-array-to-binary-search-tree/)
 
 ### 题目描述
 <p>将一个按照升序排列的有序数组，转换为一棵高度平衡二叉搜索树。</p>
