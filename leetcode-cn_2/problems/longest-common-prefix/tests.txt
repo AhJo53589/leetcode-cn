@@ -1,0 +1,4 @@
+["dog","racecar","car"]
+
+["flower","flow","flight"]
+fl

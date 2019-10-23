@@ -103,3 +103,15 @@ inline ListNode* convert(const std::string &s)
 {
 	return StringToListNode(s);
 }
+
+template<>
+inline std::vector<char> convert(const std::string &s)
+{
+	return StringToVectorChar(s);
+}
+
+template<>
+inline std::vector<std::vector<char>> convert(const std::string &s)
+{
+	return StringToVectorVectorChar(s);
+}

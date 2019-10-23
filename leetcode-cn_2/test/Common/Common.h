@@ -48,6 +48,22 @@ inline string checkAnswer(const string a, const string b)
 }
 
 template<>
+inline string checkAnswer(TreeNode* a, TreeNode* b)
+{
+	string stra = TreeNodeToString(a);
+	string strb = TreeNodeToString(b);
+	return checkAnswer(stra, strb);
+}
+
+template<>
+inline string checkAnswer(ListNode* a, ListNode* b)
+{
+	string stra = ListNodeToString(a);
+	string strb = ListNodeToString(b);
+	return checkAnswer(stra, strb);
+}
+
+template<>
 inline string checkAnswer(bool a, bool b)
 {
 	string res;
@@ -93,13 +109,6 @@ inline string checkAnswer(const vector<string> a, const vector<string> b)
 	return res;
 }
 
-template<>
-inline string checkAnswer(TreeNode* a, TreeNode* b)
-{
-	string stra = TreeNodeToString(a);
-	string strb = TreeNodeToString(b);
-	return checkAnswer(stra, strb);
-}
 
 #endif //COMMON_H
 
