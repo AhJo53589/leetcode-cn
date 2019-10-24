@@ -2,10 +2,15 @@
 
 
 
+[TOC]
+
+
+
 ## Selected Solutions
-|     | #   | 题名    | 题目&答题               | 题解                    | 难度 |
-| --- | --- | ------- | ----------------------- | ----------------------- | ---- |
-| √   | 1   | two-sum | [两数之和][file_link_1] | [查看][solution_link_1] | 简单 |
+
+|     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
+| --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
+| √   | 1   | [two-sum][1 _forder] | [两数之和][1 _answer] | [cpp][1 _cpp] |      | 简单 |
 
 [查看全部](./Solutions.md)  
 
@@ -32,6 +37,12 @@
 
 - [ ] abc
 
+- [ ] 
 
-[file_link_1]: ./problems/two-sum/README.md
-[solution_link_1]: https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2/
+  
+
+
+[1 _forder]: ./problems/two-sum
+[1 _answer]: ./problems/two-sum/README.md
+[1 _cpp]: ../../problems/two-sum/SOLUTION.cpp
+[1 _solution]: https://leetcode-cn.com/problems/two-sum/solution/liang-shu-zhi-he-by-leetcode-2/
