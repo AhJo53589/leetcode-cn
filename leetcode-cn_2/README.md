@@ -8,11 +8,11 @@
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
 | √   | 1   | [two-sum][1 _forder] | [两数之和][1 _answer] | [cpp][1 _cpp] |      | 简单 |
-| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/two-sum/) | 简单 | 
+
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （34 / 1170）
+完成进度 （32 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season

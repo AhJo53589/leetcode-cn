@@ -1,50 +1,42 @@
 ﻿//////////////////////////////////////////////////////////////////////////
-vector<int> twoSum(vector<int> &nums, int target)
+bool uniqueOccurrences(vector<int>& arr)
 {
-	twoSum(12);
-	map<int, int> sum;
-	vector<int> rst;
-	for (int i = 0; i < nums.size(); i++)
+	map<int, int> m;
+	for (auto n : arr)
 	{
-		if (sum.find(target - nums[i]) != sum.end())
-		{
-			rst.push_back(sum[target - nums[i]]);
-			rst.push_back(i);
-			break;
-		}
-		else
-		{
-			sum[nums[i]] = i;
-		}
+		m[n]++;
 	}
-	return rst;
+	unordered_set<int> s;
+	for (auto k : m)
+	{
+		if (s.find(k.second) != s.end()) return false;
+		s.insert(k.second);
+	}
+	return true;
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<int> &nums, int target)
+bool _solution_run(vector<int>& arr)
 {
-	return twoSum(nums, target);
+	return uniqueOccurrences(arr);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<int> _solution_custom(TestCases &tc)
+//bool _solution_custom(TestCases &tc)
 //{
-//	vector<int> nums(tc.get<vector<int>>());
-//	int target(tc.get<int>());
-//	return twoSum(nums, target);
+//	return uniqueOccurrences(tc.get<vector<int>&>());
 //}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()
 {
 	return {
-		"[2,7,11,15]",
-		"9",
-		"[0,1]",
-
-		"[2,7,11,15]",
-		"18",
-		"[1,2]"
+		"[1,2,2,1,1,3]",
+		"true",
+		"[1,2]",
+		"false",
+		"[-3,0,1,-3,1,1,1,-3,10,0]",
+		"true"
 	};
 }
 
