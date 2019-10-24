@@ -2,21 +2,18 @@
 
 
 
-[TOC]
-
 
 
 ## Selected Solutions
-
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
 | √   | 1   | [two-sum][1 _forder] | [两数之和][1 _answer] | [cpp][1 _cpp] |      | 简单 |
-
-[查看全部](./Solutions.md)  
+| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/two-sum/) | 简单 | 
+[查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （227 / 1170）
-[查看全部](./problemset/all/README.md)  
+完成进度 （34 / 1170）
+[查看全部](./problemset/all/README.md)
 
 ## Season
 | 日期      | 名称                                                        | 完成  | 排名       |
@@ -33,11 +30,8 @@
 
 
 ## Update
-[查看全部](./Update.md)  
+[查看全部](./Update.md)
 
-- [ ] abc
-
-- [ ] 
 
   
 

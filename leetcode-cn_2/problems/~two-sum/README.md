@@ -1,4 +1,4 @@
-# `（简单）` [1.two-sum 两数之和](https://leetcode-cn.com/problems/two-sum/)
+# `（简单）`  [1.two-sum 两数之和](https://leetcode-cn.com/problems/two-sum/)
 
 ### 题目描述
 <p>给定一个整数数组 <code>nums</code>&nbsp;和一个目标值 <code>target</code>，请你在该数组中找出和为目标值的那&nbsp;<strong>两个</strong>&nbsp;整数，并返回他们的数组下标。</p>
@@ -19,11 +19,9 @@
 ```
 ```
 
-[发布的题解](https://leetcode-cn.com/problems/two-sum/)
-
 ### 答题
 ``` C++
-vector<int> twoSum(vector<int> &nums, int target)
+vector<int> twoSum(vector<int>& nums, int target)
 {
 	map<int, int> sum;
 	vector<int> rst;
@@ -42,9 +40,5 @@ vector<int> twoSum(vector<int> &nums, int target)
 	}
 	return rst;
 }
-
 ```
-
-
-
 
