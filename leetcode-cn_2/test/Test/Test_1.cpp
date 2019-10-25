@@ -30,20 +30,13 @@ bool _solution_run(vector<int>& arr)
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()
 {
-	return {
-		"[1,2,2,1,1,3]",
-		"true",
-		"[1,2]",
-		"false",
-		"[-3,0,1,-3,1,1,1,-3,10,0]",
-		"true"
-	};
+	return {};
 }
 
-//#define USE_GET_TEST_CASES_FILESTREAM
-//string _get_test_cases_filestream()
-//{
-//	return "tests_1.txt";
-//}
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "tests_1.txt";
+}
 
 

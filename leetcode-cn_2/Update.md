@@ -4,6 +4,17 @@
 
 
 ---
+## 20191025
+* 1210.minimum-moves-to-reach-target-with-rotations 穿过迷宫的最少移动次数
+
+* 1209.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II
+
+* 1208.get-equal-substrings-within-budget 尽可能使字符串相等
+
+* 1207.unique-number-of-occurrences 独一无二的出现次数
+
+
+---
 ## 20191024
 * 1207.unique-number-of-occurrences 独一无二的出现次数
 

@@ -30,3 +30,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_145 	binary-tree-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_148 	sort-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_149 	max-points-on-a-line
+#define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
+#define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
+#define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1210 	minimum-moves-to-reach-target-with-rotations

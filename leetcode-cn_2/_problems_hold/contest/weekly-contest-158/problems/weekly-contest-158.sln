@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28306.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5222.split-a-string-in-balanced-strings", "5222.split-a-string-in-balanced-strings\5222.split-a-string-in-balanced-strings.vcxproj", "{F84253A5-92A5-497B-9864-CADA3BD682C5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5223.queens-that-can-attack-the-king", "5223.queens-that-can-attack-the-king\5223.queens-that-can-attack-the-king.vcxproj", "{35722EC7-0909-48D2-A599-D192F31F0D8F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5224.dice-roll-simulation", "5224.dice-roll-simulation\5224.dice-roll-simulation.vcxproj", "{E581A636-DCE3-4484-ABB6-531965462B04}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "5225.maximum-equal-frequency", "5225.maximum-equal-frequency\5225.maximum-equal-frequency.vcxproj", "{244C381F-FE06-4D3F-8FE1-B051727B659A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Debug|x64.ActiveCfg = Debug|x64
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Debug|x64.Build.0 = Debug|x64
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Debug|x86.ActiveCfg = Debug|Win32
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Debug|x86.Build.0 = Debug|Win32
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Release|x64.ActiveCfg = Release|x64
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Release|x64.Build.0 = Release|x64
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Release|x86.ActiveCfg = Release|Win32
+		{F84253A5-92A5-497B-9864-CADA3BD682C5}.Release|x86.Build.0 = Release|Win32
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Debug|x64.ActiveCfg = Debug|x64
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Debug|x64.Build.0 = Debug|x64
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Debug|x86.ActiveCfg = Debug|Win32
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Debug|x86.Build.0 = Debug|Win32
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Release|x64.ActiveCfg = Release|x64
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Release|x64.Build.0 = Release|x64
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Release|x86.ActiveCfg = Release|Win32
+		{35722EC7-0909-48D2-A599-D192F31F0D8F}.Release|x86.Build.0 = Release|Win32
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Debug|x64.ActiveCfg = Debug|x64
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Debug|x64.Build.0 = Debug|x64
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Debug|x86.ActiveCfg = Debug|Win32
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Debug|x86.Build.0 = Debug|Win32
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Release|x64.ActiveCfg = Release|x64
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Release|x64.Build.0 = Release|x64
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Release|x86.ActiveCfg = Release|Win32
+		{E581A636-DCE3-4484-ABB6-531965462B04}.Release|x86.Build.0 = Release|Win32
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Debug|x64.ActiveCfg = Debug|x64
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Debug|x64.Build.0 = Debug|x64
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Debug|x86.ActiveCfg = Debug|Win32
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Debug|x86.Build.0 = Debug|Win32
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Release|x64.ActiveCfg = Release|x64
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Release|x64.Build.0 = Release|x64
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Release|x86.ActiveCfg = Release|Win32
+		{244C381F-FE06-4D3F-8FE1-B051727B659A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {86276913-9E0D-46CB-B521-E2E9623A946D}
+	EndGlobalSection
+EndGlobal

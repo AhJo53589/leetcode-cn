@@ -1,28 +1,13 @@
 ﻿//////////////////////////////////////////////////////////////////////////
-vector<int> twoSum(vector<int> &nums, int target)
+int minimumMoves(vector<vector<int>>& grid) 
 {
-	map<int, int> sum;
-	vector<int> rst;
-	for (int i = 0; i < nums.size(); i++)
-	{
-		if (sum.find(target - nums[i]) != sum.end())
-		{
-			rst.push_back(sum[target - nums[i]]);
-			rst.push_back(i);
-			break;
-		}
-		else
-		{
-			sum[nums[i]] = i;
-		}
-	}
-	return rst;
+	return 0;
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<int> &nums, int target)
+int _solution_run(vector<vector<int>>& grid)
 {
-	return twoSum(nums, target);
+	return minimumMoves(grid);
 }
 
 #define USE_SOLUTION_CUSTOM
@@ -36,15 +21,7 @@ vector<int> _solution_custom(TestCases &tc)
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()
 {
-	return {
-		"[2,7,11,15]",
-		"9",
-		"[0,1]",
-
-		"[2,7,11,15]",
-		"18",
-		"[1,2]"
-	};
+	return {};
 }
 
 #define USE_GET_TEST_CASES_FILESTREAM
