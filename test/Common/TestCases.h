@@ -33,6 +33,13 @@ public:
 	}
 
 	template<>
+	std::string get<std::string>()
+	{
+		if (curr == file.size()) return {};
+		return popString();
+	}
+
+	template<>
 	std::vector<int> get<std::vector<int>>()
 	{
 		if (curr == file.size()) return {};

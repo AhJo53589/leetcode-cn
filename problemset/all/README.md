@@ -6,10 +6,16 @@
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
 | √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |  | 简单 |
+| √ | 2 | [add-two-numbers](../../problems/add-two-numbers) | [两数相加](../../problems/add-two-numbers/README.md) | [cpp](../../problems/add-two-numbers/SOLUTION.cpp) |   | 中等 | 
 | √ | 11 | [container-with-most-water](../../problems/container-with-most-water) | [盛最多水的容器](../../problems/container-with-most-water/README.md) | [cpp](../../problems/container-with-most-water/SOLUTION.cpp) |   | 中等 |
 | √ | 13 | [roman-to-integer](../../problems/roman-to-integer) | [罗马数字转整数](../../problems/roman-to-integer/README.md) | [cpp](../../problems/roman-to-integer/SOLUTION.cpp) |   | 简单 |
 | √ | 14 | [longest-common-prefix](../../problems/longest-common-prefix) | [最长公共前缀](../../problems/longest-common-prefix/README.md) | [cpp](../../problems/longest-common-prefix/SOLUTION.cpp) |   | 简单 |
 | √ | 15 | [3sum](../../problems/3sum) | [三数之和](../../problems/3sum/README.md) | [cpp](../../problems/3sum/SOLUTION.cpp) |   | 中等 |
+| √ | 16 | [3sum-closest](../../problems/3sum-closest) | [最接近的三数之和](../../problems/3sum-closest/README.md) | [cpp](../../problems/3sum-closest/SOLUTION.cpp) |   | 中等 | 
+| √ | 17 | [letter-combinations-of-a-phone-number](../../problems/letter-combinations-of-a-phone-number) | [电话号码的字母组合](../../problems/letter-combinations-of-a-phone-number/README.md) | [cpp](../../problems/letter-combinations-of-a-phone-number/SOLUTION.cpp) |   | 中等 | 
+| √ | 18 | [4sum](../../problems/4sum) | [四数之和](../../problems/4sum/README.md) | [cpp](../../problems/4sum/SOLUTION.cpp) |   | 中等 | 
+| √ | 19 | [remove-nth-node-from-end-of-list](../../problems/remove-nth-node-from-end-of-list) | [删除链表的倒数第N个节点](../../problems/remove-nth-node-from-end-of-list/README.md) | [cpp](../../problems/remove-nth-node-from-end-of-list/SOLUTION.cpp) |   | 中等 | 
+| √ | 20 | [valid-parentheses](../../problems/valid-parentheses) | [有效的括号](../../problems/valid-parentheses/README.md) | [cpp](../../problems/valid-parentheses/SOLUTION.cpp) |   | 简单 | 
 | √ | 101 | [symmetric-tree](../../problems/symmetric-tree) | [对称二叉树](../../problems/symmetric-tree/README.md) | [cpp](../../problems/symmetric-tree/SOLUTION.cpp) |  | 简单 |
 | √ | 102 | [binary-tree-level-order-traversal](../../problems/binary-tree-level-order-traversal) | [二叉树的层次遍历](../../problems/binary-tree-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-level-order-traversal/SOLUTION.cpp) |  | 中等 |
 | √ | 103 | [binary-tree-zigzag-level-order-traversal](../../problems/binary-tree-zigzag-level-order-traversal) | [二叉树的锯齿形层次遍历](../../problems/binary-tree-zigzag-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-zigzag-level-order-traversal/SOLUTION.cpp) |   | 中等 |
@@ -36,6 +42,26 @@
 | √ | 145 | [binary-tree-postorder-traversal](../../problems/binary-tree-postorder-traversal) | [二叉树的后序遍历](../../problems/binary-tree-postorder-traversal/README.md) | [cpp](../../problems/binary-tree-postorder-traversal/SOLUTION.cpp) |   | 困难 |
 | √ | 148 | [sort-list](../../problems/sort-list) | [排序链表](../../problems/sort-list/README.md) | [cpp](../../problems/sort-list/SOLUTION.cpp) |   | 中等 |
 | √ | 149 | [max-points-on-a-line](../../problems/max-points-on-a-line) | [直线上最多的点数](../../problems/max-points-on-a-line/README.md) | [cpp](../../problems/max-points-on-a-line/SOLUTION.cpp) |   | 困难 |
+| √ | 150 | [evaluate-reverse-polish-notation](../../problems/evaluate-reverse-polish-notation) | [逆波兰表达式求值](../../problems/evaluate-reverse-polish-notation/README.md) | [cpp](../../problems/evaluate-reverse-polish-notation/SOLUTION.cpp) |   | 中等 | 
+| √ | 151 | [reverse-words-in-a-string](../../problems/reverse-words-in-a-string) | [翻转字符串里的单词](../../problems/reverse-words-in-a-string/README.md) | [cpp](../../problems/reverse-words-in-a-string/SOLUTION.cpp) |   | 中等 | 
+| √ | 152 | [maximum-product-subarray](../../problems/maximum-product-subarray) | [乘积最大子序列](../../problems/maximum-product-subarray/README.md) | [cpp](../../problems/maximum-product-subarray/SOLUTION.cpp) |   | 中等 | 
+| √ | 153 | [find-minimum-in-rotated-sorted-array](../../problems/find-minimum-in-rotated-sorted-array) | [寻找旋转排序数组中的最小值](../../problems/find-minimum-in-rotated-sorted-array/README.md) | [cpp](../../problems/find-minimum-in-rotated-sorted-array/SOLUTION.cpp) |   | 中等 | 
+| √ | 154 | [find-minimum-in-rotated-sorted-array-ii](../../problems/find-minimum-in-rotated-sorted-array-ii) | [寻找旋转排序数组中的最小值](../../problems/find-minimum-in-rotated-sorted-array-ii/README.md) | [cpp](../../problems/find-minimum-in-rotated-sorted-array-ii/SOLUTION.cpp) |   | 困难 | 
+| √ | 162 | [find-peak-element](../../problems/find-peak-element) | [寻找峰值](../../problems/find-peak-element/README.md) | [cpp](../../problems/find-peak-element/SOLUTION.cpp) |   | 中等 | 
+| √ | 166 | [fraction-to-recurring-decimal](../../problems/fraction-to-recurring-decimal) | [分数到小数](../../problems/fraction-to-recurring-decimal/README.md) | [cpp](../../problems/fraction-to-recurring-decimal/SOLUTION.cpp) |   | 中等 | 
+| √ | 167 | [two-sum-ii-input-array-is-sorted](../../problems/two-sum-ii-input-array-is-sorted) | [两数之和](../../problems/two-sum-ii-input-array-is-sorted/README.md) | [cpp](../../problems/two-sum-ii-input-array-is-sorted/SOLUTION.cpp) |   | 简单 | 
+| √ | 169 | [majority-element](../../problems/majority-element) | [求众数](../../problems/majority-element/README.md) | [cpp](../../problems/majority-element/SOLUTION.cpp) |   | 简单 | 
+| √ | 171 | [excel-sheet-column-number](../../problems/excel-sheet-column-number) | [Excel表列序号](../../problems/excel-sheet-column-number/README.md) | [cpp](../../problems/excel-sheet-column-number/SOLUTION.cpp) |   | 简单 | 
+| √ | 172 | [factorial-trailing-zeroes](../../problems/factorial-trailing-zeroes) | [阶乘后的零](../../problems/factorial-trailing-zeroes/README.md) | [cpp](../../problems/factorial-trailing-zeroes/SOLUTION.cpp) |   | 简单 | 
+| √ | 179 | [largest-number](../../problems/largest-number) | [最大数](../../problems/largest-number/README.md) | [cpp](../../problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 | 
+| √ | 189 | [rotate-array](../../problems/rotate-array) | [旋转数组](../../problems/rotate-array/README.md) | [cpp](../../problems/rotate-array/SOLUTION.cpp) |   | 简单 | 
+| √ | 189 | [rotate-array](../../problems/rotate-array) | [旋转数组](../../problems/rotate-array/README.md) | [cpp](../../problems/rotate-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) | 简单 | 
+| √ | 190 | [reverse-bits](../../problems/reverse-bits) | [颠倒二进制位](../../problems/reverse-bits/README.md) | [cpp](../../problems/reverse-bits/SOLUTION.cpp) |   | 简单 | 
+| √ | 191 | [number-of-1-bits](../../problems/number-of-1-bits) | [位1的个数](../../problems/number-of-1-bits/README.md) | [cpp](../../problems/number-of-1-bits/SOLUTION.cpp) |   | 简单 | 
+| √ | 198 | [house-robber](../../problems/house-robber) | [打家劫舍](../../problems/house-robber/README.md) | [cpp](../../problems/house-robber/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) | 简单 | 
+| √ | 200 | [number-of-islands](../../problems/number-of-islands) | [岛屿数量](../../problems/number-of-islands/README.md) | [cpp](../../problems/number-of-islands/SOLUTION.cpp) |   | 中等 | 
+| √ | 202 | [happy-number](../../problems/happy-number) | [快乐数](../../problems/happy-number/README.md) | [cpp](../../problems/happy-number/SOLUTION.cpp) |   | 简单 | 
+| √ | 203 | [remove-linked-list-elements](../../problems/remove-linked-list-elements) | [移除链表元素](../../problems/remove-linked-list-elements/README.md) | [cpp](../../problems/remove-linked-list-elements/SOLUTION.cpp) |   | 简单 | 
 | √ | 1207 | [unique-number-of-occurrences](../../problems/unique-number-of-occurrences) | [独一无二的出现次数](../../problems/unique-number-of-occurrences/README.md) | [cpp](../../problems/unique-number-of-occurrences/SOLUTION.cpp) |   | 简单 |
 | √ | 1208 | [get-equal-substrings-within-budget](../../problems/get-equal-substrings-within-budget) | [尽可能使字符串相等](../../problems/get-equal-substrings-within-budget/README.md) | [cpp](../../problems/get-equal-substrings-within-budget/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) | 中等 |
 | √ | 1209 | [remove-all-adjacent-duplicates-in-string-ii](../../problems/remove-all-adjacent-duplicates-in-string-ii) | [删除字符串中的所有相邻重复项 II](../../problems/remove-all-adjacent-duplicates-in-string-ii/README.md) | [cpp](../../problems/remove-all-adjacent-duplicates-in-string-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) | 中等 |
@@ -52,8 +78,6 @@
 | √ | 1233 | [remove-sub-folders-from-the-filesystem](../../problems/remove-sub-folders-from-the-filesystem) | [删除子文件夹](../../problems/remove-sub-folders-from-the-filesystem/README.md) | [cpp](../../problems/remove-sub-folders-from-the-filesystem/SOLUTION.cpp) |   | 中等 |
 | √ | 1234 | [replace-the-substring-for-balanced-string](../../problems/replace-the-substring-for-balanced-string) | [替换子串得到平衡字符串](../../problems/replace-the-substring-for-balanced-string/README.md) | [cpp](../../problems/replace-the-substring-for-balanced-string/SOLUTION.cpp) |   | 中等 |
 |   | 1235 | [maximum-profit-in-job-scheduling](../../problems/maximum-profit-in-job-scheduling) | [规划兼职工作](../../problems/maximum-profit-in-job-scheduling/README.md) | [cpp](../../problems/maximum-profit-in-job-scheduling/SOLUTION.cpp) |   | 困难 |
-
-
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
