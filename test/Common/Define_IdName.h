@@ -1,4 +1,10 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_1 	guess-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_2 	deep-dark-fraction
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_3 	programmable-robot
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_4 	broken-board-dominoes
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus
+
 #define SOLUTION_CPP_FOLDER_NAME_ID_1	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
@@ -34,3 +40,15 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1210 	minimum-moves-to-reach-target-with-rotations
+#define SOLUTION_CPP_FOLDER_NAME_ID_1221 	split-a-string-in-balanced-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_1222 	queens-that-can-attack-the-king
+#define SOLUTION_CPP_FOLDER_NAME_ID_1223 	dice-roll-simulation
+#define SOLUTION_CPP_FOLDER_NAME_ID_1224 	maximum-equal-frequency
+#define SOLUTION_CPP_FOLDER_NAME_ID_1228 	missing-number-in-arithmetic-progression
+#define SOLUTION_CPP_FOLDER_NAME_ID_1229 	meeting-scheduler
+#define SOLUTION_CPP_FOLDER_NAME_ID_1230 	toss-strange-coins
+#define SOLUTION_CPP_FOLDER_NAME_ID_1231 	divide-chocolate
+#define SOLUTION_CPP_FOLDER_NAME_ID_1232 	check-if-it-is-a-straight-line
+#define SOLUTION_CPP_FOLDER_NAME_ID_1233 	remove-sub-folders-from-the-filesystem
+#define SOLUTION_CPP_FOLDER_NAME_ID_1234 	replace-the-substring-for-balanced-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_1235 	maximum-profit-in-job-scheduling

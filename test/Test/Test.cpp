@@ -39,6 +39,7 @@ using namespace std;
 // 选择测试代码
 
 // 1.选择使用（本路径的测试代码）
+//#include "SOLUTION.cpp"
 //#include "Test_1.cpp"
 //#include "Test_2.cpp"
 //#include "Test_3.cpp"
@@ -50,7 +51,7 @@ using namespace std;
 #define ADD_QUOTES(A) #A
 #define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
 #define SOLUTION_CPP_PATH_NAME(name) SOLUTION_CPP_PATH(name)
-#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_1210)
+#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_LCP_5)
 
 // 3.或者选择使用（题库中的题，根据名字加载）
 // SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字

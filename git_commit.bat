@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"new version" 
+git commit -m"contest" 
 git push 
