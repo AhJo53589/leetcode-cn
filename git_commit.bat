@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"update transfer weekly-156" 
+git commit -m"new version" 
 git push 
