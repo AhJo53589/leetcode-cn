@@ -11,14 +11,14 @@
 * 5230.check-if-it-is-a-straight-line 缀点成线
 * 5231.remove-sub-folders-from-the-filesystem 删除子文件夹
 * 5232.replace-the-substring-for-balanced-string 替换子串得到平衡字符串
-* （未完成）5233.maximum-profit-in-job-scheduling 规划兼职工作
+* 5233.maximum-profit-in-job-scheduling 规划兼职工作
 
 ---
 ## 20191019
 * 45.jump-game-ii 跳跃游戏 II
 * 5088.missing-number-in-arithmetic-progression 等差数列中缺失的数字
 * 5089.meeting-scheduler 安排会议日程
-* （未完成）5090.toss-strange-coins 抛掷硬币
+* 5090.toss-strange-coins 抛掷硬币
 * 5111.divide-chocolate 分享巧克力
 
 ---
@@ -26,8 +26,8 @@
 * 107.binary-tree-level-order-traversal-ii 二叉树的层次遍历 II
 * 5222.split-a-string-in-balanced-strings 分割平衡字符串
 * 5223.queens-that-can-attack-the-king 可以攻击国王的皇后
-* （未完成）5224.dice-roll-simulation 掷骰子模拟
-* （未完成）5225.maximum-equal-frequency 最大相等频率
+* 5224.dice-roll-simulation 掷骰子模拟
+* 5225.maximum-equal-frequency 最大相等频率
 
 ---
 ## 20191012
@@ -66,7 +66,7 @@
 * 5205.unique-number-of-occurrences 独一无二的出现次数
 * 5207.get-equal-substrings-within-budget 尽可能使字符串相等
 * 5206.remove-all-adjacent-duplicates-in-string-ii 删除字符串中的所有相邻重复项 II
-* （未完成）5208.minimum-moves-to-reach-target-with-rotations 穿过迷宫的最少移动次数
+* 5208.minimum-moves-to-reach-target-with-rotations 穿过迷宫的最少移动次数
 
 ---
 ## 20190928
@@ -85,8 +85,8 @@
 * 1.guess-numbers 猜数字
 * 2.deep-dark-fraction 分式化简
 * 3.programmable-robot 机器人大冒险
-* （未完成）4.broken-board-dominoes 覆盖
-* （未完成）5.coin-bonus 发 LeetCoin
+* 4.broken-board-dominoes 覆盖
+* 5.coin-bonus 发 LeetCoin
 
 ---
 ## 20190919
