@@ -15,6 +15,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_18 	4sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_19 	remove-nth-node-from-end-of-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_20 	valid-parentheses
+#define SOLUTION_CPP_FOLDER_NAME_ID_21 	merge-two-sorted-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
@@ -61,6 +62,12 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_200 	number-of-islands
 #define SOLUTION_CPP_FOLDER_NAME_ID_202 	happy-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_203 	remove-linked-list-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_204 	count-primes
+#define SOLUTION_CPP_FOLDER_NAME_ID_205 	isomorphic-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_206 	reverse-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_209 	minimum-size-subarray-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_213 	house-robber-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_215 	kth-largest-element-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
@@ -77,3 +84,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1233 	remove-sub-folders-from-the-filesystem
 #define SOLUTION_CPP_FOLDER_NAME_ID_1234 	replace-the-substring-for-balanced-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_1235 	maximum-profit-in-job-scheduling
+#define SOLUTION_CPP_FOLDER_NAME_ID_5238 	find-positive-integer-solution-for-a-given-equation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5239 	circular-permutation-in-binary-representation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5240 	maximum-length-of-a-concatenated-string-with-unique-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_5241 	tiling-a-rectangle-with-the-fewest-squares

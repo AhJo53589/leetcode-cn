@@ -1,4 +1,4 @@
-# `（简单）`  [206.ReverseList 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
+# `（简单）` [206.reverse-linked-list 反转链表](https://leetcode-cn.com/problems/reverse-linked-list/)
 
 ### 题目描述
 <p>反转一个单链表。</p>

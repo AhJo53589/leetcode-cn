@@ -1,18 +1,30 @@
 
+
+
 //////////////////////////////////////////////////////////////////////////
-int tilingRectangle(int n, int m)
+ListNode *reverseList(ListNode *pHead)
 {
-	return 0;
+	ListNode *pNode = pHead;
+	ListNode *pPrev = nullptr;
+
+	while (pNode != nullptr)
+	{
+		ListNode *pNext = pNode->next;
+		pNode->next = pPrev;
+		pPrev = pNode;
+		pNode = pNext;
+	}
+	return pPrev;
 }
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(int n, int m)
+ListNode* _solution_run(ListNode *pHead)
 {
-	return tilingRectangle(n, m);
+	return reverseList(pHead);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<vector<int>> _solution_custom(TestCases &tc)
+//ListNode _solution_custom(TestCases &tc)
 //{
 //}
 
@@ -25,6 +37,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "tests.txt";
+	return "../../problems/reverse-linked-list/tests.txt";
 }
 

@@ -1,4 +1,4 @@
-# `（简单）`  [204.CountPrimes 计数质数](https://leetcode-cn.com/problems/count-primes/)
+# `（简单）` [204.count-primes 计数质数](https://leetcode-cn.com/problems/count-primes/)
 
 ### 题目描述
 <p>统计所有小于非负整数&nbsp;<em>n&nbsp;</em>的质数的数量。</p>

@@ -4,6 +4,17 @@
 
 
 ---
+## 20191027
+* 5241.tiling-a-rectangle-with-the-fewest-squares 铺瓷砖
+
+* 5240.maximum-length-of-a-concatenated-string-with-unique-characters 串联字符串的最大长度
+
+* 5239.circular-permutation-in-binary-representation 循环码排列
+
+* 5238.find-positive-integer-solution-for-a-given-equation 找出给定方程的正整数解
+
+
+---
 
 
 ---
