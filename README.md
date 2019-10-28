@@ -28,11 +28,11 @@
 ## Contest
 | 日期       | 名称                                                      | 完成  | 排名       |
 | ---------- | --------------------------------------------------------- | ----- | ---------- |
-|  | [第 160 场周赛](./contest/weekly-contest-160/README.md) |  |  | 
 | 2019/9/29  | [第 156 场周赛](./contest/weekly-contest-156/README.md)   | 3 / 4 | 192 / 1432 |
 | 2019/10/13 | [第 158 场周赛](./contest/weekly-contest-158/README.md)   | 2 / 4 | 633 / 1715 |
 | 2019/10/19 | [第 11 场双周赛](./contest/biweekly-contest-11/README.md) | 2 / 4 | 302 / 912  |
 | 2019/10/20 | [第 159 场周赛](./contest/weekly-contest-159/README.md)   | 2 / 4 | 396 / 1633 |
+| 2019/10/27 | [第 160 场周赛](./contest/weekly-contest-160/README.md)   | 2 / 4 | 244 / 1691 | 
 
 
 ## Update
