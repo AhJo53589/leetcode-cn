@@ -1,0 +1,9 @@
+anagram
+nagaram
+true
+rat
+car
+false
+loveleetcode
+leetcodelove
+true

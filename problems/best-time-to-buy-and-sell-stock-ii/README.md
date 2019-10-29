@@ -1,4 +1,4 @@
-# `（简单）` [122.best-time-to-buy-and-sell-stock-ii 买卖股票的最佳时机](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
+# `（简单）` [122.best-time-to-buy-and-sell-stock-ii 买卖股票的最佳时机 II](https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/)
 
 ### 题目描述
 <p>给定一个数组，它的第&nbsp;<em>i</em> 个元素是一支给定股票第 <em>i</em> 天的价格。</p>

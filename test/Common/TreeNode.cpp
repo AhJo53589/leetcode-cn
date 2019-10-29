@@ -4,6 +4,7 @@
 //#include "pch.h"
 
 #include <iostream>
+#include <sstream>
 
 #include <math.h>
 #include <algorithm>
@@ -16,6 +17,54 @@
 #include "TreeNode.h"
 using namespace std;
 
+
+//TreeNode * StringToTreeNode(string data)
+//{
+//	if (data.empty()) return nullptr;
+//	if (data[0] == '[') data = data.substr(1, data.size() - 2);
+//
+//	stringstream ss(data);
+//	string word;
+//	char delim = ',';
+//	getline(ss, word, delim);
+//	if (word == "" || word == "null") return nullptr;
+//
+//	TreeNode *root = new TreeNode(stoi(word.c_str()));
+//	queue<TreeNode *> qTree;
+//	qTree.push(root);
+//
+//	while (!qTree.empty())
+//	{
+//		TreeNode *qHead = nullptr;
+//		while (qHead == nullptr)
+//		{
+//			if (qTree.empty()) return root;
+//			qHead = qTree.front();
+//			qTree.pop();
+//		}
+//
+//		auto f = [&qTree](string &s, TreeNode **p)
+//		{
+//			while (s.front() == ' ') s = s.substr(1, s.size() - 1);
+//			while (s.back() == ' ') s.pop_back();
+//			if (s == "null")
+//			{
+//				qTree.push(nullptr);
+//			}
+//			else
+//			{
+//				*p = new TreeNode(stoi(s.c_str()));
+//				qTree.push(*p);
+//			}
+//		};
+//
+//		if (!getline(ss, word, delim)) return root;
+//		f(word, &qHead->left);
+//
+//		if (!getline(ss, word, delim)) return root;
+//		f(word, &qHead->right);
+//	}
+//}
 
 TreeNode * StringToTreeNode(string data)
 {
