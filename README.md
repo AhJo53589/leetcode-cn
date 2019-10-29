@@ -14,13 +14,16 @@
 | √ | 220 | [contains-duplicate-iii](./problems/contains-duplicate-iii) | [存在重复元素 III](./problems/contains-duplicate-iii/README.md) | [cpp](./problems/contains-duplicate-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/contains-duplicate-iii/solution/220-by-ikaruga/) | 中等 | 
 | √ | 227 | [basic-calculator-ii](./problems/basic-calculator-ii) | [基本计算器 II](./problems/basic-calculator-ii/README.md) | [cpp](./problems/basic-calculator-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/basic-calculator-ii/solution/227-by-ikaruga/) | 中等 | 
 | √ | 239 | [sliding-window-maximum](./problems/sliding-window-maximum) | [滑动窗口最大值](./problems/sliding-window-maximum/README.md) | [cpp](./problems/sliding-window-maximum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/sliding-window-maximum/solution/239-by-ikaruga/) | 困难 | 
+| √ | 289 | [game-of-life](./problems/game-of-life) | [生命游戏](./problems/game-of-life/README.md) | [cpp](./problems/game-of-life/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/game-of-life/solution/289-by-ikaruga/) | 中等 | 
+| √ | 303 | [range-sum-query-immutable](./problems/range-sum-query-immutable) | [区域和检索 - 数组不可变](./problems/range-sum-query-immutable/README.md) | [cpp](./problems/range-sum-query-immutable/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/range-sum-query-immutable/solution/303-by-ikaruga/) | 简单 | 
+| √ | 315 | [count-of-smaller-numbers-after-self](./problems/count-of-smaller-numbers-after-self) | [计算右侧小于当前元素的个数](./problems/count-of-smaller-numbers-after-self/README.md) | [cpp](./problems/count-of-smaller-numbers-after-self/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-by-ikaruga/) | 困难 | 
 | √ | 1208 | [get-equal-substrings-within-budget](./problems/get-equal-substrings-within-budget) | [尽可能使字符串相等](./problems/get-equal-substrings-within-budget/README.md) | [cpp](./problems/get-equal-substrings-within-budget/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) | 中等 |
 | √ | 1209 | [remove-all-adjacent-duplicates-in-string-ii](./problems/remove-all-adjacent-duplicates-in-string-ii) | [删除字符串中的所有相邻重复项 II](./problems/remove-all-adjacent-duplicates-in-string-ii/README.md) | [cpp](./problems/remove-all-adjacent-duplicates-in-string-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) | 中等 |
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （118 / 1170）
+完成进度 （131 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season

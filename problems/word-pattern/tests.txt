@@ -1,0 +1,18 @@
+abba
+dog cat cat dog
+true
+abba
+dog cat cat fish
+false
+aaaa
+dog cat cat dog
+false
+abba
+dog dog dog dog
+false
+jquery
+jquery
+false
+aaa
+aa aa aa aa
+false

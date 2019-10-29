@@ -9,6 +9,7 @@
 #include <functional>
 
 #include <algorithm>
+#include <numeric>
 #include <array>
 #include <map>
 #include <unordered_map>
@@ -51,7 +52,7 @@ using namespace std;
 #define ADD_QUOTES(A) #A
 #define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
 #define SOLUTION_CPP_PATH_NAME(name) SOLUTION_CPP_PATH(name)
-#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_283)
+#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_303)
 
 // 3.或者选择使用（题库中的题，根据名字加载）
 // SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字
@@ -73,7 +74,6 @@ int main()
 	TestCases test_cases(_get_test_cases_string());
 #endif // USE_GET_TEST_CASES
 
-	using func_t = function_type<function<decltype(_solution_run)>>;
 	while (!test_cases.empty())
 	{
 		timer.start();
@@ -82,6 +82,7 @@ int main()
 		auto ans = _solution_custom(test_cases);
 		auto answer = test_cases.get<decltype(ans)>();
 #else
+		using func_t = function_type<function<decltype(_solution_run)>>;
 		func_t::return_type ans = func_t::call(_solution_run, test_cases);
 		func_t::return_type answer = test_cases.get<func_t::return_type>();
 #endif

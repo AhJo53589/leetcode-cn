@@ -6,6 +6,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus
 #define SOLUTION_CPP_FOLDER_NAME_ID_1	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
@@ -21,6 +22,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_26 	remove-duplicates-from-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_27 	remove-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_28 	implement-strstr
+#define SOLUTION_CPP_FOLDER_NAME_ID_29 	divide-two-integers
+#define SOLUTION_CPP_FOLDER_NAME_ID_31 	next-permutation
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
@@ -94,6 +97,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_278 	first-bad-version
 #define SOLUTION_CPP_FOLDER_NAME_ID_279 	perfect-squares
 #define SOLUTION_CPP_FOLDER_NAME_ID_283 	move-zeroes
+#define SOLUTION_CPP_FOLDER_NAME_ID_287 	find-the-duplicate-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_289 	game-of-life
+#define SOLUTION_CPP_FOLDER_NAME_ID_290 	word-pattern
+#define SOLUTION_CPP_FOLDER_NAME_ID_292 	nim-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_300 	longest-increasing-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_303 	range-sum-query-immutable
+#define SOLUTION_CPP_FOLDER_NAME_ID_315 	count-of-smaller-numbers-after-self
+#define SOLUTION_CPP_FOLDER_NAME_ID_322 	coin-change
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii

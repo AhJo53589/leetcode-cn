@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"5241.tiling-a-rectangle-with-the-fewest-squares" 
+git commit -m"303.range-sum-query-immutable" 
 git push 
