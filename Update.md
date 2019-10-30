@@ -4,6 +4,11 @@
 
 
 ---
+## 20191030
+* 304.range-sum-query-2d-immutable 二维区域和检索 - 矩阵不可变
+
+
+---
 ## 20191029
 * 303.range-sum-query-immutable 区域和检索 - 数组不可变
 

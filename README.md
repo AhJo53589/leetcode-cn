@@ -5,6 +5,7 @@
 ## Selected Solutions
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
+| √ | 33 | [search-in-rotated-sorted-array](./problems/search-in-rotated-sorted-array) | [搜索旋转排序数组](./problems/search-in-rotated-sorted-array/README.md) | [cpp](./problems/search-in-rotated-sorted-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) | 中等 | 
 | √ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
 | √ | 179 | [largest-number](./problems/largest-number) | [最大数](./problems/largest-number/README.md) | [cpp](./problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 | 
 | √ | 189 | [rotate-array](./problems/rotate-array) | [旋转数组](./problems/rotate-array/README.md) | [cpp](./problems/rotate-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) | 简单 | 
@@ -17,13 +18,15 @@
 | √ | 289 | [game-of-life](./problems/game-of-life) | [生命游戏](./problems/game-of-life/README.md) | [cpp](./problems/game-of-life/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/game-of-life/solution/289-by-ikaruga/) | 中等 | 
 | √ | 303 | [range-sum-query-immutable](./problems/range-sum-query-immutable) | [区域和检索 - 数组不可变](./problems/range-sum-query-immutable/README.md) | [cpp](./problems/range-sum-query-immutable/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/range-sum-query-immutable/solution/303-by-ikaruga/) | 简单 | 
 | √ | 315 | [count-of-smaller-numbers-after-self](./problems/count-of-smaller-numbers-after-self) | [计算右侧小于当前元素的个数](./problems/count-of-smaller-numbers-after-self/README.md) | [cpp](./problems/count-of-smaller-numbers-after-self/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-by-ikaruga/) | 困难 | 
+| √ | 337 | [house-robber-iii](./problems/house-robber-iii) | [打家劫舍 III](./problems/house-robber-iii/README.md) | [cpp](./problems/house-robber-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/) | 中等 | 
+| √ | 354 | [russian-doll-envelopes](./problems/russian-doll-envelopes) | [俄罗斯套娃信封问题](./problems/russian-doll-envelopes/README.md) | [cpp](./problems/russian-doll-envelopes/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/) | 困难 | 
 | √ | 1208 | [get-equal-substrings-within-budget](./problems/get-equal-substrings-within-budget) | [尽可能使字符串相等](./problems/get-equal-substrings-within-budget/README.md) | [cpp](./problems/get-equal-substrings-within-budget/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) | 中等 |
 | √ | 1209 | [remove-all-adjacent-duplicates-in-string-ii](./problems/remove-all-adjacent-duplicates-in-string-ii) | [删除字符串中的所有相邻重复项 II](./problems/remove-all-adjacent-duplicates-in-string-ii/README.md) | [cpp](./problems/remove-all-adjacent-duplicates-in-string-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) | 中等 |
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （131 / 1170）
+完成进度 （150 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season

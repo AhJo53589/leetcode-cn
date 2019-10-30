@@ -51,13 +51,12 @@ vector<char> StringToVectorChar(string str)
 	vector<char> chars;
 	if (str.size() < 3) return chars;
 	str = str.substr(1, str.size() - 2);
-	vector<string> vStr = split(str, ",");
 	for (auto c : str)
 	{
-		int i = 0;
-		while (c == ' ') i++;
-		while (c == ',') i++;
-		while (c == '\'') i++;
+		if (c == ' ') continue;
+		if (c == ',') continue;
+		if (c == '\"') continue;
+		if (c == '\'') continue;
 		chars.push_back(c);
 	}
 	return chars;

@@ -1,0 +1,8 @@
+27
+true
+0
+false
+9
+true
+45
+false

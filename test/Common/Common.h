@@ -90,6 +90,13 @@ inline string checkAnswer(const vector<vector<int>> a, const vector<vector<int>>
 }
 
 template<>
+inline string checkAnswer(const vector<char> a, const vector<char> b)
+{
+	string check = (a == b) ? "" : "\t\t\t WRONG!";
+	return "Result = \n" + VectorCharToString(a) + "\n" + VectorCharToString(b) + "\n" + check;
+}
+
+template<>
 inline string checkAnswer(const vector<vector<char>> a, const vector<vector<char>> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
