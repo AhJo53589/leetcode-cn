@@ -24,7 +24,7 @@
 * `test/Test` 测试工程，通过使用`Define_IdName.h`的宏定义，可以include不同的cpp和tests.txt来调试
   
 * `README.md` 主页面md文件，使用**工具生成**
-* `Solutions.md` 题解列表的md文件，使用**工具生成**
+* `Solutions.md` 题解列表的md文件，包含所有发布过题解的题目，使用**工具生成**
 * `Thanks.md` 致谢的md文件，手动生成
 * `Update.md` 更新列表的md文件，使用**工具生成**
 
@@ -72,7 +72,7 @@
    1. 答题的代码
    2. 其它的代码，注释
    3. 使用模板自动填写参数的转接调用`_solution_run()`
-4. 单独填写参数的转接调用`_solution_custom()`
+   4. 单独填写参数的转接调用`_solution_custom()`
    5. 选择使用代码中的字符串测试用例`_get_test_cases_string()`
    6. 选择使用文件测试用例`_get_test_cases_filestream()`
    
@@ -116,7 +116,7 @@
 
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
-| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |  | 简单 | 
+| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |  | 简单 |
 
 2. 竞赛信息表格
 
@@ -155,28 +155,29 @@
    ```
 
 3. 测试用例(`tests.txt`)文件，和测试代码在同一个文件夹下  
-   注释掉宏定义之后可以不使用文件而在代码中添加测试用例
+   注释掉宏定义之后可以不使用代码中的测试用例而是用测试用例文件
+   
    ```C++
    vector<string> _get_test_cases_string()
    {
       return {
          "[2,7,11,15]",
          "9",
-         "[0,1]",
-
+      "[0,1]",
+   
          "[2,7,11,15]",
          "18",
          "[1,2]"
       };
-   }
-
+}
+   
    //#define USE_GET_TEST_CASES_FILESTREAM
    //string _get_test_cases_filestream()
    //{
    //	return "tests_1.txt";
    //}
-   ```
-
+```
+   
 4. 测试程序（`test/Test/Test.cpp`）文件  
    通过修改`#include`相关的宏，加载不同的测试代码，然后运行调试
    ```C++
