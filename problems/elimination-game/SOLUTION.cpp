@@ -24,21 +24,21 @@ int lastRemaining(int n)
 //{
 //	if (n == 0) return 0;
 //
-//	int first = 1;							//µÚÒ»¸öÊı
-//	int factor = 1;							//¹«²î
-//	bool isLeft = true;						//·½Ïò
-//	bool isEven = ((n & 1) == 0);			//³¤¶ÈÊÇ·ñÎªÅ¼Êı
+//	int first = 1;							//ç¬¬ä¸€ä¸ªæ•°
+//	int factor = 1;							//å…¬å·®
+//	bool isLeft = true;						//æ–¹å‘
+//	bool isEven = ((n & 1) == 0);			//é•¿åº¦æ˜¯å¦ä¸ºå¶æ•°
 //
 //	while (n != 1)
 //	{
-//		if (isLeft || !isEven)				//Èô´Ó×óÏòÓÒ»òÕß´ÓÓÒÏò×óÊ±ÎªÆæÊı£¬µÚÒ»¸öÊı±äÎªÔ­À´µÄµÚ¶ş¸ö
+//		if (isLeft || !isEven)				//è‹¥ä»å·¦å‘å³æˆ–è€…ä»å³å‘å·¦æ—¶ä¸ºå¥‡æ•°ï¼Œç¬¬ä¸€ä¸ªæ•°å˜ä¸ºåŸæ¥çš„ç¬¬äºŒä¸ª
 //		{
 //			first += factor;
 //		}
-//		isLeft = !isLeft;					//¸Ä±ä·½Ïò
-//		n >>= 1;							//³¤¶È¼õ°ë
-//		factor <<= 1;						//¹«²î·­±¶
-//		isEven = ((n & 1) == 0);			//ÅĞ¶ÏÆæÅ¼
+//		isLeft = !isLeft;					//æ”¹å˜æ–¹å‘
+//		n >>= 1;							//é•¿åº¦å‡åŠ
+//		factor <<= 1;						//å…¬å·®ç¿»å€
+//		isEven = ((n & 1) == 0);			//åˆ¤æ–­å¥‡å¶
 //	}
 //	return first;
 //}
@@ -63,6 +63,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "tests.txt";
+	return "../../problems/elimination-game/tests.txt";
 }
 

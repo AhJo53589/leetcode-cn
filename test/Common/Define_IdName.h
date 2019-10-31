@@ -7,6 +7,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_4 	median-of-two-sorted-arrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
@@ -28,6 +29,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_34 	find-first-and-last-position-of-element-in-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_35 	search-insert-position
 #define SOLUTION_CPP_FOLDER_NAME_ID_36 	valid-sudoku
+#define SOLUTION_CPP_FOLDER_NAME_ID_38 	count-and-say
+#define SOLUTION_CPP_FOLDER_NAME_ID_41 	first-missing-positive
+#define SOLUTION_CPP_FOLDER_NAME_ID_42 	trapping-rain-water
+#define SOLUTION_CPP_FOLDER_NAME_ID_43 	multiply-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_45 	jump-game-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
@@ -124,6 +130,17 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_367 	valid-perfect-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower
+#define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_387 	first-unique-character-in-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_390 	elimination-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_393 	utf-8-validation
+#define SOLUTION_CPP_FOLDER_NAME_ID_394 	decode-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
+#define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii

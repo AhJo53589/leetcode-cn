@@ -4,6 +4,13 @@
 
 
 ---
+## 20191031
+* 390.elimination-game 消除游戏
+
+* 378.kth-smallest-element-in-a-sorted-matrix 有序矩阵中第K小的元素
+
+
+---
 ## 20191030
 * 304.range-sum-query-2d-immutable 二维区域和检索 - 矩阵不可变
 

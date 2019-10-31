@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"304.range-sum-query-2d-immutable" 
+git commit -m"390.elimination-game" 
 git push 

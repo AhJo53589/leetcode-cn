@@ -1,0 +1,12 @@
+aaabb
+3
+3
+ababbc
+2
+5
+aaabbdccccb
+3
+4
+cababbc
+2
+7
