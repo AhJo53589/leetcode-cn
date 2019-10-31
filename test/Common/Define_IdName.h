@@ -91,6 +91,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_219 	contains-duplicate-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_220 	contains-duplicate-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_221 	maximal-square
+#define SOLUTION_CPP_FOLDER_NAME_ID_222 	count-complete-tree-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_226 	invert-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_227 	basic-calculator-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_230 	kth-smallest-element-in-a-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_231 	power-of-two

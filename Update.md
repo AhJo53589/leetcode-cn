@@ -5,6 +5,10 @@
 
 ---
 ## 20191031
+* 222.count-complete-tree-nodes 完全二叉树的节点个数
+
+* 226.invert-binary-tree 翻转二叉树
+
 * 390.elimination-game 消除游戏
 
 * 378.kth-smallest-element-in-a-sorted-matrix 有序矩阵中第K小的元素
