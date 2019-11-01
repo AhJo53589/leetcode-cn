@@ -144,6 +144,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
+#define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii

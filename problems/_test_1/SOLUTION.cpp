@@ -1,35 +1,32 @@
 
-void swapStr(string &s, size_t bg, size_t ed)
+
+
+//////////////////////////////////////////////////////////////////////////
+int getMoneyAmount(int n) 
 {
-    if (bg >= s.size()) return;
-    if (ed >= s.size()) 
-    {
-        ed = s.size() - 1;
-    }
-    while (bg < ed)
-    {
-        swap(s[bg++], s[ed--]);
-    }
+	if (n == 1) return 0;
+	if (n == 2) return 1;
+	//if (n == 3) return 2;
+	//if (n == 4) return 4;
+	//if (n == 5) return 6;
+
+	int start = (n & 1) ? 2 : 1;
+	int end = n - 1;
+	int fac = 2;
+	int cnt = (end - start) / fac + 1;
+	int sum = (start + end) * cnt / 2;
+
+	return (start + end) * cnt / 2;
 }
 
 //////////////////////////////////////////////////////////////////////////
-string reverseStr(string s, int k)
+int _solution_run(int n)
 {
-    for (int i = 0; i < s.size(); i += k * 2)
-    {
-        swapStr(s, i, i + k - 1);
-    }
-    return s;
-}
-
-//////////////////////////////////////////////////////////////////////////
-string _solution_run(string s, int k)
-{
-	return reverseStr(s,k);
+	return getMoneyAmount(n);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//string _solution_custom(TestCases &tc)
+//int _solution_custom(TestCases &tc)
 //{
 //}
 
