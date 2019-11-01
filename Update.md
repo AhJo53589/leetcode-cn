@@ -4,6 +4,17 @@
 
 
 ---
+## 20191101
+* 1220.count-vowels-permutation 统计元音字母序列的数目
+
+* 1219.path-with-maximum-gold 黄金矿工
+
+* 1218.longest-arithmetic-subsequence-of-given-difference 最长定差子序列
+
+* 1217.play-with-chips 玩筹码
+
+
+---
 ## 20191031
 * 222.count-complete-tree-nodes 完全二叉树的节点个数
 

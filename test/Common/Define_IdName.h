@@ -4,6 +4,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_3 	programmable-robot
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_4 	broken-board-dominoes
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus
+#define SOLUTION_CPP_FOLDER_NAME_ID_TEST_0	_test_0
 #define SOLUTION_CPP_FOLDER_NAME_ID_1	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
@@ -147,6 +148,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1210 	minimum-moves-to-reach-target-with-rotations
+#define SOLUTION_CPP_FOLDER_NAME_ID_1217 	play-with-chips
+#define SOLUTION_CPP_FOLDER_NAME_ID_1218 	longest-arithmetic-subsequence-of-given-difference
+#define SOLUTION_CPP_FOLDER_NAME_ID_1219 	path-with-maximum-gold
+#define SOLUTION_CPP_FOLDER_NAME_ID_1220 	count-vowels-permutation
 #define SOLUTION_CPP_FOLDER_NAME_ID_1221 	split-a-string-in-balanced-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1222 	queens-that-can-attack-the-king
 #define SOLUTION_CPP_FOLDER_NAME_ID_1223 	dice-roll-simulation

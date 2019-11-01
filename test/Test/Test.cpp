@@ -41,18 +41,13 @@ using namespace std;
 
 // 1.选择使用（本路径的测试代码）
 //#include "SOLUTION.cpp"
-//#include "Test_1.cpp"
-//#include "Test_2.cpp"
-//#include "Test_3.cpp"
-//#include "Test_4.cpp"
-//#include "Test_5.cpp"
 
 // 2.或者选择使用（题库中的题，根据编号加载，使用Define_IdName.h中定义的宏）
 // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> 最后的数值是题目编号
 #define ADD_QUOTES(A) #A
 #define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
 #define SOLUTION_CPP_PATH_NAME(name) SOLUTION_CPP_PATH(name)
-#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_222)
+#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_TEST_0)
 
 // 3.或者选择使用（题库中的题，根据名字加载）
 // SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字
