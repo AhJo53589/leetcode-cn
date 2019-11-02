@@ -3,13 +3,13 @@
 [contest](https://leetcode-cn.com/contest/biweekly-contest-12/problems/design-a-leaderboard/)
 
 ### 题目描述
+
 <p>新一轮的「力扣杯」编程大赛即将启动，为了动态显示参赛者的得分数据，需要设计一个排行榜 Leaderboard。</p>
 
 <p>请你帮忙来设计这个&nbsp;<code>Leaderboard</code> 类，使得它有如下&nbsp;3 个函数：</p>
 
 <ol>
 	<li><code>addScore(playerId, score)</code>：
-
 	<ul>
 		<li>假如参赛者已经在排行榜上，就给他的当前得分增加&nbsp;<code>score</code>&nbsp;点分值并更新排行。</li>
 		<li>假如该参赛者不在排行榜上，就把他添加到榜单上，并且将分数设置为&nbsp;<code>score</code>。</li>
