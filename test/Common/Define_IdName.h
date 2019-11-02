@@ -166,6 +166,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1233 	remove-sub-folders-from-the-filesystem
 #define SOLUTION_CPP_FOLDER_NAME_ID_1234 	replace-the-substring-for-balanced-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_1235 	maximum-profit-in-job-scheduling
+#define SOLUTION_CPP_FOLDER_NAME_ID_5096 	array-transformation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5097 	design-a-leaderboard
+#define SOLUTION_CPP_FOLDER_NAME_ID_5098 	tree-diameter
+#define SOLUTION_CPP_FOLDER_NAME_ID_5115 	palindrome-removal
 #define SOLUTION_CPP_FOLDER_NAME_ID_5238 	find-positive-integer-solution-for-a-given-equation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5239 	circular-permutation-in-binary-representation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5240 	maximum-length-of-a-concatenated-string-with-unique-characters
