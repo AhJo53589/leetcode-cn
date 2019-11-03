@@ -5,6 +5,14 @@
 
 ---
 ## 20191103
+* 5250.check-if-it-is-a-good-array 检查「好数组」
+
+* 5249.minimum-remove-to-make-valid-parentheses 移除无效的括号
+
+* 5248.count-number-of-nice-subarrays 统计「优美子数组」
+
+* 5247.minimum-swaps-to-make-strings-equal 交换字符使得字符串相同
+
 * 5115.palindrome-removal 删除回文子数组
 
 * 5098.tree-diameter 树的直径

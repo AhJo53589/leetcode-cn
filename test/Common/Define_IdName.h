@@ -174,3 +174,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5239 	circular-permutation-in-binary-representation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5240 	maximum-length-of-a-concatenated-string-with-unique-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_5241 	tiling-a-rectangle-with-the-fewest-squares
+#define SOLUTION_CPP_FOLDER_NAME_ID_5247 	minimum-swaps-to-make-strings-equal
+#define SOLUTION_CPP_FOLDER_NAME_ID_5248 	count-number-of-nice-subarrays
+#define SOLUTION_CPP_FOLDER_NAME_ID_5249 	minimum-remove-to-make-valid-parentheses
+#define SOLUTION_CPP_FOLDER_NAME_ID_5250 	check-if-it-is-a-good-array

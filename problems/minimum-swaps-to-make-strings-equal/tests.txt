@@ -1,0 +1,12 @@
+xx
+yy
+1
+xy
+yx
+2
+xx
+xy
+-1
+xxyyxyxyxx
+xyyxyxxxyx
+4

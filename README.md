@@ -45,6 +45,7 @@
 | 2019/10/20 | [第 159 场周赛](./contest/weekly-contest-159/README.md)   | 2 / 4 | 396 / 1633 |
 | 2019/10/27 | [第 160 场周赛](./contest/weekly-contest-160/README.md)   | 2 / 4 | 244 / 1691 |
 | 2019/11/2  | [第 12 场双周赛](./contest/biweekly-contest-12/README.md) | 2 / 4 | 288 / 911  | 
+| 2019/11/3  | [第 161 场周赛](./contest/weekly-contest-161/README.md)   | 2 / 4 | 446 / 1609 | 
 
 
 ## Update
