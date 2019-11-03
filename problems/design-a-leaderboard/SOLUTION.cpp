@@ -1,69 +1,108 @@
-
-
-
 //////////////////////////////////////////////////////////////////////////
-class Leaderboard 
+class Leaderboard
 {
 public:
 	Leaderboard()
 	{
-
+		memset(a, 0, sizeof(a));
+		s.clear();
 	}
 
 	void addScore(int playerId, int score)
 	{
-		if (lb_id.count(playerId) == 0)
+		if (a[playerId] != 0)
 		{
-			lb_score.push_back({ playerId, score });
-			lb_id[playerId] = lb_score.size() - 1;
+			s.erase(s.find(-a[playerId]));
 		}
-		else
-		{
-			lb_score[lb_id[playerId]].second += score;
-		}
-
-		while (true)
-		{
-			size_t i = lb_id[playerId];
-			if (i == 0) break;
-
-			if (lb_score[i].second > lb_score[i - 1].second)
-			{
-				swap(lb_id[playerId], lb_id[lb_score[i - 1].first]);
-				swap(lb_score[i], lb_score[i - 1]);
-			}
-			else
-			{
-				break;
-			}
-		}
+		a[playerId] += score;
+		s.insert(-a[playerId]);
 	}
 
 	int top(int K) 
 	{
-		int sum = 0;
-		for (int i = 0; i < K; i++)
+		int ans = 0;
+		for (auto it = s.begin(); K--; it++)
 		{
-			sum += lb_score[i].second;
+			ans += *it;
 		}
-		return sum;
+		return -ans;
 	}
 
-	void reset(int playerId)
+	void reset(int playerId) 
 	{
-		for (size_t i = lb_id[playerId] + 1; i < lb_score.size(); i++)
-		{
-			lb_id[lb_score[i].first]--;
-		}
-		auto del = lb_score.begin() + lb_id[playerId];
-		lb_score.erase(del);
-		lb_id.erase(playerId);
+		s.erase(s.find(-a[playerId]));
+		a[playerId] = 0;
 	}
 
 private:
-	vector<pair<int, int>> lb_score;
-	unordered_map<int, size_t> lb_id;
+	multiset<int> s;
+	int a[10001];
 };
+
+
+//////////////////////////////////////////////////////////////////////////
+//class Leaderboard 
+//{
+//public:
+//	Leaderboard()
+//	{
+//
+//	}
+//
+//	void addScore(int playerId, int score)
+//	{
+//		if (lb_id.count(playerId) == 0)
+//		{
+//			lb_score.push_back({ playerId, score });
+//			lb_id[playerId] = lb_score.size() - 1;
+//		}
+//		else
+//		{
+//			lb_score[lb_id[playerId]].second += score;
+//		}
+//
+//		while (true)
+//		{
+//			size_t i = lb_id[playerId];
+//			if (i == 0) break;
+//
+//			if (lb_score[i].second > lb_score[i - 1].second)
+//			{
+//				swap(lb_id[playerId], lb_id[lb_score[i - 1].first]);
+//				swap(lb_score[i], lb_score[i - 1]);
+//			}
+//			else
+//			{
+//				break;
+//			}
+//		}
+//	}
+//
+//	int top(int K) 
+//	{
+//		int sum = 0;
+//		for (int i = 0; i < K; i++)
+//		{
+//			sum += lb_score[i].second;
+//		}
+//		return sum;
+//	}
+//
+//	void reset(int playerId)
+//	{
+//		for (size_t i = lb_id[playerId] + 1; i < lb_score.size(); i++)
+//		{
+//			lb_id[lb_score[i].first]--;
+//		}
+//		auto del = lb_score.begin() + lb_id[playerId];
+//		lb_score.erase(del);
+//		lb_id.erase(playerId);
+//	}
+//
+//private:
+//	vector<pair<int, int>> lb_score;
+//	unordered_map<int, size_t> lb_id;
+//};
 
 /**
  * Your Leaderboard object will be instantiated and called as such:
