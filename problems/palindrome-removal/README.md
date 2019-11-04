@@ -1,4 +1,4 @@
-# `（困难）` [5115.palindrome-removal 删除回文子数组](https://leetcode-cn.com/problems/palindrome-removal/)
+# `（困难）` [1246.palindrome-removal 删除回文子数组](https://leetcode-cn.com/problems/palindrome-removal/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-12/problems/palindrome-removal/)
 

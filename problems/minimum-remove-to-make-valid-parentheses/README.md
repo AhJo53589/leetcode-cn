@@ -1,4 +1,4 @@
-# `（中等）` [5249.minimum-remove-to-make-valid-parentheses 移除无效的括号](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/)
+# `（中等）` [1249.minimum-remove-to-make-valid-parentheses 移除无效的括号](https://leetcode-cn.com/problems/minimum-remove-to-make-valid-parentheses/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-161/problems/minimum-remove-to-make-valid-parentheses/)
 

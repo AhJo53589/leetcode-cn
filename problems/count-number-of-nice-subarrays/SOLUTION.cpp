@@ -1,40 +1,56 @@
-
-
+//////////////////////////////////////////////////////////////////////////
+//int numberOfSubarrays(vector<int>& nums, int k)
+//{
+//	int ans = 0;
+//	int cnt = 0;
+//	int a = 1;
+//	int b = 1;
+//
+//	int i = 0;
+//	for (int j = 0; j < nums.size(); j++)
+//	{
+//		cnt += (nums[j] & 1);
+//		b += (!(nums[j] & 1) && (cnt == k));
+//
+//		if (cnt > k)
+//		{
+//			while (!(nums[i++] & 1)) a++;
+//			ans += a * b;
+//			a = 1;
+//			b = 1;
+//			cnt--;
+//		}
+//	}
+//	if (cnt < k) return 0;
+//
+//	while (!(nums[i++] & 1)) a++;
+//	ans += a * b;
+//	return ans;
+//}
 
 //////////////////////////////////////////////////////////////////////////
 int numberOfSubarrays(vector<int>& nums, int k)
 {
+	vector<int> odd;
+	odd.push_back(-1);
+
 	int ans = 0;
-	int cnt = 0;
-	int a = 1;
-	int b = 1;
-
-	int i = 0;
-	for (int j = i; j < nums.size(); j++)
+	int i = 1;
+	for (int j = 0; j <= nums.size(); j++)
 	{
-		if (nums[j] & 1)
+		if (j == nums.size() || (nums[j] & 1))
 		{
-			cnt++;
-		}
-		else if (cnt == k)
-		{
-			b++;
+			odd.push_back(j);
 		}
 
-		if (cnt > k)
+		if (odd.size() - i > k)
 		{
-			while (!(nums[i++] & 1)) a++;
-			cnt--;
+			int a = odd[i] - odd[i - 1];
+			int b = j - odd[odd.size() - 2];
 			ans += a * b;
-			a = 1;
-			b = 1;
+			i++;
 		}
 	}
-
-	if (cnt < k) return 0;
-
-	while (!(nums[i++] & 1)) a++;
-	ans += a * b;
 	return ans;
 }
 

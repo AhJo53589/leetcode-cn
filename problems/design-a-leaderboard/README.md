@@ -1,4 +1,4 @@
-# `（中等）` [5097.design-a-leaderboard 力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/)
+# `（中等）` [1244.design-a-leaderboard 力扣排行榜](https://leetcode-cn.com/problems/design-a-leaderboard/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-12/problems/design-a-leaderboard/)
 

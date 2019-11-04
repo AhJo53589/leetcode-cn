@@ -1,4 +1,4 @@
-# `（简单）` [5096.array-transformation 数组变换](https://leetcode-cn.com/problems/array-transformation/)
+# `（简单）` [1243.array-transformation 数组变换](https://leetcode-cn.com/problems/array-transformation/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-12/problems/array-transformation/)
 

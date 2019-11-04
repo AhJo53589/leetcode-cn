@@ -1,4 +1,4 @@
-# `（简单）` [5247.minimum-swaps-to-make-strings-equal 交换字符使得字符串相同](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/)
+# `（简单）` [1247.minimum-swaps-to-make-strings-equal 交换字符使得字符串相同](https://leetcode-cn.com/problems/minimum-swaps-to-make-strings-equal/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-161/problems/minimum-swaps-to-make-strings-equal/)
 

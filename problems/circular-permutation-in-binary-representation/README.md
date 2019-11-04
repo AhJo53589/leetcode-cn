@@ -1,4 +1,4 @@
-# `（中等）` [5239.circular-permutation-in-binary-representation 循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/)
+# `（中等）` [1238.circular-permutation-in-binary-representation 循环码排列](https://leetcode-cn.com/problems/circular-permutation-in-binary-representation/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-160/problems/circular-permutation-in-binary-representation/)
 

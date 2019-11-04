@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"5250.check-if-it-is-a-good-array" 
+git commit -m"1248.count-number-of-nice-subarrays" 
 git push 

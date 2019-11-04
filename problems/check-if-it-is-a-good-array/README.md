@@ -1,4 +1,4 @@
-# `（困难）` [5250.check-if-it-is-a-good-array 检查「好数组」](https://leetcode-cn.com/problems/check-if-it-is-a-good-array/)
+# `（困难）` [1250.check-if-it-is-a-good-array 检查「好数组」](https://leetcode-cn.com/problems/check-if-it-is-a-good-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-161/problems/check-if-it-is-a-good-array/)
 

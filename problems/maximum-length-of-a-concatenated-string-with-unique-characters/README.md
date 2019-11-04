@@ -1,4 +1,4 @@
-# `（中等）` [5240.maximum-length-of-a-concatenated-string-with-unique-characters 串联字符串的最大长度](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
+# `（中等）` [1239.maximum-length-of-a-concatenated-string-with-unique-characters 串联字符串的最大长度](https://leetcode-cn.com/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-160/problems/maximum-length-of-a-concatenated-string-with-unique-characters/)
 

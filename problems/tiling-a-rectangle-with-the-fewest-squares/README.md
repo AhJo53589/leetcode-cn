@@ -1,4 +1,4 @@
-# `（困难）` [5241.tiling-a-rectangle-with-the-fewest-squares 铺瓷砖](https://leetcode-cn.com/problems/tiling-a-rectangle-with-the-fewest-squares/)
+# `（困难）` [1240.tiling-a-rectangle-with-the-fewest-squares 铺瓷砖](https://leetcode-cn.com/problems/tiling-a-rectangle-with-the-fewest-squares/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-160/problems/tiling-a-rectangle-with-the-fewest-squares/)
 

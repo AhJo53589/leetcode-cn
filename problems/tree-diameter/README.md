@@ -1,4 +1,4 @@
-# `（中等）` [5098.tree-diameter 树的直径](https://leetcode-cn.com/problems/tree-diameter/)
+# `（中等）` [1245.tree-diameter 树的直径](https://leetcode-cn.com/problems/tree-diameter/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-12/problems/tree-diameter/)
 

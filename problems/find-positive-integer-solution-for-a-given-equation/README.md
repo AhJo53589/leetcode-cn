@@ -1,4 +1,4 @@
-# `（简单）` [5238.find-positive-integer-solution-for-a-given-equation 找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)
+# `（简单）` [1237.find-positive-integer-solution-for-a-given-equation 找出给定方程的正整数解](https://leetcode-cn.com/problems/find-positive-integer-solution-for-a-given-equation/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-160/problems/find-positive-integer-solution-for-a-given-equation/)
 
