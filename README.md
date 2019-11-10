@@ -23,7 +23,7 @@
 |  | 337 | [house-robber-iii](./problems/house-robber-iii) | [打家劫舍 III](./problems/house-robber-iii/README.md) | [cpp](./problems/house-robber-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/) | 中等 |
 |  | 354 | [russian-doll-envelopes](./problems/russian-doll-envelopes) | [俄罗斯套娃信封问题](./problems/russian-doll-envelopes/README.md) | [cpp](./problems/russian-doll-envelopes/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/) | 困难 |
 |  | 410 | [split-array-largest-sum](./problems/split-array-largest-sum) | [分割数组的最大值](./problems/split-array-largest-sum/README.md) | [cpp](./problems/split-array-largest-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) | 困难 |
-| √ | 1248 | [count-number-of-nice-subarrays](../../problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](../../problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
+| ☆ | 1248 | [count-number-of-nice-subarrays](../../problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](../../problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
 
 [查看全部](./Solutions.md)
 
