@@ -64,7 +64,7 @@
 ### 思路
 ```
 ```
-
+[发布的题解](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)
 
 
 ### 答题

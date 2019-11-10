@@ -57,7 +57,7 @@
 ### 思路
 ```
 ```
-
+[发布的题解](https://leetcode-cn.com/problems/number-of-closed-islands/solution/5257-by-ikaruga/)
 
 
 ### 答题

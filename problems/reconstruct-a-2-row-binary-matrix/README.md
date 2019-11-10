@@ -55,7 +55,7 @@
 ### 思路
 ```
 ```
-
+[发布的题解](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/solution/5256-by-ikaruga/)
 
 
 ### 答题
