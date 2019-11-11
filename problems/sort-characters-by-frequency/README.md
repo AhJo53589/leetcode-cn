@@ -1,4 +1,4 @@
-# `（中等）`  [451.sort-characters-by-frequency 根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
+# `（中等）` [451.sort-characters-by-frequency 根据字符出现频率排序](https://leetcode-cn.com/problems/sort-characters-by-frequency/)
 
 ### 题目描述
 <p>给定一个字符串，请将字符串里的字符按照出现的频率降序排列。</p>

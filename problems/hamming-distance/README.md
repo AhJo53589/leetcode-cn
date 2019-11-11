@@ -1,4 +1,4 @@
-# `（简单）`  [461.hamming-distance 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
+# `（简单）` [461.hamming-distance 汉明距离](https://leetcode-cn.com/problems/hamming-distance/)
 
 ### 题目描述
 <p>两个整数之间的<a href="https://baike.baidu.com/item/%E6%B1%89%E6%98%8E%E8%B7%9D%E7%A6%BB">汉明距离</a>指的是这两个数字对应二进制位不同的位置的数目。</p>

@@ -1,4 +1,4 @@
-# `（简单）`  [48.Rotate 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
+# `（简单）` [48.rotate-image 旋转图像](https://leetcode-cn.com/problems/rotate-image/)
 
 ### 题目描述
 <p>给定一个 <em>n&nbsp;</em>×&nbsp;<em>n</em> 的二维矩阵表示一个图像。</p>

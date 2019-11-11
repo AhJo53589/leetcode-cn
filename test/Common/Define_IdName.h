@@ -35,6 +35,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_42 	trapping-rain-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_43 	multiply-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_45 	jump-game-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_46 	permutations
+#define SOLUTION_CPP_FOLDER_NAME_ID_48 	rotate-image
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
@@ -144,6 +146,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
+#define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst
+#define SOLUTION_CPP_FOLDER_NAME_ID_451 	sort-characters-by-frequency
+#define SOLUTION_CPP_FOLDER_NAME_ID_454 	4sum-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_455 	assign-cookies
+#define SOLUTION_CPP_FOLDER_NAME_ID_461 	hamming-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
