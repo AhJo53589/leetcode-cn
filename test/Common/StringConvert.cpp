@@ -209,3 +209,23 @@ vector<string> StringToVectorString(string str)
 	}
 	return strs;
 }
+
+vector<vector<string>> StringToVectorVectorString(string str)
+{
+	vector<vector<string>> vvs;
+	if (str.size() < 3) return vvs;
+	str = str.substr(1, str.size() - 2);
+	
+	vector<string> vs;
+	size_t i = 0;
+	for (size_t j = 0; j < str.size(); j++)
+	{
+		if (str[j] == ']')
+		{
+			vvs.push_back(StringToVectorString(str.substr(i, j - i + 1)));
+			while (j + 1 != str.size() && str[j + 1] != '[') j++;
+			i = j + 1;
+		}
+	}
+	return vvs;
+}

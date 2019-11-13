@@ -9,6 +9,7 @@
 | √ | 2 | [add-two-numbers](../../problems/add-two-numbers) | [两数相加](../../problems/add-two-numbers/README.md) | [cpp](../../problems/add-two-numbers/SOLUTION.cpp) |   | 中等 | 
 | √ | 3 | [longest-substring-without-repeating-characters](../../problems/longest-substring-without-repeating-characters) | [无重复字符的最长子串](../../problems/longest-substring-without-repeating-characters/README.md) | [cpp](../../problems/longest-substring-without-repeating-characters/SOLUTION.cpp) |   | 中等 | 
 | √ | 4 | [median-of-two-sorted-arrays](../../problems/median-of-two-sorted-arrays) | [寻找两个有序数组的中位数](../../problems/median-of-two-sorted-arrays/README.md) | [cpp](../../problems/median-of-two-sorted-arrays/SOLUTION.cpp) |   | 困难 | 
+| √ | 5 | [longest-palindromic-substring](../../problems/longest-palindromic-substring) | [最长回文子串](../../problems/longest-palindromic-substring/README.md) | [cpp](../../problems/longest-palindromic-substring/SOLUTION.cpp) |   | 中等 | 
 | √ | 11 | [container-with-most-water](../../problems/container-with-most-water) | [盛最多水的容器](../../problems/container-with-most-water/README.md) | [cpp](../../problems/container-with-most-water/SOLUTION.cpp) |   | 中等 |
 | √ | 13 | [roman-to-integer](../../problems/roman-to-integer) | [罗马数字转整数](../../problems/roman-to-integer/README.md) | [cpp](../../problems/roman-to-integer/SOLUTION.cpp) |   | 简单 |
 | √ | 14 | [longest-common-prefix](../../problems/longest-common-prefix) | [最长公共前缀](../../problems/longest-common-prefix/README.md) | [cpp](../../problems/longest-common-prefix/SOLUTION.cpp) |   | 简单 |
@@ -37,6 +38,10 @@
 | √ | 45 | [jump-game-ii](../../problems/jump-game-ii) | [跳跃游戏 II](../../problems/jump-game-ii/README.md) | [cpp](../../problems/jump-game-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) | 困难 | 
 | √ | 46 | [permutations](../../problems/permutations) | [全排列](../../problems/permutations/README.md) | [cpp](../../problems/permutations/SOLUTION.cpp) |   | 中等 | 
 | √ | 48 | [rotate-image](../../problems/rotate-image) | [旋转图像](../../problems/rotate-image/README.md) | [cpp](../../problems/rotate-image/SOLUTION.cpp) |   | 简单 | 
+| √ | 49 | [group-anagrams](../../problems/group-anagrams) | [字母异位词分组](../../problems/group-anagrams/README.md) | [cpp](../../problems/group-anagrams/SOLUTION.cpp) |   | 中等 | 
+| √ | 50 | [powx-n](../../problems/powx-n) | [Pow(x, n)](../../problems/powx-n/README.md) | [cpp](../../problems/powx-n/SOLUTION.cpp) |   | 中等 | 
+| √ | 53 | [maximum-subarray](../../problems/maximum-subarray) | [最大子序和](../../problems/maximum-subarray/README.md) | [cpp](../../problems/maximum-subarray/SOLUTION.cpp) |   | 简单 | 
+| √ | 54 | [spiral-matrix](../../problems/spiral-matrix) | [螺旋矩阵](../../problems/spiral-matrix/README.md) | [cpp](../../problems/spiral-matrix/SOLUTION.cpp) |   | 中等 | 
 | √ | 101 | [symmetric-tree](../../problems/symmetric-tree) | [对称二叉树](../../problems/symmetric-tree/README.md) | [cpp](../../problems/symmetric-tree/SOLUTION.cpp) |  | 简单 |
 | √ | 102 | [binary-tree-level-order-traversal](../../problems/binary-tree-level-order-traversal) | [二叉树的层次遍历](../../problems/binary-tree-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-level-order-traversal/SOLUTION.cpp) |  | 中等 |
 | √ | 103 | [binary-tree-zigzag-level-order-traversal](../../problems/binary-tree-zigzag-level-order-traversal) | [二叉树的锯齿形层次遍历](../../problems/binary-tree-zigzag-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-zigzag-level-order-traversal/SOLUTION.cpp) |   | 中等 |
@@ -153,7 +158,12 @@
 | √ | 454 | [4sum-ii](../../problems/4sum-ii) | [四数相加 II](../../problems/4sum-ii/README.md) | [cpp](../../problems/4sum-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 455 | [assign-cookies](../../problems/assign-cookies) | [分发饼干](../../problems/assign-cookies/README.md) | [cpp](../../problems/assign-cookies/SOLUTION.cpp) |   | 简单 | 
 | √ | 461 | [hamming-distance](../../problems/hamming-distance) | [汉明距离](../../problems/hamming-distance/README.md) | [cpp](../../problems/hamming-distance/SOLUTION.cpp) |   | 简单 | 
+| √ | 485 | [max-consecutive-ones](../../problems/max-consecutive-ones) | [最大连续1的个数](../../problems/max-consecutive-ones/README.md) | [cpp](../../problems/max-consecutive-ones/SOLUTION.cpp) |   | 简单 | 
+| √ | 494 | [target-sum](../../problems/target-sum) | [目标和](../../problems/target-sum/README.md) | [cpp](../../problems/target-sum/SOLUTION.cpp) |   | 中等 | 
+| √ | 498 | [diagonal-traverse](../../problems/diagonal-traverse) | [对角线遍历](../../problems/diagonal-traverse/README.md) | [cpp](../../problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 | 
+| √ | 509 | [fibonacci-number](../../problems/fibonacci-number) | [斐波那契数](../../problems/fibonacci-number/README.md) | [cpp](../../problems/fibonacci-number/SOLUTION.cpp) |   | 简单 | 
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 | 
+| √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 | 
 | √ | 1207 | [unique-number-of-occurrences](../../problems/unique-number-of-occurrences) | [独一无二的出现次数](../../problems/unique-number-of-occurrences/README.md) | [cpp](../../problems/unique-number-of-occurrences/SOLUTION.cpp) |   | 简单 |
 | √ | 1208 | [get-equal-substrings-within-budget](../../problems/get-equal-substrings-within-budget) | [尽可能使字符串相等](../../problems/get-equal-substrings-within-budget/README.md) | [cpp](../../problems/get-equal-substrings-within-budget/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) | 中等 |
 | √ | 1209 | [remove-all-adjacent-duplicates-in-string-ii](../../problems/remove-all-adjacent-duplicates-in-string-ii) | [删除字符串中的所有相邻重复项 II](../../problems/remove-all-adjacent-duplicates-in-string-ii/README.md) | [cpp](../../problems/remove-all-adjacent-duplicates-in-string-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) | 中等 |

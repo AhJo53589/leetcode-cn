@@ -36,6 +36,7 @@ vector<vector<int>> StringToVectorVectorInt(string str);
 string VectorVectorIntToString(const vector<vector<int>>& matrix);
 
 vector<string> StringToVectorString(string str);
+vector<vector<string>> StringToVectorVectorString(string str);
 
 //////////////////////////////////////////////////////////////////////////
 //template<typename T>

@@ -4,6 +4,11 @@
 
 
 ---
+## 20191113
+* 50.powx-n Pow(x, n)
+
+
+---
 ## 20191110
 * 5258.maximum-score-words-formed-by-letters 得分最高的单词集合
 

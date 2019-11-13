@@ -24,13 +24,14 @@
 |  | 354 | [russian-doll-envelopes](./problems/russian-doll-envelopes) | [俄罗斯套娃信封问题](./problems/russian-doll-envelopes/README.md) | [cpp](./problems/russian-doll-envelopes/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/) | 困难 |
 |  | 410 | [split-array-largest-sum](./problems/split-array-largest-sum) | [分割数组的最大值](./problems/split-array-largest-sum/README.md) | [cpp](./problems/split-array-largest-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) | 困难 |
 | √ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 | 
+| √ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 | 
 | ☆ | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](./problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
 | ☆ | 5258 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （193 / 1170）
+完成进度 （203 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season

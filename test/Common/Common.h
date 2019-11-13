@@ -107,7 +107,7 @@ template<>
 inline string checkAnswer(const vector<string> a, const vector<string> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	string res = "Result = ";
+	string res = "Result = \n";
 	for (auto &s : a) res += s + ", ";
 	res += "\n";
 	for (auto &s : b) res += s + ", ";
@@ -116,6 +116,26 @@ inline string checkAnswer(const vector<string> a, const vector<string> b)
 	return res;
 }
 
+template<>
+inline string checkAnswer(const vector<vector<string>> a, const vector<vector<string>> b)
+{
+	string check = (a == b) ? "" : "\t\t\t WRONG!";
+	string res = "Result = \n";
+	for (auto &vs : a)
+	{
+		for (auto s : vs) res += s + ", ";
+		res += "\n";
+	}
+	res += "\n";
+	for (auto &vs : b)
+	{
+		for (auto s : vs) res += s + ", ";
+		res += "\n";
+	}
+	res += "\n";
+	res += "\t\t\t" + check;
+	return res;
+}
 
 #endif //COMMON_H
 

@@ -60,6 +60,13 @@ public:
 		return StringToVectorString(popString());
 	}
 
+	template<>
+	std::vector<std::vector<std::string>> get<std::vector<std::vector<std::string>>>()
+	{
+		if (curr == file.size()) return {};
+		return StringToVectorVectorString(popString());
+	}
+
 	bool empty() { return curr == file.size(); }
 
 private:

@@ -9,6 +9,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_4 	median-of-two-sorted-arrays
+#define SOLUTION_CPP_FOLDER_NAME_ID_5 	longest-palindromic-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
@@ -37,6 +38,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_45 	jump-game-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_46 	permutations
 #define SOLUTION_CPP_FOLDER_NAME_ID_48 	rotate-image
+#define SOLUTION_CPP_FOLDER_NAME_ID_49 	group-anagrams
+#define SOLUTION_CPP_FOLDER_NAME_ID_50 	powx-n
+#define SOLUTION_CPP_FOLDER_NAME_ID_53 	maximum-subarray
+#define SOLUTION_CPP_FOLDER_NAME_ID_54 	spiral-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
@@ -151,8 +156,13 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_454 	4sum-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_455 	assign-cookies
 #define SOLUTION_CPP_FOLDER_NAME_ID_461 	hamming-distance
+#define SOLUTION_CPP_FOLDER_NAME_ID_485 	max-consecutive-ones
+#define SOLUTION_CPP_FOLDER_NAME_ID_494 	target-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
+#define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
