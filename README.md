@@ -9,6 +9,8 @@
 | ☆ | 41 | [first-missing-positive](./problems/first-missing-positive) | [缺失的第一个正数](./problems/first-missing-positive/README.md) | [cpp](./problems/first-missing-positive/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) | 困难 |
 |  | 42 | [trapping-rain-water](./problems/trapping-rain-water) | [接雨水](./problems/trapping-rain-water/README.md) | [cpp](./problems/trapping-rain-water/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) | 困难 |
 |  | 45 | [jump-game-ii](./problems/jump-game-ii) | [跳跃游戏 II](./problems/jump-game-ii/README.md) | [cpp](./problems/jump-game-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) | 困难 |
+| √ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 | 
+| √ | 58 | [length-of-last-word](./problems/length-of-last-word) | [最后一个单词的长度](./problems/length-of-last-word/README.md) | [cpp](./problems/length-of-last-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) | 简单 | 
 | ☆☆☆ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
 |  | 179 | [largest-number](./problems/largest-number) | [最大数](./problems/largest-number/README.md) | [cpp](./problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 |
 |  | 189 | [rotate-array](./problems/rotate-array) | [旋转数组](./problems/rotate-array/README.md) | [cpp](./problems/rotate-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) | 简单 |
@@ -23,15 +25,15 @@
 |  | 337 | [house-robber-iii](./problems/house-robber-iii) | [打家劫舍 III](./problems/house-robber-iii/README.md) | [cpp](./problems/house-robber-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/) | 中等 |
 |  | 354 | [russian-doll-envelopes](./problems/russian-doll-envelopes) | [俄罗斯套娃信封问题](./problems/russian-doll-envelopes/README.md) | [cpp](./problems/russian-doll-envelopes/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/) | 困难 |
 |  | 410 | [split-array-largest-sum](./problems/split-array-largest-sum) | [分割数组的最大值](./problems/split-array-largest-sum/README.md) | [cpp](./problems/split-array-largest-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) | 困难 |
-| √ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 | 
-| √ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 | 
+| ☆ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 |
+| ☆ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
 | ☆ | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](./problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
 | ☆ | 5258 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （203 / 1170）
+完成进度 （220 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season

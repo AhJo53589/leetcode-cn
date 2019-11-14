@@ -56,6 +56,26 @@ inline string checkAnswer(TreeNode* a, TreeNode* b)
 }
 
 template<>
+inline string checkAnswer(vector<TreeNode*> a, vector<TreeNode*> b)
+{
+	string stra = "";
+	for (const auto t : a)
+	{
+		stra += "\n";
+		stra += TreeNodeToString(t);
+	}
+	stra += "\n";
+	string strb = "";
+	for (const auto t : b)
+	{
+		strb += "\n";
+		strb += TreeNodeToString(t);
+	}
+	strb += "\n";
+	return checkAnswer(stra, strb);
+}
+
+template<>
 inline string checkAnswer(ListNode* a, ListNode* b)
 {
 	string stra = ListNodeToString(a);

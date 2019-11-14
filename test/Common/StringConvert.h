@@ -38,6 +38,9 @@ string VectorVectorIntToString(const vector<vector<int>>& matrix);
 vector<string> StringToVectorString(string str);
 vector<vector<string>> StringToVectorVectorString(string str);
 
+vector<TreeNode*> StringToVectorTreeNode(string str);
+
+
 //////////////////////////////////////////////////////////////////////////
 //template<typename T>
 //std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = ']', char delim = ',')
@@ -97,6 +100,12 @@ template<>
 inline TreeNode* convert(const std::string &s)
 {
 	return StringToTreeNode(s);
+}
+
+template<> 
+inline std::vector<TreeNode*> convert(const std::string &s)
+{
+	return StringToVectorTreeNode(s);
 }
 
 template<>

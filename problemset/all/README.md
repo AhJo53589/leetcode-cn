@@ -10,6 +10,7 @@
 | √ | 3 | [longest-substring-without-repeating-characters](../../problems/longest-substring-without-repeating-characters) | [无重复字符的最长子串](../../problems/longest-substring-without-repeating-characters/README.md) | [cpp](../../problems/longest-substring-without-repeating-characters/SOLUTION.cpp) |   | 中等 | 
 | √ | 4 | [median-of-two-sorted-arrays](../../problems/median-of-two-sorted-arrays) | [寻找两个有序数组的中位数](../../problems/median-of-two-sorted-arrays/README.md) | [cpp](../../problems/median-of-two-sorted-arrays/SOLUTION.cpp) |   | 困难 | 
 | √ | 5 | [longest-palindromic-substring](../../problems/longest-palindromic-substring) | [最长回文子串](../../problems/longest-palindromic-substring/README.md) | [cpp](../../problems/longest-palindromic-substring/SOLUTION.cpp) |   | 中等 | 
+| √ | 6 | [zigzag-conversion](../../problems/zigzag-conversion) | [Z 字形变换](../../problems/zigzag-conversion/README.md) | [cpp](../../problems/zigzag-conversion/SOLUTION.cpp) |   | 中等 | 
 | √ | 11 | [container-with-most-water](../../problems/container-with-most-water) | [盛最多水的容器](../../problems/container-with-most-water/README.md) | [cpp](../../problems/container-with-most-water/SOLUTION.cpp) |   | 中等 |
 | √ | 13 | [roman-to-integer](../../problems/roman-to-integer) | [罗马数字转整数](../../problems/roman-to-integer/README.md) | [cpp](../../problems/roman-to-integer/SOLUTION.cpp) |   | 简单 |
 | √ | 14 | [longest-common-prefix](../../problems/longest-common-prefix) | [最长公共前缀](../../problems/longest-common-prefix/README.md) | [cpp](../../problems/longest-common-prefix/SOLUTION.cpp) |   | 简单 |
@@ -42,6 +43,14 @@
 | √ | 50 | [powx-n](../../problems/powx-n) | [Pow(x, n)](../../problems/powx-n/README.md) | [cpp](../../problems/powx-n/SOLUTION.cpp) |   | 中等 | 
 | √ | 53 | [maximum-subarray](../../problems/maximum-subarray) | [最大子序和](../../problems/maximum-subarray/README.md) | [cpp](../../problems/maximum-subarray/SOLUTION.cpp) |   | 简单 | 
 | √ | 54 | [spiral-matrix](../../problems/spiral-matrix) | [螺旋矩阵](../../problems/spiral-matrix/README.md) | [cpp](../../problems/spiral-matrix/SOLUTION.cpp) |   | 中等 | 
+| √ | 55 | [jump-game](../../problems/jump-game) | [跳跃游戏](../../problems/jump-game/README.md) | [cpp](../../problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 | 
+| √ | 56 | [merge-intervals](../../problems/merge-intervals) | [合并区间](../../problems/merge-intervals/README.md) | [cpp](../../problems/merge-intervals/SOLUTION.cpp) |   | 中等 | 
+| √ | 58 | [length-of-last-word](../../problems/length-of-last-word) | [最后一个单词的长度](../../problems/length-of-last-word/README.md) | [cpp](../../problems/length-of-last-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) | 简单 | 
+| √ | 59 | [spiral-matrix-ii](../../problems/spiral-matrix-ii) | [螺旋矩阵 II](../../problems/spiral-matrix-ii/README.md) | [cpp](../../problems/spiral-matrix-ii/SOLUTION.cpp) |   | 中等 | 
+| √ | 60 | [permutation-sequence](../../problems/permutation-sequence) | [第k个排列](../../problems/permutation-sequence/README.md) | [cpp](../../problems/permutation-sequence/SOLUTION.cpp) |   | 中等 | 
+| √ | 61 | [rotate-list](../../problems/rotate-list) | [旋转链表](../../problems/rotate-list/README.md) | [cpp](../../problems/rotate-list/SOLUTION.cpp) |   | 中等 | 
+| √ | 62 | [unique-paths](../../problems/unique-paths) | [不同路径](../../problems/unique-paths/README.md) | [cpp](../../problems/unique-paths/SOLUTION.cpp) |   | 中等 | 
+| √ | 66 | [plus-one](../../problems/plus-one) | [加一](../../problems/plus-one/README.md) | [cpp](../../problems/plus-one/SOLUTION.cpp) |   | 简单 | 
 | √ | 101 | [symmetric-tree](../../problems/symmetric-tree) | [对称二叉树](../../problems/symmetric-tree/README.md) | [cpp](../../problems/symmetric-tree/SOLUTION.cpp) |  | 简单 |
 | √ | 102 | [binary-tree-level-order-traversal](../../problems/binary-tree-level-order-traversal) | [二叉树的层次遍历](../../problems/binary-tree-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-level-order-traversal/SOLUTION.cpp) |  | 中等 |
 | √ | 103 | [binary-tree-zigzag-level-order-traversal](../../problems/binary-tree-zigzag-level-order-traversal) | [二叉树的锯齿形层次遍历](../../problems/binary-tree-zigzag-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-zigzag-level-order-traversal/SOLUTION.cpp) |   | 中等 |
@@ -164,6 +173,14 @@
 | √ | 509 | [fibonacci-number](../../problems/fibonacci-number) | [斐波那契数](../../problems/fibonacci-number/README.md) | [cpp](../../problems/fibonacci-number/SOLUTION.cpp) |   | 简单 | 
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 | 
 | √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 | 
+| √ | 547 | [friend-circles](../../problems/friend-circles) | [朋友圈](../../problems/friend-circles/README.md) | [cpp](../../problems/friend-circles/SOLUTION.cpp) |   | 中等 | 
+| √ | 557 | [reverse-words-in-a-string-iii](../../problems/reverse-words-in-a-string-iii) | [反转字符串中的单词 III](../../problems/reverse-words-in-a-string-iii/README.md) | [cpp](../../problems/reverse-words-in-a-string-iii/SOLUTION.cpp) |   | 简单 | 
+| √ | 561 | [array-partition-i](../../problems/array-partition-i) | [数组拆分 I](../../problems/array-partition-i/README.md) | [cpp](../../problems/array-partition-i/SOLUTION.cpp) |   | 简单 | 
+| √ | 567 | [permutation-in-string](../../problems/permutation-in-string) | [字符串的排列](../../problems/permutation-in-string/README.md) | [cpp](../../problems/permutation-in-string/SOLUTION.cpp) |   | 中等 | 
+| √ | 599 | [minimum-index-sum-of-two-lists](../../problems/minimum-index-sum-of-two-lists) | [两个列表的最小索引总和](../../problems/minimum-index-sum-of-two-lists/README.md) | [cpp](../../problems/minimum-index-sum-of-two-lists/SOLUTION.cpp) |   | 简单 | 
+| √ | 621 | [task-scheduler](../../problems/task-scheduler) | [任务调度器](../../problems/task-scheduler/README.md) | [cpp](../../problems/task-scheduler/SOLUTION.cpp) |   | 中等 | 
+| √ | 652 | [find-duplicate-subtrees](../../problems/find-duplicate-subtrees) | [寻找重复的子树](../../problems/find-duplicate-subtrees/README.md) | [cpp](../../problems/find-duplicate-subtrees/SOLUTION.cpp) |   | 中等 | 
+| √ | 658 | [find-k-closest-elements](../../problems/find-k-closest-elements) | [找到](../../problems/find-k-closest-elements/README.md) | [cpp](../../problems/find-k-closest-elements/SOLUTION.cpp) |   | 中等 | 
 | √ | 1207 | [unique-number-of-occurrences](../../problems/unique-number-of-occurrences) | [独一无二的出现次数](../../problems/unique-number-of-occurrences/README.md) | [cpp](../../problems/unique-number-of-occurrences/SOLUTION.cpp) |   | 简单 |
 | √ | 1208 | [get-equal-substrings-within-budget](../../problems/get-equal-substrings-within-budget) | [尽可能使字符串相等](../../problems/get-equal-substrings-within-budget/README.md) | [cpp](../../problems/get-equal-substrings-within-budget/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/get-equal-substrings-within-budget/solution/5207-by-ikaruga/) | 中等 |
 | √ | 1209 | [remove-all-adjacent-duplicates-in-string-ii](../../problems/remove-all-adjacent-duplicates-in-string-ii) | [删除字符串中的所有相邻重复项 II](../../problems/remove-all-adjacent-duplicates-in-string-ii/README.md) | [cpp](../../problems/remove-all-adjacent-duplicates-in-string-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/solution/5206-by-ikaruga/) | 中等 |

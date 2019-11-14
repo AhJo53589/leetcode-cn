@@ -229,3 +229,22 @@ vector<vector<string>> StringToVectorVectorString(string str)
 	}
 	return vvs;
 }
+
+vector<TreeNode*> StringToVectorTreeNode(string str)
+{
+	vector<TreeNode*> vt;
+	if (str.size() < 3) return vt;
+	str = str.substr(1, str.size() - 2);
+
+	size_t i = 0;
+	for (size_t j = 0; j < str.size(); j++)
+	{
+		if (str[j] == ']')
+		{
+			vt.push_back(StringToTreeNode(str.substr(i, j - i + 1)));
+			while (j + 1 != str.size() && str[j + 1] != '[') j++;
+			i = j + 1;
+		}
+	}
+	return vt;
+}
