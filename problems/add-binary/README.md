@@ -1,4 +1,4 @@
-# `（简单）`  [67.add-binary 二进制求和](https://leetcode-cn.com/problems/add-binary/)
+# `（简单）` [67.add-binary 二进制求和](https://leetcode-cn.com/problems/add-binary/)
 
 ### 题目描述
 <p>给定两个二进制字符串，返回他们的和（用二进制表示）。</p>

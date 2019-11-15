@@ -1,4 +1,4 @@
-# `（中等）`  [695.max-area-of-island 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
+# `（中等）` [695.max-area-of-island 岛屿的最大面积](https://leetcode-cn.com/problems/max-area-of-island/)
 
 ### 题目描述
 <p>给定一个包含了一些 0 和 1的非空二维数组&nbsp;<code>grid</code>&nbsp;, 一个&nbsp;<strong>岛屿</strong>&nbsp;是由四个方向 (水平或垂直) 的&nbsp;<code>1</code>&nbsp;(代表土地) 构成的组合。你可以假设二维矩阵的四个边缘都被水包围着。</p>

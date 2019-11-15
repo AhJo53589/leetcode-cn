@@ -11,6 +11,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_4 	median-of-two-sorted-arrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5 	longest-palindromic-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_6 	zigzag-conversion
+#define SOLUTION_CPP_FOLDER_NAME_ID_7 	reverse-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
@@ -51,6 +52,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_61 	rotate-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_62 	unique-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_66 	plus-one
+#define SOLUTION_CPP_FOLDER_NAME_ID_67 	add-binary
+#define SOLUTION_CPP_FOLDER_NAME_ID_69 	sqrtx
+#define SOLUTION_CPP_FOLDER_NAME_ID_70 	climbing-stairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
@@ -180,6 +184,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
+#define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_701 	insert-into-a-binary-search-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_704 	binary-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii

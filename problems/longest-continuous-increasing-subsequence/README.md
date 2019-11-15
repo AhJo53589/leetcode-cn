@@ -1,4 +1,4 @@
-# `（简单）`  [674.longest-continuous-increasing-subsequence 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
+# `（简单）` [674.longest-continuous-increasing-subsequence 最长连续递增序列](https://leetcode-cn.com/problems/longest-continuous-increasing-subsequence/)
 
 ### 题目描述
 <p>给定一个未经排序的整数数组，找到最长且<strong>连续</strong>的的递增序列。</p>
