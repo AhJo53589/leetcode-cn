@@ -55,6 +55,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_67 	add-binary
 #define SOLUTION_CPP_FOLDER_NAME_ID_69 	sqrtx
 #define SOLUTION_CPP_FOLDER_NAME_ID_70 	climbing-stairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_92 	reverse-linked-list-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal

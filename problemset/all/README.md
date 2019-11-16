@@ -55,6 +55,7 @@
 | √ | 67 | [add-binary](../../problems/add-binary) | [二进制求和](../../problems/add-binary/README.md) | [cpp](../../problems/add-binary/SOLUTION.cpp) |   | 简单 | 
 | √ | 69 | [sqrtx](../../problems/sqrtx) | [x 的平方根](../../problems/sqrtx/README.md) | [cpp](../../problems/sqrtx/SOLUTION.cpp) |   | 简单 | 
 | √ | 70 | [climbing-stairs](../../problems/climbing-stairs) | [爬楼梯](../../problems/climbing-stairs/README.md) | [cpp](../../problems/climbing-stairs/SOLUTION.cpp) |   | 简单 | 
+| √ | 92 | [reverse-linked-list-ii](../../problems/reverse-linked-list-ii) | [反转链表 II](../../problems/reverse-linked-list-ii/README.md) | [cpp](../../problems/reverse-linked-list-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 101 | [symmetric-tree](../../problems/symmetric-tree) | [对称二叉树](../../problems/symmetric-tree/README.md) | [cpp](../../problems/symmetric-tree/SOLUTION.cpp) |  | 简单 |
 | √ | 102 | [binary-tree-level-order-traversal](../../problems/binary-tree-level-order-traversal) | [二叉树的层次遍历](../../problems/binary-tree-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-level-order-traversal/SOLUTION.cpp) |  | 中等 |
 | √ | 103 | [binary-tree-zigzag-level-order-traversal](../../problems/binary-tree-zigzag-level-order-traversal) | [二叉树的锯齿形层次遍历](../../problems/binary-tree-zigzag-level-order-traversal/README.md) | [cpp](../../problems/binary-tree-zigzag-level-order-traversal/SOLUTION.cpp) |   | 中等 |
