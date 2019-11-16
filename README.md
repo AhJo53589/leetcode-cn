@@ -9,8 +9,8 @@
 | ☆ | 41 | [first-missing-positive](./problems/first-missing-positive) | [缺失的第一个正数](./problems/first-missing-positive/README.md) | [cpp](./problems/first-missing-positive/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) | 困难 |
 |  | 42 | [trapping-rain-water](./problems/trapping-rain-water) | [接雨水](./problems/trapping-rain-water/README.md) | [cpp](./problems/trapping-rain-water/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) | 困难 |
 |  | 45 | [jump-game-ii](./problems/jump-game-ii) | [跳跃游戏 II](./problems/jump-game-ii/README.md) | [cpp](./problems/jump-game-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) | 困难 |
-| ☆☆☆ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 | 
-|   | 58 | [length-of-last-word](./problems/length-of-last-word) | [最后一个单词的长度](./problems/length-of-last-word/README.md) | [cpp](./problems/length-of-last-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) | 简单 | 
+| ☆☆☆ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
+|   | 58 | [length-of-last-word](./problems/length-of-last-word) | [最后一个单词的长度](./problems/length-of-last-word/README.md) | [cpp](./problems/length-of-last-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) | 简单 |
 | ☆☆☆ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
 |  | 179 | [largest-number](./problems/largest-number) | [最大数](./problems/largest-number/README.md) | [cpp](./problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 |
 |  | 189 | [rotate-array](./problems/rotate-array) | [旋转数组](./problems/rotate-array/README.md) | [cpp](./problems/rotate-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) | 简单 |
@@ -27,14 +27,13 @@
 |  | 410 | [split-array-largest-sum](./problems/split-array-largest-sum) | [分割数组的最大值](./problems/split-array-largest-sum/README.md) | [cpp](./problems/split-array-largest-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) | 困难 |
 | ☆ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 |
 | ☆ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
-| √ | 704 | [binary-search](./problems/binary-search) | [二分查找](./problems/binary-search/README.md) | [cpp](./problems/binary-search/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-search/solution/er-fen-cha-zhao-by-ikaruga/) | 简单 | 
 | ☆ | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](./problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
 | ☆ | 5258 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （230 / 1170）
+完成进度 （224 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
@@ -54,6 +53,7 @@
 | 2019/11/2  | [第 12 场双周赛](./contest/biweekly-contest-12/README.md) | 2 / 4 | 288 / 911  |
 | 2019/11/3  | [第 161 场周赛](./contest/weekly-contest-161/README.md)   | 2 / 4 | 446 / 1609 |
 | 2019/11/10 | [第 162 场周赛](./contest/weekly-contest-162/README.md)   | 3 / 4 | 312 / 1568 |
+| 2019/11/16 | [第 13 场双周赛](./contest/biweekly-contest-13/README.md) | 3 / 4 | 113 / 810  |
 
 ## Update
 [查看全部](./Update.md)

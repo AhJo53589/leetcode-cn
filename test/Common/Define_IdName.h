@@ -222,6 +222,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1248 	count-number-of-nice-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_1249 	minimum-remove-to-make-valid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_1250 	check-if-it-is-a-good-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5108 	encode-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_5109 	smallest-common-region
+#define SOLUTION_CPP_FOLDER_NAME_ID_5110 	synonymous-sentences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5125 	handshakes-that-dont-cross
 #define SOLUTION_CPP_FOLDER_NAME_ID_5255 	cells-with-odd-values-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5256 	reconstruct-a-2-row-binary-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5257 	number-of-closed-islands

@@ -4,7 +4,18 @@
 
 
 ---
+## 20191117
+* 5125.handshakes-that-dont-cross 不相交的握手
+
+* 5110.synonymous-sentences 近义词句子
+
+
+---
 ## 20191116
+* 5109.smallest-common-region 最小公共区域
+
+* 5108.encode-number 加密数字
+
 * 92.reverse-linked-list-ii 反转链表 II
 
 

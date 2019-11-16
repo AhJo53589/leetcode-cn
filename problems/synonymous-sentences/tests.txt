@@ -1,0 +1,6 @@
+[["happy","joy"],["sad","sorrow"],["joy","cheerful"]]
+I am happy today but was sad yesterday
+["I am cheerful today but was sad yesterday","I am cheerful today but was sorrow yesterday","I am happy today but was sad yesterday","I am happy today but was sorrow yesterday","I am joy today but was sad yesterday","I am joy today but was sorrow yesterday"]
+[["a","QrbCl"]]
+d QrbCl ya ya NjZQ
+["d QrbCl ya ya NjZQ","d a ya ya NjZQ"]
