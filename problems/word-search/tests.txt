@@ -1,0 +1,15 @@
+[['A', 'B', 'C', 'E'],['S', 'F', 'C', 'S'],['A', 'D', 'E', 'E']]
+ABCCED
+true
+[['A', 'B', 'C', 'E'],['S', 'F', 'C', 'S'],['A', 'D', 'E', 'E']]
+SEE
+true
+[['A', 'B', 'C', 'E'],['S', 'F', 'C', 'S'],['A', 'D', 'E', 'E']]
+ABCB
+false
+[['A', 'B', 'C', 'E'],['S', 'F', 'E', 'S'],['A', 'D', 'E', 'E']]
+ABCESEEEFS
+true
+[[a,a,a,a],[a,a,a,a],[a,a,a,a],[a,a,a,a],[a,a,a,b]
+aaaaaaaaaaaaaaaaaaaa
+false

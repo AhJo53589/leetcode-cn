@@ -5,6 +5,8 @@
 
 ---
 ## 20191118
+* 8.string-to-integer-atoi 字符串转换整数 (atoi)
+
 * 1263.minimum-moves-to-move-a-box-to-their-target-location 推箱子
 
 * 1262.greatest-sum-divisible-by-three 可被三整除的最大和

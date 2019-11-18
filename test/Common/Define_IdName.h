@@ -12,6 +12,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5 	longest-palindromic-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_6 	zigzag-conversion
 #define SOLUTION_CPP_FOLDER_NAME_ID_7 	reverse-integer
+#define SOLUTION_CPP_FOLDER_NAME_ID_8 	string-to-integer-atoi
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
@@ -55,6 +56,12 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_67 	add-binary
 #define SOLUTION_CPP_FOLDER_NAME_ID_69 	sqrtx
 #define SOLUTION_CPP_FOLDER_NAME_ID_70 	climbing-stairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_71 	simplify-path
+#define SOLUTION_CPP_FOLDER_NAME_ID_73 	set-matrix-zeroes
+#define SOLUTION_CPP_FOLDER_NAME_ID_75 	sort-colors
+#define SOLUTION_CPP_FOLDER_NAME_ID_76 	minimum-window-substring
+#define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
+#define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_92 	reverse-linked-list-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
@@ -190,6 +197,15 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_701 	insert-into-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_704 	binary-search
+#define SOLUTION_CPP_FOLDER_NAME_ID_719 	find-k-th-smallest-pair-distance
+#define SOLUTION_CPP_FOLDER_NAME_ID_724 	find-pivot-index
+#define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill
+#define SOLUTION_CPP_FOLDER_NAME_ID_739 	daily-temperatures
+#define SOLUTION_CPP_FOLDER_NAME_ID_744 	find-smallest-letter-greater-than-target
+#define SOLUTION_CPP_FOLDER_NAME_ID_747 	largest-number-at-least-twice-of-others
+#define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
+#define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
+#define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
