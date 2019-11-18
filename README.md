@@ -28,12 +28,13 @@
 | ☆ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 |
 | ☆ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
 | ☆ | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](./problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
-| ☆ | 5258 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
+| ☆ | 1255 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
+| ☆☆☆ | 1263 | [minimum-moves-to-move-a-box-to-their-target-location](./problems/minimum-moves-to-move-a-box-to-their-target-location) | [推箱子](./problems/minimum-moves-to-move-a-box-to-their-target-location/README.md) | [cpp](./problems/minimum-moves-to-move-a-box-to-their-target-location/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/solution/1263-by-ikaruga/) | 困难 | 
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （224 / 1170）
+完成进度 （226 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
@@ -54,6 +55,7 @@
 | 2019/11/3  | [第 161 场周赛](./contest/weekly-contest-161/README.md)   | 2 / 4 | 446 / 1609 |
 | 2019/11/10 | [第 162 场周赛](./contest/weekly-contest-162/README.md)   | 3 / 4 | 312 / 1568 |
 | 2019/11/16 | [第 13 场双周赛](./contest/biweekly-contest-13/README.md) | 3 / 4 | 113 / 810  |
+| 2019/11/17 | [第 163 场周赛](./contest/weekly-contest-163/README.md)   | 3 / 4 | 202 / 1604 |
 
 ## Update
 [查看全部](./Update.md)

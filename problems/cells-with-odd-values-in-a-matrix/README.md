@@ -1,4 +1,4 @@
-# `（简单）` [5255.cells-with-odd-values-in-a-matrix 奇数值单元格的数目](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/)
+# `（简单）` [1252.cells-with-odd-values-in-a-matrix 奇数值单元格的数目](https://leetcode-cn.com/problems/cells-with-odd-values-in-a-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-162/problems/cells-with-odd-values-in-a-matrix/)
 

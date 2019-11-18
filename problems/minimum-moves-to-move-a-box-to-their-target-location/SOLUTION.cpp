@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////////////////////////////
 int minPushBox(vector<vector<char>>& grid) 
 {
-	// pq£¬[0]µ±Ç°×´Ì¬×îÐ¡ÍÆÏä×Ó´ÎÊý [1]ÈËµÄ×ø±êx [2]ÈËµÄ×ø±êy [3]Ïä×ÓµÄ×ø±êx [4]Ïä×ÓµÄ×ø±êy
+	// pqï¿½ï¿½[0]ï¿½ï¿½Ç°×´Ì¬ï¿½ï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½Ó´ï¿½ï¿½ï¿½ [1]ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½x [2]ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½y [3]ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½x [4]ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½ï¿½y
 	priority_queue<vector<size_t>, vector<vector<size_t>>, greater<vector<size_t>>> pq;
 	size_t m = grid.size();
 	size_t n = grid[0].size();
@@ -30,8 +30,8 @@ int minPushBox(vector<vector<char>>& grid)
 	}
 	pq.push(a);
 
-	set<vector<size_t>> dist;
-	dist.insert({ a[1], a[2], a[3], a[4] });
+	map<vector<size_t>, size_t> dist;
+	dist[{ a[1], a[2], a[3], a[4] }] = 0;
 	int dx[4] = { 0,0,1,-1 };
 	int dy[4] = { 1,-1,0,0 };
 
@@ -68,7 +68,7 @@ int minPushBox(vector<vector<char>>& grid)
 			{
 				continue;
 			}
-			dist.insert({ next_s[0], next_s[1], next_b[0], next_b[1] });
+			dist[{next_s[0], next_s[1], next_b[0], next_b[1]}] = d;
 			pq.push({ d, next_s[0], next_s[1], next_b[0], next_b[1] });
 		}
 	}
@@ -95,6 +95,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/minimum-moves-to-move-a-box-to-their-target-location/tests.txt";
 }
 

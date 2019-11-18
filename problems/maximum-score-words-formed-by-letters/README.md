@@ -1,4 +1,4 @@
-# `（困难）` [5258.maximum-score-words-formed-by-letters 得分最高的单词集合](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/)
+# `（困难）` [1255.maximum-score-words-formed-by-letters 得分最高的单词集合](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-162/problems/maximum-score-words-formed-by-letters/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5110.synonymous-sentences 近义词句子](https://leetcode-cn.com/problems/synonymous-sentences/)
+# `（中等）` [1258.synonymous-sentences 近义词句子](https://leetcode-cn.com/problems/synonymous-sentences/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-13/problems/synonymous-sentences/)
 

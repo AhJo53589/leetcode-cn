@@ -1,4 +1,4 @@
-# `（中等）` [5108.encode-number 加密数字](https://leetcode-cn.com/problems/encode-number/)
+# `（中等）` [1256.encode-number 加密数字](https://leetcode-cn.com/problems/encode-number/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-13/problems/encode-number/)
 

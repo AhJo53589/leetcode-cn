@@ -1,4 +1,4 @@
-# `（中等）` [5257.number-of-closed-islands 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)
+# `（中等）` [1254.number-of-closed-islands 统计封闭岛屿的数目](https://leetcode-cn.com/problems/number-of-closed-islands/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-162/problems/number-of-closed-islands/)
 

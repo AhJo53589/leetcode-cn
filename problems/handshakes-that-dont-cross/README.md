@@ -1,4 +1,4 @@
-# `（困难）` [5125.handshakes-that-dont-cross 不相交的握手](https://leetcode-cn.com/problems/handshakes-that-dont-cross/)
+# `（困难）` [1259.handshakes-that-dont-cross 不相交的握手](https://leetcode-cn.com/problems/handshakes-that-dont-cross/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-13/problems/handshakes-that-dont-cross/)
 
@@ -19,7 +19,7 @@
 
 <p><strong>示例 2：</strong></p>
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/11/16/5125_example_2.png" style="height: 311px; width: 651px;"></p>
+<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/11/16/1259_example_2.png" style="height: 311px; width: 651px;"></p>
 
 <pre><strong>输入：</strong>num_people = 4
 <strong>输出：</strong>2
@@ -28,7 +28,7 @@
 
 <p><strong>示例 3：</strong></p>
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/11/16/5125_example_3.png" style="height: 992px; width: 664px;"></p>
+<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/11/16/1259_example_3.png" style="height: 992px; width: 664px;"></p>
 
 <pre><strong>输入：</strong>num_people = 6
 <strong>输出：</strong>5

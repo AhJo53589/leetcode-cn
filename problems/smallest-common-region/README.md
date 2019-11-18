@@ -1,4 +1,4 @@
-# `（中等）` [5109.smallest-common-region 最小公共区域](https://leetcode-cn.com/problems/smallest-common-region/)
+# `（中等）` [1257.smallest-common-region 最小公共区域](https://leetcode-cn.com/problems/smallest-common-region/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-13/problems/smallest-common-region/)
 

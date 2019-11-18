@@ -1,4 +1,4 @@
-# `（中等）` [5256.reconstruct-a-2-row-binary-matrix 重构 2 行二进制矩阵](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)
+# `（中等）` [1253.reconstruct-a-2-row-binary-matrix 重构 2 行二进制矩阵](https://leetcode-cn.com/problems/reconstruct-a-2-row-binary-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-162/problems/reconstruct-a-2-row-binary-matrix/)
 
