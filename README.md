@@ -5,16 +5,15 @@
 ## Selected Solutions
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
-|  | 33 | [search-in-rotated-sorted-array](./problems/search-in-rotated-sorted-array) | [搜索旋转排序数组](./problems/search-in-rotated-sorted-array/README.md) | [cpp](./problems/search-in-rotated-sorted-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/search-in-rotated-sorted-array/solution/sou-suo-xuan-zhuan-pai-xu-shu-zu-by-ikaruga/) | 中等 |
 | ☆ | 41 | [first-missing-positive](./problems/first-missing-positive) | [缺失的第一个正数](./problems/first-missing-positive/README.md) | [cpp](./problems/first-missing-positive/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) | 困难 |
 |  | 42 | [trapping-rain-water](./problems/trapping-rain-water) | [接雨水](./problems/trapping-rain-water/README.md) | [cpp](./problems/trapping-rain-water/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) | 困难 |
 | ☆☆☆ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
-|   | 76 | [minimum-window-substring](./problems/minimum-window-substring) | [最小覆盖子串](./problems/minimum-window-substring/README.md) | [cpp](./problems/minimum-window-substring/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-window-substring/solution/76-by-ikaruga/) | 困难 |
+| ☆ | 93 | [restore-ip-addresses](./problems/restore-ip-addresses) | [复原IP地址](./problems/restore-ip-addresses/README.md) | [cpp](./problems/restore-ip-addresses/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/restore-ip-addresses/solution/93-by-ikaruga/) | 中等 |
 | ☆☆☆ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
-|  | 179 | [largest-number](./problems/largest-number) | [最大数](./problems/largest-number/README.md) | [cpp](./problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 |
+| ☆ | 179 | [largest-number](./problems/largest-number) | [最大数](./problems/largest-number/README.md) | [cpp](./problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 |
 | ☆☆☆ | 198 | [house-robber](./problems/house-robber) | [打家劫舍](./problems/house-robber/README.md) | [cpp](./problems/house-robber/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) | 简单 |
 |  | 218 | [the-skyline-problem](./problems/the-skyline-problem) | [天际线问题](./problems/the-skyline-problem/README.md) | [cpp](./problems/the-skyline-problem/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/the-skyline-problem/solution/218-by-ikaruga/) | 困难 |
-|  | 220 | [contains-duplicate-iii](./problems/contains-duplicate-iii) | [存在重复元素 III](./problems/contains-duplicate-iii/README.md) | [cpp](./problems/contains-duplicate-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/contains-duplicate-iii/solution/220-by-ikaruga/) | 中等 |
+| ☆ | 220 | [contains-duplicate-iii](./problems/contains-duplicate-iii) | [存在重复元素 III](./problems/contains-duplicate-iii/README.md) | [cpp](./problems/contains-duplicate-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/contains-duplicate-iii/solution/220-by-ikaruga/) | 中等 |
 |  | 239 | [sliding-window-maximum](./problems/sliding-window-maximum) | [滑动窗口最大值](./problems/sliding-window-maximum/README.md) | [cpp](./problems/sliding-window-maximum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/sliding-window-maximum/solution/239-by-ikaruga/) | 困难 |
 |  | 289 | [game-of-life](./problems/game-of-life) | [生命游戏](./problems/game-of-life/README.md) | [cpp](./problems/game-of-life/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/game-of-life/solution/289-by-ikaruga/) | 中等 |
 |  | 315 | [count-of-smaller-numbers-after-self](./problems/count-of-smaller-numbers-after-self) | [计算右侧小于当前元素的个数](./problems/count-of-smaller-numbers-after-self/README.md) | [cpp](./problems/count-of-smaller-numbers-after-self/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-by-ikaruga/) | 困难 |
@@ -22,6 +21,7 @@
 |  | 410 | [split-array-largest-sum](./problems/split-array-largest-sum) | [分割数组的最大值](./problems/split-array-largest-sum/README.md) | [cpp](./problems/split-array-largest-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) | 困难 |
 | ☆ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 |
 | ☆ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
+| ☆ | 887 | [super-egg-drop](./problems/super-egg-drop) | [鸡蛋掉落](./problems/super-egg-drop/README.md) | [cpp](./problems/super-egg-drop/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) | 困难 |
 | ☆ | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](./problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
 | ☆ | 1255 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
 | ☆☆ | 1263 | [minimum-moves-to-move-a-box-to-their-target-location](./problems/minimum-moves-to-move-a-box-to-their-target-location) | [推箱子](./problems/minimum-moves-to-move-a-box-to-their-target-location/README.md) | [cpp](./problems/minimum-moves-to-move-a-box-to-their-target-location/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/solution/1263-by-ikaruga/) | 困难 |
@@ -29,7 +29,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （254 / 1170）
+完成进度 （264 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
