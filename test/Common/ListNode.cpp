@@ -105,9 +105,13 @@ ListNode * StringToListNode(const string data, int iBeg, int iEnd)
 	return pNode;
 }
 
-ListNode * InitCycleListNode(string strValList, int iCyclePos)
+ListNode * StringIntToCycleListNode(string strValList, int iCyclePos)
 {
 	ListNode *pHead = StringToListNode(strValList);
+	if (iCyclePos == -1)
+	{
+		return pHead;
+	}
 
 	ListNode *pNode = pHead;
 	while (iCyclePos-- > 0) pNode = pNode->next;
@@ -115,6 +119,22 @@ ListNode * InitCycleListNode(string strValList, int iCyclePos)
 	while (pTail->next != nullptr) pTail = pTail->next;
 	pTail->next = pNode;
 	return pHead;
+}
+
+void StringIntToIntersectionNode(ListNode ** pHeadA, ListNode ** pHeadB, string strListA, string strListB, int skipA, int skipB)
+{
+	*pHeadA = StringToListNode(strListA, 0, skipA);
+	*pHeadB = StringToListNode(strListB, 0, skipB);
+
+	vector<int> listA = StringToVectorInt(strListA);
+	ListNode *pNode = StringToListNode(strListA, skipA, listA.size());
+
+	ListNode *pTailA = *pHeadA;
+	ListNode *pTailB = *pHeadB;
+	while (pTailA->next != nullptr) pTailA = pTailA->next;
+	while (pTailB->next != nullptr) pTailB = pTailB->next;
+	pTailA->next = pNode;
+	pTailB->next = pNode;
 }
 
 string ListNodeToString(const DoublyListNode * pHead)

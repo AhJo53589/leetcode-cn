@@ -176,30 +176,106 @@
    //{
    //	return "tests_1.txt";
    //}
-```
-   
+   ```
+
+
 4. 测试程序（`test/Test/Test.cpp`）文件  
    通过修改`#include`相关的宏，加载不同的测试代码，然后运行调试
    ```C++
-   // 选择测试代码
-
+   //////////////////////////////////////////////////////////////////////////
+// 选择测试代码
+   
    // 1.选择使用（本路径的测试代码）
-   //#include "Test_1.cpp"
-   //#include "Test_2.cpp"
-   //#include "Test_3.cpp"
-   //#include "Test_4.cpp"
-   //#include "Test_5.cpp"
-
+   //#include "SOLUTION.cpp"
+   
    // 2.或者选择使用（题库中的题，根据编号加载，使用Define_IdName.h中定义的宏）
    // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> 最后的数值是题目编号
-   #define ADD_QUOTES(A) #A
+#define ADD_QUOTES(A) #A
    #define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
    #define SOLUTION_CPP_PATH_NAME(name) SOLUTION_CPP_PATH(name)
-   #include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_1)
-
+   #include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_160)
+   
    // 3.或者选择使用（题库中的题，根据名字加载）
    // SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字
-   //#define ADD_QUOTES(A) #A
+//#define ADD_QUOTES(A) #A
    //#define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
    //#include SOLUTION_CPP_PATH(two-sum)
    ```
+   
+5. 自定义启动代码
+	```C++
+// 用例第一行使用字符串作为命令调用一系列操作
+// 第二行为对应参数
+	// 第三行是答案字符串
+	
+	// example:
+	// ["LRUCache","put","put","get","put","get","put","get","get","get"]
+	// [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
+	// [null,null,null,1,null,-1,null,-1,3,4]
+	
+	#define USE_SOLUTION_CUSTOM
+	string _solution_custom(TestCases &tc)
+	{
+		vector<string> sf = tc.get<vector<string>>();
+		vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	
+		string ans = "[";
+		LRUCache *obj = nullptr;
+		for (size_t i = 0; i < sf.size(); i++)
+		{
+			if (sf[i] == "LRUCache")
+			{
+				obj = new LRUCache(param[i][0]);
+				ans += "null";
+			}
+			else if (sf[i] == "get")
+			{
+				int r = obj->get(param[i][0]);
+				ans += to_string(r);
+			}
+			else if (sf[i] == "put")
+			{
+				obj->put(param[i][0], param[i][1]);
+				ans += "null";
+			}
+			ans += ",";
+		}
+		ans.pop_back();
+		ans += "]";
+		return ans;
+	}
+	```
+	
+	```C++
+	// 环形链表
+	
+	#define USE_SOLUTION_CUSTOM
+	bool _solution_custom(TestCases &tc)
+	{
+		string a = tc.get<string>();
+		int b = tc.get<int>();
+		ListNode *head = StringIntToCycleListNode(a, b);
+		return hasCycle(head);
+	}
+	```
+	
+	```C++
+	// 相交链表
+	
+	#define USE_SOLUTION_CUSTOM
+	string _solution_custom(TestCases &tc)
+	{
+		string l1 = tc.get<string>();
+		string l2 = tc.get<string>();
+		int k1 = tc.get<int>();
+		int k2 = tc.get<int>();
+		ListNode *pA = nullptr;
+		ListNode *pB = nullptr;
+		StringIntToIntersectionNode(&pA, &pB, l1, l2, k1, k2);
+		ListNode *pNode = getIntersectionNode(pA, pB);
+		if (pNode == nullptr) return "null";
+		return to_string(pNode->val);
+	}
+	```
+	
+	

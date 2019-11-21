@@ -1,4 +1,4 @@
-# `（简单）`  [141.linked-list-cycle 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
+# `（简单）` [141.linked-list-cycle 环形链表](https://leetcode-cn.com/problems/linked-list-cycle/)
 
 ### 题目描述
 <p>给定一个链表，判断链表中是否有环。</p>

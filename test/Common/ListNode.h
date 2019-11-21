@@ -18,7 +18,8 @@ const ListNode *DetectCycle(const ListNode *pHead);
 string ListNodeToString(const ListNode *pHead);
 ListNode *StringToListNode(const string data);
 ListNode *StringToListNode(const string data, int iBeg, int iEnd);
-ListNode *InitCycleListNode(string strValList, int iCyclePos);
+ListNode *StringIntToCycleListNode(string strValList, int iCyclePos);
+void StringIntToIntersectionNode(ListNode **pHeadA, ListNode **pHeadB, string strListA, string strListB, int skipA, int skipB);
 
 struct ListNode
 {

@@ -1,28 +1,3 @@
-﻿// 146.lru-cache.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include "pch.h"
-#include <iostream>
-
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-#include <queue>
-#include <deque>
-#include <set>
-#include <stack>
-#include <list>
-#include <string>
-#include <random>
-#include <bitset>
-
-#include "..\Common\Common.h"
-//#include "..\Common\GraphNode.h"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.h"
-using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 //class LRUCache {
@@ -115,18 +90,54 @@ public:
  * obj->put(key,value);
  */
 
-int main()
-{
-	int capacity = 2;
-	LRUCache* obj = new LRUCache(capacity);
 
-	obj->put(1, 1);
-	obj->put(2, 2);
-	obj->get(1);
-	obj->put(3, 3);
-	obj->get(2);
-	obj->put(4, 4);
-	obj->get(1);
-	obj->get(3);
-	obj->get(4);
+//////////////////////////////////////////////////////////////////////////
+//void _solution_run(int key, int value)
+//{
+//	return put(key,value);
+//}
+
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
+{
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+
+	string ans = "[";
+	LRUCache *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
+	{
+		if (sf[i] == "LRUCache")
+		{
+			obj = new LRUCache(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "get")
+		{
+			int r = obj->get(param[i][0]);
+			ans += to_string(r);
+		}
+		else if (sf[i] == "put")
+		{
+			obj->put(param[i][0], param[i][1]);
+			ans += "null";
+		}
+		ans += ",";
+	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/lru-cache/tests.txt";
+}
+

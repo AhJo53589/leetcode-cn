@@ -1,4 +1,4 @@
-# `（中等）`  [173.binary-search-tree-iterator 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
+# `（中等）` [173.binary-search-tree-iterator 二叉搜索树迭代器](https://leetcode-cn.com/problems/binary-search-tree-iterator/)
 
 ### 题目描述
 <p>实现一个二叉搜索树迭代器。你将使用二叉搜索树的根节点初始化迭代器。</p>

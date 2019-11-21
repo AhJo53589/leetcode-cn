@@ -92,8 +92,11 @@
 | √ | 130 | [surrounded-regions](../../problems/surrounded-regions) | [被围绕的区域](../../problems/surrounded-regions/README.md) | [cpp](../../problems/surrounded-regions/SOLUTION.cpp) |   | 中等 |
 | √ | 134 | [gas-station](../../problems/gas-station) | [加油站](../../problems/gas-station/README.md) | [cpp](../../problems/gas-station/SOLUTION.cpp) |   | 中等 |
 | √ | 136 | [single-number](../../problems/single-number) | [只出现一次的数字](../../problems/single-number/README.md) | [cpp](../../problems/single-number/SOLUTION.cpp) |   | 简单 |
+| √ | 141 | [linked-list-cycle](../../problems/linked-list-cycle) | [环形链表](../../problems/linked-list-cycle/README.md) | [cpp](../../problems/linked-list-cycle/SOLUTION.cpp) |   | 简单 | 
+| √ | 142 | [linked-list-cycle-ii](../../problems/linked-list-cycle-ii) | [环形链表](../../problems/linked-list-cycle-ii/README.md) | [cpp](../../problems/linked-list-cycle-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 144 | [binary-tree-preorder-traversal](../../problems/binary-tree-preorder-traversal) | [二叉树的前序遍历](../../problems/binary-tree-preorder-traversal/README.md) | [cpp](../../problems/binary-tree-preorder-traversal/SOLUTION.cpp) |   | 中等 |
 | √ | 145 | [binary-tree-postorder-traversal](../../problems/binary-tree-postorder-traversal) | [二叉树的后序遍历](../../problems/binary-tree-postorder-traversal/README.md) | [cpp](../../problems/binary-tree-postorder-traversal/SOLUTION.cpp) |   | 困难 |
+| √ | 146 | [lru-cache](../../problems/lru-cache) | [LRU缓存机制](../../problems/lru-cache/README.md) | [cpp](../../problems/lru-cache/SOLUTION.cpp) |   | 中等 | 
 | √ | 148 | [sort-list](../../problems/sort-list) | [排序链表](../../problems/sort-list/README.md) | [cpp](../../problems/sort-list/SOLUTION.cpp) |   | 中等 |
 | √ | 149 | [max-points-on-a-line](../../problems/max-points-on-a-line) | [直线上最多的点数](../../problems/max-points-on-a-line/README.md) | [cpp](../../problems/max-points-on-a-line/SOLUTION.cpp) |   | 困难 |
 | √ | 150 | [evaluate-reverse-polish-notation](../../problems/evaluate-reverse-polish-notation) | [逆波兰表达式求值](../../problems/evaluate-reverse-polish-notation/README.md) | [cpp](../../problems/evaluate-reverse-polish-notation/SOLUTION.cpp) |   | 中等 |
@@ -101,12 +104,15 @@
 | √ | 152 | [maximum-product-subarray](../../problems/maximum-product-subarray) | [乘积最大子序列](../../problems/maximum-product-subarray/README.md) | [cpp](../../problems/maximum-product-subarray/SOLUTION.cpp) |   | 中等 |
 | √ | 153 | [find-minimum-in-rotated-sorted-array](../../problems/find-minimum-in-rotated-sorted-array) | [寻找旋转排序数组中的最小值](../../problems/find-minimum-in-rotated-sorted-array/README.md) | [cpp](../../problems/find-minimum-in-rotated-sorted-array/SOLUTION.cpp) |   | 中等 |
 | √ | 154 | [find-minimum-in-rotated-sorted-array-ii](../../problems/find-minimum-in-rotated-sorted-array-ii) | [寻找旋转排序数组中的最小值 II](../../problems/find-minimum-in-rotated-sorted-array-ii/README.md) | [cpp](../../problems/find-minimum-in-rotated-sorted-array-ii/SOLUTION.cpp) |   | 困难 |
+| √ | 155 | [min-stack](../../problems/min-stack) | [最小栈](../../problems/min-stack/README.md) | [cpp](../../problems/min-stack/SOLUTION.cpp) |   | 简单 | 
+| √ | 160 | [intersection-of-two-linked-lists](../../problems/intersection-of-two-linked-lists) | [相交链表](../../problems/intersection-of-two-linked-lists/README.md) | [cpp](../../problems/intersection-of-two-linked-lists/SOLUTION.cpp) |   | 简单 | 
 | √ | 162 | [find-peak-element](../../problems/find-peak-element) | [寻找峰值](../../problems/find-peak-element/README.md) | [cpp](../../problems/find-peak-element/SOLUTION.cpp) |   | 中等 |
 | √ | 166 | [fraction-to-recurring-decimal](../../problems/fraction-to-recurring-decimal) | [分数到小数](../../problems/fraction-to-recurring-decimal/README.md) | [cpp](../../problems/fraction-to-recurring-decimal/SOLUTION.cpp) |   | 中等 |
 | √ | 167 | [two-sum-ii-input-array-is-sorted](../../problems/two-sum-ii-input-array-is-sorted) | [两数之和](../../problems/two-sum-ii-input-array-is-sorted/README.md) | [cpp](../../problems/two-sum-ii-input-array-is-sorted/SOLUTION.cpp) |   | 简单 |
 | √ | 169 | [majority-element](../../problems/majority-element) | [求众数](../../problems/majority-element/README.md) | [cpp](../../problems/majority-element/SOLUTION.cpp) |   | 简单 |
 | √ | 171 | [excel-sheet-column-number](../../problems/excel-sheet-column-number) | [Excel表列序号](../../problems/excel-sheet-column-number/README.md) | [cpp](../../problems/excel-sheet-column-number/SOLUTION.cpp) |   | 简单 |
 | √ | 172 | [factorial-trailing-zeroes](../../problems/factorial-trailing-zeroes) | [阶乘后的零](../../problems/factorial-trailing-zeroes/README.md) | [cpp](../../problems/factorial-trailing-zeroes/SOLUTION.cpp) |   | 简单 |
+| √ | 173 | [binary-search-tree-iterator](../../problems/binary-search-tree-iterator) | [二叉搜索树迭代器](../../problems/binary-search-tree-iterator/README.md) | [cpp](../../problems/binary-search-tree-iterator/SOLUTION.cpp) |   | 中等 | 
 | √ | 179 | [largest-number](../../problems/largest-number) | [最大数](../../problems/largest-number/README.md) | [cpp](../../problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 |
 | √ | 189 | [rotate-array](../../problems/rotate-array) | [旋转数组](../../problems/rotate-array/README.md) | [cpp](../../problems/rotate-array/SOLUTION.cpp) |   | 简单 |
 | √ | 189 | [rotate-array](../../problems/rotate-array) | [旋转数组](../../problems/rotate-array/README.md) | [cpp](../../problems/rotate-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/rotate-array/solution/189-by-ikaruga/) | 简单 |
