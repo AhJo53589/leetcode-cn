@@ -4,6 +4,19 @@
 
 
 ---
+## 20191124
+* 5274.number-of-ways-to-stay-in-the-same-place-after-some-steps 停在原地的方案数
+
+* 5273.search-suggestions-system 搜索推荐系统
+
+* 5272.count-servers-that-communicate 统计参与通信的服务器
+
+* 5271.minimum-time-visiting-all-points 访问所有点的最小时间
+
+* 5271.minimum-time-visiting-all-points 访问所有点的最小时间
+
+
+---
 ## 20191118
 * 8.string-to-integer-atoi 字符串转换整数 (atoi)
 

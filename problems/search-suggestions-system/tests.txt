@@ -1,0 +1,12 @@
+["mobile","mouse","moneypot","monitor","mousepad"]
+mouse
+[["mobile","moneypot","monitor"],["mobile","moneypot","monitor"],["mouse","mousepad"],["mouse","mousepad"],["mouse","mousepad"]]
+["havana"]
+havana
+[["havana"],["havana"],["havana"],["havana"],["havana"],["havana"]]
+["bags","baggage","banner","box","cloths"]
+bags
+[["baggage","bags","banner"],["baggage","bags","banner"],["baggage","bags"],["bags"]]
+["havana"]
+tatiana
+[[],[],[],[],[],[],[]]
