@@ -58,8 +58,30 @@
 
 ### 答题
 ``` C++
-int numWays(int steps, int arrLen) {
-
+long long ans[510][510];
+int numWays(int steps, int arrLen)
+{
+	long long mod = 1000000007;
+	memset(ans, 0, sizeof(ans));
+	arrLen = min(arrLen, steps + 1);
+	ans[0][0] = 1;
+	for (int i = 1; i <= steps + 1; i++)
+	{
+		for (int j = 0; j < arrLen; j++)
+		{
+			ans[i][j] = ans[i - 1][j];
+			if (j != 0)
+			{
+				ans[i][j] += ans[i - 1][j - 1];
+			}
+			if (j != arrLen - 1)
+			{
+				ans[i][j] += ans[i - 1][j + 1];
+			}
+			ans[i][j] %= mod;
+		}
+	}
+	return ans[steps][0] % mod;
 }
 ```
 
