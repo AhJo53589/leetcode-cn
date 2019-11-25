@@ -55,6 +55,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/minimum-path-sum/tests.txt";
 }
 

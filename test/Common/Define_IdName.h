@@ -53,6 +53,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_60 	permutation-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_61 	rotate-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_62 	unique-paths
+#define SOLUTION_CPP_FOLDER_NAME_ID_64 	minimum-path-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_66 	plus-one
 #define SOLUTION_CPP_FOLDER_NAME_ID_67 	add-binary
 #define SOLUTION_CPP_FOLDER_NAME_ID_69 	sqrtx
@@ -177,6 +178,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_387 	first-unique-character-in-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_390 	elimination-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_392 	is-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_393 	utf-8-validation
 #define SOLUTION_CPP_FOLDER_NAME_ID_394 	decode-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
@@ -216,6 +218,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill
 #define SOLUTION_CPP_FOLDER_NAME_ID_739 	daily-temperatures
 #define SOLUTION_CPP_FOLDER_NAME_ID_744 	find-smallest-letter-greater-than-target
+#define SOLUTION_CPP_FOLDER_NAME_ID_746 	min-cost-climbing-stairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_747 	largest-number-at-least-twice-of-others
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones

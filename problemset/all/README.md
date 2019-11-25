@@ -53,6 +53,7 @@
 | √ | 60 | [permutation-sequence](../../problems/permutation-sequence) | [第k个排列](../../problems/permutation-sequence/README.md) | [cpp](../../problems/permutation-sequence/SOLUTION.cpp) |   | 中等 |
 | √ | 61 | [rotate-list](../../problems/rotate-list) | [旋转链表](../../problems/rotate-list/README.md) | [cpp](../../problems/rotate-list/SOLUTION.cpp) |   | 中等 |
 | √ | 62 | [unique-paths](../../problems/unique-paths) | [不同路径](../../problems/unique-paths/README.md) | [cpp](../../problems/unique-paths/SOLUTION.cpp) |   | 中等 |
+| √ | 64 | [minimum-path-sum](../../problems/minimum-path-sum) | [最小路径和](../../problems/minimum-path-sum/README.md) | [cpp](../../problems/minimum-path-sum/SOLUTION.cpp) |   | 中等 | 
 | √ | 66 | [plus-one](../../problems/plus-one) | [加一](../../problems/plus-one/README.md) | [cpp](../../problems/plus-one/SOLUTION.cpp) |   | 简单 |
 | √ | 67 | [add-binary](../../problems/add-binary) | [二进制求和](../../problems/add-binary/README.md) | [cpp](../../problems/add-binary/SOLUTION.cpp) |   | 简单 |
 | √ | 69 | [sqrtx](../../problems/sqrtx) | [x 的平方根](../../problems/sqrtx/README.md) | [cpp](../../problems/sqrtx/SOLUTION.cpp) |   | 简单 |
@@ -179,6 +180,7 @@
 | √ | 378 | [kth-smallest-element-in-a-sorted-matrix](../../problems/kth-smallest-element-in-a-sorted-matrix) | [有序矩阵中第K小的元素](../../problems/kth-smallest-element-in-a-sorted-matrix/README.md) | [cpp](../../problems/kth-smallest-element-in-a-sorted-matrix/SOLUTION.cpp) |   | 中等 |
 | √ | 387 | [first-unique-character-in-a-string](../../problems/first-unique-character-in-a-string) | [字符串中的第一个唯一字符](../../problems/first-unique-character-in-a-string/README.md) | [cpp](../../problems/first-unique-character-in-a-string/SOLUTION.cpp) |   | 简单 |
 | √ | 390 | [elimination-game](../../problems/elimination-game) | [消除游戏](../../problems/elimination-game/README.md) | [cpp](../../problems/elimination-game/SOLUTION.cpp) |   | 中等 |
+| √ | 392 | [is-subsequence](../../problems/is-subsequence) | [判断子序列](../../problems/is-subsequence/README.md) | [cpp](../../problems/is-subsequence/SOLUTION.cpp) |   | 简单 | 
 | √ | 393 | [utf-8-validation](../../problems/utf-8-validation) | [UTF-8 编码验证](../../problems/utf-8-validation/README.md) | [cpp](../../problems/utf-8-validation/SOLUTION.cpp) |   | 中等 |
 | √ | 394 | [decode-string](../../problems/decode-string) | [字符串解码](../../problems/decode-string/README.md) | [cpp](../../problems/decode-string/SOLUTION.cpp) |   | 中等 |
 | √ | 395 | [longest-substring-with-at-least-k-repeating-characters](../../problems/longest-substring-with-at-least-k-repeating-characters) | [至少有K个重复字符的最长子串](../../problems/longest-substring-with-at-least-k-repeating-characters/README.md) | [cpp](../../problems/longest-substring-with-at-least-k-repeating-characters/SOLUTION.cpp) |   | 中等 |
@@ -217,6 +219,7 @@
 | √ | 733 | [flood-fill](../../problems/flood-fill) | [图像渲染](../../problems/flood-fill/README.md) | [cpp](../../problems/flood-fill/SOLUTION.cpp) |   | 简单 | 
 | √ | 739 | [daily-temperatures](../../problems/daily-temperatures) | [每日温度](../../problems/daily-temperatures/README.md) | [cpp](../../problems/daily-temperatures/SOLUTION.cpp) |   | 中等 | 
 | √ | 744 | [find-smallest-letter-greater-than-target](../../problems/find-smallest-letter-greater-than-target) | [寻找比目标字母大的最小字母](../../problems/find-smallest-letter-greater-than-target/README.md) | [cpp](../../problems/find-smallest-letter-greater-than-target/SOLUTION.cpp) |   | 简单 | 
+| √ | 746 | [min-cost-climbing-stairs](../../problems/min-cost-climbing-stairs) | [使用最小花费爬楼梯](../../problems/min-cost-climbing-stairs/README.md) | [cpp](../../problems/min-cost-climbing-stairs/SOLUTION.cpp) |   | 简单 | 
 | √ | 747 | [largest-number-at-least-twice-of-others](../../problems/largest-number-at-least-twice-of-others) | [至少是其他数字两倍的最大数](../../problems/largest-number-at-least-twice-of-others/README.md) | [cpp](../../problems/largest-number-at-least-twice-of-others/SOLUTION.cpp) |   | 简单 | 
 | √ | 752 | [open-the-lock](../../problems/open-the-lock) | [打开转盘锁](../../problems/open-the-lock/README.md) | [cpp](../../problems/open-the-lock/SOLUTION.cpp) |   | 中等 | 
 | √ | 771 | [jewels-and-stones](../../problems/jewels-and-stones) | [宝石与石头](../../problems/jewels-and-stones/README.md) | [cpp](../../problems/jewels-and-stones/SOLUTION.cpp) |   | 简单 | 

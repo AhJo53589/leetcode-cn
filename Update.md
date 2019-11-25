@@ -5,6 +5,12 @@
 
 ---
 ## 20191125
+* 64.minimum-path-sum 最小路径和
+
+* 746.min-cost-climbing-stairs 使用最小花费爬楼梯
+
+* 392.is-subsequence 判断子序列
+
 * 495.teemo-attacking 提莫攻击
 
 
