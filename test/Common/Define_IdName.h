@@ -5,7 +5,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_4 	broken-board-dominoes
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus
 #define SOLUTION_CPP_FOLDER_NAME_ID_TEST_0	_test_0
-#define SOLUTION_CPP_FOLDER_NAME_ID_1	two-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_1 	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_4 	median-of-two-sorted-arrays
@@ -192,6 +192,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_461 	hamming-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_485 	max-consecutive-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_494 	target-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
 #define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii

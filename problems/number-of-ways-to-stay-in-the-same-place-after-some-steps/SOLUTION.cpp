@@ -1,49 +1,29 @@
 
-
-
 //////////////////////////////////////////////////////////////////////////
-long long ans[510][510];
 int numWays(int steps, int arrLen)
 {
-	long long mod = 1000000007;
-	memset(ans, 0, sizeof(ans));
-	arrLen = min(arrLen, steps + 1);
-	ans[0][0] = 1;
-	for (int i = 1; i <= steps + 1; i++)
+	const int mod = 1e9 + 7;
+	int dp[502][502];
+	memset(dp, 0, sizeof(dp));
+	arrLen = min(steps, arrLen);
+	dp[0][0] = 1;
+	for (size_t i = 1; i <= steps; i++)
 	{
-		for (int j = 0; j < arrLen; j++)
+		for (size_t j = 0; j < arrLen; j++)
 		{
-			ans[i][j] = ans[i - 1][j];
 			if (j != 0)
 			{
-				ans[i][j] += ans[i - 1][j - 1];
+				dp[i][j] += dp[i - 1][j - 1];
 			}
-			if (j != arrLen - 1)
-			{
-				ans[i][j] += ans[i - 1][j + 1];
-			}
-			ans[i][j] %= mod;
+			dp[i][j] += dp[i - 1][j];
+			dp[i][j] %= mod;
+			dp[i][j] += dp[i - 1][j + 1];
+			dp[i][j] %= mod;
 		}
 	}
-	return ans[steps][0] % mod;
+	return dp[steps][0];
 }
 
-//////////////////////////////////////////////////////////////////////////
-//long long dp[510][510];
-//int numWays(int steps, int arrLen)
-//{
-//	const int mod = 1e9 + 7;
-//	memset(dp, 0, sizeof(dp));
-//	dp[0][0] = 1;
-//	for (int i = 1; i <= steps; ++i) 
-//	{
-//		for (int j = 0; j < min(505, arrLen); ++j) 
-//		{
-//			dp[i][j] = j > 0 ? ((dp[i - 1][j - 1] + dp[i - 1][j + 1]) % mod) : (dp[i - 1][j + 1]);
-//			dp[i][j] = (dp[i][j] + dp[i - 1][j]) % mod;
-//		}
-//	}
-//}
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(int steps, int arrLen)
