@@ -5,6 +5,10 @@
 
 ---
 ## 20191126
+* 457.circular-array-loop 环形数组循环
+
+* 594.longest-harmonious-subsequence 最长和谐子序列
+
 * 788.rotated-digits 旋转数字
 
 

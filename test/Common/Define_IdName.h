@@ -191,6 +191,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_451 	sort-characters-by-frequency
 #define SOLUTION_CPP_FOLDER_NAME_ID_454 	4sum-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_455 	assign-cookies
+#define SOLUTION_CPP_FOLDER_NAME_ID_457 	circular-array-loop
 #define SOLUTION_CPP_FOLDER_NAME_ID_461 	hamming-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_485 	max-consecutive-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_494 	target-sum
@@ -204,6 +205,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees

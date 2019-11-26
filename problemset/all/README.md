@@ -193,6 +193,7 @@
 | √ | 451 | [sort-characters-by-frequency](../../problems/sort-characters-by-frequency) | [根据字符出现频率排序](../../problems/sort-characters-by-frequency/README.md) | [cpp](../../problems/sort-characters-by-frequency/SOLUTION.cpp) |   | 中等 |
 | √ | 454 | [4sum-ii](../../problems/4sum-ii) | [四数相加 II](../../problems/4sum-ii/README.md) | [cpp](../../problems/4sum-ii/SOLUTION.cpp) |   | 中等 |
 | √ | 455 | [assign-cookies](../../problems/assign-cookies) | [分发饼干](../../problems/assign-cookies/README.md) | [cpp](../../problems/assign-cookies/SOLUTION.cpp) |   | 简单 |
+| √ | 457 | [circular-array-loop](../../problems/circular-array-loop) | [环形数组循环](../../problems/circular-array-loop/README.md) | [cpp](../../problems/circular-array-loop/SOLUTION.cpp) |   | 中等 | 
 | √ | 461 | [hamming-distance](../../problems/hamming-distance) | [汉明距离](../../problems/hamming-distance/README.md) | [cpp](../../problems/hamming-distance/SOLUTION.cpp) |   | 简单 |
 | √ | 485 | [max-consecutive-ones](../../problems/max-consecutive-ones) | [最大连续1的个数](../../problems/max-consecutive-ones/README.md) | [cpp](../../problems/max-consecutive-ones/SOLUTION.cpp) |   | 简单 |
 | √ | 494 | [target-sum](../../problems/target-sum) | [目标和](../../problems/target-sum/README.md) | [cpp](../../problems/target-sum/SOLUTION.cpp) |   | 中等 |
@@ -205,6 +206,7 @@
 | √ | 557 | [reverse-words-in-a-string-iii](../../problems/reverse-words-in-a-string-iii) | [反转字符串中的单词 III](../../problems/reverse-words-in-a-string-iii/README.md) | [cpp](../../problems/reverse-words-in-a-string-iii/SOLUTION.cpp) |   | 简单 |
 | √ | 561 | [array-partition-i](../../problems/array-partition-i) | [数组拆分 I](../../problems/array-partition-i/README.md) | [cpp](../../problems/array-partition-i/SOLUTION.cpp) |   | 简单 |
 | √ | 567 | [permutation-in-string](../../problems/permutation-in-string) | [字符串的排列](../../problems/permutation-in-string/README.md) | [cpp](../../problems/permutation-in-string/SOLUTION.cpp) |   | 中等 |
+| √ | 594 | [longest-harmonious-subsequence](../../problems/longest-harmonious-subsequence) | [最长和谐子序列](../../problems/longest-harmonious-subsequence/README.md) | [cpp](../../problems/longest-harmonious-subsequence/SOLUTION.cpp) |   | 简单 | 
 | √ | 599 | [minimum-index-sum-of-two-lists](../../problems/minimum-index-sum-of-two-lists) | [两个列表的最小索引总和](../../problems/minimum-index-sum-of-two-lists/README.md) | [cpp](../../problems/minimum-index-sum-of-two-lists/SOLUTION.cpp) |   | 简单 |
 | √ | 621 | [task-scheduler](../../problems/task-scheduler) | [任务调度器](../../problems/task-scheduler/README.md) | [cpp](../../problems/task-scheduler/SOLUTION.cpp) |   | 中等 |
 | √ | 652 | [find-duplicate-subtrees](../../problems/find-duplicate-subtrees) | [寻找重复的子树](../../problems/find-duplicate-subtrees/README.md) | [cpp](../../problems/find-duplicate-subtrees/SOLUTION.cpp) |   | 中等 |
