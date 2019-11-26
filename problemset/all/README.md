@@ -224,6 +224,7 @@
 | √ | 752 | [open-the-lock](../../problems/open-the-lock) | [打开转盘锁](../../problems/open-the-lock/README.md) | [cpp](../../problems/open-the-lock/SOLUTION.cpp) |   | 中等 | 
 | √ | 771 | [jewels-and-stones](../../problems/jewels-and-stones) | [宝石与石头](../../problems/jewels-and-stones/README.md) | [cpp](../../problems/jewels-and-stones/SOLUTION.cpp) |   | 简单 | 
 | √ | 779 | [k-th-symbol-in-grammar](../../problems/k-th-symbol-in-grammar) | [第K个语法符号](../../problems/k-th-symbol-in-grammar/README.md) | [cpp](../../problems/k-th-symbol-in-grammar/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)  | 中等 | 
+| √ | 788 | [rotated-digits](../../problems/rotated-digits) | [旋转数字](../../problems/rotated-digits/README.md) | [cpp](../../problems/rotated-digits/SOLUTION.cpp) |   | 简单 | 
 | √ | 841 | [keys-and-rooms](../../problems/keys-and-rooms) | [钥匙和房间](../../problems/keys-and-rooms/README.md) | [cpp](../../problems/keys-and-rooms/SOLUTION.cpp) |   | 中等 | 
 | √ | 887 | [super-egg-drop](../../problems/super-egg-drop) | [鸡蛋掉落](../../problems/super-egg-drop/README.md) | [cpp](../../problems/super-egg-drop/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) | 困难 | 
 | √ | 912 | [sort-an-array](../../problems/sort-an-array) | [排序数组](../../problems/sort-an-array/README.md) | [cpp](../../problems/sort-an-array/SOLUTION.cpp) |   | 中等 | 

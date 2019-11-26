@@ -223,6 +223,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
+#define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
