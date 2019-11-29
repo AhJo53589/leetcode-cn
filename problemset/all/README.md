@@ -82,6 +82,7 @@
 | √ | 110 | [balanced-binary-tree](../../problems/balanced-binary-tree) | [平衡二叉树](../../problems/balanced-binary-tree/README.md) | [cpp](../../problems/balanced-binary-tree/SOLUTION.cpp) |   | 简单 |
 | √ | 111 | [minimum-depth-of-binary-tree](../../problems/minimum-depth-of-binary-tree) | [二叉树的最小深度](../../problems/minimum-depth-of-binary-tree/README.md) | [cpp](../../problems/minimum-depth-of-binary-tree/SOLUTION.cpp) |   | 简单 |
 | √ | 112 | [path-sum](../../problems/path-sum) | [路径总和](../../problems/path-sum/README.md) | [cpp](../../problems/path-sum/SOLUTION.cpp) |   | 简单 |
+| √ | 113 | [path-sum-ii](../../problems/path-sum-ii) | [路径总和 II](../../problems/path-sum-ii/README.md) | [cpp](../../problems/path-sum-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 118 | [pascals-triangle](../../problems/pascals-triangle) | [杨辉三角](../../problems/pascals-triangle/README.md) | [cpp](../../problems/pascals-triangle/SOLUTION.cpp) |   | 简单 |
 | √ | 119 | [pascals-triangle-ii](../../problems/pascals-triangle-ii) | [杨辉三角 II](../../problems/pascals-triangle-ii/README.md) | [cpp](../../problems/pascals-triangle-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 120 | [triangle](../../problems/triangle) | [三角形最小路径和](../../problems/triangle/README.md) | [cpp](../../problems/triangle/SOLUTION.cpp) |   | 中等 |

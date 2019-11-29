@@ -82,6 +82,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_110 	balanced-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_111 	minimum-depth-of-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_112 	path-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_113 	path-sum-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_118 	pascals-triangle
 #define SOLUTION_CPP_FOLDER_NAME_ID_119 	pascals-triangle-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_120 	triangle
