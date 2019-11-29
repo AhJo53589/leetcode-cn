@@ -5,6 +5,8 @@
 
 ---
 ## 20191129
+* 687.longest-univalue-path 最长同值路径
+
 * 113.path-sum-ii 路径总和 II
 
 * 463.island-perimeter 岛屿的周长
