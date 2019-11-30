@@ -278,6 +278,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1261 	find-elements-in-a-contaminated-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_1262 	greatest-sum-divisible-by-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_1263 	minimum-moves-to-move-a-box-to-their-target-location
+#define SOLUTION_CPP_FOLDER_NAME_ID_5112 	hexspeak
+#define SOLUTION_CPP_FOLDER_NAME_ID_5113 	remove-interval
+#define SOLUTION_CPP_FOLDER_NAME_ID_5114 	delete-tree-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5136 	number-of-ships-in-a-rectangle
 #define SOLUTION_CPP_FOLDER_NAME_ID_5271 	minimum-time-visiting-all-points
 #define SOLUTION_CPP_FOLDER_NAME_ID_5271 	minimum-time-visiting-all-points
 #define SOLUTION_CPP_FOLDER_NAME_ID_5272 	count-servers-that-communicate

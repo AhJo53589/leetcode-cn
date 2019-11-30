@@ -4,7 +4,18 @@
 
 
 ---
+## 20191201
+* 5136.number-of-ships-in-a-rectangle 矩形内船只的数目
+
+* 5114.delete-tree-nodes 删除树节点
+
+
+---
 ## 20191130
+* 5113.remove-interval 删除区间
+
+* 5112.hexspeak 十六进制魔术数字
+
 * 670.maximum-swap 最大交换
 
 
