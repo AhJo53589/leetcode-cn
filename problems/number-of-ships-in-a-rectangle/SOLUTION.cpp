@@ -1,5 +1,38 @@
 
+/**
+ * // This is Sea's API interface.
+ * // You should not implement it, or speculate about its implementation
+ * class Sea {
+ *   public:
+ *     bool hasShips(vector<int> topRight, vector<int> bottomLeft);
+ * };
+ */
+class Sea
+{
+public:
+	Sea(vector<vector<int>> ships) : m_ships(ships), m_cnt(0) {}
 
+	bool hasShips(vector<int> topRight, vector<int> bottomLeft)
+	{
+		m_cnt++;
+
+		for (auto s : m_ships)
+		{
+			if (s[0] >= bottomLeft[0] && s[0] <= topRight[0]
+				&& s[1] >= bottomLeft[1] && s[1] <= topRight[1])
+			{
+				return true;
+			}
+		}
+		return false;
+	}
+
+	int getCount() { return m_cnt; }
+
+private:
+	vector<vector<int>> m_ships;
+	int m_cnt;
+};
 
 //////////////////////////////////////////////////////////////////////////
 int countShips(Sea sea, vector<int> topRight, vector<int> bottomLeft)
@@ -20,15 +53,18 @@ int countShips(Sea sea, vector<int> topRight, vector<int> bottomLeft)
 }
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(Sea sea, vector<int> topRight, vector<int> bottomLeft)
-{
-	return countShips(sea,topRight,bottomLeft);
-}
-
-//#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
+//int _solution_run(Sea sea, vector<int> topRight, vector<int> bottomLeft)
 //{
+//	return countShips(sea,topRight,bottomLeft);
 //}
+
+#define USE_SOLUTION_CUSTOM
+int _solution_custom(TestCases &tc)
+{
+	Sea sea(tc.get<vector<vector<int>>>());
+	int ans = countShips(sea, tc.get<vector<int>>(), tc.get<vector<int>>());
+	return (sea.getCount() < 400) ? ans : -1;
+}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()
