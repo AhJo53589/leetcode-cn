@@ -5,6 +5,14 @@
 
 ---
 ## 20191201
+* 5278.palindrome-partitioning-iii 分割回文串 III
+
+* 5277.count-square-submatrices-with-all-ones 统计全为 1 的正方形子矩阵
+
+* 5276.number-of-burgers-with-no-waste-of-ingredients 不浪费原料的汉堡制作方案
+
+* 5275.find-winner-on-a-tic-tac-toe-game 找出井字棋的获胜者
+
 * 5136.number-of-ships-in-a-rectangle 矩形内船只的数目
 
 * 5114.delete-tree-nodes 删除树节点

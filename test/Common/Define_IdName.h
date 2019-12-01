@@ -287,3 +287,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5272 	count-servers-that-communicate
 #define SOLUTION_CPP_FOLDER_NAME_ID_5273 	search-suggestions-system
 #define SOLUTION_CPP_FOLDER_NAME_ID_5274 	number-of-ways-to-stay-in-the-same-place-after-some-steps
+#define SOLUTION_CPP_FOLDER_NAME_ID_5275 	find-winner-on-a-tic-tac-toe-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_5276 	number-of-burgers-with-no-waste-of-ingredients
+#define SOLUTION_CPP_FOLDER_NAME_ID_5277 	count-square-submatrices-with-all-ones
+#define SOLUTION_CPP_FOLDER_NAME_ID_5278 	palindrome-partitioning-iii
