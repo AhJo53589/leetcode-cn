@@ -1,54 +1,55 @@
 
 
+//////////////////////////////////////////////////////////////////////////
+//int getMoneyAmount(int n) {
+//	vector<vector<int> > dp(n + 1, vector<int>(n + 1, INT_MAX));
+//	for (int i = 0; i <= n; ++i) {
+//		dp[i][i] = 0;
+//	}
+//	for (int len = 2; len <= n; ++len) {
+//		for (int i = 1; i <= n && i + len - 1 <= n; ++i) {
+//			int j = i + len - 1;
+//			dp[i][j] = min(i + dp[i + 1][j], j + dp[i][j - 1]);
+//			for (int k = i + 1; k < j; ++k) {
+//				dp[i][j] = min(dp[i][j], k + max(dp[i][k - 1], dp[k + 1][j]));
+//			}
+//		}
+//	}
+//	return dp[1][n];
+//}
 
 //////////////////////////////////////////////////////////////////////////
-int change(string &s, int left, int right)
+int calc(map<vector<int>, int>& cache, int low, int high)
 {
-	int ret = 0;
-	while (left < right) 
+	if (low >= high) return 0;
+	if (low + 1 == high) return low;
+
+	if (cache.count({ low, high }) != 0)
 	{
-		if (s[left++] != s[right--]) 
-		{
-			ret++;
-		}
+		return cache[{low, high}];
 	}
-	return ret;
+
+	int ans = INT_MAX;
+	for (int i = (low + high) / 2; i <= high; i++)
+	{
+		int r = i + max(calc(cache, low, i - 1), calc(cache, i + 1, high));
+		ans = min(ans, r);
+	}
+	cache[{low, high}] = ans;
+	return ans;
 }
 
-int palindromePartition(string s, int k) 
+int getMoneyAmount(int n) 
 {
-	vector<vector<int>> dp = vector<vector<int>>(k + 1, vector<int>(s.size() + 1, -1));
-	dp[0][0] = 0;
-	for (int j = 1; j <= s.size(); j++) 
-	{
-		for (int p = 0; p < j; p++)
-		{
-			int cache = change(s, p, j - 1);
-			for (int i = 1; i <= k; i++) 
-			{
-				if (dp[i - 1][p] == -1) 
-				{
-					continue;
-				}
-				int sub = dp[i - 1][p] + cache;
-				if (dp[i][j] == -1) 
-				{
-					dp[i][j] = sub;
-				}
-				else
-				{
-					dp[i][j] = min(dp[i][j], sub);
-				}
-			}
-		}
-	}
-	return dp[k][s.size()];
+	map<vector<int>, int> cache;
+	return calc(cache, 1, n);
 }
+
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(string s, int k)
+int _solution_run(int n)
 {
-	return palindromePartition(s,k);
+	return getMoneyAmount(n);
 }
 
 //#define USE_SOLUTION_CUSTOM
