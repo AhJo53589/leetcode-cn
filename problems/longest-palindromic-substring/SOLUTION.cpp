@@ -1,4 +1,5 @@
 
+//////////////////////////////////////////////////////////////////////////
 void findPalindrome(string s, int &low, int &high)
 {
 	while (s[low] == s[high])
@@ -11,8 +12,6 @@ void findPalindrome(string s, int &low, int &high)
 	high--;
 }
 
-
-//////////////////////////////////////////////////////////////////////////
 string longestPalindrome(string s)
 {
 	if (s.size() == 1) return s;
