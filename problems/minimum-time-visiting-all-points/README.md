@@ -1,4 +1,4 @@
-# `（简单）` [5271.minimum-time-visiting-all-points 访问所有点的最小时间](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)
+# `（简单）` [1266.minimum-time-visiting-all-points 访问所有点的最小时间](https://leetcode-cn.com/problems/minimum-time-visiting-all-points/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-164/problems/minimum-time-visiting-all-points/)
 

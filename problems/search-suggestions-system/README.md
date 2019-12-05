@@ -1,4 +1,4 @@
-# `（中等）` [5273.search-suggestions-system 搜索推荐系统](https://leetcode-cn.com/problems/search-suggestions-system/)
+# `（中等）` [1268.search-suggestions-system 搜索推荐系统](https://leetcode-cn.com/problems/search-suggestions-system/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-164/problems/search-suggestions-system/)
 

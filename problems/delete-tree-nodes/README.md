@@ -1,4 +1,4 @@
-# `（中等）` [5114.delete-tree-nodes 删除树节点](https://leetcode-cn.com/problems/delete-tree-nodes/)
+# `（中等）` [1273.delete-tree-nodes 删除树节点](https://leetcode-cn.com/problems/delete-tree-nodes/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-14/problems/delete-tree-nodes/)
 

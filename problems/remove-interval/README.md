@@ -1,4 +1,4 @@
-# `（中等）` [5113.remove-interval 删除区间](https://leetcode-cn.com/problems/remove-interval/)
+# `（中等）` [1272.remove-interval 删除区间](https://leetcode-cn.com/problems/remove-interval/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-14/problems/remove-interval/)
 

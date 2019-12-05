@@ -1,4 +1,4 @@
-# `（中等）` [5277.count-square-submatrices-with-all-ones 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)
+# `（中等）` [1277.count-square-submatrices-with-all-ones 统计全为 1 的正方形子矩阵](https://leetcode-cn.com/problems/count-square-submatrices-with-all-ones/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-165/problems/count-square-submatrices-with-all-ones/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5275.find-winner-on-a-tic-tac-toe-game 找出井字棋的获胜者](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/)
+# `（简单）` [1275.find-winner-on-a-tic-tac-toe-game 找出井字棋的获胜者](https://leetcode-cn.com/problems/find-winner-on-a-tic-tac-toe-game/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-165/problems/find-winner-on-a-tic-tac-toe-game/)
 

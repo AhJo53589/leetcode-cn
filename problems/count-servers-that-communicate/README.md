@@ -1,4 +1,4 @@
-# `（中等）` [5272.count-servers-that-communicate 统计参与通信的服务器](https://leetcode-cn.com/problems/count-servers-that-communicate/)
+# `（中等）` [1267.count-servers-that-communicate 统计参与通信的服务器](https://leetcode-cn.com/problems/count-servers-that-communicate/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-164/problems/count-servers-that-communicate/)
 

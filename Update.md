@@ -5,24 +5,24 @@
 
 ---
 ## 20191201
-* 5278.palindrome-partitioning-iii 分割回文串 III
+* 1278.palindrome-partitioning-iii 分割回文串 III
 
-* 5277.count-square-submatrices-with-all-ones 统计全为 1 的正方形子矩阵
+* 1277.count-square-submatrices-with-all-ones 统计全为 1 的正方形子矩阵
 
-* 5276.number-of-burgers-with-no-waste-of-ingredients 不浪费原料的汉堡制作方案
+* 1276.number-of-burgers-with-no-waste-of-ingredients 不浪费原料的汉堡制作方案
 
-* 5275.find-winner-on-a-tic-tac-toe-game 找出井字棋的获胜者
+* 1275.find-winner-on-a-tic-tac-toe-game 找出井字棋的获胜者
 
-* 5136.number-of-ships-in-a-rectangle 矩形内船只的数目
+* 1274.number-of-ships-in-a-rectangle 矩形内船只的数目
 
-* 5114.delete-tree-nodes 删除树节点
+* 1273.delete-tree-nodes 删除树节点
 
 
 ---
 ## 20191130
-* 5113.remove-interval 删除区间
+* 1272.remove-interval 删除区间
 
-* 5112.hexspeak 十六进制魔术数字
+* 1271.hexspeak 十六进制魔术数字
 
 * 670.maximum-swap 最大交换
 
@@ -60,15 +60,13 @@
 
 ---
 ## 20191124
-* 5274.number-of-ways-to-stay-in-the-same-place-after-some-steps 停在原地的方案数
+* 1269.number-of-ways-to-stay-in-the-same-place-after-some-steps 停在原地的方案数
 
-* 5273.search-suggestions-system 搜索推荐系统
+* 1268.search-suggestions-system 搜索推荐系统
 
-* 5272.count-servers-that-communicate 统计参与通信的服务器
+* 1267.count-servers-that-communicate 统计参与通信的服务器
 
-* 5271.minimum-time-visiting-all-points 访问所有点的最小时间
-
-* 5271.minimum-time-visiting-all-points 访问所有点的最小时间
+* 1266.minimum-time-visiting-all-points 访问所有点的最小时间
 
 
 ---

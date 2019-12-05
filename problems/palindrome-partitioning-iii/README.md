@@ -1,4 +1,4 @@
-# `（困难）` [5278.palindrome-partitioning-iii 分割回文串 III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/)
+# `（困难）` [1278.palindrome-partitioning-iii 分割回文串 III](https://leetcode-cn.com/problems/palindrome-partitioning-iii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-165/problems/palindrome-partitioning-iii/)
 

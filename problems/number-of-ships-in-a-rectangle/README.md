@@ -1,4 +1,4 @@
-# `（困难）` [5136.number-of-ships-in-a-rectangle 矩形内船只的数目](https://leetcode-cn.com/problems/number-of-ships-in-a-rectangle/)
+# `（困难）` [1274.number-of-ships-in-a-rectangle 矩形内船只的数目](https://leetcode-cn.com/problems/number-of-ships-in-a-rectangle/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-14/problems/number-of-ships-in-a-rectangle/)
 

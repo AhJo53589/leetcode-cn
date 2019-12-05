@@ -1,4 +1,4 @@
-# `（困难）` [5274.number-of-ways-to-stay-in-the-same-place-after-some-steps 停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)
+# `（困难）` [1269.number-of-ways-to-stay-in-the-same-place-after-some-steps 停在原地的方案数](https://leetcode-cn.com/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-164/problems/number-of-ways-to-stay-in-the-same-place-after-some-steps/)
 

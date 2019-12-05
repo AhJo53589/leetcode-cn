@@ -1,4 +1,4 @@
-# `（中等）` [5276.number-of-burgers-with-no-waste-of-ingredients 不浪费原料的汉堡制作方案](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/)
+# `（中等）` [1276.number-of-burgers-with-no-waste-of-ingredients 不浪费原料的汉堡制作方案](https://leetcode-cn.com/problems/number-of-burgers-with-no-waste-of-ingredients/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-165/problems/number-of-burgers-with-no-waste-of-ingredients/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5112.hexspeak 十六进制魔术数字](https://leetcode-cn.com/problems/hexspeak/)
+# `（简单）` [1271.hexspeak 十六进制魔术数字](https://leetcode-cn.com/problems/hexspeak/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-14/problems/hexspeak/)
 
