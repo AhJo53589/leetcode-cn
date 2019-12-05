@@ -116,7 +116,7 @@ TreeNode * StringToTreeNode(string data)
 
 string TreeNodeToString(const TreeNode * root)
 {
-	string str;
+	string str = "[";
 	queue<const TreeNode *> qTree;
 	qTree.push(root);
 
@@ -144,6 +144,7 @@ string TreeNodeToString(const TreeNode * root)
 		else break;
 	}
 	str = str.substr(0, len);
+	str += "]";
 	return str;
 }
 

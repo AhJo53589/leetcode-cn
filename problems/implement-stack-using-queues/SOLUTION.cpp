@@ -1,22 +1,7 @@
-﻿// 225.implement-stack-using-queues.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include "pch.h"
-#include <iostream>
-
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <vector>
-#include <queue>
-#include <set>
-#include <stack>
-#include <string>
-#include <random>
 
 
-using namespace std;
 
+//////////////////////////////////////////////////////////////////////////
 class MyStack
 {
 public:
@@ -81,18 +66,8 @@ private:
 	bool m_topMark;
 };
 
-/**
- * Your MyStack object will be instantiated and called as such:
- * MyStack* obj = new MyStack();
- * obj->push(x);
- * int param_2 = obj->pop();
- * int param_3 = obj->top();
- * bool param_4 = obj->empty();
- */
 
-
-
-
+//////////////////////////////////////////////////////////////////////////
  //class MyStack {
  //public:
  //	/** Initialize your data structure here. */
@@ -137,23 +112,63 @@ private:
   * int param_3 = obj->top();
   * bool param_4 = obj->empty();
   */
+//////////////////////////////////////////////////////////////////////////
+//void _solution_run(int x)
+//{
+//	return push(x);
+//}
 
-
-
-
-int main()
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-	MyStack* obj = new MyStack();
-	for (int i = 0; i < 5; i++)
-	{
-		obj->push(i);
-		cout << "push " << i << endl;
-	}
-	cout << "pop " << obj->pop() << endl;
-	cout << "top " << obj->top() << endl;
-	cout << "pop " << obj->pop() << endl;
-	cout << "pop " << obj->pop() << endl;
-	cout << "pop " << obj->pop() << endl;
-	cout << "empty " << obj->empty() << endl;
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
 
+	string ans = "[";
+	MyStack *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
+	{
+		if (sf[i] == "MyStack")
+		{
+			obj = new MyStack();
+			ans += "null";
+		}
+		else if (sf[i] == "push")
+		{
+			obj->push(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "top")
+		{
+			int r = obj->top();
+			ans += to_string(r);
+		}
+		else if (sf[i] == "pop")
+		{
+			int r = obj->pop();
+			ans += to_string(r);
+		}
+		else if (sf[i] == "empty")
+		{
+			bool r = obj->empty();
+			ans += r ? "true" : "false";
+		}
+		ans += ",";
+	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/_test_0/tests.txt";
+}
+

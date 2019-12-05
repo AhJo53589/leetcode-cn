@@ -25,6 +25,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_20 	valid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_21 	merge-two-sorted-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_22 	generate-parentheses
+#define SOLUTION_CPP_FOLDER_NAME_ID_23 	merge-k-sorted-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_24 	swap-nodes-in-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_26 	remove-duplicates-from-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_27 	remove-element
@@ -136,10 +137,12 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_220 	contains-duplicate-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_221 	maximal-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_222 	count-complete-tree-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_225 	implement-stack-using-queues
 #define SOLUTION_CPP_FOLDER_NAME_ID_226 	invert-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_227 	basic-calculator-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_230 	kth-smallest-element-in-a-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_231 	power-of-two
+#define SOLUTION_CPP_FOLDER_NAME_ID_232 	implement-queue-using-stacks
 #define SOLUTION_CPP_FOLDER_NAME_ID_234 	palindrome-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_235 	lowest-common-ancestor-of-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_236 	lowest-common-ancestor-of-a-binary-tree
@@ -157,6 +160,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_289 	game-of-life
 #define SOLUTION_CPP_FOLDER_NAME_ID_290 	word-pattern
 #define SOLUTION_CPP_FOLDER_NAME_ID_292 	nim-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_297 	serialize-and-deserialize-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_300 	longest-increasing-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_303 	range-sum-query-immutable
 #define SOLUTION_CPP_FOLDER_NAME_ID_304 	range-sum-query-2d-immutable
@@ -177,6 +181,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
+#define SOLUTION_CPP_FOLDER_NAME_ID_384 	shuffle-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_387 	first-unique-character-in-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_390 	elimination-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_392 	is-subsequence

@@ -1,4 +1,4 @@
-# `（困难）`  [23.merge-k-sorted-lists 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
+# `（困难）` [23.merge-k-sorted-lists 合并K个排序链表](https://leetcode-cn.com/problems/merge-k-sorted-lists/)
 
 ### 题目描述
 <p>合并&nbsp;<em>k&nbsp;</em>个排序链表，返回合并后的排序链表。请分析和描述算法的复杂度。</p>

@@ -1,4 +1,4 @@
-# `（简单）`  [232.implement-queue-using-stacks  用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
+# `（简单）` [232.implement-queue-using-stacks  用栈实现队列](https://leetcode-cn.com/problems/implement-queue-using-stacks/)
 
 ### 题目描述
 <p>使用栈实现队列的下列操作：</p>

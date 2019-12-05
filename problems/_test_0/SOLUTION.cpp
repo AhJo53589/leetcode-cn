@@ -1,61 +1,164 @@
 
 
+
 //////////////////////////////////////////////////////////////////////////
-//int getMoneyAmount(int n) {
-//	vector<vector<int> > dp(n + 1, vector<int>(n + 1, INT_MAX));
-//	for (int i = 0; i <= n; ++i) {
-//		dp[i][i] = 0;
-//	}
-//	for (int len = 2; len <= n; ++len) {
-//		for (int i = 1; i <= n && i + len - 1 <= n; ++i) {
-//			int j = i + len - 1;
-//			dp[i][j] = min(i + dp[i + 1][j], j + dp[i][j - 1]);
-//			for (int k = i + 1; k < j; ++k) {
-//				dp[i][j] = min(dp[i][j], k + max(dp[i][k - 1], dp[k + 1][j]));
-//			}
-//		}
-//	}
-//	return dp[1][n];
+class MyStack
+{
+public:
+	/** Initialize your data structure here. */
+	MyStack()
+		: m_topMark(true)
+	{
+
+	}
+
+	/** Push element x onto stack. */
+	void push(int x)
+	{
+		queue<int> *pTop = m_topMark ? &m_dataA : &m_dataB;
+		queue<int> *pBase = m_topMark ? &m_dataB : &m_dataA;
+		if (!pTop->empty())
+		{
+			pBase->push(pTop->front());
+			pTop->pop();
+		}
+		pTop->push(x);
+	}
+
+	/** Removes the element on top of the stack and returns that element. */
+	int pop()
+	{
+		int i = top();
+
+		queue<int> *pTop = m_topMark ? &m_dataA : &m_dataB;
+
+		pTop->pop();
+		return i;
+	}
+
+	/** Get the top element. */
+	int top()
+	{
+		queue<int> *pTop = m_topMark ? &m_dataA : &m_dataB;
+		queue<int> *pBase = m_topMark ? &m_dataB : &m_dataA;
+
+		if (!pTop->empty()) return pTop->front();
+
+		for (int i = 0; i < pBase->size() - 1; i++)
+		{
+			pTop->push(pBase->front());
+			pBase->pop();
+		}
+		m_topMark = !m_topMark;
+
+		return pBase->front();
+	}
+
+	/** Returns whether the stack is empty. */
+	bool empty()
+	{
+		return m_dataA.empty() && m_dataB.empty();
+	}
+
+private:
+	queue<int> m_dataA;
+	queue<int> m_dataB;
+	bool m_topMark;
+};
+
+
+//////////////////////////////////////////////////////////////////////////
+ //class MyStack {
+ //public:
+ //	/** Initialize your data structure here. */
+ //	MyStack() {
+ //	}
+ //
+ //	/** Push element x onto stack. */
+ //	void push(int x) {
+ //		q.push(x);
+ //		for (int i = 0; i < q.size() - 1; i++)
+ //		{
+ //			q.push(q.front());
+ //			q.pop();
+ //		}
+ //	}
+ //
+ //	/** Removes the element on top of the stack and returns that element. */
+ //	int pop() {
+ //		int ret = q.front();
+ //		q.pop();
+ //		return ret;
+ //	}
+ //
+ //	/** Get the top element. */
+ //	int top() {
+ //		return q.front();
+ //	}
+ //
+ //	/** Returns whether the stack is empty. */
+ //	bool empty() {
+ //		return q.empty();
+ //	}
+ //private:
+ //	queue<int> q;
+ //};
+
+ /**
+  * Your MyStack object will be instantiated and called as such:
+  * MyStack* obj = new MyStack();
+  * obj->push(x);
+  * int param_2 = obj->pop();
+  * int param_3 = obj->top();
+  * bool param_4 = obj->empty();
+  */
+//////////////////////////////////////////////////////////////////////////
+//void _solution_run(int x)
+//{
+//	return push(x);
 //}
 
-//////////////////////////////////////////////////////////////////////////
-int calc(map<vector<int>, int>& cache, int low, int high)
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-	if (low >= high) return 0;
-	if (low + 1 == high) return low;
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
 
-	if (cache.count({ low, high }) != 0)
+	string ans = "[";
+	MyStack *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
 	{
-		return cache[{low, high}];
+		if (sf[i] == "MyStack")
+		{
+			obj = new MyStack();
+			ans += "null";
+		}
+		else if (sf[i] == "push")
+		{
+			obj->push(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "top")
+		{
+			int r = obj->top();
+			ans += to_string(r);
+		}
+		else if (sf[i] == "pop")
+		{
+			int r = obj->pop();
+			ans += to_string(r);
+		}
+		else if (sf[i] == "empty")
+		{
+			bool r = obj->empty();
+			ans += r ? "true" : "false";
+		}
+		ans += ",";
 	}
-
-	int ans = INT_MAX;
-	for (int i = (low + high) / 2; i <= high; i++)
-	{
-		int r = i + max(calc(cache, low, i - 1), calc(cache, i + 1, high));
-		ans = min(ans, r);
-	}
-	cache[{low, high}] = ans;
+	ans.pop_back();
+	ans += "]";
 	return ans;
 }
-
-int getMoneyAmount(int n) 
-{
-	map<vector<int>, int> cache;
-	return calc(cache, 1, n);
-}
-
-
-//////////////////////////////////////////////////////////////////////////
-int _solution_run(int n)
-{
-	return getMoneyAmount(n);
-}
-
-//#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
-//{
-//}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()

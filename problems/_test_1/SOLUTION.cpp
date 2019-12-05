@@ -1,23 +1,50 @@
 
 
+//////////////////////////////////////////////////////////////////////////
+//int getMoneyAmount(int n) {
+//	vector<vector<int> > dp(n + 1, vector<int>(n + 1, INT_MAX));
+//	for (int i = 0; i <= n; ++i) {
+//		dp[i][i] = 0;
+//	}
+//	for (int len = 2; len <= n; ++len) {
+//		for (int i = 1; i <= n && i + len - 1 <= n; ++i) {
+//			int j = i + len - 1;
+//			dp[i][j] = min(i + dp[i + 1][j], j + dp[i][j - 1]);
+//			for (int k = i + 1; k < j; ++k) {
+//				dp[i][j] = min(dp[i][j], k + max(dp[i][k - 1], dp[k + 1][j]));
+//			}
+//		}
+//	}
+//	return dp[1][n];
+//}
 
 //////////////////////////////////////////////////////////////////////////
+int calc(map<vector<int>, int>& cache, int low, int high)
+{
+	if (low >= high) return 0;
+	if (low + 1 == high) return low;
+
+	if (cache.count({ low, high }) != 0)
+	{
+		return cache[{low, high}];
+	}
+
+	int ans = INT_MAX;
+	for (int i = (low + high) / 2; i <= high; i++)
+	{
+		int r = i + max(calc(cache, low, i - 1), calc(cache, i + 1, high));
+		ans = min(ans, r);
+	}
+	cache[{low, high}] = ans;
+	return ans;
+}
+
 int getMoneyAmount(int n) 
 {
-	if (n == 1) return 0;
-	if (n == 2) return 1;
-	//if (n == 3) return 2;
-	//if (n == 4) return 4;
-	//if (n == 5) return 6;
-
-	int start = (n & 1) ? 2 : 1;
-	int end = n - 1;
-	int fac = 2;
-	int cnt = (end - start) / fac + 1;
-	int sum = (start + end) * cnt / 2;
-
-	return (start + end) * cnt / 2;
+	map<vector<int>, int> cache;
+	return calc(cache, 1, n);
 }
+
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(int n)

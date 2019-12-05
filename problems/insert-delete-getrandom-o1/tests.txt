@@ -1,0 +1,3 @@
+["RandomizedSet","insert","remove","insert","getRandom","remove","insert","getRandom"]
+[[],[1],[2],[2],[],[1],[2],[]]
+[null,1,0,1,2,1,0,2]
