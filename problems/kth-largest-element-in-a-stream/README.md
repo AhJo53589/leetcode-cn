@@ -1,4 +1,4 @@
-# `（简单）`  [703.kth-largest-element-in-a-stream 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)
+# `（简单）` [703.kth-largest-element-in-a-stream 数据流中的第K大元素](https://leetcode-cn.com/problems/kth-largest-element-in-a-stream/)
 
 ### 题目描述
 <p>设计一个找到数据流中第K大元素的类（class）。注意是排序后的第K大元素，不是第K个不同的元素。</p>

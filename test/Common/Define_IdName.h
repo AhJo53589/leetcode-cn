@@ -193,6 +193,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_451 	sort-characters-by-frequency
@@ -216,6 +217,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
+#define SOLUTION_CPP_FOLDER_NAME_ID_622 	design-circular-queue
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
@@ -225,7 +227,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_698 	partition-to-k-equal-sum-subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_701 	insert-into-a-binary-search-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_703 	kth-largest-element-in-a-stream
 #define SOLUTION_CPP_FOLDER_NAME_ID_704 	binary-search
+#define SOLUTION_CPP_FOLDER_NAME_ID_705 	design-hashset
+#define SOLUTION_CPP_FOLDER_NAME_ID_706 	design-hashmap
+#define SOLUTION_CPP_FOLDER_NAME_ID_707 	design-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_719 	find-k-th-smallest-pair-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_724 	find-pivot-index
 #define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill

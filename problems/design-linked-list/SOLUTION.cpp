@@ -1,26 +1,7 @@
-﻿// 707.design-linked-list.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
 
-#include "pch.h"
-#include <iostream>
 
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-#include <queue>
-#include <set>
-#include <stack>
-#include <string>
-#include <random>
 
-#include "..\Common\Common.h"
-#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
-#include "..\Common\ListNode.h"
-using namespace std;
-
+//////////////////////////////////////////////////////////////////////////
 class MyLinkedList
 {
 public:
@@ -277,95 +258,68 @@ private:
  */
 
 
-void PrintLinkList(ListNode *pHead)
+//////////////////////////////////////////////////////////////////////////
+//void _solution_run(int x)
+//{
+//	return push(x);
+//}
+
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-	ListNode *pNode = pHead;
-	while (pNode != nullptr)
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+
+	string ans = "[";
+	MyLinkedList *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
 	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
+		if (sf[i] == "MyLinkedList")
+		{
+			obj = new MyLinkedList();
+			ans += "null";
+		}
+		else if (sf[i] == "get")
+		{
+			int r = obj->get(param[i][0]);
+			ans += to_string(r);
+		}
+		else if (sf[i] == "addAtHead")
+		{
+			obj->addAtHead(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "addAtTail")
+		{
+			obj->addAtTail(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "addAtIndex")
+		{
+			obj->addAtIndex(param[i][0], param[i][1]);
+			ans += "null";
+		}
+		else if (sf[i] == "deleteAtIndex")
+		{
+			obj->deleteAtIndex(param[i][0]);
+			ans += "null";
+		}
+		ans += ",";
 	}
-	cout << endl;
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
 
-void PrintLinkList(DoublyListNode * pHead)
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
 {
-	DoublyListNode *pNode = pHead;
-	while (pNode != NULL)
-	{
-		cout << pNode->val << " - ";
-		pNode = pNode->next;
-	}
-	cout << endl;
+	return {};
 }
 
-int main()
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
 {
-	int val = 0;
-	//MyLinkedList linkedList;
-	MyLinkedList_Doubly linkedList;
-	linkedList.addAtHead(5);
-	cout << "addAtHead: " << 5 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtHead(2);
-	cout << "addAtHead: " << 2 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.deleteAtIndex(1);
-	cout << "deleteAtIndex: " << 1 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtIndex(1, 9);
-	cout << "addAtIndex: [" << 1 << "] = " << 9 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtHead(4);
-	cout << "addAtHead: " << 4 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtHead(9);
-	cout << "addAtHead: " << 9 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtHead(8);
-	cout << "addAtHead: " << 8 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	val = linkedList.get(3);
-	cout << "get: [" << 3 << "] = " << val << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtTail(1);
-	cout << "addAtTail: " << 1 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtIndex(3, 6);
-	cout << "addAtIndex: [" << 3 << "] = " << 6 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.addAtHead(3);
-	cout << "addAtHead: " << 3 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	for (int i = 6; i > 0; i--)
-	{
-		linkedList.deleteAtIndex(i);
-		cout << "deleteAtIndex: " << i << endl;
-		PrintLinkList(linkedList.GetListHead());
-	}
-
-	linkedList.deleteAtIndex(0);
-	cout << "deleteAtIndex: " << 0 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-	linkedList.deleteAtIndex(0);
-	cout << "deleteAtIndex: " << 0 << endl;
-	PrintLinkList(linkedList.GetListHead());
-
-
-
-	//linkedList.deleteAtIndex(1);
-	//PrintLinkList(linkedList.GetListHead());
-	//cout << linkedList.get(1);
+	return "../../problems/design-linked-list/tests.txt";
 }
+

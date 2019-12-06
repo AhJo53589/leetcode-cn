@@ -1,29 +1,14 @@
-﻿// 706.design-hashmap.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
 
-#include "pch.h"
-#include <iostream>
 
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-#include <queue>
-#include <set>
-#include <stack>
-#include <string>
-#include <random>
-#include <bitset>
 
-using namespace std;
-
+//////////////////////////////////////////////////////////////////////////
 struct Node {
 	int nkey;
 	int nval;
 	Node* next;
 	Node(int key, int val) : nkey(key), nval(val), next(nullptr) {}
 };
+
 int len = 1000;
 class MyHashMap {
 public:
@@ -37,7 +22,7 @@ public:
 	void put(int key, int value) {
 		int temp = key % len;
 		Node* h = arr[temp];
-		Node* prev;
+		Node* prev = nullptr;
 		while (h) {
 			if (h->nkey == key) {
 				h->nval = value;
@@ -83,8 +68,58 @@ public:
  * obj.remove(key);
  */
 
+//////////////////////////////////////////////////////////////////////////
+//void _solution_run(int x)
+//{
+//	return push(x);
+//}
 
-int main()
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-    std::cout << "Hello World!\n"; 
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+
+	string ans = "[";
+	MyHashMap *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
+	{
+		if (sf[i] == "MyHashMap")
+		{
+			obj = new MyHashMap();
+			ans += "null";
+		}
+		else if (sf[i] == "put")
+		{
+			obj->put(param[i][0], param[i][1]);
+			ans += "null";
+		}
+		else if (sf[i] == "get")
+		{
+			int r = obj->get(param[i][0]);
+			ans += to_string(r);
+		}
+		else if (sf[i] == "remove")
+		{
+			obj->remove(param[i][0]);
+			ans += "null";
+		}
+		ans += ",";
+	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/design-hashmap/tests.txt";
+}
+

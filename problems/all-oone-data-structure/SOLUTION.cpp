@@ -1,30 +1,7 @@
-﻿// 432.all-oone-data-structure.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include "pch.h"
-#include <iostream>
-
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-#include <queue>
-#include <deque>
-#include <set>
-#include <stack>
-#include <list>
-#include <string>
-#include <random>
-#include <bitset>
-
-#include "..\Common\Common.h"
-//#include "..\Common\GraphNode.h"
-//#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.h"
-using namespace std;
 
 
+
+//////////////////////////////////////////////////////////////////////////
 //class AllOne {
 //private:
 //	vector<pair<string, int>> vec;
@@ -252,95 +229,63 @@ private:
  */
 
 
-int main()
+//////////////////////////////////////////////////////////////////////////
+//void _solution_run(int x)
+//{
+//	return push(x);
+//}
+
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-	AllOne *obj = new AllOne();
-	// Test 01
-	//for (int i = 0; i < 3; i++)
-	//{
-	//	cout << endl << "///////////////////////////////////////" << endl;
-	//	obj->inc("Hello");
-	//	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	//	cout << "MinKey = " << obj->getMinKey() << endl;
-	//}
+	vector<string> sf = tc.get<vector<string>>();
+	vector<string> param = tc.get<vector<string>>();
 
-	//for (int i = 0; i < 1; i++)
-	//{
-	//	cout << endl << "///////////////////////////////////////" << endl;
-	//	obj->dec("Hello");
-	//	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	//	cout << "MinKey = " << obj->getMinKey() << endl;
-	//}
-
-	//for (int i = 0; i < 4; i++)
-	//{
-	//	cout << endl << "///////////////////////////////////////" << endl;
-	//	obj->inc("AhJo");
-	//	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	//	cout << "MinKey = " << obj->getMinKey() << endl;
-	//}
-
-	//for (int i = 0; i < 4; i++)
-	//{
-	//	cout << endl << "///////////////////////////////////////" << endl;
-	//	obj->dec("AhJo");
-	//	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	//	cout << "MinKey = " << obj->getMinKey() << endl;
-	//}
-
-	// Test 02
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("hello");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("goodbye");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("hello");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("goodbye");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("leet");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("code");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("leet");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->dec("hello");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("leet");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("code");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
-
-	cout << endl << "///////////////////////////////////////" << endl;
-	obj->inc("code");
-	cout << "MaxKey = " << obj->getMaxKey() << endl;
-	cout << "MinKey = " << obj->getMinKey() << endl;
+	string ans = "[";
+	AllOne *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
+	{
+		if (sf[i] == "AllOne")
+		{
+			obj = new AllOne();
+			ans += "null";
+		}
+		else if (sf[i] == "inc")
+		{
+			obj->inc(param[i]);
+			ans += "null";
+		}
+		else if (sf[i] == "dec")
+		{
+			obj->dec(param[i]);
+			ans += "null";
+		}
+		else if (sf[i] == "getMaxKey")
+		{
+			string r = obj->getMaxKey();
+			ans += r;
+		}
+		else if (sf[i] == "getMinKey")
+		{
+			string r = obj->getMinKey();
+			ans += r;
+		}
+		ans += ",";
+	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/all-oone-data-structure/tests.txt";
+}
+

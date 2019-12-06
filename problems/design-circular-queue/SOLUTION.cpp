@@ -1,20 +1,7 @@
-﻿// 622.MyCircularQueue.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
-
-#include "pch.h"
-#include <iostream>
-
-#include <algorithm>
-#include <map>
-#include <vector>
-#include <queue>
-#include <string>
-#include <random>
-
-using namespace std;
 
 
 
+//////////////////////////////////////////////////////////////////////////
 class MyCircularQueue
 {
 public:
@@ -107,34 +94,73 @@ private:
  * bool param_6 = obj->isFull();
  */
 
-int main()
+//////////////////////////////////////////////////////////////////////////
+//bool _solution_run(int value)
+//{
+//	return enQueue(value);
+//}
+
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-	int k = 5;
-	MyCircularQueue* obj = new MyCircularQueue(k);
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
 
-	bool param_5 = obj->isEmpty();
-	cout << "isEmpty = " << param_5 << " || ";
-	bool param_6 = obj->isFull();
-	cout << "isFull = " << param_6 << endl;
-
-	for (int i = 0; i < 6; i++)
+	string ans = "[";
+	MyCircularQueue *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
 	{
-		bool param_1 = obj->enQueue(i);
-		cout << "enQueue " << i << " result = " << param_1 << " || ";
-		int param_4 = obj->Rear();
-		cout << "Rear = " << param_4 << endl;
+		if (sf[i] == "MyCircularQueue")
+		{
+			obj = new MyCircularQueue(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "enQueue")
+		{
+			bool r = obj->enQueue(param[i][0]);
+			ans += r ? "true" : "false";
+		}
+		else if (sf[i] == "deQueue")
+		{
+			bool r = obj->deQueue();
+			ans += r ? "true" : "false";
+		}
+		else if (sf[i] == "Front")
+		{
+			int r = obj->Front();
+			ans += to_string(r);
+		}
+		else if (sf[i] == "Rear")
+		{
+			int r = obj->Rear();
+			ans += to_string(r);
+		}
+		else if (sf[i] == "isEmpty")
+		{
+			bool r = obj->isEmpty();
+			ans += r ? "true" : "false";
+		}
+		else if (sf[i] == "isFull")
+		{
+			bool r = obj->isFull();
+			ans += r ? "true" : "false";
+		}
+		ans += ",";
 	}
-
-	param_5 = obj->isEmpty();
-	cout << "isEmpty = " << param_5 << " || ";
-	param_6 = obj->isFull();
-	cout << "isFull = " << param_6 << endl;
-
-	for (int i = 0; i < 6; i++)
-	{
-		int param_3 = obj->Front();
-		cout << "Front = " << param_3 << " || ";
-		bool param_2 = obj->deQueue();
-		cout << "deQueue result = " << param_2 << endl;
-	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/design-circular-queue/tests.txt";
+}
+

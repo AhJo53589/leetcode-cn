@@ -1,0 +1,6 @@
+["AllOne","getMaxKey","getMinKey"]
+[[],[],[]]
+[null,,]
+["AllOne","inc","inc","inc","getMaxKey","getMinKey","dec","getMaxKey","getMinKey"]
+[[],["A"],["A"],["B"],[],[],["B"],[],[]]
+[null,null,null,null,A,B,null,A,A]

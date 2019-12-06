@@ -1,34 +1,10 @@
-﻿// 703.kth-largest-element-in-a-stream.cpp : 此文件包含 "main" 函数。程序执行将在此处开始并结束。
-//
 
-#include "pch.h"
-#include <iostream>
-
-#include <algorithm>
-#include <map>
-#include <unordered_map>
-#include <unordered_set>
-#include <vector>
-#include <queue>
-#include <deque>
-#include <set>
-#include <stack>
-#include <list>
-#include <string>
-#include <random>
-#include <bitset>
-
-#include "..\Common\Common.h"
-//#include "..\Common\GraphNode.h"
-#include "..\Common\TreeNode.h"
-//#include "..\Common\ListNode.h"
-using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
 //class KthLargest {
 //public:
-//	priority_queue<int, vector<int>, greater<int>> pq; //最小堆
+//	priority_queue<int, vector<int>, greater<int>> pq; //��С��
 //	int K;
 //	KthLargest(int k, vector<int>& nums) {
 //		K = k;
@@ -40,11 +16,11 @@ using namespace std;
 //	int add(int val) {
 //		if (pq.size() < K)
 //			pq.push(val);
-//		else if (pq.top() < val) {  //val大于堆顶，入堆
+//		else if (pq.top() < val) {  //val���ڶѶ������
 //			pq.pop();
 //			pq.push(val);
 //		}
-//		return pq.top();  //否则直接返回堆顶
+//		return pq.top();  //����ֱ�ӷ��ضѶ�
 //	}
 //};
 
@@ -155,35 +131,49 @@ private:
  * int param_1 = obj->add(val);
  */
 
+//////////////////////////////////////////////////////////////////////////
+//int _solution_run(int val)
+//{
+//	return add(val);
+//}
 
-int main()
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases &tc)
 {
-	vector<vector<int>> N;
-	vector<vector<int>> ADD;
-	vector<int> K;
-	vector<vector<int>> A;
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<int> param2 = tc.get<vector<int>>();
 
-	N.push_back({ 4,5,8,2 });
-	K.push_back(3);
-	ADD.push_back({ 3,5,10,9,4 });
-	A.push_back({ 4,5,5,8,8 });
-
-	N.push_back({  });
-	K.push_back(1);
-	ADD.push_back({ -3,-2,-4,0,4 });
-	A.push_back({ -3,-2,-2,0,4 });
-
-	for (int i = 0; i < N.size(); i++)
+	string ans = "[";
+	KthLargest *obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
 	{
-		cout << endl << "/////////////////////////////" << endl;
-		KthLargest* obj = new KthLargest(K[i], N[i]);
-		for (int j = 0; j < ADD[i].size(); j++)
+		if (sf[i] == "KthLargest")
 		{
-			int ans = obj->add(ADD[i][j]);
-			string check = (ans == A[i][j]) ? "" : "\t\tWRONG!";
-			cout << ans << "\t <== " << A[i][j] << check << endl;
+			obj = new KthLargest(param[i][0], param2);
+			ans += "null";
 		}
-
-		delete obj;
+		else if (sf[i] == "add")
+		{
+			int r = obj->add(param[i][0]);
+			ans += to_string(r);
+		}
+		ans += ",";
 	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/kth-largest-element-in-a-stream/tests.txt";
+}
+
