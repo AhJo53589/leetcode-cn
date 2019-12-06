@@ -65,6 +65,7 @@
 | √ | 76 | [minimum-window-substring](../../problems/minimum-window-substring) | [最小覆盖子串](../../problems/minimum-window-substring/README.md) | [cpp](../../problems/minimum-window-substring/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-window-substring/solution/76-by-ikaruga/) | 困难 |
 | √ | 78 | [subsets](../../problems/subsets) | [子集](../../problems/subsets/README.md) | [cpp](../../problems/subsets/SOLUTION.cpp) |   | 中等 |
 | √ | 79 | [word-search](../../problems/word-search) | [单词搜索](../../problems/word-search/README.md) | [cpp](../../problems/word-search/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/word-search/solution/79-by-ikaruga/) | 中等 |
+| √ | 80 | [remove-duplicates-from-sorted-array-ii](../../problems/remove-duplicates-from-sorted-array-ii) | [删除排序数组中的重复项](../../problems/remove-duplicates-from-sorted-array-ii/README.md) | [cpp](../../problems/remove-duplicates-from-sorted-array-ii/SOLUTION.cpp) |   | 简单 | 
 | √ | 88 | [merge-sorted-array](../../problems/merge-sorted-array) | [合并两个有序数组](../../problems/merge-sorted-array/README.md) | [cpp](../../problems/merge-sorted-array/SOLUTION.cpp) |   | 简单 |
 | √ | 89 | [gray-code](../../problems/gray-code) | [格雷编码](../../problems/gray-code/README.md) | [cpp](../../problems/gray-code/SOLUTION.cpp) |   | 中等 |
 | √ | 92 | [reverse-linked-list-ii](../../problems/reverse-linked-list-ii) | [反转链表 II](../../problems/reverse-linked-list-ii/README.md) | [cpp](../../problems/reverse-linked-list-ii/SOLUTION.cpp) |   | 中等 |

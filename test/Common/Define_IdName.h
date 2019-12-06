@@ -65,6 +65,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_76 	minimum-window-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
+#define SOLUTION_CPP_FOLDER_NAME_ID_80 	remove-duplicates-from-sorted-array-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_88 	merge-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_89 	gray-code
 #define SOLUTION_CPP_FOLDER_NAME_ID_92 	reverse-linked-list-ii
