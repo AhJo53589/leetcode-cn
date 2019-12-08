@@ -4,6 +4,17 @@
 
 
 ---
+## 20191208
+* 5282.minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix 转化为全零矩阵的最少反转次数
+
+* 5281.find-the-smallest-divisor-given-a-threshold 使结果不超过阈值的最小除数
+
+* 5280.group-the-people-given-the-group-size-they-belong-to 用户分组
+
+* 5279.subtract-the-product-and-sum-of-digits-of-an-integer 整数的各位积和之差
+
+
+---
 ## 20191201
 * 1278.palindrome-partitioning-iii 分割回文串 III
 

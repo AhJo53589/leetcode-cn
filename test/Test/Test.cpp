@@ -47,7 +47,7 @@ using namespace std;
 #define ADD_QUOTES(A) #A
 #define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
 #define SOLUTION_CPP_PATH_NAME(name) SOLUTION_CPP_PATH(name)
-#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_80)
+#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_5282)
 
 // 3.或者选择使用（题库中的题，根据名字加载）
 // SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字

@@ -1,5 +1,4 @@
 
-//////////////////////////////////////////////////////////////////////////
 vector<vector<int>> turn(vector<vector<int>> m, size_t x, size_t y)
 {
     m[x][y] = m[x][y] == 0 ? 1 : 0;
@@ -34,6 +33,7 @@ bool check(vector<vector<int>>& m)
     return true;
 }
 
+//////////////////////////////////////////////////////////////////////////
 int minFlips(vector<vector<int>>& mat)
 {
     if (check(mat)) return 0;
@@ -89,6 +89,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/tests.txt";
 }
 

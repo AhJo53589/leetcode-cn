@@ -303,3 +303,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1276 	number-of-burgers-with-no-waste-of-ingredients
 #define SOLUTION_CPP_FOLDER_NAME_ID_1277 	count-square-submatrices-with-all-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_1278 	palindrome-partitioning-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5279 	subtract-the-product-and-sum-of-digits-of-an-integer
+#define SOLUTION_CPP_FOLDER_NAME_ID_5280 	group-the-people-given-the-group-size-they-belong-to
+#define SOLUTION_CPP_FOLDER_NAME_ID_5281 	find-the-smallest-divisor-given-a-threshold
+#define SOLUTION_CPP_FOLDER_NAME_ID_5282 	minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix
