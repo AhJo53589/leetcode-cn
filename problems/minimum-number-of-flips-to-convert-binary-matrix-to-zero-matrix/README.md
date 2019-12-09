@@ -4,50 +4,37 @@
 
 ### 题目描述
 <p>给你一个&nbsp;<code>m x n</code>&nbsp;的二进制矩阵&nbsp;<code>mat</code>。</p>
-
 <p>每一步，你可以选择一个单元格并将它反转（反转表示 0 变 1 ，1 变 0 ）。如果存在和它相邻的单元格，那么这些相邻的单元格也会被反转。（注：相邻的两个单元格共享同一条边。）</p>
-
 <p>请你返回将矩阵&nbsp;<code>mat</code> 转化为全零矩阵的<em>最少反转次数</em>，如果无法转化为全零矩阵，请返回&nbsp;<strong>-1</strong>&nbsp;。</p>
-
 <p>二进制矩阵的每一个格子要么是 0 要么是 1 。</p>
-
 <p>全零矩阵是所有格子都为 0 的矩阵。</p>
-
 <p>&nbsp;</p>
-
 <p><strong>示例&nbsp;1：</strong></p>
-
 <p><img style="height:86px; width:409px" src="https://assets.leetcode.com/uploads/2019/11/28/matrix.png" alt=""></p>
-
 <pre><strong>输入：</strong>mat = [[0,0],[0,1]]
 <strong>输出：</strong>3
 <strong>解释：</strong>一个可能的解是反转 (1, 0)，然后 (0, 1) ，最后是 (1, 1) 。
 </pre>
 
 <p><strong>示例 2：</strong></p>
-
 <pre><strong>输入：</strong>mat = [[0]]
 <strong>输出：</strong>0
 <strong>解释：</strong>给出的矩阵是全零矩阵，所以你不需要改变它。
 </pre>
 
 <p><strong>示例 3：</strong></p>
-
 <pre><strong>输入：</strong>mat = [[1,1,1],[1,0,1],[0,0,0]]
 <strong>输出：</strong>6
 </pre>
 
 <p><strong>示例 4：</strong></p>
-
 <pre><strong>输入：</strong>mat = [[1,0,0],[1,0,0]]
 <strong>输出：</strong>-1
 <strong>解释：</strong>该矩阵无法转变成全零矩阵
 </pre>
 
 <p>&nbsp;</p>
-
 <p><strong>提示：</strong></p>
-
 <ul>
 	<li><code>m ==&nbsp;mat.length</code></li>
 	<li><code>n ==&nbsp;mat[0].length</code></li>
@@ -56,15 +43,18 @@
 	<li><code>mat[i][j]</code>&nbsp;是 0 或 1 。</li>
 </ul>
 
-
 ---
 ### 思路
 ```
+
 ```
 
 
 
 ### 答题
+
+bfs暴力
+
 ``` C++
 vector<vector<int>> turn(vector<vector<int>> m, size_t x, size_t y)
 {
@@ -138,4 +128,65 @@ int minFlips(vector<vector<int>>& mat)
 
 
 
+### 其他
+
+枚举暴力
+
+```C++
+int count(int bit, int n)
+{
+	int cnt = 0;
+	for (int i = 0; i < n; i++)
+	{
+		if ((bit & (1 << i)) != 0)
+		{
+			cnt++;
+		}
+	}
+	return cnt;
+}
+
+bool check(vector<vector<int>>& m, int bit)
+{
+	vector<vector<int>> d = { {-1,0}, {1,0}, {0,-1}, {0,1}, {0,0} };
+
+	for (int i = 0; i < m.size(); i++)
+	{
+		for (int j = 0; j < m[0].size(); j++)
+		{
+			int sum = m[i][j];
+			for (int k = 0; k < d.size(); k++)
+			{
+				int dx = i + d[k][0];
+				int dy = j + d[k][1];
+				if (dx < 0 || dx >= m.size() || dy < 0 || dy >= m[0].size()) continue;
+				int t = dx * m[0].size() + dy;
+				if ((bit & (1 << t)) != 0)
+				{
+					sum++;
+				}
+			}
+			if (sum % 2 != 0)
+			{
+				return false;
+			}
+		}
+	}
+	return true;
+}
+
+int minFlips(vector<vector<int>>& mat)
+{
+	int ans = INT_MAX;
+	int n = mat.size() * mat[0].size();
+	for (int i = 0; i < (1 << n); i++)
+	{
+		if (check(mat, i))
+		{
+			ans = min(ans, count(i, n));
+		}
+	}
+	return (ans == INT_MAX) ? -1 : ans;
+}
+```
 
