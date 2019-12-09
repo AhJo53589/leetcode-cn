@@ -1,4 +1,4 @@
-# `（中等）` [5281.find-the-smallest-divisor-given-a-threshold 使结果不超过阈值的最小除数](https://leetcode-cn.com/problems/find-the-smallest-divisor-given-a-threshold/)
+# `（中等）` [1283.find-the-smallest-divisor-given-a-threshold 使结果不超过阈值的最小除数](https://leetcode-cn.com/problems/find-the-smallest-divisor-given-a-threshold/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-166/problems/find-the-smallest-divisor-given-a-threshold/)
 

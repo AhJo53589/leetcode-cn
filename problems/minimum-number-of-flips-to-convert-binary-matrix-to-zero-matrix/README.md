@@ -1,4 +1,4 @@
-# `（困难）` [5282.minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix 转化为全零矩阵的最少反转次数](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
+# `（困难）` [1284.minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix 转化为全零矩阵的最少反转次数](https://leetcode-cn.com/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-166/problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/)
 

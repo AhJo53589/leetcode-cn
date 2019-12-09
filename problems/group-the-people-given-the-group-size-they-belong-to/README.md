@@ -1,4 +1,4 @@
-# `（中等）` [5280.group-the-people-given-the-group-size-they-belong-to 用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/)
+# `（中等）` [1282.group-the-people-given-the-group-size-they-belong-to 用户分组](https://leetcode-cn.com/problems/group-the-people-given-the-group-size-they-belong-to/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-166/problems/group-the-people-given-the-group-size-they-belong-to/)
 

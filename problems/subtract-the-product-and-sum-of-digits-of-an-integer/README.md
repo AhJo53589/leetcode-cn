@@ -1,4 +1,4 @@
-# `（简单）` [5279.subtract-the-product-and-sum-of-digits-of-an-integer 整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
+# `（简单）` [1281.subtract-the-product-and-sum-of-digits-of-an-integer 整数的各位积和之差](https://leetcode-cn.com/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-166/problems/subtract-the-product-and-sum-of-digits-of-an-integer/)
 
