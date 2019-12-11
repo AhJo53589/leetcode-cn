@@ -153,6 +153,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_240 	search-a-2d-matrix-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_242 	valid-anagram
 #define SOLUTION_CPP_FOLDER_NAME_ID_257 	binary-tree-paths
+#define SOLUTION_CPP_FOLDER_NAME_ID_258 	add-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_268 	missing-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_278 	first-bad-version
 #define SOLUTION_CPP_FOLDER_NAME_ID_279 	perfect-squares
@@ -181,6 +182,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_367 	valid-perfect-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower
+#define SOLUTION_CPP_FOLDER_NAME_ID_375 	guess-number-higher-or-lower-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
 #define SOLUTION_CPP_FOLDER_NAME_ID_384 	shuffle-an-array
@@ -247,6 +249,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii

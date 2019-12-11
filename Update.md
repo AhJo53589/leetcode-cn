@@ -4,6 +4,15 @@
 
 
 ---
+## 20191211
+* 258.add-digits 各位相加
+
+* 375.guess-number-higher-or-lower-ii 猜数字大小 II
+
+* 918.maximum-sum-circular-subarray 环形子数组的最大和
+
+
+---
 ## 20191208
 * 1284.minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix 转化为全零矩阵的最少反转次数
 

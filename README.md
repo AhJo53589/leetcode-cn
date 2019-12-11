@@ -22,6 +22,7 @@
 | ☆ | 450 | [delete-node-in-a-bst](./problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](./problems/delete-node-in-a-bst/README.md) | [cpp](./problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 |
 | ☆ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
 | ☆ | 887 | [super-egg-drop](./problems/super-egg-drop) | [鸡蛋掉落](./problems/super-egg-drop/README.md) | [cpp](./problems/super-egg-drop/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) | 困难 |
+| √ | 918 | [maximum-sum-circular-subarray](./problems/maximum-sum-circular-subarray) | [环形子数组的最大和](./problems/maximum-sum-circular-subarray/README.md) | [cpp](./problems/maximum-sum-circular-subarray/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/solution/918-by-ikaruga/) | 中等 | 
 | ☆ | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [统计「优美子数组」](./problems/count-number-of-nice-subarrays/README.md) | [cpp](./problems/count-number-of-nice-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) | 中等 |
 | ☆ | 1255 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
 | ☆☆ | 1263 | [minimum-moves-to-move-a-box-to-their-target-location](./problems/minimum-moves-to-move-a-box-to-their-target-location) | [推箱子](./problems/minimum-moves-to-move-a-box-to-their-target-location/README.md) | [cpp](./problems/minimum-moves-to-move-a-box-to-their-target-location/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/solution/1263-by-ikaruga/) | 困难 |
@@ -29,7 +30,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （298 / 1170）
+完成进度 （314 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
