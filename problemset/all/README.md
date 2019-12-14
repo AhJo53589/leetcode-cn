@@ -311,6 +311,10 @@
 | √ | 1282 | [group-the-people-given-the-group-size-they-belong-to](../../problems/group-the-people-given-the-group-size-they-belong-to) | [用户分组](../../problems/group-the-people-given-the-group-size-they-belong-to/README.md) | [cpp](../../problems/group-the-people-given-the-group-size-they-belong-to/SOLUTION.cpp) |   | 中等 | 
 | √ | 1283 | [find-the-smallest-divisor-given-a-threshold](../../problems/find-the-smallest-divisor-given-a-threshold) | [使结果不超过阈值的最小除数](../../problems/find-the-smallest-divisor-given-a-threshold/README.md) | [cpp](../../problems/find-the-smallest-divisor-given-a-threshold/SOLUTION.cpp) |   | 中等 | 
 | √ | 1284 | [minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix](../../problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix) | [转化为全零矩阵的最少反转次数](../../problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/README.md) | [cpp](../../problems/minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix/SOLUTION.cpp) |   | 困难 | 
+| √ | 5123 | [iterator-for-combination](../../problems/iterator-for-combination) | [字母排列迭代器](../../problems/iterator-for-combination/README.md) | [cpp](../../problems/iterator-for-combination/SOLUTION.cpp) |   | 中等 | 
+| √ | 5126 | [element-appearing-more-than-25-in-sorted-array](../../problems/element-appearing-more-than-25-in-sorted-array) | [有序数组中出现次数超过25%的元素](../../problems/element-appearing-more-than-25-in-sorted-array/README.md) | [cpp](../../problems/element-appearing-more-than-25-in-sorted-array/SOLUTION.cpp) |   | 简单 | 
+| √ | 5127 | [remove-covered-intervals](../../problems/remove-covered-intervals) | [删除被覆盖区间](../../problems/remove-covered-intervals/README.md) | [cpp](../../problems/remove-covered-intervals/SOLUTION.cpp) |   | 中等 | 
+| √ | 5129 | [minimum-falling-path-sum-ii](../../problems/minimum-falling-path-sum-ii) | [下降路径最小和 II](../../problems/minimum-falling-path-sum-ii/README.md) | [cpp](../../problems/minimum-falling-path-sum-ii/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

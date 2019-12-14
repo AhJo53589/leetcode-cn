@@ -4,6 +4,20 @@
 
 
 ---
+## 20191215
+* 5123.iterator-for-combination 字母排列迭代器
+
+* 5129.minimum-falling-path-sum-ii 下降路径最小和 II
+
+
+---
+## 20191214
+* 5127.remove-covered-intervals 删除被覆盖区间
+
+* 5126.element-appearing-more-than-25-in-sorted-array 有序数组中出现次数超过25%的元素
+
+
+---
 ## 20191211
 * 258.add-digits 各位相加
 
