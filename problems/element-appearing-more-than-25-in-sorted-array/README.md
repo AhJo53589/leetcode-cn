@@ -41,20 +41,15 @@ int findSpecialInteger(vector<int>& arr)
 	int pre = INT_MAX;
 	for (auto n : arr)
 	{
-		if (pre != n)
-		{
-			if (cnt > arr.size() / 4)
-			{
-				return pre;
-			}
-			cnt = 1;
-		}
-		else
+		if (pre == n)
 		{
 			cnt++;
+			continue;
 		}
+		if (cnt > arr.size() / 4) break;
 		pre = n;
-	}
+        cnt = 1;
+    }
 	return pre;
 }
 ```
