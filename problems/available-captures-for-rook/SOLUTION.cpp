@@ -1,5 +1,4 @@
 
-//////////////////////////////////////////////////////////////////////////
 int getp(vector<vector<char>>& b, vector<vector<int>>& dd, int x, int y)
 {
     int cnt = 0;
@@ -24,6 +23,7 @@ int getp(vector<vector<char>>& b, vector<vector<int>>& dd, int x, int y)
     return cnt;
 }
 
+//////////////////////////////////////////////////////////////////////////
 int numRookCaptures(vector<vector<char>>& board)
 {
     vector<vector<int>> dd = {{0,1},{0,-1},{1,0},{-1,0}};
@@ -59,6 +59,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/available-captures-for-rook/tests.txt";
 }
 
