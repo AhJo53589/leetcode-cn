@@ -10,7 +10,7 @@
 
 <p><strong>示例 1：</strong></p>
 
-<p><img style="height: 305px; width: 300px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/1253_example_1_improved.PNG" alt=""></p>
+<p><img style="height: 305px; width: 300px;" src="./1253_example_1_improved.PNG" alt=""></p>
 
 <pre><strong>输入：</strong>[[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","R",".",".",".","p"],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
 <strong>输出：</strong>3
@@ -20,7 +20,7 @@
 
 <p><strong>示例 2：</strong></p>
 
-<p><img style="height: 306px; width: 300px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/1253_example_2_improved.PNG" alt=""></p>
+<p><img style="height: 306px; width: 300px;" src="./1253_example_2_improved.PNG" alt=""></p>
 
 <pre><strong>输入：</strong>[[".",".",".",".",".",".",".","."],[".","p","p","p","p","p",".","."],[".","p","p","B","p","p",".","."],[".","p","B","R","B","p",".","."],[".","p","p","B","p","p",".","."],[".","p","p","p","p","p",".","."],[".",".",".",".",".",".",".","."],[".",".",".",".",".",".",".","."]]
 <strong>输出：</strong>0
@@ -30,7 +30,7 @@
 
 <p><strong>示例 3：</strong></p>
 
-<p><img style="height: 305px; width: 300px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2019/02/23/1253_example_3_improved.PNG" alt=""></p>
+<p><img style="height: 305px; width: 300px;" src="./1253_example_3_improved.PNG" alt=""></p>
 
 <pre><strong>输入：</strong>[[".",".",".",".",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".","p",".",".",".","."],["p","p",".","R",".","p","B","."],[".",".",".",".",".",".",".","."],[".",".",".","B",".",".",".","."],[".",".",".","p",".",".",".","."],[".",".",".",".",".",".",".","."]]
 <strong>输出：</strong>3
