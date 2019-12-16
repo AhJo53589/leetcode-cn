@@ -1,4 +1,4 @@
-# `（简单）` [5126.element-appearing-more-than-25-in-sorted-array 有序数组中出现次数超过25%的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/)
+# `（简单）` [1287.element-appearing-more-than-25-in-sorted-array 有序数组中出现次数超过25%的元素](https://leetcode-cn.com/problems/element-appearing-more-than-25-in-sorted-array/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-15/problems/element-appearing-more-than-25-in-sorted-array/)
 

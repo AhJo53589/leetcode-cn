@@ -1,4 +1,4 @@
-# `（中等）` [5127.remove-covered-intervals 删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/)
+# `（中等）` [1288.remove-covered-intervals 删除被覆盖区间](https://leetcode-cn.com/problems/remove-covered-intervals/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-15/problems/remove-covered-intervals/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5123.iterator-for-combination 字母排列迭代器](https://leetcode-cn.com/problems/iterator-for-combination/)
+# `（中等）` [1286.iterator-for-combination 字母排列迭代器](https://leetcode-cn.com/problems/iterator-for-combination/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-15/problems/iterator-for-combination/)
 

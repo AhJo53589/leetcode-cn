@@ -312,7 +312,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1282 	group-the-people-given-the-group-size-they-belong-to
 #define SOLUTION_CPP_FOLDER_NAME_ID_1283 	find-the-smallest-divisor-given-a-threshold
 #define SOLUTION_CPP_FOLDER_NAME_ID_1284 	minimum-number-of-flips-to-convert-binary-matrix-to-zero-matrix
-#define SOLUTION_CPP_FOLDER_NAME_ID_5123 	iterator-for-combination
-#define SOLUTION_CPP_FOLDER_NAME_ID_5126 	element-appearing-more-than-25-in-sorted-array
-#define SOLUTION_CPP_FOLDER_NAME_ID_5127 	remove-covered-intervals
-#define SOLUTION_CPP_FOLDER_NAME_ID_5129 	minimum-falling-path-sum-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1290 	convert-binary-number-in-a-linked-list-to-integer
+#define SOLUTION_CPP_FOLDER_NAME_ID_1291 	sequential-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_1292 	maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold
+#define SOLUTION_CPP_FOLDER_NAME_ID_1293 	shortest-path-in-a-grid-with-obstacles-elimination
+#define SOLUTION_CPP_FOLDER_NAME_ID_1286 	iterator-for-combination
+#define SOLUTION_CPP_FOLDER_NAME_ID_1287 	element-appearing-more-than-25-in-sorted-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_1288 	remove-covered-intervals
+#define SOLUTION_CPP_FOLDER_NAME_ID_1289 	minimum-falling-path-sum-ii

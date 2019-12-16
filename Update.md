@@ -4,17 +4,28 @@
 
 
 ---
-## 20191215
-* 5123.iterator-for-combination 字母排列迭代器
+## 20191216
+* 1293.shortest-path-in-a-grid-with-obstacles-elimination 网格中的最短路径
 
-* 5129.minimum-falling-path-sum-ii 下降路径最小和 II
+* 1292.maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold 元素和小于等于阈值的正方形的最大边长
+
+* 1291.sequential-digits 顺次数
+
+* 1290.convert-binary-number-in-a-linked-list-to-integer 二进制链表转整数
+
+
+---
+## 20191215
+* 1286.iterator-for-combination 字母排列迭代器
+
+* 1289.minimum-falling-path-sum-ii 下降路径最小和 II
 
 
 ---
 ## 20191214
-* 5127.remove-covered-intervals 删除被覆盖区间
+* 1288.remove-covered-intervals 删除被覆盖区间
 
-* 5126.element-appearing-more-than-25-in-sorted-array 有序数组中出现次数超过25%的元素
+* 1287.element-appearing-more-than-25-in-sorted-array 有序数组中出现次数超过25%的元素
 
 
 ---
