@@ -5,6 +5,8 @@
 
 ---
 ## 20191216
+* 329.longest-increasing-path-in-a-matrix 矩阵中的最长递增路径
+
 * 1293.shortest-path-in-a-grid-with-obstacles-elimination 网格中的最短路径
 
 * 1292.maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold 元素和小于等于阈值的正方形的最大边长

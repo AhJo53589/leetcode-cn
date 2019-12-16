@@ -173,6 +173,7 @@
 | √ | 324 | [wiggle-sort-ii](../../problems/wiggle-sort-ii) | [摆动排序 II](../../problems/wiggle-sort-ii/README.md) | [cpp](../../problems/wiggle-sort-ii/SOLUTION.cpp) |   | 中等 |
 | √ | 326 | [power-of-three](../../problems/power-of-three) | [3的幂](../../problems/power-of-three/README.md) | [cpp](../../problems/power-of-three/SOLUTION.cpp) |   | 简单 |
 | √ | 328 | [odd-even-linked-list](../../problems/odd-even-linked-list) | [奇偶链表](../../problems/odd-even-linked-list/README.md) | [cpp](../../problems/odd-even-linked-list/SOLUTION.cpp) |   | 中等 |
+| √ | 329 | [longest-increasing-path-in-a-matrix](../../problems/longest-increasing-path-in-a-matrix) | [矩阵中的最长递增路径](../../problems/longest-increasing-path-in-a-matrix/README.md) | [cpp](../../problems/longest-increasing-path-in-a-matrix/SOLUTION.cpp) |   | 困难 | 
 | √ | 334 | [increasing-triplet-subsequence](../../problems/increasing-triplet-subsequence) | [递增的三元子序列](../../problems/increasing-triplet-subsequence/README.md) | [cpp](../../problems/increasing-triplet-subsequence/SOLUTION.cpp) |   | 中等 |
 | √ | 337 | [house-robber-iii](../../problems/house-robber-iii) | [打家劫舍 III](../../problems/house-robber-iii/README.md) | [cpp](../../problems/house-robber-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber-iii/solution/da-jia-jie-she-iii-dai-ma-jian-ji-yi-dong-iii-by-i/) | 中等 |
 | √ | 344 | [reverse-string](../../problems/reverse-string) | [反转字符串](../../problems/reverse-string/README.md) | [cpp](../../problems/reverse-string/SOLUTION.cpp) |   | 简单 |

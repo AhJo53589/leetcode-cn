@@ -173,6 +173,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_324 	wiggle-sort-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_326 	power-of-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_328 	odd-even-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_329 	longest-increasing-path-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_334 	increasing-triplet-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_337 	house-robber-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_344 	reverse-string
