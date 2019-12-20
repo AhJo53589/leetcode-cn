@@ -5,6 +5,8 @@
 
 ---
 ## 20191216
+* 999.available-captures-for-rook 车的可用捕获量
+
 * 329.longest-increasing-path-in-a-matrix 矩阵中的最长递增路径
 
 * 1293.shortest-path-in-a-grid-with-obstacles-elimination 网格中的最短路径

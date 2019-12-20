@@ -253,6 +253,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
+#define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
