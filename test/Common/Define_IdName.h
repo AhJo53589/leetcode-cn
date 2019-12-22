@@ -322,3 +322,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1287 	element-appearing-more-than-25-in-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1288 	remove-covered-intervals
 #define SOLUTION_CPP_FOLDER_NAME_ID_1289 	minimum-falling-path-sum-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5291 	find-numbers-with-even-number-of-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_5292 	divide-array-in-sets-of-k-consecutive-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5293 	maximum-number-of-occurrences-of-a-substring
+#define SOLUTION_CPP_FOLDER_NAME_ID_5294 	maximum-candies-you-can-get-from-boxes

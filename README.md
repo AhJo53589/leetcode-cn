@@ -29,7 +29,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （324 / 1170）
+完成进度 （316 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
@@ -57,6 +57,7 @@
 | 2019/12/8  | [第 166 场周赛](./contest/weekly-contest-166/README.md)   | 3 / 4 | 323 / 1675 |
 | 2019/12/14 | [第 15 场双周赛](./contest/biweekly-contest-15/README.md) | 2 / 4 | 374 / 797  |
 | 2019/15/15 | [第 167 场周赛](./contest/weekly-contest-167/README.md)   | 2 / 4 | 525 / 1536 |
+| 2019/12/22 | [第 168 场周赛](./contest/weekly-contest-168/README.md)   | 2 / 4 | 349 / 1551 |
 
 ## Update
 [查看全部](./Update.md)
