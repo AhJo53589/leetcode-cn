@@ -2,47 +2,75 @@
 
 
 //////////////////////////////////////////////////////////////////////////
+//int maxFreq(string s, int maxLetters, int minSize, int maxSize) 
+//{
+//	int ans = 0;
+//	unordered_map<string, int> cnts;
+//	vector<int> chars(26, 0);
+//	vector<int> tmpChars(26, 0);
+//	int curLetters = 0;
+//	string curStr = "";
+//
+//	for (size_t i = 0; i < minSize - 1; i++)
+//	{
+//		curStr += s[i];
+//		curLetters += (chars[s[i] - 'a']++ == 0);
+//	}
+//	//cout << "curStr: " << curStr << endl;
+//
+//	for (size_t i = minSize - 1; i < s.size(); i++)
+//	{
+//		tmpChars = chars;
+//		int tmpLetters = curLetters;
+//		string tmpStr = curStr;
+//		for (size_t j = 0; j < maxSize - minSize + 1; j++)
+//		{
+//			int k = i + j;
+//			if (k >= s.size()) break;
+//			tmpStr += s[k];
+//			tmpLetters += (tmpChars[s[k] - 'a']++ == 0);
+//
+//			if (tmpLetters > maxLetters) break;
+//			cnts[tmpStr]++;
+//			//cout << tmpStr << ":\t" << cnts[tmpStr] << endl;
+//			ans = max(ans, cnts[tmpStr]);
+//		}
+//
+//		if (curStr.size() == 0) continue;
+//		curLetters -= (--chars[curStr[0] - 'a'] == 0);
+//		curStr.erase(curStr.begin());
+//
+//		curStr += s[i];
+//		curLetters += (chars[s[i] - 'a']++ == 0);
+//	}
+//	return ans;
+//}
+
+//////////////////////////////////////////////////////////////////////////
 int maxFreq(string s, int maxLetters, int minSize, int maxSize) 
 {
 	int ans = 0;
 	unordered_map<string, int> cnts;
 	vector<int> chars(26, 0);
-	vector<int> tmpChars(26, 0);
 	int curLetters = 0;
 	string curStr = "";
 
-	for (size_t i = 0; i < minSize - 1; i++)
+	for (size_t i = 0; i < s.size(); i++)
 	{
 		curStr += s[i];
 		curLetters += (chars[s[i] - 'a']++ == 0);
-	}
-	//cout << "curStr: " << curStr << endl;
+		if (curStr.size() < minSize) continue;
 
-	for (size_t i = minSize - 1; i < s.size(); i++)
-	{
-		tmpChars = chars;
-		int tmpLetters = curLetters;
-		string tmpStr = curStr;
-		for (size_t j = 0; j < maxSize - minSize + 1; j++)
+		if (curLetters <= maxLetters)
 		{
-			int k = i + j;
-			if (k >= s.size()) break;
-			tmpStr += s[k];
-			tmpLetters += (tmpChars[s[k] - 'a']++ == 0);
-
-			if (tmpLetters > maxLetters) break;
-			cnts[tmpStr]++;
-			//cout << tmpStr << ":\t" << cnts[tmpStr] << endl;
-			ans = max(ans, cnts[tmpStr]);
+			cnts[curStr]++;
+			ans = max(ans, cnts[curStr]);
 		}
 
-		if (curStr.size() == 0) continue;
 		curLetters -= (--chars[curStr[0] - 'a'] == 0);
 		curStr.erase(curStr.begin());
-
-		curStr += s[i];
-		curLetters += (chars[s[i] - 'a']++ == 0);
 	}
+
 	return ans;
 }
 
