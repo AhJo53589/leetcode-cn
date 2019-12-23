@@ -2,7 +2,7 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites)
+bool canFinish(int numCourses, vector<vector<int>>& prerequisites) 
 {
 	vector<int> inDegree(numCourses, 0);
 	vector<vector<int>> lst(numCourses, vector<int>());
@@ -37,17 +37,17 @@ vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites)
 		}
 	}
 
-	return (ans.size() == numCourses) ? ans : vector<int>();
+	return ans.size() == numCourses;
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(int numCourses, vector<vector<int>>& prerequisites)
+bool _solution_run(int numCourses, vector<vector<int>>& prerequisites)
 {
-	return findOrder(numCourses,prerequisites);
+	return canFinish(numCourses,prerequisites);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<int> _solution_custom(TestCases &tc)
+//bool _solution_custom(TestCases &tc)
 //{
 //}
 
@@ -60,6 +60,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/course-schedule/tests.txt";
 }
 

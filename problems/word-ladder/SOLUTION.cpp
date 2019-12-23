@@ -13,7 +13,7 @@
 //		unordered_set<string> tempSet;
 //		++step;
 //
-//		for (auto s : beginSet) // ¶ÔwordDictÈ¥ÖØ,±ÜÃâÖØ¸´¼ÆËã
+//		for (auto s : beginSet) // ï¿½ï¿½wordDictÈ¥ï¿½ï¿½,ï¿½ï¿½ï¿½ï¿½ï¿½Ø¸ï¿½ï¿½ï¿½ï¿½ï¿½
 //		{
 //			wordDict.erase(s);
 //		}
@@ -22,15 +22,15 @@
 //		{
 //			for (int i = 0; i < s.size(); ++i) 
 //			{
-//				string str = s;   // strÊÇbeginSetÖÐµÄÒ»¸ö×Ö·û´®
+//				string str = s;   // strï¿½ï¿½beginSetï¿½Ðµï¿½Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 //				for (char c = 'a'; c <= 'z'; ++c) 
 //				{
-//					str[i] = c;   // ´ËÊ±strÊÇbeginSetÖÐµÄÄ³¸ö×Ö·û´®Ìæ»»Ò»¸ö×Ö·ûºóµÄ×Ö·û´®
+//					str[i] = c;   // ï¿½ï¿½Ê±strï¿½ï¿½beginSetï¿½Ðµï¿½Ä³ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½æ»»Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
 //
-//					if (wordDict.count(str) == 0) continue;	// wordDictÖÐÃ»ÓÐbeginSetÖÐµÄÄ³¸ö×Ö·û´®Ìæ»»Ò»¸ö×Ö·ûºóµÄ×Ö·û´®
-//					if (endSet.count(str) > 0) return step; // endSetÖÐÓÐstr£¨¼´endSetÖÐÓÐbeginSetÖÐµÄÄ³¸ö×Ö·û´®Ìæ»»Ò»¸ö×Ö·ûºóµÄ×Ö·û´®£©
+//					if (wordDict.count(str) == 0) continue;	// wordDictï¿½ï¿½Ã»ï¿½ï¿½beginSetï¿½Ðµï¿½Ä³ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½æ»»Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½
+//					if (endSet.count(str) > 0) return step; // endSetï¿½ï¿½ï¿½ï¿½strï¿½ï¿½ï¿½ï¿½endSetï¿½ï¿½ï¿½ï¿½beginSetï¿½Ðµï¿½Ä³ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½æ»»Ò»ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½
 //						
-//					tempSet.insert(str);  // ´ËÊ±µÄstr´æÔÚÓÚwordDictÖÐ£¬µ«ÊÇ²»ÔÚendSetÖÐ¡££¨»¹Ã»ÕÒµ½£©
+//					tempSet.insert(str);  // ï¿½ï¿½Ê±ï¿½ï¿½strï¿½ï¿½ï¿½ï¿½ï¿½ï¿½wordDictï¿½Ð£ï¿½ï¿½ï¿½ï¿½Ç²ï¿½ï¿½ï¿½endSetï¿½Ð¡ï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½Òµï¿½ï¿½ï¿½
 //				}
 //			}
 //		}
@@ -133,6 +133,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_2/tests.txt";
+	return "../../problems/word-ladder/tests.txt";
 }
 

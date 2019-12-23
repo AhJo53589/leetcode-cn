@@ -94,6 +94,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_122 	best-time-to-buy-and-sell-stock-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_124 	binary-tree-maximum-path-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_125 	valid-palindrome
+#define SOLUTION_CPP_FOLDER_NAME_ID_127 	word-ladder
 #define SOLUTION_CPP_FOLDER_NAME_ID_128 	longest-consecutive-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_130 	surrounded-regions
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
@@ -131,7 +132,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_204 	count-primes
 #define SOLUTION_CPP_FOLDER_NAME_ID_205 	isomorphic-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_206 	reverse-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_207 	course-schedule
 #define SOLUTION_CPP_FOLDER_NAME_ID_209 	minimum-size-subarray-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_210 	course-schedule-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_213 	house-robber-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_215 	kth-largest-element-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_217 	contains-duplicate
