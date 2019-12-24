@@ -1,55 +1,130 @@
 
-
-
 //////////////////////////////////////////////////////////////////////////
-vector<int> findOrder(int numCourses, vector<vector<int>>& prerequisites)
+class Trie
 {
-	vector<int> inDegree(numCourses, 0);
-	vector<vector<int>> lst(numCourses, vector<int>());
-	for (auto v : prerequisites)
-	{
-		inDegree[v[0]]++;
-		lst[v[1]].push_back(v[0]);
-	}
+public:
+	Trie() {}
 
-	queue<int> que;
-	for (auto i = 0; i < inDegree.size(); i++)
+	void insert(const string& word) //插入单词
 	{
-		if (inDegree[i] == 0)
+		Trie* root = this;
+		for (const auto& w : word) 
 		{
-			que.push(i);
-		}
-	}
-
-	vector<int> ans;
-	while (!que.empty())
-	{
-		auto q = que.front();
-		que.pop();
-		ans.push_back(q);
-
-		for (auto l : lst[q])
-		{
-			if (--inDegree[l] == 0)
+			if (root->next[w - 'a'] == nullptr)
 			{
-				que.push(l);
+				root->next[w - 'a'] = new Trie();
 			}
+			root = root->next[w - 'a'];
 		}
+		root->is_string = true;
 	}
 
-	return (ans.size() == numCourses) ? ans : vector<int>();
-}
+	bool search(const string& word) //查找单词
+	{
+		Trie* root = this;
+		for (const auto& w : word)
+		{
+			if (root->next[w - 'a'] == nullptr) return false;
+			root = root->next[w - 'a'];
+		}
+		return root->is_string;
+	}
+
+	bool startsWith(string prefix) //查找前缀
+	{
+		Trie* root = this;
+		for (const auto& p : prefix) 
+		{
+			if (root->next[p - 'a'] == nullptr) return false;
+			root = root->next[p - 'a'];
+		}
+		return true;
+	}
+
+private:
+	bool is_string = false;
+	Trie* next[26] = { nullptr };
+};
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(int numCourses, vector<vector<int>>& prerequisites)
-{
-	return findOrder(numCourses,prerequisites);
-}
-
-//#define USE_SOLUTION_CUSTOM
-//vector<int> _solution_custom(TestCases &tc)
+//class Trie 
 //{
+//public:
+//    /** Initialize your data structure here. */
+//    Trie()
+//	{
+//
+//    }
+//
+//    /** Inserts a word into the trie. */
+//    void insert(string word)
+//	{
+//
+//    }
+//
+//    /** Returns if the word is in the trie. */
+//    bool search(string word) 
+//	{
+//
+//    }
+//
+//    /** Returns if there is any word in the trie that starts with the given prefix. */
+//    bool startsWith(string prefix)
+//	{
+//
+//    }
+//};
+
+/**
+ * Your Trie object will be instantiated and called as such:
+ * Trie* obj = new Trie();
+ * obj->insert(word);
+ * bool param_2 = obj->search(word);
+ * bool param_3 = obj->startsWith(prefix);
+ */
+
+//////////////////////////////////////////////////////////////////////////
+//bool _solution_run(string word)
+//{
+//	return search(word);
 //}
+
+#define USE_SOLUTION_CUSTOM
+string _solution_custom(TestCases& tc)
+{
+	vector<string> sf = tc.get<vector<string>>();
+	vector<vector<string>> param = tc.get<vector<vector<string>>>();
+
+	string ans = "[";
+	Trie* obj = nullptr;
+	for (size_t i = 0; i < sf.size(); i++)
+	{
+		if (sf[i] == "Trie")
+		{
+			obj = new Trie();
+			ans += "null";
+		}
+		else if (sf[i] == "insert")
+		{
+			obj->insert(param[i][0]);
+			ans += "null";
+		}
+		else if (sf[i] == "search")
+		{
+			bool r = obj->search(param[i][0]);
+			ans += r ? "true" : "false";
+		}
+		else if (sf[i] == "startsWith")
+		{
+			bool r = obj->startsWith(param[i][0]);
+			ans += r ? "true" : "false";
+		}
+		ans += ",";
+	}
+	ans.pop_back();
+	ans += "]";
+	return ans;
+}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()
