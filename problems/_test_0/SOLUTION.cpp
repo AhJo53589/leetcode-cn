@@ -1,79 +1,103 @@
 
 //////////////////////////////////////////////////////////////////////////
-class Trie
+//class Trie
+//{
+//public:
+//	Trie() {}
+//
+//	void insert(const string& word) //插入单词
+//	{
+//		Trie* root = this;
+//		for (const auto& w : word) 
+//		{
+//			if (root->next[w - 'a'] == nullptr)
+//			{
+//				root->next[w - 'a'] = new Trie();
+//			}
+//			root = root->next[w - 'a'];
+//		}
+//		root->is_string = true;
+//	}
+//
+//	bool search(const string& word) //查找单词
+//	{
+//		Trie* root = this;
+//		for (const auto& w : word)
+//		{
+//			if (root->next[w - 'a'] == nullptr) return false;
+//			root = root->next[w - 'a'];
+//		}
+//		return root->is_string;
+//	}
+//
+//	bool startsWith(string prefix) //查找前缀
+//	{
+//		Trie* root = this;
+//		for (const auto& p : prefix) 
+//		{
+//			if (root->next[p - 'a'] == nullptr) return false;
+//			root = root->next[p - 'a'];
+//		}
+//		return true;
+//	}
+//
+//private:
+//	bool is_string = false;
+//	Trie* next[26] = { nullptr };
+//};
+
+//////////////////////////////////////////////////////////////////////////
+class Trie 
 {
 public:
-	Trie() {}
-
-	void insert(const string& word) //插入单词
+    /** Initialize your data structure here. */
+    Trie()
 	{
-		Trie* root = this;
-		for (const auto& w : word) 
+    }
+
+    /** Inserts a word into the trie. */
+    void insert(string word)
+	{
+		Trie* node = this;
+		for (auto c : word)
 		{
-			if (root->next[w - 'a'] == nullptr)
+			if (node->next[c - 'a'] == nullptr)
 			{
-				root->next[w - 'a'] = new Trie();
+				node->next[c - 'a'] = new Trie();
 			}
-			root = root->next[w - 'a'];
+			node = node->next[c - 'a'];
 		}
-		root->is_string = true;
+		node->is_string = true;
+    }
+
+    /** Returns if the word is in the trie. */
+    bool search(string word) 
+	{
+		Trie* node = this;
+		for (auto c : word)
+		{
+			if (node->next[c - 'a'] == nullptr) return false;
+			node = node->next[c - 'a'];
+		}
+		return node->is_string;
 	}
 
-	bool search(const string& word) //查找单词
+    /** Returns if there is any word in the trie that starts with the given prefix. */
+    bool startsWith(string prefix)
 	{
-		Trie* root = this;
-		for (const auto& w : word)
+		Trie* node = this;
+		for (auto c : prefix)
 		{
-			if (root->next[w - 'a'] == nullptr) return false;
-			root = root->next[w - 'a'];
-		}
-		return root->is_string;
-	}
-
-	bool startsWith(string prefix) //查找前缀
-	{
-		Trie* root = this;
-		for (const auto& p : prefix) 
-		{
-			if (root->next[p - 'a'] == nullptr) return false;
-			root = root->next[p - 'a'];
+			if (node->next[c - 'a'] == nullptr) return false;
+			node = node->next[c - 'a'];
 		}
 		return true;
-	}
+    }
 
 private:
 	bool is_string = false;
 	Trie* next[26] = { nullptr };
 };
-
-//////////////////////////////////////////////////////////////////////////
-//class Trie 
-//{
-//public:
-//    /** Initialize your data structure here. */
-//    Trie()
-//	{
-//
-//    }
-//
-//    /** Inserts a word into the trie. */
-//    void insert(string word)
-//	{
-//
-//    }
-//
-//    /** Returns if the word is in the trie. */
-//    bool search(string word) 
-//	{
-//
-//    }
-//
-//    /** Returns if there is any word in the trie that starts with the given prefix. */
-//    bool startsWith(string prefix)
-//	{
-//
-//    }
-//};
 
 /**
  * Your Trie object will be instantiated and called as such:
