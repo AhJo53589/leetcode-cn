@@ -1,154 +1,58 @@
 
-//////////////////////////////////////////////////////////////////////////
-//class Trie
-//{
-//public:
-//	Trie() {}
-//
-//	void insert(const string& word) //插入单词
-//	{
-//		Trie* root = this;
-//		for (const auto& w : word) 
-//		{
-//			if (root->next[w - 'a'] == nullptr)
-//			{
-//				root->next[w - 'a'] = new Trie();
-//			}
-//			root = root->next[w - 'a'];
-//		}
-//		root->is_string = true;
-//	}
-//
-//	bool search(const string& word) //查找单词
-//	{
-//		Trie* root = this;
-//		for (const auto& w : word)
-//		{
-//			if (root->next[w - 'a'] == nullptr) return false;
-//			root = root->next[w - 'a'];
-//		}
-//		return root->is_string;
-//	}
-//
-//	bool startsWith(string prefix) //查找前缀
-//	{
-//		Trie* root = this;
-//		for (const auto& p : prefix) 
-//		{
-//			if (root->next[p - 'a'] == nullptr) return false;
-//			root = root->next[p - 'a'];
-//		}
-//		return true;
-//	}
-//
-//private:
-//	bool is_string = false;
-//	Trie* next[26] = { nullptr };
-//};
+
 
 //////////////////////////////////////////////////////////////////////////
-class Trie 
+bool check(string& s, int beg, int end)
 {
-public:
-    /** Initialize your data structure here. */
-    Trie()
+	if (beg > end) return false;
+	while (beg < end)
 	{
-    }
-
-    /** Inserts a word into the trie. */
-    void insert(string word)
-	{
-		Trie* node = this;
-		for (auto c : word)
-		{
-			if (node->next[c - 'a'] == nullptr)
-			{
-				node->next[c - 'a'] = new Trie();
-			}
-			node = node->next[c - 'a'];
-		}
-		node->is_string = true;
-    }
-
-    /** Returns if the word is in the trie. */
-    bool search(string word) 
-	{
-		Trie* node = this;
-		for (auto c : word)
-		{
-			if (node->next[c - 'a'] == nullptr) return false;
-			node = node->next[c - 'a'];
-		}
-		return node->is_string;
+		if (s[beg++] != s[end--]) return false;
 	}
-
-    /** Returns if there is any word in the trie that starts with the given prefix. */
-    bool startsWith(string prefix)
-	{
-		Trie* node = this;
-		for (auto c : prefix)
-		{
-			if (node->next[c - 'a'] == nullptr) return false;
-			node = node->next[c - 'a'];
-		}
-		return true;
-    }
-
-private:
-	bool is_string = false;
-	Trie* next[26] = { nullptr };
-};
-
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie* obj = new Trie();
- * obj->insert(word);
- * bool param_2 = obj->search(word);
- * bool param_3 = obj->startsWith(prefix);
- */
-
-//////////////////////////////////////////////////////////////////////////
-//bool _solution_run(string word)
-//{
-//	return search(word);
-//}
-
-#define USE_SOLUTION_CUSTOM
-string _solution_custom(TestCases& tc)
-{
-	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<string>> param = tc.get<vector<vector<string>>>();
-
-	string ans = "[";
-	Trie* obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
-	{
-		if (sf[i] == "Trie")
-		{
-			obj = new Trie();
-			ans += "null";
-		}
-		else if (sf[i] == "insert")
-		{
-			obj->insert(param[i][0]);
-			ans += "null";
-		}
-		else if (sf[i] == "search")
-		{
-			bool r = obj->search(param[i][0]);
-			ans += r ? "true" : "false";
-		}
-		else if (sf[i] == "startsWith")
-		{
-			bool r = obj->startsWith(param[i][0]);
-			ans += r ? "true" : "false";
-		}
-		ans += ",";
-	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	return true;
 }
+
+void partition(string& s, int beg, vector<string> part, set<vector<string>>& ans)
+{
+	for (int i = beg; i < s.size(); i++)
+	{
+		string sub;
+		for (int j = i; j < s.size(); j++)
+		{
+			sub += s[j];
+			if (!check(s, i, j)) continue;
+			part.push_back(sub);
+			partition(s, j + 1, part, ans);
+			if (j == s.size() - 1)
+			{
+				ans.insert(part);
+			}
+			part.pop_back();
+		}
+		part.push_back({ s[i] });
+	}
+}
+
+vector<vector<string>> partition(string s) 
+{
+	set<vector<string>> ans;
+	vector<string> part;
+	partition(s, 0, part, ans);
+
+	vector<vector<string>> ret(ans.begin(), ans.end());
+	return ret;
+}
+
+//////////////////////////////////////////////////////////////////////////
+vector<vector<string>> _solution_run(string s)
+{
+	return partition(s);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//vector<vector<string>> _solution_custom(TestCases &tc)
+//{
+//}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()

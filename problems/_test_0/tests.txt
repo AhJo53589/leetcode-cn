@@ -1,3 +1,4 @@
-["Trie","insert","search","search","startsWith","insert","search"]
-[[],["apple"],["apple"],["app"],["app"],["app"],["app"]]
-[null,null,true,false,true,null,true]
+aab
+[["aa","b"],["a","a","b"]]
+aabab
+[["aa","bab"],["aa","b","a","b"],["a","aba","b"],["a","a","bab"],["a","a","b","a","b"]]
