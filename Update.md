@@ -5,6 +5,14 @@
 
 ---
 ## 20191228
+* 5137.number-of-paths-with-max-score 最大得分的路径数目
+
+* 5135.sum-of-mutated-array-closest-to-target 转变数组后最接近目标值的数组和
+
+* 5153.deepest-leaves-sum 层数最深叶子节点的和
+
+* 5134.replace-elements-with-greatest-element-on-right-side 将每个元素替换为右侧最大元素
+
 * 208.implement-trie-prefix-tree 实现 Trie (前缀树)
 
 

@@ -2,14 +2,25 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> pathsWithMaxScore(vector<string>& board) {
-
+vector<int> replaceElements(vector<int>& arr)
+{
+	for (size_t i = 0; i < arr.size() - 1; i++)
+	{
+		int t = INT_MIN;
+		for (size_t j = i + 1; j < arr.size(); j++)
+		{
+			t = max(t, arr[j]);
+		}
+		arr[i] = t;
+	}
+	arr.back() = -1;
+	return arr;
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<string>& board)
+vector<int> _solution_run(vector<int>& arr)
 {
-	return pathsWithMaxScore(board);
+	return replaceElements(arr);
 }
 
 //#define USE_SOLUTION_CUSTOM
@@ -26,6 +37,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/replace-elements-with-greatest-element-on-right-side/tests.txt";
 }
 

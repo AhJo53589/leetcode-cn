@@ -326,6 +326,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1287 	element-appearing-more-than-25-in-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1288 	remove-covered-intervals
 #define SOLUTION_CPP_FOLDER_NAME_ID_1289 	minimum-falling-path-sum-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5134 	replace-elements-with-greatest-element-on-right-side
+#define SOLUTION_CPP_FOLDER_NAME_ID_5135 	sum-of-mutated-array-closest-to-target
+#define SOLUTION_CPP_FOLDER_NAME_ID_5137 	number-of-paths-with-max-score
+#define SOLUTION_CPP_FOLDER_NAME_ID_5153 	deepest-leaves-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5291 	find-numbers-with-even-number-of-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_5292 	divide-array-in-sets-of-k-consecutive-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_5293 	maximum-number-of-occurrences-of-a-substring
