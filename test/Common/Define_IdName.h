@@ -133,6 +133,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_205 	isomorphic-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_206 	reverse-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_207 	course-schedule
+#define SOLUTION_CPP_FOLDER_NAME_ID_208 	implement-trie-prefix-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_209 	minimum-size-subarray-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_210 	course-schedule-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_213 	house-robber-ii

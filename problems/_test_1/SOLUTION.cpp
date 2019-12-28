@@ -1,42 +1,43 @@
 
+
+
 //////////////////////////////////////////////////////////////////////////
 class Trie
 {
 public:
 	Trie() {}
-
-	void insert(const string& word) //插入单词
+	void insert(string word)
 	{
-		Trie* root = this;
-		for (const auto& w : word) 
+		Trie* node = this;
+		for (auto c : word)
 		{
-			if (root->next[w - 'a'] == nullptr)
+			if (node->next[c - 'a'] == nullptr)
 			{
-				root->next[w - 'a'] = new Trie();
+				node->next[c - 'a'] = new Trie();
 			}
-			root = root->next[w - 'a'];
+			node = node->next[c - 'a'];
 		}
-		root->is_string = true;
+		node->is_string = true;
 	}
 
-	bool search(const string& word) //查找单词
+	bool search(string word)
 	{
-		Trie* root = this;
-		for (const auto& w : word)
+		Trie* node = this;
+		for (auto c : word)
 		{
-			if (root->next[w - 'a'] == nullptr) return false;
-			root = root->next[w - 'a'];
+			if (node->next[c - 'a'] == nullptr) return false;
+			node = node->next[c - 'a'];
 		}
-		return root->is_string;
+		return node->is_string;
 	}
 
-	bool startsWith(string prefix) //查找前缀
+	bool startsWith(string prefix)
 	{
-		Trie* root = this;
-		for (const auto& p : prefix) 
+		Trie* node = this;
+		for (auto c : prefix)
 		{
-			if (root->next[p - 'a'] == nullptr) return false;
-			root = root->next[p - 'a'];
+			if (node->next[c - 'a'] == nullptr) return false;
+			node = node->next[c - 'a'];
 		}
 		return true;
 	}
@@ -46,85 +47,59 @@ private:
 	Trie* next[26] = { nullptr };
 };
 
-//////////////////////////////////////////////////////////////////////////
-//class Trie 
-//{
-//public:
-//    /** Initialize your data structure here. */
-//    Trie()
-//	{
-//
-//    }
-//
-//    /** Inserts a word into the trie. */
-//    void insert(string word)
-//	{
-//
-//    }
-//
-//    /** Returns if the word is in the trie. */
-//    bool search(string word) 
-//	{
-//
-//    }
-//
-//    /** Returns if there is any word in the trie that starts with the given prefix. */
-//    bool startsWith(string prefix)
-//	{
-//
-//    }
-//};
-
-/**
- * Your Trie object will be instantiated and called as such:
- * Trie* obj = new Trie();
- * obj->insert(word);
- * bool param_2 = obj->search(word);
- * bool param_3 = obj->startsWith(prefix);
- */
-
-//////////////////////////////////////////////////////////////////////////
-//bool _solution_run(string word)
-//{
-//	return search(word);
-//}
-
-#define USE_SOLUTION_CUSTOM
-string _solution_custom(TestCases& tc)
+void find(vector<vector<char>>& board, int x, int y, string fstr, set<vector<int>> &vi, set<string>& ret, Trie& trie, vector<vector<int>>& dd)
 {
-	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<string>> param = tc.get<vector<vector<string>>>();
-
-	string ans = "[";
-	Trie* obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	if (vi.count({ x, y }) != 0) return;
+	if (x < 0 || x >= board.size()) return;
+	if (y < 0 || y >= board[0].size()) return;
+	fstr += board[x][y];
+	if (trie.search(fstr))
 	{
-		if (sf[i] == "Trie")
-		{
-			obj = new Trie();
-			ans += "null";
-		}
-		else if (sf[i] == "insert")
-		{
-			obj->insert(param[i][0]);
-			ans += "null";
-		}
-		else if (sf[i] == "search")
-		{
-			bool r = obj->search(param[i][0]);
-			ans += r ? "true" : "false";
-		}
-		else if (sf[i] == "startsWith")
-		{
-			bool r = obj->startsWith(param[i][0]);
-			ans += r ? "true" : "false";
-		}
-		ans += ",";
+		ret.insert(fstr);
 	}
-	ans.pop_back();
-	ans += "]";
+	if (!trie.startsWith(fstr)) return;
+
+	vi.insert({ x, y });
+	for (auto d : dd)
+	{
+		int dx = x + d[0];
+		int dy = y + d[1];
+		find(board, dx, dy, fstr, vi, ret, trie, dd);
+	}
+	vi.erase({ x, y });
+}
+
+vector<string> findWords(vector<vector<char>>& board, vector<string>& words)
+{
+	set<vector<int>> vi;
+	set<string> ret;
+	vector<vector<int>> dd = { {0, 1}, {0, -1}, {1,0},{-1,0} };
+
+	Trie trie;
+	for (auto w : words) trie.insert(w);
+
+	for (int x = 0; x < board.size(); x++)
+	{
+		for (int y = 0; y < board[0].size(); y++)
+		{
+			find(board, x, y, "", vi, ret, trie, dd);
+		}
+	}
+
+	vector<string> ans(ret.begin(), ret.end());
 	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+vector<string> _solution_run(vector<vector<char>>& board, vector<string>& words)
+{
+	return findWords(board,words);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//vector<string> _solution_custom(TestCases &tc)
+//{
+//}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()
