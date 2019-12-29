@@ -338,3 +338,4 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5296 	all-elements-in-two-binary-search-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_5296 	all-elements-in-two-binary-search-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_5298 	verbal-arithmetic-puzzle
+#define SOLUTION_CPP_FOLDER_NAME_ID_5298 	verbal-arithmetic-puzzle
