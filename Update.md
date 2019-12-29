@@ -4,6 +4,17 @@
 
 
 ---
+## 20191229
+* 5298.verbal-arithmetic-puzzle 口算难题
+
+* 5296.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素
+
+* 5296.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素
+
+* 5295.find-n-unique-integers-sum-up-to-zero 和为零的N个唯一整数
+
+
+---
 ## 20191228
 * 5137.number-of-paths-with-max-score 最大得分的路径数目
 

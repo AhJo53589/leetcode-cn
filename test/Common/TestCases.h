@@ -36,7 +36,12 @@ public:
 	std::string get<std::string>()
 	{
 		if (curr == file.size()) return {};
-		return popString();
+		string ret = popString();
+		if (ret[0] == '\"' && ret.back() == '\"')
+		{
+			ret = ret.substr(1, ret.size() - 2);
+		}
+		return ret;
 	}
 
 	template<>

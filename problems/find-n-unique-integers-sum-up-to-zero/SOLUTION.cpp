@@ -2,18 +2,29 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-bool isSolvable(vector<string>& words, string result) 
+vector<int> sumZero(int n)
 {
+    vector<int> ans;
+    for (int i = 0; i < n / 2; i++)
+    {
+        ans.push_back(i + 1);
+        ans.push_back(- i - 1);
+    }
+    if (n % 2 == 1)
+    {
+        ans.push_back(0);
+    }
+    return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////
-bool _solution_run(vector<string>& words, string result)
+vector<int> _solution_run(int n)
 {
-	return isSolvable(words,result);
+	return sumZero(n);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//bool _solution_custom(TestCases &tc)
+//vector<int> _solution_custom(TestCases &tc)
 //{
 //}
 
@@ -26,6 +37,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/find-n-unique-integers-sum-up-to-zero/tests.txt";
 }
 

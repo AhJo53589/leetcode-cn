@@ -334,3 +334,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5292 	divide-array-in-sets-of-k-consecutive-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_5293 	maximum-number-of-occurrences-of-a-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_5294 	maximum-candies-you-can-get-from-boxes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5295 	find-n-unique-integers-sum-up-to-zero
+#define SOLUTION_CPP_FOLDER_NAME_ID_5296 	all-elements-in-two-binary-search-trees
+#define SOLUTION_CPP_FOLDER_NAME_ID_5296 	all-elements-in-two-binary-search-trees
+#define SOLUTION_CPP_FOLDER_NAME_ID_5298 	verbal-arithmetic-puzzle
