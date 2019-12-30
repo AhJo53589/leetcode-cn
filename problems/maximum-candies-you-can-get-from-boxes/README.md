@@ -1,4 +1,4 @@
-# `（困难）` [5294.maximum-candies-you-can-get-from-boxes 你能从盒子里获得的最大糖果数](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/)
+# `（困难）` [1298.maximum-candies-you-can-get-from-boxes 你能从盒子里获得的最大糖果数](https://leetcode-cn.com/problems/maximum-candies-you-can-get-from-boxes/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-168/problems/maximum-candies-you-can-get-from-boxes/)
 

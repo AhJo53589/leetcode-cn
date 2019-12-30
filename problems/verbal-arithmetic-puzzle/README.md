@@ -1,4 +1,4 @@
-# `（困难）` [5298.verbal-arithmetic-puzzle 口算难题](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/)
+# `（困难）` [1307.verbal-arithmetic-puzzle 口算难题](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-169/problems/verbal-arithmetic-puzzle/)
 
@@ -61,7 +61,7 @@
 ```
 ```
 
-[发布的题解](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/5298-by-ikaruga/)
+[发布的题解](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/1307-by-ikaruga/)
 
 ### 答题
 ``` C++

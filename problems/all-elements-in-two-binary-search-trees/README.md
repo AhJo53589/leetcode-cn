@@ -1,4 +1,4 @@
-# `（中等）` [5296.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)
+# `（中等）` [1305.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素](https://leetcode-cn.com/problems/all-elements-in-two-binary-search-trees/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-169/problems/all-elements-in-two-binary-search-trees/)
 
@@ -45,8 +45,6 @@
 ```
 
 ```
-
-[发布的题解](https://leetcode-cn.com/problems/jump-game-iii/solution/5297-by-ikaruga/)
 
 ### 答题
 ``` C++

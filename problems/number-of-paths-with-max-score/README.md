@@ -1,4 +1,4 @@
-# `（困难）` [5137.number-of-paths-with-max-score 最大得分的路径数目](https://leetcode-cn.com/problems/number-of-paths-with-max-score/)
+# `（困难）` [1301.number-of-paths-with-max-score 最大得分的路径数目](https://leetcode-cn.com/problems/number-of-paths-with-max-score/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-16/problems/number-of-paths-with-max-score/)
 

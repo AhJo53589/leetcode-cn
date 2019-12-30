@@ -1,4 +1,4 @@
-# `（中等）` [5292.divide-array-in-sets-of-k-consecutive-numbers 划分数组为连续数字的集合](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
+# `（中等）` [1296.divide-array-in-sets-of-k-consecutive-numbers 划分数组为连续数字的集合](https://leetcode-cn.com/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-168/problems/divide-array-in-sets-of-k-consecutive-numbers/)
 

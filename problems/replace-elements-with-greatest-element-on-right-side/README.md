@@ -1,4 +1,4 @@
-# `（简单）` [5134.replace-elements-with-greatest-element-on-right-side 将每个元素替换为右侧最大元素](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/)
+# `（简单）` [1299.replace-elements-with-greatest-element-on-right-side 将每个元素替换为右侧最大元素](https://leetcode-cn.com/problems/replace-elements-with-greatest-element-on-right-side/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-16/problems/replace-elements-with-greatest-element-on-right-side/)
 

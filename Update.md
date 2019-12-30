@@ -6,27 +6,25 @@
 
 ---
 ## 20191229
-* 5298.verbal-arithmetic-puzzle 口算难题
+* 1307.verbal-arithmetic-puzzle 口算难题
 
-* 5296.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素
+* 1306.jump-game-iii 跳跃游戏 III
+  
+* 1305.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素
 
-* 5296.all-elements-in-two-binary-search-trees 两棵二叉搜索树中的所有元素
-
-* 5295.find-n-unique-integers-sum-up-to-zero 和为零的N个唯一整数
-
+* 1304.find-n-unique-integers-sum-up-to-zero 和为零的N个唯一整数
 
 ---
 ## 20191228
-* 5137.number-of-paths-with-max-score 最大得分的路径数目
+* 1301.number-of-paths-with-max-score 最大得分的路径数目
 
-* 5135.sum-of-mutated-array-closest-to-target 转变数组后最接近目标值的数组和
+* 1300.sum-of-mutated-array-closest-to-target 转变数组后最接近目标值的数组和
 
-* 5153.deepest-leaves-sum 层数最深叶子节点的和
+* 1302.deepest-leaves-sum 层数最深叶子节点的和
 
-* 5134.replace-elements-with-greatest-element-on-right-side 将每个元素替换为右侧最大元素
+* 1299.replace-elements-with-greatest-element-on-right-side 将每个元素替换为右侧最大元素
 
 * 208.implement-trie-prefix-tree 实现 Trie (前缀树)
-
 
 ---
 ## 20191223
@@ -36,17 +34,15 @@
 
 * 127.word-ladder 单词接龙
 
-
 ---
 ## 20191222
-* 5294.maximum-candies-you-can-get-from-boxes 你能从盒子里获得的最大糖果数
+* 1298.maximum-candies-you-can-get-from-boxes 你能从盒子里获得的最大糖果数
 
-* 5293.maximum-number-of-occurrences-of-a-substring 子串的最大出现次数
+* 1297.maximum-number-of-occurrences-of-a-substring 子串的最大出现次数
 
-* 5292.divide-array-in-sets-of-k-consecutive-numbers 划分数组为连续数字的集合
+* 1296.divide-array-in-sets-of-k-consecutive-numbers 划分数组为连续数字的集合
 
-* 5291.find-numbers-with-even-number-of-digits 统计位数为偶数的数字
-
+* 1295.find-numbers-with-even-number-of-digits 统计位数为偶数的数字
 
 ---
 ## 20191216
@@ -62,20 +58,17 @@
 
 * 1290.convert-binary-number-in-a-linked-list-to-integer 二进制链表转整数
 
-
 ---
 ## 20191215
 * 1286.iterator-for-combination 字母排列迭代器
 
 * 1289.minimum-falling-path-sum-ii 下降路径最小和 II
 
-
 ---
 ## 20191214
 * 1288.remove-covered-intervals 删除被覆盖区间
 
 * 1287.element-appearing-more-than-25-in-sorted-array 有序数组中出现次数超过25%的元素
-
 
 ---
 ## 20191211
@@ -84,7 +77,6 @@
 * 375.guess-number-higher-or-lower-ii 猜数字大小 II
 
 * 918.maximum-sum-circular-subarray 环形子数组的最大和
-
 
 ---
 ## 20191208
@@ -95,7 +87,6 @@
 * 1282.group-the-people-given-the-group-size-they-belong-to 用户分组
 
 * 1281.subtract-the-product-and-sum-of-digits-of-an-integer 整数的各位积和之差
-
 
 ---
 ## 20191201
@@ -111,7 +102,6 @@
 
 * 1273.delete-tree-nodes 删除树节点
 
-
 ---
 ## 20191130
 * 1272.remove-interval 删除区间
@@ -119,7 +109,6 @@
 * 1271.hexspeak 十六进制魔术数字
 
 * 670.maximum-swap 最大交换
-
 
 ---
 ## 20191129
@@ -131,7 +120,6 @@
 
 * 698.partition-to-k-equal-sum-subsets 划分为k个相等的子集
 
-
 ---
 ## 20191126
 * 457.circular-array-loop 环形数组循环
@@ -139,7 +127,6 @@
 * 594.longest-harmonious-subsequence 最长和谐子序列
 
 * 788.rotated-digits 旋转数字
-
 
 ---
 ## 20191125
@@ -151,7 +138,6 @@
 
 * 495.teemo-attacking 提莫攻击
 
-
 ---
 ## 20191124
 * 1269.number-of-ways-to-stay-in-the-same-place-after-some-steps 停在原地的方案数
@@ -161,7 +147,6 @@
 * 1267.count-servers-that-communicate 统计参与通信的服务器
 
 * 1266.minimum-time-visiting-all-points 访问所有点的最小时间
-
 
 ---
 ## 20191118
@@ -175,13 +160,11 @@
 
 * 1260.shift-2d-grid 二维网格迁移
 
-
 ---
 ## 20191117
 * 1259.handshakes-that-dont-cross 不相交的握手
 
 * 1258.synonymous-sentences 近义词句子
-
 
 ---
 ## 20191116
@@ -191,11 +174,9 @@
 
 * 92.reverse-linked-list-ii 反转链表 II
 
-
 ---
 ## 20191113
 * 50.powx-n Pow(x, n)
-
 
 ---
 ## 20191110
@@ -206,7 +187,6 @@
 * 1253.reconstruct-a-2-row-binary-matrix 重构 2 行二进制矩阵
 
 * 1252.cells-with-odd-values-in-a-matrix 奇数值单元格的数目
-
 
 ---
 ## 20191103
@@ -222,13 +202,11 @@
 
 * 1245.tree-diameter 树的直径
 
-
 ---
 ## 20191102
 * 1244.design-a-leaderboard 力扣排行榜
 
 * 1243.array-transformation 数组变换
-
 
 ---
 ## 20191101
@@ -242,7 +220,6 @@
 
 * 1217.play-with-chips 玩筹码
 
-
 ---
 ## 20191031
 * 222.count-complete-tree-nodes 完全二叉树的节点个数
@@ -253,16 +230,13 @@
 
 * 378.kth-smallest-element-in-a-sorted-matrix 有序矩阵中第K小的元素
 
-
 ---
 ## 20191030
 * 304.range-sum-query-2d-immutable 二维区域和检索 - 矩阵不可变
 
-
 ---
 ## 20191029
 * 303.range-sum-query-immutable 区域和检索 - 数组不可变
-
 
 ---
 ## 20191027
@@ -274,9 +248,7 @@
 
 * 1237.find-positive-integer-solution-for-a-given-equation 找出给定方程的正整数解
 
-
 ---
-
 
 ---
 ## 20191020

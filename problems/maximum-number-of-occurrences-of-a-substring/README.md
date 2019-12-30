@@ -1,4 +1,4 @@
-# `（中等）` [5293.maximum-number-of-occurrences-of-a-substring 子串的最大出现次数](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring/)
+# `（中等）` [1297.maximum-number-of-occurrences-of-a-substring 子串的最大出现次数](https://leetcode-cn.com/problems/maximum-number-of-occurrences-of-a-substring/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-168/problems/maximum-number-of-occurrences-of-a-substring/)
 

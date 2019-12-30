@@ -1,4 +1,4 @@
-# `（简单）` [5295.find-n-unique-integers-sum-up-to-zero 和为零的N个唯一整数](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)
+# `（简单）` [1304.find-n-unique-integers-sum-up-to-zero 和为零的N个唯一整数](https://leetcode-cn.com/problems/find-n-unique-integers-sum-up-to-zero/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-169/problems/find-n-unique-integers-sum-up-to-zero/)
 
