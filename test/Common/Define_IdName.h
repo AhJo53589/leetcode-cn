@@ -97,6 +97,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_127 	word-ladder
 #define SOLUTION_CPP_FOLDER_NAME_ID_128 	longest-consecutive-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_130 	surrounded-regions
+#define SOLUTION_CPP_FOLDER_NAME_ID_131 	palindrome-partitioning
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
 #define SOLUTION_CPP_FOLDER_NAME_ID_136 	single-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_141 	linked-list-cycle
@@ -136,6 +137,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_208 	implement-trie-prefix-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_209 	minimum-size-subarray-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_210 	course-schedule-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_212 	word-search-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_213 	house-robber-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_215 	kth-largest-element-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_217 	contains-duplicate

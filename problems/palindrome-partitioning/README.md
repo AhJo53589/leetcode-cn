@@ -1,7 +1,29 @@
+# `（中等）` [131.palindrome-partitioning 分割回文串](https://leetcode-cn.com/problems/palindrome-partitioning/)
+
+### 题目描述
+<p>给定一个字符串 <em>s</em>，将<em> s </em>分割成一些子串，使每个子串都是回文串。</p>
+
+<p>返回 <em>s</em> 所有可能的分割方案。</p>
+
+<p><strong>示例:</strong></p>
+
+<pre><strong>输入:</strong>&nbsp;"aab"
+<strong>输出:</strong>
+[
+  ["aa","b"],
+  ["a","a","b"]
+]</pre>
+
+
+---
+### 思路
+```
+```
 
 
 
-//////////////////////////////////////////////////////////////////////////
+### 答题
+``` C++
 bool check(string& s, int beg, int end)
 {
 	if (beg > end) return false;
@@ -40,27 +62,8 @@ vector<vector<string>> partition(string s)
 	vector<vector<string>> ret(ans.begin(), ans.end());
 	return ret;
 }
+```
 
-//////////////////////////////////////////////////////////////////////////
-vector<vector<string>> _solution_run(string s)
-{
-	return partition(s);
-}
 
-//#define USE_SOLUTION_CUSTOM
-//vector<vector<string>> _solution_custom(TestCases &tc)
-//{
-//}
 
-//////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/_test_2/tests.txt";
-}
 
