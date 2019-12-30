@@ -1,32 +1,34 @@
 
+
+
 //////////////////////////////////////////////////////////////////////////
-void dfs(vector<int>& arr, int i, vector<bool>& vi, bool& ans)
+void inordered(TreeNode* root, vector<int>& out)
 {
-	if (ans) return;
-	if (i < 0 || i >= arr.size()) return;
-	if (vi[i]) return;
-	vi[i] = true;
-	if (arr[i] == 0)
+	if (root == nullptr) return;
+	if (root->left != nullptr)
 	{
-		ans = true;
-		return;
+		inordered(root->left, out);
 	}
-	dfs(arr, i + arr[i], vi, ans);
-	dfs(arr, i - arr[i], vi, ans);
+	out.push_back(root->val);
+	if (root->right != nullptr)
+	{
+		inordered(root->right, out);
+	}
 }
 
-bool canReach(vector<int>& arr, int start) 
+vector<int> getAllElements(TreeNode* root1, TreeNode* root2)
 {
-	bool ans = false;
-	vector<bool> vi(arr.size(), false);
-	dfs(arr, start, vi, ans);
+	vector<int> ans;
+	inordered(root1, ans);
+	inordered(root2, ans);
+	sort(ans.begin(), ans.end());
 	return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////
-bool _solution_run(vector<int>& arr, int start)
+vector<int> _solution_run(TreeNode* root1, TreeNode* root2)
 {
-	return canReach(arr,start);
+	return getAllElements(root1, root2);
 }
 
 //#define USE_SOLUTION_CUSTOM
