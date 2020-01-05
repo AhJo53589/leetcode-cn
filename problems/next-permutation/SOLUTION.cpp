@@ -2,30 +2,23 @@
 //////////////////////////////////////////////////////////////////////////
 //void nextPermutation(vector<int>& nums)
 //{
-//	vector<int> ans = nums;
-//	if (next_permutation(nums.begin(), nums.end()))
-//	{
-//		for (int i = 0; i < nums.size(); i++)
-//		{
-//			if (ans[i] > nums[i])
-//			{
-//				sort(ans.begin(), ans.end());
-//			}
-//		}
-//	}
+//	if (next_permutation(nums.begin(), nums.end())) return;
+//	sort(nums.begin(), nums.end());
 //}
 
 //////////////////////////////////////////////////////////////////////////
-//void nextPermutation(vector<int>& nums) {
-//	if (nums.size() > 1) {
-//		int i;
-//		for (i = nums.size() - 1; i > 0 && nums[i - 1] >= nums[i]; i--);
+//void nextPermutation(vector<int>& nums) 
+//{
+//	if (nums.empty()) return;
 //
-//		reverse(nums.begin() + i, nums.end());
-//		if (i-- != 0) {
-//			auto it = upper_bound(nums.begin() + i, nums.end(), nums[i]);
-//			swap(nums[i], *it);
-//		}
+//	int i;
+//	for (i = nums.size() - 1; i > 0 && nums[i - 1] >= nums[i]; i--);
+//
+//	reverse(nums.begin() + i, nums.end());
+//	if (i-- != 0) 
+//	{
+//		auto it = upper_bound(nums.begin() + i, nums.end(), nums[i]);
+//		swap(nums[i], *it);
 //	}
 //}
 
