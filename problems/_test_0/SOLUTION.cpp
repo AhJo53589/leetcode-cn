@@ -2,55 +2,56 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-void checkAndCut(string &s)
+vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vector<vector<int>>& friends, int id, int level) 
 {
-	int l = 0;
-	int r = s.size() - 1;
-	while (l < r)
+	unordered_set<int> fri_set;
+	fri_set.insert(id);
+	vector<int> fri_vct = { id };
+	for (int i = 0; i < level; i++)
 	{
-		if (s[l] != s[r]) break;
-		l++;
-		r--;
-	}
-	if (l < r)
-	{
-		s = s.substr(l, r - l + 1);
-	}
-	else
-	{
-		s.clear();
-	}
-}
-
-int minInsertions(string s) 
-{
-	queue<pair<string, int>> que;
-	que.push({s, 0});
-
-	while (!que.empty())
-	{
-		auto q = que.front();
-		que.pop();
-
-		string str = q.first;
-		checkAndCut(str);
-		if (str.size() == 0) return q.second;
-
-		que.push({ str[str.size() - 1] + str, q.second + 1 });
-		que.push({ str + str[0], q.second + 1 });
+		vector<int> temp;
+		for (auto n : fri_vct)
+		{
+			for (auto cur : friends[n])
+			{
+				if (fri_set.count(cur) != 0) continue;
+				fri_set.insert(cur);
+				temp.push_back(cur);
+			}
+		}
+		fri_vct = temp;
 	}
 
-	return s.size() - 1;
+	map<string, int> videos_time;
+	multimap<int, string> videos;
+	for (auto n : fri_vct)
+	{
+		for (auto v : watchedVideos[n])
+		{
+			videos_time[v]++;
+		}
+	}
+	for (auto n : videos_time)
+	{
+		videos.insert({ n.second, n.first });
+	}
+
+	vector<string> ans;
+	for (auto m : videos)
+	{
+		ans.push_back(m.second);
+	}
+	return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(string s)
+vector<string> _solution_run(vector<vector<string>>& watchedVideos, vector<vector<int>>& friends, int id, int level)
 {
-	return minInsertions(s);
+	return watchedVideosByFriends(watchedVideos,friends,id,level);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
+//vector<string> _solution_custom(TestCases &tc)
 //{
 //}
 

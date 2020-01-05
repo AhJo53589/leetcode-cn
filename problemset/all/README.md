@@ -339,6 +339,10 @@
 | √ | 1305 | [all-elements-in-two-binary-search-trees](../../problems/all-elements-in-two-binary-search-trees) | [两棵二叉搜索树中的所有元素](../../problems/all-elements-in-two-binary-search-trees/README.md) | [cpp](../../problems/all-elements-in-two-binary-search-trees/SOLUTION.cpp) |   | 中等 | 
 | √ | 1306 | [jump-game-iii](../../problems/jump-game-iii) | [跳跃游戏 III](../../problems/jump-game-iii/README.md) | [cpp](../../problems/jump-game-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-iii/solution/5297-by-ikaruga/) | 中等 | 
 | √ | 1307 | [verbal-arithmetic-puzzle](../../problems/verbal-arithmetic-puzzle) | [口算难题](../../problems/verbal-arithmetic-puzzle/README.md) | [cpp](../../problems/verbal-arithmetic-puzzle/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/5298-by-ikaruga/) | 困难 | 
+| √ | 5303 | [decrypt-string-from-alphabet-to-integer-mapping](../../problems/decrypt-string-from-alphabet-to-integer-mapping) | [解码字母到整数映射](../../problems/decrypt-string-from-alphabet-to-integer-mapping/README.md) | [cpp](../../problems/decrypt-string-from-alphabet-to-integer-mapping/SOLUTION.cpp) |   | 简单 | 
+| √ | 5304 | [xor-queries-of-a-subarray](../../problems/xor-queries-of-a-subarray) | [子数组异或查询](../../problems/xor-queries-of-a-subarray/README.md) | [cpp](../../problems/xor-queries-of-a-subarray/SOLUTION.cpp) |   | 中等 | 
+| √ | 5305 | [get-watched-videos-by-your-friends](../../problems/get-watched-videos-by-your-friends) | [获取你好友已观看的视频](../../problems/get-watched-videos-by-your-friends/README.md) | [cpp](../../problems/get-watched-videos-by-your-friends/SOLUTION.cpp) |   | 中等 | 
+|   | 5306 | [minimum-insertion-steps-to-make-a-string-palindrome](../../problems/minimum-insertion-steps-to-make-a-string-palindrome) | [让字符串成为回文串的最少插入次数](../../problems/minimum-insertion-steps-to-make-a-string-palindrome/README.md) | [cpp](../../problems/minimum-insertion-steps-to-make-a-string-palindrome/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
