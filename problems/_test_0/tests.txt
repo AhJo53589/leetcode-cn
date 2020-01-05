@@ -1,6 +1,11 @@
-"()())()"
-["()()()", "(())()"]
-"(a)())()"
-["(a)()()", "(a())()"]
-")("
-[""]
+"zzazz"
+0
+"mbadm"
+2
+"leetcode"
+5
+"g"
+0
+"no"
+1
+"tldjbqjdogipebqsohdypcxjqkrqltpgviqtqz"

@@ -1,57 +1,56 @@
 
-//////////////////////////////////////////////////////////////////////////
-bool valid(string& s, vector<int>& use)
-{
-	int st = 0;
-	for (size_t i = 0; i < s.size(); i++)
-	{
-		if (!use[i]) continue;
-		st += (s[i] == '(');
-		st -= (s[i] == ')');
-		if (st < 0) return false;
-	}
-	return (st == 0);
-}
 
-vector<string> removeInvalidParentheses(string s) 
-{	
-	set<string> ans;
-	vector<int> use(s.size(), 1);
-
-	for (int k = 0; k < s.size(); k++)
-	{
-		for (int i = 0; i < s.size(); i++)
-		{
-			use[i] = (i >= k);
-		}
-
-		while (next_permutation(use.begin(), use.end()))
-		{
-			if (valid(s, use))
-			{
-				string a;
-				for (size_t i = 0; i < s.size(); i++)
-				{
-					if (!use[i]) continue;
-					a += s[i];
-				}
-				ans.insert(a);
-
-				k = s.size();
-			}
-		}
-	}
-	return vector<string>(ans.begin(), ans.end());
-}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _solution_run(string s)
+void checkAndCut(string &s)
 {
-	return removeInvalidParentheses(s);
+	int l = 0;
+	int r = s.size() - 1;
+	while (l < r)
+	{
+		if (s[l] != s[r]) break;
+		l++;
+		r--;
+	}
+	if (l < r)
+	{
+		s = s.substr(l, r - l + 1);
+	}
+	else
+	{
+		s.clear();
+	}
+}
+
+int minInsertions(string s) 
+{
+	queue<pair<string, int>> que;
+	que.push({s, 0});
+
+	while (!que.empty())
+	{
+		auto q = que.front();
+		que.pop();
+
+		string str = q.first;
+		checkAndCut(str);
+		if (str.size() == 0) return q.second;
+
+		que.push({ str[str.size() - 1] + str, q.second + 1 });
+		que.push({ str + str[0], q.second + 1 });
+	}
+
+	return s.size() - 1;
+}
+
+//////////////////////////////////////////////////////////////////////////
+int _solution_run(string s)
+{
+	return minInsertions(s);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<string> _solution_custom(TestCases &tc)
+//int _solution_custom(TestCases &tc)
 //{
 //}
 
