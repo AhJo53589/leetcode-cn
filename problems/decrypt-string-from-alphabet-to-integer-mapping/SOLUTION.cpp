@@ -7,19 +7,16 @@ string freqAlphabets(string s)
     string ans;
     for (size_t i = s.size() - 1; i < s.size(); i--)
     {
-        if (s[i] != '#')
-        {
-            ans.push_back('a' + (s[i] - '1'));
-        }
-        else
+        int n = s[i] - '0';
+        if (s[i] == '#')
         {
             string t;
             t += s[i - 2];
             t += s[i - 1];
-            int n = stoi(t);
-            ans.push_back('a' + n - 1);
+            n = stoi(t);
             i -= 2;
         }
+        ans.push_back('a' - 1 + n);
     }
     reverse(ans.begin(), ans.end());
     return ans;
