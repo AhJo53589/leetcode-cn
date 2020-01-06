@@ -219,6 +219,7 @@
 | √ | 495 | [teemo-attacking](../../problems/teemo-attacking) | [提莫攻击](../../problems/teemo-attacking/README.md) | [cpp](../../problems/teemo-attacking/SOLUTION.cpp) |   | 中等 |
 | √ | 498 | [diagonal-traverse](../../problems/diagonal-traverse) | [对角线遍历](../../problems/diagonal-traverse/README.md) | [cpp](../../problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
 | √ | 509 | [fibonacci-number](../../problems/fibonacci-number) | [斐波那契数](../../problems/fibonacci-number/README.md) | [cpp](../../problems/fibonacci-number/SOLUTION.cpp) |   | 简单 |
+| √ | 516 | [longest-palindromic-subsequence](../../problems/longest-palindromic-subsequence) | [最长回文子序列](../../problems/longest-palindromic-subsequence/README.md) | [cpp](../../problems/longest-palindromic-subsequence/SOLUTION.cpp) |   | 中等 | 
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 |
 | √ | 547 | [friend-circles](../../problems/friend-circles) | [朋友圈](../../problems/friend-circles/README.md) | [cpp](../../problems/friend-circles/SOLUTION.cpp) |   | 中等 |

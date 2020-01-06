@@ -219,6 +219,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
 #define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
