@@ -1,4 +1,5 @@
 
+//////////////////////////////////////////////////////////////////////////
 void backtrack(vector<int> &nums, vector<vector<int>> &res, int i)
 {
 	if (i == nums.size()) res.push_back(nums);
@@ -11,13 +12,26 @@ void backtrack(vector<int> &nums, vector<vector<int>> &res, int i)
 	}
 }
 
-//////////////////////////////////////////////////////////////////////////
 vector<vector<int>> permute(vector<int>& nums)
 {
 	vector<vector<int>> res;
 	backtrack(nums, res, 0);
 	return res;
 }
+
+
+//////////////////////////////////////////////////////////////////////////
+//vector<vector<int>> permute(vector<int>& nums) 
+//{
+//    vector<vector<int>> ans;
+//    sort(nums.begin(), nums.end());
+//    ans.push_back(nums);
+//    while(next_permutation(nums.begin(), nums.end()))
+//    {
+//        ans.push_back(nums);
+//    }
+//    return ans;
+//}
 
 //////////////////////////////////////////////////////////////////////////
 vector<vector<int>> _solution_run(vector<int>& nums)
