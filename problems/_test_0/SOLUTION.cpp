@@ -1,35 +1,58 @@
 
-
 //////////////////////////////////////////////////////////////////////////
-int longestPalindromeSubseq(string s) 
+bool valid(string& s, vector<int>& use) // 根据use标志位，验证括号是否合法
 {
-	vector<vector<int>> dp(s.size(), vector<int>(s.size(), 0));
-	for (size_t i = s.size() - 1; i < s.size(); i--)
+	int st = 0;
+	for (size_t i = 0; i < s.size(); i++)
 	{
-		dp[i][i] = 1;
-		for (size_t j = i + 1; j < s.size(); j++)
-		{
-			if (s[i] == s[j])
-			{
-				dp[i][j] = dp[i + 1][j - 1] + 2;
-			}
-			else
-			{
-				dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]);
-			}
-		}
+		if (!use[i]) continue;
+		st += (s[i] == '(');
+		st -= (s[i] == ')');
+		if (st < 0) return false;
 	}
-	return dp[0].back();
+	return (st == 0);
+}
+
+vector<string> removeInvalidParentheses(string s)
+{
+	set<string> ans;
+	vector<int> use(s.size(), 1);
+
+	for (int k = 0; k < s.size(); k++)
+	{
+		for (int i = 0; i < s.size(); i++)  // 第k次寻找，初始化标志位，使前k个字符无效
+		{
+			use[i] = (i >= k);
+		}
+
+		do
+		{
+			if (valid(s, use))
+			{
+				string a;   // 拷贝符合要求的字符串
+				for (size_t i = 0; i < s.size(); i++)
+				{
+					if (!use[i]) continue;
+					a += s[i];
+				}
+				ans.insert(a);
+
+				k = s.size();   // 在下一次循环时结束k层的循环，本次循环内的do-while循环继续执行
+			}
+		} while (next_permutation(use.begin(), use.end())); // 得到标志位的下一个排列
+	}
+	if (ans.empty()) return { "" };
+	return vector<string>(ans.begin(), ans.end());
 }
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(string s)
+vector<string> _solution_run(string s)
 {
-	return longestPalindromeSubseq(s);
+	return removeInvalidParentheses(s);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
+//vector<string> _solution_custom(TestCases &tc)
 //{
 //}
 

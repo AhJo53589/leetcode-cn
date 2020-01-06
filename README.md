@@ -6,7 +6,6 @@
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
 | ☆ | 41 | [first-missing-positive](./problems/first-missing-positive) | [缺失的第一个正数](./problems/first-missing-positive/README.md) | [cpp](./problems/first-missing-positive/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) | 困难 |
-|  | 42 | [trapping-rain-water](./problems/trapping-rain-water) | [接雨水](./problems/trapping-rain-water/README.md) | [cpp](./problems/trapping-rain-water/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) | 困难 |
 | ☆☆☆ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
 | ☆ | 93 | [restore-ip-addresses](./problems/restore-ip-addresses) | [复原IP地址](./problems/restore-ip-addresses/README.md) | [cpp](./problems/restore-ip-addresses/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/restore-ip-addresses/solution/93-by-ikaruga/) | 中等 |
 | ☆☆☆ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
@@ -16,6 +15,7 @@
 | ☆ | 220 | [contains-duplicate-iii](./problems/contains-duplicate-iii) | [存在重复元素 III](./problems/contains-duplicate-iii/README.md) | [cpp](./problems/contains-duplicate-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/contains-duplicate-iii/solution/220-by-ikaruga/) | 中等 |
 |  | 239 | [sliding-window-maximum](./problems/sliding-window-maximum) | [滑动窗口最大值](./problems/sliding-window-maximum/README.md) | [cpp](./problems/sliding-window-maximum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/sliding-window-maximum/solution/239-by-ikaruga/) | 困难 |
 |  | 289 | [game-of-life](./problems/game-of-life) | [生命游戏](./problems/game-of-life/README.md) | [cpp](./problems/game-of-life/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/game-of-life/solution/289-by-ikaruga/) | 中等 |
+|  | 301 | [remove-invalid-parentheses](./problems/remove-invalid-parentheses) | [删除无效的括号](./problems/remove-invalid-parentheses/README.md) | [cpp](./problems/remove-invalid-parentheses/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/remove-invalid-parentheses/solution/301-by-ikaruga/) | 困难 |
 |  | 315 | [count-of-smaller-numbers-after-self](./problems/count-of-smaller-numbers-after-self) | [计算右侧小于当前元素的个数](./problems/count-of-smaller-numbers-after-self/README.md) | [cpp](./problems/count-of-smaller-numbers-after-self/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-of-smaller-numbers-after-self/solution/315-by-ikaruga/) | 困难 |
 | ☆ | 354 | [russian-doll-envelopes](./problems/russian-doll-envelopes) | [俄罗斯套娃信封问题](./problems/russian-doll-envelopes/README.md) | [cpp](./problems/russian-doll-envelopes/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/russian-doll-envelopes/solution/354-by-ikaruga/) | 困难 |
 |  | 410 | [split-array-largest-sum](./problems/split-array-largest-sum) | [分割数组的最大值](./problems/split-array-largest-sum/README.md) | [cpp](./problems/split-array-largest-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/split-array-largest-sum/solution/410-by-ikaruga/) | 困难 |
@@ -29,7 +29,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （343 / 1170）
+完成进度 （349 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season

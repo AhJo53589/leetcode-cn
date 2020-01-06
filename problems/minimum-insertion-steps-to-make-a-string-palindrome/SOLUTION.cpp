@@ -2,48 +2,25 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-void checkAndCut(string &s)
-{
-	int l = 0;
-	int r = s.size() - 1;
-	while (l < r)
-	{
-		if (s[l] != s[r]) break;
-		l++;
-		r--;
-	}
-	if (l < r)
-	{
-		s = s.substr(l, r - l + 1);
-	}
-	else
-	{
-		s.clear();
-	}
-}
-
 int minInsertions(string s) 
 {
-	unordered_set<string> vi;
-	queue<pair<string, int>> que;
-	que.push({s, 0});
-
-	while (!que.empty())
+	vector<vector<int>> dp(s.size(), vector<int>(s.size(), 0));
+	for (size_t i = s.size() - 1; i < s.size(); i--)
 	{
-		auto q = que.front();
-		que.pop();
-
-		string str = q.first;
-		checkAndCut(str);
-		if (vi.count(str) != 0) continue;
-		vi.insert(str);
-		if (str.size() == 0) return q.second;
-
-		que.push({ str[str.size() - 1] + str, q.second + 1 });
-		que.push({ str + str[0], q.second + 1 });
+		dp[i][i] = 1;
+		for (size_t j = i + 1; j < s.size(); j++)
+		{
+			if (s[i] == s[j])
+			{
+				dp[i][j] = dp[i + 1][j - 1] + 2;
+			}
+			else
+			{
+				dp[i][j] = max(dp[i + 1][j], dp[i][j - 1]);
+			}
+		}
 	}
-
-	return s.size() - 1;
+	return s.size() - dp[0].back();
 }
 
 //////////////////////////////////////////////////////////////////////////

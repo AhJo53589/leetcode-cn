@@ -3,9 +3,10 @@
 
 
 
-
 ---
 ## 20200106
+* 301.remove-invalid-parentheses 删除无效的括号
+
 * 516.longest-palindromic-subsequence 最长回文子序列
 
 ---
@@ -23,7 +24,6 @@
 * 212.word-search-ii 单词搜索 II
 
 * 131.palindrome-partitioning 分割回文串
-
 
 ---
 ## 20191229

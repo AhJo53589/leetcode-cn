@@ -172,6 +172,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_292 	nim-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_297 	serialize-and-deserialize-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_300 	longest-increasing-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_301 	remove-invalid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_303 	range-sum-query-immutable
 #define SOLUTION_CPP_FOLDER_NAME_ID_304 	range-sum-query-2d-immutable
 #define SOLUTION_CPP_FOLDER_NAME_ID_315 	count-of-smaller-numbers-after-self
