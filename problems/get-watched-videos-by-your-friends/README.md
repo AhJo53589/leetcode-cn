@@ -1,4 +1,4 @@
-# `（中等）` [5305.get-watched-videos-by-your-friends 获取你好友已观看的视频](https://leetcode-cn.com/problems/get-watched-videos-by-your-friends/)
+# `（中等）` [1311.get-watched-videos-by-your-friends 获取你好友已观看的视频](https://leetcode-cn.com/problems/get-watched-videos-by-your-friends/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-170/problems/get-watched-videos-by-your-friends/)
 

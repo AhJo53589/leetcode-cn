@@ -1,4 +1,4 @@
-# `（困难）` [5306.minimum-insertion-steps-to-make-a-string-palindrome 让字符串成为回文串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
+# `（困难）` [1312.minimum-insertion-steps-to-make-a-string-palindrome 让字符串成为回文串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-170/problems/minimum-insertion-steps-to-make-a-string-palindrome/)
 

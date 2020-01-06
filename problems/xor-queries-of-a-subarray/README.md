@@ -1,4 +1,4 @@
-# `（中等）` [5304.xor-queries-of-a-subarray 子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
+# `（中等）` [1310.xor-queries-of-a-subarray 子数组异或查询](https://leetcode-cn.com/problems/xor-queries-of-a-subarray/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-170/problems/xor-queries-of-a-subarray/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5303.decrypt-string-from-alphabet-to-integer-mapping 解码字母到整数映射](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
+# `（简单）` [1309.decrypt-string-from-alphabet-to-integer-mapping 解码字母到整数映射](https://leetcode-cn.com/problems/decrypt-string-from-alphabet-to-integer-mapping/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-170/problems/decrypt-string-from-alphabet-to-integer-mapping/)
 

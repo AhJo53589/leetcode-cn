@@ -10,14 +10,13 @@
 
 ---
 ## 20200105
-* 5305.get-watched-videos-by-your-friends 获取你好友已观看的视频
+* 1309.decrypt-string-from-alphabet-to-integer-mapping 解码字母到整数映射
 
-* 5304.xor-queries-of-a-subarray 子数组异或查询
+* 1310.xor-queries-of-a-subarray 子数组异或查询
 
-* 5303.decrypt-string-from-alphabet-to-integer-mapping 解码字母到整数映射
+* 1311.get-watched-videos-by-your-friends 获取你好友已观看的视频
 
-* 5306.minimum-insertion-steps-to-make-a-string-palindrome 让字符串成为回文串的最少插入次数
-
+* 1312.minimum-insertion-steps-to-make-a-string-palindrome 让字符串成为回文串的最少插入次数
 
 ---
 ## 20191230

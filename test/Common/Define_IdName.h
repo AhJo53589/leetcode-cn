@@ -341,7 +341,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1296 	divide-array-in-sets-of-k-consecutive-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_1297 	maximum-number-of-occurrences-of-a-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_1298 	maximum-candies-you-can-get-from-boxes
-#define SOLUTION_CPP_FOLDER_NAME_ID_5303 	decrypt-string-from-alphabet-to-integer-mapping
-#define SOLUTION_CPP_FOLDER_NAME_ID_5304 	xor-queries-of-a-subarray
-#define SOLUTION_CPP_FOLDER_NAME_ID_5305 	get-watched-videos-by-your-friends
-#define SOLUTION_CPP_FOLDER_NAME_ID_5306 	minimum-insertion-steps-to-make-a-string-palindrome
+#define SOLUTION_CPP_FOLDER_NAME_ID_1309 	decrypt-string-from-alphabet-to-integer-mapping
+#define SOLUTION_CPP_FOLDER_NAME_ID_1310 	xor-queries-of-a-subarray
+#define SOLUTION_CPP_FOLDER_NAME_ID_1311 	get-watched-videos-by-your-friends
+#define SOLUTION_CPP_FOLDER_NAME_ID_1312 	minimum-insertion-steps-to-make-a-string-palindrome
