@@ -128,9 +128,9 @@ inline string checkAnswer(const vector<string> a, const vector<string> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	string res = "Result = \n";
-	for (auto &s : a) res += s + ", ";
+	res += VectorStringToString(a);
 	res += "\n";
-	for (auto &s : b) res += s + ", ";
+	res += VectorStringToString(b);
 	res += "\n";
 	res += "\t\t\t" + check;
 	return res;
@@ -141,17 +141,9 @@ inline string checkAnswer(const vector<vector<string>> a, const vector<vector<st
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	string res = "Result = \n";
-	for (auto &vs : a)
-	{
-		for (auto s : vs) res += s + ", ";
-		res += "\n";
-	}
+	res += VectorVectorStringToString(a);
 	res += "\n";
-	for (auto &vs : b)
-	{
-		for (auto s : vs) res += s + ", ";
-		res += "\n";
-	}
+	res += VectorVectorStringToString(b);
 	res += "\n";
 	res += "\t\t\t" + check;
 	return res;

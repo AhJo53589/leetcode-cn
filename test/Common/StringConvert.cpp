@@ -210,6 +210,21 @@ vector<string> StringToVectorString(string str)
 	return strs;
 }
 
+string VectorStringToString(const vector<string>& strs)
+{
+	string str;
+	str += "[";
+	for (auto s : strs)
+	{
+		str += "\"";
+		str += s;
+		str += "\",";
+	}
+	if (str.back() == ',') str.pop_back();
+	str += "]";
+	return str;
+}
+
 vector<vector<string>> StringToVectorVectorString(string str)
 {
 	vector<vector<string>> vvs;
@@ -228,6 +243,20 @@ vector<vector<string>> StringToVectorVectorString(string str)
 		}
 	}
 	return vvs;
+}
+
+string VectorVectorStringToString(const vector<vector<string>>& strs)
+{
+	string str;
+	str += "[";
+	for (auto vs : strs)
+	{
+		str += VectorStringToString(vs);
+		str += ",";
+	}
+	if (str.back() == ',') str.pop_back();
+	str += "]";
+	return str;
 }
 
 vector<TreeNode*> StringToVectorTreeNode(string str)

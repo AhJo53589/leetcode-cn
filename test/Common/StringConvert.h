@@ -36,7 +36,9 @@ vector<vector<int>> StringToVectorVectorInt(string str);
 string VectorVectorIntToString(const vector<vector<int>>& matrix);
 
 vector<string> StringToVectorString(string str);
+string VectorStringToString(const vector<string>& strs);
 vector<vector<string>> StringToVectorVectorString(string str);
+string VectorVectorStringToString(const vector<vector<string>>& strs);
 
 vector<TreeNode*> StringToVectorTreeNode(string str);
 
