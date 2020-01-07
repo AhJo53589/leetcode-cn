@@ -1,56 +1,44 @@
 
-//////////////////////////////////////////////////////////////////////////
-// 求总和为 n 的自然数所有解
-
-//输入：3
-//输出： [[1, 1, 1], [1, 2]]
-//
-//输入：4
-//输出： [[1, 1, 1, 1], [1, 1, 2], [1, 3], [2, 2]]
-
-
-//////////////////////////////////////////////////////////////////////////
-bool getNext(vector<int>& a)
+// Definition for a Node.
+class Node 
 {
-	if (a.size() <= 1) return false;
+public:
+	int val;
+	Node* left;
+	Node* right;
+	Node* next;
 
-	//int sum = a[a.size() - 1] + a[a.size() - 2] - (a[a.size() - 2] + 1);
-	int sum = a[a.size() - 1] - 1;
-	a.pop_back();
-	a.back()++;
+	Node() {}
 
-	size_t i = a.size() - 1;
-	while (sum >= a[i])
-	{
-		sum -= a[i];
-		a.push_back(a[i]);
+	Node(int _val, Node* _left, Node* _right, Node* _next) {
+		val = _val;
+		left = _left;
+		right = _right;
+		next = _next;
 	}
-	a.back() += sum;
+};
 
-	return (a.size() > 1);
-}
-
-vector<vector<int>> combine(int n) 
+//////////////////////////////////////////////////////////////////////////
+Node* connect(Node* root)
 {
-	vector<vector<int>> ans;
-	vector<int> a(n, 1);
+	if (root == nullptr) return {};
 
-	do
-	{
-		ans.push_back(a);
-	} while (getNext(a));
+	if (root->left != nullptr && root->right != nullptr) root->left->next = root->right;
+	if (root->next != nullptr && root->next->left != nullptr) root->right->next = root->next->left;
 
-	return ans;
+	connect(root->left);
+	connect(root->right);
+	return root;
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<vector<int>> _solution_run(int n)
+Node* _solution_run(Node* root)
 {
-	return combine(n);
+	return connect(root);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<vector<int>> _solution_custom(TestCases &tc)
+//Node* _solution_custom(TestCases &tc)
 //{
 //}
 

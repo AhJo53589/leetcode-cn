@@ -277,3 +277,60 @@ vector<TreeNode*> StringToVectorTreeNode(string str)
 	}
 	return vt;
 }
+
+pair<string, string> getKeyValue(string str)
+{
+	auto trimLR = [](string s, char c)
+	{
+		if (s[s.size() - 1] == c) s.pop_back();
+		if (s[0] == c) s.erase(s.begin());
+		return s;
+	};
+
+	pair<string, string> out;
+	size_t pd = str.find(':');
+	out.first = trimLR(str.substr(0, pd - 1), '\"');
+	out.second = trimLR(str.substr(pd + 1, str.size() - pd), '\"');
+	return out;
+}
+
+vector<unordered_map<string, string>> StringToVectorMapStringString(string input)
+{
+	vector<unordered_map<string, string>> output;
+	stack<unordered_map<string, string>> st;
+
+	size_t i = 0;
+	while (i < input.size())
+	{
+		if (input[i] == '{')
+		{
+			i++;
+			st.push(unordered_map<string, string>());
+		}
+		if (input[i] == '}')
+		{
+			i++;
+			output.push_back(st.top());
+			st.pop();
+		}
+		if (input[i] == ',')
+		{
+			i++;
+		}
+
+		size_t pos = input.find(',', i);
+		if (pos == input.npos) break;
+		i = pos + 1;
+
+		auto& cur = st.top();
+		auto kv = getKeyValue(input.substr(i, pos - i));
+		cur.insert(kv);
+	}
+
+	return output;
+}
+
+string VectorMapStringStringToString(vector<unordered_map<string, string>> input)
+{
+	return string();
+}
