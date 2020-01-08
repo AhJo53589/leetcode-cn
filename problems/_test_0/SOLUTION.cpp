@@ -37,10 +37,21 @@ Node* _solution_run(Node* root)
 	return connect(root);
 }
 
-//#define USE_SOLUTION_CUSTOM
-//Node* _solution_custom(TestCases &tc)
-//{
-//}
+#define USE_SOLUTION_CUSTOM
+//Node* _solution_custom(TestCases& tc)
+string _solution_custom(TestCases& tc)
+{
+	vector<unordered_map<string, string>> input = StringToVectorMapStringString(tc.get<string>());
+	for (auto um : input)
+	{
+		for (auto s : um)
+		{
+			cout << "[" << s.first << "] = " << s.second << endl;
+		}
+		cout << endl;
+	}
+	return "";
+}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()

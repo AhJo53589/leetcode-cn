@@ -278,7 +278,7 @@ vector<TreeNode*> StringToVectorTreeNode(string str)
 	return vt;
 }
 
-pair<string, string> getKeyValue(string str)
+vector<unordered_map<string, string>> StringToVectorMapStringString(string input)
 {
 	auto trimLR = [](string s, char c)
 	{
@@ -287,15 +287,6 @@ pair<string, string> getKeyValue(string str)
 		return s;
 	};
 
-	pair<string, string> out;
-	size_t pd = str.find(':');
-	out.first = trimLR(str.substr(0, pd - 1), '\"');
-	out.second = trimLR(str.substr(pd + 1, str.size() - pd), '\"');
-	return out;
-}
-
-vector<unordered_map<string, string>> StringToVectorMapStringString(string input)
-{
 	vector<unordered_map<string, string>> output;
 	stack<unordered_map<string, string>> st;
 
@@ -318,13 +309,37 @@ vector<unordered_map<string, string>> StringToVectorMapStringString(string input
 			i++;
 		}
 
-		size_t pos = input.find(',', i);
+		size_t pos = input.find(':', i);
 		if (pos == input.npos) break;
+
+		string key = trimLR(input.substr(i, pos - i), '\"');
+		string value;
 		i = pos + 1;
 
+		if (input[i] == '{')
+		{
+			size_t pos1 = input.find(':', i) + 1;
+			size_t pos2 = input.find(',', i);
+			value = trimLR(input.substr(pos1, pos2 - pos1), '\"');
+		}
+		else
+		{
+			size_t pos2 = input.find(',', i);
+			size_t pos3 = input.find('}', i);
+			if (pos2 < pos3)
+			{
+				value = trimLR(input.substr(i, pos2 - i), '\"');
+				i = pos2 + 1;
+			}
+			else
+			{
+				value = trimLR(input.substr(i, pos3 - i), '\"');
+				i = pos3;
+			}
+		}
+
 		auto& cur = st.top();
-		auto kv = getKeyValue(input.substr(i, pos - i));
-		cur.insert(kv);
+		cur.insert({key, value});
 	}
 
 	return output;
