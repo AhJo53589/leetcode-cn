@@ -29,7 +29,7 @@ Node* connect(Node* root)
 	connect(root->left);
 	connect(root->right);
 	return root;
-}
+}1
 
 //////////////////////////////////////////////////////////////////////////
 Node* _solution_run(Node* root)
