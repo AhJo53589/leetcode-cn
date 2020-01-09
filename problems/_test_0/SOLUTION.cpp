@@ -29,7 +29,7 @@ Node* connect(Node* root)
 	connect(root->left);
 	connect(root->right);
 	return root;
-}1
+}
 
 //////////////////////////////////////////////////////////////////////////
 Node* _solution_run(Node* root)
@@ -46,10 +46,30 @@ string _solution_custom(TestCases& tc)
 	{
 		for (auto s : um)
 		{
-			cout << "[" << s.first << "] = " << s.second << endl;
+			cout << "[" << s.first << "] = " << s.second << ",\t";
 		}
 		cout << endl;
 	}
+
+	unordered_map<string, Node*> nodes;
+	nodes["null"] = nullptr;
+	for (auto um : input)
+	{
+		string id = um["$id"];
+		int val = stoi(um["val"]);
+		Node* newNode = new Node(val, nullptr, nullptr, nullptr);
+		nodes[id] = newNode;
+	}
+	for (auto um : input)
+	{
+		string id = um["$id"];
+		nodes[id]->left = nodes[um["left"]];
+		nodes[id]->right = nodes[um["right"]];
+		nodes[id]->next = nodes[um["next"]];
+	}
+
+	Node* ans = connect(nodes["1"]);
+
 	return "";
 }
 
