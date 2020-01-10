@@ -44,7 +44,7 @@ template<>
 inline string checkAnswer(const string a, const string b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return "Result = " + a + "\t <== " + b + check;
+	return "Result = \n" + a + "\n\n" + b + "\n" + check;
 }
 
 template<>

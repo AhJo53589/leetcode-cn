@@ -41,7 +41,8 @@ Node* _solution_run(Node* root)
 //Node* _solution_custom(TestCases& tc)
 string _solution_custom(TestCases& tc)
 {
-	vector<unordered_map<string, string>> input = StringToVectorMapStringString(tc.get<string>());
+	// print string
+	vector<map<string, string>> input = StringToVectorMapStringString(tc.get<string>());
 	for (auto um : input)
 	{
 		for (auto s : um)
@@ -51,12 +52,13 @@ string _solution_custom(TestCases& tc)
 		cout << endl;
 	}
 
-	unordered_map<string, Node*> nodes;
+	// map to nodes
+	map<string, Node*> nodes;
 	nodes["null"] = nullptr;
 	for (auto um : input)
 	{
 		string id = um["$id"];
-		int val = stoi(um["val"]);
+		int val = um.count("val") ? stoi(um["val"]) : 0;
 		Node* newNode = new Node(val, nullptr, nullptr, nullptr);
 		nodes[id] = newNode;
 	}
@@ -68,9 +70,14 @@ string _solution_custom(TestCases& tc)
 		nodes[id]->next = nodes[um["next"]];
 	}
 
-	Node* ans = connect(nodes["1"]);
+	// run
+	Node* nd = connect(nodes["1"]);
 
-	return "";
+	// nodes to map
+
+	// map to string
+	string ans = VectorMapStringStringToString(input);
+	return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////

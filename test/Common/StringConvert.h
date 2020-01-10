@@ -6,6 +6,7 @@
 #include <sstream>
 
 #include <algorithm>
+#include <unordered_set>
 #include <unordered_map>
 #include <map>
 #include <stack>
@@ -52,8 +53,8 @@ vector<TreeNode*> StringToVectorTreeNode(string str);
 // {"$id":"5","left":
 // {"$id":"6","left":null,"next":null,"right":null,"val":6},"next":null,"right":
 // {"$id":"7","left":null,"next":null,"right":null,"val":7},"val":3},"val":1}
-vector<unordered_map<string, string>> StringToVectorMapStringString(string input);
-string VectorMapStringStringToString(vector<unordered_map<string, string>> input);
+vector<map<string, string>> StringToVectorMapStringString(string input);
+string VectorMapStringStringToString(vector<map<string, string>> input);
 
 
 //////////////////////////////////////////////////////////////////////////

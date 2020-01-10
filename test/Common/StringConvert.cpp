@@ -278,25 +278,28 @@ vector<TreeNode*> StringToVectorTreeNode(string str)
 	return vt;
 }
 
-vector<unordered_map<string, string>> StringToVectorMapStringString(string input)
+vector<map<string, string>> StringToVectorMapStringString(string input)
 {
 	auto trimLR = [](string s, char c)
 	{
+		trimLeftTrailingSpaces(s);
+		trimRightTrailingSpaces(s);
 		if (s[s.size() - 1] == c) s.pop_back();
 		if (s[0] == c) s.erase(s.begin());
 		return s;
 	};
 
-	vector<unordered_map<string, string>> output;
-	stack<unordered_map<string, string>> st;
+	vector<map<string, string>> output;
+	stack<map<string, string>> st;
 
 	size_t i = 0;
 	while (i < input.size())
 	{
+		if (input[i] == ' ') continue;
 		if (input[i] == '{')
 		{
 			i++;
-			st.push(unordered_map<string, string>());
+			st.push(map<string, string>());
 		}
 		if (input[i] == '}')
 		{
@@ -320,7 +323,14 @@ vector<unordered_map<string, string>> StringToVectorMapStringString(string input
 		{
 			size_t pos1 = input.find(':', i) + 1;
 			size_t pos2 = input.find(',', i);
-			value = trimLR(input.substr(pos1, pos2 - pos1), '\"');
+			value = input.substr(pos1, pos2 - pos1);
+
+			string tmp = trimLR(input.substr(i, pos1 - i), '\"');
+			if (tmp == "$refId")
+			{
+				pos1 = input.find('}', i);
+				i = pos1 + 1;
+			}
 		}
 		else
 		{
@@ -328,12 +338,12 @@ vector<unordered_map<string, string>> StringToVectorMapStringString(string input
 			size_t pos3 = input.find('}', i);
 			if (pos2 < pos3)
 			{
-				value = trimLR(input.substr(i, pos2 - i), '\"');
+				value = input.substr(i, pos2 - i);
 				i = pos2 + 1;
 			}
 			else
 			{
-				value = trimLR(input.substr(i, pos3 - i), '\"');
+				value = input.substr(i, pos3 - i);
 				i = pos3;
 			}
 		}
@@ -345,7 +355,71 @@ vector<unordered_map<string, string>> StringToVectorMapStringString(string input
 	return output;
 }
 
-string VectorMapStringStringToString(vector<unordered_map<string, string>> input)
+string VectorMapStringStringToString_Core(vector<map<string, string>>& input, map<string, string>& cur, map<string, bool>& visited)
 {
-	return string();
+	auto addLR = [](string s, char c)
+	{
+		string r;
+		r += c;
+		r += s;
+		r += c;
+		return r;
+	};
+
+	string output;
+	output += "{";
+
+	string id = cur["$id"];
+	if (visited[id])
+	{
+		output += "$refId:" + id + "},";
+		return output;
+	}
+	visited[id] = true;
+
+	for (auto kv : cur)
+	{
+		if (kv.first != "$id" && visited.count(kv.second) != 0)
+		{
+			for (auto& um : input)
+			{
+				if (um["$id"] == kv.second)
+				{
+					output += addLR(kv.first, '\"') + ":";
+					output += VectorMapStringStringToString_Core(input, um, visited);
+					break;
+				}
+			}
+		}
+		else
+		{
+			output += addLR(kv.first, '\"') + ":" + kv.second + ",";
+		}
+	}
+	if (output.back() == ',') output.pop_back();
+
+	output += "},";
+	return output;
+}
+
+string VectorMapStringStringToString(vector<map<string, string>> input)
+{
+	map<string, bool> visited;
+	for (auto& in : input)
+	{
+		visited[in["$id"]] = false;
+	}
+
+	string output;
+	for (auto& um : input)
+	{
+		if (um["$id"] == "\"1\"")
+		{
+			output += VectorMapStringStringToString_Core(input, um, visited);
+			break;
+		}
+	}
+
+	if (output.back() == ',') output.pop_back();
+	return output;
 }
