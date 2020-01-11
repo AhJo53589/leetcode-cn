@@ -4,6 +4,22 @@
 
 
 ---
+## 20200112
+* 5143.decompress-run-length-encoded-list 解压缩编码列表
+
+* 5144.matrix-block-sum 矩阵区域和
+
+* 5145.sum-of-nodes-with-even-valued-grandparent 祖父节点值为偶数的节点和
+
+* 5146.distinct-echo-substrings 不同的循环子字符串
+
+
+---
+## 20200111
+* 77.combinations 组合
+
+
+---
 ## 20200106
 * 301.remove-invalid-parentheses 删除无效的括号
 

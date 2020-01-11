@@ -65,6 +65,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_73 	set-matrix-zeroes
 #define SOLUTION_CPP_FOLDER_NAME_ID_75 	sort-colors
 #define SOLUTION_CPP_FOLDER_NAME_ID_76 	minimum-window-substring
+#define SOLUTION_CPP_FOLDER_NAME_ID_77 	combinations
 #define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_80 	remove-duplicates-from-sorted-array-ii
@@ -346,3 +347,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1310 	xor-queries-of-a-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_1311 	get-watched-videos-by-your-friends
 #define SOLUTION_CPP_FOLDER_NAME_ID_1312 	minimum-insertion-steps-to-make-a-string-palindrome
+#define SOLUTION_CPP_FOLDER_NAME_ID_5143 	decompress-run-length-encoded-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_5144 	matrix-block-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5145 	sum-of-nodes-with-even-valued-grandparent
+#define SOLUTION_CPP_FOLDER_NAME_ID_5146 	distinct-echo-substrings

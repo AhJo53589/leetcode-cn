@@ -23,13 +23,10 @@ bool getNext(vector<int>& a, int n)
 
 vector<vector<int>> combine(int n, int k) 
 {
-	vector<vector<int>> ans;
 	vector<int> a;
-	for (size_t i = 0; i < k; i++)
-	{
-		a.push_back(1 + i);
-	}
+	for (size_t i = 0; i < k; i++) a.push_back(1 + i);
 
+	vector<vector<int>> ans;
 	do
 	{
 		ans.push_back(a);
@@ -58,6 +55,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/combinations/tests.txt";
 }
 

@@ -4,8 +4,17 @@ class Trie
 {
 public:
 	Trie() {}
+	~Trie() 
+	{
+		for (int i = 0; i < 26; i++)
+		{
+			if (next[i] == nullptr) continue;
+			delete(next[i]);
+			next[i] = nullptr;
+		}
+	}
 
-	void insert(const string& word) //���뵥��
+	void insert(const string& word)
 	{
 		Trie* root = this;
 		for (const auto& w : word) 
@@ -19,7 +28,7 @@ public:
 		root->is_string = true;
 	}
 
-	bool search(const string& word) //���ҵ���
+	bool search(const string& word)
 	{
 		Trie* root = this;
 		for (const auto& w : word)
@@ -30,7 +39,7 @@ public:
 		return root->is_string;
 	}
 
-	bool startsWith(string prefix) //����ǰ׺
+	bool startsWith(string prefix)
 	{
 		Trie* root = this;
 		for (const auto& p : prefix) 
