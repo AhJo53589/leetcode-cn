@@ -5,6 +5,18 @@
 
 ---
 ## 20200112
+* 5146.distinct-echo-substrings 不同的循环子字符串
+
+* 5310.minimum-distance-to-type-a-word-using-two-fingers 二指输入的的最小距离
+
+* 5307.convert-integer-to-the-sum-of-two-no-zero-integers 将整数转换为两个无零整数的和
+
+* 5308.minimum-flips-to-make-a-or-b-equal-to-c 或运算的最小翻转次数
+
+* 5307.convert-integer-to-the-sum-of-two-no-zero-integers 将整数转换为两个无零整数的和
+
+* 5309.number-of-operations-to-make-network-connected 连通网络的操作次数
+
 * 5143.decompress-run-length-encoded-list 解压缩编码列表
 
 * 5144.matrix-block-sum 矩阵区域和

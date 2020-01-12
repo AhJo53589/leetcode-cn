@@ -351,3 +351,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5144 	matrix-block-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5145 	sum-of-nodes-with-even-valued-grandparent
 #define SOLUTION_CPP_FOLDER_NAME_ID_5146 	distinct-echo-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5146 	distinct-echo-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5307 	convert-integer-to-the-sum-of-two-no-zero-integers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5308 	minimum-flips-to-make-a-or-b-equal-to-c
+#define SOLUTION_CPP_FOLDER_NAME_ID_5309 	number-of-operations-to-make-network-connected
+#define SOLUTION_CPP_FOLDER_NAME_ID_5310 	minimum-distance-to-type-a-word-using-two-fingers
