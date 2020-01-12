@@ -2,27 +2,85 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> decompressRLElist(vector<int>& nums)
+bool addVisited(vector<bool>& visited, int n)
 {
-	vector<int> ans;
-	for (size_t i = 0; i < nums.size(); i += 2)
+	if (visited[n]) return false;
+	visited[n] = true;
+	for (auto b : visited)
 	{
-		for (size_t j = 0; j < nums[i]; j++)
+		if (!b) return false;
+	}
+	return true;
+}
+
+int getNext(vector<vector<int>>& conn)
+{
+	for (int i = 0; i < conn.size(); i++)
+	{
+		if (!conn[i].empty())
 		{
-			ans.push_back(nums[i + 1]);
+			return i;
 		}
+	}
+	return -1;
+}
+
+int makeConnected(int n, vector<vector<int>>& connections) 
+{
+	if (connections.size() < n - 1) return -1;
+
+	vector<bool> visited(n, false);
+	bool fin = false;
+	vector<vector<int>> conn(n, vector<int>());
+	for (auto v : connections)
+	{
+		conn[v[0]].push_back(v[1]);
+	}
+
+	int ans = -1;
+	while (true)
+	{
+		int start = getNext(conn);
+		if (start == -1) break;
+		ans++;
+		queue<int> que;
+		que.push(start);
+
+		while (!que.empty())
+		{
+			auto q = que.front();
+			que.pop();
+			fin = addVisited(visited, q);
+			for (auto n : conn[q])
+			{
+				if (!visited[n])
+				{
+					que.push(n);
+				}
+			}
+			conn[q].clear();
+			if (fin) break;
+		}
+		if (fin) break;
+	}
+
+	if (fin) return ans;
+
+	for (auto b : visited)
+	{
+		ans += (!b);
 	}
 	return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<int>& nums)
+int _solution_run(int n, vector<vector<int>>& connections)
 {
-	return decompressRLElist(nums);
+	return makeConnected(n,connections);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<int> _solution_custom(TestCases &tc)
+//int _solution_custom(TestCases &tc)
 //{
 //}
 
