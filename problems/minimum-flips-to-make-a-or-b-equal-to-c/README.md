@@ -1,4 +1,4 @@
-# `（中等）` [5308.minimum-flips-to-make-a-or-b-equal-to-c 或运算的最小翻转次数](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
+# `（中等）` [1318.minimum-flips-to-make-a-or-b-equal-to-c 或运算的最小翻转次数](https://leetcode-cn.com/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-171/problems/minimum-flips-to-make-a-or-b-equal-to-c/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5146.distinct-echo-substrings 不同的循环子字符串](https://leetcode-cn.com/problems/distinct-echo-substrings/)
+# `（困难）` [1316.distinct-echo-substrings 不同的循环子字符串](https://leetcode-cn.com/problems/distinct-echo-substrings/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-17/problems/distinct-echo-substrings/)
 

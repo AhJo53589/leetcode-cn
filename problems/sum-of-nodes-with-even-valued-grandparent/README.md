@@ -1,4 +1,4 @@
-# `（中等）` [5145.sum-of-nodes-with-even-valued-grandparent 祖父节点值为偶数的节点和](https://leetcode-cn.com/problems/sum-of-nodes-with-even-valued-grandparent/)
+# `（中等）` [1315.sum-of-nodes-with-even-valued-grandparent 祖父节点值为偶数的节点和](https://leetcode-cn.com/problems/sum-of-nodes-with-even-valued-grandparent/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-17/problems/sum-of-nodes-with-even-valued-grandparent/)
 

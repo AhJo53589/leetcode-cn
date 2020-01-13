@@ -1,4 +1,4 @@
-# `（中等）` [5309.number-of-operations-to-make-network-connected 连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)
+# `（中等）` [1319.number-of-operations-to-make-network-connected 连通网络的操作次数](https://leetcode-cn.com/problems/number-of-operations-to-make-network-connected/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-171/problems/number-of-operations-to-make-network-connected/)
 

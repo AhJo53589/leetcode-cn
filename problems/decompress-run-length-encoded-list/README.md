@@ -1,4 +1,4 @@
-# `（简单）` [5143.decompress-run-length-encoded-list 解压缩编码列表](https://leetcode-cn.com/problems/decompress-run-length-encoded-list/)
+# `（简单）` [1313.decompress-run-length-encoded-list 解压缩编码列表](https://leetcode-cn.com/problems/decompress-run-length-encoded-list/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-17/problems/decompress-run-length-encoded-list/)
 
