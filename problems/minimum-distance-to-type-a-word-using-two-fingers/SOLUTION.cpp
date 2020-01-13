@@ -1,89 +1,79 @@
 //////////////////////////////////////////////////////////////////////////////
-int dist(int a, int b)
-{
-	if (a == -1 || b == -1) return 0;
-	int x1 = a / 6;
-	int y1 = a % 6;
-	int x2 = b / 6;
-	int y2 = b % 6;
-	return abs(x1 - x2) + abs(y1 - y2);
-}
-
-int minimumDistance(string word)
-{
-	map<pair<int, int>, int> que;
-	que[{-1, -1}] = 0;
-	for (auto c : word)
-	{
-		auto qq = que;
-		que = map<pair<int, int>, int>();
-		for (auto q : qq)
-		{
-			int a = q.first;
-			int b = q.second;
-			if (c < a)
-			{
-				que[{c, a}] = que[{a, b}] + dist(b, c);
-			}
-			else
-			{
-				que[{a, c}] = que[{a, b}] + dist(b, c);
-			}
-			if (c < b)
-			{
-				que[{c, b}] = que[{a, b}] + dist(a, c);
-			}
-			else
-			{
-				que[{b, c}] = que[{a, b}] + dist(a, c);
-			}
-		}
-	}
-
-	return -1;
-}
-
-
-
-//////////////////////////////////////////////////////////////////////////////
-//int dist(vector<int>& a, vector<int>& b)
-//{
-//	return abs(a[0] - b[0]) + abs(a[1] - b[1]);
-//}
-//
 //int minimumDistance(string word)
 //{
-//	vector<vector<int>> pos;
-//	for (int i = 0; i < 26; i++)
+//	auto dist = [](int a, int b)
 //	{
-//		pos.push_back({ i / 6, i % 6 });
+//		return abs((a / 6) - (b / 6)) + abs((a % 6) - (b % 6));
+//	};
+//
+//	vector<vector<int>> dp(word.size(), vector<int>(26, INT_MAX));
+//	for (size_t i = 0; i < 26; i++)
+//	{
+//		dp[0][i] = 0;
 //	}
 //
-//	vector<int> dp(26, 0);
-//	for (int i = 1; i < word.size(); i++)
+//	for (size_t i = 1; i < word.size(); i++)
 //	{
-//		vector<int> dp1 = dp;
-//		dp = vector<int>(26, -1);
+//		int prev = word[i - 1] - 'A';
+//		int cur = word[i] - 'A';
+//
+//		vector<int>& prev_dp = dp[i - 1];
+//		vector<int>& cur_dp = dp[i];
+//
 //		for (int j = 0; j < 26; j++)
 //		{
-//			int x = j;
-//			int y = word[i - 1] - 'A';
+//			int distance = dist(j, cur) + prev_dp[j];
+//			cur_dp[prev] = min(cur_dp[prev], distance);
 //
-//			int temp = dist(pos[x], pos[word[i] - 'A']) + dp1[x];
-//			dp[y] = (dp[y] == -1 || dp[y] > temp) ? temp : dp[y];
-//
-//			temp = dist(pos[y], pos[word[i] - 'A']) + dp1[x];
-//			dp[x] = (dp[x] == -1 || dp[x] > temp) ? temp : dp[x];
+//			distance = dist(prev, cur) + prev_dp[j];
+//			cur_dp[j] = min(cur_dp[j], distance);
 //		}
 //	}
 //
-//	int ans = dp[0];
-//	for (int i = 1; i < dp.size(); i++)
+//	int ans = INT_MAX;
+//	for (auto n : dp.back())
 //	{
-//		ans = min(ans, dp[i]);
+//		ans = min(ans, n);
 //	}
 //	return ans;
 //}
+
+
+////////////////////////////////////////////////////////////////////////////////
+int minimumDistance(string word)
+{
+	auto dist = [](int a, int b)
+	{
+		return abs((a / 6) - (b / 6)) + abs((a % 6) - (b % 6));
+	};
+
+	vector<int> dp(26, 0);
+	for (size_t i = 1; i < word.size(); i++)
+	{
+		int prev = word[i - 1] - 'A';
+		int cur = word[i] - 'A';
+		if (cur == prev) continue;
+
+		vector<int> prev_dp = dp;
+		dp = vector<int>(26, INT_MAX);
+
+		for (int j = 0; j < 26; j++)
+		{
+			int distance = dist(j, cur) + prev_dp[j];
+			dp[prev] = min(dp[prev], distance);
+
+			distance = dist(prev, cur) + prev_dp[j];
+			dp[j] = min(dp[j], distance);
+		}
+	}
+
+	int ans = INT_MAX;
+	for (auto n : dp)
+	{
+		ans = min(ans, n);
+	}
+	return ans;
+}
 
 
 //////////////////////////////////////////////////////////////////////////

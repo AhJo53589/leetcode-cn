@@ -1,3 +1,6 @@
 ["MyHashSet","add","add","contains","contains","add","contains","remove","contains"]
 [[],[1],[2],[1],[3],[2],[2],[2],[2]]
 [null,null,null,true,false,null,true,null,false]
+["MyHashSet","add","add","contains","contains","add","contains","remove","contains"]
+[[],[300],[400],[300],[500],[400],[400],[400],[400]]
+[null,null,null,true,false,null,true,null,false]
