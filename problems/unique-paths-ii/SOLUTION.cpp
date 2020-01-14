@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////////////////////////////
 int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) 
 {
-	vector<vector<int>> dp(obstacleGrid.size(), vector<int>(obstacleGrid[0].size(), 0));
+	vector<vector<double>> dp(obstacleGrid.size(), vector<double>(obstacleGrid[0].size(), 0));
 
 	for (size_t i = 0; i < obstacleGrid.size(); i++)
 	{
@@ -12,9 +12,15 @@ int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid)
 		{
 			if (i == 0 || j == 0)
 			{
-				dp[i][j] = 1;
-				dp[i][j] = (i != 0 && dp[i - 1][j] == 0) ? 0 : 1;
-				dp[i][j] = (j != 0 && dp[i][j - 1] == 0) ? 0 : 1;
+				dp[i][j] = (obstacleGrid[i][j] == 0);
+				if (i != 0 && dp[i - 1][j] == 0)
+				{
+					dp[i][j] = 0;
+				}
+				if (j != 0 && dp[i][j - 1] == 0)
+				{
+					dp[i][j] = 0;
+				}
 			}
 			else
 			{
@@ -51,6 +57,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/unique-paths-ii/tests.txt";
 }
 

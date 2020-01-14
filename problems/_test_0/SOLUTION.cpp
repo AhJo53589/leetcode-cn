@@ -2,43 +2,35 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-int uniquePathsWithObstacles(vector<vector<int>>& obstacleGrid) 
+bool divisorGame(int N) 
 {
-	vector<vector<int>> dp(obstacleGrid.size(), vector<int>(obstacleGrid[0].size(), 0));
-
-	for (size_t i = 0; i < obstacleGrid.size(); i++)
-	{
-		for (size_t j = 0; j < obstacleGrid[0].size(); j++)
-		{
-			if (i == 0 || j == 0)
-			{
-				dp[i][j] = 1;
-				dp[i][j] = (i != 0 && dp[i - 1][j] == 0) ? 0 : 1;
-				dp[i][j] = (j != 0 && dp[i][j - 1] == 0) ? 0 : 1;
-			}
-			else
-			{
-				if (obstacleGrid[i][j] == 1)
-				{
-					dp[i][j] = 0;
-					continue;
-				}
-				dp[i][j] = dp[i - 1][j] + dp[i][j - 1];
-			}
-		}
-	}
-
-	return dp[obstacleGrid.size() - 1][obstacleGrid[0].size() - 1];
+    vector<bool> dp(N, true);
+    dp[0] = false;
+    for (int n = 2; n <= N; n++)
+    {
+        bool flag = false;
+        for (int x = 1; x < n; x++)
+        {
+            if (n % x != 0) continue;
+            if (!dp[n - x - 1])
+            {
+                flag = true;
+                break;
+            }
+        }
+        dp[n - 1] = flag;
+    }
+    return dp[N - 1];
 }
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<vector<int>>& obstacleGrid)
+bool _solution_run(int N)
 {
-	return uniquePathsWithObstacles(obstacleGrid);
+	return divisorGame(N);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
+//bool _solution_custom(TestCases &tc)
 //{
 //}
 

@@ -4,6 +4,13 @@
 
 
 ---
+## 20200114
+* 1025.divisor-game 除数博弈
+
+* 63.unique-paths-ii 不同路径 II
+
+
+---
 ## 20200112
 * 1320.minimum-distance-to-type-a-word-using-two-fingers 二指输入的的最小距离
 
