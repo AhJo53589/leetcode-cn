@@ -326,7 +326,7 @@ vector<map<string, string>> StringToVectorMapStringString(string input)
 			value = input.substr(pos1, pos2 - pos1);
 
 			string tmp = trimLR(input.substr(i, pos1 - i), '\"');
-			if (tmp == "$refId")
+			if (tmp == "$ref")
 			{
 				pos1 = input.find('}', i);
 				i = pos1 + 1;
@@ -372,7 +372,7 @@ string VectorMapStringStringToString_Core(vector<map<string, string>>& input, ma
 	string id = cur["$id"];
 	if (visited[id])
 	{
-		output += "$refId:" + id + "},";
+		output += addLR("$ref", '\"') + ":" + id + "},";
 		return output;
 	}
 	visited[id] = true;
@@ -396,7 +396,7 @@ string VectorMapStringStringToString_Core(vector<map<string, string>>& input, ma
 			output += addLR(kv.first, '\"') + ":" + kv.second + ",";
 		}
 	}
-	if (output.back() == ',') output.pop_back();
+	if (!output.empty() && output.back() == ',') output.pop_back();
 
 	output += "},";
 	return output;
@@ -420,6 +420,6 @@ string VectorMapStringStringToString(vector<map<string, string>> input)
 		}
 	}
 
-	if (output.back() == ',') output.pop_back();
+	if (!output.empty() && output.back() == ',') output.pop_back();
 	return output;
 }

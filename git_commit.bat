@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"1025.divisor-game" 
+git commit -m"update string to map nodes" 
 git push 
