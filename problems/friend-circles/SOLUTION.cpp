@@ -35,30 +35,29 @@
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> Tree;
-int findRoot(int x) {
-	if (Tree[x] == -1) return x;
-	int tmp = findRoot(Tree[x]);
-	Tree[x] = tmp;
-	return tmp;
+// ²¢²é¼¯
+int findroot(vector<int>& uf, int x)
+{
+    return (uf[x] == -1) ? x : (uf[x] = findroot(uf, uf[x]));
 }
 
-int findCircleNum(vector<vector<int>>& M) {
-	Tree.resize(M.size(), -1);
-	for (int i = 0; i < M.size(); i++) {
-		for (int j = i + 1; j < M.size(); j++) {
-			if (M[i][j] == 1) {
-				int a = findRoot(i);
-				int b = findRoot(j);
-				if (a != b) Tree[a] = b;
-			}
-		}
-	}
-	int ans = 0;
-	for (auto i : Tree) {
-		if (i == -1) ans++;
-	}
-	return ans;
+int findCircleNum(vector<vector<int>>& M)
+{
+    int ans = M.size();
+    vector<int> uf(M.size(), -1);
+    for (size_t i = 0; i < M.size(); i++)
+    {
+        for (size_t j = i + 1; j < M.size(); j++)
+        {
+            if (M[i][j] == 0) continue;
+            int x = findroot(uf, i);
+            int y = findroot(uf, j);
+            if (x == y) continue;
+            uf[y] = x;
+            ans--;
+        }
+    }
+    return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////
