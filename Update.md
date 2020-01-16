@@ -4,11 +4,16 @@
 
 
 ---
+## 20200116
+* 96.unique-binary-search-trees 不同的二叉搜索树
+
+* 1171.remove-zero-sum-consecutive-nodes-from-linked-list 从链表中删去总和值为零的连续节点
+
+---
 ## 20200114
 * 1025.divisor-game 除数博弈
 
 * 63.unique-paths-ii 不同路径 II
-
 
 ---
 ## 20200112
@@ -28,11 +33,9 @@
 
 * 1316.distinct-echo-substrings 不同的循环子字符串
 
-
 ---
 ## 20200111
 * 77.combinations 组合
-
 
 ---
 ## 20200106

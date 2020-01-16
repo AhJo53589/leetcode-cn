@@ -2,33 +2,19 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-vector<TreeNode*> dfs(int beg, int end)
-{
-	if (beg > end) return { nullptr };
-
-	vector<TreeNode*> ret;
-	for (int i = beg; i <= end; i++)
-	{
-		vector<TreeNode*> left = dfs(beg, i - 1);
-		vector<TreeNode*> right = dfs(i + 1, end);
-		for (auto& l : left)
-		{
-			for (auto& r : right)
-			{
-				TreeNode* node = new TreeNode(i);
-				node->left = l;
-				node->right = r;
-				ret.push_back(node);
-			}
-		}
-	}
-	return ret;
-}
-
 int numTrees(int n) 
 {
-	vector<TreeNode*> ans = dfs(1, n);
-	return ans.size();
+    vector<int> dp(n + 1, 0);
+    dp[0] = 1;
+    dp[1] = 1;
+    for (int i = 2; i <= n; i++) 
+    {
+        for (int j = 0; j < i; j++) 
+        {
+            dp[i] += dp[j] * dp[i - j - 1];
+        }
+    }
+    return dp[n];
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -51,6 +37,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/unique-binary-search-trees/tests.txt";
 }
 

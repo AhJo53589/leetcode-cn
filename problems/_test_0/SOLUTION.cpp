@@ -1,118 +1,98 @@
 
-// Definition for a Node.
-class Node 
-{
-public:
-	int val;
-	Node* left;
-	Node* right;
-	Node* next;
-
-	Node() {}
-
-	Node(int _val, Node* _left, Node* _right, Node* _next) {
-		val = _val;
-		left = _left;
-		right = _right;
-		next = _next;
-	}
-};
 
 //////////////////////////////////////////////////////////////////////////
-Node* connect(Node* root)
+int getNextNum(vector<vector<int>>& grid, int x, int y, vector<vector<int>>& dd, vector<vector<int>>& m)
 {
-	if (root == nullptr) return {};
-
-	if (root->left != nullptr && root->right != nullptr) root->left->next = root->right;
-	if (root->next != nullptr && root->next->left != nullptr) root->right->next = root->next->left;
-
-	connect(root->left);
-	connect(root->right);
-	return root;
-}
-
-//////////////////////////////////////////////////////////////////////////
-Node* _solution_run(Node* root)
-{
-	return connect(root);
-}
-
-void preorder(Node* node, int& id, map<string, Node*>& nodes, map<Node*, string>& n_s)
-{
-	auto getNextId = [&id]()
-	{ return "\"" + to_string(id++) + "\""; };
-
-	if (node == nullptr) return;
-	if (n_s.count(node) != 0) return;
-	string s = getNextId();
-	nodes[s] = node;
-	n_s[node] = s;
-	preorder(node->left, id, nodes, n_s);
-	preorder(node->right, id, nodes, n_s);
-	preorder(node->next, id, nodes, n_s);
-}
-
-#define USE_SOLUTION_CUSTOM
-//Node* _solution_custom(TestCases& tc)
-string _solution_custom(TestCases& tc)
-{
-	// string to map_string
-	vector<map<string, string>> input = StringToVectorMapStringString(tc.get<string>());
-	for (auto um : input)
+	int i = 0;
+	
+	int r = 0;
+	int c = 0;
+	for (auto& d : dd)
 	{
-		for (auto s : um)
+		int dx = x + d[0];
+		int dy = y + d[1];
+		if (dx < 0 || dx >= grid.size()) continue;
+		if (dy < 0 || dy >= grid[0].size()) continue;
+		if (grid[dx][dy] == 0) continue;
+
+		i += 1;
+		r += (d[0] != 0);
+		c += (d[1] != 0);
+	}
+	if (i == 2 && (r == 1 && c == 1))	// 记录拐角结点
+	{
+		m.push_back({ x, y });
+	}
+	return i;
+}
+
+void dfs(vector<vector<int>>& grid, int x, int y, vector<vector<int>>& dd, vector<vector<int>>& vi, int gain, int &ans)
+{
+	gain += grid[x][y];
+	ans = max(ans, gain);
+	for (auto &d : dd)
+	{
+		int dx = x + d[0];
+		int dy = y + d[1];
+		if (dx < 0 || dx >= grid.size()) continue;
+		if (dy < 0 || dy >= grid[0].size()) continue;
+		if (grid[dx][dy] == 0) continue;
+		if (vi[dx][dy] == 1) continue;
+		vi[dx][dy] = 1;	// 回溯
+		dfs(grid, dx, dy, dd, vi, gain, ans);
+		vi[dx][dy] = 0;
+	}
+}
+
+int getMaximumGold(vector<vector<int>>& grid) 
+{
+	vector<vector<int>> dd = { {0,1},{0,-1},{1,0},{-1,0} };
+	vector<vector<int>> vi(grid.size(), vector<int>(grid[0].size(), 0));
+
+	vector<vector<int>> m;
+	int ans = 0;
+	for (size_t i = 0; i < grid.size(); i++)
+	{
+		for (size_t j = 0; j < grid[0].size(); j++)
 		{
-			cout << "[" << s.first << "] = " << s.second << ",\t";
+			if (grid[i][j] == 0) continue;
+			int nextNum = getNextNum(grid, i, j, dd, m);
+			if (nextNum == 0)
+			{
+				ans = max(ans, grid[i][j]);
+				continue;
+			}
+
+			if (nextNum > 1) continue;
+			// 处理突出结点
+			vi[i][j] = 1;	// 永久
+			dfs(grid, i, j, dd, vi, 0, ans);
 		}
-		cout << endl;
 	}
-
-	// map_string to map_nodes
-	map<string, Node*> nodes;
-	nodes["null"] = nullptr;
-	for (auto um : input)
+	if (!m.empty())	// 处理拐角结点
 	{
-		string id = um["$id"];
-		int val = um.count("val") ? stoi(um["val"]) : 0;
-		Node* newNode = new Node(val, nullptr, nullptr, nullptr);
-		nodes[id] = newNode;
+		for (auto &v : m)
+		{
+			int i = v[0];
+			int j = v[1];
+			vi[i][j] = 1;	// 回溯
+			dfs(grid, i, j, dd, vi, 0, ans);
+			vi[i][j] = 0;	// 回溯
+		}
 	}
-	for (auto um : input)
-	{
-		string id = um["$id"];
-		nodes[id]->left = nodes[um["left"]];
-		nodes[id]->right = nodes[um["right"]];
-		nodes[id]->next = nodes[um["next"]];
-	}
-
-	// run
-	Node* nd = connect(nodes["\"1\""]);
-
-	// nodes to map_nodes
-	map<string, Node*> nodes2;
-	map<Node*, string> n_s;
-	n_s[nullptr] = "null";
-	int id = 1;
-	preorder(nd, id, nodes2, n_s);
-
-	// map_nodes to map_string
-	vector<map<string, string>> output;
-	for (auto n : nodes2)
-	{
-		Node* cur = n.second;
-		map<string, string> _m;
-		_m["$id"] = n.first;
-		_m["left"] = n_s[cur->left];
-		_m["right"] = n_s[cur->right];
-		_m["next"] = n_s[cur->next];
-		_m["val"] = to_string(cur->val);
-		output.push_back(_m);
-	}
-
-	// map_string to string
-	string ans = VectorMapStringStringToString(output);
 	return ans;
 }
+
+//////////////////////////////////////////////////////////////////////////
+int _solution_run(vector<vector<int>>& grid)
+{
+	return getMaximumGold(grid);
+}
+
+//#define USE_SOLUTION_CUSTOM
+//int _solution_custom(TestCases &tc)
+//{
+//}
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _get_test_cases_string()

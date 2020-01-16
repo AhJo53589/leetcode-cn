@@ -76,6 +76,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_93 	restore-ip-addresses
 #define SOLUTION_CPP_FOLDER_NAME_ID_94 	binary-tree-inorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_95 	unique-binary-search-trees-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_96 	unique-binary-search-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_98 	validate-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
@@ -265,6 +266,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_1171 	remove-zero-sum-consecutive-nodes-from-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
