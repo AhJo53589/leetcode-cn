@@ -29,7 +29,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （359 / 1170）
+完成进度 （352 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
@@ -40,6 +40,7 @@
 ## Contest
 | 日期       | 名称                                                      | 完成  | 排名       |
 | ---------- | -------------------------------------------------------- | ----- | ---------- |
+|  | [](./contest/sf-2020/README.md) |  |  | 
 | 2019/9/29  | [第 156 场周赛](./contest/weekly-contest-156/README.md)   | 3 / 4 | 192 / 1432 |
 | 2019/10/6  | [第 157 场周赛](./contest/weekly-contest-157/README.md)   |       |            |
 | 2019/10/13 | [第 158 场周赛](./contest/weekly-contest-158/README.md)   | 2 / 4 | 633 / 1715 |

@@ -1,0 +1,9 @@
+["bear","vil","vil","ww","vil","vil","idiot","ww","hunter","ww","ww","vil"]
+[9,55,62,74,43,70,13,23,15,78,61,66]
+false
+["vil", "vil", "vil", "ww", "vil", "ww", "ww", "vil", "ww", "bear", "hunter", "idiot"]
+[81, 71, 88, 31, 34, 40, 70, 94, 73, 79, 98, 48]
+true
+["vil","ww","bear","hunter","ww","idiot","vil","vil","ww","vil","ww","vil"]
+[45,67,32,25,1,27,99,85,3,54,3,25]
+true

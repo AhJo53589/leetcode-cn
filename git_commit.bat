@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"1219.path-with-maximum-gold" 
+git commit -m"contest/sf-2020" 
 git push 

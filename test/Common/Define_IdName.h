@@ -359,3 +359,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1318 	minimum-flips-to-make-a-or-b-equal-to-c
 #define SOLUTION_CPP_FOLDER_NAME_ID_1319 	number-of-operations-to-make-network-connected
 #define SOLUTION_CPP_FOLDER_NAME_ID_1320 	minimum-distance-to-type-a-word-using-two-fingers
+#define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
+#define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
+#define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
+#define SOLUTION_CPP_FOLDER_NAME_ID_100266 	one-day-of-otaku
+#define SOLUTION_CPP_FOLDER_NAME_ID_100267 	collect-beads
+#define SOLUTION_CPP_FOLDER_NAME_ID_100269 	werewolves-of-leetcode
+#define SOLUTION_CPP_FOLDER_NAME_ID_100272 	happy-new-year-lol
+#define SOLUTION_CPP_FOLDER_NAME_ID_1000002 	find-hidden-info-UGC

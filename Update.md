@@ -4,6 +4,25 @@
 
 
 ---
+## 20200118
+* 100272.happy-new-year-lol 🐭年快乐
+
+* 100264.how-many-apples-lc 分苹果
+
+* 100267.collect-beads 理琥珀珠
+
+* 1000002.find-hidden-info-UGC 找出隐藏信息
+
+* 100263.happy-new-year-2020-bomb SyM 的 🔑
+
+* 100266.one-day-of-otaku 小胖子的日常
+
+* 100269.werewolves-of-leetcode 狼人杀模拟器
+
+* 100265.qqqqqqqqqqqqqqqys-warm-up-question qqqqqqqqqqqqqqqy 的热身题
+
+
+---
 ## 20200116
 * 96.unique-binary-search-trees 不同的二叉搜索树
 
