@@ -1,79 +1,243 @@
 
+class Solution2 {
+public:
+	vector<int> die;
+	vector<string> a;
+	vector<int> w;
+	int get(string s) {
+		if (s[0] == 'v') return 0;
+		if (s[0] == 'h') return 1;
+		if (s[0] == 'i') return 2;
+		if (s[0] == 'b') return 3;
+		if (s[0] == 'w') return 4;
+		return -1;
+	}
+	int check() {
+		int b = 0, g = 0;
+		for (int i = 0; i < 12; ++i) {
+			if (die[i]) continue;
+			if (get(a[i]) == 4) b++;
+			else g++;
+		}
+		if (b == 0) return 2;
+		if (b >= g) return 1;
+		return 0;
+	}
+	int wolf_find() {
+		int cur = -1, mx = -1;
+		for (int i = 0; i < 12; ++i) {
+			if (die[i]) continue;
+			if (get(a[i]) == 4) continue;
+			if (w[i] > mx) mx = w[i], cur = i;
+		}
+		return cur;
+	}
+	int hunter_find() {
+		int cur = -1, mx = 101;
+		for (int i = 0; i < 12; ++i) {
+			if (die[i]) continue;
+			if (get(a[i]) == 1) continue;
+			if (w[i] < mx) mx = w[i], cur = i;
+		}
+		return cur;
+	}
+	int vote_find() {
+		int cur = -1, mx = 101;
+		for (int i = 0; i < 12; ++i) {
+			if (die[i]) continue;
+			if (w[i] < mx) mx = w[i], cur = i;
+		}
+		return cur;
+	}
+	int get_left(int x) {
+		while (1) {
+			x = (x + 11) % 12;
+			if (!die[x]) return x;
+		}
+		return -1;
+	}
+	int get_right(int x) {
+		while (1) {
+			x = (x + 1) % 12;
+			if (!die[x]) return x;
+		}
+		return -1;
+	}
+	int l = -1, r = -1, aoao = 0;
+	void magic() {
+		if (!aoao || l == -1) return;
+		if (w[l] == 100) w[r] = 0;
+		if (w[r] == 100) w[l] = 0;
+	}
+	int bear_alive = 1, bear_pos = 0;
+	bool know_b = 0;
+	int hunter_pos;
+	// int hunter_die = 0;
+	bool canVillagersWin(vector<string>& players, vector<int>& cred)
+	{
+		die.resize(12);
+		a = players;
+		w = cred;
+		for (int i = 0; i < 12; ++i) if (get(a[i]) == 3) bear_pos = i;
+		for (int ca = 1;; ++ca)
+		{
+			cout << "case : " << ca << endl;
+			if (bear_alive && ca != 1) {
+				int killed = bear_pos;
+				die[bear_pos] = 1;
+				bear_alive = 0;
+				w[bear_pos] = 100;
+				cout << "killed by wolf : " << bear_pos << endl;
+			}
+			else {
+				int killed = wolf_find();
+				if (killed == bear_pos) bear_alive = 0;
+				die[killed] = 1;
+				w[killed] = 100;
+				magic();
+				cout << "killed by wolf : " << killed << endl;
+				if (l == -1) {
+					l = get_left(bear_pos);
+					r = get_right(bear_pos);
+				}
+				if (get(a[killed]) == 1) {
+					int tmp = hunter_find();
+					die[tmp] = 1;
+					if (tmp == bear_pos) bear_alive = 0;
+					cout << "killed by hunter : " << tmp << endl;
+				}
+			}
+			magic();
+			if (check()) return check() == 2;
 
+			if (bear_alive) {
+				cout << "bear!!" << endl;
+				know_b = 1;
+				w[bear_pos] = 100;
+				magic();
+
+				if (get(a[l]) == 4 || get(a[r]) == 4) aoao = 1;
+				if (get(a[l]) < 4 && get(a[r]) < 4) w[l] = w[r] = 100;
+				else if (w[l] == 100) w[r] = 0;
+				else if (w[r] == 100) w[l] = 0;
+				else {
+					if (w[l] == 1) w[l] = 1;
+					else w[l] /= 2;
+					if (w[r] == 1) w[r] = 1;
+					else w[r] /= 2;
+				}
+			}
+			magic();
+			for (int i = 0; i < 12; ++i) cout << die[i] << " "; cout << endl;
+			for (int i = 0; i < 12; ++i) cout << w[i] << " "; cout << endl;
+			int tmp = vote_find();
+			cout << "vote :" << tmp << endl;
+			if (get(a[tmp]) == 2) w[tmp] = 100;
+			else die[tmp] = 1;
+			if (tmp == bear_pos) bear_alive = 0;
+			magic();
+			if (get(a[tmp]) == 1) {
+				w[tmp] = 100;
+				magic();
+				int tmp2 = hunter_find();
+				die[tmp2] = 1;
+				if (tmp2 == bear_pos) bear_alive = 0;
+				cout << "killed by hunter : " << tmp2 << endl;
+			}
+			for (int i = 0; i < 12; ++i) cout << die[i] << " "; cout << endl;
+			if (check()) return check() == 2;
+		}
+		return 1;
+	}
+};
 
 //////////////////////////////////////////////////////////////////////////
-#define _TEST_OUTPUT_ 1
 class Solution {
 public:
+	void printPlayerStatus()
+	{
+		cout << "\t";
+		for (int n = 0; n < players.size(); n++)
+		{
+			cout << "[" << setiosflags(ios::right) << setw(2) << n << "]";
+		}
+		cout << endl;
+		cout << "[P] = \t";
+		for (int n = 0; n < players.size(); n++)
+		{
+			cout << setiosflags(ios::right) << setw(4) << isAlive[n];
+		}
+		cout << endl;
+		cout << "[C] = \t";
+		for (int n = 0; n < players.size(); n++)
+		{
+			cout << setiosflags(ios::right) << setw(4) << credibility[n];
+		}
+		cout << endl;
+	}
+
 	int getWerewolfTarget()
 	{
+		printPlayerStatus();
 		if (bearId[1] != -1 && isAlive[bearId[0]]) return bearId[0];
 
 		int target = -1;
-		int tempC = 0;
+		int c = 0;
 		for (auto n : teamV)
 		{
-#if _TEST_OUTPUT_
-			//cout << "���[" << n << "] = " << credibility[n] << endl;
-#endif
-			if (isAlive[n] && tempC < credibility[n])
-			{
-				target = n;
-				tempC = credibility[n];
-			}
+			if (!isAlive[n]) continue;
+			if (c >= credibility[n]) continue;
+			target = n;
+			c = credibility[n];
 		}
 		return target;
 	}
 
 	int getVillagerTarget()
 	{
-		int c = 100;
+		printPlayerStatus();
+
 		int target = -1;
-		for (int i = 0; i < players.size(); i++)
+		int c = 100;
+		for (int n = 0; n < players.size(); n++)
 		{
-			if (!isAlive[i]) continue;
-#if _TEST_OUTPUT_
-			//cout << "���[" << i << "] = " << credibility[i] << endl;
-#endif
-			if (c > credibility[i])
-			{
-				c = credibility[i];
-				target = i;
-			}
+			if (!isAlive[n]) continue;
+			if (c <= credibility[n]) continue;
+			target = n;
+			c = credibility[n];
 		}
 		return target;
 	}
 
-	void check()
+	bool checkGameOver()
 	{
-		if (cntW > cntV)
+		if (cntW >= cntV)
 		{
-			gameOver = true;
 			winner = false;
+			return true;
 		}
 		if (cntW == 0)
 		{
-			gameOver = true;
 			winner = true;
+			return true;
 		}
+		return false;
 	}
 
-	void updateOpposite(int n)
+	void updateOpposite(int n, int c)
 	{
-		int c = -1;
-		if (credibility[n] == 100) c = 0;
-		if (credibility[n] == 0) c = 100;
-		if (c == -1) return;
+		credibility[n] = c;
+		if (c != 100) return;
+		int rc = 0;
 
 		for (auto& p : opposite[n])
 		{
-			if (credibility[p] == c) continue;
-			credibility[p] = c;
-			updateOpposite(p);
+			if (credibility[p] == rc) continue;
+			updateOpposite(p, rc);
 		}
 	}
 
-	vector<int> getNextSeat(int n)
+	vector<int> getBeside(int n)
 	{
 		vector<int> dd = { 1, 11 };
 		vector<int> ret;
@@ -89,134 +253,119 @@ public:
 		return ret;
 	}
 
-	void actBear()
+	bool actBearRoar(int killId, vector<int>& nxt)
 	{
-		if (!isAlive[bearId[0]]) return;
-#if _TEST_OUTPUT_
-		cout << "Bear" << endl;
-#endif
+		int n = bearId[0];
+		if (killId == bearId[0]) return false;
+		if (!isAlive[n]) return false;
 
-		credibility[bearId[0]] = 100;
-		updateOpposite(bearId[0]);
-
-		bool findW = false;
-		auto nxt = getNextSeat(bearId[0]);
-		for (auto n : teamW)
+		nxt = getBeside(n);
+		for (auto p : teamW)
 		{
-			if (nxt[0] == n || nxt[1] == n)
+			if (nxt[0] != p && nxt[1] != p) continue;
+			return true;
+		}
+		return false;
+	}
+
+	void actBearTalk(bool bearRoar, vector<int>& nxt)
+	{
+		int n = bearId[0];
+		if (daynum == 2)
+		{
+			cout << "Bear talk" << endl;
+			bearId[1] = n;
+			updateOpposite(n, 100);
+		}
+
+		if (!bearRoar)
+		{
+			updateOpposite(nxt[0], 100);
+			updateOpposite(nxt[1], 100);
+			return;
+		}
+
+		for (int i = 0; i < nxt.size(); i++)
+		{
+			int p1 = (i == 0) ? nxt[0] : nxt[1];
+			int p2 = (i != 0) ? nxt[0] : nxt[1];
+			opposite[p1].push_back(p2);
+
+			int c = -1;
+			c = (credibility[p1] == 100) ? credibility[p1] : c;
+			if (c == -1)
 			{
-				findW = true;
-				if (credibility[nxt[0]] == 100)
-				{
-					credibility[nxt[1]] = 0;
-					updateOpposite(nxt[1]);
-				}
-				else if (credibility[nxt[1]] == 100)
-				{
-					credibility[nxt[0]] == 0;
-					updateOpposite(nxt[0]);
-				}
-				else
-				{
-					credibility[nxt[0]] = (credibility[nxt[0]] == 1) ? 1 : credibility[nxt[0]] / 2;
-					credibility[nxt[1]] = (credibility[nxt[1]] == 1) ? 1 : credibility[nxt[1]] / 2;
-					opposite[nxt[0]].push_back(nxt[1]);
-					opposite[nxt[1]].push_back(nxt[0]);
-				}
+				credibility[p1] = (credibility[p1] == 1) ? 1 : credibility[p1] / 2;
+			}
+			else
+			{
+				int rc = 0;
+				updateOpposite(p2, rc);
 			}
 		}
-		if (!findW)
-		{
-			credibility[nxt[0]] = 100;
-			updateOpposite(nxt[0]);
-			credibility[nxt[1]] = 100;
-			updateOpposite(nxt[1]);
-		}
 	}
 
-	void actHunter(int n, bool isDay)
+	void actHunter(int n)
 	{
-#if _TEST_OUTPUT_
-		cout << "Hunter" << endl;
-#endif
-		credibility[n] = 100;
-		updateOpposite(n);
-		hunterKillId = getVillagerTarget();
+		updateOpposite(n, 100);
+
+		int hunterKillId = getVillagerTarget();
+		cout << "\t\t\t\tHunter kill = " << hunterKillId << endl;
+		onDead(hunterKillId);
 	}
 
-	void actDied(int n, bool isDay)
+	void actIdiot(int n)
 	{
-#if _TEST_OUTPUT_
-		string str = "�� " + to_string(daynum) + " �� ";
-		str += (isDay) ? "����" : "����";
-		cout << str << "\t����: " << n << endl;
-#endif
+		updateOpposite(n, 100);
+		cout << "\t\t\t\tIdiot will not be voted out" << endl;
+	}
 
-		if (!(players[n] == "idiot" && isDay))
+	void onDead(int n)
+	{
+		cout << "\t\t\t\tPlayer[" << n << "] dead" << endl;
+		isAlive[n] = 0;
+		for (auto p : teamV) cntV -= (p == n);
+		for (auto p : teamW) cntW -= (p == n);
+	}
+
+	void onKilled(int n)
+	{
+		onDead(n);
+
+		if (players[n] == "hunter")
 		{
-			isAlive[n] = 0;
-			for (auto p : teamV) cntV -= (p == n);
-			for (auto p : teamW) cntW -= (p == n);
-			check();
-			if (gameOver) return;
+			actHunter(n);
 		}
 		else
 		{
-			cout << "Idiot" << endl;
+			updateOpposite(n, 100);
+		}
+	}
+
+	void onVoted(int n)
+	{
+		if (players[n] == "idiot")
+		{
+			actIdiot(n);
+		}
+		else
+		{
+			onDead(n);
 		}
 
 		if (players[n] == "hunter")
 		{
-			actHunter(n, isDay);
-			return;
+			actHunter(n);
 		}
-
-		if (!isDay)	// night
-		{
-			credibility[n] = 100;
-			updateOpposite(n);
-		}
-		else	// day
-		{
-			if (players[n] == "idiot")
-			{
-				credibility[n] = 100;
-				updateOpposite(n);
-			}
-		}
-	}
-
-	void processDay()
-	{
-		actBear();
-		if (hunterKillId != -1)
-		{
-			actDied(hunterKillId, false);
-			hunterKillId = -1;
-		}
-		int dead = getVillagerTarget();
-		actDied(dead, true);
-		if (hunterKillId != -1)
-		{
-			actDied(hunterKillId, true);
-			hunterKillId = -1;
-		}
-	}
-
-	void processNight()
-	{
-		int dead = getWerewolfTarget();
-		actDied(dead, false);
 	}
 
 	bool canVillagersWin(vector<string>& p, vector<int>& c)
 	{
 		players = p;
 		credibility = c;
-		hunterKillId = -1;
 		cntV = 8;
 		cntW = 4;
-		daynum = 0;
+		daynum = 1;
 		isAlive = vector<int>(players.size(), 1);
 		bearId = vector<int>(2, -1);
 		opposite = vector<vector<int>>(players.size(), vector<int>());
@@ -234,13 +383,42 @@ public:
 			}
 		}
 
-		gameOver = false;
+		bool gameOver = false;
 		while (!gameOver)
 		{
+			cout << endl << "=== Night " + to_string(daynum) << " ===" << endl;
+
+			int killId = getWerewolfTarget();
+			vector<int> beside;
+			bool bearRoar = actBearRoar(killId, beside);
+			cout << "1. Close Eyes \t\t\tKill = " << killId << endl;
+
 			daynum++;
-			processNight();
+			cout << endl << "=== Day " + to_string(daynum) << " ===" << endl;
+			cout << "2. Open Eyes" << endl;
+
+			cout << "3. Announce \t\t\tBear roar: " << boolalpha << bearRoar << endl;
+
+			cout << "4. Kill";
+			onKilled(killId);
+
+			gameOver = checkGameOver();
+			cout << "5. Check \t\t\tGame over: " << boolalpha << gameOver << endl;
 			if (gameOver) break;
-			processDay();
+
+			cout << "6. Talk \t\t\tBear roar effect: " << boolalpha << (bool)isAlive[bearId[0]] << endl;
+			if (isAlive[bearId[0]])
+			{
+				actBearTalk(bearRoar, beside);
+			}
+
+			int voteId = getVillagerTarget();
+			cout << "7. Vote \t\t\tVote = " << voteId << endl;
+			onVoted(voteId);
+
+			gameOver = checkGameOver();
+			cout << "8. Check \t\t\tGame over: " << boolalpha << gameOver << endl;
+			if (gameOver) break;
 		}
 		return winner;
 	}
@@ -253,12 +431,10 @@ private:
 	vector<int> teamV;
 	vector<int> teamW;
 	vector<int> bearId;
-	int hunterKillId;
 	int cntV;
 	int cntW;
 	int daynum;
 	bool winner;
-	bool gameOver;
 };
 
 
