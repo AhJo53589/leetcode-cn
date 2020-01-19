@@ -165,13 +165,20 @@ public:
 		cout << "[P] = \t";
 		for (int n = 0; n < players.size(); n++)
 		{
-			cout << setiosflags(ios::right) << setw(4) << isAlive[n];
+			if (isAlive[n])
+			{
+				cout << setiosflags(ios::right) << setw(3) << players[n][0] << " ";
+			}
+			else
+			{
+				cout << "    ";
+			}
 		}
 		cout << endl;
 		cout << "[C] = \t";
 		for (int n = 0; n < players.size(); n++)
 		{
-			cout << setiosflags(ios::right) << setw(4) << credibility[n];
+			cout << setiosflags(ios::right) << setw(3) << credibility[n] << " ";
 		}
 		cout << endl;
 	}
@@ -273,7 +280,7 @@ public:
 		int n = bearId[0];
 		if (daynum == 2)
 		{
-			cout << "Bear talk" << endl;
+			cout << "\t\t\t\tBear talk" << endl;
 			bearId[1] = n;
 			updateOpposite(n, 100);
 		}

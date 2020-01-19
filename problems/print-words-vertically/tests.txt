@@ -1,0 +1,6 @@
+"HOW ARE YOU"
+["HAY","ORO","WEU"]
+"TO BE OR NOT TO BE"
+["TBONTB","OEROOE","   T"]
+"CONTEST IS COMING"
+["CIC","OSO","N M","T I","E N","S G","T"]

@@ -1,4 +1,4 @@
 git pull 
 git add -A 
-git commit -m"contest/sf-2020" 
+git commit -m"5315.maximum-69-number" 
 git push 
