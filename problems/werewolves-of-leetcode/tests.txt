@@ -7,3 +7,6 @@ true
 ["vil","ww","bear","hunter","ww","idiot","vil","vil","ww","vil","ww","vil"]
 [45,67,32,25,1,27,99,85,3,54,3,25]
 true
+["vil","bear","vil","ww","hunter","ww","ww","ww","vil","vil","vil","idoit"]
+[18,10,99,18,10,10,10,10,10,10,10,10]
+true

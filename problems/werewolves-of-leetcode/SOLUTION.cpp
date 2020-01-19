@@ -244,7 +244,7 @@ public:
 		}
 	}
 
-	vector<int> getBeside(int n)
+	vector<int> getBeside(int n, int killId)
 	{
 		vector<int> dd = { 1, 11 };
 		vector<int> ret;
@@ -254,7 +254,7 @@ public:
 			do
 			{
 				nxt = (nxt + d) % players.size();
-			} while (!isAlive[nxt]);
+			} while (!isAlive[nxt] || nxt == killId);
 			ret.push_back(nxt);
 		}
 		return ret;
@@ -266,7 +266,7 @@ public:
 		if (killId == bearId[0]) return false;
 		if (!isAlive[n]) return false;
 
-		nxt = getBeside(n);
+		nxt = getBeside(n, killId);
 		for (auto p : teamW)
 		{
 			if (nxt[0] != p && nxt[1] != p) continue;
