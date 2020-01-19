@@ -58,21 +58,14 @@
 
 ### 答题
 ``` C++
-bool postOrder(TreeNode* node, int target)
-{
-	if (node == nullptr) return true;
-
-	bool l = postOrder(node->left, target);
-	node->left = l ? nullptr : node->left;
-	bool r = postOrder(node->right, target);
-	node->right = r ? nullptr : node->right;
-
-	return (l && r && node->val == target);
-}
-
 TreeNode* removeLeafNodes(TreeNode* root, int target) 
 {
-	return (postOrder(root, target)) ? nullptr : root;
+	if (root == nullptr) return nullptr;
+
+	root->left = removeLeafNodes(root->left, target);
+	root->right = removeLeafNodes(root->right, target);
+
+	return (root->left == nullptr && root->right == nullptr && root->val == target) ? nullptr : root;
 }
 ```
 
