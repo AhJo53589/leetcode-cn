@@ -1,4 +1,4 @@
-# `（简单）` [5315.maximum-69-number 6 和 9 组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/)
+# `（简单）` [1323.maximum-69-number 6 和 9 组成的最大数字](https://leetcode-cn.com/problems/maximum-69-number/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-172/problems/maximum-69-number/)
 

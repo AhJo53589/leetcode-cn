@@ -1,4 +1,4 @@
-# `（困难）` [5318.minimum-number-of-taps-to-open-to-water-a-garden 灌溉花园的最少水龙头数目](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
+# `（困难）` [1326.minimum-number-of-taps-to-open-to-water-a-garden 灌溉花园的最少水龙头数目](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-172/problems/minimum-number-of-taps-to-open-to-water-a-garden/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5316.print-words-vertically 竖直打印单词](https://leetcode-cn.com/problems/print-words-vertically/)
+# `（中等）` [1324.print-words-vertically 竖直打印单词](https://leetcode-cn.com/problems/print-words-vertically/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-172/problems/print-words-vertically/)
 

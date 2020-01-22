@@ -1,4 +1,4 @@
-# `（中等）` [5317.delete-leaves-with-a-given-value 删除给定值的叶子节点](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value/)
+# `（中等）` [1325.delete-leaves-with-a-given-value 删除给定值的叶子节点](https://leetcode-cn.com/problems/delete-leaves-with-a-given-value/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-172/problems/delete-leaves-with-a-given-value/)
 
