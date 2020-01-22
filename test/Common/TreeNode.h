@@ -32,10 +32,6 @@ struct TreeNode
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 
-	// for 116£¬117
-	//TreeNode *next;
-	//TreeNode(int x) : val(x), left(nullptr), right(nullptr), next(nullptr) {}
-
 	friend ostream & operator<<(ostream& os, const TreeNode *p)
 	{
 		string s = TreeNodeToString(p);

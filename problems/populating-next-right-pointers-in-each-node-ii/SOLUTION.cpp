@@ -1,6 +1,5 @@
 
 
-
 // Definition for a Node.
 class Node
 {
@@ -137,7 +136,7 @@ Node* StringToNode(string data)
 string NodeLevelOrderToString(Node* root)
 {
 	string str = "[";
-	
+
 	while (root != nullptr)
 	{
 		Node* cur = root;
@@ -188,6 +187,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/_test_0/tests.txt";
+	return "../../problems/populating-next-right-pointers-in-each-node-ii/tests.txt";
 }
 
