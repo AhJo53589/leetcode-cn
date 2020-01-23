@@ -6,9 +6,6 @@
     <ClCompile Include="..\Common\Common.cpp">
       <Filter>Common</Filter>
     </ClCompile>
-    <ClCompile Include="..\Common\GraphNode.cpp">
-      <Filter>Common</Filter>
-    </ClCompile>
     <ClCompile Include="..\Common\ListNode.cpp">
       <Filter>Common</Filter>
     </ClCompile>
@@ -18,13 +15,13 @@
     <ClCompile Include="..\Common\StringConvert.cpp">
       <Filter>Common</Filter>
     </ClCompile>
+    <ClCompile Include="..\Common\Node.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pch.h" />
     <ClInclude Include="..\Common\Common.h">
-      <Filter>Common</Filter>
-    </ClInclude>
-    <ClInclude Include="..\Common\GraphNode.h">
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\ListNode.h">
@@ -46,6 +43,9 @@
       <Filter>Common</Filter>
     </ClInclude>
     <ClInclude Include="..\Common\StringConvert.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Common\Node.h">
       <Filter>Common</Filter>
     </ClInclude>
   </ItemGroup>

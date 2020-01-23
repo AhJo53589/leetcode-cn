@@ -154,8 +154,8 @@
   <ItemGroup>
     <ClInclude Include="..\Common\Common.h" />
     <ClInclude Include="..\Common\Define_IdName.h" />
-    <ClInclude Include="..\Common\GraphNode.h" />
     <ClInclude Include="..\Common\ListNode.h" />
+    <ClInclude Include="..\Common\Node.h" />
     <ClInclude Include="..\Common\ParameterType.h" />
     <ClInclude Include="..\Common\PerformanceTimer.h" />
     <ClInclude Include="..\Common\StringConvert.h" />
@@ -165,8 +165,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Common\Common.cpp" />
-    <ClCompile Include="..\Common\GraphNode.cpp" />
     <ClCompile Include="..\Common\ListNode.cpp" />
+    <ClCompile Include="..\Common\Node.cpp" />
     <ClCompile Include="..\Common\StringConvert.cpp" />
     <ClCompile Include="..\Common\TreeNode.cpp" />
     <ClCompile Include="pch.cpp">

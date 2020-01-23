@@ -103,6 +103,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_128 	longest-consecutive-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_130 	surrounded-regions
 #define SOLUTION_CPP_FOLDER_NAME_ID_131 	palindrome-partitioning
+#define SOLUTION_CPP_FOLDER_NAME_ID_133 	clone-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
 #define SOLUTION_CPP_FOLDER_NAME_ID_136 	single-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_141 	linked-list-cycle

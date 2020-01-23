@@ -1,5 +1,5 @@
-#ifndef GRAPH_NODE_H
-#define GRAPH_NODE_H
+#ifndef NODE_H
+#define NODE_H
 
 #include <iostream>
 
@@ -11,6 +11,8 @@
 
 using namespace std;
 
+
+#ifndef NODE_DEFINE_EXCULDE_DEFAULT
 class Node
 {
 public:
@@ -26,9 +28,11 @@ public:
 	}
 };
 
-//void initNode(Node **root, string strInitData);
-//void printNode(Node *root);
+string NodeToString(const Node* pHead);
+Node* StringToNode(const string data);
+
+#endif 
 
 
 
-#endif //GRAPH_NODE_H
+#endif //NODE_H
