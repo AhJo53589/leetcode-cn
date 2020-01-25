@@ -29,7 +29,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （377 / 1170）
+完成进度 （367 / 1170）
 [查看全部](./problemset/all/README.md)
 
 ## Season
@@ -65,6 +65,7 @@
 | 2020/1/11  | [第 17 场双周赛](./contest/biweekly-contest-17/README.md) | 4 / 4 | 196 / 897  |
 | 2020/1/12  | [第 171 场周赛](./contest/weekly-contest-171/README.md)   | 2 / 4 | 607 / 1707 |
 | 2020/1/19  | [第 172 场周赛](./contest/weekly-contest-172/README.md)   | 4 / 4 | 107 / 1414 |
+| 2020/1/25  | [第 18 场双周赛](./contest/biweekly-contest-18/README.md) | 3 / 4 | 129 / 587  |
 
 ## Update
 [查看全部](./Update.md)

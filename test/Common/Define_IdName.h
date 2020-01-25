@@ -367,6 +367,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1324 	print-words-vertically
 #define SOLUTION_CPP_FOLDER_NAME_ID_1325 	delete-leaves-with-a-given-value
 #define SOLUTION_CPP_FOLDER_NAME_ID_1326 	minimum-number-of-taps-to-open-to-water-a-garden
+#define SOLUTION_CPP_FOLDER_NAME_ID_5151 	break-a-palindrome
+#define SOLUTION_CPP_FOLDER_NAME_ID_5152 	sort-the-matrix-diagonally
+#define SOLUTION_CPP_FOLDER_NAME_ID_5154 	reverse-subarray-to-maximize-array-value
+#define SOLUTION_CPP_FOLDER_NAME_ID_5155 	rank-transform-of-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

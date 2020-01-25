@@ -4,6 +4,17 @@
 
 
 ---
+## 20200125
+* 5155.rank-transform-of-an-array 将数组进行序号转换
+
+* 5151.break-a-palindrome 破坏回文串
+
+* 5152.sort-the-matrix-diagonally 将矩阵按对角线排序
+
+* 5154.reverse-subarray-to-maximize-array-value 翻转子数组得到最大的数组值
+
+
+---
 ## 20200119
 * 1323.maximum-69-number 6 和 9 组成的最大数字
 
