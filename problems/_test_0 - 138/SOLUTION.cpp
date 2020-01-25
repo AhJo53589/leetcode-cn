@@ -1,5 +1,5 @@
 
-#define NODE_DEFINE_LEETCODE_430_FLATTEN_A_MULTILEVEL_DOUBLY_LINKED_LIST
+#define NODE_DEFINE_LEETCODE_COPY_LIST_WITH_RANDOM_POINTER
 #include "../../test/Common/Node.cpp"
 
 /*
@@ -7,33 +7,49 @@
 class Node {
 public:
 	int val;
-	Node* prev;
 	Node* next;
-	Node* child;
+	Node* random;
+
+	Node() {}
+
+	Node(int _val, Node* _next, Node* _random) {
+		val = _val;
+		next = _next;
+		random = _random;
+	}
 };
 */
 
 
 //////////////////////////////////////////////////////////////////////////
-Node* flatten(Node* head)
+Node* copyRandomList(Node* head)
 {
+	map<Node*, Node*> visited;
+	visited[NULL] = NULL;
+
+	Node* pPrev = NULL;
 	Node* pNode = head;
 	while (pNode != NULL)
 	{
-		if (pNode->child != NULL)
-		{
-			Node* pNext = pNode->next;
-			pNode->next = pNode->child;
-			pNode->next->prev = pNode;
-			pNode->child = NULL;
-			flatten(pNode);
-			while (pNode != NULL && pNode->next != NULL) pNode = pNode->next;
-			pNode->next = pNext;
-			if (pNext != NULL) pNext->prev = pNode;
-		}
+		Node* pNew = new Node();
+		visited[pNode] = pNew;
 		pNode = pNode->next;
 	}
-	return head;
+	pNode = head;
+	while (pNode != NULL)
+	{
+		Node* pNew = visited[pNode];
+		pNew->val = pNode->val;
+		pNew->random = visited[pNode->random];
+		pNew->next = NULL;
+		if (pPrev != NULL)
+		{
+			visited[pPrev]->next = pNew;
+		}
+		pPrev = pNode;
+		pNode = pNode->next;
+	}
+	return visited[head];
 }
 
 
@@ -49,7 +65,7 @@ Node* flatten(Node* head)
 string _solution_custom(TestCases& tc)
 {
 	Node* root = StringToNode(tc.get<string>());
-	Node* ret = flatten(root);
+	Node* ret = copyRandomList(root);
 	string ans = NodeToString(ret);
 	return ans;
 }

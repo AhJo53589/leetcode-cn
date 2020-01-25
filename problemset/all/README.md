@@ -104,6 +104,7 @@
 | √ | 133 | [clone-graph](../../problems/clone-graph) | [克隆图](../../problems/clone-graph/README.md) | [cpp](../../problems/clone-graph/SOLUTION.cpp) |   | 中等 | 
 | √ | 134 | [gas-station](../../problems/gas-station) | [加油站](../../problems/gas-station/README.md) | [cpp](../../problems/gas-station/SOLUTION.cpp) |   | 中等 |
 | √ | 136 | [single-number](../../problems/single-number) | [只出现一次的数字](../../problems/single-number/README.md) | [cpp](../../problems/single-number/SOLUTION.cpp) |   | 简单 |
+| √ | 138 | [copy-list-with-random-pointer](../../problems/copy-list-with-random-pointer) | [复制带随机指针的链表](../../problems/copy-list-with-random-pointer/README.md) | [cpp](../../problems/copy-list-with-random-pointer/SOLUTION.cpp) |   | 中等 | 
 | √ | 141 | [linked-list-cycle](../../problems/linked-list-cycle) | [环形链表](../../problems/linked-list-cycle/README.md) | [cpp](../../problems/linked-list-cycle/SOLUTION.cpp) |   | 简单 |
 | √ | 142 | [linked-list-cycle-ii](../../problems/linked-list-cycle-ii) | [环形链表](../../problems/linked-list-cycle-ii/README.md) | [cpp](../../problems/linked-list-cycle-ii/SOLUTION.cpp) |   | 中等 |
 | √ | 144 | [binary-tree-preorder-traversal](../../problems/binary-tree-preorder-traversal) | [二叉树的前序遍历](../../problems/binary-tree-preorder-traversal/README.md) | [cpp](../../problems/binary-tree-preorder-traversal/SOLUTION.cpp) |   | 中等 |

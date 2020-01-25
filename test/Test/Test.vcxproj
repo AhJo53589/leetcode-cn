@@ -155,7 +155,6 @@
     <ClInclude Include="..\Common\Common.h" />
     <ClInclude Include="..\Common\Define_IdName.h" />
     <ClInclude Include="..\Common\ListNode.h" />
-    <ClInclude Include="..\Common\Node.h" />
     <ClInclude Include="..\Common\ParameterType.h" />
     <ClInclude Include="..\Common\PerformanceTimer.h" />
     <ClInclude Include="..\Common\StringConvert.h" />

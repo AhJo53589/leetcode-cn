@@ -210,15 +210,16 @@ vector<string> StringToVectorString(string str)
 	return strs;
 }
 
-string VectorStringToString(const vector<string>& strs)
+string VectorStringToString(const vector<string>& strs, bool quotation)
 {
 	string str;
 	str += "[";
 	for (auto s : strs)
 	{
-		str += "\"";
+		str += quotation ? "\"" : "";
 		str += s;
-		str += "\",";
+		str += quotation ? "\"" : "";
+		str += ",";
 	}
 	if (str.back() == ',') str.pop_back();
 	str += "]";
@@ -245,13 +246,13 @@ vector<vector<string>> StringToVectorVectorString(string str)
 	return vvs;
 }
 
-string VectorVectorStringToString(const vector<vector<string>>& strs)
+string VectorVectorStringToString(const vector<vector<string>>& strs, bool quotation)
 {
 	string str;
 	str += "[";
 	for (auto vs : strs)
 	{
-		str += VectorStringToString(vs);
+		str += VectorStringToString(vs, quotation);
 		str += ",";
 	}
 	if (str.back() == ',') str.pop_back();

@@ -15,7 +15,6 @@
 #include <string>
 
 #include "ListNode.h"
-#include "Node.h"
 #include "TreeNode.h"
 
 using namespace std;
@@ -40,9 +39,9 @@ vector<vector<int>> StringToVectorVectorInt(string str);
 string VectorVectorIntToString(const vector<vector<int>>& matrix);
 
 vector<string> StringToVectorString(string str);
-string VectorStringToString(const vector<string>& strs);
+string VectorStringToString(const vector<string>& strs, bool quotation = true);
 vector<vector<string>> StringToVectorVectorString(string str);
-string VectorVectorStringToString(const vector<vector<string>>& strs);
+string VectorVectorStringToString(const vector<vector<string>>& strs, bool quotation = true);
 
 vector<TreeNode*> StringToVectorTreeNode(string str);
 

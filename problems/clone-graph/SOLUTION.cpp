@@ -1,4 +1,7 @@
 
+#define NODE_DEFINE_LEETCODE_133_CLONE_GRAPH
+#include "../../test/Common/Node.cpp"
+
 /*
 // Definition for a Node.
 class Node {

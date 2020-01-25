@@ -45,9 +45,6 @@
     <ClInclude Include="..\Common\StringConvert.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="..\Common\Node.h">
-      <Filter>Common</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Common">
