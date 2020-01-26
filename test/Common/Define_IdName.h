@@ -371,6 +371,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5152 	sort-the-matrix-diagonally
 #define SOLUTION_CPP_FOLDER_NAME_ID_5154 	reverse-subarray-to-maximize-array-value
 #define SOLUTION_CPP_FOLDER_NAME_ID_5155 	rank-transform-of-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5319 	remove-palindromic-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5320 	filter-restaurants-by-vegan-friendly-price-and-distance
+#define SOLUTION_CPP_FOLDER_NAME_ID_5321 	find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
+#define SOLUTION_CPP_FOLDER_NAME_ID_5322 	minimum-difficulty-of-a-job-schedule
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

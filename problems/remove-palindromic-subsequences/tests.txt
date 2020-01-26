@@ -1,0 +1,12 @@
+"bbaabaaa"
+2
+"ababa"
+1
+"abb"
+2
+"baabb"
+2
+""
+0
+"ababb"
+2

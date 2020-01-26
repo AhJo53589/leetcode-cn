@@ -4,6 +4,17 @@
 
 
 ---
+## 20200126
+* 5322.minimum-difficulty-of-a-job-schedule 工作计划的最低难度
+
+* 5319.remove-palindromic-subsequences 删除回文子序列
+
+* 5320.filter-restaurants-by-vegan-friendly-price-and-distance 餐厅过滤器
+
+* 5321.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance 阈值距离内邻居最少的城市
+
+
+---
 ## 20200125
 * 5155.rank-transform-of-an-array 将数组进行序号转换
 
