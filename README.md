@@ -1,8 +1,11 @@
 # leetcode-cn
 
-[查看旧版数据](./leetcode-cn_bak/README.md)
+## Project Instruction
+
+[查看](./Project_Instruction.md)
 
 ## Selected Solutions
+
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
 | ☆ | 41 | [first-missing-positive](./problems/first-missing-positive) | [缺失的第一个正数](./problems/first-missing-positive/README.md) | [cpp](./problems/first-missing-positive/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/first-missing-positive/solution/41-by-ikaruga/) | 困难 |
@@ -29,7 +32,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （370 / 1170）
+完成进度 （386 / 1340）
 [查看全部](./problemset/all/README.md)
 
 ## Season
@@ -71,5 +74,4 @@
 ## Update
 [查看全部](./Update.md)
 
-## Project Instruction
-[查看](./Project_Instruction.md)
+

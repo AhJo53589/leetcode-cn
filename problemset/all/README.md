@@ -213,6 +213,7 @@
 | √ | 412 | [fizz-buzz](../../problems/fizz-buzz) | [Fizz Buzz](../../problems/fizz-buzz/README.md) | [cpp](../../problems/fizz-buzz/SOLUTION.cpp) |   | 简单 |
 | √ | 415 | [add-strings](../../problems/add-strings) | [字符串相加](../../problems/add-strings/README.md) | [cpp](../../problems/add-strings/SOLUTION.cpp) |   | 简单 |
 | √ | 416 | [partition-equal-subset-sum](../../problems/partition-equal-subset-sum) | [分割等和子集](../../problems/partition-equal-subset-sum/README.md) | [cpp](../../problems/partition-equal-subset-sum/SOLUTION.cpp) |   | 中等 |
+| √ | 430 | [flatten-a-multilevel-doubly-linked-list](../../problems/flatten-a-multilevel-doubly-linked-list) | [扁平化多级双向链表](../../problems/flatten-a-multilevel-doubly-linked-list/README.md) | [cpp](../../problems/flatten-a-multilevel-doubly-linked-list/SOLUTION.cpp) |   | 中等 | 
 | √ | 432 | [all-oone-data-structure](../../problems/all-oone-data-structure) | [全 O(1) 的数据结构](../../problems/all-oone-data-structure/README.md) | [cpp](../../problems/all-oone-data-structure/SOLUTION.cpp) |   | 困难 |
 | √ | 447 | [number-of-boomerangs](../../problems/number-of-boomerangs) | [回旋镖的数量](../../problems/number-of-boomerangs/README.md) | [cpp](../../problems/number-of-boomerangs/SOLUTION.cpp) |   | 简单 |
 | √ | 450 | [delete-node-in-a-bst](../../problems/delete-node-in-a-bst) | [删除二叉搜索树中的节点](../../problems/delete-node-in-a-bst/README.md) | [cpp](../../problems/delete-node-in-a-bst/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/delete-node-in-a-bst/solution/shan-chu-er-cha-sou-suo-shu-zhong-de-jie-dian-by-i/) | 中等 |

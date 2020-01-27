@@ -213,6 +213,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst

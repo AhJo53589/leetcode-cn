@@ -159,42 +159,97 @@ public:
 
 Node* StringToNode(const string data)
 {
-	vector<vector<string>> val = StringToVectorVectorString(data);
-	vector<Node*> nodes(val.size(), nullptr);
-	for (auto& n : nodes)
+	vector<string> vs = StringToVectorString(data);
+
+	vector<vector<Node*>> nodes;
+
+	size_t idx = 0;
+	size_t space = 0;
+	bool newLine = true;
+	while (idx < vs.size())
 	{
-		n = new Node(0, nullptr, nullptr);
+		if (vs[idx] == "null")
+		{
+			if (!newLine)
+			{
+				nodes.back().push_back(nullptr);
+			}
+			space += newLine;
+			newLine = true;
+		}
+		else
+		{
+			if (newLine)
+			{
+				nodes.push_back(vector<Node*>());
+				for (size_t t = 0; t < space; t++)
+				{
+					nodes.back().push_back(nullptr);
+				}
+				newLine = false;
+			}
+
+			nodes.back().push_back(new Node(stoi(vs[idx]), nullptr, nullptr, nullptr));
+		}
+		idx++;
 	}
-	for (size_t i = 0; i < val.size(); i++)
+
+	for (size_t i = 0; i < nodes.size(); i++)
 	{
-		nodes[i]->val = stoi(val[i][0]);
-		nodes[i]->next = (i == val.size() - 1) ? nullptr : nodes[i + 1];
-		nodes[i]->random = (val[i][1] == "null") ? nullptr : nodes[stoi(val[i][1])];
+		newLine = true;
+		for (size_t j = 0; j < nodes[i].size() - 1; j++)
+		{
+			if (nodes[i][j] == nullptr) continue;
+			if (newLine)
+			{
+				newLine = false;
+				if (i != 0)
+				{
+					nodes[i - 1][j]->child = nodes[i][j];
+				}
+			}
+			nodes[i][j]->next = nodes[i][j + 1];
+			if (nodes[i][j + 1] != nullptr)
+			{
+				nodes[i][j + 1]->prev = nodes[i][j];
+			}
+		}
 	}
-	return nodes.empty() ? nullptr : nodes[0];
+
+	return nodes.empty() ? nullptr : nodes[0][0];
 }
 
 string NodeToString(const Node* pHead)
 {
-	unordered_map<const Node*, int> node_id;
-	vector<const Node*> id_node;
+	vector<string> val;
+	const Node* cur = pHead;
+	const Node* lv_head = pHead;
 
-	int idx = 0;
-	while (pHead != nullptr)
+	while (true)
 	{
-		id_node.push_back(pHead);
-		node_id[pHead] = idx++;
-		pHead = pHead->next;
+		while (cur != nullptr)
+		{
+			val.push_back(to_string(cur->val));
+			cur = cur->next;
+		}
+		val.push_back("null");
+		while (lv_head != nullptr && lv_head->child == nullptr)
+		{
+			val.push_back("null");
+			lv_head = lv_head->next;
+		}
+		if (lv_head == nullptr) break;
+		lv_head = lv_head->child;
+		cur = lv_head;
 	}
 
-	vector<vector<string>> val(id_node.size(), vector<string>(2));
-	for (size_t i = 0; i < val.size(); i++)
+	while (val.back() == "null")
 	{
-		val[i][0] = to_string(id_node[i]->val);
-		val[i][1] = (id_node[i]->random == nullptr) ? "null" : to_string(node_id[id_node[i]->random]);
+		val.pop_back();
 	}
+	val.push_back("null");
 
-	string ret = VectorVectorStringToString(val, false);
+	string ret = VectorStringToString(val, false);
 	return ret;
 }
 #endif
