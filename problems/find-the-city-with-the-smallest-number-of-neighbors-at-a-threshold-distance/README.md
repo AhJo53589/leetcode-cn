@@ -1,4 +1,4 @@
-# `（中等）` [5321.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
+# `（中等）` [1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance 阈值距离内邻居最少的城市](https://leetcode-cn.com/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-173/problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/)
 

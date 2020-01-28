@@ -1,4 +1,4 @@
-# `（简单）` [5155.rank-transform-of-an-array 将数组进行序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/)
+# `（简单）` [1331.rank-transform-of-an-array 将数组进行序号转换](https://leetcode-cn.com/problems/rank-transform-of-an-array/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-18/problems/rank-transform-of-an-array/)
 

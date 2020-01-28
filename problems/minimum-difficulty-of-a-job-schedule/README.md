@@ -1,4 +1,4 @@
-# `（困难）` [5322.minimum-difficulty-of-a-job-schedule 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
+# `（困难）` [1335.minimum-difficulty-of-a-job-schedule 工作计划的最低难度](https://leetcode-cn.com/problems/minimum-difficulty-of-a-job-schedule/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-173/problems/minimum-difficulty-of-a-job-schedule/)
 

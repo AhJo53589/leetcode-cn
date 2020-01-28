@@ -5,24 +5,24 @@
 
 ---
 ## 20200126
-* 5322.minimum-difficulty-of-a-job-schedule 工作计划的最低难度
+* 1335.minimum-difficulty-of-a-job-schedule 工作计划的最低难度
 
-* 5319.remove-palindromic-subsequences 删除回文子序列
+* 1332.remove-palindromic-subsequences 删除回文子序列
 
-* 5320.filter-restaurants-by-vegan-friendly-price-and-distance 餐厅过滤器
+* 1333.filter-restaurants-by-vegan-friendly-price-and-distance 餐厅过滤器
 
-* 5321.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance 阈值距离内邻居最少的城市
+* 1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance 阈值距离内邻居最少的城市
 
 
 ---
 ## 20200125
-* 5155.rank-transform-of-an-array 将数组进行序号转换
+* 1331.rank-transform-of-an-array 将数组进行序号转换
 
-* 5151.break-a-palindrome 破坏回文串
+* 1328.break-a-palindrome 破坏回文串
 
-* 5152.sort-the-matrix-diagonally 将矩阵按对角线排序
+* 1329.sort-the-matrix-diagonally 将矩阵按对角线排序
 
-* 5154.reverse-subarray-to-maximize-array-value 翻转子数组得到最大的数组值
+* 1330.reverse-subarray-to-maximize-array-value 翻转子数组得到最大的数组值
 
 
 ---

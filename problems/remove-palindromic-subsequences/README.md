@@ -1,4 +1,4 @@
-# `（简单）` [5319.remove-palindromic-subsequences 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
+# `（简单）` [1332.remove-palindromic-subsequences 删除回文子序列](https://leetcode-cn.com/problems/remove-palindromic-subsequences/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-173/problems/remove-palindromic-subsequences/)
 

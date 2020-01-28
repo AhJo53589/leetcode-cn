@@ -1,4 +1,4 @@
-# `（中等）` [5152.sort-the-matrix-diagonally 将矩阵按对角线排序](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
+# `（中等）` [1329.sort-the-matrix-diagonally 将矩阵按对角线排序](https://leetcode-cn.com/problems/sort-the-matrix-diagonally/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-18/problems/sort-the-matrix-diagonally/)
 

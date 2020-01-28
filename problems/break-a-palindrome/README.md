@@ -1,4 +1,4 @@
-# `（中等）` [5151.break-a-palindrome 破坏回文串](https://leetcode-cn.com/problems/break-a-palindrome/)
+# `（中等）` [1328.break-a-palindrome 破坏回文串](https://leetcode-cn.com/problems/break-a-palindrome/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-18/problems/break-a-palindrome/)
 

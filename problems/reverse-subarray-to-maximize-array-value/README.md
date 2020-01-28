@@ -1,4 +1,4 @@
-# `（困难）` [5154.reverse-subarray-to-maximize-array-value 翻转子数组得到最大的数组值](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/)
+# `（困难）` [1330.reverse-subarray-to-maximize-array-value 翻转子数组得到最大的数组值](https://leetcode-cn.com/problems/reverse-subarray-to-maximize-array-value/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-18/problems/reverse-subarray-to-maximize-array-value/)
 
