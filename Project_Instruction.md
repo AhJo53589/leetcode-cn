@@ -282,12 +282,9 @@
 
 ## 特殊处理的题目
 
-[116.populating-next-right-pointers-in-each-node](./problems/populating-next-right-pointers-in-each-node)
-
-[117.populating-next-right-pointers-in-each-node-ii](./problems/populating-next-right-pointers-in-each-node-ii)
-
-133
-
-138
-
-430
+1. Node.cpp
+   1. 116
+   2. 117
+   3. 133
+   4. 138
+   5. 430
