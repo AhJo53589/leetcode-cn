@@ -43,7 +43,7 @@
 
 ## Contest
 | 日期       | 名称                                                      | 完成  | 排名       |
-| ---------- | -------------------------------------------------------- | ----- | ---------- |
+| ---------- | --------------------------------------------------------- | ----- | ---------- |
 | 2019/9/29  | [第 156 场周赛](./contest/weekly-contest-156/README.md)   | 3 / 4 | 192 / 1432 |
 | 2019/10/6  | [第 157 场周赛](./contest/weekly-contest-157/README.md)   |       |            |
 | 2019/10/13 | [第 158 场周赛](./contest/weekly-contest-158/README.md)   | 2 / 4 | 633 / 1715 |
@@ -68,7 +68,7 @@
 | 2020/1/11  | [第 17 场双周赛](./contest/biweekly-contest-17/README.md) | 4 / 4 | 196 / 897  |
 | 2020/1/12  | [第 171 场周赛](./contest/weekly-contest-171/README.md)   | 2 / 4 | 607 / 1707 |
 | 2020/1/19  | [第 172 场周赛](./contest/weekly-contest-172/README.md)   | 4 / 4 | 107 / 1414 |
-| 2020/1/25  | [第 18 场双周赛](./contest/biweekly-contest-18/README.md) | 3 / 4 | 129 / 587  |
+| 2020/1/25  | [第 18 场双周赛](./contest/biweekly-contest-18/README.md) | 3 / 4 | 123 / 587  |
 | 2020/1/26  | [第 173 场周赛](./contest/weekly-contest-173/README.md)   | 2 / 4 | 229 / 1071 |
 
 ## Update
