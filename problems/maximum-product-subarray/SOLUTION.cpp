@@ -1,6 +1,6 @@
 
 //////////////////////////////////////////////////////////////////////////
-//int ans(vector<int>& nums) {
+//int maxProduct(vector<int>& nums) {
 //	int res = nums[0], n = nums.size();
 //	vector<int> f(n, 0), g(n, 0);
 //	f[0] = nums[0];
@@ -15,7 +15,7 @@
 //}
 
 //////////////////////////////////////////////////////////////////////////
-//int ans(vector<int>& nums)
+//int maxProduct(vector<int>& nums)
 //{
 //	if (nums.empty()) return 0;
 //
