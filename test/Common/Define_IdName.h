@@ -16,6 +16,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_7 	reverse-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_8 	string-to-integer-atoi
 #define SOLUTION_CPP_FOLDER_NAME_ID_9 	palindrome-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_10 	regular-expression-matching
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
@@ -42,6 +43,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_41 	first-missing-positive
 #define SOLUTION_CPP_FOLDER_NAME_ID_42 	trapping-rain-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_43 	multiply-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_44 	wildcard-matching
 #define SOLUTION_CPP_FOLDER_NAME_ID_45 	jump-game-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_46 	permutations
 #define SOLUTION_CPP_FOLDER_NAME_ID_48 	rotate-image
