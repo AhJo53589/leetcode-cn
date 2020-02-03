@@ -1,27 +1,16 @@
 
+
+
 //////////////////////////////////////////////////////////////////////////
-int maxProduct(vector<int>& nums)
+int maxProfit(vector<int>& prices) 
 {
-	int ans = INT_MIN;
-	int maxP = 1;
-	int minP = 1;
-	for (size_t i = 0; i < nums.size(); i++)
-	{
-		if (nums[i] < 0)
-		{
-			swap(maxP, minP);
-		}
-		maxP = max(maxP * nums[i], nums[i]);
-		minP = min(minP * nums[i], nums[i]);
-		ans = max(ans, maxP);
-	}
-	return ans;
+
 }
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<int>& nums)
+int _solution_run(vector<int>& prices)
 {
-	return maxProduct(nums);
+	return maxProfit(prices);
 }
 
 //#define USE_SOLUTION_CUSTOM
@@ -38,6 +27,6 @@ vector<string> _get_test_cases_string()
 #define USE_GET_TEST_CASES_FILESTREAM
 string _get_test_cases_filestream()
 {
-	return "../../problems/maximum-product-subarray/tests.txt";
+	return "../../problems/_test_0/tests.txt";
 }
 
