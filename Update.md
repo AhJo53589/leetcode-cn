@@ -13,13 +13,11 @@
 
 * 1341.the-k-weakest-rows-in-a-matrix 方阵中战斗力最弱的 K 行
 
-
 ---
 ## 20200201
 * 44.wildcard-matching 通配符匹配
 
 * 10.regular-expression-matching 正则表达式匹配
-
 
 ---
 ## 20200126
@@ -31,7 +29,6 @@
 
 * 1334.find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance 阈值距离内邻居最少的城市
 
-
 ---
 ## 20200125
 * 1331.rank-transform-of-an-array 将数组进行序号转换
@@ -42,7 +39,6 @@
 
 * 1330.reverse-subarray-to-maximize-array-value 翻转子数组得到最大的数组值
 
-
 ---
 ## 20200119
 * 1323.maximum-69-number 6 和 9 组成的最大数字
@@ -52,7 +48,6 @@
 * 1325.delete-leaves-with-a-given-value 删除给定值的叶子节点
 
 * 1326.minimum-number-of-taps-to-open-to-water-a-garden 灌溉花园的最少水龙头数目
-
 
 ---
 ## 20200118
@@ -71,7 +66,6 @@
 * 100269.werewolves-of-leetcode 狼人杀模拟器
 
 * 100265.qqqqqqqqqqqqqqqys-warm-up-question qqqqqqqqqqqqqqqy 的热身题
-
 
 ---
 ## 20200116
@@ -979,8 +973,6 @@
 ## 20190513
 * 104.MaxDepth 二叉树的最大深度
 
-
-
 ---
 ## 20190511
 * 28.StrStr 实现strStr() 
@@ -1005,8 +997,6 @@
 ## 20190503
 * 7.Reverse 整数反转  
 
-
-
 ---
 ## 20190429
 * 141.linked-list-cycle 环形链表
@@ -1026,8 +1016,6 @@
 * 237.DeleteNode 删除链表中的节点  
 
 * 344.ReverseString 反转字符串  
-
-
 
 ---
 ## 20190425

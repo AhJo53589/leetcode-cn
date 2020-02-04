@@ -10,7 +10,11 @@ using namespace std;
 class PerformanceTimer
 {
 public:
-	PerformanceTimer() { QueryPerformanceFrequency(&nFreq); }
+	PerformanceTimer() 
+	{
+		QueryPerformanceFrequency(&nFreq); 
+	}
+
 	void start()
 	{
 		std::cout << std::endl << "/////////////////////////////" << std::endl;

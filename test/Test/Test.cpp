@@ -36,32 +36,44 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 // 选择测试代码
+#define USE_DEFAULT_INCLUDE
 
-// 1.选择使用（本路径的测试代码）
-//#include "SOLUTION.cpp"
+#ifdef USE_DEFAULT_INCLUDE
 
-// 2.或者选择使用（题库中的题，根据编号加载，使用Define_IdName.h中定义的宏）
-// SOLUTION_CPP_FOLDER_NAME_ID_1 ==> 最后的数值是题目编号
-#define ADD_QUOTES(A) #A
-#define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
-#define SOLUTION_CPP_PATH_NAME(name) SOLUTION_CPP_PATH(name)
-#include SOLUTION_CPP_PATH_NAME(SOLUTION_CPP_FOLDER_NAME_ID_93)
+// 1. 选择使用 #题库中的题，根据编号加载，使用 Define_IdName.h 中定义的宏#
+// example: 
+// SOLUTION_CPP_FOLDER_NAME_ID_1 ==> SOLUTION_CPP_FOLDER_NAME_ID_2
+#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_1
 
-// 3.或者选择使用（题库中的题，根据名字加载）
-// SOLUTION_CPP_PATH(two-sum) ==> 最后的参数是题目名字
-//#define ADD_QUOTES(A) #A
-//#define SOLUTION_CPP_PATH(name) ADD_QUOTES(../../problems/##name/SOLUTION.cpp)
-//#include SOLUTION_CPP_PATH(two-sum)
+#define ADD_QUOTES(A)					#A
+#define SOLUTION_CPP_PATH(_name)		ADD_QUOTES(../../problems/##_name/SOLUTION.cpp)
+#define SOLUTION_CPP_ID_TO_PATH(_name)	SOLUTION_CPP_PATH(_name)
+#define SOLUTION_CPP_FULL_PATH			SOLUTION_CPP_ID_TO_PATH(SOLUTION_ID)
+#include SOLUTION_CPP_FULL_PATH
+
+#else
+
+// 2. 或者选择使用 #指定路径的测试代码#
+#define SOLUTION_CPP_FULL_PATH			"../../problems_test/0/SOLUTION.cpp"
+#include SOLUTION_CPP_FULL_PATH
+
+#endif
+
+
 
 //////////////////////////////////////////////////////////////////////////
 int main()
 {
 	PerformanceTimer timer;
-#ifdef USE_GET_TEST_CASES_FILESTREAM
-	ifstream f(_get_test_cases_filestream());
-	TestCases test_cases(f);
-#else
+#ifdef USE_GET_TEST_CASES_IN_CPP
 	TestCases test_cases(_get_test_cases_string());
+#else
+	string strSolution = "SOLUTION.cpp";
+	string strTest = "tests.txt";
+	string file = SOLUTION_CPP_FULL_PATH;
+	file.replace(file.find(strSolution), strSolution.size(), strTest);
+	ifstream f(file);
+	TestCases test_cases(f);
 #endif // USE_GET_TEST_CASES
 
 	while (!test_cases.empty())
