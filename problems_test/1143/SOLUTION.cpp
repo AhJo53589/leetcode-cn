@@ -1,7 +1,4 @@
 
-
-
-//////////////////////////////////////////////////////////////////////////
 int helper(string& text1, string& text2, int i, int j, vector<vector<int>>& dp)
 {
 	if (i == text1.size() || j == text2.size()) return 0;
@@ -19,6 +16,7 @@ int helper(string& text1, string& text2, int i, int j, vector<vector<int>>& dp)
 	return dp[i][j];
 }
 
+//////////////////////////////////////////////////////////////////////////
 int longestCommonSubsequence(string text1, string text2)
 {
 	vector<vector<int>> dp(text1.size() + 1, vector<int>(text2.size() + 1, -1));
@@ -28,9 +26,6 @@ int longestCommonSubsequence(string text1, string text2)
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(string text1, string text2)
 {
-	static int caseCnt = 0;
-	int caseNo = -1;
-	if (caseNo != -1 && caseCnt++ != caseNo) return {};
 	return longestCommonSubsequence(text1,text2);
 }
 
@@ -40,8 +35,14 @@ int _solution_run(string text1, string text2)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-//#define USE_GET_TEST_CASES_IN_CPP
-//vector<string> _get_test_cases_string()
-//{
-//	return {};
-//}
+vector<string> _get_test_cases_string()
+{
+	return {};
+}
+
+#define USE_GET_TEST_CASES_FILESTREAM
+string _get_test_cases_filestream()
+{
+	return "../../problems/1143/tests.txt";
+}
+

@@ -28,9 +28,10 @@ int longestCommonSubsequence(string text1, string text2)
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(string text1, string text2)
 {
-	static int caseCnt = 0;
 	int caseNo = -1;
+	static int caseCnt = 0;
 	if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
 	return longestCommonSubsequence(text1,text2);
 }
 
