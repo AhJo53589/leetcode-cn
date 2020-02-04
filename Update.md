@@ -5,13 +5,13 @@
 
 ---
 ## 20200202
-* 5330.maximum-product-of-splitted-binary-tree 分裂二叉树的最大乘积
+* 1343.maximum-product-of-splitted-binary-tree 分裂二叉树的最大乘积
 
-* 5331.jump-game-v 跳跃游戏 V
+* 1344.jump-game-v 跳跃游戏 V
 
-* 5329.reduce-array-size-to-the-half 数组大小减半
+* 1342.reduce-array-size-to-the-half 数组大小减半
 
-* 5328.the-k-weakest-rows-in-a-matrix 方阵中战斗力最弱的 K 行
+* 1341.the-k-weakest-rows-in-a-matrix 方阵中战斗力最弱的 K 行
 
 
 ---

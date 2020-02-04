@@ -1,4 +1,4 @@
-# `（中等）` [5330.maximum-product-of-splitted-binary-tree 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/)
+# `（中等）` [1343.maximum-product-of-splitted-binary-tree 分裂二叉树的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-splitted-binary-tree/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-174/problems/maximum-product-of-splitted-binary-tree/)
 

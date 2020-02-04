@@ -1,4 +1,4 @@
-# `（中等）` [5329.reduce-array-size-to-the-half 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/)
+# `（中等）` [1342.reduce-array-size-to-the-half 数组大小减半](https://leetcode-cn.com/problems/reduce-array-size-to-the-half/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-174/problems/reduce-array-size-to-the-half/)
 

@@ -33,25 +33,23 @@
 //////////////////////////////////////////////////////////////////////////
 void maxJumps(vector<int>& arr, int d, int cur, vector<int>& steps, int& ans)
 {
+	if (steps[cur] != -1) return;
+
 	int l = max(0, cur - d);
-	int r = min(arr.size() - 1, cur + d);
+	int r = min((int)arr.size() - 1, cur + d);
 
 	int step = 0;
 	for (int dirction = -1; dirction <= 1; dirction += 2)
 	{
-		int h = arr[cur];
-		for (int i = cur; i <= r && i >= l; i += dirction)
+		for (int i = cur + dirction; i <= r && i >= l; i += dirction)
 		{
-			if (i == cur) continue;
-			if (h <= arr[i]) break;
+			if (arr[cur] <= arr[i]) break;
 
-			if (steps[i] == -1)
-			{
-				maxJumps(arr, d, i, steps, ans);
-			}
+			maxJumps(arr, d, i, steps, ans);
 			step = max(step, steps[i]);
 		}
 	}
+
 	steps[cur] = step + 1;
 	ans = max(ans, steps[cur]);
 }

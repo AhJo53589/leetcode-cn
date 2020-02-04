@@ -1,4 +1,4 @@
-# `（简单）` [5328.the-k-weakest-rows-in-a-matrix 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)
+# `（简单）` [1341.the-k-weakest-rows-in-a-matrix 方阵中战斗力最弱的 K 行](https://leetcode-cn.com/problems/the-k-weakest-rows-in-a-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-174/problems/the-k-weakest-rows-in-a-matrix/)
 

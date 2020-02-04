@@ -378,10 +378,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1333 	filter-restaurants-by-vegan-friendly-price-and-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_1334 	find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_1335 	minimum-difficulty-of-a-job-schedule
-#define SOLUTION_CPP_FOLDER_NAME_ID_5328 	the-k-weakest-rows-in-a-matrix
-#define SOLUTION_CPP_FOLDER_NAME_ID_5329 	reduce-array-size-to-the-half
-#define SOLUTION_CPP_FOLDER_NAME_ID_5330 	maximum-product-of-splitted-binary-tree
-#define SOLUTION_CPP_FOLDER_NAME_ID_5331 	jump-game-v
+#define SOLUTION_CPP_FOLDER_NAME_ID_1341 	the-k-weakest-rows-in-a-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_1342 	reduce-array-size-to-the-half
+#define SOLUTION_CPP_FOLDER_NAME_ID_1343 	maximum-product-of-splitted-binary-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_1344 	jump-game-v
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
