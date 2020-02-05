@@ -4,9 +4,6 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_3 	programmable-robot
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_4 	broken-board-dominoes
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus
-#define SOLUTION_CPP_FOLDER_NAME_ID_TEST_0	_test_0
-#define SOLUTION_CPP_FOLDER_NAME_ID_TEST_1	_test_1
-#define SOLUTION_CPP_FOLDER_NAME_ID_TEST_2	_test_2
 #define SOLUTION_CPP_FOLDER_NAME_ID_1 	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters

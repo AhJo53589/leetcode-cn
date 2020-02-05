@@ -5,7 +5,8 @@
 ## All
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
-| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |  | 简单 |
+| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |   | 简单 | 
+| √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |   | 简单 | 
 | √ | 2 | [add-two-numbers](../../problems/add-two-numbers) | [两数相加](../../problems/add-two-numbers/README.md) | [cpp](../../problems/add-two-numbers/SOLUTION.cpp) |   | 中等 |
 | √ | 3 | [longest-substring-without-repeating-characters](../../problems/longest-substring-without-repeating-characters) | [无重复字符的最长子串](../../problems/longest-substring-without-repeating-characters/README.md) | [cpp](../../problems/longest-substring-without-repeating-characters/SOLUTION.cpp) |   | 中等 |
 | √ | 4 | [median-of-two-sorted-arrays](../../problems/median-of-two-sorted-arrays) | [寻找两个有序数组的中位数](../../problems/median-of-two-sorted-arrays/README.md) | [cpp](../../problems/median-of-two-sorted-arrays/SOLUTION.cpp) |   | 困难 |
@@ -377,10 +378,10 @@
 | √ | 1333 | [filter-restaurants-by-vegan-friendly-price-and-distance](../../problems/filter-restaurants-by-vegan-friendly-price-and-distance) | [餐厅过滤器](../../problems/filter-restaurants-by-vegan-friendly-price-and-distance/README.md) | [cpp](../../problems/filter-restaurants-by-vegan-friendly-price-and-distance/SOLUTION.cpp) |   | 中等 |
 |   | 1334 | [find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](../../problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) | [阈值距离内邻居最少的城市](../../problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/README.md) | [cpp](../../problems/find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance/SOLUTION.cpp) |   | 中等 |
 | √ | 1335 | [minimum-difficulty-of-a-job-schedule](../../problems/minimum-difficulty-of-a-job-schedule) | [工作计划的最低难度](../../problems/minimum-difficulty-of-a-job-schedule/README.md) | [cpp](../../problems/minimum-difficulty-of-a-job-schedule/SOLUTION.cpp) |   | 困难 |
-| √ | 1341 | [the-k-weakest-rows-in-a-matrix](../../problems/the-k-weakest-rows-in-a-matrix) | [方阵中战斗力最弱的 K 行](../../problems/the-k-weakest-rows-in-a-matrix/README.md) | [cpp](../../problems/the-k-weakest-rows-in-a-matrix/SOLUTION.cpp) |   | 简单 | 
-| √ | 1342 | [reduce-array-size-to-the-half](../../problems/reduce-array-size-to-the-half) | [数组大小减半](../../problems/reduce-array-size-to-the-half/README.md) | [cpp](../../problems/reduce-array-size-to-the-half/SOLUTION.cpp) |   | 中等 | 
-| √ | 1343 | [maximum-product-of-splitted-binary-tree](../../problems/maximum-product-of-splitted-binary-tree) | [分裂二叉树的最大乘积](../../problems/maximum-product-of-splitted-binary-tree/README.md) | [cpp](../../problems/maximum-product-of-splitted-binary-tree/SOLUTION.cpp) |   | 中等 | 
-| √ | 1344 | [jump-game-v](../../problems/jump-game-v) | [跳跃游戏 V](../../problems/jump-game-v/README.md) | [cpp](../../problems/jump-game-v/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-v/solution/5331-by-ikaruga/)  | 困难 | 
+| √ | 1341 | [the-k-weakest-rows-in-a-matrix](../../problems/the-k-weakest-rows-in-a-matrix) | [方阵中战斗力最弱的 K 行](../../problems/the-k-weakest-rows-in-a-matrix/README.md) | [cpp](../../problems/the-k-weakest-rows-in-a-matrix/SOLUTION.cpp) |   | 简单 |
+| √ | 1342 | [reduce-array-size-to-the-half](../../problems/reduce-array-size-to-the-half) | [数组大小减半](../../problems/reduce-array-size-to-the-half/README.md) | [cpp](../../problems/reduce-array-size-to-the-half/SOLUTION.cpp) |   | 中等 |
+| √ | 1343 | [maximum-product-of-splitted-binary-tree](../../problems/maximum-product-of-splitted-binary-tree) | [分裂二叉树的最大乘积](../../problems/maximum-product-of-splitted-binary-tree/README.md) | [cpp](../../problems/maximum-product-of-splitted-binary-tree/SOLUTION.cpp) |   | 中等 |
+| √ | 1344 | [jump-game-v](../../problems/jump-game-v) | [跳跃游戏 V](../../problems/jump-game-v/README.md) | [cpp](../../problems/jump-game-v/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-v/solution/5331-by-ikaruga/)  | 困难 |
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
