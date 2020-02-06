@@ -2,7 +2,7 @@
 
 ## Project Instruction
 
-* 本解决方案为 [leetcode-cn](https://leetcode-cn.com/) 的做题助手
+* 本解决方案是 [leetcode-cn](https://leetcode-cn.com/) 的 `C++` 做题助手
 * 可以方便迅速的将其中的题目和测试用例转移到本地 Visual Studio 工程中编码和调试
   * 绝大部分题目，仅需拷贝入口函数，通过工具生成代码，即可本地运行
   * 包含常用的数据结构，以及相应的序列化反序列化功能
