@@ -20,22 +20,19 @@
     * `problems/two-sum/README.md` 题目答题，使用**工具生成**
     * `problems/two-sum/SOLUTION.cpp` 题目代码，使用**工具生成** 
     * `problems/two-sum/tests.txt` 题目用例，使用**工具生成**
-
 * `problemset` 题目索引文件夹，用来保存 id 和 title
   * `problemset/all/README.md` 全部题目的列表文件，使用**工具生成**
   * ~~`hot-100` 热题100 的索引，各种类型索引的一种（功能未完成）~~
     * ~~`problemset/hot-100/index.txt` 网站上索引的 id 数据，手动生成~~
     * ~~`problemset/hot-100/README.md` 列表文件，根据 index.txt 的数据，使用**工具生成**~~
-
 * `contest` 竞赛目录
   * `contest/weekly-contest-156`某个比赛
     * `contest/weekly-contest-156/README.md` 某个比赛的题目列表文件，使用**工具生成**
-
 * `test` 存放测试工程
   * `test/Common` 公共文件
     * `test/Common/Define_IdName.h` 定义 id 和 cpp 文件，id 和 tests.txt 的关系，使用**工具生成**
 * `test/Test` 测试工程，通过使用 `Define_IdName.h` 的宏定义，可以 include 不同的 cpp 和 tests.txt 来调试
-  
+* `Contest.md` 竞赛 markdown 文件，使用**工具生成**
 * `README.md` 主页面 markdown 文件，使用**工具生成**
 * `Solutions.md` 题解列表的 markdown 文件，包含所有发布过题解的题目，使用**工具生成**
 * `Thanks.md` 致谢的 markdown 文件，手动生成
