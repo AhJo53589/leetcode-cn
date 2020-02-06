@@ -2,49 +2,55 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-int calculate(string s)
-{
-	stack<int> nums;
-	stack<char> op;
-	int val = 0;
-
-	s.append("+");
-	for (auto c : s)
+class Solution {
+public:
+	int calculate(string s)
 	{
-		if (isspace(c)) continue;
-		if (isdigit(c))
+		stack<int> nums;
+		stack<char> op;
+
+		s.append("+");
+		int num = 0;
+		for (auto c : s)
 		{
-			val = val * 10 + (c - '0');
-			continue;
+			if (isspace(c)) continue;
+			if (isdigit(c))
+			{
+				num = num * 10 + c - '0';
+				continue;
+			}
+
+			if (!op.empty() && (op.top() == '*' || op.top() == '/'))
+			{
+				num = (op.top() == '*') ? nums.top() * num : nums.top() / num;
+				nums.pop();
+				op.pop();
+			}
+
+			if (op.empty() || c == '*' || c == '/')
+			{
+				nums.push(num);
+				op.push(c);
+			}
+			else
+			{
+				nums.top() += (op.top() == '+') ? num : -num;
+				op.top() = c;
+			}
+
+			num = 0;
 		}
 
-		if (!nums.empty() && !op.empty() && (op.top() == '*' || op.top() == '/'))
-		{
-			val = (op.top() == '*') ? nums.top() * val : nums.top() / val;
-			nums.pop();
-			op.pop();
-		}
-		if (nums.empty() || op.empty() || c == '*' || c == '/')
-		{
-			nums.push(val);
-			op.push(c);
-		}
-		else
-		{
-			nums.top() = (op.top() == '+') ? nums.top() + val : nums.top() - val;
-			op.top() = c;
-		}
-		val = 0;
+		return nums.top();
 	}
-
-	return nums.top();
-}
+};
 
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(string s)
 {
-	return calculate(s);
+	Solution sln;
+	return sln.calculate(s);
 }
 
 //#define USE_SOLUTION_CUSTOM
