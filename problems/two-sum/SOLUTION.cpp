@@ -1,49 +1,60 @@
 
 //////////////////////////////////////////////////////////////////////////
-//vector<int> twoSum(vector<int> &nums, int target)	// 4ms
+//class Solution 
 //{
-//	vector<int> v;
-//	unordered_map<int, int> hash;
-//	for (int i = nums.size() - 1; i >= 0; hash[nums[i]] = i, i--)
+//public:
+//	vector<int> twoSum(vector<int>& nums, int target)	// 4ms
 //	{
-//		if (hash.find(target - nums[i]) == hash.end())
-//			continue;
-//		v.push_back(i);
-//		v.push_back(hash[target - nums[i]]);
+//		vector<int> v;
+//		unordered_map<int, int> hash;
+//		for (int i = nums.size() - 1; i >= 0; hash[nums[i]] = i, i--)
+//		{
+//			if (hash.find(target - nums[i]) == hash.end())
+//				continue;
+//			v.push_back(i);
+//			v.push_back(hash[target - nums[i]]);
+//			return v;
+//		}
 //		return v;
 //	}
-//	return v;
-//}
+//};
+
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> twoSum(vector<int> &nums, int target)
+class Solution 
 {
-	map<int, int> sum;
-	vector<int> rst;
-	for (int i = 0; i < nums.size(); i++)
+public:
+	vector<int> twoSum(vector<int>& nums, int target)
 	{
-		if (sum.find(target - nums[i]) != sum.end())
+		map<int, int> sum;
+		vector<int> rst;
+		for (int i = 0; i < nums.size(); i++)
 		{
-			rst.push_back(sum[target - nums[i]]);
-			rst.push_back(i);
-			break;
+			if (sum.find(target - nums[i]) != sum.end())
+			{
+				rst.push_back(sum[target - nums[i]]);
+				rst.push_back(i);
+				break;
+			}
+			else
+			{
+				sum[nums[i]] = i;
+			}
 		}
-		else
-		{
-			sum[nums[i]] = i;
-		}
+		return rst;
 	}
-	return rst;
-}
+};
+
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<int> &nums, int target)
+vector<int> _solution_run(vector<int>& nums, int target)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-	return twoSum(nums,target);
+	Solution sln;
+	return sln.twoSum(nums, target);
 }
 
 //#define USE_SOLUTION_CUSTOM
