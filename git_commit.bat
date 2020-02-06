@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1.two-sum"
+git commit -m"update Project_Instruction"
 git push

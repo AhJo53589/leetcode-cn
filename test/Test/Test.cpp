@@ -35,7 +35,7 @@ using namespace std;
 
 
 //////////////////////////////////////////////////////////////////////////
-// 选择测试代码
+// 选择题目代码
 #define USE_DEFAULT_INCLUDE
 
 #ifdef USE_DEFAULT_INCLUDE
@@ -53,7 +53,7 @@ using namespace std;
 
 #else
 
-// 2. 或者选择使用 #指定路径的测试代码#
+// 2. 或者选择使用 #指定路径的题目代码#
 #define SOLUTION_CPP_FULL_PATH			"../../problems_test/1/SOLUTION.cpp"
 #include SOLUTION_CPP_FULL_PATH
 
