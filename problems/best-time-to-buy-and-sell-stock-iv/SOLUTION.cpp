@@ -37,11 +37,7 @@ public:
 
     int maxProfit(int k, vector<int>& prices) 
 	{
-		if (k > prices.size() / 2)
-		{
-			return maxProfit_k_inf(prices);
-		}
-		return maxProfit_k_any(k, prices);
+		return (k > prices.size() / 2) ? maxProfit_k_inf(prices) : maxProfit_k_any(k, prices);
     }
 };
 

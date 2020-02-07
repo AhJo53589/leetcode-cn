@@ -1,17 +1,21 @@
+
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int maxProfit(vector<int>& prices) 
+	int maxProfit(vector<int>& prices)
 	{
-		int ans = 0;
-		int minPrices = INT_MAX;
-		for (auto n : prices)
+		int dp_i_0 = 0;
+		int dp_i_1 = INT_MIN;
+		int dp_pre_0 = 0;	// ´ú±í dp[i-2][0]
+		for (size_t i = 0; i < prices.size(); i++)
 		{
-			minPrices = min(minPrices, n);
-			ans = max(ans, n - minPrices);
+			int temp = dp_i_0;
+			dp_i_0 = max(dp_i_0, dp_i_1 + prices[i]);
+			dp_i_1 = max(dp_i_1, dp_pre_0 - prices[i]);
+			dp_pre_0 = temp;
 		}
-		return ans;
-    }
+		return dp_i_0;
+	}
 };
 
 //////////////////////////////////////////////////////////////////////////

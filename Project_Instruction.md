@@ -96,13 +96,14 @@
    代码内有由工具生成转接代码
 
    ```C++
-   vector<int> _solution_run(vector<int> &nums, int target)
+   vector<int> _solution_run(vector<int>& nums, int target)
    {
       //int caseNo = -1;
       //static int caseCnt = 0;
       //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-      return twoSum(nums,target);
+      Solution sln;
+      return sln.twoSum(nums, target);
    }
 
    //#define USE_SOLUTION_CUSTOM

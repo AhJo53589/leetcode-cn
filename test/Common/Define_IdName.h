@@ -96,6 +96,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_120 	triangle
 #define SOLUTION_CPP_FOLDER_NAME_ID_121 	best-time-to-buy-and-sell-stock
 #define SOLUTION_CPP_FOLDER_NAME_ID_122 	best-time-to-buy-and-sell-stock-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_123 	best-time-to-buy-and-sell-stock-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_124 	binary-tree-maximum-path-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_125 	valid-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_127 	word-ladder
@@ -128,6 +129,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_172 	factorial-trailing-zeroes
 #define SOLUTION_CPP_FOLDER_NAME_ID_173 	binary-search-tree-iterator
 #define SOLUTION_CPP_FOLDER_NAME_ID_179 	largest-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_188 	best-time-to-buy-and-sell-stock-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_189 	rotate-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_189 	rotate-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_190 	reverse-bits
@@ -181,6 +183,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_301 	remove-invalid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_303 	range-sum-query-immutable
 #define SOLUTION_CPP_FOLDER_NAME_ID_304 	range-sum-query-2d-immutable
+#define SOLUTION_CPP_FOLDER_NAME_ID_309 	best-time-to-buy-and-sell-stock-with-cooldown
 #define SOLUTION_CPP_FOLDER_NAME_ID_315 	count-of-smaller-numbers-after-self
 #define SOLUTION_CPP_FOLDER_NAME_ID_322 	coin-change
 #define SOLUTION_CPP_FOLDER_NAME_ID_324 	wiggle-sort-ii
