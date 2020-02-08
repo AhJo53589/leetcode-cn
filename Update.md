@@ -4,6 +4,17 @@
 
 
 ---
+## 20200209
+* 5314.jump-game-iv 跳跃游戏 IV
+
+* 5313.angle-between-hands-of-a-clock 时钟指针的夹角
+
+* 5312.number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold 大小为 K 且平均值大于等于阈值的子数组数目
+
+* 5311.number-of-steps-to-reduce-a-number-to-zero 将数字变成 0 的操作次数
+
+
+---
 ## 20200207
 * 309.best-time-to-buy-and-sell-stock-with-cooldown 最佳买卖股票时机含冷冻期
 
