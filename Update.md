@@ -5,14 +5,15 @@
 
 ---
 ## 20200209
+* 5335.maximum-students-taking-exam 参加考试的最大学生数
+* 5334.tweet-counts-per-frequency 推文计数
+* 5333.minimum-number-of-steps-to-make-two-strings-anagram 制造字母异位词的最小步骤数
+* 5332.check-if-n-and-its-double-exist 检查整数及其两倍数是否存在
+
 * 5314.jump-game-iv 跳跃游戏 IV
-
 * 5313.angle-between-hands-of-a-clock 时钟指针的夹角
-
 * 5312.number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold 大小为 K 且平均值大于等于阈值的子数组数目
-
 * 5311.number-of-steps-to-reduce-a-number-to-zero 将数字变成 0 的操作次数
-
 
 ---
 ## 20200207

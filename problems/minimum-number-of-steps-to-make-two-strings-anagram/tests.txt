@@ -1,0 +1,15 @@
+"bab"
+"aba"
+1
+"leetcode"
+"practice"
+5
+"anagram"
+"mangaar"
+0
+"xxyyzz"
+"xxyyzz"
+0
+"friend"
+"family"
+4

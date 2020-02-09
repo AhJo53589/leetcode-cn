@@ -35,11 +35,12 @@
 | ☆ | 1307 | [verbal-arithmetic-puzzle](./problems/verbal-arithmetic-puzzle) | [口算难题](./problems/verbal-arithmetic-puzzle/README.md) | [cpp](./problems/verbal-arithmetic-puzzle/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/5298-by-ikaruga/) | 困难 |
 | ☆ | 1326 | [minimum-number-of-taps-to-open-to-water-a-garden](./problems/minimum-number-of-taps-to-open-to-water-a-garden) | [灌溉花园的最少水龙头数目](./problems/minimum-number-of-taps-to-open-to-water-a-garden/README.md) | [cpp](./problems/minimum-number-of-taps-to-open-to-water-a-garden/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/)  | 困难 |
 | √ | 5314 | [jump-game-iv](./problems/jump-game-iv) | [跳跃游戏 IV](./problems/jump-game-iv/README.md) | [cpp](./problems/jump-game-iv/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-iv/solution/5314-by-ikaruga/) | 困难 | 
+| √ | 5334 | [tweet-counts-per-frequency](./problems/tweet-counts-per-frequency) | [推文计数](./problems/tweet-counts-per-frequency/README.md) | [cpp](./problems/tweet-counts-per-frequency/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/tweet-counts-per-frequency/solution/5334-by-ikaruga/) | 中等 | 
 
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （389 / 1340）
+完成进度 （392 / 1340）
 [查看全部](./problemset/all/README.md)
 
 ## Season
