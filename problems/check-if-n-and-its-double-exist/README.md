@@ -1,4 +1,4 @@
-# `（简单）` [5332.check-if-n-and-its-double-exist 检查整数及其两倍数是否存在](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
+# `（简单）` [1346.check-if-n-and-its-double-exist 检查整数及其两倍数是否存在](https://leetcode-cn.com/problems/check-if-n-and-its-double-exist/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-175/problems/check-if-n-and-its-double-exist/)
 

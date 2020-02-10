@@ -1,62 +1,70 @@
 
+
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int maxStudents(vector<vector<char>>& seats) 
+	int getCount(int n)
 	{
-		vector<vector<int>> dd = { {0, -1}, {0, 1}, {-1, -1}, {-1, 1} };
-		int M = seats.size();
-		int N = seats[0].size();
-		vector<int> valid;
-		vector<vector<int>> op(M * N, vector<int>());
-		for (int i = 0; i < M; i++)
-		{
-			for (int j = 0; j < N; j++)
-			{
-				if (seats[i][j] == '#') continue;
-				valid.push_back(i * N + j);
-				for (auto d : dd)
-				{
-					int dx = i + d[0];
-					int dy = j + d[1];
-					if (dx < 0 || dx >= M) continue;
-					if (dy < 0 || dy >= N) continue;
-					if (seats[dx][dy] == '#') continue;
-					op[i * N + j].push_back(dx * N + dy);
-					op[dx * N + dy].push_back(i * N + j);
-				}
-			}
-		}
+		bitset<8> bs(n);
+		return bs.count();
+	}
 
-		int ans = 0;
-		for (int cur = 0; cur < (1 << valid.size()); cur++)
+	bool checkChair(vector<vector<char>>& seats, int row, int n)
+	{
+		bitset<8> bs(n);
+		for (int i = 0; i < seats[row].size(); i++)
 		{
-			int cnt = 0;
-			set<int> vi;
-			for (int i = 0; i < valid.size(); i++)
+			if (seats[row][i] == '#' && bs[i] == 1) return false;
+		}
+		return true;
+	}
+
+	bool checkValid(int n)
+	{
+		bitset<8> bs(n);
+		for (int i = 1; i < 8; i++)
+		{
+			if (bs[i] == 1 && bs[i - 1] == 1) return false;
+		}
+		return true;
+	}
+
+	int maxStudents(vector<vector<char>>& seats)
+	{
+		int ans = 0;
+		vector<vector<int>> dp(seats.size(), vector<int>(1 << seats[0].size(), 0));
+
+		for (int i = 0; i < seats.size(); i++)
+		{
+			for (int j = 0; j < (1 << seats[0].size()); j++)
 			{
-				if (((1 << i) & cur) == 0) continue;
-				if (vi.count(valid[i]) != 0)
+				if (!checkChair(seats, i, j)) continue;
+				if (!checkValid(j)) continue;
+				int cnt = getCount(j);
+				if (i == 0)
 				{
-					cnt = 0;
-					break;
+					dp[i][j] = cnt;
 				}
-				for (auto &p : op[valid[i]])
+				else
 				{
-					vi.insert(p);
+					for (int k = 0; k < (1 << seats[0].size()); k++)
+					{
+						if (!checkValid(j | k)) continue;
+						dp[i][j] = max(dp[i][j], dp[i - 1][k] + cnt);
+					}
 				}
-				cnt++;
+				ans = max(ans, dp[i][j]);
 			}
-			ans = max(ans, cnt);
 		}
 		return ans;
-    }
+	}
 };
+
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<vector<char>>& seats)
 {
-	//int caseNo = 3;
+	//int caseNo = 0;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 

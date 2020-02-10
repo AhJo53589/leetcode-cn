@@ -1,4 +1,4 @@
-# `（中等）` [5312.number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
+# `（中等）` [1343.number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold 大小为 K 且平均值大于等于阈值的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-19/problems/number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold/)
 

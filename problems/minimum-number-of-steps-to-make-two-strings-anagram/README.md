@@ -1,4 +1,4 @@
-# `（中等）` [5333.minimum-number-of-steps-to-make-two-strings-anagram 制造字母异位词的最小步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
+# `（中等）` [1347.minimum-number-of-steps-to-make-two-strings-anagram 制造字母异位词的最小步骤数](https://leetcode-cn.com/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-175/problems/minimum-number-of-steps-to-make-two-strings-anagram/)
 

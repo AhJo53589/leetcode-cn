@@ -1,4 +1,4 @@
-# `（中等）` [5313.angle-between-hands-of-a-clock 时钟指针的夹角](https://leetcode-cn.com/problems/angle-between-hands-of-a-clock/)
+# `（中等）` [1344.angle-between-hands-of-a-clock 时钟指针的夹角](https://leetcode-cn.com/problems/angle-between-hands-of-a-clock/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-19/problems/angle-between-hands-of-a-clock/)
 

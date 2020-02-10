@@ -1,4 +1,4 @@
-# `（中等）` [5334.tweet-counts-per-frequency 推文计数](https://leetcode-cn.com/problems/tweet-counts-per-frequency/)
+# `（中等）` [1348.tweet-counts-per-frequency 推文计数](https://leetcode-cn.com/problems/tweet-counts-per-frequency/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-175/problems/tweet-counts-per-frequency/)
 
