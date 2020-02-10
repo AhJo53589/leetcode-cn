@@ -5,6 +5,8 @@
 
 ---
 ## 20200210
+* 1143.longest-common-subsequence 最长公共子序列
+
 * 714.best-time-to-buy-and-sell-stock-with-transaction-fee 买卖股票的最佳时机含手续费
 
 
