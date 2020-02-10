@@ -385,7 +385,6 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1343 	maximum-product-of-splitted-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_1344 	jump-game-v
 #define SOLUTION_CPP_FOLDER_NAME_ID_1342 	number-of-steps-to-reduce-a-number-to-zero
-#define SOLUTION_CPP_FOLDER_NAME_ID_1342 	number-of-steps-to-reduce-a-number-to-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_1343 	number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold
 #define SOLUTION_CPP_FOLDER_NAME_ID_1344 	angle-between-hands-of-a-clock
 #define SOLUTION_CPP_FOLDER_NAME_ID_1345 	jump-game-iv
