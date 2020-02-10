@@ -256,6 +256,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_705 	design-hashset
 #define SOLUTION_CPP_FOLDER_NAME_ID_706 	design-hashmap
 #define SOLUTION_CPP_FOLDER_NAME_ID_707 	design-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_714 	best-time-to-buy-and-sell-stock-with-transaction-fee
 #define SOLUTION_CPP_FOLDER_NAME_ID_719 	find-k-th-smallest-pair-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_724 	find-pivot-index
 #define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill

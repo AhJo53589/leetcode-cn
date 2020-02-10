@@ -259,6 +259,7 @@
 | √ | 705 | [design-hashset](../../problems/design-hashset) | [设计哈希集合](../../problems/design-hashset/README.md) | [cpp](../../problems/design-hashset/SOLUTION.cpp) |   | 简单 |
 | √ | 706 | [design-hashmap](../../problems/design-hashmap) | [设计哈希映射](../../problems/design-hashmap/README.md) | [cpp](../../problems/design-hashmap/SOLUTION.cpp) |   | 简单 |
 | √ | 707 | [design-linked-list](../../problems/design-linked-list) | [设计链表](../../problems/design-linked-list/README.md) | [cpp](../../problems/design-linked-list/SOLUTION.cpp) |   | 简单 |
+| √ | 714 | [best-time-to-buy-and-sell-stock-with-transaction-fee](../../problems/best-time-to-buy-and-sell-stock-with-transaction-fee) | [买卖股票的最佳时机含手续费](../../problems/best-time-to-buy-and-sell-stock-with-transaction-fee/README.md) | [cpp](../../problems/best-time-to-buy-and-sell-stock-with-transaction-fee/SOLUTION.cpp) |   | 中等 | 
 | √ | 719 | [find-k-th-smallest-pair-distance](../../problems/find-k-th-smallest-pair-distance) | [找出第 k 小的距离对](../../problems/find-k-th-smallest-pair-distance/README.md) | [cpp](../../problems/find-k-th-smallest-pair-distance/SOLUTION.cpp) |   | 困难 |
 | √ | 724 | [find-pivot-index](../../problems/find-pivot-index) | [寻找数组的中心索引](../../problems/find-pivot-index/README.md) | [cpp](../../problems/find-pivot-index/SOLUTION.cpp) |   | 简单 |
 | √ | 733 | [flood-fill](../../problems/flood-fill) | [图像渲染](../../problems/flood-fill/README.md) | [cpp](../../problems/flood-fill/SOLUTION.cpp) |   | 简单 |
