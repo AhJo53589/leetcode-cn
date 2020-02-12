@@ -18,7 +18,8 @@
 #include "TreeNode.h"
 
 
-
+//////////////////////////////////////////////////////////////////////////
+// helper
 //////////////////////////////////////////////////////////////////////////
 void trimLeftTrailingSpaces(std::string &input);
 void trimRightTrailingSpaces(std::string &input);
@@ -59,6 +60,9 @@ out_type convert(const in_type& t)
 }
 
 //////////////////////////////////////////////////////////////////////////
+// std::string ==>
+
+// std::string to char
 template<>
 inline char convert(const std::string& input)
 {
@@ -80,6 +84,7 @@ inline char convert(const std::string& input)
 	return output[0];
 }
 
+// std::string to std::string
 template<>
 inline std::string convert(const std::string& input)
 {
@@ -93,10 +98,6 @@ inline std::string convert(const std::string& input)
 	}
 	return output;
 }
-
-
-//////////////////////////////////////////////////////////////////////////
-// std::string ==>
 
 // std::string to bool
 template<>
@@ -112,12 +113,6 @@ inline TreeNode* convert(const std::string& input)
 	return StringToTreeNode(input);
 }
 
-template<> 
-inline std::vector<TreeNode*> convert(const std::string& input)
-{
-	return stringToVectorT<TreeNode*>(input);
-}
-
 // std::string to ListNode*
 template<>
 inline ListNode* convert(const std::string & input)
@@ -125,24 +120,8 @@ inline ListNode* convert(const std::string & input)
 	return StringToListNode(input);
 }
 
-template<>
-inline std::vector<ListNode*> convert(const std::string& input)
-{
-	return stringToVectorT<ListNode*>(input);
-}
-
-// std::string to int
-template<>
-inline std::vector<int> convert(const std::string& input)
-{
-	return stringToVectorT<int>(input);
-}
-
-template<>
-inline std::vector<std::vector<int>> convert(const std::string& input)
-{
-	return stringToVectorT<std::vector<int>>(input);
-}
+//////////////////////////////////////////////////////////////////////////
+// std::string ==> vector
 
 // std::string to char
 template<>
@@ -170,22 +149,36 @@ inline std::vector<std::vector<std::string>> convert(const std::string& input)
 	return stringToVectorT<std::vector<std::string>>(input);
 }
 
+// std::string to int
+template<>
+inline std::vector<int> convert(const std::string& input)
+{
+	return stringToVectorT<int>(input);
+}
+
+template<>
+inline std::vector<std::vector<int>> convert(const std::string& input)
+{
+	return stringToVectorT<std::vector<int>>(input);
+}
+
+// std::string to TreeNode*
+template<>
+inline std::vector<TreeNode*> convert(const std::string& input)
+{
+	return stringToVectorT<TreeNode*>(input);
+}
+
+// std::string to ListNode*
+template<>
+inline std::vector<ListNode*> convert(const std::string& input)
+{
+	return stringToVectorT<ListNode*>(input);
+}
+
 
 //////////////////////////////////////////////////////////////////////////
-// ==> std::string 
-
-// int To std::string
-template<>
-inline std::string convert(const std::vector<int>& input)
-{
-	return vectorTToString(input);
-}
-
-template<>
-inline std::string convert(const std::vector<std::vector<int>>& input)
-{
-	return vectorTToString(input);
-}
+// vector ==> std::string 
 
 // char to std::string
 template<>
@@ -203,6 +196,19 @@ inline std::string convert(const std::vector<std::string>& input)
 
 template<>
 inline std::string convert(const std::vector< std::vector<std::string>>& input)
+{
+	return vectorTToString(input);
+}
+
+// int To std::string
+template<>
+inline std::string convert(const std::vector<int>& input)
+{
+	return vectorTToString(input);
+}
+
+template<>
+inline std::string convert(const std::vector<std::vector<int>>& input)
 {
 	return vectorTToString(input);
 }

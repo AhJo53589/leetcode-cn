@@ -29,7 +29,7 @@ public:
 	T get()
 	{
 		if (curr == file.size()) return {};
-		return convert<T>(popString());
+		return convert<T, std::string>(popString());
 	}
 
 	bool empty() { return curr == file.size(); }
