@@ -227,7 +227,7 @@ public:
 
 Node* StringToNode(const string data)
 {
-	vector<vector<int>> val = StringToVectorVectorInt(data);
+	vector<vector<int>> val = stringToVectorT<std::vector<int>>(data);
 	vector<Node*> nodes(val.size(), nullptr);
 	int v = 0;
 	for (auto& n : nodes)
@@ -277,7 +277,7 @@ string NodeToString(const Node* pHead)
 		val.push_back(temp);
 	}
 
-	string ret = VectorVectorIntToString(val);
+	string ret = vectorTToString(val);
 	return ret;
 }
 #endif
@@ -305,7 +305,7 @@ public:
 
 Node* StringToNode(const string data)
 {
-	vector<vector<string>> val = StringToVectorVectorString(data);
+	vector<vector<string>> val = stringToVectorT<std::vector<std::string>>(data);
 	vector<Node*> nodes(val.size(), nullptr);
 	for (auto& n : nodes)
 	{
@@ -340,7 +340,7 @@ string NodeToString(const Node* pHead)
 		val[i][1] = (id_node[i]->random == nullptr) ? "null" : to_string(node_id[id_node[i]->random]);
 	}
 
-	string ret = VectorVectorStringToString(val, false);
+	string ret = vectorTToString(val, false);
 	return ret;
 }
 #endif
@@ -370,7 +370,7 @@ public:
 
 Node* StringToNode(const string data)
 {
-	vector<string> vs = StringToVectorString(data);
+	vector<string> vs = stringToVectorT<std::string>(data);
 
 	vector<vector<Node*>> nodes;
 
@@ -460,7 +460,7 @@ string NodeToString(const Node* pHead)
 	}
 	val.push_back("null");
 
-	string ret = VectorStringToString(val, false);
+	string ret = vectorTToString(val, false);
 	return ret;
 }
 #endif

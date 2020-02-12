@@ -100,28 +100,28 @@ template<>
 inline string checkAnswer(const vector<int> a, const vector<int> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return "Result = \n" + VectorIntToString(a) + "\n" + VectorIntToString(b) + "\n" + check;
+	return "Result = \n" + vectorTToString(a) + "\n" + vectorTToString(b) + "\n" + check;
 }
 
 template<>
 inline string checkAnswer(const vector<vector<int>> a, const vector<vector<int>> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return "Result = \n" + VectorVectorIntToString(a) + "\n" + VectorVectorIntToString(b) + "\n" + check;
+	return "Result = \n" + vectorTToString(a) + "\n" + vectorTToString(b) + "\n" + check;
 }
 
 template<>
 inline string checkAnswer(const vector<char> a, const vector<char> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return "Result = \n" + VectorCharToString(a) + "\n" + VectorCharToString(b) + "\n" + check;
+	return "Result = \n" + vectorTToString(a) + "\n" + vectorTToString(b) + "\n" + check;
 }
 
 template<>
 inline string checkAnswer(const vector<vector<char>> a, const vector<vector<char>> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
-	return "Result = \n" + VectorVectorCharToString(a) + "\n" + VectorVectorCharToString(b) + "\n" + check;
+	return "Result = \n" + vectorTToString(a) + "\n" + vectorTToString(b) + "\n" + check;
 }
 
 template<>
@@ -129,9 +129,9 @@ inline string checkAnswer(const vector<string> a, const vector<string> b)
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	string res = "Result = \n";
-	res += VectorStringToString(a);
+	res += vectorTToString(a);
 	res += "\n";
-	res += VectorStringToString(b);
+	res += vectorTToString(b);
 	res += "\n";
 	res += "\t\t\t" + check;
 	return res;
@@ -142,9 +142,9 @@ inline string checkAnswer(const vector<vector<string>> a, const vector<vector<st
 {
 	string check = (a == b) ? "" : "\t\t\t WRONG!";
 	string res = "Result = \n";
-	res += VectorVectorStringToString(a);
+	res += vectorTToString(a);
 	res += "\n";
-	res += VectorVectorStringToString(b);
+	res += vectorTToString(b);
 	res += "\n";
 	res += "\t\t\t" + check;
 	return res;

@@ -50,7 +50,7 @@ ListNode* _solution_custom(TestCases &tc)
 	vector<ListNode*> vl;
 	for (auto s : vv)
 	{
-		string temp = VectorIntToString(s);
+		string temp = vectorTToString(s);
 		vl.push_back(StringToListNode(temp));
 	}
 	return mergeKLists(vl);

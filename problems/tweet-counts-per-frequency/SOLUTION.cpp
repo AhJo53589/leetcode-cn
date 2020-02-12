@@ -82,7 +82,7 @@ string _solution_custom(TestCases& tc)
 		else if (sf[i] == "getTweetCountsPerFrequency")
 		{
 			vector<int> r = obj->getTweetCountsPerFrequency(param[i][0], param[i][1], stoi(param[i][2]), stoi(param[i][3]));
-			ans += VectorIntToString(r);
+			ans += vectorTToString(r);
 		}
 		ans += ",";
 	}

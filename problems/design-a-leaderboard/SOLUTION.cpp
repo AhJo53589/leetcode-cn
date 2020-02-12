@@ -121,10 +121,10 @@ int _solution_run(vector<int>& arr)
 #define USE_SOLUTION_CUSTOM
 int _solution_custom(TestCases &tc)
 {
-	vector<vector<int>> _addScore = StringToVectorVectorInt("[[1,73],[2,56],[3,39],[4,51],[5,4]]");
+	vector<vector<int>> _addScore = stringToVectorT<std::vector<int>>("[[1,73],[2,56],[3,39],[4,51],[5,4]]");
 	vector<int> _top = { 1 };
 	vector<int> _reset = { 1,2 };
-	vector<vector<int>> _addScore2 = StringToVectorVectorInt("[[2,51]]");
+	vector<vector<int>> _addScore2 = stringToVectorT<std::vector<int>>("[[2,51]]");
 	vector<int> _top2 = { 3 };
 
 	Leaderboard* obj = new Leaderboard();

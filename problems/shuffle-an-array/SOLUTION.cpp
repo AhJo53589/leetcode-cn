@@ -61,12 +61,12 @@ string _solution_custom(TestCases &tc)
 		else if (sf[i] == "reset")
 		{
 			vector<int> r = obj->reset();
-			ans += VectorIntToString(r);
+			ans += vectorTToString(r);
 		}
 		else if (sf[i] == "shuffle")
 		{
 			vector<int> r = obj->shuffle();
-			ans += VectorIntToString(r);
+			ans += vectorTToString(r);
 		}
 		ans += ",";
 	}

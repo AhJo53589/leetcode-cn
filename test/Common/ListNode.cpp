@@ -135,13 +135,13 @@ string ListNodeToString(const ListNode * pHead)
 
 ListNode * StringToListNode(const string data)
 {
-	vector<int> val = StringToVectorInt(data);
+	vector<int> val = stringToVectorT<int>(data);
 	return StringToListNode(data, 0, val.size());
 }
 
 ListNode * StringToListNode(const string data, int iBeg, int iEnd)
 {
-	vector<int> val = StringToVectorInt(data);
+	vector<int> val = stringToVectorT<int>(data);
 
 	ListNode *pNode = nullptr;
 	for (int i = iEnd - 1; i >= iBeg; i--)
@@ -174,7 +174,7 @@ void StringIntToIntersectionNode(ListNode ** pHeadA, ListNode ** pHeadB, string 
 	*pHeadA = StringToListNode(strListA, 0, skipA);
 	*pHeadB = StringToListNode(strListB, 0, skipB);
 
-	vector<int> listA = StringToVectorInt(strListA);
+	vector<int> listA = stringToVectorT<int>(strListA);
 	ListNode *pNode = StringToListNode(strListA, skipA, listA.size());
 
 	ListNode *pTailA = *pHeadA;

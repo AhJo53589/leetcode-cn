@@ -57,15 +57,5 @@ vector<vector<int>> floodFill(vector<vector<int>>& image, int sr, int sc, int ne
 
 	return image;
 }
-
-```
-
-### 其它
-完成了4个工具方法，方便从leetcode中复制用例。  
-``` C++
-vector<int> StringToVectorInt(string str);
-string VectorIntToString(vector<int>& nums);
-vector<vector<int>> StringToVectorVectorInt(string str);
-string VectorVectorIntToString(vector<vector<int>>& matrix);
 ```
 
