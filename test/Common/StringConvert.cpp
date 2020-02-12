@@ -64,21 +64,8 @@ std::vector<std::string> split(std::string str, std::string pattern)
 
 std::vector<char> StringToVectorChar(std::string input)
 {
-	//std::vector<char> output;
-	//if (input.size() < 3) return output;
-	//input = input.substr(1, input.size() - 2);
-	//for (auto c : input)
-	//{
-	//	if (c == ' ') continue;
-	//	if (c == ',') continue;
-	//	if (c == '\"') continue;
-	//	if (c == '\'') continue;
-	//	output.push_back(c);
-	//}
-	//return output;
-
-	input.erase(std::remove(input.begin(), input.end(), '\''), input.end());
-	input.erase(std::remove(input.begin(), input.end(), '\"'), input.end());
+	//input.erase(std::remove(input.begin(), input.end(), '\''), input.end());
+	//input.erase(std::remove(input.begin(), input.end(), '\"'), input.end());
 	return stringToVectorT<char>(input);
 }
 
@@ -100,30 +87,6 @@ std::string VectorCharToString(const std::vector<char>& nums)
 
 std::vector<std::vector<char>> StringToVectorVectorChar(std::string input)
 {
-	//vector<vector<char>> output;
-	//if (input.size() < 3) return {};
-	//input = input.substr(1, input.size() - 2);
-
-	//string strSub;
-	//char last = ' ';
-	//for (auto c : input)
-	//{
-	//	if (last == ']')
-	//	{
-	//		last = ' ';
-	//		continue;
-	//	}
-	//	strSub += c;
-	//	last = c;
-	//	if (c == ']')
-	//	{
-	//		output.push_back(StringToVectorChar(strSub));
-	//		strSub.clear();
-	//	}
-	//}
-
-	//return output;
-
 	return stringToVectorT<std::vector<char>>(input);
 }
 
@@ -145,18 +108,6 @@ std::string VectorVectorCharToString(const std::vector<std::vector<char>>& matri
 
 std::vector<int> StringToVectorInt(std::string input)
 {
-	//std::vector<int> output;
-	//trimLeftTrailingSpaces(input);
-	//trimRightTrailingSpaces(input);
-	//input = input.substr(1, input.length() - 2);
-	//stringstream ss;
-	//ss.str(input);
-	//string item;
-	//char delim = ',';
-	//while (getline(ss, item, delim)) {
-	//	output.push_back(stoi(item));
-	//}
-	//return output;
 	return stringToVectorT<int>(input);
 }
 
@@ -178,29 +129,6 @@ std::string VectorIntToString(const std::vector<int>& nums)
 
 std::vector<std::vector<int>> StringToVectorVectorInt(std::string input)
 {
-	//vector<vector<int>> output;
-	//if (input.size() < 3) return output;
-	//input = input.substr(1, input.size() - 2);
-
-	//string strSub;
-	//char last = ' ';
-	//for (auto c : input)
-	//{
-	//	if (last == ']')
-	//	{
-	//		last = ' ';
-	//		continue;
-	//	}
-	//	strSub += c;
-	//	last = c;
-	//	if (c == ']')
-	//	{
-	//		output.push_back(StringToVectorInt(strSub));
-	//		strSub.clear();
-	//	}
-	//}
-	//return output;
-
 	return stringToVectorT<std::vector<int>>(input);
 }
 
@@ -222,20 +150,6 @@ std::string VectorVectorIntToString(const std::vector<std::vector<int>>& matrix)
 
 std::vector<std::string> StringToVectorString(std::string input)
 {
-	//vector<string> output;
-	//if (input.size() < 3) return output;
-	//input = input.substr(1, input.size() - 2);
-	//vector<string> vStr = split(input, ",");
-	//for (auto s : vStr)
-	//{
-	//	int i1 = s.find_first_of('"');
-	//	int i2 = s.find_last_of('"');
-	//	output.push_back(s.substr(i1 + 1, i2 - i1 - 1));
-	//}
-	//return output;
-
-	//input.erase(std::remove(input.begin(), input.end(), '\''), input.end());
-	//input.erase(std::remove(input.begin(), input.end(), '\"'), input.end());
 	return stringToVectorT<std::string>(input);
 }
 
@@ -257,23 +171,6 @@ std::string VectorStringToString(const std::vector<std::string>& strs, bool quot
 
 std::vector<std::vector<std::string>> StringToVectorVectorString(std::string input)
 {
-	//vector<vector<string>> output;
-	//if (input.size() < 3) return output;
-	//input = input.substr(1, input.size() - 2);
-	//
-	//vector<string> vs;
-	//size_t i = 0;
-	//for (size_t j = 0; j < input.size(); j++)
-	//{
-	//	if (input[j] == ']')
-	//	{
-	//		output.push_back(StringToVectorString(input.substr(i, j - i + 1)));
-	//		while (j + 1 != input.size() && input[j + 1] != '[') j++;
-	//		i = j + 1;
-	//	}
-	//}
-	//return output;
-
 	return stringToVectorT<std::vector<std::string>>(input);
 }
 
@@ -293,22 +190,6 @@ std::string VectorVectorStringToString(const std::vector<std::vector<std::string
 
 std::vector<TreeNode*> StringToVectorTreeNode(std::string input)
 {
-	//vector<TreeNode*> output;
-	//if (input.size() < 3) return output;
-	//input = input.substr(1, input.size() - 2);
-
-	//size_t i = 0;
-	//for (size_t j = 0; j < input.size(); j++)
-	//{
-	//	if (input[j] == ']')
-	//	{
-	//		output.push_back(StringToTreeNode(input.substr(i, j - i + 1)));
-	//		while (j + 1 != input.size() && input[j + 1] != '[') j++;
-	//		i = j + 1;
-	//	}
-	//}
-	//return output;
-
 	return stringToVectorT<TreeNode*>(input);
 }
 

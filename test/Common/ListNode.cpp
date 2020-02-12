@@ -15,7 +15,55 @@
 #include "ListNode.h"
 using namespace std;
 
+//////////////////////////////////////////////////////////////////////////
+// leetcode playground
+//////////////////////////////////////////////////////////////////////////
 
+//vector<int> stringToIntegerVector(string input) {
+//	vector<int> output;
+//	trimLeftTrailingSpaces(input);
+//	trimRightTrailingSpaces(input);
+//	input = input.substr(1, input.length() - 2);
+//	stringstream ss;
+//	ss.str(input);
+//	string item;
+//	char delim = ',';
+//	while (getline(ss, item, delim)) {
+//		output.push_back(stoi(item));
+//	}
+//	return output;
+//}
+//
+//ListNode* stringToListNode(string input) {
+//	// Generate list from the input
+//	vector<int> list = stringToIntegerVector(input);
+//
+//	// Now convert that list into linked list
+//	ListNode* dummyRoot = new ListNode(0);
+//	ListNode* ptr = dummyRoot;
+//	for (int item : list) {
+//		ptr->next = new ListNode(item);
+//		ptr = ptr->next;
+//	}
+//	ptr = dummyRoot->next;
+//	delete dummyRoot;
+//	return ptr;
+//}
+//
+//string listNodeToString(ListNode* node) {
+//	if (node == nullptr) {
+//		return "[]";
+//	}
+//
+//	string result;
+//	while (node) {
+//		result += to_string(node->val) + ", ";
+//		node = node->next;
+//	}
+//	return "[" + result.substr(0, result.length() - 2) + "]";
+//}
+
+//////////////////////////////////////////////////////////////////////////
 ListNode *FindNodeByVal(ListNode *pHead, int val)
 {
 	ListNode *pNode = pHead;

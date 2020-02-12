@@ -18,54 +18,57 @@
 using namespace std;
 
 
-//TreeNode * StringToTreeNode(string data)
-//{
-//	if (data.empty()) return nullptr;
-//	if (data[0] == '[') data = data.substr(1, data.size() - 2);
+//////////////////////////////////////////////////////////////////////////
+// leetcode playground
+//////////////////////////////////////////////////////////////////////////
+
+//TreeNode* stringToTreeNode(string input) {
+//	trimLeftTrailingSpaces(input);
+//	trimRightTrailingSpaces(input);
+//	input = input.substr(1, input.length() - 2);
+//	if (!input.size()) {
+//		return nullptr;
+//	}
 //
-//	stringstream ss(data);
-//	string word;
-//	char delim = ',';
-//	getline(ss, word, delim);
-//	if (word == "" || word == "null") return nullptr;
+//	string item;
+//	stringstream ss;
+//	ss.str(input);
 //
-//	TreeNode *root = new TreeNode(stoi(word.c_str()));
-//	queue<TreeNode *> qTree;
-//	qTree.push(root);
+//	getline(ss, item, ',');
+//	TreeNode* root = new TreeNode(stoi(item));
+//	queue<TreeNode*> nodeQueue;
+//	nodeQueue.push(root);
 //
-//	while (!qTree.empty())
-//	{
-//		TreeNode *qHead = nullptr;
-//		while (qHead == nullptr)
-//		{
-//			if (qTree.empty()) return root;
-//			qHead = qTree.front();
-//			qTree.pop();
+//	while (true) {
+//		TreeNode* node = nodeQueue.front();
+//		nodeQueue.pop();
+//
+//		if (!getline(ss, item, ',')) {
+//			break;
 //		}
 //
-//		auto f = [&qTree](string &s, TreeNode **p)
-//		{
-//			while (s.front() == ' ') s = s.substr(1, s.size() - 1);
-//			while (s.back() == ' ') s.pop_back();
-//			if (s == "null")
-//			{
-//				qTree.push(nullptr);
-//			}
-//			else
-//			{
-//				*p = new TreeNode(stoi(s.c_str()));
-//				qTree.push(*p);
-//			}
-//		};
+//		trimLeftTrailingSpaces(item);
+//		if (item != "null") {
+//			int leftNumber = stoi(item);
+//			node->left = new TreeNode(leftNumber);
+//			nodeQueue.push(node->left);
+//		}
 //
-//		if (!getline(ss, word, delim)) return root;
-//		f(word, &qHead->left);
+//		if (!getline(ss, item, ',')) {
+//			break;
+//		}
 //
-//		if (!getline(ss, word, delim)) return root;
-//		f(word, &qHead->right);
+//		trimLeftTrailingSpaces(item);
+//		if (item != "null") {
+//			int rightNumber = stoi(item);
+//			node->right = new TreeNode(rightNumber);
+//			nodeQueue.push(node->right);
+//		}
 //	}
+//	return root;
 //}
 
+//////////////////////////////////////////////////////////////////////////
 TreeNode * StringToTreeNode(string data)
 {
 	if (data.empty()) return nullptr;

@@ -2,21 +2,22 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int test(vector<TreeNode*>& a)
+	int test(vector<char>& a)
+	//int test(vector<string>& a)
 	{
 		return 0;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<TreeNode*>& a)
-//int _solution_run(vector<vector<TreeNode*>>& a)
+int _solution_run(vector<char>& a)
+//int _solution_run(vector<string>& a)
 {
 	//int caseNo = 5;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 	
-	//printVectorT(a);
+	printVectorT(a);
 	//for (auto& vt : a)
 	//{
 	//	for (auto& t : vt)
@@ -24,11 +25,11 @@ int _solution_run(vector<TreeNode*>& a)
 	//		cout << t << endl;
 	//	}
 	//}
-			
-	for (auto& t : a)
-	{
-		cout << t << endl;
-	}
+	//		
+	//for (auto& t : a)
+	//{
+	//	cout << t << endl;
+	//}
 
 	Solution sln;
 	return sln.test(a);

@@ -70,12 +70,14 @@ out_type convert(const in_type &t)
 	return result;
 }
 
+// To bool
 template<>
 inline bool convert(const std::string &s)
 {
 	return (s == "true" || s == "True" || s == "TRUE");
 }
 
+// To TreeNode*
 template<>
 inline TreeNode* convert(const std::string &s)
 {
@@ -88,6 +90,7 @@ inline std::vector<TreeNode*> convert(const std::string &s)
 	return StringToVectorTreeNode(s);
 }
 
+// To ListNode*
 template<>
 inline ListNode* convert(const std::string &s)
 {
@@ -100,6 +103,7 @@ inline std::vector<ListNode*> convert(const std::string& s)
 	return StringToVectorListNode(s);
 }
 
+// To int
 template<>
 inline std::vector<int> convert(const std::string &s)
 {
@@ -112,8 +116,30 @@ inline std::vector<std::vector<int>> convert(const std::string& s)
 	return StringToVectorVectorInt(s);
 }
 
+// To char
 template<>
-inline std::vector<char> convert(const std::string &s)
+inline char convert(const std::string& s)
+{
+	if (s.empty()) return {};
+	std::string output = s;
+	// Sample:
+	// "A" ==> A
+	if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
+	{
+		output = output.substr(1, output.size() - 2);
+	}
+	// Sample:
+	// 'A' ==> A
+	if (output.size() != 1 && output[0] == '\'' && output.back() == '\'')
+	{
+		output = output.substr(1, output.size() - 2);
+	}
+	if (output.empty()) return {};
+	return output[0];
+}
+
+template<>
+inline std::vector<char> convert(const std::string& s)
 {
 	return StringToVectorChar(s);
 }
@@ -124,15 +150,19 @@ inline std::vector<std::vector<char>> convert(const std::string &s)
 	return StringToVectorVectorChar(s);
 }
 
+// To std::string
 template<>
 inline std::string convert(const std::string& s)
 {
-	std::string ret = s;
-	if (ret[0] == '\"' && ret.back() == '\"')
+	if (s.empty()) return s;
+	std::string output = s;
+	// Sample:
+	// "ABC" ==> ABC
+	if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
 	{
-		ret = ret.substr(1, ret.size() - 2);
+		output = output.substr(1, output.size() - 2);
 	}
-	return ret;
+	return output;
 }
 
 template<>
@@ -158,19 +188,23 @@ template<typename T>
 std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = ']', char delim = ',')
 {
 	std::vector<T> output;
+
 	trimLeftTrailingSpaces(input);
 	trimRightTrailingSpaces(input);
 	std::vector<std::size_t> pos = stringGetSplitPos(input, begin, end, delim);
 	if (!pos.empty()) return {};
+
 	input = input.substr(1, input.size() - 2);
 	input += delim;
 	pos = stringGetSplitPos(input, begin, end, delim);
+
 	size_t cur = 0;
 	for (auto& i : pos)
 	{
 		output.push_back(convert<T>(input.substr(cur, i - cur)));
 		cur = i + 1;
 	}
+
 	return output;
 }
 //
