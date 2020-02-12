@@ -2,22 +2,24 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-	int test(vector<char>& a)
+	vector<vector<string>> test(vector<vector<string>>& a)
+	//vector<vector<char>> test(vector<vector<char>>& a)
 	//int test(vector<string>& a)
 	{
-		return 0;
+		return a;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<char>& a)
+vector<vector<string>> _solution_run(vector<vector<string>>& a)
+//vector<vector<char>> _solution_run(vector<vector<char>>& a)
 //int _solution_run(vector<string>& a)
 {
 	//int caseNo = 5;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 	
-	printVectorT(a);
+	printVectorVectorT(a);
 	//for (auto& vt : a)
 	//{
 	//	for (auto& t : vt)

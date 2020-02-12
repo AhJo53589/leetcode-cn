@@ -26,13 +26,13 @@ void trimRightTrailingSpaces(std::string& input)
 		}).base(), input.end());
 }
 
-std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin, char end, char delim)
+std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin, char end, char pattern)
 {
 	std::vector<std::size_t> output;
 	int st = 0;
 	for (size_t i = 0; i < input.size(); i++)
 	{
-		if (input[i] == delim && st == 0)
+		if (input[i] == pattern && st == 0)
 		{
 			output.push_back(i);
 			continue;
@@ -71,18 +71,7 @@ std::vector<char> StringToVectorChar(std::string input)
 
 std::string VectorCharToString(const std::vector<char>& nums)
 {
-	std::string str = "[";
-	for (auto i : nums)
-	{
-		str += i;
-		str += ",";
-	}
-	if (str.back() == ',')
-	{
-		str.pop_back();
-	}
-	str.push_back(']');
-	return str;
+	return vectorTToString(nums);
 }
 
 std::vector<std::vector<char>> StringToVectorVectorChar(std::string input)
@@ -92,18 +81,7 @@ std::vector<std::vector<char>> StringToVectorVectorChar(std::string input)
 
 std::string VectorVectorCharToString(const std::vector<std::vector<char>>& matrix)
 {
-	std::string str = "[";
-	for (auto n : matrix)
-	{
-		str += VectorCharToString(n);
-		str += ",";
-	}
-	if (str.back() == ',')
-	{
-		str.pop_back();
-	}
-	str.push_back(']');
-	return str;
+	return vectorTToString(matrix);
 }
 
 std::vector<int> StringToVectorInt(std::string input)
@@ -113,18 +91,7 @@ std::vector<int> StringToVectorInt(std::string input)
 
 std::string VectorIntToString(const std::vector<int>& nums)
 {
-	std::string str = "[";
-	for (auto i : nums)
-	{
-		str += to_string(i);
-		str += ",";
-	}
-	if (str.back() == ',')
-	{
-		str.pop_back();
-	}
-	str.push_back(']');
-	return str;
+	return vectorTToString(nums);
 }
 
 std::vector<std::vector<int>> StringToVectorVectorInt(std::string input)
@@ -134,18 +101,7 @@ std::vector<std::vector<int>> StringToVectorVectorInt(std::string input)
 
 std::string VectorVectorIntToString(const std::vector<std::vector<int>>& matrix)
 {
-	std::string str = "[";
-	for (auto n : matrix)
-	{
-		str += VectorIntToString(n);
-		str += ",";
-	}
-	if (str.back() == ',')
-	{
-		str.pop_back();
-	}
-	str.push_back(']');
-	return str;
+	return vectorTToString(matrix);
 }
 
 std::vector<std::string> StringToVectorString(std::string input)
@@ -155,18 +111,7 @@ std::vector<std::string> StringToVectorString(std::string input)
 
 std::string VectorStringToString(const std::vector<std::string>& strs, bool quotation)
 {
-	std::string str;
-	str += "[";
-	for (auto s : strs)
-	{
-		str += quotation ? "\"" : "";
-		str += s;
-		str += quotation ? "\"" : "";
-		str += ",";
-	}
-	if (str.back() == ',') str.pop_back();
-	str += "]";
-	return str;
+	return vectorTToString(strs);
 }
 
 std::vector<std::vector<std::string>> StringToVectorVectorString(std::string input)
@@ -176,16 +121,7 @@ std::vector<std::vector<std::string>> StringToVectorVectorString(std::string inp
 
 std::string VectorVectorStringToString(const std::vector<std::vector<std::string>>& strs, bool quotation)
 {
-	std::string str;
-	str += "[";
-	for (auto vs : strs)
-	{
-		str += VectorStringToString(vs, quotation);
-		str += ",";
-	}
-	if (str.back() == ',') str.pop_back();
-	str += "]";
-	return str;
+	return vectorTToString(strs);
 }
 
 std::vector<TreeNode*> StringToVectorTreeNode(std::string input)

@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"stringToVectorT()"
+git commit -m"vectorTToString()"
 git push

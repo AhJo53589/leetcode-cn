@@ -23,7 +23,7 @@
 void trimLeftTrailingSpaces(std::string &input);
 void trimRightTrailingSpaces(std::string &input);
 
-std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin = '[', char end = ']', char delim = ',');
+std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin = '[', char end = ']', char pattern = ',');
 
 std::vector<std::string> split(std::string str, std::string pattern);
 
@@ -61,7 +61,7 @@ std::string VectorMapStringStringToString(std::vector<std::map<std::string, std:
 // convert
 //////////////////////////////////////////////////////////////////////////
 template<typename out_type, typename in_type>
-out_type convert(const in_type &t)
+out_type convert(const in_type& t)
 {
 	std::stringstream stream;
 	stream << t;
@@ -70,27 +70,29 @@ out_type convert(const in_type &t)
 	return result;
 }
 
-// To bool
+//////////////////////////////////////////////////////////////////////////
+
+// std::string to bool
 template<>
-inline bool convert(const std::string &s)
+inline bool convert(const std::string& s)
 {
 	return (s == "true" || s == "True" || s == "TRUE");
 }
 
-// To TreeNode*
+// std::string to TreeNode*
 template<>
-inline TreeNode* convert(const std::string &s)
+inline TreeNode* convert(const std::string& s)
 {
 	return StringToTreeNode(s);
 }
 
 template<> 
-inline std::vector<TreeNode*> convert(const std::string &s)
+inline std::vector<TreeNode*> convert(const std::string& s)
 {
 	return StringToVectorTreeNode(s);
 }
 
-// To ListNode*
+// std::string to ListNode*
 template<>
 inline ListNode* convert(const std::string &s)
 {
@@ -103,9 +105,9 @@ inline std::vector<ListNode*> convert(const std::string& s)
 	return StringToVectorListNode(s);
 }
 
-// To int
+// std::string to int
 template<>
-inline std::vector<int> convert(const std::string &s)
+inline std::vector<int> convert(const std::string& s)
 {
 	return StringToVectorInt(s);
 }
@@ -116,7 +118,7 @@ inline std::vector<std::vector<int>> convert(const std::string& s)
 	return StringToVectorVectorInt(s);
 }
 
-// To char
+// std::string to char
 template<>
 inline char convert(const std::string& s)
 {
@@ -145,12 +147,12 @@ inline std::vector<char> convert(const std::string& s)
 }
 
 template<>
-inline std::vector<std::vector<char>> convert(const std::string &s)
+inline std::vector<std::vector<char>> convert(const std::string& s)
 {
 	return StringToVectorVectorChar(s);
 }
 
-// To std::string
+// std::string to std::string
 template<>
 inline std::string convert(const std::string& s)
 {
@@ -177,7 +179,40 @@ inline std::vector<std::vector<std::string>> convert(const std::string& s)
 	return StringToVectorVectorString(s);
 }
 
+//////////////////////////////////////////////////////////////////////////
 
+// int To std::string
+template<>
+inline std::string convert(const std::vector<int>& input)
+{
+	return VectorIntToString(input);
+}
+
+template<>
+inline std::string convert(const std::vector<std::vector<int>>& input)
+{
+	return VectorVectorIntToString(input);
+}
+
+// char to std::string
+template<>
+inline std::string convert(const std::vector<char>& input)
+{
+	return VectorCharToString(input);
+}
+
+// std::string to std::string
+template<>
+inline std::string convert(const std::vector<std::string>& input)
+{
+	return VectorStringToString(input);
+}
+
+template<>
+inline std::string convert(const std::vector< std::vector<std::string>>& input)
+{
+	return VectorVectorStringToString(input);
+}
 
 
 
@@ -185,18 +220,18 @@ inline std::vector<std::vector<std::string>> convert(const std::string& s)
 // stringToVectorT
 //////////////////////////////////////////////////////////////////////////
 template<typename T>
-std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = ']', char delim = ',')
+std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = ']', char pattern = ',')
 {
 	std::vector<T> output;
 
 	trimLeftTrailingSpaces(input);
 	trimRightTrailingSpaces(input);
-	std::vector<std::size_t> pos = stringGetSplitPos(input, begin, end, delim);
+	std::vector<std::size_t> pos = stringGetSplitPos(input, begin, end, pattern);
 	if (!pos.empty()) return {};
 
 	input = input.substr(1, input.size() - 2);
-	input += delim;
-	pos = stringGetSplitPos(input, begin, end, delim);
+	input += pattern;
+	pos = stringGetSplitPos(input, begin, end, pattern);
 
 	size_t cur = 0;
 	for (auto& i : pos)
@@ -207,23 +242,24 @@ std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = '
 
 	return output;
 }
-//
-//template<typename T>
-//std::string vectorTToString(std::vector<T> input, char begin = '[', char end = ']', char delim = ',')
-//{
-//	std::string output;
-//	output += begin;
-//
-//	for (auto i : input)
-//	{
-//		output += convert<std::string>(i);
-//		output += delim;
-//	}
-//	if (output.back() == delim)
-//	{
-//		output.pop_back();
-//	}
-//	output += end;
-//	return output;
-//}
+
+template<typename T>
+std::string vectorTToString(std::vector<T> input, char begin = '[', char end = ']', char pattern = ',')
+{
+	std::string output;
+
+	output += begin;
+	for (auto i : input)
+	{
+		output += convert<std::string>(i);
+		output += pattern;
+	}
+	if (output.back() == pattern)
+	{
+		output.pop_back();
+	}
+	output += end;
+
+	return output;
+}
 
