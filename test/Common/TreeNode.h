@@ -9,16 +9,14 @@
 #include <queue>
 #include <string>
 
-using namespace std;
-
 
 struct TreeNode;
 
 
-TreeNode *StringToTreeNode(const string data);
-string TreeNodeToString(const TreeNode *root);
-string TreeNodeToString_Full(const TreeNode *root);
-vector<int> GetOffsetForDraw(int _size);
+TreeNode *StringToTreeNode(std::string data);
+std::string TreeNodeToString(const TreeNode *root);
+std::string TreeNodeToString_Full(const TreeNode *root);
+std::vector<int> GetOffsetForDraw(int _size);
 void DrawTreeNode(const TreeNode *root);
 
 TreeNode *FindTreeNode(TreeNode *root, int val);
@@ -32,13 +30,13 @@ struct TreeNode
 	TreeNode *right;
 	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 
-	friend ostream & operator<<(ostream& os, const TreeNode *p)
+	friend std::ostream & operator<<(std::ostream& os, const TreeNode *p)
 	{
-		string s = TreeNodeToString(p);
+		std::string s = TreeNodeToString(p);
 		os << s.c_str();
 		return os;
 	}
-	friend void operator>>(string &s, TreeNode **rhs)
+	friend void operator>>(std::string &s, TreeNode **rhs)
 	{
 		*rhs = StringToTreeNode(s);
 	}

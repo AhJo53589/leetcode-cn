@@ -36,7 +36,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 // 选择题目代码
-#define USE_DEFAULT_INCLUDE
+//#define USE_DEFAULT_INCLUDE
 
 #ifdef USE_DEFAULT_INCLUDE
 

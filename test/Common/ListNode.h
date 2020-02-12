@@ -9,18 +9,16 @@
 #include <queue>
 #include <string>
 
-using namespace std;
-
 struct ListNode;
 
 ListNode *FindNodeByVal(ListNode *pHead, int i);
 const ListNode *DetectCycle(const ListNode *pHead);
-string ListNodeToString(const ListNode *pHead);
-ListNode *StringToListNode(const string data);
-ListNode* StringToListNode(const string data, int iBeg, int iEnd);
-ListNode* StringToListNode(const vector<int>& data, int iBeg, int iEnd);
-ListNode *StringIntToCycleListNode(string strValList, int iCyclePos);
-void StringIntToIntersectionNode(ListNode **pHeadA, ListNode **pHeadB, string strListA, string strListB, int skipA, int skipB);
+std::string ListNodeToString(const ListNode *pHead);
+ListNode *StringToListNode(const std::string data);
+ListNode *StringToListNode(const std::string data, int iBeg, int iEnd);
+ListNode *StringToListNode(const std::vector<int>& data, int iBeg, int iEnd);
+ListNode *StringIntToCycleListNode(std::string strValList, int iCyclePos);
+void StringIntToIntersectionNode(ListNode **pHeadA, ListNode **pHeadB, std::string strListA, std::string strListB, int skipA, int skipB);
 
 struct ListNode
 {
@@ -29,9 +27,9 @@ struct ListNode
 	ListNode(int x) : val(x), next(nullptr) {}
 	ListNode(int x, ListNode * pNext) : val(x), next(pNext) {}
 
-	friend ostream & operator<<(ostream& os, const ListNode *p)
+	friend std::ostream & operator<<(std::ostream& os, const ListNode *p)
 	{
-		string s = ListNodeToString(p);
+		std::string s = ListNodeToString(p);
 		os << s.c_str();
 		return os;
 	}
@@ -42,7 +40,7 @@ struct ListNode
 //////////////////////////////////////////////////////////////////////////
 struct DoublyListNode;
 
-string ListNodeToString(const DoublyListNode *pHead);
+std::string ListNodeToString(const DoublyListNode *pHead);
 
 struct DoublyListNode 
 {

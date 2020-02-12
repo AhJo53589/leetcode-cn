@@ -23,14 +23,14 @@ public:
 	}
 };
 
-void preorder(const Node* node, int& id, map<string, const Node*>& nodes, map<const Node*, string>& n_s)
+void preorder(const Node* node, int& id, std::map<std::string, const Node*>& nodes, std::map<const Node*, std::string>& n_s)
 {
 	auto getNextId = [&id]()
 	{ return "\"" + to_string(id++) + "\""; };
 
 	if (node == nullptr) return;
 	if (n_s.count(node) != 0) return;
-	string s = getNextId();
+	std::string s = getNextId();
 	nodes[s] = node;
 	n_s[node] = s;
 	preorder(node->left, id, nodes, n_s);
@@ -38,10 +38,10 @@ void preorder(const Node* node, int& id, map<string, const Node*>& nodes, map<co
 	preorder(node->next, id, nodes, n_s);
 }
 
-Node* StringToNode(const string data)
+Node* StringToNode(const std::string data)
 {
 	// string to map_string
-	vector<map<string, string>> input = StringToVectorMapStringString(data);
+	std::vector<std::map<std::string, std::string>> input = StringToVectorMapStringString(data);
 	//for (auto um : input)
 	//{
 	//	for (auto s : um)
@@ -52,18 +52,18 @@ Node* StringToNode(const string data)
 	//}
 
 	// map_string to map_nodes
-	map<string, Node*> nodes;
+	std::map<std::string, Node*> nodes;
 	nodes["null"] = nullptr;
 	for (auto um : input)
 	{
-		string id = um["$id"];
+		std::string id = um["$id"];
 		int val = um.count("val") ? stoi(um["val"]) : 0;
 		Node* newNode = new Node(val, nullptr, nullptr, nullptr);
 		nodes[id] = newNode;
 	}
 	for (auto um : input)
 	{
-		string id = um["$id"];
+		std::string id = um["$id"];
 		nodes[id]->left = nodes[um["left"]];
 		nodes[id]->right = nodes[um["right"]];
 		nodes[id]->next = nodes[um["next"]];
@@ -71,21 +71,21 @@ Node* StringToNode(const string data)
 	return nodes["\"1\""];
 }
 
-string NodeToString(const Node* pHead)
+std::string NodeToString(const Node* pHead)
 {
 	// nodes to map_nodes
-	map<string, const Node*> nodes2;
-	map<const Node*, string> n_s;
+	std::map<std::string, const Node*> nodes2;
+	std::map<const Node*, std::string> n_s;
 	n_s[nullptr] = "null";
 	int id = 1;
 	preorder(pHead, id, nodes2, n_s);
 
 	// map_nodes to map_string
-	vector<map<string, string>> output;
+	std::vector<std::map<std::string, std::string>> output;
 	for (auto n : nodes2)
 	{
 		const Node* cur = n.second;
-		map<string, string> _m;
+		std::map<std::string, std::string> _m;
 		_m["$id"] = n.first;
 		_m["left"] = n_s[cur->left];
 		_m["right"] = n_s[cur->right];
@@ -95,7 +95,7 @@ string NodeToString(const Node* pHead)
 	}
 
 	// map_string to string
-	string ans = VectorMapStringStringToString(output);
+	std::string ans = VectorMapStringStringToString(output);
 	return ans;
 }
 #endif
@@ -122,11 +122,11 @@ public:
 	}
 };
 
-Node* StringToNode(string data)
+Node* StringToNode(std::string data)
 {
 	if (data.empty()) return nullptr;
 	if (data[0] == '[') data = data.substr(1, data.size() - 2);
-	vector<string> splitData = split(data, ",");
+	std::vector<std::string> splitData = split(data, ",");
 	if (data == "" || splitData[0] == "null") return nullptr;
 
 	Node* root = new Node(stoi(splitData[0].c_str()), nullptr, nullptr, nullptr);
@@ -144,7 +144,7 @@ Node* StringToNode(string data)
 			qTree.pop();
 		}
 
-		auto f = [&qTree](string& s, Node** p)
+		auto f = [&qTree](std::string& s, Node** p)
 		{
 			while (s.front() == ' ') s = s.substr(1, s.size() - 1);
 			while (s.back() == ' ') s.pop_back();
@@ -170,9 +170,9 @@ Node* StringToNode(string data)
 	return root;
 }
 
-string NodeToString(Node* root)
+std::string NodeToString(Node* root)
 {
-	string str = "[";
+	std::string str = "[";
 
 	while (root != nullptr)
 	{
@@ -214,29 +214,29 @@ class Node
 {
 public:
 	int val;
-	vector<Node*> neighbors;
+	std::vector<Node*> neighbors;
 
 	Node() {}
 
-	Node(int _val, vector<Node*> _neighbors)
+	Node(int _val, std::vector<Node*> _neighbors)
 	{
 		val = _val;
 		neighbors = _neighbors;
 	}
 };
 
-Node* StringToNode(const string data)
+Node* StringToNode(const std::string data)
 {
-	vector<vector<int>> val = convert<std::vector<std::vector<int>>>(data);
-	vector<Node*> nodes(val.size(), nullptr);
+	std::vector<std::vector<int>> val = convert<std::vector<std::vector<int>>>(data);
+	std::vector<Node*> nodes(val.size(), nullptr);
 	int v = 0;
 	for (auto& n : nodes)
 	{
 		n = new Node(++v, vector<Node*>());
 	}
-	for (size_t i = 0; i < val.size(); i++)
+	for (std::size_t i = 0; i < val.size(); i++)
 	{
-		for (size_t j = 0; j < val[i].size(); j++)
+		for (std::size_t j = 0; j < val[i].size(); j++)
 		{
 			nodes[i]->neighbors.push_back(nodes[val[i][j] - 1]);
 		}
@@ -244,14 +244,14 @@ Node* StringToNode(const string data)
 	return nodes[0];
 }
 
-string NodeToString(const Node* pHead)
+std::string NodeToString(const Node* pHead)
 {
-	unordered_map<const Node*, int> node_id;
-	vector<const Node*> id_node;
-	stack<const Node*> st;
+	std::unordered_map<const Node*, int> node_id;
+	std::vector<const Node*> id_node;
+	std::stack<const Node*> st;
 	st.push(pHead);
 	
-	size_t i = 0;
+	std::size_t i = 0;
 	while (!st.empty())
 	{
 		auto q = st.top();
@@ -260,16 +260,16 @@ string NodeToString(const Node* pHead)
 		if (node_id.find(q) != node_id.end()) continue;
 		node_id[q] = ++i;
 		id_node.push_back(q);
-		for (size_t j = q->neighbors.size() - 1; j < q->neighbors.size(); j--)
+		for (std::size_t j = q->neighbors.size() - 1; j < q->neighbors.size(); j--)
 		{
 			st.push(q->neighbors[j]);
 		}
 	}
 	
-	vector<vector<int>> val;
+	std::vector<std::vector<int>> val;
 	for (auto& n : id_node)
 	{
-		vector<int> temp;
+		std::vector<int> temp;
 		for (auto& nei : n->neighbors)
 		{
 			temp.push_back(node_id[nei]);
@@ -277,7 +277,7 @@ string NodeToString(const Node* pHead)
 		val.push_back(temp);
 	}
 
-	string ret = convert<std::string>(val);
+	std::string ret = convert<std::string>(val);
 	return ret;
 }
 #endif
@@ -303,15 +303,15 @@ public:
 	}
 };
 
-Node* StringToNode(const string data)
+Node* StringToNode(const std::string data)
 {
-	vector<vector<string>> val = convert<std::vector<std::vector<std::string>>>(data);
-	vector<Node*> nodes(val.size(), nullptr);
+	std::vector<std::vector<std::string>> val = convert<std::vector<std::vector<std::string>>>(data);
+	std::vector<Node*> nodes(val.size(), nullptr);
 	for (auto& n : nodes)
 	{
 		n = new Node(0, nullptr, nullptr);
 	}
-	for (size_t i = 0; i < val.size(); i++)
+	for (std::size_t i = 0; i < val.size(); i++)
 	{
 		nodes[i]->val = stoi(val[i][0]);
 		nodes[i]->next = (i == val.size() - 1) ? nullptr : nodes[i + 1];
@@ -322,8 +322,8 @@ Node* StringToNode(const string data)
 
 string NodeToString(const Node* pHead)
 {
-	unordered_map<const Node*, int> node_id;
-	vector<const Node*> id_node;
+	std::unordered_map<const Node*, int> node_id;
+	std::vector<const Node*> id_node;
 
 	int idx = 0;
 	while (pHead != nullptr)
@@ -333,14 +333,14 @@ string NodeToString(const Node* pHead)
 		pHead = pHead->next;
 	}
 
-	vector<vector<string>> val(id_node.size(), vector<string>(2));
-	for (size_t i = 0; i < val.size(); i++)
+	std::vector<std::vector<std::string>> val(id_node.size(), std::vector<std::string>(2));
+	for (std::size_t i = 0; i < val.size(); i++)
 	{
 		val[i][0] = to_string(id_node[i]->val);
 		val[i][1] = (id_node[i]->random == nullptr) ? "null" : to_string(node_id[id_node[i]->random]);
 	}
 
-	string ret = convert<std::string>(val);
+	std::string ret = convert<std::string>(val);
 	return ret;
 }
 #endif
@@ -368,14 +368,14 @@ public:
 	}
 };
 
-Node* StringToNode(const string data)
+Node* StringToNode(const std::string data)
 {
-	vector<string> vs = convert<std::vector<std::string>>(data);
+	std::vector<std::string> vs = convert<std::vector<std::string>>(data);
 
-	vector<vector<Node*>> nodes;
+	std::vector<std::vector<Node*>> nodes;
 
-	size_t idx = 0;
-	size_t space = 0;
+	std::size_t idx = 0;
+	std::size_t space = 0;
 	bool newLine = true;
 	while (idx < vs.size())
 	{
@@ -393,7 +393,7 @@ Node* StringToNode(const string data)
 			if (newLine)
 			{
 				nodes.push_back(vector<Node*>());
-				for (size_t t = 0; t < space; t++)
+				for (std::size_t t = 0; t < space; t++)
 				{
 					nodes.back().push_back(nullptr);
 				}
@@ -405,10 +405,10 @@ Node* StringToNode(const string data)
 		idx++;
 	}
 
-	for (size_t i = 0; i < nodes.size(); i++)
+	for (std::size_t i = 0; i < nodes.size(); i++)
 	{
 		newLine = true;
-		for (size_t j = 0; j < nodes[i].size() - 1; j++)
+		for (std::size_t j = 0; j < nodes[i].size() - 1; j++)
 		{
 			if (nodes[i][j] == nullptr) continue;
 			if (newLine)
@@ -430,9 +430,9 @@ Node* StringToNode(const string data)
 	return nodes.empty() ? nullptr : nodes[0][0];
 }
 
-string NodeToString(const Node* pHead)
+std::string NodeToString(const Node* pHead)
 {
-	vector<string> val;
+	std::vector<std::string> val;
 	const Node* cur = pHead;
 	const Node* lv_head = pHead;
 
@@ -460,7 +460,7 @@ string NodeToString(const Node* pHead)
 	}
 	val.push_back("null");
 
-	string ret = convert<std::string>(val);
+	std::string ret = convert<std::string>(val);
 	return ret;
 }
 #endif
