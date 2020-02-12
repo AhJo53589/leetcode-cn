@@ -2,6 +2,7 @@
 #define COMMON_H
 
 #include <iostream>
+#include <iomanip>
 #include <windows.h>
 #include <fstream>
 #include <sstream>
@@ -19,16 +20,16 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 template<typename T>
-void printVectorT(T &nums)
+void printVectorT(T &nums, int width = 1, char delim = ',')
 {
-	for (auto i : nums) cout << i << ",";
+	for (auto i : nums) cout << setw(width) << i << delim;
 	cout << endl;
 }
 
 template<typename T>
-void printVectorVectorT(T &matrix)
+void printVectorVectorT(T &matrix, int width = 1, char delim = ',')
 {
-	for (auto n : matrix) printVectorT(n);
+	for (auto n : matrix) printVectorT(n, width, delim);
 	cout << endl;
 }
 

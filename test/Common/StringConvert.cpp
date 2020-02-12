@@ -11,20 +11,36 @@
 #include <string>
 
 #include "StringConvert.h"
-using namespace std;
 
-void trimLeftTrailingSpaces(string &input) 
+void trimLeftTrailingSpaces(std::string& input)
 {
 	input.erase(input.begin(), find_if(input.begin(), input.end(), [](int ch) {
 		return !isspace(ch);
-	}));
+		}));
 }
 
-void trimRightTrailingSpaces(string &input) 
+void trimRightTrailingSpaces(std::string& input)
 {
 	input.erase(find_if(input.rbegin(), input.rend(), [](int ch) {
 		return !isspace(ch);
-	}).base(), input.end());
+		}).base(), input.end());
+}
+
+std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin, char end, char delim)
+{
+	std::vector<std::size_t> output;
+	int st = 0;
+	for (size_t i = 0; i < input.size(); i++)
+	{
+		if (input[i] == delim && st == 0)
+		{
+			output.push_back(i);
+			continue;
+		}
+		st += (input[i] == begin);
+		st -= (input[i] == end);
+	}
+	return output;
 }
 
 std::vector<std::string> split(std::string str, std::string pattern)
@@ -46,25 +62,29 @@ std::vector<std::string> split(std::string str, std::string pattern)
 	return result;
 }
 
-vector<char> StringToVectorChar(string str)
+std::vector<char> StringToVectorChar(std::string input)
 {
-	vector<char> chars;
-	if (str.size() < 3) return chars;
-	str = str.substr(1, str.size() - 2);
-	for (auto c : str)
-	{
-		if (c == ' ') continue;
-		if (c == ',') continue;
-		if (c == '\"') continue;
-		if (c == '\'') continue;
-		chars.push_back(c);
-	}
-	return chars;
+	//std::vector<char> output;
+	//if (input.size() < 3) return output;
+	//input = input.substr(1, input.size() - 2);
+	//for (auto c : input)
+	//{
+	//	if (c == ' ') continue;
+	//	if (c == ',') continue;
+	//	if (c == '\"') continue;
+	//	if (c == '\'') continue;
+	//	output.push_back(c);
+	//}
+	//return output;
+
+	input.erase(std::remove(input.begin(), input.end(), '\''), input.end());
+	input.erase(std::remove(input.begin(), input.end(), '\"'), input.end());
+	return stringToVectorT<char>(input);
 }
 
-std::string VectorCharToString(const vector<char>& nums)
+std::string VectorCharToString(const std::vector<char>& nums)
 {
-	string str = "[";
+	std::string str = "[";
 	for (auto i : nums)
 	{
 		str += i;
@@ -78,36 +98,38 @@ std::string VectorCharToString(const vector<char>& nums)
 	return str;
 }
 
-vector<vector<char>> StringToVectorVectorChar(string str)
+std::vector<std::vector<char>> StringToVectorVectorChar(std::string input)
 {
-	vector<vector<char>> matrix;
-	if (str.size() < 3) return {};
-	str = str.substr(1, str.size() - 2);
+	//vector<vector<char>> output;
+	//if (input.size() < 3) return {};
+	//input = input.substr(1, input.size() - 2);
 
-	string strSub;
-	char last = ' ';
-	for (auto c : str)
-	{
-		if (last == ']')
-		{
-			last = ' ';
-			continue;
-		}
-		strSub += c;
-		last = c;
-		if (c == ']')
-		{
-			matrix.push_back(StringToVectorChar(strSub));
-			strSub.clear();
-		}
-	}
+	//string strSub;
+	//char last = ' ';
+	//for (auto c : input)
+	//{
+	//	if (last == ']')
+	//	{
+	//		last = ' ';
+	//		continue;
+	//	}
+	//	strSub += c;
+	//	last = c;
+	//	if (c == ']')
+	//	{
+	//		output.push_back(StringToVectorChar(strSub));
+	//		strSub.clear();
+	//	}
+	//}
 
-	return matrix;
+	//return output;
+
+	return stringToVectorT<std::vector<char>>(input);
 }
 
-std::string VectorVectorCharToString(const vector<vector<char>>& matrix)
+std::string VectorVectorCharToString(const std::vector<std::vector<char>>& matrix)
 {
-	string str = "[";
+	std::string str = "[";
 	for (auto n : matrix)
 	{
 		str += VectorCharToString(n);
@@ -121,25 +143,26 @@ std::string VectorVectorCharToString(const vector<vector<char>>& matrix)
 	return str;
 }
 
-vector<int> StringToVectorInt(string input)
+std::vector<int> StringToVectorInt(std::string input)
 {
-	vector<int> output;
-	trimLeftTrailingSpaces(input);
-	trimRightTrailingSpaces(input);
-	input = input.substr(1, input.length() - 2);
-	stringstream ss;
-	ss.str(input);
-	string item;
-	char delim = ',';
-	while (getline(ss, item, delim)) {
-		output.push_back(stoi(item));
-	}
-	return output;
+	//std::vector<int> output;
+	//trimLeftTrailingSpaces(input);
+	//trimRightTrailingSpaces(input);
+	//input = input.substr(1, input.length() - 2);
+	//stringstream ss;
+	//ss.str(input);
+	//string item;
+	//char delim = ',';
+	//while (getline(ss, item, delim)) {
+	//	output.push_back(stoi(item));
+	//}
+	//return output;
+	return stringToVectorT<int>(input);
 }
 
-string VectorIntToString(const vector<int>& nums)
+std::string VectorIntToString(const std::vector<int>& nums)
 {
-	string str = "[";
+	std::string str = "[";
 	for (auto i : nums)
 	{
 		str += to_string(i);
@@ -153,35 +176,37 @@ string VectorIntToString(const vector<int>& nums)
 	return str;
 }
 
-vector<vector<int>> StringToVectorVectorInt(string str)
+std::vector<std::vector<int>> StringToVectorVectorInt(std::string input)
 {
-	vector<vector<int>> matrix;
-	if (str.size() < 3) return matrix;
-	str = str.substr(1, str.size() - 2);
+	//vector<vector<int>> output;
+	//if (input.size() < 3) return output;
+	//input = input.substr(1, input.size() - 2);
 
-	string strSub;
-	char last = ' ';
-	for (auto c : str)
-	{
-		if (last == ']')
-		{
-			last = ' ';
-			continue;
-		}
-		strSub += c;
-		last = c;
-		if (c == ']')
-		{
-			matrix.push_back(StringToVectorInt(strSub));
-			strSub.clear();
-		}
-	}
-	return matrix;
+	//string strSub;
+	//char last = ' ';
+	//for (auto c : input)
+	//{
+	//	if (last == ']')
+	//	{
+	//		last = ' ';
+	//		continue;
+	//	}
+	//	strSub += c;
+	//	last = c;
+	//	if (c == ']')
+	//	{
+	//		output.push_back(StringToVectorInt(strSub));
+	//		strSub.clear();
+	//	}
+	//}
+	//return output;
+
+	return stringToVectorT<std::vector<int>>(input);
 }
 
-string VectorVectorIntToString(const vector<vector<int>>& matrix)
+std::string VectorVectorIntToString(const std::vector<std::vector<int>>& matrix)
 {
-	string str = "[";
+	std::string str = "[";
 	for (auto n : matrix)
 	{
 		str += VectorIntToString(n);
@@ -195,24 +220,28 @@ string VectorVectorIntToString(const vector<vector<int>>& matrix)
 	return str;
 }
 
-vector<string> StringToVectorString(string str)
+std::vector<std::string> StringToVectorString(std::string input)
 {
-	vector<string> strs;
-	if (str.size() < 3) return strs;
-	str = str.substr(1, str.size() - 2);
-	vector<string> vStr = split(str, ",");
-	for (auto s : vStr)
-	{
-		int i1 = s.find_first_of('"');
-		int i2 = s.find_last_of('"');
-		strs.push_back(s.substr(i1 + 1, i2 - i1 - 1));
-	}
-	return strs;
+	//vector<string> output;
+	//if (input.size() < 3) return output;
+	//input = input.substr(1, input.size() - 2);
+	//vector<string> vStr = split(input, ",");
+	//for (auto s : vStr)
+	//{
+	//	int i1 = s.find_first_of('"');
+	//	int i2 = s.find_last_of('"');
+	//	output.push_back(s.substr(i1 + 1, i2 - i1 - 1));
+	//}
+	//return output;
+
+	//input.erase(std::remove(input.begin(), input.end(), '\''), input.end());
+	//input.erase(std::remove(input.begin(), input.end(), '\"'), input.end());
+	return stringToVectorT<std::string>(input);
 }
 
-string VectorStringToString(const vector<string>& strs, bool quotation)
+std::string VectorStringToString(const std::vector<std::string>& strs, bool quotation)
 {
-	string str;
+	std::string str;
 	str += "[";
 	for (auto s : strs)
 	{
@@ -226,29 +255,31 @@ string VectorStringToString(const vector<string>& strs, bool quotation)
 	return str;
 }
 
-vector<vector<string>> StringToVectorVectorString(string str)
+std::vector<std::vector<std::string>> StringToVectorVectorString(std::string input)
 {
-	vector<vector<string>> vvs;
-	if (str.size() < 3) return vvs;
-	str = str.substr(1, str.size() - 2);
-	
-	vector<string> vs;
-	size_t i = 0;
-	for (size_t j = 0; j < str.size(); j++)
-	{
-		if (str[j] == ']')
-		{
-			vvs.push_back(StringToVectorString(str.substr(i, j - i + 1)));
-			while (j + 1 != str.size() && str[j + 1] != '[') j++;
-			i = j + 1;
-		}
-	}
-	return vvs;
+	//vector<vector<string>> output;
+	//if (input.size() < 3) return output;
+	//input = input.substr(1, input.size() - 2);
+	//
+	//vector<string> vs;
+	//size_t i = 0;
+	//for (size_t j = 0; j < input.size(); j++)
+	//{
+	//	if (input[j] == ']')
+	//	{
+	//		output.push_back(StringToVectorString(input.substr(i, j - i + 1)));
+	//		while (j + 1 != input.size() && input[j + 1] != '[') j++;
+	//		i = j + 1;
+	//	}
+	//}
+	//return output;
+
+	return stringToVectorT<std::vector<std::string>>(input);
 }
 
-string VectorVectorStringToString(const vector<vector<string>>& strs, bool quotation)
+std::string VectorVectorStringToString(const std::vector<std::vector<std::string>>& strs, bool quotation)
 {
-	string str;
+	std::string str;
 	str += "[";
 	for (auto vs : strs)
 	{
@@ -260,28 +291,35 @@ string VectorVectorStringToString(const vector<vector<string>>& strs, bool quota
 	return str;
 }
 
-vector<TreeNode*> StringToVectorTreeNode(string str)
+std::vector<TreeNode*> StringToVectorTreeNode(std::string input)
 {
-	vector<TreeNode*> vt;
-	if (str.size() < 3) return vt;
-	str = str.substr(1, str.size() - 2);
+	//vector<TreeNode*> output;
+	//if (input.size() < 3) return output;
+	//input = input.substr(1, input.size() - 2);
 
-	size_t i = 0;
-	for (size_t j = 0; j < str.size(); j++)
-	{
-		if (str[j] == ']')
-		{
-			vt.push_back(StringToTreeNode(str.substr(i, j - i + 1)));
-			while (j + 1 != str.size() && str[j + 1] != '[') j++;
-			i = j + 1;
-		}
-	}
-	return vt;
+	//size_t i = 0;
+	//for (size_t j = 0; j < input.size(); j++)
+	//{
+	//	if (input[j] == ']')
+	//	{
+	//		output.push_back(StringToTreeNode(input.substr(i, j - i + 1)));
+	//		while (j + 1 != input.size() && input[j + 1] != '[') j++;
+	//		i = j + 1;
+	//	}
+	//}
+	//return output;
+
+	return stringToVectorT<TreeNode*>(input);
 }
 
-vector<map<string, string>> StringToVectorMapStringString(string input)
+std::vector<ListNode*> StringToVectorListNode(std::string input)
 {
-	auto trimLR = [](string s, char c)
+	return stringToVectorT<ListNode*>(input);
+}
+
+std::vector<std::map<std::string, std::string>> StringToVectorMapStringString(std::string input)
+{
+	auto trimLR = [](std::string s, char c)
 	{
 		trimLeftTrailingSpaces(s);
 		trimRightTrailingSpaces(s);
@@ -290,17 +328,17 @@ vector<map<string, string>> StringToVectorMapStringString(string input)
 		return s;
 	};
 
-	vector<map<string, string>> output;
-	stack<map<string, string>> st;
+	std::vector<std::map<std::string, std::string>> output;
+	std::stack<std::map<std::string, std::string>> st;
 
-	size_t i = 0;
+	std::size_t i = 0;
 	while (i < input.size())
 	{
 		if (input[i] == ' ') continue;
 		if (input[i] == '{')
 		{
 			i++;
-			st.push(map<string, string>());
+			st.push(std::map<std::string, std::string>());
 		}
 		if (input[i] == '}')
 		{
@@ -313,20 +351,20 @@ vector<map<string, string>> StringToVectorMapStringString(string input)
 			i++;
 		}
 
-		size_t pos = input.find(':', i);
+		std::size_t pos = input.find(':', i);
 		if (pos == input.npos) break;
 
-		string key = trimLR(input.substr(i, pos - i), '\"');
-		string value;
+		std::string key = trimLR(input.substr(i, pos - i), '\"');
+		std::string value;
 		i = pos + 1;
 
 		if (input[i] == '{')
 		{
-			size_t pos1 = input.find(':', i) + 1;
-			size_t pos2 = input.find(',', i);
+			std::size_t pos1 = input.find(':', i) + 1;
+			std::size_t pos2 = input.find(',', i);
 			value = input.substr(pos1, pos2 - pos1);
 
-			string tmp = trimLR(input.substr(i, pos1 - i), '\"');
+			std::string tmp = trimLR(input.substr(i, pos1 - i), '\"');
 			if (tmp == "$ref")
 			{
 				pos1 = input.find('}', i);
@@ -335,8 +373,8 @@ vector<map<string, string>> StringToVectorMapStringString(string input)
 		}
 		else
 		{
-			size_t pos2 = input.find(',', i);
-			size_t pos3 = input.find('}', i);
+			std::size_t pos2 = input.find(',', i);
+			std::size_t pos3 = input.find('}', i);
 			if (pos2 < pos3)
 			{
 				value = input.substr(i, pos2 - i);
@@ -356,21 +394,21 @@ vector<map<string, string>> StringToVectorMapStringString(string input)
 	return output;
 }
 
-string VectorMapStringStringToString_Core(vector<map<string, string>>& input, map<string, string>& cur, map<string, bool>& visited)
+std::string VectorMapStringStringToString_Core(std::vector<std::map<std::string, std::string>>& input, std::map<std::string, std::string>& cur, std::map<std::string, bool>& visited)
 {
-	auto addLR = [](string s, char c)
+	auto addLR = [](std::string s, char c)
 	{
-		string r;
+		std::string r;
 		r += c;
 		r += s;
 		r += c;
 		return r;
 	};
 
-	string output;
+	std::string output;
 	output += "{";
 
-	string id = cur["$id"];
+	std::string id = cur["$id"];
 	if (visited[id])
 	{
 		output += addLR("$ref", '\"') + ":" + id + "},";
@@ -403,15 +441,15 @@ string VectorMapStringStringToString_Core(vector<map<string, string>>& input, ma
 	return output;
 }
 
-string VectorMapStringStringToString(vector<map<string, string>> input)
+std::string VectorMapStringStringToString(std::vector<std::map<std::string, std::string>> input)
 {
-	map<string, bool> visited;
+	std::map<std::string, bool> visited;
 	for (auto& in : input)
 	{
 		visited[in["$id"]] = false;
 	}
 
-	string output;
+	std::string output;
 	for (auto& um : input)
 	{
 		if (um["$id"] == "\"1\"")

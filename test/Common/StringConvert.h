@@ -17,33 +17,33 @@
 #include "ListNode.h"
 #include "TreeNode.h"
 
-using namespace std;
-
-
 
 
 //////////////////////////////////////////////////////////////////////////
-//void trimLeftTrailingSpaces(std::string &input);
-//void trimRightTrailingSpaces(std::string &input);
+void trimLeftTrailingSpaces(std::string &input);
+void trimRightTrailingSpaces(std::string &input);
+
+std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin = '[', char end = ']', char delim = ',');
 
 std::vector<std::string> split(std::string str, std::string pattern);
 
-vector<char> StringToVectorChar(string str);
-string VectorCharToString(const vector<char>& nums);
-vector<vector<char>> StringToVectorVectorChar(string str);
-string VectorVectorCharToString(const vector<vector<char>>& matrix);
+std::vector<char> StringToVectorChar(std::string str);
+std::string VectorCharToString(const std::vector<char>& nums);
+std::vector<std::vector<char>> StringToVectorVectorChar(std::string str);
+std::string VectorVectorCharToString(const std::vector<std::vector<char>>& matrix);
 
-vector<int> StringToVectorInt(string str);
-string VectorIntToString(const vector<int>& nums);
-vector<vector<int>> StringToVectorVectorInt(string str);
-string VectorVectorIntToString(const vector<vector<int>>& matrix);
+std::vector<int> StringToVectorInt(std::string str);
+std::string VectorIntToString(const std::vector<int>& nums);
+std::vector<std::vector<int>> StringToVectorVectorInt(std::string str);
+std::string VectorVectorIntToString(const std::vector<std::vector<int>>& matrix);
 
-vector<string> StringToVectorString(string str);
-string VectorStringToString(const vector<string>& strs, bool quotation = true);
-vector<vector<string>> StringToVectorVectorString(string str);
-string VectorVectorStringToString(const vector<vector<string>>& strs, bool quotation = true);
+std::vector<std::string> StringToVectorString(std::string str);
+std::string VectorStringToString(const std::vector<std::string>& strs, bool quotation = true);
+std::vector<std::vector<std::string>> StringToVectorVectorString(std::string str);
+std::string VectorVectorStringToString(const std::vector<std::vector<std::string>>& strs, bool quotation = true);
 
-vector<TreeNode*> StringToVectorTreeNode(string str);
+std::vector<TreeNode*> StringToVectorTreeNode(std::string str);
+std::vector<ListNode*> StringToVectorListNode(std::string str);
 
 // example
 // {"$id":"1","left":
@@ -53,51 +53,15 @@ vector<TreeNode*> StringToVectorTreeNode(string str);
 // {"$id":"5","left":
 // {"$id":"6","left":null,"next":null,"right":null,"val":6},"next":null,"right":
 // {"$id":"7","left":null,"next":null,"right":null,"val":7},"val":3},"val":1}
-vector<map<string, string>> StringToVectorMapStringString(string input);
-string VectorMapStringStringToString(vector<map<string, string>> input);
+std::vector<std::map<std::string, std::string>> StringToVectorMapStringString(std::string input);
+std::string VectorMapStringStringToString(std::vector<std::map<std::string, std::string>> input);
 
 
 //////////////////////////////////////////////////////////////////////////
-//template<typename T>
-//std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = ']', char delim = ',')
-//{
-//	std::vector<T> output;
-//	trimLeftTrailingSpaces(input);
-//	trimRightTrailingSpaces(input);
-//	if (input.front() != begin || input.back() != end) return {};
-//
-//	std::stringstream ss;
-//	ss.str(input.substr(1, input.length() - 2));
-//	std::string item;
-//	while (getline(ss, item, delim))
-//	{
-//		output.push_back(convert<T>(item));
-//	}
-//	return output;
-//}
-//
-//template<typename T>
-//std::string vectorTToString(std::vector<T> input, char begin = '[', char end = ']', char delim = ',')
-//{
-//	std::string output;
-//	output += begin;
-//
-//	for (auto i : input)
-//	{
-//		output += convert<std::string>(i);
-//		output += delim;
-//	}
-//	if (output.back() == delim)
-//	{
-//		output.pop_back();
-//	}
-//	output += end;
-//	return output;
-//}
-
+// convert
 //////////////////////////////////////////////////////////////////////////
 template<typename out_type, typename in_type>
-out_type convert(const in_type & t)
+out_type convert(const in_type &t)
 {
 	std::stringstream stream;
 	stream << t;
@@ -131,6 +95,24 @@ inline ListNode* convert(const std::string &s)
 }
 
 template<>
+inline std::vector<ListNode*> convert(const std::string& s)
+{
+	return StringToVectorListNode(s);
+}
+
+template<>
+inline std::vector<int> convert(const std::string &s)
+{
+	return StringToVectorInt(s);
+}
+
+template<>
+inline std::vector<std::vector<int>> convert(const std::string& s)
+{
+	return StringToVectorVectorInt(s);
+}
+
+template<>
 inline std::vector<char> convert(const std::string &s)
 {
 	return StringToVectorChar(s);
@@ -141,3 +123,73 @@ inline std::vector<std::vector<char>> convert(const std::string &s)
 {
 	return StringToVectorVectorChar(s);
 }
+
+template<>
+inline std::string convert(const std::string& s)
+{
+	std::string ret = s;
+	if (ret[0] == '\"' && ret.back() == '\"')
+	{
+		ret = ret.substr(1, ret.size() - 2);
+	}
+	return ret;
+}
+
+template<>
+inline std::vector<std::string> convert(const std::string& s)
+{
+	return StringToVectorString(s);
+}
+
+template<>
+inline std::vector<std::vector<std::string>> convert(const std::string& s)
+{
+	return StringToVectorVectorString(s);
+}
+
+
+
+
+
+//////////////////////////////////////////////////////////////////////////
+// stringToVectorT
+//////////////////////////////////////////////////////////////////////////
+template<typename T>
+std::vector<T> stringToVectorT(std::string input, char begin = '[', char end = ']', char delim = ',')
+{
+	std::vector<T> output;
+	trimLeftTrailingSpaces(input);
+	trimRightTrailingSpaces(input);
+	std::vector<std::size_t> pos = stringGetSplitPos(input, begin, end, delim);
+	if (!pos.empty()) return {};
+	input = input.substr(1, input.size() - 2);
+	input += delim;
+	pos = stringGetSplitPos(input, begin, end, delim);
+	size_t cur = 0;
+	for (auto& i : pos)
+	{
+		output.push_back(convert<T>(input.substr(cur, i - cur)));
+		cur = i + 1;
+	}
+	return output;
+}
+//
+//template<typename T>
+//std::string vectorTToString(std::vector<T> input, char begin = '[', char end = ']', char delim = ',')
+//{
+//	std::string output;
+//	output += begin;
+//
+//	for (auto i : input)
+//	{
+//		output += convert<std::string>(i);
+//		output += delim;
+//	}
+//	if (output.back() == delim)
+//	{
+//		output.pop_back();
+//	}
+//	output += end;
+//	return output;
+//}
+

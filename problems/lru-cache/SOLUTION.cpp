@@ -124,6 +124,7 @@ string _solution_custom(TestCases &tc)
 		}
 		ans += ",";
 	}
+	delete obj;
 	ans.pop_back();
 	ans += "]";
 	return ans;

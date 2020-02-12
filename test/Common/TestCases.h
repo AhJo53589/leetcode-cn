@@ -32,46 +32,6 @@ public:
 		return convert<T>(popString());
 	}
 
-	template<>
-	std::string get<std::string>()
-	{
-		if (curr == file.size()) return {};
-		string ret = popString();
-		if (ret[0] == '\"' && ret.back() == '\"')
-		{
-			ret = ret.substr(1, ret.size() - 2);
-		}
-		return ret;
-	}
-
-	template<>
-	std::vector<int> get<std::vector<int>>()
-	{
-		if (curr == file.size()) return {};
-		return StringToVectorInt(popString());
-	}
-
-	template<>
-	std::vector<std::vector<int>> get<std::vector<std::vector<int>>>()
-	{
-		if (curr == file.size()) return {};
-		return StringToVectorVectorInt(popString());
-	}
-
-	template<>
-	std::vector<std::string> get<std::vector<std::string>>()
-	{
-		if (curr == file.size()) return {};
-		return StringToVectorString(popString());
-	}
-
-	template<>
-	std::vector<std::vector<std::string>> get<std::vector<std::vector<std::string>>>()
-	{
-		if (curr == file.size()) return {};
-		return StringToVectorVectorString(popString());
-	}
-
 	bool empty() { return curr == file.size(); }
 
 private:

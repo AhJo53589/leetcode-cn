@@ -1,67 +1,75 @@
 
-vector<int> convertInt(vector<char>& line)
-{
-	vector<int> nums;
-	for (char c : line)
-	{
-		if (c == '.') continue;
-
-		int n = c - 48;
-		nums.push_back(n);
-	}
-	return nums;
-}
-
-bool checkDuplicate(vector<char>& line)
-{
-	vector<int> nums = convertInt(line);
-	sort(nums.begin(), nums.end());
-
-	for (int i = 1; i < nums.size(); i++)
-	{
-		if (nums[i - 1] == nums[i]) return true;
-	}
-
-	return false;
-}
-
 
 //////////////////////////////////////////////////////////////////////////
-bool isValidSudoku(vector<vector<char>>& board)
-{
-	for (int i = 0; i < 9; i++)
+class Solution {
+public:
+	vector<int> convertInt(vector<char>& line)
 	{
-		if (checkDuplicate(board[i])) return false;
-	}
-
-	vector<char> grid[9];
-	for (int i = 0; i < 9; i++)
-	{
-		vector<char> line;
-		for (int j = 0; j < 9; j++)
+		vector<int> nums;
+		for (char c : line)
 		{
-			line.push_back(board[j][i]);
+			if (c == '.') continue;
 
-			// 把81宫格合并成9宫格
-			int k = i / 3 + j / 3 * 3;
-			grid[k].push_back(board[i][j]);
+			int n = c - 48;
+			nums.push_back(n);
 		}
-		if (checkDuplicate(line)) return false;
+		return nums;
 	}
 
-	for (int i = 0; i < 9; i++)
+	bool checkDuplicate(vector<char>& line)
 	{
-		if (checkDuplicate(grid[i])) return false;
+		vector<int> nums = convertInt(line);
+		sort(nums.begin(), nums.end());
+
+		for (int i = 1; i < nums.size(); i++)
+		{
+			if (nums[i - 1] == nums[i]) return true;
+		}
+
+		return false;
 	}
 
-	return true;
-}
+
+	bool isValidSudoku(vector<vector<char>>& board)
+	{
+		if (board.size() == 0) return false;
+
+		for (int i = 0; i < 9; i++)
+		{
+			if (checkDuplicate(board[i])) return false;
+		}
+
+		vector<char> grid[9];
+		for (int i = 0; i < 9; i++)
+		{
+			vector<char> line;
+			for (int j = 0; j < 9; j++)
+			{
+				line.push_back(board[j][i]);
+
+				// 把81宫格合并成9宫格
+				int k = i / 3 + j / 3 * 3;
+				grid[k].push_back(board[i][j]);
+			}
+			if (checkDuplicate(line)) return false;
+		}
+
+		for (int i = 0; i < 9; i++)
+		{
+			if (checkDuplicate(grid[i])) return false;
+		}
+
+		return true;
+	}
+};
 
 
 //////////////////////////////////////////////////////////////////////////
 bool _solution_run(vector<vector<char>>& board)
 {
-	return isValidSudoku(board);
+	printVectorVectorT(board);
+	Solution sln;
+	return sln.isValidSudoku(board);
 }
 
 //#define USE_SOLUTION_CUSTOM
@@ -70,14 +78,9 @@ bool _solution_run(vector<vector<char>>& board)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/valid-sudoku/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

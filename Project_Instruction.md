@@ -158,9 +158,25 @@
 5. 自定义启动代码模板
 
    51.  一系列传参数调用（146）
+	     * 432
+        * 173
+        * 622
+	     * 706
+	     * 705
+	     * 707
+	     * 232
+	     * 225
+	     * 208
+	     * 380
+	     * 1286
+	     * 703 特殊处理
+	     * 146
+	     * 155
+	     * 384
+	     * 1348
 	```C++
-   // 用例第一行使用字符串作为命令调用一系列操作
-   // 第二行为对应参数
+	// 用例第一行使用字符串作为命令调用一系列操作
+	// 第二行为对应参数
 	// 第三行是答案字符串
 	
 	// example:
@@ -185,7 +201,7 @@
 			}
 			else if (sf[i] == "get")
 			{
-				int r = obj->get(param[i][0]);
+   			int r = obj->get(param[i][0]);
 				ans += to_string(r);
 			}
 			else if (sf[i] == "put")
@@ -195,13 +211,14 @@
 			}
 			ans += ",";
 		}
+	    delete obj;
 		ans.pop_back();
 		ans += "]";
 		return ans;
-	}
+   }
 	```
 	
-   52. 环形链表（141）
+	52. 环形链表（141）
 	```C++
 	// 环形链表
 	
@@ -215,26 +232,26 @@
 	}
 	```
 	
-   53. 相交链表（160）
+	53. 相交链表（160）
 	```C++
 	// 相交链表
-	
-	#define USE_SOLUTION_CUSTOM
-	string _solution_custom(TestCases &tc)
-	{
-		string l1 = tc.get<string>();
-		string l2 = tc.get<string>();
-		int k1 = tc.get<int>();
-		int k2 = tc.get<int>();
-		ListNode *pA = nullptr;
-		ListNode *pB = nullptr;
-		StringIntToIntersectionNode(&pA, &pB, l1, l2, k1, k2);
-		ListNode *pNode = getIntersectionNode(pA, pB);
-		if (pNode == nullptr) return "null";
-		return to_string(pNode->val);
-	}
-	```
-	
+   
+   #define USE_SOLUTION_CUSTOM
+   string _solution_custom(TestCases &tc)
+   {
+   	string l1 = tc.get<string>();
+   	string l2 = tc.get<string>();
+   	int k1 = tc.get<int>();
+   	int k2 = tc.get<int>();
+   	ListNode *pA = nullptr;
+   	ListNode *pB = nullptr;
+   	StringIntToIntersectionNode(&pA, &pB, l1, l2, k1, k2);
+   	ListNode *pNode = getIntersectionNode(pA, pB);
+   	if (pNode == nullptr) return "null";
+   	return to_string(pNode->val);
+   }
+   ```
+   
    54. 特殊处理的 Node.cpp 题目
        * 116
        * 117
