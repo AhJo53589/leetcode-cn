@@ -229,8 +229,10 @@ std::vector<T> stringToVectorT(std::string input, char begin/* = '['*/, char end
 	if (!pos.empty()) return {};
 
 	input = input.substr(1, input.size() - 2);
+	if (input.empty()) return {};
 	input += pattern;
 	pos = stringGetSplitPos(input, begin, end, pattern);
+	if (pos.empty()) return {};
 
 	size_t cur = 0;
 	for (auto& i : pos)

@@ -20,16 +20,16 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 template<typename T>
-void printVectorT(T &nums, int width = 1, char delim = ',')
+void printVectorT(T &nums, int width = 1, char pattern = ',')
 {
-	for (auto i : nums) cout << setw(width) << i << delim;
+	for (auto i : nums) cout << setw(width) << i << pattern;
 	cout << endl;
 }
 
 template<typename T>
-void printVectorVectorT(T &matrix, int width = 1, char delim = ',')
+void printVectorVectorT(T& matrix, int width = 1, char pattern = ',')
 {
-	for (auto n : matrix) printVectorT(n, width, delim);
+	for (auto n : matrix) printVectorT(n, width, pattern);
 	cout << endl;
 }
 

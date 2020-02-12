@@ -53,14 +53,9 @@ string _solution_custom(TestCases& tc)
 }
 
 //////////////////////////////////////////////////////////////////////////
+//#define USE_GET_TEST_CASES_IN_CPP
 //vector<string> _get_test_cases_string()
 //{
 //	return {};
 //}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/populating-next-right-pointers-in-each-node/tests.txt";
-}
 

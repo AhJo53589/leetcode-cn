@@ -17,7 +17,8 @@ ListNode *FindNodeByVal(ListNode *pHead, int i);
 const ListNode *DetectCycle(const ListNode *pHead);
 string ListNodeToString(const ListNode *pHead);
 ListNode *StringToListNode(const string data);
-ListNode *StringToListNode(const string data, int iBeg, int iEnd);
+ListNode* StringToListNode(const string data, int iBeg, int iEnd);
+ListNode* StringToListNode(const vector<int>& data, int iBeg, int iEnd);
 ListNode *StringIntToCycleListNode(string strValList, int iCyclePos);
 void StringIntToIntersectionNode(ListNode **pHeadA, ListNode **pHeadB, string strListA, string strListB, int skipA, int skipB);
 

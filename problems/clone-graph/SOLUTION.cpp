@@ -76,10 +76,6 @@ Node* cloneGraph(Node* node)
 //	return connect(root);
 //}
 
-
-//#define NODE_DEFINE_EXCULDE_DEFAULT
-//#define LEETCODE_PROBLEM_133
-
 #define USE_SOLUTION_CUSTOM
 //Node* _solution_custom(TestCases& tc)
 string _solution_custom(TestCases& tc)
@@ -91,14 +87,9 @@ string _solution_custom(TestCases& tc)
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/clone-graph/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

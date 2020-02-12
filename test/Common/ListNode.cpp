@@ -135,18 +135,22 @@ string ListNodeToString(const ListNode * pHead)
 
 ListNode * StringToListNode(const string data)
 {
-	vector<int> val = stringToVectorT<int>(data);
-	return StringToListNode(data, 0, val.size());
+	vector<int> val = convert<std::vector<int>>(data);
+	return StringToListNode(val, 0, val.size());
 }
 
 ListNode * StringToListNode(const string data, int iBeg, int iEnd)
 {
-	vector<int> val = stringToVectorT<int>(data);
+	vector<int> val = convert<std::vector<int>>(data);
+	return StringToListNode(val, iBeg, iEnd);
+}
 
-	ListNode *pNode = nullptr;
+ListNode* StringToListNode(const vector<int>& data, int iBeg, int iEnd)
+{
+	ListNode* pNode = nullptr;
 	for (int i = iEnd - 1; i >= iBeg; i--)
 	{
-		ListNode *pNew = new ListNode(val[i]);
+		ListNode* pNew = new ListNode(data[i]);
 		pNew->next = pNode;
 		pNode = pNew;
 	}
@@ -174,7 +178,7 @@ void StringIntToIntersectionNode(ListNode ** pHeadA, ListNode ** pHeadB, string 
 	*pHeadA = StringToListNode(strListA, 0, skipA);
 	*pHeadB = StringToListNode(strListB, 0, skipB);
 
-	vector<int> listA = stringToVectorT<int>(strListA);
+	vector<int> listA = convert<std::vector<int>>(strListA);
 	ListNode *pNode = StringToListNode(strListA, skipA, listA.size());
 
 	ListNode *pTailA = *pHeadA;
