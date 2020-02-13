@@ -1,7 +1,6 @@
 #pragma once
 
 #include <iostream>
-#include <windows.h>
 #include <fstream>
 #include <sstream>
 
@@ -234,7 +233,7 @@ std::vector<T> stringToVectorT(std::string input, char begin/* = '['*/, char end
 	pos = stringGetSplitPos(input, begin, end, pattern);
 	if (pos.empty()) return {};
 
-	size_t cur = 0;
+	std::size_t cur = 0;
 	for (auto& i : pos)
 	{
 		output.push_back(convert<T>(input.substr(cur, i - cur)));

@@ -3,7 +3,6 @@
 
 #include <iostream>
 #include <iomanip>
-#include <windows.h>
 #include <fstream>
 #include <sstream>
 

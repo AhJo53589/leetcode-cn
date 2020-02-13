@@ -17,18 +17,18 @@ public:
 	}
 
 	TestCases(std::vector<std::string> &&vs) : curr(0), file(std::move(vs)) {}
-
+	TestCases(std::string s) : TestCases(convert<std::vector<std::string>>(s)) {}
 
 	std::string popString()
 	{
-		if (curr == file.size()) return {};
+		if (empty()) return {};
 		return file[curr++];
 	}
 
 	template<class T>
 	T get()
 	{
-		if (curr == file.size()) return {};
+		if (empty()) return {};
 		return convert<T, std::string>(popString());
 	}
 

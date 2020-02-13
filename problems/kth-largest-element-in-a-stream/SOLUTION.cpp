@@ -141,28 +141,31 @@ private:
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
-	vector<int> param2 = tc.get<vector<int>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	KthLargest *obj = nullptr;
 	for (size_t i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "KthLargest")
 		{
-			obj = new KthLargest(param[i][0], param2);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int k = stc.get<int>();
+			vector<int> nums = stc.get<vector<int>>();
+			obj = new KthLargest(k, nums);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "add")
 		{
-			int r = obj->add(param[i][0]);
-			ans += to_string(r);
+			TestCases stc(sp[i]);
+			int val = stc.get<int>();
+			int r = obj->add(val);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
