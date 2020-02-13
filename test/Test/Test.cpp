@@ -74,7 +74,7 @@ int main()
 	file.replace(file.find(strSolution), strSolution.size(), strTest);
 	ifstream f(file);
 	TestCases test_cases(f);
-#endif // USE_GET_TEST_CASES
+#endif
 
 	while (!test_cases.empty())
 	{
