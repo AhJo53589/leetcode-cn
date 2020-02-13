@@ -112,14 +112,9 @@ int _solution_run(string s, int k)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/longest-substring-with-at-least-k-repeating-characters/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

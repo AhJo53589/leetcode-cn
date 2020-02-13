@@ -37,14 +37,9 @@ string _solution_run(string num)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/hexspeak/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

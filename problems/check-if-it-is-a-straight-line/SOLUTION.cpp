@@ -30,15 +30,10 @@ bool _solution_run(vector<vector<int>>& coordinates)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/check-if-it-is-a-straight-line/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 
 

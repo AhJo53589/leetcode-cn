@@ -1,6 +1,6 @@
 
 //////////////////////////////////////////////////////////////////////////
-// ¹þÏ£
+// ï¿½ï¿½Ï£
 int longestConsecutive(vector<int>& nums) 
 {
     if (nums.size() < 2)return nums.size();
@@ -37,7 +37,7 @@ int longestConsecutive(vector<int>& nums)
 
 
 //////////////////////////////////////////////////////////////////////////
-// ÅÅÐò
+// ï¿½ï¿½ï¿½ï¿½
 //class Solution {
 //public:
 //    int longestConsecutive(vector<int>& nums)
@@ -61,7 +61,7 @@ int longestConsecutive(vector<int>& nums)
 
 
 //////////////////////////////////////////////////////////////////////////
-// ²¢²é¼¯
+// ï¿½ï¿½ï¿½é¼¯
 //class Solution {
 //public:
 //    int find(int x)
@@ -118,14 +118,9 @@ int _solution_run(vector<int>& nums)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/longest-consecutive-sequence/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

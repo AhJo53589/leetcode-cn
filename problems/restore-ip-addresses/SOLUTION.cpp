@@ -6,28 +6,28 @@ vector<string> restoreIpAddresses(string& s, int remaining, int iBegin)
 	vector<string> ret;
 	for (int i = iBegin; i < iBegin + 3; i++)
 	{
-		if (remaining == 0 && i != len - 1) continue;	// Èç¹ûÊÇ×îºóÒ»Î»£¬±ØÐëÆ¥Åäµ½×Ö·û´®½áÎ²
-		if ((len - i - 1) > (remaining * 3)) continue;	// ¸ù¾ÝÊÇµÚ¼¸Î»£¬È·¶¨ÔÚ×Ö·û´®ÖÐµÄ¿ÉÄÜÎ»ÖÃ
+		if (remaining == 0 && i != len - 1) continue;	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ¥ï¿½äµ½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ï¿½Î²
+		if ((len - i - 1) > (remaining * 3)) continue;	// ï¿½ï¿½ï¿½ï¿½ï¿½ÇµÚ¼ï¿½Î»ï¿½ï¿½È·ï¿½ï¿½ï¿½ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ï¿½ÐµÄ¿ï¿½ï¿½ï¿½Î»ï¿½ï¿½
 		if ((len - i - 1) < (remaining * 1)) continue;
 
 		string sub = s.substr(iBegin, i - iBegin + 1);
 		int ip = stoi(sub);
-		if (ip < 0 || ip > 255) continue;	// ²»·ûºÏ ip ¸ñÊ½
-		if (to_string(ip) != sub) break;	// ´¦Àí stoi(¡°01¡±) => 1 µÄÌØÊâÇé¿ö
+		if (ip < 0 || ip > 255) continue;	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ip ï¿½ï¿½Ê½
+		if (to_string(ip) != sub) break;	// ï¿½ï¿½ï¿½ï¿½ stoi(ï¿½ï¿½01ï¿½ï¿½) => 1 ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 
 		if (remaining == 0)
 		{
-			// ×îºóÒ»Î»µÃµ½ºÏ·¨Êý×Ö£¬·µ»Ø´ð°¸
+			// ï¿½ï¿½ï¿½Ò»Î»ï¿½Ãµï¿½ï¿½Ï·ï¿½ï¿½ï¿½ï¿½Ö£ï¿½ï¿½ï¿½ï¿½Ø´ï¿½
 			ret.push_back(sub);
 		}
 		else
 		{
-			// °´ÕÕµ±Ç°×´Ì¬£¬½øÒ»²½Ñ°ÕÒÏÂÒ»Î»Êý×Ö
+			// ï¿½ï¿½ï¿½Õµï¿½Ç°×´Ì¬ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ñ°ï¿½ï¿½ï¿½ï¿½Ò»Î»ï¿½ï¿½ï¿½ï¿½
 			vector<string> vs = restoreIpAddresses(s, remaining - 1, i + 1);
 			for (auto& v : vs)
 			{
-				// Ö»ÓÐºóÐøÊý×ÖºÏ·¨£¬vs ²»Îª¿Õ£¬´Ë´¦µÄ sub ²ÅÄÜ¼ÓÈë´ð°¸
-				// Òò´Ë¹ýÂËÁË²»·ûºÏµÄ´ð°¸
+				// Ö»ï¿½Ðºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÖºÏ·ï¿½ï¿½ï¿½vs ï¿½ï¿½Îªï¿½Õ£ï¿½ï¿½Ë´ï¿½ï¿½ï¿½ sub ï¿½ï¿½ï¿½Ü¼ï¿½ï¿½ï¿½ï¿½
+				// ï¿½ï¿½Ë¹ï¿½ï¿½ï¿½ï¿½Ë²ï¿½ï¿½ï¿½ï¿½ÏµÄ´ï¿½
 				ret.push_back(sub + "." + v);
 			}
 		}
@@ -52,14 +52,9 @@ vector<string> _solution_run(string s)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/restore-ip-addresses/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

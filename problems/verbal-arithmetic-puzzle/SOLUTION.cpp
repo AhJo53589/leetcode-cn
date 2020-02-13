@@ -87,7 +87,7 @@ public:
 
 
 //////////////////////////////////////////////////////////////////////////
-// ³ÉÔ±±äÁ¿°æ 52ms
+// ï¿½ï¿½Ô±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ 52ms
 
 //class Solution 
 //{
@@ -108,7 +108,7 @@ public:
 //		if (ans) return;
 //		if (idx == charsLen[lv])
 //		{
-//			//{	// Êä³ö log
+//			//{	// ï¿½ï¿½ï¿½ log
 //			//	for (size_t i = 0; i < 26; i++)
 //			//	{
 //			//		if (en[i] == -1) continue;
@@ -121,11 +121,11 @@ public:
 //			//	inc = temp;
 //			//}
 //
-//			if (!check(lv)) return; // ¼ì²é·½³Ì
+//			if (!check(lv)) return; // ï¿½ï¿½é·½ï¿½ï¿½
 //			ans = (lv == 7);
 //			if (ans) return;
 //
-//			dfs(lv + 1, 0); // ¼ì²é³É¹¦£¬Éý½×¶Î
+//			dfs(lv + 1, 0); // ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¶ï¿½
 //		}
 //
 //		if (idx < 0 || idx >= charsLen[lv]) return;
@@ -135,13 +135,13 @@ public:
 //			if (ne[n]) continue;
 //			if (n == 0 && zeroFlag[c - 'A']) continue;
 //
-//			en[c - 'A'] = n; // ×ÖÄ¸¶ÔÓ¦µÄÊý×Ö
-//			ne[n] = true; // Êý×ÖÊÇ·ñused
+//			en[c - 'A'] = n; // ï¿½ï¿½Ä¸ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+//			ne[n] = true; // ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½used
 //			int tempInc = inc;
 //
 //			dfs(lv, idx + 1);
 //
-//			en[c - 'A'] = -1; // »ØËÝ£¬°Ñ×´Ì¬¸Ä»ØÀ´
+//			en[c - 'A'] = -1; // ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½×´Ì¬ï¿½Ä»ï¿½ï¿½ï¿½
 //			ne[n] = false;
 //			inc = tempInc;
 //		}
@@ -158,7 +158,7 @@ public:
 //		inc = 0;
 //		ans = false;
 //
-//		// ÕûÀíÊý¾Ýµ½·½³ÌÊ½
+//		// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ýµï¿½ï¿½ï¿½ï¿½ï¿½Ê½
 //		words.push_back(result);
 //		for (size_t j = 0; j < words.size(); j++)
 //		{
@@ -171,7 +171,7 @@ public:
 //			}
 //		}
 //
-//		// ÕûÀíÃ¿¸ö½×¶ÎµÄ×ÖÄ¸
+//		// ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½ï¿½×¶Îµï¿½ï¿½ï¿½Ä¸
 //		unordered_set<char> us;
 //		for (size_t d = 0; d < 8; d++)
 //		{
@@ -205,7 +205,7 @@ public:
 //////////////////////////////////////////////////////////////////////////
 // 52ms
 
-// ¼ì²éµ±Ç°½×¶Î·½³ÌÊÇ·ñ³ÉÁ¢£¬ÒÔ¼°¸üÐÂ½øÎ»inc
+// ï¿½ï¿½éµ±Ç°ï¿½×¶Î·ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ô¼ï¿½ï¿½ï¿½ï¿½Â½ï¿½Î»inc
 bool check(vector<vector<int>>& eq, int lv, vector<int>& en, int& inc)
 {
 	auto& cur_eq = eq[lv];
@@ -223,7 +223,7 @@ void dfs(vector<vector<int>>& eq, vector<vector<char>>& chars, int lv, int idx, 
 	if (ans) return;
 	if (idx == chars[lv].size())
 	{
-		//{	// Êä³ö log
+		//{	// ï¿½ï¿½ï¿½ log
 		//	for (size_t i = 0; i < 26; i++)
 		//	{
 		//		if (en[i] == -1) continue;
@@ -235,11 +235,11 @@ void dfs(vector<vector<int>>& eq, vector<vector<char>>& chars, int lv, int idx, 
 		//	cout << str << endl;
 		//}
 
-		if (!check(eq, lv, en, inc)) return; // ¼ì²é·½³Ì
+		if (!check(eq, lv, en, inc)) return; // ï¿½ï¿½é·½ï¿½ï¿½
 		ans = (lv == 7);
 		if (ans) return;
 
-		dfs(eq, chars, lv + 1, 0, inc, ne, en, zeroFlag, ans); // ¼ì²é³É¹¦£¬Éý½×¶Î
+		dfs(eq, chars, lv + 1, 0, inc, ne, en, zeroFlag, ans); // ï¿½ï¿½ï¿½É¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×¶ï¿½
 	}
 
 	if (idx < 0 || idx >= chars[lv].size()) return;
@@ -249,13 +249,13 @@ void dfs(vector<vector<int>>& eq, vector<vector<char>>& chars, int lv, int idx, 
 		if (ne[n] != 'a') continue;
 		if (n == 0 && zeroFlag[c - 'A']) continue;
 
-		en[c - 'A'] = n; // ×ÖÄ¸¶ÔÓ¦µÄÊý×Ö
-		ne[n] = c; // Êý×Ö¶ÔÓ¦µÄ×ÖÄ¸£¨×÷ÓÃÏàµ±ÓÚÊý×ÖÊÇ·ñused£©
+		en[c - 'A'] = n; // ï¿½ï¿½Ä¸ï¿½ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+		ne[n] = c; // ï¿½ï¿½ï¿½Ö¶ï¿½Ó¦ï¿½ï¿½ï¿½ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½àµ±ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½usedï¿½ï¿½
 		int tempInc = inc;
 
 		dfs(eq, chars, lv, idx + 1, inc, ne, en, zeroFlag, ans);
 
-		en[c - 'A'] = -1; // »ØËÝ£¬°Ñ×´Ì¬¸Ä»ØÀ´
+		en[c - 'A'] = -1; // ï¿½ï¿½ï¿½Ý£ï¿½ï¿½ï¿½×´Ì¬ï¿½Ä»ï¿½ï¿½ï¿½
 		ne[n] = 'a';
 		inc = tempInc;
 	}
@@ -312,14 +312,9 @@ bool _solution_run(vector<string>& words, string result)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/verbal-arithmetic-puzzle/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

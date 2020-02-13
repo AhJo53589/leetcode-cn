@@ -30,11 +30,11 @@ vector<int> _solution_custom(TestCases &tc)
 	vector<int> nums = tc.get<vector<int>>();
 	vector<int> ans;
 
-	// nums ÊÇÒÔ¡°ÒýÓÃ¡±·½Ê½´«µÝµÄ¡£Ò²¾ÍÊÇËµ£¬²»¶ÔÊµ²Î×öÈÎºÎ¿½±´
+	// nums ï¿½ï¿½ï¿½Ô¡ï¿½ï¿½ï¿½ï¿½Ã¡ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ÝµÄ¡ï¿½Ò²ï¿½ï¿½ï¿½ï¿½Ëµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Êµï¿½ï¿½ï¿½ï¿½ï¿½ÎºÎ¿ï¿½ï¿½ï¿½
 	int len = removeDuplicates(nums);
 
-	// ÔÚº¯ÊýÀïÐÞ¸ÄÊäÈëÊý×é¶ÔÓÚµ÷ÓÃÕßÊÇ¿É¼ûµÄ¡£
-	// ¸ù¾ÝÄãµÄº¯Êý·µ»ØµÄ³¤¶È, Ëü»á´òÓ¡³öÊý×éÖÐ¸Ã³¤¶È·¶Î§ÄÚµÄËùÓÐÔªËØ¡£
+	// ï¿½Úºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Þ¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç¿É¼ï¿½ï¿½Ä¡ï¿½
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Äºï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ØµÄ³ï¿½ï¿½ï¿½, ï¿½ï¿½ï¿½ï¿½ï¿½Ó¡ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¸Ã³ï¿½ï¿½È·ï¿½Î§ï¿½Úµï¿½ï¿½ï¿½ï¿½ï¿½Ôªï¿½Ø¡ï¿½
 	for (int i = 0; i < len; i++)
 	{
 		ans.push_back(nums[i]);
@@ -43,14 +43,9 @@ vector<int> _solution_custom(TestCases &tc)
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/remove-duplicates-from-sorted-array-ii/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

@@ -35,7 +35,7 @@
 //}
 
 //////////////////////////////////////////////////////////////////////////
-// 并查集
+// 锟斤拷锟介集
 int findroot(vector<int>& uf, int x)
 {
     return (uf[x] == -1) ? x : (uf[x] = findroot(uf, uf[x]));
@@ -72,14 +72,9 @@ int _solution_run(vector<vector<int>>& M)
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/friend-circles/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

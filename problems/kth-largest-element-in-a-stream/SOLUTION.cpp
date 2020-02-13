@@ -4,7 +4,7 @@
 //////////////////////////////////////////////////////////////////////////
 //class KthLargest {
 //public:
-//	priority_queue<int, vector<int>, greater<int>> pq; //×îÐ¡¶Ñ
+//	priority_queue<int, vector<int>, greater<int>> pq; //ï¿½ï¿½Ð¡ï¿½ï¿½
 //	int K;
 //	KthLargest(int k, vector<int>& nums) {
 //		K = k;
@@ -16,11 +16,11 @@
 //	int add(int val) {
 //		if (pq.size() < K)
 //			pq.push(val);
-//		else if (pq.top() < val) {  //val´óÓÚ¶Ñ¶¥£¬Èë¶Ñ
+//		else if (pq.top() < val) {  //valï¿½ï¿½ï¿½Ú¶Ñ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 //			pq.pop();
 //			pq.push(val);
 //		}
-//		return pq.top();  //·ñÔòÖ±½Ó·µ»Ø¶Ñ¶¥
+//		return pq.top();  //ï¿½ï¿½ï¿½ï¿½Ö±ï¿½Ó·ï¿½ï¿½Ø¶Ñ¶ï¿½
 //	}
 //};
 
@@ -166,14 +166,9 @@ string _solution_custom(TestCases &tc)
 }
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/kth-largest-element-in-a-stream/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 

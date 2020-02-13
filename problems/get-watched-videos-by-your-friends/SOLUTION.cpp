@@ -8,7 +8,7 @@ vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vec
 	friend_set.insert(id);
 	vector<int> friend_vector = { id };
 
-	for (int i = 0; i < level; i++)	// ½öÓÃÀ´¼ÆËã´ÎÊý
+	for (int i = 0; i < level; i++)	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 	{
 		vector<int> temp;
 		for (auto n : friend_vector)
@@ -23,7 +23,7 @@ vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vec
 		friend_vector = temp;
 	}
 
-	map<string, int> frequencies;	// Í³¼Æ¹Û¿´ÆµÂÊ
+	map<string, int> frequencies;	// Í³ï¿½Æ¹Û¿ï¿½Æµï¿½ï¿½
 	for (auto n : friend_vector)
 	{
 		for (auto v : watchedVideos[n])
@@ -32,13 +32,13 @@ vector<string> watchedVideosByFriends(vector<vector<string>>& watchedVideos, vec
 		}
 	}
 
-	multimap<int, string> videos;	// ×ª»»Îª°´ÕÕÆµÂÊÉýÐò¼°×ÖµäÐò
+	multimap<int, string> videos;	// ×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½
 	for (auto n : frequencies)
 	{
 		videos.insert({ n.second, n.first });
 	}
 
-	vector<string> ans;	// ×ª»»ÎªÊä³ö¸ñÊ½
+	vector<string> ans;	// ×ªï¿½ï¿½Îªï¿½ï¿½ï¿½ï¿½ï¿½Ê½
 	for (auto m : videos)
 	{
 		ans.push_back(m.second);
@@ -58,14 +58,9 @@ vector<string> _solution_run(vector<vector<string>>& watchedVideos, vector<vecto
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {};
-}
-
-#define USE_GET_TEST_CASES_FILESTREAM
-string _get_test_cases_filestream()
-{
-	return "../../problems/get-watched-videos-by-your-friends/tests.txt";
-}
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
+//{
+//	return {};
+//}
 
