@@ -49,46 +49,47 @@ private:
  */
 
 //////////////////////////////////////////////////////////////////////////
-//vector<int> _solution_run(string freq, string tweetName, int startTime, int endTime)
+//int _solution_run(int)
 //{
-//	//int caseNo = -1;
-//	//static int caseCnt = 0;
-//	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
-//
-//	Solution sln;
-//	return sln.getTweetCountsPerFrequency(freq, tweetName, startTime, endTime);
 //}
 
 #define USE_SOLUTION_CUSTOM
-string _solution_custom(TestCases& tc)
+string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<string>> param = tc.get<vector<vector<string>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
-	TweetCounts* obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	TweetCounts *obj = nullptr;
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "TweetCounts")
 		{
 			obj = new TweetCounts();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "recordTweet")
 		{
-			obj->recordTweet(param[i][0], stoi(param[i][1]));
-			ans += "null";
+			TestCases stc(sp[i]);
+			string tweetName = stc.get<string>();
+			int time = stc.get<int>();
+			obj->recordTweet(tweetName, time);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "getTweetCountsPerFrequency")
 		{
-			vector<int> r = obj->getTweetCountsPerFrequency(param[i][0], param[i][1], stoi(param[i][2]), stoi(param[i][3]));
-			ans += vectorTToString(r);
+			TestCases stc(sp[i]);
+			string freq = stc.get<string>();
+			string tweetName = stc.get<string>();
+			int startTime = stc.get<int>();
+			int endTime = stc.get<int>();
+			vector<int> r = obj->getTweetCountsPerFrequency(freq, tweetName, startTime, endTime);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////

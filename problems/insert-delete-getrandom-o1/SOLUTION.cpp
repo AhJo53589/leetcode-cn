@@ -50,46 +50,49 @@ private:
  */
 
 //////////////////////////////////////////////////////////////////////////
-//bool _solution_run(int val)
+//int _solution_run(int)
 //{
-//	return insert(val);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	RandomizedSet *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "RandomizedSet")
 		{
 			obj = new RandomizedSet();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "insert")
 		{
-			int r = obj->insert(param[i][0]);
-			ans += to_string(r);
+			TestCases stc(sp[i]);
+			int val = stc.get<int>();
+			bool r = obj->insert(val);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "remove")
 		{
-			int r = obj->remove(param[i][0]);
-			ans += to_string(r);
+			TestCases stc(sp[i]);
+			int val = stc.get<int>();
+			bool r = obj->remove(val);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "getRandom")
 		{
+			TestCases stc(sp[i]);
 			int r = obj->getRandom();
-			ans += to_string(r);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////

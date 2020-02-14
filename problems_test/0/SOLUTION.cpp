@@ -1,48 +1,51 @@
 
 //////////////////////////////////////////////////////////////////////////
-/**
- * Definition for a binary tree node.
- * struct TreeNode {
- *     int val;
- *     TreeNode *left;
- *     TreeNode *right;
- *     TreeNode(int x) : val(x), left(NULL), right(NULL) {}
- * };
- */
-class BSTIterator {
+class TweetCounts {
 public:
-	BSTIterator(TreeNode* root) {
-		if (root != nullptr) stk.push(root);
-		while (!stk.empty() && stk.top()->left != nullptr) stk.push(stk.top()->left);
-	}
+    TweetCounts() {
+        
+    }
+    
+    void recordTweet(string tweetName, int time) 
+	{
+		record[tweetName][time]++;
+    }
+    
+    vector<int> getTweetCountsPerFrequency(string freq, string tweetName, int startTime, int endTime)
+	{
+		vector<int> ans;
 
-	/** @return the next smallest number */
-	int next() {
-		TreeNode* pNode = stk.top();
-		stk.pop();
-		int res = pNode->val;
-		if (pNode->right != nullptr)
+		int f = 1;
+		f *= (freq == "minute") ? 60 : 1;
+		f *= (freq == "hour") ? 60 * 60 : 1;
+		f *= (freq == "day") ? 60 * 60 * 24 : 1;
+
+		int t = startTime;
+		while (t <= endTime)
 		{
-			stk.push(pNode->right);
-			while (stk.top()->left != nullptr) stk.push(stk.top()->left);
+			auto bg = record[tweetName].lower_bound(t);
+			auto ed = record[tweetName].upper_bound(min(t + f - 1, endTime));
+			int cnt = 0;
+			for (auto it = bg; it != ed; it++)
+			{
+				cnt += it->second;
+			}
+			ans.push_back(cnt);
+			t += f;
 		}
-		return res;
-	}
 
-	/** @return whether we have a next smallest number */
-	bool hasNext() {
-		return !stk.empty();
-	}
+		return ans;
+    }
 
 private:
-	stack<TreeNode*> stk;
+	unordered_map<string, map<int, int>> record;
 };
 
 /**
- * Your BSTIterator object will be instantiated and called as such:
- * BSTIterator* obj = new BSTIterator(root);
- * int param_1 = obj->next();
- * bool param_2 = obj->hasNext();
+ * Your TweetCounts object will be instantiated and called as such:
+ * TweetCounts* obj = new TweetCounts();
+ * obj->recordTweet(tweetName,time);
+ * vector<int> param_2 = obj->getTweetCountsPerFrequency(freq,tweetName,startTime,endTime);
  */
 
 //////////////////////////////////////////////////////////////////////////
@@ -57,26 +60,30 @@ string _solution_custom(TestCases &tc)
 	vector<string> sp = tc.get<vector<string>>();
 	vector<string> ans;
 
-	BSTIterator *obj = nullptr;
+	TweetCounts *obj = nullptr;
 	for (auto i = 0; i < sf.size(); i++)
 	{
-		if (sf[i] == "BSTIterator")
+		if (sf[i] == "TweetCounts")
 		{
-			TestCases stc(sp[i]);
-			TreeNode* root = stc.get<TreeNode*>();
-			obj = new BSTIterator(root);
+			obj = new TweetCounts();
 			ans.push_back("null");
 		}
-		else if (sf[i] == "next")
+		else if (sf[i] == "recordTweet")
 		{
 			TestCases stc(sp[i]);
-			int r = obj->next();
-			ans.push_back(convert<string>(r));
+			string tweetName = stc.get<string>();
+			int time = stc.get<int>();
+			obj->recordTweet(tweetName, time);
+			ans.push_back("null");
 		}
-		else if (sf[i] == "hasNext")
+		else if (sf[i] == "getTweetCountsPerFrequency")
 		{
 			TestCases stc(sp[i]);
-			bool r = obj->hasNext();
+			string freq = stc.get<string>();
+			string tweetName = stc.get<string>();
+			int startTime = stc.get<int>();
+			int endTime = stc.get<int>();
+			vector<int> r = obj->getTweetCountsPerFrequency(freq, tweetName, startTime, endTime);
 			ans.push_back(convert<string>(r));
 		}
 	}

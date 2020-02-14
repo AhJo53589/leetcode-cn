@@ -66,47 +66,51 @@ public:
  * bool param_3 = obj->contains(key);
  */
 
-////////////////////////////////////////////////////////////////////////
-//void _solution_run(int x)
+//////////////////////////////////////////////////////////////////////////
+//int _solution_run(int)
 //{
-//	return push(x);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	MyHashSet *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "MyHashSet")
 		{
 			obj = new MyHashSet();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "add")
 		{
-			obj->add(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int key = stc.get<int>();
+			obj->add(key);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "remove")
 		{
-			obj->remove(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int key = stc.get<int>();
+			obj->remove(key);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "contains")
 		{
-			bool r = obj->contains(param[i][0]);
-			ans += r ? "true" : "false";
+			TestCases stc(sp[i]);
+			int key = stc.get<int>();
+			bool r = obj->contains(key);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////

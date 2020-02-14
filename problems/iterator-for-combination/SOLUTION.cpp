@@ -62,46 +62,49 @@ private:
  */
 
 //////////////////////////////////////////////////////////////////////////
-//int _solution_run(vector<vector<int>>& intervals)
+//int _solution_run(int)
 //{
 //}
 
 #define USE_SOLUTION_CUSTOM
-string _solution_custom(TestCases& tc)
+string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	string chs = tc.get<string>();
-	int len = tc.get<int>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
-	CombinationIterator* obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	CombinationIterator *obj = nullptr;
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "CombinationIterator")
 		{
-			obj = new CombinationIterator(chs, len);
-			ans += "null";
+			TestCases stc(sp[i]);
+			string characters = stc.get<string>();
+			int combinationLength = stc.get<int>();
+			obj = new CombinationIterator(characters, combinationLength);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "next")
 		{
+			TestCases stc(sp[i]);
 			string r = obj->next();
-			ans += r;
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "hasNext")
 		{
+			TestCases stc(sp[i]);
 			bool r = obj->hasNext();
-			ans += r ? "true" : "false";
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
+
 //////////////////////////////////////////////////////////////////////////
 //#define USE_GET_TEST_CASES_IN_CPP
 //vector<string> _get_test_cases_string()
 //{
 //	return {};
 //}
-

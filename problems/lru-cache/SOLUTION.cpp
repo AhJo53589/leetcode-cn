@@ -92,42 +92,46 @@ public:
 
 
 //////////////////////////////////////////////////////////////////////////
-//void _solution_run(int key, int value)
+//int _solution_run(int)
 //{
-//	return put(key,value);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	LRUCache *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "LRUCache")
 		{
-			obj = new LRUCache(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int capacity = stc.get<int>();
+			obj = new LRUCache(capacity);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "get")
 		{
-			int r = obj->get(param[i][0]);
-			ans += to_string(r);
+			TestCases stc(sp[i]);
+			int key = stc.get<int>();
+			int r = obj->get(key);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "put")
 		{
-			obj->put(param[i][0], param[i][1]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int key = stc.get<int>();
+			int value = stc.get<int>();
+			obj->put(key, value);
+			ans.push_back("null");
 		}
-		ans += ",";
 	}
 	delete obj;
-	ans.pop_back();
-	ans += "]";
-	return ans;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////

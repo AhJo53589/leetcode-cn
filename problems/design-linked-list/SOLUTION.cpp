@@ -259,56 +259,65 @@ private:
 
 
 //////////////////////////////////////////////////////////////////////////
-//void _solution_run(int x)
+//int _solution_run(int)
 //{
-//	return push(x);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	MyLinkedList *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "MyLinkedList")
 		{
 			obj = new MyLinkedList();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "get")
 		{
-			int r = obj->get(param[i][0]);
-			ans += to_string(r);
+			TestCases stc(sp[i]);
+			int index = stc.get<int>();
+			int r = obj->get(index);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "addAtHead")
 		{
-			obj->addAtHead(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int val = stc.get<int>();
+			obj->addAtHead(val);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "addAtTail")
 		{
-			obj->addAtTail(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int val = stc.get<int>();
+			obj->addAtTail(val);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "addAtIndex")
 		{
-			obj->addAtIndex(param[i][0], param[i][1]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int index = stc.get<int>();
+			int val = stc.get<int>();
+			obj->addAtIndex(index, val);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "deleteAtIndex")
 		{
-			obj->deleteAtIndex(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int index = stc.get<int>();
+			obj->deleteAtIndex(index);
+			ans.push_back("null");
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -317,4 +326,3 @@ string _solution_custom(TestCases &tc)
 //{
 //	return {};
 //}
-

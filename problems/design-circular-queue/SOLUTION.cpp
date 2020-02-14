@@ -95,61 +95,68 @@ private:
  */
 
 //////////////////////////////////////////////////////////////////////////
-//bool _solution_run(int value)
+//int _solution_run(int)
 //{
-//	return enQueue(value);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	MyCircularQueue *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "MyCircularQueue")
 		{
-			obj = new MyCircularQueue(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int k = stc.get<int>();
+			obj = new MyCircularQueue(k);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "enQueue")
 		{
-			bool r = obj->enQueue(param[i][0]);
-			ans += r ? "true" : "false";
+			TestCases stc(sp[i]);
+			int value = stc.get<int>();
+			bool r = obj->enQueue(value);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "deQueue")
 		{
+			TestCases stc(sp[i]);
 			bool r = obj->deQueue();
-			ans += r ? "true" : "false";
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "Front")
 		{
+			TestCases stc(sp[i]);
 			int r = obj->Front();
-			ans += to_string(r);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "Rear")
 		{
+			TestCases stc(sp[i]);
 			int r = obj->Rear();
-			ans += to_string(r);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "isEmpty")
 		{
+			TestCases stc(sp[i]);
 			bool r = obj->isEmpty();
-			ans += r ? "true" : "false";
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "isFull")
 		{
+			TestCases stc(sp[i]);
 			bool r = obj->isFull();
-			ans += r ? "true" : "false";
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////

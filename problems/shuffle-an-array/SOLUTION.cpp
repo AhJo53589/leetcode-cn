@@ -39,7 +39,7 @@ private:
 
 
 //////////////////////////////////////////////////////////////////////////
-//Solution(vector<int>& _solution_run(vector<int>& nums)
+//int _solution_run(int)
 //{
 //}
 
@@ -47,32 +47,35 @@ private:
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	Solution *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "Solution")
 		{
-			obj = new Solution(param[i]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			vector<int> nums = stc.get<vector<int>>();
+			obj = new Solution(nums);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "reset")
 		{
+			TestCases stc(sp[i]);
 			vector<int> r = obj->reset();
-			ans += vectorTToString(r);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "shuffle")
 		{
+			TestCases stc(sp[i]);
 			vector<int> r = obj->shuffle();
-			ans += vectorTToString(r);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -81,4 +84,3 @@ string _solution_custom(TestCases &tc)
 //{
 //	return {};
 //}
-

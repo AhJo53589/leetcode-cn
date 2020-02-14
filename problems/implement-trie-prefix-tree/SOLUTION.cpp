@@ -93,46 +93,50 @@ private:
  */
 
 //////////////////////////////////////////////////////////////////////////
-//bool _solution_run(string word)
+//int _solution_run(int)
 //{
-//	return search(word);
 //}
 
 #define USE_SOLUTION_CUSTOM
-string _solution_custom(TestCases& tc)
+string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<string>> param = tc.get<vector<vector<string>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
-	Trie* obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	Trie *obj = nullptr;
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "Trie")
 		{
 			obj = new Trie();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "insert")
 		{
-			obj->insert(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			string word = stc.get<string>();
+			obj->insert(word);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "search")
 		{
-			bool r = obj->search(param[i][0]);
-			ans += r ? "true" : "false";
+			TestCases stc(sp[i]);
+			string word = stc.get<string>();
+			bool r = obj->search(word);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "startsWith")
 		{
-			bool r = obj->startsWith(param[i][0]);
-			ans += r ? "true" : "false";
+			TestCases stc(sp[i]);
+			string prefix = stc.get<string>();
+			bool r = obj->startsWith(prefix);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -141,4 +145,3 @@ string _solution_custom(TestCases& tc)
 //{
 //	return {};
 //}
-

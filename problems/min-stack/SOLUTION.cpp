@@ -1,4 +1,5 @@
 
+//////////////////////////////////////////////////////////////////////////
 class MinStack
 {
 private:
@@ -76,51 +77,54 @@ private:
 
 
 //////////////////////////////////////////////////////////////////////////
-//void _solution_run(int x)
+//int _solution_run(int)
 //{
-//	return push(x);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<vector<int>> param = tc.get<vector<vector<int>>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	MinStack *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "MinStack")
 		{
 			obj = new MinStack();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "push")
 		{
-			obj->push(param[i][0]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			int x = stc.get<int>();
+			obj->push(x);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "pop")
 		{
+			TestCases stc(sp[i]);
 			obj->pop();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "top")
 		{
+			TestCases stc(sp[i]);
 			int r = obj->top();
-			ans += to_string(r);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "getMin")
 		{
+			TestCases stc(sp[i]);
 			int r = obj->getMin();
-			ans += to_string(r);
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
