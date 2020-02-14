@@ -37,42 +37,43 @@ private:
  */
 
 //////////////////////////////////////////////////////////////////////////
-//int _solution_run(int a)
+//int _solution_run(int)
 //{
-//	return next(a);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	string param = tc.get<string>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	BSTIterator *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "BSTIterator")
 		{
-			TreeNode *pRoot = StringToTreeNode(param);
-			obj = new BSTIterator(pRoot);
-			ans += "null";
+			TestCases stc(sp[i]);
+			TreeNode* root = stc.get<TreeNode*>();
+			obj = new BSTIterator(root);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "next")
 		{
+			TestCases stc(sp[i]);
 			int r = obj->next();
-			ans += to_string(r);
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "hasNext")
 		{
+			TestCases stc(sp[i]);
 			bool r = obj->hasNext();
-			ans += r ? "true" : "false";
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -81,4 +82,3 @@ string _solution_custom(TestCases &tc)
 //{
 //	return {};
 //}
-

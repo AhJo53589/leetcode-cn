@@ -230,51 +230,55 @@ private:
 
 
 //////////////////////////////////////////////////////////////////////////
-//void _solution_run(int x)
+//int _solution_run(int)
 //{
-//	return push(x);
 //}
 
 #define USE_SOLUTION_CUSTOM
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
-	vector<string> param = tc.get<vector<string>>();
+	vector<string> sp = tc.get<vector<string>>();
+	vector<string> ans;
 
-	string ans = "[";
 	AllOne *obj = nullptr;
-	for (size_t i = 0; i < sf.size(); i++)
+	for (auto i = 0; i < sf.size(); i++)
 	{
 		if (sf[i] == "AllOne")
 		{
 			obj = new AllOne();
-			ans += "null";
+			ans.push_back("null");
 		}
 		else if (sf[i] == "inc")
 		{
-			obj->inc(param[i]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			string key = stc.get<string>();
+			obj->inc(key);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "dec")
 		{
-			obj->dec(param[i]);
-			ans += "null";
+			TestCases stc(sp[i]);
+			string key = stc.get<string>();
+			obj->dec(key);
+			ans.push_back("null");
 		}
 		else if (sf[i] == "getMaxKey")
 		{
+			TestCases stc(sp[i]);
 			string r = obj->getMaxKey();
-			ans += r;
+			ans.push_back(convert<string>(r));
 		}
 		else if (sf[i] == "getMinKey")
 		{
+			TestCases stc(sp[i]);
 			string r = obj->getMinKey();
-			ans += r;
+			ans.push_back(convert<string>(r));
 		}
-		ans += ",";
 	}
-	ans.pop_back();
-	ans += "]";
-	return ans;
+	delete obj;
+
+	return convert<string>(ans);
 }
 
 //////////////////////////////////////////////////////////////////////////
