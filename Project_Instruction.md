@@ -50,13 +50,15 @@
 2. 生成题目代码
    1. 使用（`New Cpp`）分页
    2. 修改生成文件的位置
-   3. 填写答题代码
-   4. 填写函数入口，用来拆分返回值、函数名和各个参数
-   5. 填写测试用例
+   3. 填写默认代码
+      1. 默认模式下，会将第一个函数或 `class` 中的第一个函数作为入口函数
+      2. 如果是序列操作模式，勾选其选项
+      3. 其他情况，需要生成之后根据具体情况手动修改定制启动代码
+   4. 填写测试用例
       * 一个完整的用例根据题目不同，包括 1-n 行的输入 和 1 行答案
-      * 多个用例中间不含空行
-   6. 点击按钮生成，会创建如（`problems_test/0/`）文件夹，和（`SOLUTION.cpp`）文件、（`test.txt`）文件
-
+   * 多个用例中间不含空行
+   5. 点击按钮生成，会创建如（`problems_test/0/`）文件夹，和（`SOLUTION.cpp`）文件、（`test.txt`）文件
+   
 3. 生成答题文件
    1. 使用（`Generate MD`）分页
    2. 选择难度
@@ -157,7 +159,7 @@
    
 5. 自定义启动代码模板
 
-   51.  一系列传参数调用（使用工具生成）
+   51.  序列操作模式（使用工具选择序列模式定制选项）
 	     * 432
         * 173
         * 622
@@ -180,44 +182,42 @@
 	// 第三行是答案字符串
 	
 	// example:
-	// ["LRUCache","put","put","get","put","get","put","get","get","get"]
-	// [[2],[1,1],[2,2],[1],[3,3],[2],[4,4],[1],[3],[4]]
-	// [null,null,null,1,null,-1,null,-1,3,4]
+	// ["KthLargest","add","add","add","add","add"]
+	// [[3,[4,5,8,2]],[3],[5],[10],[9],[4]]
+	// [null,4,5,5,8,8]
 	
 	#define USE_SOLUTION_CUSTOM
 	string _solution_custom(TestCases &tc)
 	{
 		vector<string> sf = tc.get<vector<string>>();
-		vector<vector<int>> param = tc.get<vector<vector<int>>>();
+		vector<string> sp = tc.get<vector<string>>();
+		vector<string> ans;
 	
-		string ans = "[";
-		LRUCache *obj = nullptr;
+		KthLargest *obj = nullptr;
 		for (size_t i = 0; i < sf.size(); i++)
 		{
-			if (sf[i] == "LRUCache")
+			if (sf[i] == "KthLargest")
 			{
-				obj = new LRUCache(param[i][0]);
-				ans += "null";
-			}
-			else if (sf[i] == "get")
+				TestCases stc(sp[i]);
+				int k = stc.get<int>();
+				vector<int> nums = stc.get<vector<int>>();
+				obj = new KthLargest(k, nums);
+				ans.push_back("null");
+   		}
+			else if (sf[i] == "add")
 			{
-   			int r = obj->get(param[i][0]);
-				ans += to_string(r);
+				TestCases stc(sp[i]);
+				int val = stc.get<int>();
+				int r = obj->add(val);
+				ans.push_back(convert<string>(r));
 			}
-			else if (sf[i] == "put")
-			{
-				obj->put(param[i][0], param[i][1]);
-				ans += "null";
-			}
-			ans += ",";
 		}
-	    delete obj;
-		ans.pop_back();
-		ans += "]";
-		return ans;
-   }
-	```
+		delete obj;
 	
+		return convert<string>(ans);
+	}
+	```
+   
 	52. 环形链表（141）
 	```C++
 	// 环形链表
@@ -235,8 +235,8 @@
 	53. 相交链表（160）
 	```C++
 	// 相交链表
-   
-   #define USE_SOLUTION_CUSTOM
+	
+	#define USE_SOLUTION_CUSTOM
    string _solution_custom(TestCases &tc)
    {
    	string l1 = tc.get<string>();

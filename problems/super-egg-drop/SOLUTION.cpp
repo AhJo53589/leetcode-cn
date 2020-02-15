@@ -56,21 +56,22 @@
 //}
 
 //////////////////////////////////////////////////////////////////////////
-int calcMaximumCoverage(int iTime, int K)
+int calcMaximumCoverage(int K, int T)
 {
-	// 有K个蛋，行动ans次，计算能判断多少层
+	// 有 K 个蛋，行动 T 次，计算能判断多少层
 
-	if (iTime == 1) return 2;		// 如果只有1次行动了，无论有几个蛋，都只能判断出2层
-	if (K == 1) return iTime + 1;	// 如果只有1个蛋了，蛋不能碎，只能一层一层判断，可以判断出ans + 1层
+	//if (T == 1) return 2;		// 如果只有 1 次行动了，无论有几个蛋，都只能判断出 2 层
+	//if (K == 1) return T + 1;	// 如果只有 1 个蛋了，蛋不能碎，只能一层一层判断，可以判断出 T + 1 层
+	if (T == 1 || K == 1) return T + 1;	// 上面两句可以合并成这一句
 
 	// 行动一次，扔个蛋，计算蛋碎了的情况下能判断多少层 + 蛋没碎的情况能判断多少层
-	return calcMaximumCoverage(iTime - 1, K - 1) + calcMaximumCoverage(iTime - 1, K);
+	return calcMaximumCoverage(K - 1, T - 1) + calcMaximumCoverage(K, T - 1);
 }
 
 int superEggDrop(int K, int N)	// 8ms
 {
 	int ans = 1;
-	while (calcMaximumCoverage(ans, K) < N + 1)
+	while (calcMaximumCoverage(K, ans) < N + 1)
 	{
 		++ans;
 	}
