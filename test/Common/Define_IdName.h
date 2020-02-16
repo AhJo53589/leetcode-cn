@@ -392,6 +392,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1347 	minimum-number-of-steps-to-make-two-strings-anagram
 #define SOLUTION_CPP_FOLDER_NAME_ID_1348 	tweet-counts-per-frequency
 #define SOLUTION_CPP_FOLDER_NAME_ID_1349 	maximum-students-taking-exam
+#define SOLUTION_CPP_FOLDER_NAME_ID_5340 	count-negative-numbers-in-a-sorted-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_5341 	product-of-the-last-k-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5342 	maximum-number-of-events-that-can-be-attended
+#define SOLUTION_CPP_FOLDER_NAME_ID_5343 	construct-target-array-with-multiple-sums
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
