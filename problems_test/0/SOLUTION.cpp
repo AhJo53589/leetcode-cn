@@ -1,37 +1,31 @@
 
 //////////////////////////////////////////////////////////////////////////
-class Solution {
+class KthLargest {
 public:
-	bool isPossible(vector<int>& target)
-	{
-		return isPossible(target, 0);
-	}
-
-	bool isPossible(vector<int>& target, long long sum) 
-	{
-		if (all_of(target.begin(), target.end(), [](auto num) { return num == 1; })) return true;
-
-		sum = (sum != 0) ? sum : accumulate(target.begin(), target.end(), sum);
-		for (auto& num : target) 
-		{
-			auto temp = num * 2 - sum;
-			if (temp < 1) continue;
-			num = temp;
-			return isPossible(target, (num + sum) / 2);
-		}
-		return false;
-	}
+    KthLargest(int k, vector<int>& nums) {
+        
+    }
+    
+    int add(int val) {
+        
+    }
 };
 
+/**
+ * Your KthLargest object will be instantiated and called as such:
+ * KthLargest* obj = new KthLargest(k, nums);
+ * int param_1 = obj->add(val);
+ */"
+
 //////////////////////////////////////////////////////////////////////////
-bool _solution_run(vector<int>& target)
+int _solution_run(int val)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-	Solution sln;
-	return sln.isPossible(target);
+	KthLargest sln;
+	return sln.add(val);
 }
 
 //#define USE_SOLUTION_CUSTOM

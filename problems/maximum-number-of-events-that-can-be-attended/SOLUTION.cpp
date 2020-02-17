@@ -5,7 +5,7 @@ public:
     int maxEvents(vector<vector<int>>& events) 
 	{
 		sort(events.rbegin(), events.rend());
-		priority_queue<int, vector<int>, less<int>> pq;
+		priority_queue<int, vector<int>, greater<int>> pq;
 
 		int ans = 0;
 		int day = 0;
