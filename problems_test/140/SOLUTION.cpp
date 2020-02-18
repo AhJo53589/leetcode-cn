@@ -9,7 +9,7 @@ public:
 
 		for (size_t i = 0; i < s.size(); i++)
 		{
-			if (i == validEnd + 1) return {"a"};
+			if (i == validEnd + 1) return {};
 			if (i != 0 && dp[i].empty()) continue;
 			for (auto& word : wordDict)
 			{
