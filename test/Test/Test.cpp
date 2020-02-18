@@ -43,7 +43,7 @@ using namespace std;
 // 1. 选择使用 #题库中的题，根据编号加载，使用 Define_IdName.h 中定义的宏#
 // example: 
 // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> SOLUTION_CPP_FOLDER_NAME_ID_2
-#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_5342
+#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_279
 
 #define ADD_QUOTES(A)					#A
 #define SOLUTION_CPP_PATH(_name)		ADD_QUOTES(../../problems/##_name/SOLUTION.cpp)
@@ -86,10 +86,17 @@ int main()
 #else
 		using func_t = function_type<function<decltype(_solution_run)>>;
 		func_t::return_type ans = func_t::call(_solution_run, test_cases);
-		func_t::return_type answer = test_cases.get<func_t::return_type>();
 #endif
-		cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
 
 		timer.stop();
+
+#ifdef USE_CHECKANSWER_CUSTOM
+		_checkAnswer_custom(ans, test_cases);
+#else
+		func_t::return_type answer = test_cases.get<func_t::return_type>();
+		cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
+#endif
+
+		timer.end();
 	}
 }

@@ -109,32 +109,61 @@ public:
 
 
 //////////////////////////////////////////////////////////////////////////
-int numSquares(int n)
-{
-	set<int> usedSet;
-	queue<pair<int, int>> que;
-	que.push({ n,0 });
-	while (!que.empty())
+class Solution2 {
+public:
+	int numSquares(int n)
 	{
-		auto iCheck = que.front();
-		que.pop();
-		for (int i = 1; i*i <= iCheck.first; i++)
+		set<int> usedSet;
+		queue<pair<int, int>> que;
+		que.push({ n,0 });
+		while (!que.empty())
 		{
-			int nLeftNum = iCheck.first - i * i;
-			if (usedSet.count(nLeftNum)) continue;
-			if (nLeftNum == 0) return iCheck.second + 1;
-			que.push({ nLeftNum, iCheck.second + 1 });
-			usedSet.insert(nLeftNum);
+			auto iCheck = que.front();
+			que.pop();
+			for (int i = 1; i * i <= iCheck.first; i++)
+			{
+				int nLeftNum = iCheck.first - i * i;
+				if (usedSet.count(nLeftNum)) continue;
+				if (nLeftNum == 0) return iCheck.second + 1;
+				que.push({ nLeftNum, iCheck.second + 1 });
+				usedSet.insert(nLeftNum);
+			}
 		}
+		return 0;
 	}
-	return 0;
-}
+};
 
+//////////////////////////////////////////////////////////////////////////
+class Solution {
+public:
+	int numSquares(int n) {
+		int k = 1;
+		vector<int> dp(n + 1, INT_MAX);
+		for (int i = 1; i <= n; i++)
+		{
+			if (i == k * k)
+			{
+				k++;
+				dp[i] = 1;
+				continue;
+			}
+			for (int j = k - 1; j >= 1; j--)
+			{
+				int a = j * j;
+				int b = i - a;
+				dp[i] = min(dp[i], dp[a] + dp[b]);
+				if (dp[i] == 2) continue;
+			}
+		}
+		return dp[n];
+	}
+};
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(int n)
 {
-	return numSquares(n);
+	Solution2 sln;
+	return sln.numSquares(n);
 }
 
 //#define USE_SOLUTION_CUSTOM

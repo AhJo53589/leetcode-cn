@@ -68,6 +68,9 @@ inline char convert(const std::string& input)
 {
 	if (input.empty()) return {};
 	std::string output = input;
+	trimLeftTrailingSpaces(output);
+	trimRightTrailingSpaces(output);
+
 	// Sample:
 	// "A" ==> A
 	if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
@@ -90,6 +93,9 @@ inline std::string convert(const std::string& input)
 {
 	if (input.empty()) return input;
 	std::string output = input;
+	trimLeftTrailingSpaces(output);
+	trimRightTrailingSpaces(output);
+
 	// Sample:
 	// "ABC" ==> ABC
 	if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')

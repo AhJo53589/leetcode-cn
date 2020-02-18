@@ -116,7 +116,7 @@
    ```
 
 3. 题目用例(`tests.txt`)文件，和测试代码在同一个文件夹下  
-   注释掉宏定义之后可以使用代码中的测试用例函数而不是用测试用例文件
+   可以注释掉宏定义，使用代码中的测试用例函数替代测试用例文件
 
    ```C++
    //#define USE_GET_TEST_CASES_IN_CPP
@@ -126,7 +126,24 @@
    //}
    ```
 
-4. 测试程序（`test/Test/Test.cpp`）文件  
+4. 自定义检查答案
+   
+   可以注释掉宏定义，使用自定义检查答案的代码
+
+   例如：140
+   
+   ```C++
+   #define USE_CHECKANSWER_CUSTOM
+	void _checkAnswer_custom(vector<string>& ans, TestCases& tc)
+   {
+	vector<string> answer = tc.get<vector<string>>();
+   	sort(ans.begin(), ans.end());
+   sort(answer.begin(), answer.end());
+   	cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
+   }
+   ```
+   
+5. 测试程序（`test/Test/Test.cpp`）文件  
    通过使用 （`leetcode_cpp_helper.exe`）工具修改  
    或直接修改 `#include` 相关的宏，加载不同的测试代码，然后运行调试
 
@@ -134,109 +151,109 @@
    //////////////////////////////////////////////////////////////////////////
    // 选择题目代码
    #define USE_DEFAULT_INCLUDE
-
+   
    #ifdef USE_DEFAULT_INCLUDE
-
+   
    // 1. 选择使用 #题库中的题，根据编号加载，使用 Define_IdName.h 中定义的宏#
    // example: 
    // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> SOLUTION_CPP_FOLDER_NAME_ID_2
    #define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_1
-
+   
    #define ADD_QUOTES(A)					#A
    #define SOLUTION_CPP_PATH(_name)		ADD_QUOTES(../../problems/##_name/SOLUTION.cpp)
    #define SOLUTION_CPP_ID_TO_PATH(_name)	SOLUTION_CPP_PATH(_name)
    #define SOLUTION_CPP_FULL_PATH			SOLUTION_CPP_ID_TO_PATH(SOLUTION_ID)
    #include SOLUTION_CPP_FULL_PATH
-
+   
    #else
-
+   
    // 2. 或者选择使用 #指定路径的题目代码#
    #define SOLUTION_CPP_FULL_PATH			"../../problems_test/0/SOLUTION.cpp"
    #include SOLUTION_CPP_FULL_PATH
-
+   
    #endif
    ```
-   
-5. 自定义启动代码模板
+
+6. 自定义启动代码模板
 
    51.  序列操作模式（使用工具选择序列模式定制选项）
-	     * 432
+        * 432
         * 173
         * 622
-	     * 706
-	     * 705
-	     * 707
-	     * 232
-	     * 225
-	     * 208
-	     * 380
-	     * 1286
-	     * 703
-	     * 146
-	     * 155
-	     * 384
-	     * 1348
-	```C++
-	// 用例第一行使用字符串作为命令调用一系列操作
-	// 第二行为对应参数
-	// 第三行是答案字符串
-	
-	// example:
-	// ["KthLargest","add","add","add","add","add"]
-	// [[3,[4,5,8,2]],[3],[5],[10],[9],[4]]
-	// [null,4,5,5,8,8]
-	
-	#define USE_SOLUTION_CUSTOM
-	string _solution_custom(TestCases &tc)
-	{
-		vector<string> sf = tc.get<vector<string>>();
-		vector<string> sp = tc.get<vector<string>>();
-		vector<string> ans;
-	
-		KthLargest *obj = nullptr;
-		for (size_t i = 0; i < sf.size(); i++)
-		{
-			if (sf[i] == "KthLargest")
-			{
-				TestCases stc(sp[i]);
-				int k = stc.get<int>();
-				vector<int> nums = stc.get<vector<int>>();
-				obj = new KthLargest(k, nums);
-				ans.push_back("null");
-   		}
-			else if (sf[i] == "add")
-			{
-				TestCases stc(sp[i]);
-				int val = stc.get<int>();
-				int r = obj->add(val);
-				ans.push_back(convert<string>(r));
-			}
-		}
-		delete obj;
-	
-		return convert<string>(ans);
-	}
-	```
+        * 706
+        * 705
+        * 707
+        * 232
+        * 225
+        * 208
+        * 380
+        * 1286
+        * 703
+        * 146
+        * 155
+        * 384
+        * 1348
+   ```C++
+   // 用例第一行使用字符串作为命令调用一系列操作
+   // 第二行为对应参数
+   // 第三行是答案字符串
    
-	52. 环形链表（141）
-	```C++
-	// 环形链表
-	
-	#define USE_SOLUTION_CUSTOM
-	bool _solution_custom(TestCases &tc)
-	{
-		string a = tc.get<string>();
-		int b = tc.get<int>();
-		ListNode *head = StringIntToCycleListNode(a, b);
-		return hasCycle(head);
-	}
-	```
-	
-	53. 相交链表（160）
-	```C++
-	// 相交链表
-	
-	#define USE_SOLUTION_CUSTOM
+   // example:
+   // ["KthLargest","add","add","add","add","add"]
+   // [[3,[4,5,8,2]],[3],[5],[10],[9],[4]]
+   // [null,4,5,5,8,8]
+   
+   #define USE_SOLUTION_CUSTOM
+   string _solution_custom(TestCases &tc)
+   {
+   	vector<string> sf = tc.get<vector<string>>();
+   	vector<string> sp = tc.get<vector<string>>();
+   	vector<string> ans;
+   
+   	KthLargest *obj = nullptr;
+   	for (size_t i = 0; i < sf.size(); i++)
+   	{
+   		if (sf[i] == "KthLargest")
+   		{
+   			TestCases stc(sp[i]);
+   			int k = stc.get<int>();
+   			vector<int> nums = stc.get<vector<int>>();
+   			obj = new KthLargest(k, nums);
+   			ans.push_back("null");
+   		}
+   		else if (sf[i] == "add")
+   		{
+   			TestCases stc(sp[i]);
+   			int val = stc.get<int>();
+   			int r = obj->add(val);
+   			ans.push_back(convert<string>(r));
+   		}
+   	}
+   	delete obj;
+   
+   	return convert<string>(ans);
+   }
+   ```
+
+   52. 环形链表（141）
+   ```C++
+   // 环形链表
+   
+   #define USE_SOLUTION_CUSTOM
+   bool _solution_custom(TestCases &tc)
+   {
+   	string a = tc.get<string>();
+   	int b = tc.get<int>();
+   	ListNode *head = StringIntToCycleListNode(a, b);
+   	return hasCycle(head);
+   }
+   ```
+
+   53. 相交链表（160）
+   ```C++
+   // 相交链表
+   
+   #define USE_SOLUTION_CUSTOM
    string _solution_custom(TestCases &tc)
    {
    	string l1 = tc.get<string>();
@@ -251,7 +268,7 @@
    	return to_string(pNode->val);
    }
    ```
-   
+
    54. 特殊处理的 Node.cpp 题目
        * 116
        * 117

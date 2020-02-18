@@ -1,0 +1,9 @@
+"leetcode"
+["leet","code"]
+true
+"applepenapple"
+["apple","pen"]
+true
+"catsandog"
+["cats","dog","sand","and","cat"]
+false

@@ -36,7 +36,7 @@ inline std::string checkAnswer(T ta, T tb)
 {
 	std::string a = convert<std::string>(ta);
 	std::string b = convert<std::string>(tb); 
-	std::string check = (a == b) ? "" : "\t\t\t WRONG!";
+	std::string check = (a == b) ? "" : "\t\t\t\t\t\t\t\t Wrong Answer";
 	return "Result = \n" + a + "\n\n" + b + "\n" + check;
 }
 
