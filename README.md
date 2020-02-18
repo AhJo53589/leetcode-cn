@@ -15,6 +15,10 @@
 
 [查看详细](./Project_Instruction.md)
 
+## Quick Start
+
+[查看详细](./quickstart/README.md)
+
 ## Selected Solutions
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
