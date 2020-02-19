@@ -107,6 +107,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
 #define SOLUTION_CPP_FOLDER_NAME_ID_136 	single-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_138 	copy-list-with-random-pointer
+#define SOLUTION_CPP_FOLDER_NAME_ID_139 	word-break
+#define SOLUTION_CPP_FOLDER_NAME_ID_140 	word-break-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_141 	linked-list-cycle
 #define SOLUTION_CPP_FOLDER_NAME_ID_142 	linked-list-cycle-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_144 	binary-tree-preorder-traversal
@@ -184,6 +186,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_303 	range-sum-query-immutable
 #define SOLUTION_CPP_FOLDER_NAME_ID_304 	range-sum-query-2d-immutable
 #define SOLUTION_CPP_FOLDER_NAME_ID_309 	best-time-to-buy-and-sell-stock-with-cooldown
+#define SOLUTION_CPP_FOLDER_NAME_ID_312 	burst-balloons
 #define SOLUTION_CPP_FOLDER_NAME_ID_315 	count-of-smaller-numbers-after-self
 #define SOLUTION_CPP_FOLDER_NAME_ID_322 	coin-change
 #define SOLUTION_CPP_FOLDER_NAME_ID_324 	wiggle-sort-ii

@@ -7,3 +7,6 @@ true
 "catsandog"
 ["cats","dog","sand","and","cat"]
 false
+"a"
+[]
+false
