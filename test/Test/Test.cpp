@@ -36,7 +36,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 // 选择题目代码
-#define USE_DEFAULT_INCLUDE
+//#define USE_DEFAULT_INCLUDE
 
 #ifdef USE_DEFAULT_INCLUDE
 
@@ -54,7 +54,7 @@ using namespace std;
 #else
 
 // 2. 或者选择使用 #指定路径的题目代码#
-#define SOLUTION_CPP_FULL_PATH			"../../problems_test/140/SOLUTION.cpp"
+#define SOLUTION_CPP_FULL_PATH			"../../problems_test/341/SOLUTION.cpp"
 #include SOLUTION_CPP_FULL_PATH
 
 #endif
@@ -81,8 +81,8 @@ int main()
 		timer.start();
 
 #ifdef USE_SOLUTION_CUSTOM
-		auto ans = _solution_custom(test_cases);
-		auto answer = test_cases.get<decltype(ans)>();
+		using func_t = function_type<function<decltype(_solution_custom)>>;
+		func_t::return_type ans = _solution_custom(test_cases);
 #else
 		using func_t = function_type<function<decltype(_solution_run)>>;
 		func_t::return_type ans = func_t::call(_solution_run, test_cases);
