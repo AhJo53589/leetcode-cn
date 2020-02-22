@@ -1,0 +1,6 @@
+"abcabc"
+10
+"aaacb"
+3
+"abc"
+1

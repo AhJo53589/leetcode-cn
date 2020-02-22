@@ -4,6 +4,17 @@
 
 
 ---
+## 20200222
+* 5326.count-all-valid-pickup-and-delivery-options 有效的快递序列数目
+
+* 5325.number-of-substrings-containing-all-three-characters 包含所有三种字符的子字符串数目
+
+* 5324.apply-discount-every-n-orders 每隔 n 个顾客打折
+
+* 5323.sort-integers-by-the-number-of-1-bits 根据数字二进制下 1 的数目排序
+
+
+---
 ## 20200221
 * 341.flatten-nested-list-iterator 扁平化嵌套列表迭代器
 

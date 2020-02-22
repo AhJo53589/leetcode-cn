@@ -398,6 +398,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1347 	minimum-number-of-steps-to-make-two-strings-anagram
 #define SOLUTION_CPP_FOLDER_NAME_ID_1348 	tweet-counts-per-frequency
 #define SOLUTION_CPP_FOLDER_NAME_ID_1349 	maximum-students-taking-exam
+#define SOLUTION_CPP_FOLDER_NAME_ID_5323 	sort-integers-by-the-number-of-1-bits
+#define SOLUTION_CPP_FOLDER_NAME_ID_5324 	apply-discount-every-n-orders
+#define SOLUTION_CPP_FOLDER_NAME_ID_5325 	number-of-substrings-containing-all-three-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_5326 	count-all-valid-pickup-and-delivery-options
 #define SOLUTION_CPP_FOLDER_NAME_ID_5340 	count-negative-numbers-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5341 	product-of-the-last-k-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_5342 	maximum-number-of-events-that-can-be-attended
