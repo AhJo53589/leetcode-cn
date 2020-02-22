@@ -1,0 +1,6 @@
+["MedianFinder","addNum","addNum","findMedian","addNum","findMedian"]
+[[],[1],[2],[],[3],[]]
+[null,null,null,1.5,null,2]
+["MedianFinder","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian","addNum","findMedian"]
+[[],[6],[],[10],[],[2],[],[6],[],[5],[],[0],[],[6],[],[3],[],[1],[],[0],[],[0],[]]
+[null,null,6,null,8,null,6,null,6,null,6,null,5.5,null,6,null,5.5,null,5,null,4,null,3]

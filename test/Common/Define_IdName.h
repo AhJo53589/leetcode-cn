@@ -180,6 +180,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_289 	game-of-life
 #define SOLUTION_CPP_FOLDER_NAME_ID_290 	word-pattern
 #define SOLUTION_CPP_FOLDER_NAME_ID_292 	nim-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_295 	find-median-from-data-stream
 #define SOLUTION_CPP_FOLDER_NAME_ID_297 	serialize-and-deserialize-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_300 	longest-increasing-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_301 	remove-invalid-parentheses
@@ -195,6 +196,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_329 	longest-increasing-path-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_334 	increasing-triplet-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_337 	house-robber-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_341 	flatten-nested-list-iterator
 #define SOLUTION_CPP_FOLDER_NAME_ID_344 	reverse-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_345 	reverse-vowels-of-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_347 	top-k-frequent-elements
@@ -214,6 +216,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_393 	utf-8-validation
 #define SOLUTION_CPP_FOLDER_NAME_ID_394 	decode-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_406 	queue-reconstruction-by-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
