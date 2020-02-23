@@ -398,6 +398,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1347 	minimum-number-of-steps-to-make-two-strings-anagram
 #define SOLUTION_CPP_FOLDER_NAME_ID_1348 	tweet-counts-per-frequency
 #define SOLUTION_CPP_FOLDER_NAME_ID_1349 	maximum-students-taking-exam
+#define SOLUTION_CPP_FOLDER_NAME_ID_5169 	number-of-days-between-two-dates
+#define SOLUTION_CPP_FOLDER_NAME_ID_5170 	validate-binary-tree-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5171 	closest-divisors
+#define SOLUTION_CPP_FOLDER_NAME_ID_5172 	largest-multiple-of-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_5323 	sort-integers-by-the-number-of-1-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_5324 	apply-discount-every-n-orders
 #define SOLUTION_CPP_FOLDER_NAME_ID_5325 	number-of-substrings-containing-all-three-characters
