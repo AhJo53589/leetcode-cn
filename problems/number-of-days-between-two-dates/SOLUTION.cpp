@@ -3,7 +3,7 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-	void inputDate(string date, int& y, int& m, int& d)
+	void parseDate(string &date, int& y, int& m, int& d)
 	{
 		stringstream ss;
 		while (date.find("-") != string::npos)
@@ -14,27 +14,28 @@ public:
 		ss >> y >> m >> d;
 	}
 
-	void setDay(tm& day, int y, int m, int d)
+	tm setDate(int& y, int& m, int& d)
 	{
-		day.tm_year = y - 1900;
-		day.tm_mon = m - 1;
-		day.tm_mday = d;
-		day.tm_hour = day.tm_min = day.tm_sec = 0;
+		tm ret;
+		ret.tm_year = y - 1900;
+		ret.tm_mon = m - 1;
+		ret.tm_mday = d;
+		ret.tm_hour = ret.tm_min = ret.tm_sec = 0;
+		return ret;
 	}
 
-    int daysBetweenDates(string date1, string date2)
+	int daysBetweenDates(string date1, string date2)
 	{
-		tm time1, time2;
-		int year, month, day;
-		inputDate(date1, year, month, day);
-		setDay(time1, year, month, day);
-		inputDate(date2, year, month, day);
-		setDay(time2, year, month, day);
+		int y, m, d;
+		parseDate(date1, y, m, d);
+		tm t1 = setDate(y, m, d);
+		parseDate(date2, y, m, d);
+		tm t2 = setDate(y, m, d);
 
-		time_t tim1 = mktime(&time1);
-		time_t tim2 = mktime(&time2);
-		return abs(tim2 - tim1) / (24 * 60 * 60);
-    }
+		time_t tt1 = mktime(&t1);
+		time_t tt2 = mktime(&t2);
+		return abs(tt2 - tt1) / (24 * 60 * 60);
+	}
 };
 
 //////////////////////////////////////////////////////////////////////////
