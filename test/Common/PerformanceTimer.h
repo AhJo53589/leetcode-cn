@@ -8,7 +8,7 @@
 class PerformanceTimer
 {
 public:
-	PerformanceTimer() 
+	PerformanceTimer() : id(0)
 	{
 		QueryPerformanceFrequency(&nFreq); 
 	}
@@ -16,7 +16,8 @@ public:
 	void start()
 	{
 		//std::cout << std::endl << "/////////////////////////////////////////////////////////////////////////////" << std::endl;
-		std::cout << std::endl << "=============================================================================" << std::endl;
+		std::cout << std::endl << "================================================================ ## " << std::setw(6) << id << " ##" << std::endl;
+		id++;
 		QueryPerformanceCounter(&nBeginTime);
 	}
 
@@ -28,7 +29,7 @@ public:
 
 	void end()
 	{
-		std::cout << "///////////////////////////////////////////////////////////// time: "
+		std::cout << "//////////////////////////////////////////////////////////////// ## "
 		//std::cout << "============================================================= time: "
 		//std::cout << "------------------------------------------------------------- time: "
 		//std::cout << "                                                              time: "
@@ -36,6 +37,7 @@ public:
 	}
 
 private:
+	int id;
 	double time;
 	LARGE_INTEGER nFreq;
 	LARGE_INTEGER nBeginTime;
