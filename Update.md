@@ -4,6 +4,15 @@
 
 
 ---
+## 20200224
+* 820.short-encoding-of-words 单词的压缩编码
+
+* 677.map-sum-pairs 键值映射
+
+* 84.largest-rectangle-in-histogram 柱状图中最大的矩形
+
+
+---
 ## 20200223
 * 5172.largest-multiple-of-three 形成三的最大倍数
 

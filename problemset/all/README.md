@@ -70,6 +70,7 @@
 | √ | 78 | [subsets](../../problems/subsets) | [子集](../../problems/subsets/README.md) | [cpp](../../problems/subsets/SOLUTION.cpp) |   | 中等 |
 | √ | 79 | [word-search](../../problems/word-search) | [单词搜索](../../problems/word-search/README.md) | [cpp](../../problems/word-search/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/word-search/solution/79-by-ikaruga/) | 中等 |
 | √ | 80 | [remove-duplicates-from-sorted-array-ii](../../problems/remove-duplicates-from-sorted-array-ii) | [删除排序数组中的重复项](../../problems/remove-duplicates-from-sorted-array-ii/README.md) | [cpp](../../problems/remove-duplicates-from-sorted-array-ii/SOLUTION.cpp) |   | 简单 |
+| √ | 84 | [largest-rectangle-in-histogram](../../problems/largest-rectangle-in-histogram) | [柱状图中最大的矩形](../../problems/largest-rectangle-in-histogram/README.md) | [cpp](../../problems/largest-rectangle-in-histogram/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/) | 困难 | 
 | √ | 88 | [merge-sorted-array](../../problems/merge-sorted-array) | [合并两个有序数组](../../problems/merge-sorted-array/README.md) | [cpp](../../problems/merge-sorted-array/SOLUTION.cpp) |   | 简单 |
 | √ | 89 | [gray-code](../../problems/gray-code) | [格雷编码](../../problems/gray-code/README.md) | [cpp](../../problems/gray-code/SOLUTION.cpp) |   | 中等 |
 | √ | 92 | [reverse-linked-list-ii](../../problems/reverse-linked-list-ii) | [反转链表 II](../../problems/reverse-linked-list-ii/README.md) | [cpp](../../problems/reverse-linked-list-ii/SOLUTION.cpp) |   | 中等 |
@@ -255,6 +256,7 @@
 | √ | 658 | [find-k-closest-elements](../../problems/find-k-closest-elements) | [找到](../../problems/find-k-closest-elements/README.md) | [cpp](../../problems/find-k-closest-elements/SOLUTION.cpp) |   | 中等 |
 | √ | 670 | [maximum-swap](../../problems/maximum-swap) | [最大交换](../../problems/maximum-swap/README.md) | [cpp](../../problems/maximum-swap/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-swap/solution/670-by-ikaruga/) | 中等 |
 | √ | 674 | [longest-continuous-increasing-subsequence](../../problems/longest-continuous-increasing-subsequence) | [最长连续递增序列](../../problems/longest-continuous-increasing-subsequence/README.md) | [cpp](../../problems/longest-continuous-increasing-subsequence/SOLUTION.cpp) |   | 简单 |
+| √ | 677 | [map-sum-pairs](../../problems/map-sum-pairs) | [键值映射](../../problems/map-sum-pairs/README.md) | [cpp](../../problems/map-sum-pairs/SOLUTION.cpp) |   | 中等 | 
 | √ | 687 | [longest-univalue-path](../../problems/longest-univalue-path) | [最长同值路径](../../problems/longest-univalue-path/README.md) | [cpp](../../problems/longest-univalue-path/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/longest-univalue-path/solution/687-by-ikaruga/) | 简单 |
 | √ | 695 | [max-area-of-island](../../problems/max-area-of-island) | [岛屿的最大面积](../../problems/max-area-of-island/README.md) | [cpp](../../problems/max-area-of-island/SOLUTION.cpp) |   | 中等 |
 | √ | 698 | [partition-to-k-equal-sum-subsets](../../problems/partition-to-k-equal-sum-subsets) | [划分为k个相等的子集](../../problems/partition-to-k-equal-sum-subsets/README.md) | [cpp](../../problems/partition-to-k-equal-sum-subsets/SOLUTION.cpp) |   | 中等 |
@@ -277,6 +279,7 @@
 | √ | 771 | [jewels-and-stones](../../problems/jewels-and-stones) | [宝石与石头](../../problems/jewels-and-stones/README.md) | [cpp](../../problems/jewels-and-stones/SOLUTION.cpp) |   | 简单 |
 | √ | 779 | [k-th-symbol-in-grammar](../../problems/k-th-symbol-in-grammar) | [第K个语法符号](../../problems/k-th-symbol-in-grammar/README.md) | [cpp](../../problems/k-th-symbol-in-grammar/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)  | 中等 |
 | √ | 788 | [rotated-digits](../../problems/rotated-digits) | [旋转数字](../../problems/rotated-digits/README.md) | [cpp](../../problems/rotated-digits/SOLUTION.cpp) |   | 简单 |
+| √ | 820 | [short-encoding-of-words](../../problems/short-encoding-of-words) | [单词的压缩编码](../../problems/short-encoding-of-words/README.md) | [cpp](../../problems/short-encoding-of-words/SOLUTION.cpp) |   | 中等 | 
 | √ | 841 | [keys-and-rooms](../../problems/keys-and-rooms) | [钥匙和房间](../../problems/keys-and-rooms/README.md) | [cpp](../../problems/keys-and-rooms/SOLUTION.cpp) |   | 中等 |
 | √ | 887 | [super-egg-drop](../../problems/super-egg-drop) | [鸡蛋掉落](../../problems/super-egg-drop/README.md) | [cpp](../../problems/super-egg-drop/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) | 困难 |
 | √ | 912 | [sort-an-array](../../problems/sort-an-array) | [排序数组](../../problems/sort-an-array/README.md) | [cpp](../../problems/sort-an-array/SOLUTION.cpp) |   | 中等 |

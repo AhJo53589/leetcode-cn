@@ -1,3 +1,27 @@
+class Solution2 {
+	vector<int> a[3], b;
+	string ans;
+public:
+	string largestMultipleOfThree(vector<int>& digits) {
+		int s = 0, i;
+		for (i = 0; i < 3; i++)a[i].clear();
+		b.clear();
+		for (auto c : digits)
+		{
+			s += c;
+			a[c % 3].push_back(c);
+		}
+		for (i = 0; i < 3; i++)sort(a[i].begin(), a[i].end(), greater<int>());
+		if (s % 3)if (!a[s % 3].empty())a[s % 3].pop_back();
+		else for (i = 0; i < 2; i++)a[s % 3 ^ 3].pop_back();
+		for (i = 0; i < 3; i++)for (auto c : a[i])b.push_back(c);
+		sort(b.begin(), b.end(), greater<int>());
+		ans = "";
+		if (b.empty() || b.front())for (auto c : b)ans += c ^ '0';
+		else ans = "0";
+		return ans;
+	}
+};
 
 //////////////////////////////////////////////////////////////////////////
 class Solution {
@@ -6,16 +30,14 @@ public:
 	{
 		for (int i = n; i <= 9; i += 3)
 		{
-			if (cnt[i] != 0)
-			{
-				cnt[i]--;
-				return true;
-			}
+			if (cnt[i] == 0) continue;
+			cnt[i]--;
+			return true;
 		}
 		return false;
 	}
 
-	string largestMultipleOfThree(vector<int>& digits) 
+	string largestMultipleOfThree(vector<int>& digits)
 	{
 		vector<int> cnt(10, 0);
 		int sum = 0;
@@ -25,7 +47,6 @@ public:
 			cnt[d]++;
 		}
 
-		if (cnt[0] == digits.size()) return "0";
 		if (sum % 3 != 0)
 		{
 			int a = sum % 3;
@@ -36,6 +57,7 @@ public:
 				deleteNum(cnt, b);
 			}
 		}
+		if (cnt[0] != 0 && all_of(cnt.begin() + 1, cnt.end(), [](const int& a) { return a == 0; })) return "0";
 
 		string ans;
 		for (int i = cnt.size() - 1; i < cnt.size(); i--)

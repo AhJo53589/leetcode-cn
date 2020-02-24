@@ -69,6 +69,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_80 	remove-duplicates-from-sorted-array-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_84 	largest-rectangle-in-histogram
 #define SOLUTION_CPP_FOLDER_NAME_ID_88 	merge-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_89 	gray-code
 #define SOLUTION_CPP_FOLDER_NAME_ID_92 	reverse-linked-list-ii
@@ -252,6 +253,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_677 	map-sum-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_687 	longest-univalue-path
 #define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
 #define SOLUTION_CPP_FOLDER_NAME_ID_698 	partition-to-k-equal-sum-subsets
@@ -274,6 +276,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array

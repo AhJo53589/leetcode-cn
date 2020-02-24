@@ -3,17 +3,55 @@
 class MapSum {
 public:
 	/** Initialize your data structure here. */
-	MapSum() {
+	MapSum() : ans(0) {	}
 
+	~MapSum()
+	{
+		for (auto n : next)
+		{
+			delete n.second;
+		}
 	}
 
-	void insert(string key, int val) {
-
+	void insert(string key, int val)
+	{
+		MapSum* p = this;
+		for (auto c : key)
+		{
+			if (p->next.count(c) == 0)
+			{
+				p->next[c] = new MapSum();
+			}
+			p = p->next[c];
+		}
+		p->ans = val;
 	}
 
-	int sum(string prefix) {
-
+	int sum(string prefix)
+	{
+		MapSum* p = this;
+		for (auto c : prefix)
+		{
+			if (p->next.count(c) == 0) return 0;
+			p = p->next[c];
+		}
+		return calc(p);
 	}
+
+private:
+	int calc(MapSum* p)
+	{
+		if (p == nullptr) return 0;
+		int ans = p->ans;
+		for (auto& n : p->next)
+		{
+			ans += calc(n.second);
+		}
+		return ans;
+	}
+
+	int ans;
+	map<char, MapSum*> next;
 };
 
 /**

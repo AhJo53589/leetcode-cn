@@ -42,7 +42,7 @@ public:
 		for (auto& word : words)
 		{
 			Trie* p = root;
-			int len = 0;
+			int len = 1;	// len for '#'
 			for (size_t i = word.size() - 1; i < word.size(); i--)
 			{
 				if (p->next[word[i]] == nullptr)
