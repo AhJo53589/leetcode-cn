@@ -1,4 +1,4 @@
-# `（简单）` [5169.number-of-days-between-two-dates 日期之间隔几天](https://leetcode-cn.com/problems/number-of-days-between-two-dates/)
+# `（简单）` [1360.number-of-days-between-two-dates 日期之间隔几天](https://leetcode-cn.com/problems/number-of-days-between-two-dates/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-177/problems/number-of-days-between-two-dates/)
 

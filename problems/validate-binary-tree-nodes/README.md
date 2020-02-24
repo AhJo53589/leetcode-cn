@@ -1,4 +1,4 @@
-# `（中等）` [5170.validate-binary-tree-nodes 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/)
+# `（中等）` [1361.validate-binary-tree-nodes 验证二叉树](https://leetcode-cn.com/problems/validate-binary-tree-nodes/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-177/problems/validate-binary-tree-nodes/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5326.count-all-valid-pickup-and-delivery-options 有效的快递序列数目](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/)
+# `（困难）` [1359.count-all-valid-pickup-and-delivery-options 有效的快递序列数目](https://leetcode-cn.com/problems/count-all-valid-pickup-and-delivery-options/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-20/problems/count-all-valid-pickup-and-delivery-options/)
 

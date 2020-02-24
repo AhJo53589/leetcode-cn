@@ -1,4 +1,4 @@
-# `（中等）` [5324.apply-discount-every-n-orders 每隔 n 个顾客打折](https://leetcode-cn.com/problems/apply-discount-every-n-orders/)
+# `（中等）` [1357.apply-discount-every-n-orders 每隔 n 个顾客打折](https://leetcode-cn.com/problems/apply-discount-every-n-orders/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-20/problems/apply-discount-every-n-orders/)
 

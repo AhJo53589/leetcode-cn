@@ -1,4 +1,4 @@
-# `（中等）` [5171.closest-divisors 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/)
+# `（中等）` [1362.closest-divisors 最接近的因数](https://leetcode-cn.com/problems/closest-divisors/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-177/problems/closest-divisors/)
 

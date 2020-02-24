@@ -1,4 +1,4 @@
-# `（困难）` [5343.construct-target-array-with-multiple-sums 多次求和构造目标数组](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/)
+# `（困难）` [1354.construct-target-array-with-multiple-sums 多次求和构造目标数组](https://leetcode-cn.com/problems/construct-target-array-with-multiple-sums/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-176/problems/construct-target-array-with-multiple-sums/)
 

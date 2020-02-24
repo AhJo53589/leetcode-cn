@@ -1,4 +1,4 @@
-# `（简单）` [5323.sort-integers-by-the-number-of-1-bits 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/)
+# `（简单）` [1356.sort-integers-by-the-number-of-1-bits 根据数字二进制下 1 的数目排序](https://leetcode-cn.com/problems/sort-integers-by-the-number-of-1-bits/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-20/problems/sort-integers-by-the-number-of-1-bits/)
 

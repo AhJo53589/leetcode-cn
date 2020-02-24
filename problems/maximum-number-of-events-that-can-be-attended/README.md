@@ -1,4 +1,4 @@
-# `（中等）` [5342.maximum-number-of-events-that-can-be-attended 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)
+# `（中等）` [1353.maximum-number-of-events-that-can-be-attended 最多可以参加的会议数目](https://leetcode-cn.com/problems/maximum-number-of-events-that-can-be-attended/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-176/problems/maximum-number-of-events-that-can-be-attended/)
 

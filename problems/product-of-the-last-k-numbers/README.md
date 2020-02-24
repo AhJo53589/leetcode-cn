@@ -1,4 +1,4 @@
-# `（中等）` [5341.product-of-the-last-k-numbers 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/)
+# `（中等）` [1352.product-of-the-last-k-numbers 最后 K 个数的乘积](https://leetcode-cn.com/problems/product-of-the-last-k-numbers/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-176/problems/product-of-the-last-k-numbers/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5340.count-negative-numbers-in-a-sorted-matrix 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
+# `（简单）` [1351.count-negative-numbers-in-a-sorted-matrix 统计有序矩阵中的负数](https://leetcode-cn.com/problems/count-negative-numbers-in-a-sorted-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-176/problems/count-negative-numbers-in-a-sorted-matrix/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5325.number-of-substrings-containing-all-three-characters 包含所有三种字符的子字符串数目](https://leetcode-cn.com/problems/number-of-substrings-containing-all-three-characters/)
+# `（中等）` [1358.number-of-substrings-containing-all-three-characters 包含所有三种字符的子字符串数目](https://leetcode-cn.com/problems/number-of-substrings-containing-all-three-characters/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-20/problems/number-of-substrings-containing-all-three-characters/)
 
