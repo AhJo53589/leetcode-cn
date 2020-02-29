@@ -27,7 +27,7 @@
 3. 点击生成 cpp 文件，打开工程即可调试
    * 完美支持大多数题目
    * 支持**序列操作模式**的题目，但有一些题目需要自己构建正确的答案字符串
-   * 一些特殊数据结构，如 [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) ，需要定制启动，[查看详细](https://github.com/AhJo53589/leetcode-cn/blob/master/Project_Instruction.md)
+   * 一些特殊数据结构，如 [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) ，需要定制启动，[查看详细](./Project_Instruction.md)
 
 ```
 【下载地址】
@@ -60,7 +60,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （436 / 1527）
+完成进度 （438 / 1527）
 [查看全部](./problemset/all/README.md)
 
 ## Season

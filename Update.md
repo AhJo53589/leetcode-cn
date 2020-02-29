@@ -5,12 +5,13 @@
 
 ---
 ## 20200229
+* 32.longest-valid-parentheses 最长有效括号
+
 * 914.x-of-a-kind-in-a-deck-of-cards 卡牌分组
 
 * 1109.corporate-flight-bookings 航班预订统计
 
 * 488.zuma-game 祖玛游戏
-
 
 ---
 ## 20200224

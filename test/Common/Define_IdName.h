@@ -27,6 +27,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_28 	implement-strstr
 #define SOLUTION_CPP_FOLDER_NAME_ID_29 	divide-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_31 	next-permutation
+#define SOLUTION_CPP_FOLDER_NAME_ID_32 	longest-valid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_33 	search-in-rotated-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_34 	find-first-and-last-position-of-element-in-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_35 	search-insert-position
