@@ -1,9 +1,4 @@
 #pragma once
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_1 	guess-numbers
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_2 	deep-dark-fraction
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_3 	programmable-robot
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_4 	broken-board-dominoes
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus
 #define SOLUTION_CPP_FOLDER_NAME_ID_1 	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
@@ -225,6 +220,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
+#define SOLUTION_CPP_FOLDER_NAME_ID_488 	zuma-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_451 	sort-characters-by-frequency
 #define SOLUTION_CPP_FOLDER_NAME_ID_454 	4sum-ii
@@ -280,9 +276,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1171 	remove-zero-sum-consecutive-nodes-from-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
@@ -421,3 +419,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_100269 	werewolves-of-leetcode
 #define SOLUTION_CPP_FOLDER_NAME_ID_100272 	happy-new-year-lol
 #define SOLUTION_CPP_FOLDER_NAME_ID_1000002 	find-hidden-info-UGC
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_1 	guess-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_2 	deep-dark-fraction
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_3 	programmable-robot
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_4 	broken-board-dominoes
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_5 	coin-bonus

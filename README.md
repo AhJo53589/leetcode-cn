@@ -3,7 +3,7 @@
 ## Project Instruction
 
 * 本解决方案是 [leetcode-cn](https://leetcode-cn.com/) 的 `C++` 做题助手
-* 可以方便迅速的将其中的题目和测试用例转移到本地 Visual Studio 工程中编码和调试
+* 可以方便迅速的将其中的题目和测试用例转移到本地 `Visual Studio` 工程中编码和调试
   * 绝大部分题目，仅需拷贝入口函数，通过工具生成代码，即可本地运行
   * 包含常用的数据结构，以及相应的序列化反序列化功能
   * 使用相同的用例格式，直接复制用例字符串，即可本地批量运行
@@ -16,6 +16,24 @@
 [查看详细](./Project_Instruction.md)
 
 ## Quick Start
+
+【简洁版】
+
+这是一个可以快速将题目转移到`Windows`平台的`Visual Studio`调试的工具。
+
+1. 填入题目链接（仅支持从题库进入的链接，不支持需要网页登录才能查看的题目）
+   * 或者手动拷题目页面中的默认代码模板
+2. 如需要判题或多用例测试，补全用例的答案和后续用例
+3. 点击生成 cpp 文件，打开工程即可调试
+   * 完美支持大多数题目
+   * 支持**序列操作模式**的题目，但有一些题目需要自己构建正确的答案字符串
+   * 一些特殊数据结构，如 [160. 相交链表](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) ，需要定制启动，[查看详细](https://github.com/AhJo53589/leetcode-cn/blob/master/Project_Instruction.md)
+
+```
+【下载地址】
+链接：https://pan.baidu.com/s/1pc1vGYrGx-6xHc61YD7IxQ 
+提取码：6ebk
+```
 
 [查看详细](./quickstart/README.md)
 
@@ -42,7 +60,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （430 / 1527）
+完成进度 （436 / 1527）
 [查看全部](./problemset/all/README.md)
 
 ## Season
