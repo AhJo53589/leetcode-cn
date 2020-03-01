@@ -4,6 +4,19 @@
 
 
 ---
+## 20200301
+* 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
+
+* 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
+
+* 5346.linked-list-in-binary-tree 二叉树中的列表
+
+* 5345.rank-teams-by-votes 通过投票对团队排名
+
+* 5344.how-many-numbers-are-smaller-than-the-current-number 有多少小于当前数字的数字
+
+
+---
 ## 20200229
 * 32.longest-valid-parentheses 最长有效括号
 

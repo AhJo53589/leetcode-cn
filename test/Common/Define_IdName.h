@@ -412,6 +412,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1361 	validate-binary-tree-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_1362 	closest-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_1363 	largest-multiple-of-three
+#define SOLUTION_CPP_FOLDER_NAME_ID_5344 	how-many-numbers-are-smaller-than-the-current-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_5345 	rank-teams-by-votes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5346 	linked-list-in-binary-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_5347 	minimum-cost-to-make-at-least-one-valid-path-in-a-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

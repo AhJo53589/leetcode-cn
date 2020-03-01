@@ -39,3 +39,4 @@
 | 2020/2/16  | [第 176 场周赛](./contest/weekly-contest-176/README.md)   | 2 / 4 | 485 / 2409 |
 | 2020/2/22  | [第 20 场双周赛](./contest/biweekly-contest-20/README.md) | 4 / 4 | 170 / 1538 |
 | 2020/2/23  | [第 177 场周赛](./contest/weekly-contest-177/README.md)   | 3 / 4 | 376 / 2985 |
+| 2020/3/1   | [第 178 场周赛](./contest/weekly-contest-178/README.md)   | 3 / 4 | 524 / 3304 | 
