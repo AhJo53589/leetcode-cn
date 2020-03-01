@@ -34,6 +34,7 @@ public:
 		//std::cout << "------------------------------------------------------------- time: "
 		//std::cout << "                                                              time: "
 			<< std::fixed << std::setw(6) << std::setprecision(2) << time * 1000 << " ms" << std::endl;
+        std::cout << std::endl << std::endl;
 	}
 
 private:
