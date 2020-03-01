@@ -9,6 +9,8 @@
 
 * 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
 
+* 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
+
 * 5346.linked-list-in-binary-tree 二叉树中的列表
 
 * 5345.rank-teams-by-votes 通过投票对团队排名
