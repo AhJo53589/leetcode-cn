@@ -31,8 +31,8 @@
 
 ```
 【下载地址】
-链接：https://pan.baidu.com/s/1pc1vGYrGx-6xHc61YD7IxQ 
-提取码：6ebk
+链接：https://pan.baidu.com/s/1h91m1HLbM_WIdN4sOL3sEA 
+提取码：qazb
 ```
 
 [查看详细](./quickstart/README.md)
