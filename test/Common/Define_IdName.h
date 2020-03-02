@@ -232,13 +232,16 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_485 	max-consecutive-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_494 	target-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
+#define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
+#define SOLUTION_CPP_FOLDER_NAME_ID_503 	next-greater-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_547 	friend-circles
+#define SOLUTION_CPP_FOLDER_NAME_ID_556 	next-greater-element-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string

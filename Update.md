@@ -4,6 +4,17 @@
 
 
 ---
+## 20200302
+* 496.next-greater-element-i 下一个更大元素 I
+
+* 503.next-greater-element-ii 下一个更大元素 II
+
+* 556.next-greater-element-iii 下一个更大元素 III
+
+* 206.reverse-linked-list 反转链表
+
+
+---
 ## 20200301
 * 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
 
