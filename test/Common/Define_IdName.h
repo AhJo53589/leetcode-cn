@@ -65,6 +65,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_80 	remove-duplicates-from-sorted-array-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_83 	remove-duplicates-from-sorted-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_84 	largest-rectangle-in-histogram
 #define SOLUTION_CPP_FOLDER_NAME_ID_88 	merge-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_89 	gray-code
@@ -74,6 +75,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_95 	unique-binary-search-trees-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_96 	unique-binary-search-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_98 	validate-binary-search-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_100 	same-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_103 	binary-tree-zigzag-level-order-traversal
