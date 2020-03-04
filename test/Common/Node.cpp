@@ -464,3 +464,76 @@ std::string NodeToString(const Node* pHead)
 	return ret;
 }
 #endif
+
+//////////////////////////////////////////////////////////////////////////
+// sample:
+// [1,null,3,2,4,null,5,6]
+#if defined(NODE_DEFINE_LEETCODE_589_N_ARY_TREE_PREORDER_TRAVERSAL) || defined(NODE_DEFINE_LEETCODE_590_N_ARY_TREE_POSTORDER_TRAVERSAL) || defined(NODE_DEFINE_LEETCODE_429_N_ARY_TREE_LEVEL_ORDER_TRAVERSAL)
+class Node
+{
+public:
+    int val;
+    std::vector<Node*> children;
+
+    Node() {}
+
+    Node(int _val, std::vector<Node*> _children)
+    {
+        val = _val;
+		children = _children;
+    }
+};
+
+Node* StringToNode(const std::string data)
+{
+    std::vector<std::string> val = convert<std::vector<std::string>>(data);
+	std::queue<Node*> que;
+	Node* pHead = nullptr;
+	Node* pCurr = nullptr;
+	for (auto& s : val)
+	{
+		if (s == "null" && !que.empty())
+		{
+			pHead = (pHead == nullptr) ? que.front() : pHead;
+            pCurr = que.front();
+			que.pop();
+			continue;
+		}
+		Node* pNode = new Node(stoi(s), std::vector<Node*>());
+		if (pCurr != nullptr)
+		{
+			pCurr->children.push_back(pNode);
+		}
+		que.push(pNode);
+	}
+    return pHead;
+}
+
+std::string NodeToString(const Node* pHead)
+{
+	std::vector<std::string> ans;
+    std::queue<const Node*> que;
+    std::queue<const Node*> queNext;
+	que.push(pHead);
+	while (!que.empty() || !queNext.empty())
+	{
+		while (!que.empty())
+		{
+			for (auto c : que.front()->children)
+			{
+				queNext.push(c);
+			}
+			ans.push_back(to_string(que.front()->val));
+			que.pop();
+		}
+        ans.push_back("null");
+		swap(que, queNext);
+	}
+	for (int i = ans.size() - 1; i >= 0; i--)
+	{
+		if (ans[i] != "null") break;
+		ans.pop_back();
+	}
+	return convert<std::string>(ans);
+}
+#endif

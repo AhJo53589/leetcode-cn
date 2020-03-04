@@ -10,6 +10,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_9 	palindrome-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_10 	regular-expression-matching
 #define SOLUTION_CPP_FOLDER_NAME_ID_11 	container-with-most-water
+#define SOLUTION_CPP_FOLDER_NAME_ID_12 	integer-to-roman
 #define SOLUTION_CPP_FOLDER_NAME_ID_13 	roman-to-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_14 	longest-common-prefix
 #define SOLUTION_CPP_FOLDER_NAME_ID_15 	3sum
@@ -247,6 +248,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
@@ -284,6 +286,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
+#define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings

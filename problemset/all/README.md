@@ -16,6 +16,7 @@
 | √ | 9 | [palindrome-number](../../problems/palindrome-number) | [回文数](../../problems/palindrome-number/README.md) | [cpp](../../problems/palindrome-number/SOLUTION.cpp) |   | 简单 |
 | √ | 10 | [regular-expression-matching](../../problems/regular-expression-matching) | [正则表达式匹配](../../problems/regular-expression-matching/README.md) | [cpp](../../problems/regular-expression-matching/SOLUTION.cpp) |   | 困难 |
 | √ | 11 | [container-with-most-water](../../problems/container-with-most-water) | [盛最多水的容器](../../problems/container-with-most-water/README.md) | [cpp](../../problems/container-with-most-water/SOLUTION.cpp) |   | 中等 |
+| √ | 12 | [integer-to-roman](../../problems/integer-to-roman) | [整数转罗马数字](../../problems/integer-to-roman/README.md) | [cpp](../../problems/integer-to-roman/SOLUTION.cpp) |   | 中等 | 
 | √ | 13 | [roman-to-integer](../../problems/roman-to-integer) | [罗马数字转整数](../../problems/roman-to-integer/README.md) | [cpp](../../problems/roman-to-integer/SOLUTION.cpp) |   | 简单 |
 | √ | 14 | [longest-common-prefix](../../problems/longest-common-prefix) | [最长公共前缀](../../problems/longest-common-prefix/README.md) | [cpp](../../problems/longest-common-prefix/SOLUTION.cpp) |   | 简单 |
 | √ | 15 | [3sum](../../problems/3sum) | [三数之和](../../problems/3sum/README.md) | [cpp](../../problems/3sum/SOLUTION.cpp) |   | 中等 |
@@ -255,6 +256,7 @@
 | √ | 557 | [reverse-words-in-a-string-iii](../../problems/reverse-words-in-a-string-iii) | [反转字符串中的单词 III](../../problems/reverse-words-in-a-string-iii/README.md) | [cpp](../../problems/reverse-words-in-a-string-iii/SOLUTION.cpp) |   | 简单 |
 | √ | 561 | [array-partition-i](../../problems/array-partition-i) | [数组拆分 I](../../problems/array-partition-i/README.md) | [cpp](../../problems/array-partition-i/SOLUTION.cpp) |   | 简单 |
 | √ | 567 | [permutation-in-string](../../problems/permutation-in-string) | [字符串的排列](../../problems/permutation-in-string/README.md) | [cpp](../../problems/permutation-in-string/SOLUTION.cpp) |   | 中等 |
+| √ | 589 | [n-ary-tree-preorder-traversal](../../problems/n-ary-tree-preorder-traversal) | [N叉树的前序遍历](../../problems/n-ary-tree-preorder-traversal/README.md) | [cpp](../../problems/n-ary-tree-preorder-traversal/SOLUTION.cpp) |   | 简单 | 
 | √ | 594 | [longest-harmonious-subsequence](../../problems/longest-harmonious-subsequence) | [最长和谐子序列](../../problems/longest-harmonious-subsequence/README.md) | [cpp](../../problems/longest-harmonious-subsequence/SOLUTION.cpp) |   | 简单 |
 | √ | 599 | [minimum-index-sum-of-two-lists](../../problems/minimum-index-sum-of-two-lists) | [两个列表的最小索引总和](../../problems/minimum-index-sum-of-two-lists/README.md) | [cpp](../../problems/minimum-index-sum-of-two-lists/SOLUTION.cpp) |   | 简单 |
 | √ | 621 | [task-scheduler](../../problems/task-scheduler) | [任务调度器](../../problems/task-scheduler/README.md) | [cpp](../../problems/task-scheduler/SOLUTION.cpp) |   | 中等 |
@@ -292,6 +294,7 @@
 | √ | 912 | [sort-an-array](../../problems/sort-an-array) | [排序数组](../../problems/sort-an-array/README.md) | [cpp](../../problems/sort-an-array/SOLUTION.cpp) |   | 中等 |
 | √ | 914 | [x-of-a-kind-in-a-deck-of-cards](../../problems/x-of-a-kind-in-a-deck-of-cards) | [卡牌分组](../../problems/x-of-a-kind-in-a-deck-of-cards/README.md) | [cpp](../../problems/x-of-a-kind-in-a-deck-of-cards/SOLUTION.cpp) |   | 简单 | 
 | √ | 918 | [maximum-sum-circular-subarray](../../problems/maximum-sum-circular-subarray) | [环形子数组的最大和](../../problems/maximum-sum-circular-subarray/README.md) | [cpp](../../problems/maximum-sum-circular-subarray/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/solution/918-by-ikaruga/) | 中等 |
+| √ | 994 | [rotting-oranges](../../problems/rotting-oranges) | [腐烂的橘子](../../problems/rotting-oranges/README.md) | [cpp](../../problems/rotting-oranges/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/rotting-oranges/solution/994-by-ikaruga/) | 简单 | 
 | √ | 999 | [available-captures-for-rook](../../problems/available-captures-for-rook) | [车的可用捕获量](../../problems/available-captures-for-rook/README.md) | [cpp](../../problems/available-captures-for-rook/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/available-captures-for-rook/solution/999-by-ikaruga/) | 简单 |
 | √ | 1025 | [divisor-game](../../problems/divisor-game) | [除数博弈](../../problems/divisor-game/README.md) | [cpp](../../problems/divisor-game/SOLUTION.cpp) |   | 简单 |
 | √ | 1109 | [corporate-flight-bookings](../../problems/corporate-flight-bookings) | [航班预订统计](../../problems/corporate-flight-bookings/README.md) | [cpp](../../problems/corporate-flight-bookings/SOLUTION.cpp) |   | 中等 | 
