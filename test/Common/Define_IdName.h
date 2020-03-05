@@ -249,6 +249,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal
+#define SOLUTION_CPP_FOLDER_NAME_ID_590 	n-ary-tree-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
@@ -289,8 +290,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_1146 	snapshot-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1171 	remove-zero-sum-consecutive-nodes-from-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget

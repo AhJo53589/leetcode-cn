@@ -4,6 +4,15 @@
 
 
 ---
+## 20200305
+* 590.n-ary-tree-postorder-traversal N叉树的后序遍历
+
+* 1146.snapshot-array 快照数组
+
+* 1103.distribute-candies-to-people 分糖果 II
+
+
+---
 ## 20200304
 * 994.rotting-oranges 腐烂的橘子
 
