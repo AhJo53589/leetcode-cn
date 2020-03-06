@@ -1,4 +1,4 @@
-#define NODE_DEFINE_LEETCODE_429_N_ARY_TREE_LEVEL_ORDER_TRAVERSAL
+#define NODE_DEFINE_LEETCODE_559_MAXIMUM_DEPTH_OF_N_ARY_TREE
 #include "../../test/Common/Node.cpp"
 
 //////////////////////////////////////////////////////////////////////////
@@ -21,40 +21,42 @@
 
 class Solution {
 public:
-    vector<vector<int>> levelOrder(Node* root) 
+    int maxDepth(Node* root) 
     {
-        vector<vector<int>> ans;
-        queue<Node*> queCurr;
-        queue<Node*> queNext;
-        queCurr.push(root);
-        while (!queCurr.empty() || !queNext.empty())
+        if (root == nullptr) return 0;
+        int ans = 0;
+        queue<Node*> que;
+        que.push(root);
+
+        while (!que.empty())
         {
-            ans.push_back(vector<int>());
-            while (!queCurr.empty())
+            int len = que.size();
+            while (len-- > 0)
             {
-                if (queCurr.front() == nullptr) continue;
-                ans.back().push_back(queCurr.front()->val);
-                for (auto c : queCurr.front()->children)
+                auto q = que.front();
+                que.pop();
+                if (q == nullptr) continue;
+                
+                for (auto& c : q->children)
                 {
-                    queNext.push(c);
+                    que.push(c);
                 }
-                queCurr.pop();
             }
-            swap(queCurr, queNext);
+            ans++;
         }
         return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-//vector<vector<int>> _solution_run(Node* root)
+//int _solution_run(Node* root)
 //{
 //	//int caseNo = -1;
 //	//static int caseCnt = 0;
 //	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 //
 //	Solution sln;
-//	return sln.levelOrder(root);
+//	return sln.maxDepth(root);
 //}
 
 #define USE_SOLUTION_CUSTOM
@@ -65,10 +67,9 @@ string _solution_custom(TestCases& tc)
     cout << NodeToString(root) << endl;
 
     Solution sln;
-    auto ans = sln.levelOrder(root);
+    auto ans = sln.maxDepth(root);
     return convert<string>(ans);
 }
-
 
 //////////////////////////////////////////////////////////////////////////
 //#define USE_GET_TEST_CASES_IN_CPP

@@ -1,4 +1,4 @@
-#define NODE_DEFINE_LEETCODE_559_MAXIMUM_DEPTH_OF_N_ARY_TREE
+#define NODE_DEFINE_LEETCODE_429_N_ARY_TREE_LEVEL_ORDER_TRAVERSAL
 #include "../../test/Common/Node.cpp"
 
 //////////////////////////////////////////////////////////////////////////
@@ -21,41 +21,45 @@
 
 class Solution {
 public:
-    int maxDepth(Node* root) 
+    vector<vector<int>> levelOrder(Node* root) 
     {
-        int ans = 0;
-        queue<Node*> que;
-        que.push(root);
-
-        while (!que.empty())
+        vector<vector<int>> ans;
+        queue<Node*> queCurr;
+        queue<Node*> queNext;
+        queCurr.push(root);
+        while (!queCurr.empty() || !queNext.empty())
         {
-            int len = que.size();
-            while (len-- > 0)
+            vector<int> temp;
+            while (!queCurr.empty())
             {
-                auto q = que.front();
-                que.pop();
+                auto q = queCurr.front();
+                queCurr.pop();
                 if (q == nullptr) continue;
-                
-                for (auto& c : q->children)
+                temp.push_back(q->val);
+                for (auto c : q->children)
                 {
-                    que.push(c);
+                    queNext.push(c);
                 }
             }
-            ans++;
+            if (!temp.empty())
+            {
+                ans.push_back(temp);
+            }
+            swap(queCurr, queNext);
         }
         return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-//int _solution_run(Node* root)
+//vector<vector<int>> _solution_run(Node* root)
 //{
 //	//int caseNo = -1;
 //	//static int caseCnt = 0;
 //	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 //
 //	Solution sln;
-//	return sln.maxDepth(root);
+//	return sln.levelOrder(root);
 //}
 
 #define USE_SOLUTION_CUSTOM
@@ -66,9 +70,10 @@ string _solution_custom(TestCases& tc)
     cout << NodeToString(root) << endl;
 
     Solution sln;
-    auto ans = sln.maxDepth(root);
+    auto ans = sln.levelOrder(root);
     return convert<string>(ans);
 }
+
 
 //////////////////////////////////////////////////////////////////////////
 //#define USE_GET_TEST_CASES_IN_CPP

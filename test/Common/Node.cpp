@@ -519,12 +519,14 @@ std::string NodeToString(const Node* pHead)
 	{
 		while (!que.empty())
 		{
-			for (auto c : que.front()->children)
+			auto q = que.front();
+			que.pop();
+			if (q == nullptr) continue;
+			for (auto c : q->children)
 			{
 				queNext.push(c);
 			}
-			ans.push_back(to_string(que.front()->val));
-			que.pop();
+			ans.push_back(to_string(q->val));
 		}
         ans.push_back("null");
 		swap(que, queNext);

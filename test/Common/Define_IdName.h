@@ -221,6 +221,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
@@ -246,6 +247,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_547 	friend-circles
 #define SOLUTION_CPP_FOLDER_NAME_ID_556 	next-greater-element-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_559 	maximum-depth-of-n-ary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal
