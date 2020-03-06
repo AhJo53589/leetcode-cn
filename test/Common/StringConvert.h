@@ -169,6 +169,19 @@ inline std::vector<std::vector<int>> convert(const std::string& input)
 	return stringToVectorT<std::vector<int>>(input);
 }
 
+// std::string to double
+template<>
+inline std::vector<double> convert(const std::string& input)
+{
+    return stringToVectorT<double>(input);
+}
+
+template<>
+inline std::vector<std::vector<double>> convert(const std::string& input)
+{
+    return stringToVectorT<std::vector<double>>(input);
+}
+
 // std::string to TreeNode*
 template<>
 inline std::vector<TreeNode*> convert(const std::string& input)
@@ -229,6 +242,19 @@ template<>
 inline std::string convert(const std::vector<std::vector<int>>& input)
 {
 	return vectorTToString(input);
+}
+
+// double To std::string
+template<>
+inline std::string convert(const std::vector<double>& input)
+{
+    return vectorTToString(input);
+}
+
+template<>
+inline std::string convert(const std::vector<std::vector<double>>& input)
+{
+    return vectorTToString(input);
 }
 
 
