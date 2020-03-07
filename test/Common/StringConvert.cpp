@@ -29,16 +29,16 @@ void trimRightTrailingSpaces(std::string& input)
 std::vector<std::size_t> stringGetSplitPos(const std::string& input, char begin, char end, char pattern)
 {
 	std::vector<std::size_t> output;
-	int st = 0;
+	int qmax = 0;
 	for (size_t i = 0; i < input.size(); i++)
 	{
-		if (input[i] == pattern && st == 0)
+		if (input[i] == pattern && qmax == 0)
 		{
 			output.push_back(i);
 			continue;
 		}
-		st += (input[i] == begin);
-		st -= (input[i] == end);
+		qmax += (input[i] == begin);
+		qmax -= (input[i] == end);
 	}
 	return output;
 }
@@ -74,7 +74,7 @@ std::vector<std::map<std::string, std::string>> StringToVectorMapStringString(st
 	};
 
 	std::vector<std::map<std::string, std::string>> output;
-	std::stack<std::map<std::string, std::string>> st;
+	std::stack<std::map<std::string, std::string>> qmax;
 
 	std::size_t i = 0;
 	while (i < input.size())
@@ -83,13 +83,13 @@ std::vector<std::map<std::string, std::string>> StringToVectorMapStringString(st
 		if (input[i] == '{')
 		{
 			i++;
-			st.push(std::map<std::string, std::string>());
+			qmax.push(std::map<std::string, std::string>());
 		}
 		if (input[i] == '}')
 		{
 			i++;
-			output.push_back(st.top());
-			st.pop();
+			output.push_back(qmax.top());
+			qmax.pop();
 		}
 		if (input[i] == ',')
 		{
@@ -132,7 +132,7 @@ std::vector<std::map<std::string, std::string>> StringToVectorMapStringString(st
 			}
 		}
 
-		auto& cur = st.top();
+		auto& cur = qmax.top();
 		cur.insert({key, value});
 	}
 

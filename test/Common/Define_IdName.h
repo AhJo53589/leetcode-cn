@@ -425,6 +425,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1361 	validate-binary-tree-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_1362 	closest-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_1363 	largest-multiple-of-three
+#define SOLUTION_CPP_FOLDER_NAME_ID_5336 	increasing-decreasing-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5337 	find-the-longest-substring-containing-vowels-in-even-counts
+#define SOLUTION_CPP_FOLDER_NAME_ID_5338 	longest-zigzag-path-in-a-binary-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_5339 	maximum-sum-bst-in-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5344 	how-many-numbers-are-smaller-than-the-current-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_5345 	rank-teams-by-votes
 #define SOLUTION_CPP_FOLDER_NAME_ID_5346 	linked-list-in-binary-tree
