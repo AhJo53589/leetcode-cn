@@ -433,6 +433,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5345 	rank-teams-by-votes
 #define SOLUTION_CPP_FOLDER_NAME_ID_5346 	linked-list-in-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5347 	minimum-cost-to-make-at-least-one-valid-path-in-a-grid
+#define SOLUTION_CPP_FOLDER_NAME_ID_5352 	generate-a-string-with-characters-that-have-odd-counts
+#define SOLUTION_CPP_FOLDER_NAME_ID_5353 	bulb-switcher-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5354 	time-needed-to-inform-all-employees
+#define SOLUTION_CPP_FOLDER_NAME_ID_5355 	frog-position-after-t-seconds
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
