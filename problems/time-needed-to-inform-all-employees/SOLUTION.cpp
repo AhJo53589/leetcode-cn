@@ -1,3 +1,20 @@
+//////////////////////////////////////////////////////////////////////////
+class Solution2 {
+public:
+    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) {
+        vector<int> v(n,0);
+        for(int i=0;i<n;++i){
+            int m=i;
+            int t=0;
+            while((m=manager[m])!=-1){
+                t+=informTime[m];
+                if(t<=v[m]) break;
+                v[m]=t;
+            }
+        }
+        return *max_element(v.begin(),v.end());
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 class Solution {
@@ -16,7 +33,7 @@ public:
         }
     }
 
-    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime) 
+    int numOfMinutes(int n, int headID, vector<int>& manager, vector<int>& informTime)
     {
         vector<vector<int>> mana(manager.size(), vector<int>());
         for (int i = 0; i < manager.size(); i++)

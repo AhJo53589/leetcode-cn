@@ -4,19 +4,29 @@ class Solution {
 public:
     int findTheLongestSubstring(string s) 
 	{
-		vector<char> vowel = { 'a', 'e', 'i', 'o', 'u' };
-		map<char, int> count;
-		for (auto&c : s)
+		unordered_map<char, int> vowel = { {'a', 1}, {'e', 2}, {'i', 3}, {'o', 4}, {'u', 5} };
+        vector<int> pos((1 << 5), -1);
+		int ans = 0;
+		int now = 0;
+		pos[now] = 0;
+		for (int i = 0; i < s.size(); i++)
 		{
-			count[c]++;
-		}
-		map<char, int> window;
-		for (auto& c : vowel)
-		{
-			if ()
+			int t = vowel[s[i]] - 1;
+			if (t != -1)
 			{
+				now ^= (1 << t);
+			}
+			if (pos[now] == -1)
+			{
+				pos[now] = i + 1;
+			}
+			else
+			{
+				ans = max(ans, i + 1 - pos[now]);
 			}
 		}
+
+		return ans;
     }
 };
 

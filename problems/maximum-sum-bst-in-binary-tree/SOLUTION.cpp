@@ -2,72 +2,28 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int maxSumBST(TreeNode* root, map<TreeNode*, int>& cache)
-    {
-        if (root == nullptr) return 0;
-        if (cache.count(root) != 0) return cache[root];
-
-        int ans = root->val;
-        bool flag = true;
-        if (root->left != nullptr && root->left->val >= root->val)
-        {
-            flag = false;
-        }
-        int left = maxSumBST(root->left, cache);
-        if (left == INT_MIN)
-        {
-            flag = false;
-        }
-        else
-        {
-            ans += left;
-        }
-
-        if (root->right != nullptr && root->right->val <= root->val)
-        {
-            flag = false;
-        }
-        int right = maxSumBST(root->right, cache);
-        if (right == INT_MIN)
-        {
-            flag = false;
-        }
-        else
-        {
-            ans += right;
-        }
-
-        ans = flag ? ans : INT_MIN;
-        cache[root] = ans;
-        return ans;
-    }
-
     int maxSumBST(TreeNode* root) 
     {
         int ans = 0;
-        map<TreeNode*, int> cache;
-        queue<TreeNode*> que;
-        que.push(root);
-        stack<TreeNode*> st;
-
-        while (!que.empty())
-        {
-            auto q = que.front();
-            que.pop();
-            if (q == nullptr) continue;
-            st.push(q);
-
-            que.push(q->left);
-            que.push(q->right);
-        }
-        while (!st.empty())
-        {
-            auto q = st.top();
-            st.pop();
-
-            ans = max(ans, maxSumBST(q, cache));
-        }
+        dfs(root, ans);
         return ans;
+    }
+
+    vector<int> dfs(TreeNode* root, int& ans) 
+    {
+        if (!root) return { true, INT_MAX, INT_MIN, 0 };
+        auto lArr = dfs(root->left, ans);
+        auto rArr = dfs(root->right, ans);
+        int sum = 0, curmax, curmin;
+        if (!lArr[0] || !rArr[0] || root->val >= rArr[1] || root->val <= lArr[2]) 
+        {
+            return { false, 0, 0, 0 };
+        }
+        curmin = root->left ? lArr[1] : root->val;
+        curmax = root->right ? rArr[2] : root->val;
+        sum += (root->val + lArr[3] + rArr[3]);
+        ans = max(ans, sum);
+        return { true, curmin, curmax, sum };
     }
 };
 
