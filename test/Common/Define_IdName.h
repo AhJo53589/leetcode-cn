@@ -43,6 +43,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_48 	rotate-image
 #define SOLUTION_CPP_FOLDER_NAME_ID_49 	group-anagrams
 #define SOLUTION_CPP_FOLDER_NAME_ID_50 	powx-n
+#define SOLUTION_CPP_FOLDER_NAME_ID_52 	n-queens-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_53 	maximum-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_54 	spiral-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_55 	jump-game

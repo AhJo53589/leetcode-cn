@@ -1,41 +1,53 @@
+//////////////////////////////////////////////////////////////////////////
+struct DSU
+{
+    std::vector<int> data;
+    
+    void init(int n) { data.assign(n, -1); }
+    
+    bool unionSet(int x, int y)
+    {
+        x = root(x);
+        y = root(y);
+        if (x != y)
+        {
+            if (data[y] < data[x])
+            {
+                std::swap(x, y);
+            }
+            data[x] += data[y];
+            data[y] = x;
+        }
+        return x != y;
+    }
+
+    bool same(int x, int y) { return root(x) == root(y); }
+
+    int root(int x) { return data[x] < 0 ? x : data[x] = root(data[x]); }
+
+    int size(int x) { return -data[root(x)]; }
+};
+
+class Solution {
+public:
+    int findCircleNum(vector<vector<int>>& M) 
+    {
+        int ans = M.size();
+        DSU dsu;
+        dsu.init(M.size());
+        for (size_t i = 0; i < M.size(); i++)
+        {
+            for (size_t j = i + 1; j < M.size(); j++)
+            {
+                if (M[i][j] == 0) continue;
+                ans -= dsu.unionSet(i, j);
+            }
+        }
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
-//int findCircleNum(vector<vector<int>>& M)
-//{
-//	int iNum = 0;
-//	unordered_set<int> visited;
-//	queue<int> que;
-//	for (int i = 0; i < M.size(); i++)
-//	{
-//		if (visited.count(i)) continue;
-//		visited.insert(i);
-//		iNum++;
-//		for (int j = 0; j < M.size(); j++)
-//		{
-//			if (visited.count(j)) continue;
-//			if (M[i][j] == 0) continue;
-//			visited.insert(j);
-//			que.push(j);
-//		}
-//		while (!que.empty())
-//		{
-//			int q = que.front();
-//			que.pop();
-//			for (int j = 0; j < M.size(); j++)
-//			{
-//				if (visited.count(j)) continue;
-//				if (M[q][j] == 0) continue;
-//				visited.insert(j);
-//				que.push(j);
-//			}
-//		}
-//		if (visited.size() == M.size()) return iNum;
-//	}
-//	return iNum;
-//}
-
-//////////////////////////////////////////////////////////////////////////
-// ���鼯
 int findroot(vector<int>& uf, int x)
 {
     return (uf[x] == -1) ? x : (uf[x] = findroot(uf, uf[x]));
@@ -63,7 +75,8 @@ int findCircleNum(vector<vector<int>>& M)
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<vector<int>>& M)
 {
-	return findCircleNum(M);
+    Solution sln;
+	return sln.findCircleNum(M);
 }
 
 //#define USE_SOLUTION_CUSTOM

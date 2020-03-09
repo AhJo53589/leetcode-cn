@@ -49,6 +49,7 @@
 | √ | 48 | [rotate-image](../../problems/rotate-image) | [旋转图像](../../problems/rotate-image/README.md) | [cpp](../../problems/rotate-image/SOLUTION.cpp) |   | 简单 |
 | √ | 49 | [group-anagrams](../../problems/group-anagrams) | [字母异位词分组](../../problems/group-anagrams/README.md) | [cpp](../../problems/group-anagrams/SOLUTION.cpp) |   | 中等 |
 | √ | 50 | [powx-n](../../problems/powx-n) | [Pow(x, n)](../../problems/powx-n/README.md) | [cpp](../../problems/powx-n/SOLUTION.cpp) |   | 中等 |
+| √ | 52 | [n-queens-ii](../../problems/n-queens-ii) | [N皇后 II](../../problems/n-queens-ii/README.md) | [cpp](../../problems/n-queens-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/friend-circles/solution/547-by-ikaruga/) | 困难 | 
 | √ | 53 | [maximum-subarray](../../problems/maximum-subarray) | [最大子序和](../../problems/maximum-subarray/README.md) | [cpp](../../problems/maximum-subarray/SOLUTION.cpp) |   | 简单 |
 | √ | 54 | [spiral-matrix](../../problems/spiral-matrix) | [螺旋矩阵](../../problems/spiral-matrix/README.md) | [cpp](../../problems/spiral-matrix/SOLUTION.cpp) |   | 中等 |
 | √ | 55 | [jump-game](../../problems/jump-game) | [跳跃游戏](../../problems/jump-game/README.md) | [cpp](../../problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
@@ -252,7 +253,7 @@
 | √ | 516 | [longest-palindromic-subsequence](../../problems/longest-palindromic-subsequence) | [最长回文子序列](../../problems/longest-palindromic-subsequence/README.md) | [cpp](../../problems/longest-palindromic-subsequence/SOLUTION.cpp) |   | 中等 |
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 |
-| √ | 547 | [friend-circles](../../problems/friend-circles) | [朋友圈](../../problems/friend-circles/README.md) | [cpp](../../problems/friend-circles/SOLUTION.cpp) |   | 中等 |
+| √ | 547 | [friend-circles](../../problems/friend-circles) | [朋友圈](../../problems/friend-circles/README.md) | [cpp](../../problems/friend-circles/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/friend-circles/solution/547-by-ikaruga/) | 中等 | 
 | √ | 556 | [next-greater-element-iii](../../problems/next-greater-element-iii) | [下一个更大元素 III](../../problems/next-greater-element-iii/README.md) | [cpp](../../problems/next-greater-element-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/reverse-linked-list/solution/206-by-ikaruga/) | 中等 |
 | √ | 557 | [reverse-words-in-a-string-iii](../../problems/reverse-words-in-a-string-iii) | [反转字符串中的单词 III](../../problems/reverse-words-in-a-string-iii/README.md) | [cpp](../../problems/reverse-words-in-a-string-iii/SOLUTION.cpp) |   | 简单 |
 | √ | 559 | [maximum-depth-of-n-ary-tree](../../problems/maximum-depth-of-n-ary-tree) | [N叉树的最大深度](../../problems/maximum-depth-of-n-ary-tree/README.md) | [cpp](../../problems/maximum-depth-of-n-ary-tree/SOLUTION.cpp) |   | 简单 |
