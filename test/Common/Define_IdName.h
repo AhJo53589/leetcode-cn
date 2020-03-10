@@ -40,6 +40,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_44 	wildcard-matching
 #define SOLUTION_CPP_FOLDER_NAME_ID_45 	jump-game-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_46 	permutations
+#define SOLUTION_CPP_FOLDER_NAME_ID_47 	permutations-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_48 	rotate-image
 #define SOLUTION_CPP_FOLDER_NAME_ID_49 	group-anagrams
 #define SOLUTION_CPP_FOLDER_NAME_ID_50 	powx-n
@@ -208,6 +209,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower
 #define SOLUTION_CPP_FOLDER_NAME_ID_375 	guess-number-higher-or-lower-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_377 	combination-sum-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
 #define SOLUTION_CPP_FOLDER_NAME_ID_384 	shuffle-an-array
@@ -245,6 +247,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_543 	diameter-of-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_547 	friend-circles
 #define SOLUTION_CPP_FOLDER_NAME_ID_556 	next-greater-element-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii

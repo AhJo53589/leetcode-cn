@@ -46,6 +46,7 @@
 | √ | 44 | [wildcard-matching](../../problems/wildcard-matching) | [通配符匹配](../../problems/wildcard-matching/README.md) | [cpp](../../problems/wildcard-matching/SOLUTION.cpp) |   | 困难 |
 | √ | 45 | [jump-game-ii](../../problems/jump-game-ii) | [跳跃游戏 II](../../problems/jump-game-ii/README.md) | [cpp](../../problems/jump-game-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) | 困难 |
 | √ | 46 | [permutations](../../problems/permutations) | [全排列](../../problems/permutations/README.md) | [cpp](../../problems/permutations/SOLUTION.cpp) |   | 中等 |
+| √ | 47 | [permutations-ii](../../problems/permutations-ii) | [全排列 II](../../problems/permutations-ii/README.md) | [cpp](../../problems/permutations-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 48 | [rotate-image](../../problems/rotate-image) | [旋转图像](../../problems/rotate-image/README.md) | [cpp](../../problems/rotate-image/SOLUTION.cpp) |   | 简单 |
 | √ | 49 | [group-anagrams](../../problems/group-anagrams) | [字母异位词分组](../../problems/group-anagrams/README.md) | [cpp](../../problems/group-anagrams/SOLUTION.cpp) |   | 中等 |
 | √ | 50 | [powx-n](../../problems/powx-n) | [Pow(x, n)](../../problems/powx-n/README.md) | [cpp](../../problems/powx-n/SOLUTION.cpp) |   | 中等 |
@@ -217,6 +218,7 @@
 | √ | 371 | [sum-of-two-integers](../../problems/sum-of-two-integers) | [两整数之和](../../problems/sum-of-two-integers/README.md) | [cpp](../../problems/sum-of-two-integers/SOLUTION.cpp) |   | 简单 |
 | √ | 374 | [guess-number-higher-or-lower](../../problems/guess-number-higher-or-lower) | [猜数字大小](../../problems/guess-number-higher-or-lower/README.md) | [cpp](../../problems/guess-number-higher-or-lower/SOLUTION.cpp) |   | 简单 |
 | √ | 375 | [guess-number-higher-or-lower-ii](../../problems/guess-number-higher-or-lower-ii) | [猜数字大小 II](../../problems/guess-number-higher-or-lower-ii/README.md) | [cpp](../../problems/guess-number-higher-or-lower-ii/SOLUTION.cpp) |   | 中等 |
+| √ | 377 | [combination-sum-iv](../../problems/combination-sum-iv) | [组合总和 Ⅳ](../../problems/combination-sum-iv/README.md) | [cpp](../../problems/combination-sum-iv/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/combination-sum-iv/solution/377-by-ikaruga/) | 中等 | 
 | √ | 378 | [kth-smallest-element-in-a-sorted-matrix](../../problems/kth-smallest-element-in-a-sorted-matrix) | [有序矩阵中第K小的元素](../../problems/kth-smallest-element-in-a-sorted-matrix/README.md) | [cpp](../../problems/kth-smallest-element-in-a-sorted-matrix/SOLUTION.cpp) |   | 中等 |
 | √ | 380 | [insert-delete-getrandom-o1](../../problems/insert-delete-getrandom-o1) | [常数时间插入、删除和获取随机元素](../../problems/insert-delete-getrandom-o1/README.md) | [cpp](../../problems/insert-delete-getrandom-o1/SOLUTION.cpp) |   | 中等 |
 | √ | 384 | [shuffle-an-array](../../problems/shuffle-an-array) | [打乱数组](../../problems/shuffle-an-array/README.md) | [cpp](../../problems/shuffle-an-array/SOLUTION.cpp) |   | 中等 |
@@ -253,6 +255,7 @@
 | √ | 516 | [longest-palindromic-subsequence](../../problems/longest-palindromic-subsequence) | [最长回文子序列](../../problems/longest-palindromic-subsequence/README.md) | [cpp](../../problems/longest-palindromic-subsequence/SOLUTION.cpp) |   | 中等 |
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 |
+| √ | 543 | [diameter-of-binary-tree](../../problems/diameter-of-binary-tree) | [二叉树的直径](../../problems/diameter-of-binary-tree/README.md) | [cpp](../../problems/diameter-of-binary-tree/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diameter-of-binary-tree/solution/543-by-ikaruga/) | 简单 | 
 | √ | 547 | [friend-circles](../../problems/friend-circles) | [朋友圈](../../problems/friend-circles/README.md) | [cpp](../../problems/friend-circles/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/friend-circles/solution/547-by-ikaruga/) | 中等 | 
 | √ | 556 | [next-greater-element-iii](../../problems/next-greater-element-iii) | [下一个更大元素 III](../../problems/next-greater-element-iii/README.md) | [cpp](../../problems/next-greater-element-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/reverse-linked-list/solution/206-by-ikaruga/) | 中等 |
 | √ | 557 | [reverse-words-in-a-string-iii](../../problems/reverse-words-in-a-string-iii) | [反转字符串中的单词 III](../../problems/reverse-words-in-a-string-iii/README.md) | [cpp](../../problems/reverse-words-in-a-string-iii/SOLUTION.cpp) |   | 简单 |

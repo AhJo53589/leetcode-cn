@@ -36,6 +36,7 @@ private:
     vector<bool> vi;
     vector<vector<int>> ans;
 };
+
 //////////////////////////////////////////////////////////////////////////
 vector<vector<int>> _solution_run(vector<int>& nums)
 {
