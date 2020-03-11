@@ -4,6 +4,14 @@
 
 
 ---
+## 20200311
+* 40.combination-sum-ii 组合总和 II
+
+* 39.combination-sum 组合总和
+
+* 1013.partition-array-into-three-parts-with-equal-sum 将数组分成和相等的三个部分
+
+---
 ## 20200310
 * 377.combination-sum-iv 组合总和 Ⅳ
 
@@ -11,13 +19,11 @@
 
 * 543.diameter-of-binary-tree 二叉树的直径
 
-
 ---
 ## 20200309
 * 52.n-queens-ii N皇后 II
 
 * 547.friend-circles 朋友圈
-
 
 ---
 ## 20200308
@@ -39,13 +45,11 @@
 
 * 5336.increasing-decreasing-string 上升下降字符串
 
-
 ---
 ## 20200306
 * 559.maximum-depth-of-n-ary-tree N叉树的最大深度
 
 * 429.n-ary-tree-level-order-traversal N叉树的层序遍历
-
 
 ---
 ## 20200305
@@ -54,7 +58,6 @@
 * 1146.snapshot-array 快照数组
 
 * 1103.distribute-candies-to-people 分糖果 II
-
 
 ---
 ## 20200304
@@ -66,7 +69,6 @@
 
 * 994.rotting-oranges 腐烂的橘子
 
-
 ---
 ## 20200303
 * 100.same-tree 相同的树
@@ -77,7 +79,6 @@
 
 * 88.merge-sorted-array 合并两个有序数组
 
-
 ---
 ## 20200302
 * 496.next-greater-element-i 下一个更大元素 I
@@ -87,7 +88,6 @@
 * 556.next-greater-element-iii 下一个更大元素 III
 
 * 206.reverse-linked-list 反转链表
-
 
 ---
 ## 20200301
@@ -102,7 +102,6 @@
 * 5345.rank-teams-by-votes 通过投票对团队排名
 
 * 5344.how-many-numbers-are-smaller-than-the-current-number 有多少小于当前数字的数字
-
 
 ---
 ## 20200229

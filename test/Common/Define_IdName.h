@@ -34,6 +34,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_35 	search-insert-position
 #define SOLUTION_CPP_FOLDER_NAME_ID_36 	valid-sudoku
 #define SOLUTION_CPP_FOLDER_NAME_ID_38 	count-and-say
+#define SOLUTION_CPP_FOLDER_NAME_ID_39 	combination-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_40 	combination-sum-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_41 	first-missing-positive
 #define SOLUTION_CPP_FOLDER_NAME_ID_42 	trapping-rain-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_43 	multiply-strings
@@ -295,6 +297,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
+#define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings

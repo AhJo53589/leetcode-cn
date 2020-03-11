@@ -134,12 +134,9 @@
    
    ```C++
    #define USE_CHECKANSWER_CUSTOM
-	void _checkAnswer_custom(vector<string>& ans, TestCases& tc)
+   void _checkAnswer_custom(vector<vector<int>>& ans, TestCases& tc)
    {
-	vector<string> answer = tc.get<vector<string>>();
-   	sort(ans.begin(), ans.end());
-   sort(answer.begin(), answer.end());
-   	cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
+      _checkAnswer_custom_sort(ans, tc);
    }
    ```
    

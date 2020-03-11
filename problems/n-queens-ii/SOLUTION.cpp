@@ -5,7 +5,6 @@ public:
     int totalNQueens(int n) 
     {
         dfs(n, 0, 0, 0, 0);
-
         return ans;
     }
 
