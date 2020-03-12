@@ -23,6 +23,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_22 	generate-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_23 	merge-k-sorted-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_24 	swap-nodes-in-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_25 	reverse-nodes-in-k-group
 #define SOLUTION_CPP_FOLDER_NAME_ID_26 	remove-duplicates-from-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_27 	remove-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_28 	implement-strstr
@@ -154,6 +155,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_212 	word-search-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_213 	house-robber-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_215 	kth-largest-element-in-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_216 	combination-sum-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_217 	contains-duplicate
 #define SOLUTION_CPP_FOLDER_NAME_ID_218 	the-skyline-problem
 #define SOLUTION_CPP_FOLDER_NAME_ID_219 	contains-duplicate-ii
@@ -299,6 +301,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_1071 	greatest-common-divisor-of-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
