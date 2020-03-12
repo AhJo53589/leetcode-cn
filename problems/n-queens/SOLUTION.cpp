@@ -15,7 +15,7 @@ public:
             return;
         }
 
-        // int bits = ~(col | ld | rd) & ((1 << n) - 1);
+        // int pos = ~(col | ld | rd) & ((1 << n) - 1);
         vector<int> pos(n, 0);
         for (int i = 0; i < pos.size(); i++)
         {
@@ -25,7 +25,7 @@ public:
         // while (pos != 0)
         while (any_of(pos.begin(), pos.end(), [](const int& a) { return a == 1; }))
         {
-            // pick[row] = (bits & -bits);
+            // pick[row] = (pos & -pos);
             for (int i = pos.size() - 1; i >= 0; i--)
             {
                 if (pos[i] != 1) continue;
@@ -57,7 +57,7 @@ public:
 
             dfs(n, row + 1, colTemp, ldTemp, rdTemp, pick, ans);
 
-            // bits &= (bits - 1);
+            // pos &= (pos - 1);
             for (int i = pos.size() - 1; i >= 0; i--)
             {
                 if (pos[i] != 1) continue;
@@ -124,7 +124,7 @@ vector<vector<string>> _solution_run(int n)
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-    Solution2 sln;
+    Solution sln;
     return sln.solveNQueens(n);
 }
 
