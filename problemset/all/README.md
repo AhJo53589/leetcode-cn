@@ -53,6 +53,7 @@
 | √ | 48 | [rotate-image](../../problems/rotate-image) | [旋转图像](../../problems/rotate-image/README.md) | [cpp](../../problems/rotate-image/SOLUTION.cpp) |   | 简单 |
 | √ | 49 | [group-anagrams](../../problems/group-anagrams) | [字母异位词分组](../../problems/group-anagrams/README.md) | [cpp](../../problems/group-anagrams/SOLUTION.cpp) |   | 中等 |
 | √ | 50 | [powx-n](../../problems/powx-n) | [Pow(x, n)](../../problems/powx-n/README.md) | [cpp](../../problems/powx-n/SOLUTION.cpp) |   | 中等 |
+| √ | 51 | [n-queens](../../problems/n-queens) | [N皇后](../../problems/n-queens/README.md) | [cpp](../../problems/n-queens/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/n-queens/solution/51-by-ikaruga/) | 困难 | 
 | √ | 52 | [n-queens-ii](../../problems/n-queens-ii) | [N皇后 II](../../problems/n-queens-ii/README.md) | [cpp](../../problems/n-queens-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/friend-circles/solution/547-by-ikaruga/) | 困难 | 
 | √ | 53 | [maximum-subarray](../../problems/maximum-subarray) | [最大子序和](../../problems/maximum-subarray/README.md) | [cpp](../../problems/maximum-subarray/SOLUTION.cpp) |   | 简单 |
 | √ | 54 | [spiral-matrix](../../problems/spiral-matrix) | [螺旋矩阵](../../problems/spiral-matrix/README.md) | [cpp](../../problems/spiral-matrix/SOLUTION.cpp) |   | 中等 |
