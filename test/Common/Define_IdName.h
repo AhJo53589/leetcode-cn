@@ -132,6 +132,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_162 	find-peak-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_166 	fraction-to-recurring-decimal
 #define SOLUTION_CPP_FOLDER_NAME_ID_167 	two-sum-ii-input-array-is-sorted
+#define SOLUTION_CPP_FOLDER_NAME_ID_168 	excel-sheet-column-title
 #define SOLUTION_CPP_FOLDER_NAME_ID_169 	majority-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_171 	excel-sheet-column-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_172 	factorial-trailing-zeroes
@@ -179,6 +180,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_242 	valid-anagram
 #define SOLUTION_CPP_FOLDER_NAME_ID_257 	binary-tree-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_258 	add-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_263 	ugly-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_268 	missing-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_278 	first-bad-version
 #define SOLUTION_CPP_FOLDER_NAME_ID_279 	perfect-squares
@@ -189,6 +191,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_292 	nim-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_295 	find-median-from-data-stream
 #define SOLUTION_CPP_FOLDER_NAME_ID_297 	serialize-and-deserialize-binary-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_299 	bulls-and-cows
 #define SOLUTION_CPP_FOLDER_NAME_ID_300 	longest-increasing-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_301 	remove-invalid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_303 	range-sum-query-immutable
