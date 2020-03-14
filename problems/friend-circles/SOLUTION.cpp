@@ -1,24 +1,18 @@
 //////////////////////////////////////////////////////////////////////////
 struct DSU
 {
-    std::vector<int> data;
-    
-    void init(int n) { data.assign(n, -1); }
-    
+    DSU(int n) : data(n, -1) { }
+
     bool unionSet(int x, int y)
     {
         x = root(x);
         y = root(y);
-        if (x != y)
-        {
-            if (data[y] < data[x])
-            {
-                std::swap(x, y);
-            }
-            data[x] += data[y];
-            data[y] = x;
-        }
-        return x != y;
+        if (x == y) return false;
+
+        if (data[y] < data[x]) std::swap(x, y);
+        data[x] += data[y];
+        data[y] = x;
+        return true;
     }
 
     bool same(int x, int y) { return root(x) == root(y); }
@@ -26,6 +20,8 @@ struct DSU
     int root(int x) { return data[x] < 0 ? x : data[x] = root(data[x]); }
 
     int size(int x) { return -data[root(x)]; }
+
+    std::vector<int> data;
 };
 
 class Solution {
@@ -33,8 +29,7 @@ public:
     int findCircleNum(vector<vector<int>>& M) 
     {
         int ans = M.size();
-        DSU dsu;
-        dsu.init(M.size());
+        DSU dsu(M.size());
         for (size_t i = 0; i < M.size(); i++)
         {
             for (size_t j = i + 1; j < M.size(); j++)

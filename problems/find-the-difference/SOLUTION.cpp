@@ -2,29 +2,31 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    string convertToTitle(int n) 
+    char findTheDifference(string s, string t) 
     {
-        string ans = "";
-        while (n > 0)
+        unordered_map<char, int> cnt;
+        for (auto c : s)
         {
-            n -= 1;
-            ans.push_back('A' + (n % 26));
-            n /= 26;
+            cnt[c]++;
         }
-        reverse(ans.begin(), ans.end());
-        return ans;
+        for (auto c : t)
+        {
+            cnt[c]--;
+            if (cnt[c] < 0) return c;
+        }
+        return {};
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-string _solution_run(int n)
+char _solution_run(string s, string t)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
-    cout << n << endl;
+
     Solution sln;
-    return sln.convertToTitle(n);
+    return sln.findTheDifference(s, t);
 }
 
 //#define USE_SOLUTION_CUSTOM

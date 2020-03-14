@@ -28,6 +28,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_27 	remove-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_28 	implement-strstr
 #define SOLUTION_CPP_FOLDER_NAME_ID_29 	divide-two-integers
+#define SOLUTION_CPP_FOLDER_NAME_ID_30 	substring-with-concatenation-of-all-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_31 	next-permutation
 #define SOLUTION_CPP_FOLDER_NAME_ID_32 	longest-valid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_33 	search-in-rotated-sorted-array
@@ -220,8 +221,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_377 	combination-sum-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
+#define SOLUTION_CPP_FOLDER_NAME_ID_383 	ransom-note
 #define SOLUTION_CPP_FOLDER_NAME_ID_384 	shuffle-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_387 	first-unique-character-in-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_389 	find-the-difference
 #define SOLUTION_CPP_FOLDER_NAME_ID_390 	elimination-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_392 	is-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_393 	utf-8-validation

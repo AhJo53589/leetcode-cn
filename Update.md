@@ -4,6 +4,15 @@
 
 
 ---
+## 20200314
+* 389.find-the-difference 找不同
+
+* 383.ransom-note 赎金信
+
+* 30.substring-with-concatenation-of-all-words 串联所有单词的子串
+
+
+---
 ## 20200313
 * 168.excel-sheet-column-title Excel表列名称
 
