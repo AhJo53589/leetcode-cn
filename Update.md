@@ -4,6 +4,17 @@
 
 
 ---
+## 20200315
+* 5359.maximum-performance-of-a-team 最大的团队表现值
+
+* 5179.balance-a-binary-search-tree 将二叉搜索树变平衡
+
+* 5357.design-a-stack-with-increment-operation 设计一个支持增量操作的栈
+
+* 5356.lucky-numbers-in-a-matrix 矩阵中的幸运数
+
+
+---
 ## 20200314
 * 389.find-the-difference 找不同
 

@@ -11,4 +11,3 @@
 |   | 5355 | [frog-position-after-t-seconds](../../problems/frog-position-after-t-seconds) | [T 秒后青蛙的位置](../../problems/frog-position-after-t-seconds/README.md) | [cpp](../../problems/frog-position-after-t-seconds/SOLUTION.cpp) |   | 困难 |
 
 [参与的讨论](https://leetcode-cn.com/circle/discuss/5HNw3j/view/8147MN/)
-

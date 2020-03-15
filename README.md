@@ -41,6 +41,7 @@
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
 | ☆☆☆ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
+| ☆☆☆ | 45 | [jump-game-ii](./problems/jump-game-ii) | [跳跃游戏 II](./problems/jump-game-ii/README.md) | [cpp](./problems/jump-game-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) | 困难 |
 | ☆☆☆ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
 | ☆☆☆ | 198 | [house-robber](./problems/house-robber) | [打家劫舍](./problems/house-robber/README.md) | [cpp](./problems/house-robber/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) | 简单 |
 | ☆☆☆ | 322 | [coin-change](./problems/coin-change) | [零钱兑换](./problems/coin-change/README.md) | [cpp](./problems/coin-change/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/) | 中等 | 
@@ -54,7 +55,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （476 / 1566）
+完成进度 （465 / 1566）
 [查看全部](./problemset/all/README.md)
 
 ## Season
