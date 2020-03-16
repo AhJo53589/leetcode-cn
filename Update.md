@@ -4,6 +4,13 @@
 
 
 ---
+## 20200316
+* 481.magical-string 神奇字符串
+
+* 443.string-compression 压缩字符串
+
+
+---
 ## 20200315
 * 5359.maximum-performance-of-a-team 最大的团队表现值
 
