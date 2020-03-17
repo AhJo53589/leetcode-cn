@@ -51,122 +51,122 @@ std::string VectorMapStringStringToString(std::vector<std::map<std::string, std:
 template<typename out_type, typename in_type>
 out_type convert(const in_type& t)
 {
-	std::stringstream stream;
-	stream << t;
-	out_type result;
-	stream >> result;
-	return result;
+    std::stringstream stream;
+    stream << t;
+    out_type result;
+    stream >> result;
+    return result;
 }
 
 //////////////////////////////////////////////////////////////////////////
-// convert	std::string ==> xxx
+// convert    std::string ==> xxx
 //////////////////////////////////////////////////////////////////////////
 
 // std::string to char
 template<>
 inline char convert(const std::string& input)
 {
-	if (input.empty()) return {};
-	std::string output = input;
-	trimLeftTrailingSpaces(output);
-	trimRightTrailingSpaces(output);
+    if (input.empty()) return {};
+    std::string output = input;
+    trimLeftTrailingSpaces(output);
+    trimRightTrailingSpaces(output);
 
-	// Sample:
-	// "A" ==> A
-	if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
-	{
-		output = output.substr(1, output.size() - 2);
-	}
-	// Sample:
-	// 'A' ==> A
-	if (output.size() != 1 && output[0] == '\'' && output.back() == '\'')
-	{
-		output = output.substr(1, output.size() - 2);
-	}
-	if (output.empty()) return {};
-	return output[0];
+    // Sample:
+    // "A" ==> A
+    if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
+    {
+        output = output.substr(1, output.size() - 2);
+    }
+    // Sample:
+    // 'A' ==> A
+    if (output.size() != 1 && output[0] == '\'' && output.back() == '\'')
+    {
+        output = output.substr(1, output.size() - 2);
+    }
+    if (output.empty()) return {};
+    return output[0];
 }
 
 // std::string to std::string
 template<>
 inline std::string convert(const std::string& input)
 {
-	if (input.empty()) return input;
-	std::string output = input;
-	trimLeftTrailingSpaces(output);
-	trimRightTrailingSpaces(output);
+    if (input.empty()) return input;
+    std::string output = input;
+    trimLeftTrailingSpaces(output);
+    trimRightTrailingSpaces(output);
 
-	// Sample:
-	// "ABC" ==> ABC
-	if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
-	{
-		output = output.substr(1, output.size() - 2);
-	}
-	return output;
+    // Sample:
+    // "ABC" ==> ABC
+    if (output.size() != 1 && output[0] == '\"' && output.back() == '\"')
+    {
+        output = output.substr(1, output.size() - 2);
+    }
+    return output;
 }
 
 // std::string to bool
 template<>
 inline bool convert(const std::string& input)
 {
-	return (input == "true" || input == "True" || input == "TRUE");
+    return (input == "true" || input == "True" || input == "TRUE");
 }
 
 // std::string to TreeNode*
 template<>
 inline TreeNode* convert(const std::string& input)
 {
-	return StringToTreeNode(input);
+    return StringToTreeNode(input);
 }
 
 // std::string to ListNode*
 template<>
 inline ListNode* convert(const std::string & input)
 {
-	return StringToListNode(input);
+    return StringToListNode(input);
 }
 
 //////////////////////////////////////////////////////////////////////////
-// convert	std::string ==> vector
+// convert    std::string ==> vector
 //////////////////////////////////////////////////////////////////////////
 
 // std::string to char
 template<>
 inline std::vector<char> convert(const std::string& input)
 {
-	return stringToVectorT<char>(input);
+    return stringToVectorT<char>(input);
 }
 
 template<>
 inline std::vector<std::vector<char>> convert(const std::string& input)
 {
-	return stringToVectorT<std::vector<char>>(input);
+    return stringToVectorT<std::vector<char>>(input);
 }
 
 // std::string to std::string
 template<>
 inline std::vector<std::string> convert(const std::string& input)
 {
-	return stringToVectorT<std::string>(input);
+    return stringToVectorT<std::string>(input);
 }
 
 template<>
 inline std::vector<std::vector<std::string>> convert(const std::string& input)
 {
-	return stringToVectorT<std::vector<std::string>>(input);
+    return stringToVectorT<std::vector<std::string>>(input);
 }
 
 // std::string to int
 template<>
 inline std::vector<int> convert(const std::string& input)
 {
-	return stringToVectorT<int>(input);
+    return stringToVectorT<int>(input);
 }
 
 template<>
 inline std::vector<std::vector<int>> convert(const std::string& input)
 {
-	return stringToVectorT<std::vector<int>>(input);
+    return stringToVectorT<std::vector<int>>(input);
 }
 
 // std::string to double
@@ -186,14 +186,14 @@ inline std::vector<std::vector<double>> convert(const std::string& input)
 template<>
 inline std::vector<TreeNode*> convert(const std::string& input)
 {
-	return stringToVectorT<TreeNode*>(input);
+    return stringToVectorT<TreeNode*>(input);
 }
 
 // std::string to ListNode*
 template<>
 inline std::vector<ListNode*> convert(const std::string& input)
 {
-	return stringToVectorT<ListNode*>(input);
+    return stringToVectorT<ListNode*>(input);
 }
 
 //////////////////////////////////////////////////////////////////////////
@@ -204,44 +204,50 @@ inline std::vector<ListNode*> convert(const std::string& input)
 template<>
 inline std::string convert(const bool& input)
 {
-	return input ? "true" : "false";
+    return input ? "true" : "false";
 }
 
 //////////////////////////////////////////////////////////////////////////
-// convert	vector ==> std::string 
+// convert    vector ==> std::string 
 //////////////////////////////////////////////////////////////////////////
 
 // char to std::string
 template<>
 inline std::string convert(const std::vector<char>& input)
 {
-	return vectorTToString(input);
+    return vectorTToString(input);
+}
+
+template<>
+inline std::string convert(const std::vector<std::vector<char>>& input)
+{
+    return vectorTToString(input);
 }
 
 // std::string to std::string
 template<>
 inline std::string convert(const std::vector<std::string>& input)
 {
-	return vectorTToString(input);
+    return vectorTToString(input);
 }
 
 template<>
 inline std::string convert(const std::vector< std::vector<std::string>>& input)
 {
-	return vectorTToString(input);
+    return vectorTToString(input);
 }
 
 // int To std::string
 template<>
 inline std::string convert(const std::vector<int>& input)
 {
-	return vectorTToString(input);
+    return vectorTToString(input);
 }
 
 template<>
 inline std::string convert(const std::vector<std::vector<int>>& input)
 {
-	return vectorTToString(input);
+    return vectorTToString(input);
 }
 
 // double To std::string
@@ -265,46 +271,46 @@ inline std::string convert(const std::vector<std::vector<double>>& input)
 template<typename T>
 std::vector<T> stringToVectorT(std::string input, char begin/* = '['*/, char end/* = ']'*/, char pattern/* = ','*/)
 {
-	std::vector<T> output;
+    std::vector<T> output;
 
-	trimLeftTrailingSpaces(input);
-	trimRightTrailingSpaces(input);
-	std::vector<std::size_t> pos = stringGetSplitPos(input, begin, end, pattern);
-	if (!pos.empty()) return {};
+    trimLeftTrailingSpaces(input);
+    trimRightTrailingSpaces(input);
+    std::vector<std::size_t> pos = stringGetSplitPos(input, begin, end, pattern);
+    if (!pos.empty()) return {};
 
-	input = input.substr(1, input.size() - 2);
-	if (input.empty()) return {};
-	input += pattern;
-	pos = stringGetSplitPos(input, begin, end, pattern);
-	if (pos.empty()) return {};
+    input = input.substr(1, input.size() - 2);
+    if (input.empty()) return {};
+    input += pattern;
+    pos = stringGetSplitPos(input, begin, end, pattern);
+    if (pos.empty()) return {};
 
-	std::size_t cur = 0;
-	for (auto& i : pos)
-	{
-		output.push_back(convert<T>(input.substr(cur, i - cur)));
-		cur = i + 1;
-	}
+    std::size_t cur = 0;
+    for (auto& i : pos)
+    {
+        output.push_back(convert<T>(input.substr(cur, i - cur)));
+        cur = i + 1;
+    }
 
-	return output;
+    return output;
 }
 
 template<typename T>
 std::string vectorTToString(std::vector<T> input, char begin/* = '['*/, char end/* = ']'*/, char pattern/* = ','*/)
 {
-	std::string output;
+    std::string output;
 
-	output += begin;
-	for (auto i : input)
-	{
-		output += convert<std::string>(i);
-		output += pattern;
-	}
-	if (output.back() == pattern)
-	{
-		output.pop_back();
-	}
-	output += end;
+    output += begin;
+    for (auto i : input)
+    {
+        output += convert<std::string>(i);
+        output += pattern;
+    }
+    if (output.back() == pattern)
+    {
+        output.pop_back();
+    }
+    output += end;
 
-	return output;
+    return output;
 }
 

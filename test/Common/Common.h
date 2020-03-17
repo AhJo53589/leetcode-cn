@@ -37,7 +37,7 @@ inline std::string checkAnswer(T ta, T tb)
 {
     std::string a = convert<std::string>(ta);
     std::string b = convert<std::string>(tb); 
-    std::string check = (a == b) ? "" : "\t\t\t\t\t\t\t\t\t\t## WRONG ANSWER ##";
+    std::string check = (a == b) ? "" : "\t\t\t\t\t\t\t\t\t\t\033[7m\033[1m## WRONG ANSWER ##\033[0m";
     return "-- OUTPUT --\n" + a + "\n-- ANSWER --\n" + b + "\n" + check;
 }
 

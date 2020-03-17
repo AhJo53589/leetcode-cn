@@ -35,6 +35,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_34 	find-first-and-last-position-of-element-in-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_35 	search-insert-position
 #define SOLUTION_CPP_FOLDER_NAME_ID_36 	valid-sudoku
+#define SOLUTION_CPP_FOLDER_NAME_ID_37 	sudoku-solver
 #define SOLUTION_CPP_FOLDER_NAME_ID_38 	count-and-say
 #define SOLUTION_CPP_FOLDER_NAME_ID_39 	combination-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_40 	combination-sum-ii
@@ -230,6 +231,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_393 	utf-8-validation
 #define SOLUTION_CPP_FOLDER_NAME_ID_394 	decode-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_399 	evaluate-division
 #define SOLUTION_CPP_FOLDER_NAME_ID_406 	queue-reconstruction-by-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
@@ -315,6 +317,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1146 	snapshot-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_1160 	find-words-that-can-be-formed-by-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_1171 	remove-zero-sum-consecutive-nodes-from-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget

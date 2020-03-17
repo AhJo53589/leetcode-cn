@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"481.magical-string"
+git commit -m"37.sudoku-solver"
 git push

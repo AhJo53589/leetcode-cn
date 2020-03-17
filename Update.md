@@ -4,6 +4,15 @@
 
 
 ---
+## 20200317
+* 37.sudoku-solver 解数独
+
+* 399.evaluate-division 除法求值
+
+* 1160.find-words-that-can-be-formed-by-characters 拼写单词
+
+
+---
 ## 20200316
 * 481.magical-string 神奇字符串
 
