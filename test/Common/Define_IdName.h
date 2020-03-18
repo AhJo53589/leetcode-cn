@@ -68,12 +68,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_70 	climbing-stairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_71 	simplify-path
 #define SOLUTION_CPP_FOLDER_NAME_ID_73 	set-matrix-zeroes
+#define SOLUTION_CPP_FOLDER_NAME_ID_74 	search-a-2d-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_75 	sort-colors
 #define SOLUTION_CPP_FOLDER_NAME_ID_76 	minimum-window-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_77 	combinations
 #define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_80 	remove-duplicates-from-sorted-array-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_82 	remove-duplicates-from-sorted-list-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_83 	remove-duplicates-from-sorted-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_84 	largest-rectangle-in-histogram
 #define SOLUTION_CPP_FOLDER_NAME_ID_88 	merge-sorted-array
@@ -303,6 +305,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
+#define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
