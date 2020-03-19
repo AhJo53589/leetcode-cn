@@ -75,9 +75,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_78 	subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_79 	word-search
 #define SOLUTION_CPP_FOLDER_NAME_ID_80 	remove-duplicates-from-sorted-array-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_81 	search-in-rotated-sorted-array-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_82 	remove-duplicates-from-sorted-list-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_83 	remove-duplicates-from-sorted-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_84 	largest-rectangle-in-histogram
+#define SOLUTION_CPP_FOLDER_NAME_ID_86 	partition-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_88 	merge-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_89 	gray-code
 #define SOLUTION_CPP_FOLDER_NAME_ID_92 	reverse-linked-list-ii
@@ -235,6 +237,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_399 	evaluate-division
 #define SOLUTION_CPP_FOLDER_NAME_ID_406 	queue-reconstruction-by-height
+#define SOLUTION_CPP_FOLDER_NAME_ID_409 	longest-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
