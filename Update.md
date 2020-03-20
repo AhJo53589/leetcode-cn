@@ -4,6 +4,15 @@
 
 
 ---
+## 20200320
+* 114.flatten-binary-tree-to-linked-list 二叉树展开为链表
+
+* 109.convert-sorted-list-to-binary-search-tree 有序链表转换二叉搜索树
+
+* 215.kth-largest-element-in-an-array 数组中的第K个最大元素
+
+
+---
 ## 20200319
 * 81.search-in-rotated-sorted-array-ii 搜索旋转排序数组 II
 

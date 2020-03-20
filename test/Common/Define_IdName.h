@@ -97,10 +97,12 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_106 	construct-binary-tree-from-inorder-and-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_107 	binary-tree-level-order-traversal-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_108 	convert-sorted-array-to-binary-search-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_109 	convert-sorted-list-to-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_110 	balanced-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_111 	minimum-depth-of-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_112 	path-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_113 	path-sum-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_114 	flatten-binary-tree-to-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_116 	populating-next-right-pointers-in-each-node
 #define SOLUTION_CPP_FOLDER_NAME_ID_117 	populating-next-right-pointers-in-each-node-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_118 	pascals-triangle
