@@ -4,6 +4,17 @@
 
 
 ---
+## 20200322
+* 5351.pizza-with-3n-slices 3n 块披萨
+
+* 5350.sort-integers-by-the-power-value 将整数按权重排序
+
+* 5349.cinema-seat-allocation 安排电影院座位
+
+* 5348.find-the-distance-value-between-two-arrays 两个数组间的距离值
+
+
+---
 ## 20200321
 * 129.sum-root-to-leaf-numbers 求根到叶子节点数字之和
 

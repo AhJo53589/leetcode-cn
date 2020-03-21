@@ -466,6 +466,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5345 	rank-teams-by-votes
 #define SOLUTION_CPP_FOLDER_NAME_ID_5346 	linked-list-in-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5347 	minimum-cost-to-make-at-least-one-valid-path-in-a-grid
+#define SOLUTION_CPP_FOLDER_NAME_ID_5348 	find-the-distance-value-between-two-arrays
+#define SOLUTION_CPP_FOLDER_NAME_ID_5349 	cinema-seat-allocation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5350 	sort-integers-by-the-power-value
+#define SOLUTION_CPP_FOLDER_NAME_ID_5351 	pizza-with-3n-slices
 #define SOLUTION_CPP_FOLDER_NAME_ID_5352 	generate-a-string-with-characters-that-have-odd-counts
 #define SOLUTION_CPP_FOLDER_NAME_ID_5353 	bulb-switcher-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5354 	time-needed-to-inform-all-employees
