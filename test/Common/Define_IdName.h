@@ -221,6 +221,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_349 	intersection-of-two-arrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_350 	intersection-of-two-arrays-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_354 	russian-doll-envelopes
+#define SOLUTION_CPP_FOLDER_NAME_ID_365 	water-and-jug-problem
 #define SOLUTION_CPP_FOLDER_NAME_ID_367 	valid-perfect-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower

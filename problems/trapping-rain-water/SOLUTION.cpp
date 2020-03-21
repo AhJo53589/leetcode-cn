@@ -2,109 +2,83 @@
 //////////////////////////////////////////////////////////////////////////
 //int trap(vector<int>& height, int &first, int last)
 //{
-//	int ans = 0;
-//	int cut = 0;
+//    int ans = 0;
+//    int cut = 0;
 //
-//	for (int i = 0; i < last; i++)
-//	{
-//		if (first == -1)
-//		{
-//			first = (height[i] != 0) ? i : first;
-//			continue;
-//		}
+//    for (int i = 0; i < last; i++)
+//    {
+//        if (first == -1)
+//        {
+//            first = (height[i] != 0) ? i : first;
+//            continue;
+//        }
 //
-//		if (height[i] < height[first])
-//		{
-//			cut += height[i];
-//		}
-//		else
-//		{
-//			ans += (i - first - 1) * min(height[first], height[i]) - cut;
-//			first = i;
-//			cut = 0;
-//		}
-//	}
+//        if (height[i] < height[first])
+//        {
+//            cut += height[i];
+//        }
+//        else
+//        {
+//            ans += (i - first - 1) * min(height[first], height[i]) - cut;
+//            first = i;
+//            cut = 0;
+//        }
+//    }
 //
-//	return ans;
+//    return ans;
 //}
 //
 //int trap(vector<int>& height)
 //{
-//	if (height.empty()) return 0;
+//    if (height.empty()) return 0;
 //
-//	int ans = 0;
-//	int first = -1;
-//	int last = height.size();
-//	ans = trap(height, first, last);
-//	if (first == -1) return ans;
+//    int ans = 0;
+//    int first = -1;
+//    int last = height.size();
+//    ans = trap(height, first, last);
+//    if (first == -1) return ans;
 //
-//	reverse(height.begin(), height.end());
-//	last = height.size() - first;
-//	first = -1;
-//	ans += trap(height, first, last);
+//    reverse(height.begin(), height.end());
+//    last = height.size() - first;
+//    first = -1;
+//    ans += trap(height, first, last);
 //
-//	return ans;
+//    return ans;
 //}
 
 
+
 //////////////////////////////////////////////////////////////////////////
-int trap(vector<int>& height)
-{
-	if (height.empty()) return 0;
-
-	int ans = 0;
-	int left = -1;
-	int cut = 0;
-	for (int i = 0; i < height.size(); i++)
-	{
-		if (left == -1)
-		{
-			left = (height[i] != 0) ? i : left;
-			continue;
-		}
-
-		if (height[i] < height[left])
-		{
-			cut += height[i];
-		}
-		else
-		{
-			ans += (i - left - 1) * min(height[left], height[i]) - cut;
-			left = i;
-			cut = 0;
-		}
-	}
-	if (left == -1) return ans;
-
-	cut = 0;
-	int right = height.size();
-	for (int i = height.size() - 1; i >= left; i--)
-	{
-		if (right == height.size())
-		{
-			right = (height[i] != 0) ? i : right;
-			continue;
-		}
-
-		if (height[i] < height[right])
-		{
-			cut += height[i];
-		}
-		else
-		{
-			ans += (right - i - 1) * min(height[right], height[i]) - cut;
-			right = i;
-			cut = 0;
-		}
-	}
-	return ans;
-}
-
+class Solution {
+public:
+    int trap(vector<int>& height)
+    {
+        int ans = 0;
+        stack<int> st;
+        for (int i = 0; i < height.size(); i++)
+        {
+            while (!st.empty() && height[st.top()] < height[i])
+            {
+                int cur = st.top();
+                st.pop();
+                if (st.empty()) break;
+                int l = st.top();
+                int r = i;
+                int h = min(height[r], height[l]) - height[cur];
+                ans += (r - l - 1) * h;
+            }
+            st.push(i);
+        }
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<int>& height)
 {
-	return trap(height);
+    printVectorT(height);
+    Solution sln;
+    return sln.trap(height);
 }
 
 //#define USE_SOLUTION_CUSTOM
@@ -116,6 +90,6 @@ int _solution_run(vector<int>& height)
 //#define USE_GET_TEST_CASES_IN_CPP
 //vector<string> _get_test_cases_string()
 //{
-//	return {};
+//    return {};
 //}
 
