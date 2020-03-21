@@ -115,6 +115,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_125 	valid-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_127 	word-ladder
 #define SOLUTION_CPP_FOLDER_NAME_ID_128 	longest-consecutive-sequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_129 	sum-root-to-leaf-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_130 	surrounded-regions
 #define SOLUTION_CPP_FOLDER_NAME_ID_131 	palindrome-partitioning
 #define SOLUTION_CPP_FOLDER_NAME_ID_133 	clone-graph

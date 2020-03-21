@@ -121,6 +121,7 @@
 | √ | 125 | [valid-palindrome](../../problems/valid-palindrome) | [验证回文串](../../problems/valid-palindrome/README.md) | [cpp](../../problems/valid-palindrome/SOLUTION.cpp) |   | 简单 |
 | √ | 127 | [word-ladder](../../problems/word-ladder) | [单词接龙](../../problems/word-ladder/README.md) | [cpp](../../problems/word-ladder/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/word-ladder/solution/127-by-ikaruga/) | 中等 |
 | √ | 128 | [longest-consecutive-sequence](../../problems/longest-consecutive-sequence) | [最长连续序列](../../problems/longest-consecutive-sequence/README.md) | [cpp](../../problems/longest-consecutive-sequence/SOLUTION.cpp) |   | 困难 |
+| √ | 129 | [sum-root-to-leaf-numbers](../../problems/sum-root-to-leaf-numbers) | [求根到叶子节点数字之和](../../problems/sum-root-to-leaf-numbers/README.md) | [cpp](../../problems/sum-root-to-leaf-numbers/SOLUTION.cpp) |   | 中等 | 
 | √ | 130 | [surrounded-regions](../../problems/surrounded-regions) | [被围绕的区域](../../problems/surrounded-regions/README.md) | [cpp](../../problems/surrounded-regions/SOLUTION.cpp) |   | 中等 |
 | √ | 131 | [palindrome-partitioning](../../problems/palindrome-partitioning) | [分割回文串](../../problems/palindrome-partitioning/README.md) | [cpp](../../problems/palindrome-partitioning/SOLUTION.cpp) |   | 中等 |
 | √ | 133 | [clone-graph](../../problems/clone-graph) | [克隆图](../../problems/clone-graph/README.md) | [cpp](../../problems/clone-graph/SOLUTION.cpp) |   | 中等 |
