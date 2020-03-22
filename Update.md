@@ -5,6 +5,8 @@
 
 ---
 ## 20200322
+* 945.minimum-increment-to-make-array-unique 使数组唯一的最小增量
+
 * 5367.longest-happy-prefix 最长快乐前缀
 
 * 5366.check-if-there-is-a-valid-path-in-a-grid 检查网格中是否存在有效路径

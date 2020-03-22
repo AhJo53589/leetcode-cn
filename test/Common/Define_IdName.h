@@ -318,6 +318,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
+#define SOLUTION_CPP_FOLDER_NAME_ID_945 	minimum-increment-to-make-array-unique
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
