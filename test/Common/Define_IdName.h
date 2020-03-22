@@ -457,6 +457,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1361 	validate-binary-tree-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_1362 	closest-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_1363 	largest-multiple-of-three
+#define SOLUTION_CPP_FOLDER_NAME_ID_5178 	four-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_5179 	balance-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5336 	increasing-decreasing-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5337 	find-the-longest-substring-containing-vowels-in-even-counts
@@ -477,6 +478,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5356 	lucky-numbers-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5357 	design-a-stack-with-increment-operation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5359 	maximum-performance-of-a-team
+#define SOLUTION_CPP_FOLDER_NAME_ID_5364 	create-target-array-in-the-given-order
+#define SOLUTION_CPP_FOLDER_NAME_ID_5366 	check-if-there-is-a-valid-path-in-a-grid
+#define SOLUTION_CPP_FOLDER_NAME_ID_5367 	longest-happy-prefix
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

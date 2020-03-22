@@ -5,6 +5,14 @@
 
 ---
 ## 20200322
+* 5367.longest-happy-prefix 最长快乐前缀
+
+* 5366.check-if-there-is-a-valid-path-in-a-grid 检查网格中是否存在有效路径
+
+* 5178.four-divisors 四因数
+
+* 5364.create-target-array-in-the-given-order 按既定顺序创建目标数组
+
 * 5351.pizza-with-3n-slices 3n 块披萨
 
 * 5350.sort-integers-by-the-power-value 将整数按权重排序
