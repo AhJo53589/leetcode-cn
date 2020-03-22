@@ -2,11 +2,8 @@
 
 ### 题目描述
 <p>给定一个含有 M x N 个元素的矩阵（M 行，N 列），请以对角线遍历的顺序返回这个矩阵中的所有元素，对角线遍历如下图所示。</p>
-
 <p>&nbsp;</p>
-
 <p><strong>示例:</strong></p>
-
 <pre><strong>输入:</strong>
 [
  [ 1, 2, 3 ],
@@ -21,13 +18,10 @@
 </pre>
 
 <p>&nbsp;</p>
-
 <p><strong>说明:</strong></p>
-
 <ol>
 	<li>给定矩阵中的元素总数不会超过 100000 。</li>
 </ol>
-
 
 ---
 ### 思路
@@ -45,32 +39,36 @@
 
 ### 答题
 ``` C++
-vector<int> findDiagonalOrder(vector<vector<int>>& matrix) 
-{
-	vector<int> nums;
-	int m = matrix.size();
-	if (m == 0) return nums;
-	int n = matrix[0].size();
-	if (n == 0) return nums;
+class Solution {
+public:
+    vector<int> findDiagonalOrder(vector<vector<int>>& matrix)
+    {
+        if (matrix.empty() || matrix[0].empty()) return {};
+        int m = matrix.size();
+        int n = matrix[0].size();
+        vector<int> ans;
 
-	bool bXFlag = true;
-	for (int i = 0; i < m + n; i++)
-	{
-		int pm = bXFlag ? m : n;
-		int pn = bXFlag ? n : m;
+        bool flag = true;
+        for (int i = 0; i < m + n - 1; i++)
+        {
+            int pm = flag ? m : n;
+            int pn = flag ? n : m;
 
-		int x = (i < pm) ? i : pm - 1;
-		int y = i - x;
-		while (x >= 0 && y < pn)
-		{
-			nums.push_back(bXFlag ? matrix[x][y] : matrix[y][x]);
-			x--;
-			y++;
-		}
-		bXFlag = !bXFlag;
-	}
-	return nums;
-}
+            int px = (i < pm) ? i : pm - 1;
+            int py = i - px;
+
+            while (px >= 0 && py < pn)
+            {
+                ans.push_back(flag ? matrix[px][py] : matrix[py][px]);
+                px--;
+                py++;
+            }
+
+            flag = !flag;
+        }
+        return ans;
+    }
+};
 ```
 
 ### 其它

@@ -36,37 +36,79 @@
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> findDiagonalOrder(vector<vector<int>>& matrix)
-{
-	vector<int> nums;
-	int m = matrix.size();
-	if (m == 0) return nums;
-	int n = matrix[0].size();
-	if (n == 0) return nums;
+class Solution2 {
+public:
+    vector<int> findDiagonalOrder(vector<vector<int>>& matrix)
+    {
+        if (matrix.empty()) return {};
+        vector<int> ans;
+        int m = matrix.size();
+        int n = matrix[0].size();
+        int i = 0;
+        while (i < m + n - 1)
+        {
+            // 1,3,5...
+            int x1 = i < m ? i : m - 1;
+            int y1 = i - x1;
+            while (x1 >= 0 && y1 < n)
+            {
+                ans.push_back(matrix[x1][y1]);
+                x1--;
+                y1++;
+            }
+            i++;
+            // 2,4,6...
+            int y2 = i < n ? i : n - 1;
+            int x2 = i - y2;
+            while (y2 >= 0 && x2 < m)
+            {
+                ans.push_back(matrix[x2][y2]);
+                x2++;
+                y2--;
+            }
+            i++;
+        }
+        return ans;
+    }
+};
 
-	bool bXFlag = true;
-	for (int i = 0; i < m + n; i++)
-	{
-		int pm = bXFlag ? m : n;
-		int pn = bXFlag ? n : m;
+//////////////////////////////////////////////////////////////////////////
+class Solution {
+public:
+    vector<int> findDiagonalOrder(vector<vector<int>>& matrix)
+    {
+        if (matrix.empty() || matrix[0].empty()) return {};
+        int m = matrix.size();
+        int n = matrix[0].size();
+        vector<int> ans;
 
-		int x = (i < pm) ? i : pm - 1;
-		int y = i - x;
-		while (x >= 0 && y < pn)
-		{
-			nums.push_back(bXFlag ? matrix[x][y] : matrix[y][x]);
-			x--;
-			y++;
-		}
-		bXFlag = !bXFlag;
-	}
-	return nums;
-}
+        bool flag = true;
+        for (int i = 0; i < m + n - 1; i++)
+        {
+            int pm = flag ? m : n;
+            int pn = flag ? n : m;
+
+            int px = (i < pm) ? i : pm - 1;
+            int py = i - px;
+
+            while (px >= 0 && py < pn)
+            {
+                ans.push_back(flag ? matrix[px][py] : matrix[py][px]);
+                px--;
+                py++;
+            }
+
+            flag = !flag;
+        }
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 vector<int> _solution_run(vector<vector<int>>& matrix)
 {
-	return findDiagonalOrder(matrix);
+    Solution sln;
+	return sln.findDiagonalOrder(matrix);
 }
 
 //#define USE_SOLUTION_CUSTOM
