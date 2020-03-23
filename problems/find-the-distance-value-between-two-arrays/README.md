@@ -1,4 +1,4 @@
-# `（简单）` [5348.find-the-distance-value-between-two-arrays 两个数组间的距离值](https://leetcode-cn.com/problems/find-the-distance-value-between-two-arrays/)
+# `（简单）` [1385.find-the-distance-value-between-two-arrays 两个数组间的距离值](https://leetcode-cn.com/problems/find-the-distance-value-between-two-arrays/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-22/problems/find-the-distance-value-between-two-arrays/)
 

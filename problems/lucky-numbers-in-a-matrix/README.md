@@ -1,4 +1,4 @@
-# `（简单）` [5356.lucky-numbers-in-a-matrix 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
+# `（简单）` [1380.lucky-numbers-in-a-matrix 矩阵中的幸运数](https://leetcode-cn.com/problems/lucky-numbers-in-a-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-180/problems/lucky-numbers-in-a-matrix/)
 

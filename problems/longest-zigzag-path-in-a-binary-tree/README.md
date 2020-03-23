@@ -1,4 +1,4 @@
-# `（中等）` [5338.longest-zigzag-path-in-a-binary-tree 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)
+# `（中等）` [1372.longest-zigzag-path-in-a-binary-tree 二叉树中的最长交错路径](https://leetcode-cn.com/problems/longest-zigzag-path-in-a-binary-tree/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-21/problems/longest-zigzag-path-in-a-binary-tree/)
 

@@ -40,8 +40,8 @@
 | 2020/2/22  | [第 20 场双周赛](./contest/biweekly-contest-20/README.md) | 4 / 4 | 170 / 1538 |
 | 2020/2/23  | [第 177 场周赛](./contest/weekly-contest-177/README.md)   | 3 / 4 | 376 / 2985 |
 | 2020/3/1   | [第 178 场周赛](./contest/weekly-contest-178/README.md)   | 3 / 4 | 524 / 3304 |
-| 2020/3/7 | [第 21 场双周赛](./contest/biweekly-contest-21/README.md)   | 2 / 4 | 437 / 1913 |
-| 2020/3/8 | [第 179 场周赛](./contest/weekly-contest-179/README.md)    | 3 / 4 | 498 / 3605 |
-| 2020/3/15 | [第 180 场周赛](./contest/weekly-contest-180/README.md)   | 4 / 4 | 150 / 3714 |
-| 2020/3/21 | [第 22 场双周赛](./contest/biweekly-contest-22/README.md) | 1 / 4 | 1046 / 2041 |
-| 2020/3/22 | [第 181 场周赛](./contest/weekly-contest-181/README.md) | 2 / 4 | 884 / 4148 |
+| 2020/3/7   | [第 21 场双周赛](./contest/biweekly-contest-21/README.md) | 2 / 4 | 437 / 1913 |
+| 2020/3/8   | [第 179 场周赛](./contest/weekly-contest-179/README.md)   | 3 / 4 | 498 / 3605 |
+| 2020/3/15  | [第 180 场周赛](./contest/weekly-contest-180/README.md)   | 4 / 4 | 150 / 3714 |
+| 2020/3/21  | [第 22 场双周赛](./contest/biweekly-contest-22/README.md) | 1 / 4 | 1046 / 2041 |
+| 2020/3/22  | [第 181 场周赛](./contest/weekly-contest-181/README.md)   | 2 / 4 | 884 / 4148 |

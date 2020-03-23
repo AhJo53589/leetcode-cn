@@ -1,4 +1,4 @@
-# `（中等）` [5178.four-divisors 四因数](https://leetcode-cn.com/problems/four-divisors/)
+# `（中等）` [1390.four-divisors 四因数](https://leetcode-cn.com/problems/four-divisors/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-181/problems/four-divisors/)
 

@@ -4,32 +4,34 @@
 
 
 ---
+## 20200323
+* 876.middle-of-the-linked-list 链表的中间结点
+
+---
 ## 20200322
 * 945.minimum-increment-to-make-array-unique 使数组唯一的最小增量
 
-* 5367.longest-happy-prefix 最长快乐前缀
+* 1392.longest-happy-prefix 最长快乐前缀
 
-* 5366.check-if-there-is-a-valid-path-in-a-grid 检查网格中是否存在有效路径
+* 1391.check-if-there-is-a-valid-path-in-a-grid 检查网格中是否存在有效路径
 
-* 5178.four-divisors 四因数
+* 1390.four-divisors 四因数
 
-* 5364.create-target-array-in-the-given-order 按既定顺序创建目标数组
+* 1389.create-target-array-in-the-given-order 按既定顺序创建目标数组
 
-* 5351.pizza-with-3n-slices 3n 块披萨
+* 1388.pizza-with-3n-slices 3n 块披萨
 
-* 5350.sort-integers-by-the-power-value 将整数按权重排序
+* 1387.sort-integers-by-the-power-value 将整数按权重排序
 
-* 5349.cinema-seat-allocation 安排电影院座位
+* 1386.cinema-seat-allocation 安排电影院座位
 
-* 5348.find-the-distance-value-between-two-arrays 两个数组间的距离值
-
+* 1385.find-the-distance-value-between-two-arrays 两个数组间的距离值
 
 ---
 ## 20200321
 * 129.sum-root-to-leaf-numbers 求根到叶子节点数字之和
 
 * 365.water-and-jug-problem 水壶问题
-
 
 ---
 ## 20200320
@@ -39,7 +41,6 @@
 
 * 215.kth-largest-element-in-an-array 数组中的第K个最大元素
 
-
 ---
 ## 20200319
 * 81.search-in-rotated-sorted-array-ii 搜索旋转排序数组 II
@@ -47,7 +48,6 @@
 * 86.partition-list 分隔链表
 
 * 409.longest-palindrome 最长回文串
-
 
 ---
 ## 20200318
@@ -57,7 +57,6 @@
 
 * 836.rectangle-overlap 矩形重叠
 
-
 ---
 ## 20200317
 * 37.sudoku-solver 解数独
@@ -66,24 +65,21 @@
 
 * 1160.find-words-that-can-be-formed-by-characters 拼写单词
 
-
 ---
 ## 20200316
 * 481.magical-string 神奇字符串
 
 * 443.string-compression 压缩字符串
 
-
 ---
 ## 20200315
-* 5359.maximum-performance-of-a-team 最大的团队表现值
+* 1383.maximum-performance-of-a-team 最大的团队表现值
 
-* 5179.balance-a-binary-search-tree 将二叉搜索树变平衡
+* 1382.balance-a-binary-search-tree 将二叉搜索树变平衡
 
-* 5357.design-a-stack-with-increment-operation 设计一个支持增量操作的栈
+* 1381.design-a-stack-with-increment-operation 设计一个支持增量操作的栈
 
-* 5356.lucky-numbers-in-a-matrix 矩阵中的幸运数
-
+* 1380.lucky-numbers-in-a-matrix 矩阵中的幸运数
 
 ---
 ## 20200314
@@ -93,7 +89,6 @@
 
 * 30.substring-with-concatenation-of-all-words 串联所有单词的子串
 
-
 ---
 ## 20200313
 * 168.excel-sheet-column-title Excel表列名称
@@ -101,7 +96,6 @@
 * 263.ugly-number 丑数
 
 * 299.bulls-and-cows 猜数字游戏
-
 
 ---
 ## 20200312
@@ -112,7 +106,6 @@
 * 216.combination-sum-iii 组合总和 III
 
 * 1071.greatest-common-divisor-of-strings 字符串的最大公因子
-
 
 ---
 ## 20200311
@@ -138,23 +131,23 @@
 
 ---
 ## 20200308
-* 5355.frog-position-after-t-seconds T 秒后青蛙的位置
+* 1377.frog-position-after-t-seconds T 秒后青蛙的位置
 
-* 5354.time-needed-to-inform-all-employees 通知所有员工所需的时间
+* 1376.time-needed-to-inform-all-employees 通知所有员工所需的时间
 
-* 5353.bulb-switcher-iii 灯泡开关 III
+* 1375.bulb-switcher-iii 灯泡开关 III
 
-* 5352.generate-a-string-with-characters-that-have-odd-counts 生成每种字符都是奇数个的字符串
+* 1374.generate-a-string-with-characters-that-have-odd-counts 生成每种字符都是奇数个的字符串
 
 * 322.coin-change 零钱兑换
 
-* 5339.maximum-sum-bst-in-binary-tree 二叉搜索子树的最大键值和
+* 1373.maximum-sum-bst-in-binary-tree 二叉搜索子树的最大键值和
 
-* 5338.longest-zigzag-path-in-a-binary-tree 二叉树中的最长交错路径
+* 1372.longest-zigzag-path-in-a-binary-tree 二叉树中的最长交错路径
 
-* 5337.find-the-longest-substring-containing-vowels-in-even-counts 每个元音包含偶数次的最长子字符串
+* 1371.find-the-longest-substring-containing-vowels-in-even-counts 每个元音包含偶数次的最长子字符串
 
-* 5336.increasing-decreasing-string 上升下降字符串
+* 1370.increasing-decreasing-string 上升下降字符串
 
 ---
 ## 20200306
@@ -202,17 +195,13 @@
 
 ---
 ## 20200301
-* 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
+* 1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
 
-* 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
+* 1367.linked-list-in-binary-tree 二叉树中的列表
 
-* 5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价
+* 1366.rank-teams-by-votes 通过投票对团队排名
 
-* 5346.linked-list-in-binary-tree 二叉树中的列表
-
-* 5345.rank-teams-by-votes 通过投票对团队排名
-
-* 5344.how-many-numbers-are-smaller-than-the-current-number 有多少小于当前数字的数字
+* 1365.how-many-numbers-are-smaller-than-the-current-number 有多少小于当前数字的数字
 
 ---
 ## 20200229

@@ -1,4 +1,4 @@
-# `（中等）` [5353.bulb-switcher-iii 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/)
+# `（中等）` [1375.bulb-switcher-iii 灯泡开关 III](https://leetcode-cn.com/problems/bulb-switcher-iii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-179/problems/bulb-switcher-iii/)
 

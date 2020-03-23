@@ -1,4 +1,4 @@
-# `（中等）` [5345.rank-teams-by-votes 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/)
+# `（中等）` [1366.rank-teams-by-votes 通过投票对团队排名](https://leetcode-cn.com/problems/rank-teams-by-votes/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-178/problems/rank-teams-by-votes/)
 

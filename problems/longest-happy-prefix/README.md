@@ -1,4 +1,4 @@
-# `（困难）` [5367.longest-happy-prefix 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/)
+# `（困难）` [1392.longest-happy-prefix 最长快乐前缀](https://leetcode-cn.com/problems/longest-happy-prefix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-181/problems/longest-happy-prefix/)
 

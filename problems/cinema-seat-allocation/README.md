@@ -1,4 +1,4 @@
-# `（中等）` [5349.cinema-seat-allocation 安排电影院座位](https://leetcode-cn.com/problems/cinema-seat-allocation/)
+# `（中等）` [1386.cinema-seat-allocation 安排电影院座位](https://leetcode-cn.com/problems/cinema-seat-allocation/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-22/problems/cinema-seat-allocation/)
 

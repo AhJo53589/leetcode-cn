@@ -1,4 +1,4 @@
-# `（困难）` [5351.pizza-with-3n-slices 3n 块披萨](https://leetcode-cn.com/problems/pizza-with-3n-slices/)
+# `（困难）` [1388.pizza-with-3n-slices 3n 块披萨](https://leetcode-cn.com/problems/pizza-with-3n-slices/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-22/problems/pizza-with-3n-slices/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5336.increasing-decreasing-string 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)
+# `（简单）` [1370.increasing-decreasing-string 上升下降字符串](https://leetcode-cn.com/problems/increasing-decreasing-string/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-21/problems/increasing-decreasing-string/)
 

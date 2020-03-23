@@ -1,4 +1,4 @@
-# `（中等）` [5179.balance-a-binary-search-tree 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/)
+# `（中等）` [1382.balance-a-binary-search-tree 将二叉搜索树变平衡](https://leetcode-cn.com/problems/balance-a-binary-search-tree/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-180/problems/balance-a-binary-search-tree/)
 

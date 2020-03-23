@@ -1,4 +1,4 @@
-# `（中等）` [5357.design-a-stack-with-increment-operation 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)
+# `（中等）` [1381.design-a-stack-with-increment-operation 设计一个支持增量操作的栈](https://leetcode-cn.com/problems/design-a-stack-with-increment-operation/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-180/problems/design-a-stack-with-increment-operation/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5344.how-many-numbers-are-smaller-than-the-current-number 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
+# `（简单）` [1365.how-many-numbers-are-smaller-than-the-current-number 有多少小于当前数字的数字](https://leetcode-cn.com/problems/how-many-numbers-are-smaller-than-the-current-number/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-178/problems/how-many-numbers-are-smaller-than-the-current-number/)
 

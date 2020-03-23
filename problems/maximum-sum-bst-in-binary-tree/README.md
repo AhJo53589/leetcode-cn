@@ -1,4 +1,4 @@
-# `（困难）` [5339.maximum-sum-bst-in-binary-tree 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/)
+# `（困难）` [1373.maximum-sum-bst-in-binary-tree 二叉搜索子树的最大键值和](https://leetcode-cn.com/problems/maximum-sum-bst-in-binary-tree/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-21/problems/maximum-sum-bst-in-binary-tree/)
 

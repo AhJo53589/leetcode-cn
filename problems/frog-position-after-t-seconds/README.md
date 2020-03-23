@@ -1,4 +1,4 @@
-# `（困难）` [5355.frog-position-after-t-seconds T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/)
+# `（困难）` [1377.frog-position-after-t-seconds T 秒后青蛙的位置](https://leetcode-cn.com/problems/frog-position-after-t-seconds/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-179/problems/frog-position-after-t-seconds/)
 

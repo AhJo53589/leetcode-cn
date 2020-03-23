@@ -1,4 +1,4 @@
-# `（简单）` [5352.generate-a-string-with-characters-that-have-odd-counts 生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/)
+# `（简单）` [1374.generate-a-string-with-characters-that-have-odd-counts 生成每种字符都是奇数个的字符串](https://leetcode-cn.com/problems/generate-a-string-with-characters-that-have-odd-counts/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-179/problems/generate-a-string-with-characters-that-have-odd-counts/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5364.create-target-array-in-the-given-order 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/)
+# `（简单）` [1389.create-target-array-in-the-given-order 按既定顺序创建目标数组](https://leetcode-cn.com/problems/create-target-array-in-the-given-order/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-181/problems/create-target-array-in-the-given-order/)
 

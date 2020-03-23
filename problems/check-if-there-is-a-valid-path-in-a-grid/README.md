@@ -1,4 +1,4 @@
-# `（中等）` [5366.check-if-there-is-a-valid-path-in-a-grid 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/)
+# `（中等）` [1391.check-if-there-is-a-valid-path-in-a-grid 检查网格中是否存在有效路径](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-181/problems/check-if-there-is-a-valid-path-in-a-grid/)
 

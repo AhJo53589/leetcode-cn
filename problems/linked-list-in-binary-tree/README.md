@@ -1,4 +1,4 @@
-# `（中等）` [5346.linked-list-in-binary-tree 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)
+# `（中等）` [1367.linked-list-in-binary-tree 二叉树中的列表](https://leetcode-cn.com/problems/linked-list-in-binary-tree/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-178/problems/linked-list-in-binary-tree/)
 

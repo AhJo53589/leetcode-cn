@@ -1,4 +1,4 @@
-# `（困难）` [5359.maximum-performance-of-a-team 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/)
+# `（困难）` [1383.maximum-performance-of-a-team 最大的团队表现值](https://leetcode-cn.com/problems/maximum-performance-of-a-team/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-180/problems/maximum-performance-of-a-team/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5347.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
+# `（困难）` [1368.minimum-cost-to-make-at-least-one-valid-path-in-a-grid 使网格图至少有一条有效路径的最小代价](https://leetcode-cn.com/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-178/problems/minimum-cost-to-make-at-least-one-valid-path-in-a-grid/)
 

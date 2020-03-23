@@ -1,4 +1,4 @@
-# `（中等）` [5354.time-needed-to-inform-all-employees 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/)
+# `（中等）` [1376.time-needed-to-inform-all-employees 通知所有员工所需的时间](https://leetcode-cn.com/problems/time-needed-to-inform-all-employees/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-179/problems/time-needed-to-inform-all-employees/)
 

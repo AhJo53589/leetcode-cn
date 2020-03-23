@@ -1,4 +1,4 @@
-# `（中等）` [5350.sort-integers-by-the-power-value 将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)
+# `（中等）` [1387.sort-integers-by-the-power-value 将整数按权重排序](https://leetcode-cn.com/problems/sort-integers-by-the-power-value/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-22/problems/sort-integers-by-the-power-value/)
 
