@@ -1,6 +1,7 @@
 
 //////////////////////////////////////////////////////////////////////////
-class Solution {
+// TLE
+class Solution2 {
 public:
     int getDivisors(int num)
     {
@@ -29,6 +30,37 @@ public:
         return ans;
     }
 };
+
+//////////////////////////////////////////////////////////////////////////
+bool flag = false;
+unordered_map<int, unordered_set<int>> eleDict;
+void init() {
+    for (int i = 1; i <= 100000; i++) {
+        for (int j = i; j <= 100000; j += i) {
+            eleDict[j].insert(i);
+        }
+    }
+}
+class Solution {
+public:
+    int sumFourDivisors(vector<int>& nums) {
+        if (flag == false) {
+            init();
+            flag = true;
+        }
+        int sum = 0;
+        for (auto it = nums.cbegin(); it != nums.cend(); ++it) {
+            const unordered_set<int>& eles = eleDict[*it];
+            if (eles.size() == 4) {
+                for (auto pit = eles.cbegin(); pit != eles.cend(); pit++) {
+                    sum += *pit;
+                }
+            }
+        }
+        return sum;
+    }
+};
+
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<int>& nums)

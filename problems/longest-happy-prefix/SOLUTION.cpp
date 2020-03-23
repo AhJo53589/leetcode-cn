@@ -1,47 +1,49 @@
 
 //////////////////////////////////////////////////////////////////////////
-class Solution {
+class Solution2 {
 public:
-    string longestPrefix(string s) 
-    {
-        int ans = 0;
-        queue<int> que;
-        queue<int> queFront;
-        bool sameflag = true;
-        for (int i = 0; i < s.size() - 1; i++)
-        {
-            if (i != 0 && s[0] == s[i])
-            {
-                queFront.push(i);
-            }
-            if (s[i] != s.back())
-            {
-                sameflag = false;
-                continue;
-            }
-            que.push(i);
+    string longestPrefix(string s) {
+        int base = 131;
+        vector<unsigned long long> p(100002, 0);
+        p[0] = 1;
+        vector<unsigned long long> hash(100002, 0);
+        hash[0] = 0;
+        for (int i = 1; i <= s.size(); i++) {
+            hash[i] = hash[i - 1] * base + s[i - 1] - 'a' + 1;
+            p[i] = p[i - 1] * base;
         }
-        if (sameflag) return s.substr(0, s.size() - 1);
-
-        while (!queFront.empty())
-        {
-            int same_len = s.size() - queFront.front();
-            queFront.pop();
-
-            while (!que.empty())
-            {
-                auto q = que.front();
-                if (q - same_len <= 0) continue;
-                if (memcmp(&s[0], &s[q - same_len], same_len))
-                {
-                    ans = max(ans, same_len);
-                }
+        for (int i = s.size() - 1; i >= 1; i--) {
+            unsigned long long pre = hash[i];
+            unsigned long long suf = hash[s.size()] - hash[s.size() - i] * p[i];
+            if (pre == suf) {
+                return s.substr(0, i);
             }
-            if (ans != 0) break;
         }
-        return s.substr(0, ans);
+        return "";
     }
 };
+
+class Solution
+{
+public:
+    string longestPrefix(string s)
+    {
+        auto prefixEnd = s.end();
+        auto suffixBegin = s.begin();
+        for (int i = s.size() - 1; i > 0; --i)
+        {
+            --prefixEnd;
+            ++suffixBegin;
+            if (equal(s.begin(), prefixEnd, suffixBegin, s.end()))
+            {
+                return string(s.begin(), prefixEnd);
+            }
+        }
+
+        return string();
+    }
+};
+
 
 //////////////////////////////////////////////////////////////////////////
 string _solution_run(string s)
