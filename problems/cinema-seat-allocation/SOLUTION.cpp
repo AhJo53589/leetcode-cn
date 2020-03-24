@@ -2,46 +2,20 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats) 
+    int maxNumberOfFamilies(int n, vector<vector<int>>& reservedSeats)
     {
-        int ans = 0;
-        sort(reservedSeats.begin(), reservedSeats.end());
-        int r = 0;
-        for (int i = 0; i < n;)
+        unordered_map<int, int> rsCnt;
+        for (auto& rs : reservedSeats)
         {
-            int bitA = 0;
-            int bitB = 0;
-            int bitC = 0;
-            while (r < reservedSeats.size() && reservedSeats[r][0] == i + 1)
-            {
-                int b = reservedSeats[r][1];
-                r++;
-                if (b >= 2 && b < 6)
-                {
-                    bitA |= (1 << (b - 2));
-                }
-                if (b >= 4 && b < 8)
-                {
-                    bitB |= (1 << (b - 4));
-                }
-                if (b >= 6 && b < 10)
-                {
-                    bitC |= (1 << (b - 6));
-                }
-            }
-            int cntA = 2 - (bitA != 0) - (bitC != 0);
-            int cntB = 1 - (bitB != 0);
-            ans += max(cntA, cntB);
-
-            if (r >= reservedSeats.size())
-            {
-                ans += (n - 1 - i) * 2;
-                break;
-            }
-
-            int next = reservedSeats[r][0] - 1;
-            ans += (next - i - 1) * 2;
-            i = next;
+            if (rs[1] == 10 || rs[1] == 1) continue;
+            rsCnt[rs[0]] |= 1 << ((rs[1] - 2) / 2);
+        }
+        int ans = 2 * n;
+        for (auto& p : rsCnt)
+        {
+            cout << bitset<4>(p.second) << endl;
+            ans -= 2;
+            ans += ((p.second & 0b0011) == 0 || (p.second & 0b0110) == 0 || (p.second & 0b1100) == 0);
         }
         return ans;
     }

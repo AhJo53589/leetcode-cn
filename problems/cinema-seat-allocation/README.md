@@ -53,7 +53,7 @@
 ### 思路
 ```
 ```
-
+[发布的题解](https://leetcode-cn.com/problems/cinema-seat-allocation/solution/cinema-seat-allocation-by-ikaruga/)
 
 
 ### 答题
