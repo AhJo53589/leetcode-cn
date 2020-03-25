@@ -284,6 +284,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
 #define SOLUTION_CPP_FOLDER_NAME_ID_622 	design-circular-queue
+#define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
@@ -316,6 +317,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_876 	middle-of-the-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
+#define SOLUTION_CPP_FOLDER_NAME_ID_892 	surface-area-of-3d-shapes
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray

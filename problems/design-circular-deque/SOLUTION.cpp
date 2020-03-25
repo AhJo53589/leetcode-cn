@@ -4,48 +4,70 @@ class MyCircularDeque {
 public:
     /** Initialize your data structure here. Set the size of the deque to be k. */
     MyCircularDeque(int k) {
-
+		data = vector<int>(k, 0);
     }
     
     /** Adds an item at the front of Deque. Return true if the operation is successful. */
     bool insertFront(int value) {
-
+		if (isFull()) return false;
+		ptrStart = (data.size() + ptrStart - 1) % data.size();
+		data[ptrStart] = value;
+		emptyFlag = false;
+		return true;
     }
     
     /** Adds an item at the rear of Deque. Return true if the operation is successful. */
     bool insertLast(int value) {
-
+        if (isFull()) return false;
+        data[ptrEnd] = value;
+		ptrEnd = (ptrEnd + 1) % data.size();
+        emptyFlag = false;
+        return true;
     }
     
     /** Deletes an item from the front of Deque. Return true if the operation is successful. */
     bool deleteFront() {
-
+		if (isEmpty()) return false;
+		ptrStart = (ptrStart + 1) % data.size();
+		emptyFlag = (ptrStart == ptrEnd);
+        return true;
     }
     
     /** Deletes an item from the rear of Deque. Return true if the operation is successful. */
     bool deleteLast() {
-
+        if (isEmpty()) return false;
+		ptrEnd = (data.size() + ptrEnd - 1) % data.size();
+        emptyFlag = (ptrStart == ptrEnd);
+        return true;
     }
     
     /** Get the front item from the deque. */
     int getFront() {
-
+        if (isEmpty()) return -1;
+		return data[ptrStart];
     }
     
     /** Get the last item from the deque. */
     int getRear() {
-
+        if (isEmpty()) return -1;
+		return data[(data.size() + ptrEnd - 1) % data.size()];
     }
     
     /** Checks whether the circular deque is empty or not. */
     bool isEmpty() {
-
+		return emptyFlag;
     }
     
     /** Checks whether the circular deque is full or not. */
     bool isFull() {
-
+		return !emptyFlag && ptrEnd == ptrStart;
     }
+
+private:
+	vector<int> data;
+	int ptrStart = 0;
+	int ptrEnd = 0;
+	bool emptyFlag = true;
 };
 
 /**
@@ -70,7 +92,9 @@ public:
 string _solution_custom(TestCases &tc)
 {
 	vector<string> sf = tc.get<vector<string>>();
+	cout << convert<string>(sf) << endl;
 	vector<string> sp = tc.get<vector<string>>();
+    cout << convert<string>(sp) << endl;
 	vector<string> ans;
 
 	MyCircularDeque *obj = nullptr;
