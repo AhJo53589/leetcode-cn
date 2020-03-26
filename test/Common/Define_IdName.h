@@ -249,8 +249,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
+#define SOLUTION_CPP_FOLDER_NAME_ID_441 	arranging-coins
 #define SOLUTION_CPP_FOLDER_NAME_ID_443 	string-compression
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
+#define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_488 	zuma-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst

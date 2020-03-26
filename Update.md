@@ -4,6 +4,15 @@
 
 
 ---
+## 20200326
+* 453.minimum-moves-to-equal-array-elements 最小移动次数使数组元素相等
+
+* 441.arranging-coins 排列硬币
+
+* 473.matchsticks-to-square 火柴拼正方形
+
+
+---
 ## 20200325
 * 641.design-circular-deque 设计循环双端队列
 
