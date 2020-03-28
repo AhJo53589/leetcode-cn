@@ -1,8 +1,8 @@
 
 //////////////////////////////////////////////////////////////////////////
-class Solution {
+class Solution2 {
 public:
-    int countCharacters(vector<string>& words, string chars) 
+    int countCharacters(vector<string>& words, string chars)
     {
         unordered_map<char, int> cnt;
         for (auto c : chars)
@@ -17,6 +17,35 @@ public:
             for (auto c : w)
             {
                 if (++cntw[c] > cnt[c])
+                {
+                    flag = false;
+                    break;
+                }
+            }
+            ans += (flag) ? w.size() : 0;
+        }
+        return ans;
+    }
+};
+
+//////////////////////////////////////////////////////////////////////////
+class Solution {
+public:
+    int countCharacters(vector<string>& words, string chars) 
+    {
+        vector<int> cnt(26, 0);
+        for (auto c : chars)
+        {
+            cnt[(int)c - 'a']++;
+        }
+        int ans = 0;
+        for (auto w : words)
+        {
+            bool flag = true;
+            vector<int> cntw(26, 0);
+            for (auto c : w)
+            {
+                if (++cntw[(int)c - 'a'] > cnt[(int)c - 'a'])
                 {
                     flag = false;
                     break;

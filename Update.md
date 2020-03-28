@@ -4,6 +4,15 @@
 
 
 ---
+## 20200328
+* 575.distribute-candies 分糖果
+
+* 551.student-attendance-record-i 学生出勤记录 I
+
+* 520.detect-capital 检测大写字母
+
+
+---
 ## 20200326
 * 453.minimum-moves-to-equal-array-elements 最小移动次数使数组元素相等
 
