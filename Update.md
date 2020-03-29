@@ -5,6 +5,14 @@
 
 ---
 ## 20200329
+* 5371.find-all-good-strings 找到所有好字符串
+
+* 5370.design-underground-system 设计地铁系统
+
+* 5369.count-number-of-teams 统计作战单位数
+
+* 5368.find-lucky-integer-in-an-array 找出数组中的幸运数
+
 * 1162.as-far-from-land-as-possible 地图分析
 
 

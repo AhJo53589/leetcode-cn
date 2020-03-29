@@ -500,6 +500,10 @@
 | √ | 1390 | [four-divisors](../../problems/four-divisors) | [四因数](../../problems/four-divisors/README.md) | [cpp](../../problems/four-divisors/SOLUTION.cpp) |   | 中等 | 
 | √ | 1391 | [check-if-there-is-a-valid-path-in-a-grid](../../problems/check-if-there-is-a-valid-path-in-a-grid) | [检查网格中是否存在有效路径](../../problems/check-if-there-is-a-valid-path-in-a-grid/README.md) | [cpp](../../problems/check-if-there-is-a-valid-path-in-a-grid/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/check-if-there-is-a-valid-path-in-a-grid/solution/5366-by-ikaruga/) | 中等 | 
 | √ | 1392 | [longest-happy-prefix](../../problems/longest-happy-prefix) | [最长快乐前缀](../../problems/longest-happy-prefix/README.md) | [cpp](../../problems/longest-happy-prefix/SOLUTION.cpp) |   | 困难 | 
+| √ | 5368 | [find-lucky-integer-in-an-array](../../problems/find-lucky-integer-in-an-array) | [找出数组中的幸运数](../../problems/find-lucky-integer-in-an-array/README.md) | [cpp](../../problems/find-lucky-integer-in-an-array/SOLUTION.cpp) |   | 简单 | 
+| √ | 5369 | [count-number-of-teams](../../problems/count-number-of-teams) | [统计作战单位数](../../problems/count-number-of-teams/README.md) | [cpp](../../problems/count-number-of-teams/SOLUTION.cpp) |   | 中等 | 
+| √ | 5370 | [design-underground-system](../../problems/design-underground-system) | [设计地铁系统](../../problems/design-underground-system/README.md) | [cpp](../../problems/design-underground-system/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/design-underground-system/solution/design-underground-system-by-ikaruga/) | 中等 | 
+|   | 5371 | [find-all-good-strings](../../problems/find-all-good-strings) | [找到所有好字符串](../../problems/find-all-good-strings/README.md) | [cpp](../../problems/find-all-good-strings/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
