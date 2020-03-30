@@ -15,7 +15,6 @@
 
 * 1162.as-far-from-land-as-possible 地图分析
 
-
 ---
 ## 20200328
 * 575.distribute-candies 分糖果
@@ -23,7 +22,6 @@
 * 551.student-attendance-record-i 学生出勤记录 I
 
 * 520.detect-capital 检测大写字母
-
 
 ---
 ## 20200326
@@ -33,13 +31,11 @@
 
 * 473.matchsticks-to-square 火柴拼正方形
 
-
 ---
 ## 20200325
 * 641.design-circular-deque 设计循环双端队列
 
 * 892.surface-area-of-3d-shapes 三维形体的表面积
-
 
 ---
 ## 20200323
@@ -219,7 +215,6 @@
 
 * 88.merge-sorted-array 合并两个有序数组
 
-* 88.merge-sorted-array 合并两个有序数组
 
 ---
 ## 20200302

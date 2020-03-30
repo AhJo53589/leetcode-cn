@@ -164,9 +164,9 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\Common\Common.cpp" />
     <ClCompile Include="..\Common\ListNode.cpp" />
     <ClCompile Include="..\Common\Node.cpp" />
+    <ClCompile Include="..\Common\PerformanceTimer.cpp" />
     <ClCompile Include="..\Common\StringConvert.cpp" />
     <ClCompile Include="..\Common\TreeNode.cpp" />
     <ClCompile Include="pch.cpp">
