@@ -274,6 +274,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
+#define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
@@ -290,6 +291,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_590 	n-ary-tree-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
+#define SOLUTION_CPP_FOLDER_NAME_ID_605 	can-place-flowers
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
 #define SOLUTION_CPP_FOLDER_NAME_ID_622 	design-circular-queue
 #define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
@@ -299,6 +301,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_677 	map-sum-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_687 	longest-univalue-path
+#define SOLUTION_CPP_FOLDER_NAME_ID_690 	employee-importance
 #define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
 #define SOLUTION_CPP_FOLDER_NAME_ID_698 	partition-to-k-equal-sum-subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree

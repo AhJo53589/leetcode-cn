@@ -4,6 +4,17 @@
 
 
 ---
+## 20200331
+* 690.employee-importance 员工的重要性
+
+* 605.can-place-flowers 种花问题
+
+* 521.longest-uncommon-subsequence-i 最长特殊序列 Ⅰ
+
+* 912.sort-an-array 排序数组
+
+
+---
 ## 20200330
 * 475.heaters 供暖器
 
