@@ -55,7 +55,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All
-完成进度 （523 / 1566）
+完成进度 （524 / 1566）
 [查看全部](./problemset/all/README.md)
 
 ## Season
