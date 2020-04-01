@@ -5,6 +5,10 @@
 
 ---
 ## 20200401
+* 137.single-number-ii 只出现一次的数字 II
+
+* 68.text-justification 文本左右对齐
+
 * 1111.maximum-nesting-depth-of-two-valid-parentheses-strings 有效括号的嵌套深度
 
 

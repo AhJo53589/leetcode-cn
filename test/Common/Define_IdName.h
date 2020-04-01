@@ -64,6 +64,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_64 	minimum-path-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_66 	plus-one
 #define SOLUTION_CPP_FOLDER_NAME_ID_67 	add-binary
+#define SOLUTION_CPP_FOLDER_NAME_ID_68 	text-justification
 #define SOLUTION_CPP_FOLDER_NAME_ID_69 	sqrtx
 #define SOLUTION_CPP_FOLDER_NAME_ID_70 	climbing-stairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_71 	simplify-path
@@ -121,6 +122,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_133 	clone-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
 #define SOLUTION_CPP_FOLDER_NAME_ID_136 	single-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_137 	single-number-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_138 	copy-list-with-random-pointer
 #define SOLUTION_CPP_FOLDER_NAME_ID_139 	word-break
 #define SOLUTION_CPP_FOLDER_NAME_ID_140 	word-break-ii

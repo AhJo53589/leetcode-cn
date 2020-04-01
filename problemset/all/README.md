@@ -70,6 +70,7 @@
 | √ | 64 | [minimum-path-sum](../../problems/minimum-path-sum) | [最小路径和](../../problems/minimum-path-sum/README.md) | [cpp](../../problems/minimum-path-sum/SOLUTION.cpp) |   | 中等 |
 | √ | 66 | [plus-one](../../problems/plus-one) | [加一](../../problems/plus-one/README.md) | [cpp](../../problems/plus-one/SOLUTION.cpp) |   | 简单 |
 | √ | 67 | [add-binary](../../problems/add-binary) | [二进制求和](../../problems/add-binary/README.md) | [cpp](../../problems/add-binary/SOLUTION.cpp) |   | 简单 |
+| √ | 68 | [text-justification](../../problems/text-justification) | [文本左右对齐](../../problems/text-justification/README.md) | [cpp](../../problems/text-justification/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/text-justification/solution/text-justification-by-ikaruga/) | 困难 | 
 | √ | 69 | [sqrtx](../../problems/sqrtx) | [x 的平方根](../../problems/sqrtx/README.md) | [cpp](../../problems/sqrtx/SOLUTION.cpp) |   | 简单 |
 | √ | 70 | [climbing-stairs](../../problems/climbing-stairs) | [爬楼梯](../../problems/climbing-stairs/README.md) | [cpp](../../problems/climbing-stairs/SOLUTION.cpp) |   | 简单 |
 | √ | 71 | [simplify-path](../../problems/simplify-path) | [简化路径](../../problems/simplify-path/README.md) | [cpp](../../problems/simplify-path/SOLUTION.cpp) |   | 中等 |
@@ -127,6 +128,7 @@
 | √ | 133 | [clone-graph](../../problems/clone-graph) | [克隆图](../../problems/clone-graph/README.md) | [cpp](../../problems/clone-graph/SOLUTION.cpp) |   | 中等 |
 | √ | 134 | [gas-station](../../problems/gas-station) | [加油站](../../problems/gas-station/README.md) | [cpp](../../problems/gas-station/SOLUTION.cpp) |   | 中等 |
 | √ | 136 | [single-number](../../problems/single-number) | [只出现一次的数字](../../problems/single-number/README.md) | [cpp](../../problems/single-number/SOLUTION.cpp) |   | 简单 |
+| √ | 137 | [single-number-ii](../../problems/single-number-ii) | [只出现一次的数字 II](../../problems/single-number-ii/README.md) | [cpp](../../problems/single-number-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 138 | [copy-list-with-random-pointer](../../problems/copy-list-with-random-pointer) | [复制带随机指针的链表](../../problems/copy-list-with-random-pointer/README.md) | [cpp](../../problems/copy-list-with-random-pointer/SOLUTION.cpp) |   | 中等 |
 | √ | 139 | [word-break](../../problems/word-break) | [单词拆分](../../problems/word-break/README.md) | [cpp](../../problems/word-break/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/word-break/solution/139-by-ikaruga/) | 中等 |
 | √ | 140 | [word-break-ii](../../problems/word-break-ii) | [单词拆分 II](../../problems/word-break-ii/README.md) | [cpp](../../problems/word-break-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/word-break-ii/solution/140-by-ikaruga/) | 困难 |
