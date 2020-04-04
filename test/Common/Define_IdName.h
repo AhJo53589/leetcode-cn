@@ -500,6 +500,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1389 	create-target-array-in-the-given-order
 #define SOLUTION_CPP_FOLDER_NAME_ID_1391 	check-if-there-is-a-valid-path-in-a-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_1392 	longest-happy-prefix
+#define SOLUTION_CPP_FOLDER_NAME_ID_5360 	count-largest-group
+#define SOLUTION_CPP_FOLDER_NAME_ID_5361 	circle-and-rectangle-overlapping
+#define SOLUTION_CPP_FOLDER_NAME_ID_5362 	construct-k-palindrome-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5363 	reducing-dishes
 #define SOLUTION_CPP_FOLDER_NAME_ID_5368 	find-lucky-integer-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5369 	count-number-of-teams
 #define SOLUTION_CPP_FOLDER_NAME_ID_5370 	design-underground-system

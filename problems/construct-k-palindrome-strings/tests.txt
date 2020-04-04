@@ -1,0 +1,15 @@
+"annabelle"
+2
+true
+"leetcode"
+3
+false
+"true"
+4
+true
+"yzyzyzyzyzyzyzy"
+2
+true
+"cr"
+7
+false

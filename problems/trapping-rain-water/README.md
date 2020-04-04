@@ -14,7 +14,7 @@
 
 ```
 
-[发布的题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/)
+[发布的题解](https://leetcode-cn.com/problems/trapping-rain-water/solution/trapping-rain-water-by-ikaruga/)
 
 ### 答题
 ``` C++
