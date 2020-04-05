@@ -5,6 +5,14 @@
 
 ---
 ## 20200405
+* 5379.stone-game-iii 石子游戏 III
+
+* 5195.longest-happy-string 最长快乐字符串
+
+* 5377.number-of-steps-to-reduce-a-number-in-binary-representation-to-one 将二进制表示减到 1 的步骤数
+
+* 5376.minimum-subsequence-in-non-increasing-order 非递增顺序的最小子序列
+
 * 5363.reducing-dishes 做菜顺序
 
 * 5361.circle-and-rectangle-overlapping 圆和矩形是否有重叠

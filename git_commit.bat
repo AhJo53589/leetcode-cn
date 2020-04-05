@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5362.construct-k-palindrome-strings"
+git commit -m"5379.stone-game-iii"
 git push

@@ -500,6 +500,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1389 	create-target-array-in-the-given-order
 #define SOLUTION_CPP_FOLDER_NAME_ID_1391 	check-if-there-is-a-valid-path-in-a-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_1392 	longest-happy-prefix
+#define SOLUTION_CPP_FOLDER_NAME_ID_5195 	longest-happy-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5360 	count-largest-group
 #define SOLUTION_CPP_FOLDER_NAME_ID_5361 	circle-and-rectangle-overlapping
 #define SOLUTION_CPP_FOLDER_NAME_ID_5362 	construct-k-palindrome-strings
@@ -508,6 +509,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5369 	count-number-of-teams
 #define SOLUTION_CPP_FOLDER_NAME_ID_5370 	design-underground-system
 #define SOLUTION_CPP_FOLDER_NAME_ID_5371 	find-all-good-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5376 	minimum-subsequence-in-non-increasing-order
+#define SOLUTION_CPP_FOLDER_NAME_ID_5377 	number-of-steps-to-reduce-a-number-in-binary-representation-to-one
+#define SOLUTION_CPP_FOLDER_NAME_ID_5379 	stone-game-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
