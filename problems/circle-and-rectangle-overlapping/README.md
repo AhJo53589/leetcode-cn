@@ -7,13 +7,13 @@
 
 <p>如果圆和矩形有重叠的部分，请你返回 True ，否则返回 False&nbsp;。</p>
 
-<p>换句话说，请你检测是否 <strong>存在</strong> 点&nbsp;(xi, yi) ，它既在圆里也在矩形里（两者都包括边界包含的情况）。</p>
+<p>换句话说，请你检测是否 <strong>存在</strong> 点&nbsp;(xi, yi) ，它既在圆上也在矩形上（两者都包括点落在边界上的情况）。</p>
 
 <p>&nbsp;</p>
 
 <p><strong>示例 1：</strong></p>
 
-<p><img alt="" src="https://assets.leetcode.com/uploads/2020/02/20/sample_4_1728.png" style="height: 167px; width: 258px;"></p>
+<p><img style="height: 167px; width: 258px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/04/04/sample_4_1728.png" alt=""></p>
 
 <pre><strong>输入：</strong>radius = 1, x_center = 0, y_center = 0, x1 = 1, y1 = -1, x2 = 3, y2 = 1
 <strong>输出：</strong>true
@@ -22,7 +22,7 @@
 
 <p><strong>示例 2：</strong></p>
 
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2020/02/20/sample_2_1728.png" style="height: 135px; width: 150px;"></strong></p>
+<p><strong><img style="height: 135px; width: 150px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/04/04/sample_2_1728.png" alt=""></strong></p>
 
 <pre><strong>输入：</strong>radius = 1, x_center = 0, y_center = 0, x1 = -1, y1 = 0, x2 = 0, y2 = 1
 <strong>输出：</strong>true
@@ -30,7 +30,7 @@
 
 <p><strong>示例 3：</strong></p>
 
-<p><strong><img alt="" src="https://assets.leetcode.com/uploads/2020/03/03/sample_6_1728.png" style="height: 165px; width: 175px;"></strong></p>
+<p><strong><img style="height: 165px; width: 175px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/04/04/sample_6_1728.png" alt=""></strong></p>
 
 <pre><strong>输入：</strong>radius = 1, x_center = 1, y_center = 1, x1 = -3, y1 = -3, x2 = 3, y2 = 3
 <strong>输出：</strong>true
@@ -47,20 +47,19 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 &lt;= radius &lt;= 2000</code></li>
-	<li><code>-10^4 &lt;= x_center, y_center, x1, y1, x2, y2 &lt;= 10^4</code></li>
-	<li><code>x1 &lt; x2</code></li>
-	<li><code>y1 &lt; y2</code></li>
+	<li><code>1 <= radius <= 2000</code></li>
+	<li><code>-10^4 <= x_center, y_center, x1, y1, x2, y2 <= 10^4</code></li>
+	<li><code>x1 < x2</code></li>
+	<li><code>y1 < y2</code></li>
 </ul>
 
-            
 
 ---
 ### 思路
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/circle-and-rectangle-overlapping/solution/circle-and-rectangle-overlapping-by-ikaruga/)
 
 ### 答题
 ``` C++
@@ -71,10 +70,10 @@
 
         vector<double> p = { abs(x_center - x0) , abs(y_center - y0) };
         vector<double> q = { x2 - x0, y2 - y0 };
+        
+        vector<double> u = { max(p[0] - q[0], 0.0), max(p[1] - q[1], 0.0) };
 
-        double a1 = max(p[0] - q[0], 0.0);
-        double a2 = max(p[1] - q[1], 0.0);
-        return sqrt(a1 * a1 + a2 * a2) <= radius;   
+        return sqrt(u[0] * u[0] + u[1] * u[1]) <= radius;   
     }
 ```
 

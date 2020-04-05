@@ -9,10 +9,10 @@ public:
 
         vector<double> p = { abs(x_center - x0) , abs(y_center - y0) };
         vector<double> q = { x2 - x0, y2 - y0 };
+        
+        vector<double> u = { max(p[0] - q[0], 0.0), max(p[1] - q[1], 0.0) };
 
-        double a1 = max(p[0] - q[0], 0.0);
-        double a2 = max(p[1] - q[1], 0.0);
-        return sqrt(a1 * a1 + a2 * a2) <= radius;   
+        return sqrt(u[0] * u[0] + u[1] * u[1]) <= radius;   
     }
 };
 
