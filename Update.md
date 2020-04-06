@@ -5,8 +5,13 @@
 
 ---
 ## 20200406
-* 5361.circle-and-rectangle-overlapping 圆和矩形是否有重叠
+* 874.walking-robot-simulation 模拟行走机器人
 
+* 581.shortest-unsorted-continuous-subarray 最短无序连续子数组
+
+* 72.edit-distance 编辑距离
+
+* 5361.circle-and-rectangle-overlapping 圆和矩形是否有重叠
 
 ---
 ## 20200405

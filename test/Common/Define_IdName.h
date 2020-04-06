@@ -68,6 +68,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_69 	sqrtx
 #define SOLUTION_CPP_FOLDER_NAME_ID_70 	climbing-stairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_71 	simplify-path
+#define SOLUTION_CPP_FOLDER_NAME_ID_72 	edit-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_73 	set-matrix-zeroes
 #define SOLUTION_CPP_FOLDER_NAME_ID_74 	search-a-2d-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_75 	sort-colors
@@ -289,6 +290,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_575 	distribute-candies
+#define SOLUTION_CPP_FOLDER_NAME_ID_581 	shortest-unsorted-continuous-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_590 	n-ary-tree-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
@@ -328,6 +330,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
+#define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation
 #define SOLUTION_CPP_FOLDER_NAME_ID_876 	middle-of-the-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_892 	surface-area-of-3d-shapes
