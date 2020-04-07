@@ -4,6 +4,13 @@
 
 
 ---
+## 20200407
+* 905.sort-array-by-parity 按奇偶排序数组
+
+* 693.binary-number-with-alternating-bits 交替位二进制数
+
+
+---
 ## 20200406
 * 874.walking-robot-simulation 模拟行走机器人
 

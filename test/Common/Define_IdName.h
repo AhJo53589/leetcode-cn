@@ -306,6 +306,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_677 	map-sum-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_687 	longest-univalue-path
 #define SOLUTION_CPP_FOLDER_NAME_ID_690 	employee-importance
+#define SOLUTION_CPP_FOLDER_NAME_ID_693 	binary-number-with-alternating-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
 #define SOLUTION_CPP_FOLDER_NAME_ID_698 	partition-to-k-equal-sum-subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree
@@ -334,6 +335,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_876 	middle-of-the-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_892 	surface-area-of-3d-shapes
+#define SOLUTION_CPP_FOLDER_NAME_ID_905 	sort-array-by-parity
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray

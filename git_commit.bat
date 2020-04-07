@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"874.walking-robot-simulation"
+git commit -m"905.sort-array-by-parity"
 git push
