@@ -517,6 +517,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5376 	minimum-subsequence-in-non-increasing-order
 #define SOLUTION_CPP_FOLDER_NAME_ID_5377 	number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 #define SOLUTION_CPP_FOLDER_NAME_ID_5379 	stone-game-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5380 	string-matching-in-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5381 	queries-on-a-permutation-with-key
+#define SOLUTION_CPP_FOLDER_NAME_ID_5382 	html-entity-parser
+#define SOLUTION_CPP_FOLDER_NAME_ID_5383 	number-of-ways-to-paint-n-x-3-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

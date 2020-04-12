@@ -4,6 +4,17 @@
 
 
 ---
+## 20200412
+* 5383.number-of-ways-to-paint-n-x-3-grid 给 N x 3 网格图涂色的方案数
+
+* 5382.html-entity-parser HTML 实体解析器
+
+* 5381.queries-on-a-permutation-with-key 查询带键的排列
+
+* 5380.string-matching-in-an-array 数组中的字符串匹配
+
+
+---
 ## 20200407
 * 905.sort-array-by-parity 按奇偶排序数组
 

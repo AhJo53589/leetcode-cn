@@ -1,0 +1,8 @@
+["mass","as","hero","superhero"]
+["as","hero"]
+["leetcode","et","code"]
+["et","code"]
+["blue","green","bu"]
+[]
+["leetcoder","leetcode","od","hamlet","am"]
+["leetcode","od","am"]
