@@ -257,6 +257,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_437 	path-sum-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_441 	arranging-coins
 #define SOLUTION_CPP_FOLDER_NAME_ID_443 	string-compression
+#define SOLUTION_CPP_FOLDER_NAME_ID_445 	add-two-numbers-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_460 	lfu-cache
