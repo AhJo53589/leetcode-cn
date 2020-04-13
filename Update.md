@@ -5,6 +5,12 @@
 
 ---
 ## 20200413
+* 504.base-7 七进制数
+
+* 401.binary-watch 二进制手表
+
+* 460.lfu-cache LFU缓存
+
 * 355.design-twitter 设计推特
 
 

@@ -244,6 +244,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_394 	decode-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_399 	evaluate-division
+#define SOLUTION_CPP_FOLDER_NAME_ID_401 	binary-watch
 #define SOLUTION_CPP_FOLDER_NAME_ID_406 	queue-reconstruction-by-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_409 	longest-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
@@ -258,6 +259,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_443 	string-compression
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_460 	lfu-cache
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_475 	heaters
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
@@ -275,6 +277,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
 #define SOLUTION_CPP_FOLDER_NAME_ID_503 	next-greater-element-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_504 	base-7
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
