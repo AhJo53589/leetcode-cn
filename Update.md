@@ -5,6 +5,10 @@
 
 ---
 ## 20200414
+* 868.binary-gap 二进制间距
+
+* 922.sort-array-by-parity-ii 按奇偶排序数组 II
+
 * 445.add-two-numbers-ii 两数相加 II
 
 
