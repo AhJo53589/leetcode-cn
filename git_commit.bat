@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"868.binary-gap"
+git commit -m"56.merge-intervals"
 git push

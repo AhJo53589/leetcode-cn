@@ -60,7 +60,7 @@
 | √ | 53 | [maximum-subarray](../../problems/maximum-subarray) | [最大子序和](../../problems/maximum-subarray/README.md) | [cpp](../../problems/maximum-subarray/SOLUTION.cpp) |   | 简单 |
 | √ | 54 | [spiral-matrix](../../problems/spiral-matrix) | [螺旋矩阵](../../problems/spiral-matrix/README.md) | [cpp](../../problems/spiral-matrix/SOLUTION.cpp) |   | 中等 |
 | √ | 55 | [jump-game](../../problems/jump-game) | [跳跃游戏](../../problems/jump-game/README.md) | [cpp](../../problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
-| √ | 56 | [merge-intervals](../../problems/merge-intervals) | [合并区间](../../problems/merge-intervals/README.md) | [cpp](../../problems/merge-intervals/SOLUTION.cpp) |   | 中等 |
+| √ | 56 | [merge-intervals](../../problems/merge-intervals) | [合并区间](../../problems/merge-intervals/README.md) | [cpp](../../problems/merge-intervals/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/merge-intervals/solution/merge-intervals-by-ikaruga/) | 中等 | 
 | √ | 58 | [length-of-last-word](../../problems/length-of-last-word) | [最后一个单词的长度](../../problems/length-of-last-word/README.md) | [cpp](../../problems/length-of-last-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) | 简单 |
 | √ | 59 | [spiral-matrix-ii](../../problems/spiral-matrix-ii) | [螺旋矩阵 II](../../problems/spiral-matrix-ii/README.md) | [cpp](../../problems/spiral-matrix-ii/SOLUTION.cpp) |   | 中等 |
 | √ | 60 | [permutation-sequence](../../problems/permutation-sequence) | [第k个排列](../../problems/permutation-sequence/README.md) | [cpp](../../problems/permutation-sequence/SOLUTION.cpp) |   | 中等 |
