@@ -341,6 +341,7 @@
 | √ | 771 | [jewels-and-stones](../../problems/jewels-and-stones) | [宝石与石头](../../problems/jewels-and-stones/README.md) | [cpp](../../problems/jewels-and-stones/SOLUTION.cpp) |   | 简单 |
 | √ | 779 | [k-th-symbol-in-grammar](../../problems/k-th-symbol-in-grammar) | [第K个语法符号](../../problems/k-th-symbol-in-grammar/README.md) | [cpp](../../problems/k-th-symbol-in-grammar/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)  | 中等 |
 | √ | 788 | [rotated-digits](../../problems/rotated-digits) | [旋转数字](../../problems/rotated-digits/README.md) | [cpp](../../problems/rotated-digits/SOLUTION.cpp) |   | 简单 |
+| √ | 819 | [most-common-word](../../problems/most-common-word) | [最常见的单词](../../problems/most-common-word/README.md) | [cpp](../../problems/most-common-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/most-common-word/solution/most-common-word-by-ikaruga/) | 简单 | 
 | √ | 820 | [short-encoding-of-words](../../problems/short-encoding-of-words) | [单词的压缩编码](../../problems/short-encoding-of-words/README.md) | [cpp](../../problems/short-encoding-of-words/SOLUTION.cpp) |   | 中等 |
 | √ | 836 | [rectangle-overlap](../../problems/rectangle-overlap) | [矩形重叠](../../problems/rectangle-overlap/README.md) | [cpp](../../problems/rectangle-overlap/SOLUTION.cpp) |   | 简单 |
 | √ | 841 | [keys-and-rooms](../../problems/keys-and-rooms) | [钥匙和房间](../../problems/keys-and-rooms/README.md) | [cpp](../../problems/keys-and-rooms/SOLUTION.cpp) |   | 中等 |

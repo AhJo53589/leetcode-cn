@@ -333,6 +333,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
