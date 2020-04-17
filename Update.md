@@ -5,6 +5,10 @@
 
 ---
 ## 20200417
+* 888.fair-candy-swap 公平的糖果交换
+
+* 748.shortest-completing-word 最短完整词
+
 * 819.most-common-word 最常见的单词
 
 
