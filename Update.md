@@ -4,6 +4,17 @@
 
 
 ---
+## 20200419
+* 5375.restore-the-array 恢复数组
+
+* 5374.the-k-th-lexicographical-string-of-all-happy-strings-of-length-n 长度为 n 的开心字符串中字典序第 k 小的字符串
+
+* 5373.find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k 和为 K 的最少斐波那契数字数目
+
+* 5372.minimum-value-to-get-positive-step-by-step-sum 逐步求和得到正数的最小值
+
+
+---
 ## 20200418
 * LCP 10.er-cha-shu-ren-wu-diao-du 二叉树任务调度
 

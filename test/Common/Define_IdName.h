@@ -524,6 +524,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5369 	count-number-of-teams
 #define SOLUTION_CPP_FOLDER_NAME_ID_5370 	design-underground-system
 #define SOLUTION_CPP_FOLDER_NAME_ID_5371 	find-all-good-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5372 	minimum-value-to-get-positive-step-by-step-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5373 	find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_5374 	the-k-th-lexicographical-string-of-all-happy-strings-of-length-n
+#define SOLUTION_CPP_FOLDER_NAME_ID_5375 	restore-the-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5376 	minimum-subsequence-in-non-increasing-order
 #define SOLUTION_CPP_FOLDER_NAME_ID_5377 	number-of-steps-to-reduce-a-number-in-binary-representation-to-one
 #define SOLUTION_CPP_FOLDER_NAME_ID_5379 	stone-game-iii
