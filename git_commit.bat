@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"888.fair-candy-swap"
+git commit -m"LCP 10.er-cha-shu-ren-wu-diao-du"
 git push

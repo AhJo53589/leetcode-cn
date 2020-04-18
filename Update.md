@@ -4,6 +4,19 @@
 
 
 ---
+## 20200418
+* LCP 10.er-cha-shu-ren-wu-diao-du 二叉树任务调度
+
+* LCP 09.zui-xiao-tiao-yue-ci-shu 最小跳跃次数
+
+* LCP 08.ju-qing-hong-fa-shi-jian 剧情触发时间
+
+* LCP 07.chuan-di-xin-xi 传递信息
+
+* LCP 06.na-ying-bi 拿硬币
+
+
+---
 ## 20200417
 * 888.fair-candy-swap 公平的糖果交换
 
@@ -11,11 +24,9 @@
 
 * 819.most-common-word 最常见的单词
 
-
 ---
 ## 20200415
 * 56.merge-intervals 合并区间
-
 
 ---
 ## 20200414
@@ -24,7 +35,6 @@
 * 922.sort-array-by-parity-ii 按奇偶排序数组 II
 
 * 445.add-two-numbers-ii 两数相加 II
-
 
 ---
 ## 20200413
@@ -36,7 +46,6 @@
 
 * 355.design-twitter 设计推特
 
-
 ---
 ## 20200412
 * 5383.number-of-ways-to-paint-n-x-3-grid 给 N x 3 网格图涂色的方案数
@@ -47,13 +56,11 @@
 
 * 5380.string-matching-in-an-array 数组中的字符串匹配
 
-
 ---
 ## 20200407
 * 905.sort-array-by-parity 按奇偶排序数组
 
 * 693.binary-number-with-alternating-bits 交替位二进制数
-
 
 ---
 ## 20200406
