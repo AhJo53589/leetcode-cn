@@ -261,6 +261,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_460 	lfu-cache
+#define SOLUTION_CPP_FOLDER_NAME_ID_466 	count-the-repetitions
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_475 	heaters
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
@@ -535,6 +536,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5381 	queries-on-a-permutation-with-key
 #define SOLUTION_CPP_FOLDER_NAME_ID_5382 	html-entity-parser
 #define SOLUTION_CPP_FOLDER_NAME_ID_5383 	number-of-ways-to-paint-n-x-3-grid
+#define SOLUTION_CPP_FOLDER_NAME_ID_5388 	reformat-the-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5389 	display-table-of-food-orders-in-a-restaurant
+#define SOLUTION_CPP_FOLDER_NAME_ID_5390 	minimum-number-of-frogs-croaking
+#define SOLUTION_CPP_FOLDER_NAME_ID_5391 	build-array-where-you-can-find-the-maximum-exactly-k-comparisons
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
