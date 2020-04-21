@@ -156,6 +156,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_190 	reverse-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_191 	number-of-1-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_198 	house-robber
+#define SOLUTION_CPP_FOLDER_NAME_ID_199 	binary-tree-right-side-view
 #define SOLUTION_CPP_FOLDER_NAME_ID_200 	number-of-islands
 #define SOLUTION_CPP_FOLDER_NAME_ID_202 	happy-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_203 	remove-linked-list-elements
@@ -294,7 +295,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_559 	maximum-depth-of-n-ary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_561 	array-partition-i
+#define SOLUTION_CPP_FOLDER_NAME_ID_563 	binary-tree-tilt
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_572 	subtree-of-another-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_575 	distribute-candies
 #define SOLUTION_CPP_FOLDER_NAME_ID_581 	shortest-unsorted-continuous-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal

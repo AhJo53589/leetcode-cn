@@ -4,6 +4,15 @@
 
 
 ---
+## 20200422
+* 572.subtree-of-another-tree 另一个树的子树
+
+* 563.binary-tree-tilt 二叉树的坡度
+
+* 199.binary-tree-right-side-view 二叉树的右视图
+
+
+---
 ## 20200419
 * 5391.build-array-where-you-can-find-the-maximum-exactly-k-comparisons 生成数组
 
