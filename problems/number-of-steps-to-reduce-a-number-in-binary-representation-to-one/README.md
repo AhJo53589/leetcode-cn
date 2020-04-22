@@ -1,4 +1,4 @@
-# `（中等）` [5377.number-of-steps-to-reduce-a-number-in-binary-representation-to-one 将二进制表示减到 1 的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
+# `（中等）` [1404.number-of-steps-to-reduce-a-number-in-binary-representation-to-one 将二进制表示减到 1 的步骤数](https://leetcode-cn.com/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-183/problems/number-of-steps-to-reduce-a-number-in-binary-representation-to-one/)
 

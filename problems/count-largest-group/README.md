@@ -1,4 +1,4 @@
-# `（简单）` [5360.count-largest-group 统计最大组的数目](https://leetcode-cn.com/problems/count-largest-group/)
+# `（简单）` [1399.count-largest-group 统计最大组的数目](https://leetcode-cn.com/problems/count-largest-group/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-23/problems/count-largest-group/)
 

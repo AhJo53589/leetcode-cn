@@ -1,4 +1,4 @@
-# `（困难）` [5363.reducing-dishes 做菜顺序](https://leetcode-cn.com/problems/reducing-dishes/)
+# `（困难）` [1402.reducing-dishes 做菜顺序](https://leetcode-cn.com/problems/reducing-dishes/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-23/problems/reducing-dishes/)
 

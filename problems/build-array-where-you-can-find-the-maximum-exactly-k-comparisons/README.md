@@ -1,4 +1,4 @@
-# `（困难）` [5391.build-array-where-you-can-find-the-maximum-exactly-k-comparisons 生成数组](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
+# `（困难）` [1420.build-array-where-you-can-find-the-maximum-exactly-k-comparisons 生成数组](https://leetcode-cn.com/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-185/problems/build-array-where-you-can-find-the-maximum-exactly-k-comparisons/)
 

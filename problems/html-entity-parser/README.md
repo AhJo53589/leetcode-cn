@@ -1,4 +1,4 @@
-# `（中等）` [5382.html-entity-parser HTML 实体解析器](https://leetcode-cn.com/problems/html-entity-parser/)
+# `（中等）` [1410.html-entity-parser HTML 实体解析器](https://leetcode-cn.com/problems/html-entity-parser/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-184/problems/html-entity-parser/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5381.queries-on-a-permutation-with-key 查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/)
+# `（中等）` [1409.queries-on-a-permutation-with-key 查询带键的排列](https://leetcode-cn.com/problems/queries-on-a-permutation-with-key/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-184/problems/queries-on-a-permutation-with-key/)
 

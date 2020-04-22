@@ -1,4 +1,4 @@
-# `（困难）` [5379.stone-game-iii 石子游戏 III](https://leetcode-cn.com/problems/stone-game-iii/)
+# `（困难）` [1406.stone-game-iii 石子游戏 III](https://leetcode-cn.com/problems/stone-game-iii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-183/problems/stone-game-iii/)
 

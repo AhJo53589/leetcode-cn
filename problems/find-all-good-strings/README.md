@@ -1,4 +1,4 @@
-# `（困难）` [5371.find-all-good-strings 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/)
+# `（困难）` [1397.find-all-good-strings 找到所有好字符串](https://leetcode-cn.com/problems/find-all-good-strings/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-182/problems/find-all-good-strings/)
 

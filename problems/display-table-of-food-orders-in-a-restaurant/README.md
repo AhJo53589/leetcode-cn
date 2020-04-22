@@ -1,4 +1,4 @@
-# `（中等）` [5389.display-table-of-food-orders-in-a-restaurant 点菜展示表](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)
+# `（中等）` [1418.display-table-of-food-orders-in-a-restaurant 点菜展示表](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-185/problems/display-table-of-food-orders-in-a-restaurant/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5373.find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
+# `（中等）` [1414.find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k 和为 K 的最少斐波那契数字数目](https://leetcode-cn.com/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-24/problems/find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k/)
 

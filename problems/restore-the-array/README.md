@@ -1,4 +1,4 @@
-# `（困难）` [5375.restore-the-array 恢复数组](https://leetcode-cn.com/problems/restore-the-array/)
+# `（困难）` [1416.restore-the-array 恢复数组](https://leetcode-cn.com/problems/restore-the-array/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-24/problems/restore-the-array/)
 

@@ -38,24 +38,23 @@
 [查看详细](./quickstart/README.md)
 
 ## Selected Solutions
-|     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
-| --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
-| ☆☆☆ | 37 | [sudoku-solver](./problems/sudoku-solver) | [解数独](./problems/sudoku-solver/README.md) | [cpp](./problems/sudoku-solver/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/sudoku-solver/solution/37-by-ikaruga/) | 困难 |
-| ☆☆☆ | 42 | [trapping-rain-water](./problems/trapping-rain-water) | [接雨水](./problems/trapping-rain-water/README.md) | [cpp](./problems/trapping-rain-water/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/trapping-rain-water/solution/42-by-ikaruga/) | 困难 |
-| ☆☆☆ | 45 | [jump-game-ii](./problems/jump-game-ii) | [跳跃游戏 II](./problems/jump-game-ii/README.md) | [cpp](./problems/jump-game-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) | 困难 |
-| ☆☆☆ | 55 | [jump-game](./problems/jump-game) | [跳跃游戏](./problems/jump-game/README.md) | [cpp](./problems/jump-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/) | 中等 |
-| ☆☆☆ | 68 | [text-justification](./problems/text-justification) | [文本左右对齐](./problems/text-justification/README.md) | [cpp](./problems/text-justification/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/text-justification/solution/text-justification-by-ikaruga/) | 困难 |
-| ☆☆☆ | 72 | [edit-distance](./problems/edit-distance) | [编辑距离](./problems/edit-distance/README.md) | [cpp](./problems/edit-distance/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/edit-distance/solution/edit-distance-by-ikaruga/) | 困难 |
-| ☆☆☆ | 84 | [largest-rectangle-in-histogram](./problems/largest-rectangle-in-histogram) | [柱状图中最大的矩形](./problems/largest-rectangle-in-histogram/README.md) | [cpp](./problems/largest-rectangle-in-histogram/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/) | 困难 |
-| ☆☆☆ | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [二叉树中的最大路径和](./problems/binary-tree-maximum-path-sum/README.md) | [cpp](./problems/binary-tree-maximum-path-sum/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) | 困难 |
-| ☆☆☆ | 198 | [house-robber](./problems/house-robber) | [打家劫舍](./problems/house-robber/README.md) | [cpp](./problems/house-robber/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) | 简单 |
-| ☆☆☆ | 322 | [coin-change](./problems/coin-change) | [零钱兑换](./problems/coin-change/README.md) | [cpp](./problems/coin-change/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/) | 中等 |
-| ☆☆☆ | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [对角线遍历](./problems/diagonal-traverse/README.md) | [cpp](./problems/diagonal-traverse/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) | 中等 |
-| ☆☆☆ | 887 | [super-egg-drop](./problems/super-egg-drop) | [鸡蛋掉落](./problems/super-egg-drop/README.md) | [cpp](./problems/super-egg-drop/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) | 困难 |
-| ☆☆☆ | 1255 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [得分最高的单词集合](./problems/maximum-score-words-formed-by-letters/README.md) | [cpp](./problems/maximum-score-words-formed-by-letters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)  | 困难 |
-| ☆☆☆ | 1263 | [minimum-moves-to-move-a-box-to-their-target-location](./problems/minimum-moves-to-move-a-box-to-their-target-location) | [推箱子](./problems/minimum-moves-to-move-a-box-to-their-target-location/README.md) | [cpp](./problems/minimum-moves-to-move-a-box-to-their-target-location/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/solution/1263-by-ikaruga/) | 困难 |
-| ☆☆☆ | 1307 | [verbal-arithmetic-puzzle](./problems/verbal-arithmetic-puzzle) | [口算难题](./problems/verbal-arithmetic-puzzle/README.md) | [cpp](./problems/verbal-arithmetic-puzzle/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/5298-by-ikaruga/) | 困难 |
-| ☆☆☆ | 1326 | [minimum-number-of-taps-to-open-to-water-a-garden](./problems/minimum-number-of-taps-to-open-to-water-a-garden) | [灌溉花园的最少水龙头数目](./problems/minimum-number-of-taps-to-open-to-water-a-garden/README.md) | [cpp](./problems/minimum-number-of-taps-to-open-to-water-a-garden/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/)  | 困难 |
+* 37 | [sudoku-solver](./problems/sudoku-solver) | [【解数独】回溯 + 状态压缩（使用 bitset）](https://leetcode-cn.com/problems/sudoku-solver/solution/37-by-ikaruga/)
+* 42 | [trapping-rain-water](./problems/trapping-rain-water) | [【接雨水】单调递减栈，简洁代码，动图模拟](https://leetcode-cn.com/problems/trapping-rain-water/solution/trapping-rain-water-by-ikaruga/)
+* 45 | [jump-game-ii](./problems/jump-game-ii) | [【跳跃游戏 II】别想那么多，就挨着跳吧 II](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/)
+* 55 | [jump-game](./problems/jump-game) | [【跳跃游戏】别想那么多，就挨着跳吧](https://leetcode-cn.com/problems/jump-game/solution/55-by-ikaruga/)
+* 68 | [text-justification](./problems/text-justification) | [【文本左右对齐】平均分布额外空格](https://leetcode-cn.com/problems/text-justification/solution/text-justification-by-ikaruga/)
+* 72 | [edit-distance](./problems/edit-distance) | [【编辑距离】入门动态规划，你定义的 dp 里到底存了啥](https://leetcode-cn.com/problems/edit-distance/solution/edit-distance-by-ikaruga/)
+* 84 | [largest-rectangle-in-histogram](./problems/largest-rectangle-in-histogram) | [【柱状图中最大的矩形】单调栈入门，使用单调栈快速寻找边界](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/)
+* 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [【二叉树中的最大路径和】递归，条理清晰](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/)
+* 198 | [house-robber](./problems/house-robber) [【打家劫舍】 代码简洁易懂](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/)
+* 322 | [coin-change](./problems/coin-change) | [【零钱兑换】贪心 + dfs = 8ms](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/)
+* 498 | [diagonal-traverse](./problems/diagonal-traverse) | [【对角线遍历】 分析题目-找准规律-代码清晰易读-不要让自己迷失在随意的ifelse中](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/)
+* 887 | [super-egg-drop](./problems/super-egg-drop) | [【鸡蛋掉落】5 行代码，从求扔几次变为求多少层楼 =附面试经历=](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/)
+* 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [【统计「优美子数组」】滑动窗口一次遍历](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/)
+* 1255 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [【得分最高的单词集合】位压缩](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/)
+* 1263 | [minimum-moves-to-move-a-box-to-their-target-location](./problems/minimum-moves-to-move-a-box-to-their-target-location) | [【推箱子】BFS + 优先队列 的 详细讲解](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/solution/1263-by-ikaruga/)
+* 1307 | [verbal-arithmetic-puzzle](./problems/verbal-arithmetic-puzzle) | [【口算难题】回溯并利用多个方程剪枝 52ms](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/5298-by-ikaruga/)
+* 1326 | [minimum-number-of-taps-to-open-to-water-a-garden](./problems/minimum-number-of-taps-to-open-to-water-a-garden) | [【灌溉花园的最少水龙头数目】贪心](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/)
 
 [查看全部](./Solutions.md)
 

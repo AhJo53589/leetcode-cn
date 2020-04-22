@@ -1,4 +1,4 @@
-# `（中等）` [5374.the-k-th-lexicographical-string-of-all-happy-strings-of-length-n 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
+# `（中等）` [1415.the-k-th-lexicographical-string-of-all-happy-strings-of-length-n 长度为 n 的开心字符串中字典序第 k 小的字符串](https://leetcode-cn.com/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-24/problems/the-k-th-lexicographical-string-of-all-happy-strings-of-length-n/)
 

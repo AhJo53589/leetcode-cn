@@ -1,4 +1,4 @@
-# `（中等）` [5370.design-underground-system 设计地铁系统](https://leetcode-cn.com/problems/design-underground-system/)
+# `（中等）` [1396.design-underground-system 设计地铁系统](https://leetcode-cn.com/problems/design-underground-system/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-182/problems/design-underground-system/)
 

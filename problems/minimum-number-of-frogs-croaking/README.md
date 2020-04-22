@@ -1,4 +1,4 @@
-# `（中等）` [5390.minimum-number-of-frogs-croaking 数青蛙](https://leetcode-cn.com/problems/minimum-number-of-frogs-croaking/)
+# `（中等）` [1419.minimum-number-of-frogs-croaking 数青蛙](https://leetcode-cn.com/problems/minimum-number-of-frogs-croaking/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-185/problems/minimum-number-of-frogs-croaking/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5388.reformat-the-string 重新格式化字符串](https://leetcode-cn.com/problems/reformat-the-string/)
+# `（简单）` [1417.reformat-the-string 重新格式化字符串](https://leetcode-cn.com/problems/reformat-the-string/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-185/problems/reformat-the-string/)
 

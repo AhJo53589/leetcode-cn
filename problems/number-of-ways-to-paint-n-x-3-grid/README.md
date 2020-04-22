@@ -1,4 +1,4 @@
-# `（困难）` [5383.number-of-ways-to-paint-n-x-3-grid 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/)
+# `（困难）` [1411.number-of-ways-to-paint-n-x-3-grid 给 N x 3 网格图涂色的方案数](https://leetcode-cn.com/problems/number-of-ways-to-paint-n-x-3-grid/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-184/problems/number-of-ways-to-paint-n-x-3-grid/)
 

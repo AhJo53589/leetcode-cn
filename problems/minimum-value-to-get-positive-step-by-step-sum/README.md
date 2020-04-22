@@ -1,4 +1,4 @@
-# `（简单）` [5372.minimum-value-to-get-positive-step-by-step-sum 逐步求和得到正数的最小值](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
+# `（简单）` [1413.minimum-value-to-get-positive-step-by-step-sum 逐步求和得到正数的最小值](https://leetcode-cn.com/problems/minimum-value-to-get-positive-step-by-step-sum/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-24/problems/minimum-value-to-get-positive-step-by-step-sum/)
 

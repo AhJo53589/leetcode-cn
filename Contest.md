@@ -50,4 +50,4 @@
 | 2020/4/5   | [第 183 场周赛](./contest/weekly-contest-183/README.md)   | 3 / 4 | 443 / 3754 |
 | 2020/4/12  | [第 184 场周赛](./contest/weekly-contest-184/README.md)   | 3 / 4 | 1704 / 3846 |
 | 2020/4/18  | [第 24 场双周赛](./contest/biweekly-contest-24/README.md) | 4 / 4 | 204 / 1898 |
-| 2020/4/19  | [第 185 场周赛](./contest/weekly-contest-185/README.md)  | 3 / 4 | 291 / 5001 | 
+| 2020/4/19  | [第 185 场周赛](./contest/weekly-contest-185/README.md)   | 3 / 4 | 291 / 5001 |

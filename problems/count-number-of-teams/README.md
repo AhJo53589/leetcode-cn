@@ -1,4 +1,4 @@
-# `（中等）` [5369.count-number-of-teams 统计作战单位数](https://leetcode-cn.com/problems/count-number-of-teams/)
+# `（中等）` [1395.count-number-of-teams 统计作战单位数](https://leetcode-cn.com/problems/count-number-of-teams/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-182/problems/count-number-of-teams/)
 

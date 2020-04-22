@@ -1,4 +1,4 @@
-# `（中等）` [5362.construct-k-palindrome-strings 构造 K 个回文字符串](https://leetcode-cn.com/problems/construct-k-palindrome-strings/)
+# `（中等）` [1400.construct-k-palindrome-strings 构造 K 个回文字符串](https://leetcode-cn.com/problems/construct-k-palindrome-strings/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-23/problems/construct-k-palindrome-strings/)
 

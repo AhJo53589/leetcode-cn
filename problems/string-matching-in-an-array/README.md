@@ -1,4 +1,4 @@
-# `（简单）` [5380.string-matching-in-an-array 数组中的字符串匹配](https://leetcode-cn.com/problems/string-matching-in-an-array/)
+# `（简单）` [1408.string-matching-in-an-array 数组中的字符串匹配](https://leetcode-cn.com/problems/string-matching-in-an-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-184/problems/string-matching-in-an-array/)
 
