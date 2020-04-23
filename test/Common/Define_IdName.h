@@ -132,6 +132,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_144 	binary-tree-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_145 	binary-tree-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_146 	lru-cache
+#define SOLUTION_CPP_FOLDER_NAME_ID_147 	insertion-sort-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_148 	sort-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_149 	max-points-on-a-line
 #define SOLUTION_CPP_FOLDER_NAME_ID_150 	evaluate-reverse-polish-notation
@@ -342,6 +343,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
+#define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_868 	binary-gap
 #define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation
 #define SOLUTION_CPP_FOLDER_NAME_ID_876 	middle-of-the-linked-list
