@@ -356,6 +356,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_922 	sort-array-by-parity-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_945 	minimum-increment-to-make-array-unique
+#define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
@@ -563,3 +565,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_08 	ju-qing-hong-fa-shi-jian
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_09 	zui-xiao-tiao-yue-ci-shu
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_10 	er-cha-shu-ren-wu-diao-du
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_11 	qi-wang-ge-shu-tong-ji
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_12 	xiao-zhang-shua-ti-ji-hua
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_13 	xun-bao
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_14 	qie-fen-shu-zu
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_15 	you-le-yuan-de-mi-gong
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_16 	you-le-yuan-de-you-lan-ji-hua

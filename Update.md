@@ -1,6 +1,29 @@
 # Update
 [返回](./README.md)
 
+---
+## 20200425
+* LCP_16.you-le-yuan-de-you-lan-ji-hua 游乐园的游览计划
+
+* LCP_15.you-le-yuan-de-mi-gong 游乐园的迷宫
+
+* 15.you-le-yuan-de-mi-gong 游乐园的迷宫
+
+* LCP_14.qie-fen-shu-zu 切分数组
+
+* LCP_13.xun-bao 寻宝
+
+* LCP_13.xun-bao 寻宝
+
+* LCP_13.xun-bao 寻宝
+
+* LCP_12.xiao-zhang-shua-ti-ji-hua 小张刷题计划
+
+* LCP_11.qi-wang-ge-shu-tong-ji 期望个数统计
+
+* 949.largest-time-for-given-digits 给定数字能组成的最大时间
+
+* 953.verifying-an-alien-dictionary 验证外星语词典
 
 
 ---
@@ -9,7 +32,6 @@
 
 * 852.peak-index-in-a-mountain-array 山脉数组的峰顶索引
 
-
 ---
 ## 20200422
 * 572.subtree-of-another-tree 另一个树的子树
@@ -17,7 +39,6 @@
 * 563.binary-tree-tilt 二叉树的坡度
 
 * 199.binary-tree-right-side-view 二叉树的右视图
-
 
 ---
 ## 20200419

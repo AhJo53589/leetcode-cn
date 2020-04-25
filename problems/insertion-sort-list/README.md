@@ -37,7 +37,7 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/insertion-sort-list/solution/insertion-sort-list-by-ikaruga/)
 
 ### 答题
 ``` C++
