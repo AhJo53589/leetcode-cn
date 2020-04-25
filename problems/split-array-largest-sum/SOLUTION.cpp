@@ -23,12 +23,10 @@
 // 二分查找 4ms
 class Solution2 {
 public:
-    bool canSplit(vector<int>& nums, int m, int split_sum)
-    {
+    bool canSplit(vector<int>& nums, int m, int split_sum) {
         long long sum = 0;
         int cnt = 1;
-        for (auto& n : nums)
-        {
+        for (auto& n : nums) {
             sum += n;
             if (sum <= split_sum) continue;
 
@@ -43,17 +41,19 @@ public:
     {
         long long l = 0;
         long long r = 0;
-        for (auto& n : nums)
-        {
+        for (auto& n : nums) {
             r += n;
             l = max(l, (long long)n);
         }
 
-        while (l < r)
-        {
+        while (l < r) {
             int mid = l + (r - l) / 2;
-            if (canSplit(nums, m, mid)) r = mid;
-            else l = mid + 1;
+            if (canSplit(nums, m, mid)) {
+                r = mid;
+            }
+            else {
+                l = mid + 1;
+            }
         }
         return r;
     }
@@ -64,13 +64,11 @@ public:
 // 4ms
 class Solution {
 public:
-    int splitArray(vector<int>& nums, int m, int split_sum)
-    {
+    int splitArray(vector<int>& nums, int m, int split_sum) {
         long long sum = 0;
         long long nextsum = 0;
         int cnt = 1;
-        for (int& n : nums)
-        {
+        for (int& n : nums) {
             sum += n;
             if (sum <= split_sum) continue;
 
@@ -86,8 +84,7 @@ public:
     {
         int num_max = 0;
         long long sum = 0;
-        for (auto& n : nums)
-        {
+        for (auto& n : nums) {
             num_max = max(num_max, n);
             sum += n;
         }

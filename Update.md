@@ -7,13 +7,7 @@
 
 * LCP_15.you-le-yuan-de-mi-gong 游乐园的迷宫
 
-* 15.you-le-yuan-de-mi-gong 游乐园的迷宫
-
 * LCP_14.qie-fen-shu-zu 切分数组
-
-* LCP_13.xun-bao 寻宝
-
-* LCP_13.xun-bao 寻宝
 
 * LCP_13.xun-bao 寻宝
 
@@ -24,7 +18,6 @@
 * 949.largest-time-for-given-digits 给定数字能组成的最大时间
 
 * 953.verifying-an-alien-dictionary 验证外星语词典
-
 
 ---
 ## 20200424
