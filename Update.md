@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200426
+* 5392.maximum-score-after-splitting-a-string 分割字符串的最大得分
+
+* 5393.maximum-points-you-can-obtain-from-cards 可获得的最大点数
+
+* 5394.diagonal-traverse-ii 对角线遍历 II
+
+* 5180.constrained-subset-sum 带限制的子序列和
+
+
+---
 ## 20200425
 * LCP_16.you-le-yuan-de-you-lan-ji-hua 游乐园的游览计划
 

@@ -5,6 +5,10 @@
 ## All
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
+| √ | 5180 | [constrained-subset-sum](../../problems/constrained-subset-sum) | [带限制的子序列和](../../problems/constrained-subset-sum/README.md) | [cpp](../../problems/constrained-subset-sum/SOLUTION.cpp) |   | 困难 | 
+| √ | 5392 | [maximum-score-after-splitting-a-string](../../problems/maximum-score-after-splitting-a-string) | [分割字符串的最大得分](../../problems/maximum-score-after-splitting-a-string/README.md) | [cpp](../../problems/maximum-score-after-splitting-a-string/SOLUTION.cpp) |   | 简单 | 
+| √ | 5393 | [maximum-points-you-can-obtain-from-cards](../../problems/maximum-points-you-can-obtain-from-cards) | [可获得的最大点数](../../problems/maximum-points-you-can-obtain-from-cards/README.md) | [cpp](../../problems/maximum-points-you-can-obtain-from-cards/SOLUTION.cpp) |   | 中等 | 
+| √ | 5394 | [diagonal-traverse-ii](../../problems/diagonal-traverse-ii) | [对角线遍历 II](../../problems/diagonal-traverse-ii/README.md) | [cpp](../../problems/diagonal-traverse-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse-ii/solution/diagonal-traverse-ii-by-ikaruga/) | 中等 | 
 |   | LCP_16 | [you-le-yuan-de-you-lan-ji-hua](../../problems/you-le-yuan-de-you-lan-ji-hua) | [游乐园的游览计划](../../problems/you-le-yuan-de-you-lan-ji-hua/README.md) | [cpp](../../problems/you-le-yuan-de-you-lan-ji-hua/SOLUTION.cpp) |   | 困难 | 
 |   | LCP_15 | [you-le-yuan-de-mi-gong](../../problems/you-le-yuan-de-mi-gong) | [游乐园的迷宫](../../problems/you-le-yuan-de-mi-gong/README.md) | [cpp](../../problems/you-le-yuan-de-mi-gong/SOLUTION.cpp) |   | 困难 | 
 |   | 15 | [you-le-yuan-de-mi-gong](../../problems/you-le-yuan-de-mi-gong) | [游乐园的迷宫](../../problems/you-le-yuan-de-mi-gong/README.md) | [cpp](../../problems/you-le-yuan-de-mi-gong/SOLUTION.cpp) |   | 困难 | 

@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"LCP_16.you-le-yuan-de-you-lan-ji-hua"
+git commit -m"5392.maximum-score-after-splitting-a-string"
 git push
