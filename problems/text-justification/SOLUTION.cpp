@@ -4,7 +4,6 @@ class Solution {
 public:
     string fillWords(vector<string>& words, int bg, int ed, int maxWidth, bool lastLine = false)
     {
-        string ans;
         int wordCount = ed - bg + 1;
         int spaceCount = maxWidth + 1 - wordCount;
         for (int i = bg; i <= ed; i++)
@@ -12,9 +11,11 @@ public:
             spaceCount -= words[i].size();
         }
 
-        int t = (wordCount == 1) ? 0 : spaceCount % (wordCount - 1);
-        spaceCount /= (wordCount == 1) ? 1 : (wordCount - 1);
+        int spaceSuffix = 1;
+        int spaceAvg = (wordCount == 1) ? 1 : spaceCount / (wordCount - 1);
+        int spaceExtra = (wordCount == 1) ? 0 : spaceCount % (wordCount - 1);
 
+        string ans;
         for (int i = bg; i < ed; i++)
         {
             ans += words[i];
@@ -23,7 +24,7 @@ public:
                 fill_n(back_inserter(ans), 1, ' ');
                 continue;
             }
-            fill_n(back_inserter(ans), spaceCount + 1 + ((i - bg) < t), ' ');
+            fill_n(back_inserter(ans), spaceSuffix + spaceAvg + ((i - bg) < spaceExtra), ' ');
         }
         ans += words[ed];
         fill_n(back_inserter(ans), maxWidth - ans.size(), ' ');

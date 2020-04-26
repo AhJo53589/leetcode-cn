@@ -1,14 +1,115 @@
 # Update
 [返回](./README.md)
 
+---
+## 20200425
+* LCP_16.you-le-yuan-de-you-lan-ji-hua 游乐园的游览计划
 
+* LCP_15.you-le-yuan-de-mi-gong 游乐园的迷宫
+
+* LCP_14.qie-fen-shu-zu 切分数组
+
+* LCP_13.xun-bao 寻宝
+
+* LCP_12.xiao-zhang-shua-ti-ji-hua 小张刷题计划
+
+* LCP_11.qi-wang-ge-shu-tong-ji 期望个数统计
+
+* 949.largest-time-for-given-digits 给定数字能组成的最大时间
+
+* 953.verifying-an-alien-dictionary 验证外星语词典
+
+---
+## 20200424
+* 147.insertion-sort-list 对链表进行插入排序
+
+* 852.peak-index-in-a-mountain-array 山脉数组的峰顶索引
+
+---
+## 20200422
+* 572.subtree-of-another-tree 另一个树的子树
+
+* 563.binary-tree-tilt 二叉树的坡度
+
+* 199.binary-tree-right-side-view 二叉树的右视图
+
+---
+## 20200419
+* 1420.build-array-where-you-can-find-the-maximum-exactly-k-comparisons 生成数组
+
+* 1419.minimum-number-of-frogs-croaking 数青蛙
+
+* 1418.display-table-of-food-orders-in-a-restaurant 点菜展示表
+
+* 1417.reformat-the-string 重新格式化字符串
+
+* 466.count-the-repetitions 统计重复个数
+
+* 1416.restore-the-array 恢复数组
+
+* 1415.the-k-th-lexicographical-string-of-all-happy-strings-of-length-n 长度为 n 的开心字符串中字典序第 k 小的字符串
+
+* 1414.find-the-minimum-number-of-fibonacci-numbers-whose-sum-is-k 和为 K 的最少斐波那契数字数目
+
+* 1413.minimum-value-to-get-positive-step-by-step-sum 逐步求和得到正数的最小值
+
+---
+## 20200418
+* LCP 10.er-cha-shu-ren-wu-diao-du 二叉树任务调度
+
+* LCP 09.zui-xiao-tiao-yue-ci-shu 最小跳跃次数
+
+* LCP 08.ju-qing-hong-fa-shi-jian 剧情触发时间
+
+* LCP 07.chuan-di-xin-xi 传递信息
+
+* LCP 06.na-ying-bi 拿硬币
+
+---
+## 20200417
+* 888.fair-candy-swap 公平的糖果交换
+
+* 748.shortest-completing-word 最短完整词
+
+* 819.most-common-word 最常见的单词
+
+---
+## 20200415
+* 56.merge-intervals 合并区间
+
+---
+## 20200414
+* 868.binary-gap 二进制间距
+
+* 922.sort-array-by-parity-ii 按奇偶排序数组 II
+
+* 445.add-two-numbers-ii 两数相加 II
+
+---
+## 20200413
+* 504.base-7 七进制数
+
+* 401.binary-watch 二进制手表
+
+* 460.lfu-cache LFU缓存
+
+* 355.design-twitter 设计推特
+
+---
+## 20200412
+* 1411.number-of-ways-to-paint-n-x-3-grid 给 N x 3 网格图涂色的方案数
+
+* 1410.html-entity-parser HTML 实体解析器
+
+* 1409.queries-on-a-permutation-with-key 查询带键的排列
+
+* 1408.string-matching-in-an-array 数组中的字符串匹配
 
 ---
 ## 20200407
 * 905.sort-array-by-parity 按奇偶排序数组
 
 * 693.binary-number-with-alternating-bits 交替位二进制数
-
 
 ---
 ## 20200406
@@ -18,25 +119,23 @@
 
 * 72.edit-distance 编辑距离
 
-* 5361.circle-and-rectangle-overlapping 圆和矩形是否有重叠
-
 ---
 ## 20200405
-* 5379.stone-game-iii 石子游戏 III
+* 1406.stone-game-iii 石子游戏 III
 
-* 5195.longest-happy-string 最长快乐字符串
+* 1405.longest-happy-string 最长快乐字符串
 
-* 5377.number-of-steps-to-reduce-a-number-in-binary-representation-to-one 将二进制表示减到 1 的步骤数
+* 1404.number-of-steps-to-reduce-a-number-in-binary-representation-to-one 将二进制表示减到 1 的步骤数
 
-* 5376.minimum-subsequence-in-non-increasing-order 非递增顺序的最小子序列
+* 1403.minimum-subsequence-in-non-increasing-order 非递增顺序的最小子序列
 
-* 5363.reducing-dishes 做菜顺序
+* 1402.reducing-dishes 做菜顺序
 
-* 5361.circle-and-rectangle-overlapping 圆和矩形是否有重叠
+* 1401.circle-and-rectangle-overlapping 圆和矩形是否有重叠
 
-* 5362.construct-k-palindrome-strings 构造 K 个回文字符串
+* 1400.construct-k-palindrome-strings 构造 K 个回文字符串
 
-* 5360.count-largest-group 统计最大组的数目
+* 1399.count-largest-group 统计最大组的数目
 
 ---
 ## 20200401
@@ -64,13 +163,13 @@
 
 ---
 ## 20200329
-* 5371.find-all-good-strings 找到所有好字符串
+* 1397.find-all-good-strings 找到所有好字符串
 
-* 5370.design-underground-system 设计地铁系统
+* 1396.design-underground-system 设计地铁系统
 
-* 5369.count-number-of-teams 统计作战单位数
+* 1395.count-number-of-teams 统计作战单位数
 
-* 5368.find-lucky-integer-in-an-array 找出数组中的幸运数
+* 1394.find-lucky-integer-in-an-array 找出数组中的幸运数
 
 * 1162.as-far-from-land-as-possible 地图分析
 

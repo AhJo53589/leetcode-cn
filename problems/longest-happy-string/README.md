@@ -1,4 +1,4 @@
-# `（中等）` [5195.longest-happy-string 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)
+# `（中等）` [1405.longest-happy-string 最长快乐字符串](https://leetcode-cn.com/problems/longest-happy-string/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-183/problems/longest-happy-string/)
 

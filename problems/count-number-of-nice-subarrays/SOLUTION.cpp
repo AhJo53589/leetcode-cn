@@ -1,63 +1,57 @@
 //////////////////////////////////////////////////////////////////////////
-//int numberOfSubarrays(vector<int>& nums, int k)
-//{
-//	int ans = 0;
-//	int cnt = 0;
-//	int a = 1;
-//	int b = 1;
-//
-//	int i = 0;
-//	for (int j = 0; j < nums.size(); j++)
-//	{
-//		cnt += (nums[j] & 1);
-//		b += (!(nums[j] & 1) && (cnt == k));
-//
-//		if (cnt > k)
-//		{
-//			while (!(nums[i++] & 1)) a++;
-//			ans += a * b;
-//			a = 1;
-//			b = 1;
-//			cnt--;
-//		}
-//	}
-//	if (cnt < k) return 0;
-//
-//	while (!(nums[i++] & 1)) a++;
-//	ans += a * b;
-//	return ans;
-//}
+class Solution2 {
+public:
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        int n = nums.size();
+        vector<int> arr;
+        arr.push_back(0);
+        for (auto x : nums) arr.push_back(arr.back() + (x & 1));
+
+        unordered_map<int, int> h;
+        int ans = 0;
+
+        for (auto x : arr) {
+            ans += h[x - k];
+            h[x] ++;
+        }
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
-int numberOfSubarrays(vector<int>& nums, int k)
-{
-	vector<int> odd;
-	odd.push_back(-1);
+class Solution {
+public:
+    int numberOfSubarrays(vector<int>& nums, int k)
+    {
+        vector<int> odd;
+        odd.push_back(-1);
 
-	int ans = 0;
-	int i = 1;
-	for (int j = 0; j <= nums.size(); j++)
-	{
-		if (j == nums.size() || (nums[j] & 1))
-		{
-			odd.push_back(j);
-		}
+        int ans = 0;
+        int i = 1;
+        for (int j = 0; j <= nums.size(); j++)
+        {
+            if (j == nums.size() || (nums[j] & 1))
+            {
+                odd.push_back(j);
+            }
 
-		if (odd.size() - i > k)
-		{
-			int a = odd[i] - odd[i - 1];
-			int b = j - odd[odd.size() - 2];
-			ans += a * b;
-			i++;
-		}
-	}
-	return ans;
-}
+            if (odd.size() - i > k)
+            {
+                int left = odd[i] - odd[i - 1];
+                int right = j - odd[odd.size() - 2];
+                ans += left * right;
+                i++;
+            }
+        }
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<int>& nums, int k)
 {
-	return numberOfSubarrays(nums,k);
+    Solution sln;
+    return sln.numberOfSubarrays(nums,k);
 }
 
 //#define USE_SOLUTION_CUSTOM
@@ -69,6 +63,6 @@ int _solution_run(vector<int>& nums, int k)
 //#define USE_GET_TEST_CASES_IN_CPP
 //vector<string> _get_test_cases_string()
 //{
-//	return {};
+//    return {};
 //}
 

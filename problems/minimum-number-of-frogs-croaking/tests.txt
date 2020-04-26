@@ -1,0 +1,8 @@
+"croakcroak"
+1
+"crcoakroak"
+2
+"croakcrook"
+-1
+"croakcroa"
+-1

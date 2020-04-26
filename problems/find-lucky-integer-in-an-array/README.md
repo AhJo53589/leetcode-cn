@@ -1,4 +1,4 @@
-# `（简单）` [5368.find-lucky-integer-in-an-array 找出数组中的幸运数](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
+# `（简单）` [1394.find-lucky-integer-in-an-array 找出数组中的幸运数](https://leetcode-cn.com/problems/find-lucky-integer-in-an-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-182/problems/find-lucky-integer-in-an-array/)
 
