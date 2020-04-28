@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5392.maximum-score-after-splitting-a-string"
+git commit -m"1095.find-in-mountain-array"
 git push
