@@ -361,7 +361,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_1018 	binary-prefix-divisible-by-5
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_1037 	valid-boomerang
 #define SOLUTION_CPP_FOLDER_NAME_ID_1071 	greatest-common-divisor-of-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1095 	find-in-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people

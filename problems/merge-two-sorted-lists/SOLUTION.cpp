@@ -2,56 +2,39 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-ListNode* mergeTwoLists(ListNode* l1, ListNode* l2)
-{
-	if (l1 == NULL) return l2;
-	if (l2 == NULL) return l1;
+/**
+ * Definition for singly-linked list.
+ * struct ListNode {
+ *     int val;
+ *     ListNode *next;
+ *     ListNode(int x) : val(x), next(NULL) {}
+ * };
+ */
+class Solution {
+public:
+    ListNode* mergeTwoLists(ListNode* l1, ListNode* l2) {
+        ListNode* dummy = new ListNode(0);
+        ListNode* cur = dummy;
+        while (l1 != nullptr && l2 != nullptr) {
+            ListNode** pp = (l1->val < l2->val) ? &l1 : &l2;
+            cur->next = *pp;
+            cur = cur->next;
+            *pp = (*pp)->next;
+        }
+        cur->next = (l1 == nullptr) ? l2 : l1;
 
-	ListNode *pHead = NULL;
-	ListNode *pNode = NULL;
-
-	if (l1->val < l2->val)
-	{
-		pHead = l1;
-		l1 = l1->next;
-	}
-	else
-	{
-		pHead = l2;
-		l2 = l2->next;
-	}
-	pNode = pHead;
-	while (l1 != NULL && l2 != NULL)
-	{
-		if (l1->val < l2->val)
-		{
-			pNode->next = l1;
-			l1 = l1->next;
-		}
-		else
-		{
-			pNode->next = l2;
-			l2 = l2->next;
-		}
-		pNode = pNode->next;
-	}
-	pNode->next = l1 ? l1 : l2;
-	// 	if (l1 != NULL)
-	// 	{
-	// 		pNode->next = l1;
-	// 	}
-	// 	if (l2 != NULL)
-	// 	{
-	// 		pNode->next = l2;
-	// 	}
-	return pHead;
-}
+        ListNode* ans = dummy->next;
+        delete dummy;
+        return ans;
+    }
+}; 
 
 
 //////////////////////////////////////////////////////////////////////////
 ListNode* _solution_run(ListNode* l1, ListNode* l2)
 {
-	return mergeTwoLists(l1,l2);
+    Solution sln;
+    return sln.mergeTwoLists(l1, l2);
 }
 
 //#define USE_SOLUTION_CUSTOM
@@ -63,6 +46,6 @@ ListNode* _solution_run(ListNode* l1, ListNode* l2)
 //#define USE_GET_TEST_CASES_IN_CPP
 //vector<string> _get_test_cases_string()
 //{
-//	return {};
+//    return {};
 //}
 

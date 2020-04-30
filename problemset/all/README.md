@@ -5,7 +5,10 @@
 ## All
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
-| √ | 1095 | [find-in-mountain-array](../../problems/find-in-mountain-array) | [山脉数组中查找目标值](../../problems/find-in-mountain-array/README.md) | [cpp](../../problems/find-in-mountain-array/SOLUTION.cpp) |   | 困难 | 
+| √ | 21 | [merge-two-sorted-lists](../../problems/merge-two-sorted-lists) | [合并两个有序链表](../../problems/merge-two-sorted-lists/README.md) | [cpp](../../problems/merge-two-sorted-lists/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/merge-two-sorted-lists-by-ikaruga/) | 简单 | 
+| √ | 1018 | [binary-prefix-divisible-by-5](../../problems/binary-prefix-divisible-by-5) | [可被 5 整除的二进制前缀](../../problems/binary-prefix-divisible-by-5/README.md) | [cpp](../../problems/binary-prefix-divisible-by-5/SOLUTION.cpp) |   | 简单 | 
+| √ | 1037 | [valid-boomerang](../../problems/valid-boomerang) | [有效的回旋镖](../../problems/valid-boomerang/README.md) | [cpp](../../problems/valid-boomerang/SOLUTION.cpp) |   | 简单 | 
+| √ | 1095 | [find-in-mountain-array](../../problems/find-in-mountain-array) | [山脉数组中查找目标值](../../problems/find-in-mountain-array/README.md) | [cpp](../../problems/find-in-mountain-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/find-in-mountain-array/solution/find-in-mountain-array-by-ikaruga/) | 困难 | 
 | √ | 5180 | [constrained-subset-sum](../../problems/constrained-subset-sum) | [带限制的子序列和](../../problems/constrained-subset-sum/README.md) | [cpp](../../problems/constrained-subset-sum/SOLUTION.cpp) |   | 困难 | 
 | √ | 5392 | [maximum-score-after-splitting-a-string](../../problems/maximum-score-after-splitting-a-string) | [分割字符串的最大得分](../../problems/maximum-score-after-splitting-a-string/README.md) | [cpp](../../problems/maximum-score-after-splitting-a-string/SOLUTION.cpp) |   | 简单 | 
 | √ | 5393 | [maximum-points-you-can-obtain-from-cards](../../problems/maximum-points-you-can-obtain-from-cards) | [可获得的最大点数](../../problems/maximum-points-you-can-obtain-from-cards/README.md) | [cpp](../../problems/maximum-points-you-can-obtain-from-cards/SOLUTION.cpp) |   | 中等 | 

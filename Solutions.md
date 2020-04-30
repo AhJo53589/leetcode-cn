@@ -4,6 +4,8 @@
 ## All Solutions
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
+| √ | 21 | [merge-two-sorted-lists](./problems/merge-two-sorted-lists) | [合并两个有序链表](./problems/merge-two-sorted-lists/README.md) | [cpp](./problems/merge-two-sorted-lists/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/merge-two-sorted-lists-by-ikaruga/) | 简单 | 
+| √ | 1095 | [find-in-mountain-array](./problems/find-in-mountain-array) | [山脉数组中查找目标值](./problems/find-in-mountain-array/README.md) | [cpp](./problems/find-in-mountain-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/find-in-mountain-array/solution/find-in-mountain-array-by-ikaruga/) | 困难 | 
 | √ | 5394 | [diagonal-traverse-ii](./problems/diagonal-traverse-ii) | [对角线遍历 II](./problems/diagonal-traverse-ii/README.md) | [cpp](./problems/diagonal-traverse-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diagonal-traverse-ii/solution/diagonal-traverse-ii-by-ikaruga/) | 中等 | 
 | √ | LCP_12 | [xiao-zhang-shua-ti-ji-hua](./problems/xiao-zhang-shua-ti-ji-hua) | [小张刷题计划](./problems/xiao-zhang-shua-ti-ji-hua/README.md) | [cpp](./problems/xiao-zhang-shua-ti-ji-hua/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/xiao-zhang-shua-ti-ji-hua/solution/xiao-zhang-shua-ti-ji-hua-by-ikaruga/) | 中等 | 
 | √ | 25 | [reverse-nodes-in-k-group](./problems/reverse-nodes-in-k-group) | [K 个一组翻转链表](./problems/reverse-nodes-in-k-group/README.md) | [cpp](./problems/reverse-nodes-in-k-group/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/25-by-ikaruga/) | 困难 |

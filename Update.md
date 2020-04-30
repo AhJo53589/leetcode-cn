@@ -2,9 +2,18 @@
 [返回](./README.md)
 
 ---
-## 20200429
+## 20200501
+* 1018.binary-prefix-divisible-by-5 可被 5 整除的二进制前缀
+
+* 1037.valid-boomerang 有效的回旋镖、
+
 * 1095.find-in-mountain-array 山脉数组中查找目标值
 
+* 21.merge-two-sorted-lists 合并两个有序链表
+
+---
+## 20200429
+* 1095.find-in-mountain-array 山脉数组中查找目标值
 
 ---
 ## 20200426
@@ -15,7 +24,6 @@
 * 5394.diagonal-traverse-ii 对角线遍历 II
 
 * 5180.constrained-subset-sum 带限制的子序列和
-
 
 ---
 ## 20200425

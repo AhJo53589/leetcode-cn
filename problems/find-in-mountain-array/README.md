@@ -71,7 +71,7 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/find-in-mountain-array/solution/find-in-mountain-array-by-ikaruga/)
 
 ### 答题
 ``` C++
@@ -86,36 +86,44 @@
  */
 
 class Solution {
-    int binary_search(MountainArray& mountain, int target, int l, int r, int key(int)) {
-        target = key(target);
-        while (l <= r) {
-            int mid = (l + r) / 2;
-            int cur = key(mountain.get(mid));
-            if (cur == target)
-                return mid;
-            else if (cur < target)
-                l = mid + 1;
-            else
-                r = mid - 1;
-        }
-        return -1;
-    }
 public:
     int findInMountainArray(int target, MountainArray& mountainArr) {
-        int l = 0, r = mountainArr.length() - 1;
-        while (l < r) {
-            int mid = (l + r) / 2;
-            if (mountainArr.get(mid) < mountainArr.get(mid + 1))
-                l = mid + 1;
-            else
-                r = mid;
-        }
+        int peak = lower_bound(0, mountainArr.length() - 1, [&mountainArr](int t) {
+             return mountainArr.get(t + 1); 
+             }, 
+             [&mountainArr](int t) { 
+                 return mountainArr.get(t); 
+                 });
 
-        int peak = l;
-        int index = binary_search(mountainArr, target, 0, peak, [](int x) -> int {return x; });
-        if (index != -1)
-            return index;
-        return binary_search(mountainArr, target, peak + 1, mountainArr.length() - 1, [](int x) -> int {return -x; });
+        int index = lower_bound(0, peak, [target](int x) { 
+            return target; 
+            }, 
+            [&mountainArr](int x) {
+                return mountainArr.get(x); 
+                });
+        if (index != peak && mountainArr.get(index) == target) return index;
+
+        index = lower_bound(peak, mountainArr.length(), [target](int x) { 
+            return -target;
+             }, [&mountainArr](int x) { 
+                 return -mountainArr.get(x); 
+                 });
+        if (index != mountainArr.length() && mountainArr.get(index) == target) return index;
+        
+        return -1;
+    }
+
+    int lower_bound(int l, int r, function<int(int)> getTarget, function<int(int)> getCur) {
+        while (l < r) {
+            int mid = l + (r - l) / 2;
+            if (getCur(mid) < getTarget(mid)) {
+                l = mid + 1;
+            }
+            else {
+                r = mid;
+            }
+        }
+        return r;
     }
 };
 ```

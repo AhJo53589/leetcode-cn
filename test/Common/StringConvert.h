@@ -130,6 +130,13 @@ inline ListNode* convert(const std::string & input)
 // convert    std::string ==> vector
 //////////////////////////////////////////////////////////////////////////
 
+// std::string to bool
+template<>
+inline std::vector<bool> convert(const std::string& input)
+{
+    return stringToVectorT<bool>(input);
+}
+
 // std::string to char
 template<>
 inline std::vector<char> convert(const std::string& input)
@@ -210,6 +217,13 @@ inline std::string convert(const bool& input)
 //////////////////////////////////////////////////////////////////////////
 // convert    vector ==> std::string 
 //////////////////////////////////////////////////////////////////////////
+
+// bool to std::string
+template<>
+inline std::string convert(const std::vector<bool>& input)
+{
+    return vectorTToString(input);
+}
 
 // char to std::string
 template<>
