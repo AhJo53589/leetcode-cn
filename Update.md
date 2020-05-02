@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200503
+* 5387.number-of-ways-to-wear-different-hats-to-each-other 每个人戴不同帽子的方案数
+
+* 5386.check-if-a-string-can-break-another-string 检查一个字符串是否可以打破另一个字符串
+
+* 5385.max-difference-you-can-get-from-changing-an-integer 改变一个整数能得到的最大差值
+
+* 5384.kids-with-the-greatest-number-of-candies 拥有最多糖果的孩子
+
+
+---
 ## 20200502
 * 3.longest-substring-without-repeating-characters 无重复字符的最长子串
 

@@ -551,6 +551,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1419 	minimum-number-of-frogs-croaking
 #define SOLUTION_CPP_FOLDER_NAME_ID_1420 	build-array-where-you-can-find-the-maximum-exactly-k-comparisons
 #define SOLUTION_CPP_FOLDER_NAME_ID_5180 	constrained-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5384 	kids-with-the-greatest-number-of-candies
+#define SOLUTION_CPP_FOLDER_NAME_ID_5385 	max-difference-you-can-get-from-changing-an-integer
+#define SOLUTION_CPP_FOLDER_NAME_ID_5386 	check-if-a-string-can-break-another-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5387 	number-of-ways-to-wear-different-hats-to-each-other
 #define SOLUTION_CPP_FOLDER_NAME_ID_5392 	maximum-score-after-splitting-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5393 	maximum-points-you-can-obtain-from-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_5394 	diagonal-traverse-ii

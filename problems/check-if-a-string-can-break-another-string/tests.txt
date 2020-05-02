@@ -1,0 +1,9 @@
+"abc"
+"xya"
+true
+"abe"
+"acd"
+false
+"leetcodee"
+"interview"
+true
