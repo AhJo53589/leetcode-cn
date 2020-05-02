@@ -1,45 +1,40 @@
 
-
-
 //////////////////////////////////////////////////////////////////////////
-int lengthOfLongestSubstring(string s)
-{
-	int len = 0;
-	unordered_set<char> set;
-	for (int i = 0; i < s.size(); i++)
-	{
-		int len_temp = 0;
-		set.clear();
-		for (int j = i; j < s.size(); j++)
-		{
-			if (!set.count(s[j]))
-			{
-				set.insert(s[j]);
-				len_temp++;
-				continue;
-			}
-			break;
-		}
-		len = max(len, len_temp);
-	}
-	return len;
-}
+class Solution {
+public:
+    int lengthOfLongestSubstring(string s) {
+        vector<int> m(128, 0);
+        int ans = 0;
+        int i = 0;
+        for (int j = 0; j < s.size(); j++) {
+            i = max(i, m[s[j]]);
+            m[s[j]] = j + 1;
+            ans = max(ans, j - i + 1);
+        }
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(string s)
 {
-	return lengthOfLongestSubstring(s);
+    //int caseNo = -1;
+    //static int caseCnt = 0;
+    //if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+    Solution sln;
+    return sln.lengthOfLongestSubstring(s);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//    return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
 //#define USE_GET_TEST_CASES_IN_CPP
 //vector<string> _get_test_cases_string()
 //{
-//	return {};
+//    return {};
 //}
-

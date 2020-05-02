@@ -29,52 +29,26 @@
 ---
 ### 思路
 ```
-脑子秀逗了非要两次循环用set。
-可以用map一次循环搞定的。
 ```
+
+[发布的题解](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/longest-substring-without-repeating-characters-b-2/)
 
 ### 答题
 ``` C++
-int lengthOfLongestSubstring(string s)
-{
-	int len = 0;
-	unordered_set<char> set;
-	for (int i = 0; i < s.size(); i++)
-	{
-		int len_temp = 0;
-		set.clear();
-		for (int j = i; j < s.size(); j++)
-		{
-			if (!set.count(s[j]))
-			{
-				set.insert(s[j]);
-				len_temp++;
-				continue;
-			}
-			break;
-		}
-		len = max(len, len_temp);
-	}
-	return len;
-}
+    int lengthOfLongestSubstring(string s) {
+        vector<int> m(128, 0);
+        int ans = 0;
+        int l = 0;
+        for (int r = 0; r <= s.size(); r++) {
+            ans = max(ans, r - l);
+            if (r == s.size()) break;
+            l = max(l, m[s[r]]);
+            m[s[r]] = r + 1;
+        }
+        return ans;
+    }
 ```
 
-### 其它
-``` C++
-int lengthOfLongestSubstring(string s) {
-	int map[256]={0};
-	int len=0;
-	int index=0;
-	for(int i=0;i<s.length();i++){
-		if(map[s[i]]==0||map[s[i]]<index){
-			len=len>(i-index+1)?len:(i-index+1);
-		}
-		else{
-			index=map[s[i]];
-		}
-		map[s[i]]=i+1;
-	}
-	return len;
-}
-```
+
+
 
