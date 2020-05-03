@@ -3,6 +3,14 @@
 
 ---
 ## 20200503
+* 5403.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows 有序矩阵中的第 k 个最小数组和
+
+* 5402.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit 绝对差不超过限制的最长连续子数组
+
+* 5401.check-if-all-1s-are-at-least-length-k-places-away 是否所有 1 都至少相隔 k 个元素
+
+* 5400.destination-city 旅行终点站
+
 * 5387.number-of-ways-to-wear-different-hats-to-each-other 每个人戴不同帽子的方案数
 
 * 5386.check-if-a-string-can-break-another-string 检查一个字符串是否可以打破另一个字符串

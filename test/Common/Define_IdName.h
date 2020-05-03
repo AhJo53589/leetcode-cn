@@ -558,6 +558,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5392 	maximum-score-after-splitting-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5393 	maximum-points-you-can-obtain-from-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_5394 	diagonal-traverse-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5400 	destination-city
+#define SOLUTION_CPP_FOLDER_NAME_ID_5401 	check-if-all-1s-are-at-least-length-k-places-away
+#define SOLUTION_CPP_FOLDER_NAME_ID_5402 	longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
+#define SOLUTION_CPP_FOLDER_NAME_ID_5403 	find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

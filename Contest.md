@@ -52,4 +52,5 @@
 | 2020/4/18  | [第 24 场双周赛](./contest/biweekly-contest-24/README.md) | 4 / 4 | 204 / 1898 |
 | 2020/4/19  | [第 185 场周赛](./contest/weekly-contest-185/README.md)   | 3 / 4 | 291 / 5001 |
 | 2020/4/26  | [第 186 场周赛](./contest/weekly-contest-186/README.md)   |  3 / 4 | 449 / 3107 |
-| 2020/5/2   | [第 25 场双周赛](./contest/biweekly-contest-25/README.md) | 3 / 4 | 428 / 1832 | 
+| 2020/5/2   | [第 25 场双周赛](./contest/biweekly-contest-25/README.md) | 3 / 4 | 428 / 1832 |
+| 2020/5/3   | [第 187 场周赛](./contest/weekly-contest-187/README.md)   | 3 / 4 | 350 / 3107 | 
