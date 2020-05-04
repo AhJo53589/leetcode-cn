@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20200505
+* 98.validate-binary-search-tree 验证二叉搜索树
+
+
+---
 ## 20200503
 * 5403.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows 有序矩阵中的第 k 个最小数组和
 

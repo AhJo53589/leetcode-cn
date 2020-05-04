@@ -34,47 +34,54 @@
 </pre>
 
 
-
 ---
 ### 思路
 ```
 ```
 
+[发布的题解](https://leetcode-cn.com/problems/validate-binary-search-tree/solution/validate-binary-search-tree-by-ikaruga/)
 
 ### 答题
 ``` C++
-bool Inorder(TreeNode *root, int &val, bool &bFirstVal)
-{
-	if (root == NULL) return true;
+class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+        int val = 0;
+        bool flag = false;
+        return Inorder(root, val, flag);
+    }
 
-	if (!Inorder(root->left, val, bFirstVal)) return false;
+    bool Inorder(TreeNode* root, int& val, bool& flag) {
+        if (root == nullptr) return true;
 
-	if (!bFirstVal)
-	{
-		if (!(val < root->val)) return false;
-	}
-	else
-	{
-		bFirstVal = false;
-	}
-	val = root->val;
+        if (!Inorder(root->left, val, flag)) return false;
 
-	if (!Inorder(root->right, val, bFirstVal)) return false;
-	return true;
-}
+        if (flag && !(val < root->val)) return false;
+        val = root->val;
+        flag = true;
 
-bool isValidBST(TreeNode* root)	// 12 ms
-{
-	int val = 0;
-	bool bFirstVal = true;
-	return Inorder(root, val, bFirstVal);
-}
-``` 
+        if (!Inorder(root->right, val, flag)) return false;
+        return true;
+    }
+};
+
+```
+
 
 ### 其它
-额，这道题知道要用中序遍历。  
-然后状态不好各种边界什么的  
-提交错了8次！  
-用别人的用例来弥补自己考虑不周了。  
- 
-12ms，98%，总算安慰了一下。
+``` C++
+class Solution {
+public:
+    bool isValidBST(TreeNode* root) {
+        return dfs(root, LLONG_MIN, LLONG_MAX);
+    }
+
+    bool dfs(TreeNode* root, long long min, long long max) {
+        if (root == NULL) return true;
+        if (root->val <= min || root->val >= max) return false;
+        return dfs(root->left, min, root->val) && dfs(root->right, root->val, max);
+    }
+};
+```
+
+
