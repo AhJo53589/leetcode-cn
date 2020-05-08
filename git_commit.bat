@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"98.validate-binary-search-tree"
+git commit -m"221.maximal-square"
 git push
