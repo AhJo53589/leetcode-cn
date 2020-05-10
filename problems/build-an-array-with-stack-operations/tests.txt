@@ -1,0 +1,12 @@
+[1,3]
+3
+["Push","Push","Pop","Push"]
+[1,2,3]
+3
+["Push","Push","Push"]
+[1,2]
+4
+["Push","Push"]
+[2,3,4]
+4
+["Push","Pop","Push","Push","Push"]

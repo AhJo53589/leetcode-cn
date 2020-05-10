@@ -562,6 +562,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5401 	check-if-all-1s-are-at-least-length-k-places-away
 #define SOLUTION_CPP_FOLDER_NAME_ID_5402 	longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit
 #define SOLUTION_CPP_FOLDER_NAME_ID_5403 	find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows
+#define SOLUTION_CPP_FOLDER_NAME_ID_5404 	build-an-array-with-stack-operations
+#define SOLUTION_CPP_FOLDER_NAME_ID_5405 	count-triplets-that-can-form-two-arrays-of-equal-xor
+#define SOLUTION_CPP_FOLDER_NAME_ID_5406 	minimum-time-to-collect-all-apples-in-a-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_5407 	number-of-ways-of-cutting-a-pizza
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

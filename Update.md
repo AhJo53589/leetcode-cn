@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200510
+* 5407.number-of-ways-of-cutting-a-pizza 切披萨的方案数
+
+* 5406.minimum-time-to-collect-all-apples-in-a-tree 收集树上所有苹果的最少时间
+
+* 5405.count-triplets-that-can-form-two-arrays-of-equal-xor 形成两个异或相等数组的三元组数目
+
+* 5404.build-an-array-with-stack-operations 用栈操作构建数组
+
+
+---
 ## 20200508
 * 221.maximal-square 最大正方形
 
