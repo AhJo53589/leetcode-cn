@@ -2,20 +2,15 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int orangesRotting(vector<vector<int>>& grid)
-    {
+    int orangesRotting(vector<vector<int>>& grid) {
         int cnt = 0;
         queue<vector<int>> que;
-        for (int i = 0; i < grid.size(); i++)
-        {
-            for (int j = 0; j < grid[i].size(); j++)
-            {
-                if (grid[i][j] == 2)
-                {
+        for (int i = 0; i < grid.size(); i++) {
+            for (int j = 0; j < grid[i].size(); j++) {
+                if (grid[i][j] == 2) {
                     que.push({ i, j });
                 }
-                else if (grid[i][j] == 1)
-                {
+                else if (grid[i][j] == 1) {
                     cnt++;
                 }
             }
@@ -23,13 +18,11 @@ public:
 
         int ans = 0;
         vector<vector<int>> dd = { {0,1},{0,-1},{1,0},{-1,0} };
-        while (!que.empty())
-        {
+        while (!que.empty()) {
             auto q = que.front();
             que.pop();
 
-            for (auto d : dd)
-            {
+            for (auto d : dd) {
                 int dx = q[0] + d[0];
                 int dy = q[1] + d[1];
                 if (dx < 0 || dx >= grid.size()) continue;
