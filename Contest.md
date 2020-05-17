@@ -55,3 +55,4 @@
 | 2020/5/2   | [第 25 场双周赛](./contest/biweekly-contest-25/README.md) | 3 / 4 | 428 / 1832 |
 | 2020/5/3   | [第 187 场周赛](./contest/weekly-contest-187/README.md)   | 3 / 4 | 350 / 3107 |
 | 2020/5/10  | [第 188 场周赛](./contest/weekly-contest-188/README.md)   | 3 / 4 | 707 / 3981 |
+| 2020/5/16  | [第 26 场双周赛](./contest/biweekly-contest-26/README.md) | 3 / 4 | 357 / 1971 |

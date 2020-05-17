@@ -558,6 +558,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5392 	maximum-score-after-splitting-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5393 	maximum-points-you-can-obtain-from-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_5394 	diagonal-traverse-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5396 	consecutive-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_5397 	simplified-fractions
+#define SOLUTION_CPP_FOLDER_NAME_ID_5398 	count-good-nodes-in-binary-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_5399 	form-largest-integer-with-digits-that-add-up-to-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_5400 	destination-city
 #define SOLUTION_CPP_FOLDER_NAME_ID_5401 	check-if-all-1s-are-at-least-length-k-places-away
 #define SOLUTION_CPP_FOLDER_NAME_ID_5402 	longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit

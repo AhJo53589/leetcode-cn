@@ -32,45 +32,43 @@
 ```
 ```
 
-[发布的题解](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/25-by-ikaruga/)
+[发布的题解](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/reverse-nodes-in-k-group-by-ikaruga/)
 
 ### 答题
 ``` C++
-ListNode* reverseList(ListNode* head, ListNode* tail)
-{
-    ListNode* pPrev = tail;
-    ListNode* pCurr = head;
-    while (pCurr != tail)
-    {
-        ListNode* pNext = pCurr->next;
-        pCurr->next = pPrev;
-        pPrev = pCurr;
-        pCurr = pNext;
-    }
-    return pPrev;
-}
-
-ListNode* reverseKGroup(ListNode* head, int k)
-{
-    ListNode* dummy = new ListNode(0);
-    dummy->next = head;
-    ListNode* pPrev = dummy;
-    ListNode* pCurr = head;
-    while (pCurr != nullptr)
-    {
-        int i = 0;
-        while (i++ < k && pCurr != nullptr)
-        {
-            pCurr = pCurr->next;
+class Solution {
+public:
+    ListNode* reverseList(ListNode* head, ListNode* tail) {
+        ListNode* pPrev = tail;
+        ListNode* pCurr = head;
+        while (pCurr != tail) {
+            ListNode* pNext = pCurr->next;
+            pCurr->next = pPrev;
+            pPrev = pCurr;
+            pCurr = pNext;
         }
-        if (i != k + 1) break;
-
-        ListNode* pTemp = pPrev->next;
-        pPrev->next = reverseList(pTemp, pCurr);
-        pPrev = pTemp;
+        return pPrev;
     }
-    return dummy->next;
-}
+
+    ListNode* reverseKGroup(ListNode* head, int k) {
+        ListNode* dummy = new ListNode(0);
+        dummy->next = head;
+        ListNode* pPrev = dummy;
+        ListNode* pCurr = head;
+        while (pCurr != nullptr) {
+            int i = 0;
+            while (i++ < k && pCurr != nullptr) {
+                pCurr = pCurr->next;
+            }
+            if (i != k + 1) break;
+
+            ListNode* pTemp = pPrev->next;
+            pPrev->next = reverseList(pTemp, pCurr);
+            pPrev = pTemp;
+        }
+        return dummy->next;
+    }
+};
 ```
 
 

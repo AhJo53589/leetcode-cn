@@ -2,6 +2,22 @@
 [返回](./README.md)
 
 ---
+## 20200517
+* 5399.form-largest-integer-with-digits-that-add-up-to-target 数位成本和为目标值的最大数字
+
+* 5398.count-good-nodes-in-binary-tree 统计二叉树中好节点的数目
+
+* 5397.simplified-fractions 最简分数
+
+* 5396.consecutive-characters 连续字符
+
+
+---
+## 20200516
+* 25.reverse-nodes-in-k-group K 个一组翻转链表
+
+
+---
 ## 20200513
 * 102.binary-tree-level-order-traversal 二叉树的层序遍历
 

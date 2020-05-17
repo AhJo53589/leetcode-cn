@@ -2,12 +2,10 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    ListNode* reverseList(ListNode* head, ListNode* tail)
-    {
+    ListNode* reverseList(ListNode* head, ListNode* tail) {
         ListNode* pPrev = tail;
         ListNode* pCurr = head;
-        while (pCurr != tail)
-        {
+        while (pCurr != tail) {
             ListNode* pNext = pCurr->next;
             pCurr->next = pPrev;
             pPrev = pCurr;
@@ -16,17 +14,14 @@ public:
         return pPrev;
     }
 
-    ListNode* reverseKGroup(ListNode* head, int k)
-    {
+    ListNode* reverseKGroup(ListNode* head, int k) {
         ListNode* dummy = new ListNode(0);
         dummy->next = head;
         ListNode* pPrev = dummy;
         ListNode* pCurr = head;
-        while (pCurr != nullptr)
-        {
+        while (pCurr != nullptr) {
             int i = 0;
-            while (i++ < k && pCurr != nullptr)
-            {
+            while (i++ < k && pCurr != nullptr) {
                 pCurr = pCurr->next;
             }
             if (i != k + 1) break;
