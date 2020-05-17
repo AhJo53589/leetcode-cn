@@ -2,32 +2,26 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution2 {
 public:
-    int coinChange(vector<int>& coins, int amount)
-    {
+    int coinChange(vector<int>& coins, int amount) {
         if (amount == 0) return 0;
         sort(coins.begin(), coins.end());
         vector<int> _in;
         vector<int> _out;
         unordered_set<int> _set;
 
-        for (int i = 0; i < coins.size(); i++)
-        {
+        for (int i = 0; i < coins.size(); i++) {
             if (coins[i] == amount) return 1;
             if (coins[i] > amount) continue;
             _in.push_back(coins[i]);
             _set.insert(coins[i]);
         }
         int k = 2;
-        while (!_in.empty())
-        {
+        while (!_in.empty()) {
             bool bOverFlag = true;
-            for (auto& a : _in)
-            {
-                for (auto& c : coins)
-                {
+            for (auto& a : _in) {
+                for (auto& c : coins) {
                     if (a + c == amount) return k;
-                    if (a + c > amount)
-                    {
+                    if (a + c > amount) {
                         if (bOverFlag) return -1;
                         continue;
                     }
@@ -49,23 +43,20 @@ public:
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    void coinChange(vector<int>& coins, int amount, int c_index, int count, int& ans)
-    {
-        if (amount == 0)
-        {
+    void coinChange(vector<int>& coins, int amount, int c_index, int count, int& ans) {
+        if (amount == 0) {
             ans = min(ans, count);
             return;
         }
         if (c_index == coins.size()) return;
 
-        for (int k = amount / coins[c_index]; k >= 0 && k + count < ans; k--)
-        {
-            coinChange(coins, amount - k * coins[c_index], c_index + 1, count + k, ans);
+        for (int k = amount / coins[c_index]; k >= 0 && k + count < ans; k--) {
+            coinChange(coins, amount - k * coins[c_index], c_index + 1, count + k,
+                ans);
         }
     }
 
-    int coinChange(vector<int>& coins, int amount)
-    {
+    int coinChange(vector<int>& coins, int amount) {
         if (amount == 0) return 0;
         sort(coins.rbegin(), coins.rend());
         int ans = INT_MAX;

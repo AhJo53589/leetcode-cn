@@ -570,6 +570,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5405 	count-triplets-that-can-form-two-arrays-of-equal-xor
 #define SOLUTION_CPP_FOLDER_NAME_ID_5406 	minimum-time-to-collect-all-apples-in-a-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5407 	number-of-ways-of-cutting-a-pizza
+#define SOLUTION_CPP_FOLDER_NAME_ID_5412 	number-of-students-doing-homework-at-a-given-time
+#define SOLUTION_CPP_FOLDER_NAME_ID_5413 	rearrange-words-in-a-sentence
+#define SOLUTION_CPP_FOLDER_NAME_ID_5414 	people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_5415 	maximum-number-of-darts-inside-of-a-circular-dartboard
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

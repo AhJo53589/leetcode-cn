@@ -3,6 +3,18 @@
 
 ---
 ## 20200517
+* 5415.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
+
+* 5415.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
+
+* 5415.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
+
+* 5414.people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list 收藏清单
+
+* 5413.rearrange-words-in-a-sentence 重新排列句子中的单词
+
+* 5412.number-of-students-doing-homework-at-a-given-time 在既定时间做作业的学生人数
+
 * 5399.form-largest-integer-with-digits-that-add-up-to-target 数位成本和为目标值的最大数字
 
 * 5398.count-good-nodes-in-binary-tree 统计二叉树中好节点的数目
