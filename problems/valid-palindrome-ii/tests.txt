@@ -1,0 +1,10 @@
+"aba"
+true
+"abca"
+true
+"abbca"
+true
+"abcca"
+true
+"abcccda"
+false

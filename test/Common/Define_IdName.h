@@ -314,6 +314,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_677 	map-sum-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_680 	valid-palindrome-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_687 	longest-univalue-path
 #define SOLUTION_CPP_FOLDER_NAME_ID_690 	employee-importance
 #define SOLUTION_CPP_FOLDER_NAME_ID_693 	binary-number-with-alternating-bits
