@@ -1,4 +1,4 @@
-# `（简单）` [5412.number-of-students-doing-homework-at-a-given-time 在既定时间做作业的学生人数](https://leetcode-cn.com/problems/number-of-students-doing-homework-at-a-given-time/)
+# `（简单）` [1450.number-of-students-doing-homework-at-a-given-time 在既定时间做作业的学生人数](https://leetcode-cn.com/problems/number-of-students-doing-homework-at-a-given-time/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-189/problems/number-of-students-doing-homework-at-a-given-time/)
 

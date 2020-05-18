@@ -1,4 +1,4 @@
-# `（中等）` [5401.check-if-all-1s-are-at-least-length-k-places-away 是否所有 1 都至少相隔 k 个元素](https://leetcode-cn.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)
+# `（中等）` [1437.check-if-all-1s-are-at-least-length-k-places-away 是否所有 1 都至少相隔 k 个元素](https://leetcode-cn.com/problems/check-if-all-1s-are-at-least-length-k-places-away/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-187/problems/check-if-all-1s-are-at-least-length-k-places-away/)
 

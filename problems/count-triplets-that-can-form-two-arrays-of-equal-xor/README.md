@@ -1,4 +1,4 @@
-# `（中等）` [5405.count-triplets-that-can-form-two-arrays-of-equal-xor 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
+# `（中等）` [1442.count-triplets-that-can-form-two-arrays-of-equal-xor 形成两个异或相等数组的三元组数目](https://leetcode-cn.com/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-188/problems/count-triplets-that-can-form-two-arrays-of-equal-xor/)
 

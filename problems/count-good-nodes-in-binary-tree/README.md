@@ -1,4 +1,4 @@
-# `（中等）` [5398.count-good-nodes-in-binary-tree 统计二叉树中好节点的数目](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree/)
+# `（中等）` [1448.count-good-nodes-in-binary-tree 统计二叉树中好节点的数目](https://leetcode-cn.com/problems/count-good-nodes-in-binary-tree/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-26/problems/count-good-nodes-in-binary-tree/)
 

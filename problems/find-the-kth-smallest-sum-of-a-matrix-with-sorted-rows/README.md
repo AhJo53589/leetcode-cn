@@ -1,4 +1,4 @@
-# `（困难）` [5403.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows 有序矩阵中的第 k 个最小数组和](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
+# `（困难）` [1439.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows 有序矩阵中的第 k 个最小数组和](https://leetcode-cn.com/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-187/problems/find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5384.kids-with-the-greatest-number-of-candies 拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)
+# `（简单）` [1431.kids-with-the-greatest-number-of-candies 拥有最多糖果的孩子](https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-25/problems/kids-with-the-greatest-number-of-candies/)
 

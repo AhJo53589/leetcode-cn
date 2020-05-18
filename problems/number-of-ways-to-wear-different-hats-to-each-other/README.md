@@ -1,4 +1,4 @@
-# `（困难）` [5387.number-of-ways-to-wear-different-hats-to-each-other 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
+# `（困难）` [1434.number-of-ways-to-wear-different-hats-to-each-other 每个人戴不同帽子的方案数](https://leetcode-cn.com/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-25/problems/number-of-ways-to-wear-different-hats-to-each-other/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5414.people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list 收藏清单](https://leetcode-cn.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
+# `（中等）` [1452.people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list 收藏清单](https://leetcode-cn.com/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-189/problems/people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list/)
 

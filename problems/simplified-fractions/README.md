@@ -1,4 +1,4 @@
-# `（中等）` [5397.simplified-fractions 最简分数](https://leetcode-cn.com/problems/simplified-fractions/)
+# `（中等）` [1447.simplified-fractions 最简分数](https://leetcode-cn.com/problems/simplified-fractions/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-26/problems/simplified-fractions/)
 

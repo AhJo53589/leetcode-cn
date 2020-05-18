@@ -1,4 +1,4 @@
-# `（中等）` [5386.check-if-a-string-can-break-another-string 检查一个字符串是否可以打破另一个字符串](https://leetcode-cn.com/problems/check-if-a-string-can-break-another-string/)
+# `（中等）` [1433.check-if-a-string-can-break-another-string 检查一个字符串是否可以打破另一个字符串](https://leetcode-cn.com/problems/check-if-a-string-can-break-another-string/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-25/problems/check-if-a-string-can-break-another-string/)
 

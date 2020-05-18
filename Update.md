@@ -3,25 +3,21 @@
 
 ---
 ## 20200517
-* 5415.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
+* 1453.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
 
-* 5415.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
+* 1452.people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list 收藏清单
 
-* 5415.maximum-number-of-darts-inside-of-a-circular-dartboard 圆形靶内的最大飞镖数量
+* 1451.rearrange-words-in-a-sentence 重新排列句子中的单词
 
-* 5414.people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list 收藏清单
+* 1450.number-of-students-doing-homework-at-a-given-time 在既定时间做作业的学生人数
 
-* 5413.rearrange-words-in-a-sentence 重新排列句子中的单词
+* 1449.form-largest-integer-with-digits-that-add-up-to-target 数位成本和为目标值的最大数字
 
-* 5412.number-of-students-doing-homework-at-a-given-time 在既定时间做作业的学生人数
+* 1448.count-good-nodes-in-binary-tree 统计二叉树中好节点的数目
 
-* 5399.form-largest-integer-with-digits-that-add-up-to-target 数位成本和为目标值的最大数字
+* 1447.simplified-fractions 最简分数
 
-* 5398.count-good-nodes-in-binary-tree 统计二叉树中好节点的数目
-
-* 5397.simplified-fractions 最简分数
-
-* 5396.consecutive-characters 连续字符
+* 1446.consecutive-characters 连续字符
 
 
 ---
@@ -36,13 +32,13 @@
 
 ---
 ## 20200510
-* 5407.number-of-ways-of-cutting-a-pizza 切披萨的方案数
+* 1444.number-of-ways-of-cutting-a-pizza 切披萨的方案数
 
-* 5406.minimum-time-to-collect-all-apples-in-a-tree 收集树上所有苹果的最少时间
+* 1443.minimum-time-to-collect-all-apples-in-a-tree 收集树上所有苹果的最少时间
 
-* 5405.count-triplets-that-can-form-two-arrays-of-equal-xor 形成两个异或相等数组的三元组数目
+* 1442.count-triplets-that-can-form-two-arrays-of-equal-xor 形成两个异或相等数组的三元组数目
 
-* 5404.build-an-array-with-stack-operations 用栈操作构建数组
+* 1441.build-an-array-with-stack-operations 用栈操作构建数组
 
 
 ---
@@ -57,21 +53,21 @@
 
 ---
 ## 20200503
-* 5403.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows 有序矩阵中的第 k 个最小数组和
+* 1439.find-the-kth-smallest-sum-of-a-matrix-with-sorted-rows 有序矩阵中的第 k 个最小数组和
 
-* 5402.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit 绝对差不超过限制的最长连续子数组
+* 1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit 绝对差不超过限制的最长连续子数组
 
-* 5401.check-if-all-1s-are-at-least-length-k-places-away 是否所有 1 都至少相隔 k 个元素
+* 1437.check-if-all-1s-are-at-least-length-k-places-away 是否所有 1 都至少相隔 k 个元素
 
-* 5400.destination-city 旅行终点站
+* 1436.destination-city 旅行终点站
 
-* 5387.number-of-ways-to-wear-different-hats-to-each-other 每个人戴不同帽子的方案数
+* 1434.number-of-ways-to-wear-different-hats-to-each-other 每个人戴不同帽子的方案数
 
-* 5386.check-if-a-string-can-break-another-string 检查一个字符串是否可以打破另一个字符串
+* 1433.check-if-a-string-can-break-another-string 检查一个字符串是否可以打破另一个字符串
 
-* 5385.max-difference-you-can-get-from-changing-an-integer 改变一个整数能得到的最大差值
+* 1432.max-difference-you-can-get-from-changing-an-integer 改变一个整数能得到的最大差值
 
-* 5384.kids-with-the-greatest-number-of-candies 拥有最多糖果的孩子
+* 1431.kids-with-the-greatest-number-of-candies 拥有最多糖果的孩子
 
 
 ---
@@ -95,13 +91,13 @@
 
 ---
 ## 20200426
-* 5392.maximum-score-after-splitting-a-string 分割字符串的最大得分
+* 1422.maximum-score-after-splitting-a-string 分割字符串的最大得分
 
-* 5393.maximum-points-you-can-obtain-from-cards 可获得的最大点数
+* 1423.maximum-points-you-can-obtain-from-cards 可获得的最大点数
 
-* 5394.diagonal-traverse-ii 对角线遍历 II
+* 1424.diagonal-traverse-ii 对角线遍历 II
 
-* 5180.constrained-subset-sum 带限制的子序列和
+* 1425.constrained-subset-sum 带限制的子序列和
 
 ---
 ## 20200425

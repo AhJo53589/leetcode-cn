@@ -1,4 +1,4 @@
-# `（简单）` [5404.build-an-array-with-stack-operations 用栈操作构建数组](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
+# `（简单）` [1441.build-an-array-with-stack-operations 用栈操作构建数组](https://leetcode-cn.com/problems/build-an-array-with-stack-operations/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-188/problems/build-an-array-with-stack-operations/)
 

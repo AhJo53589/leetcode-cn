@@ -1,4 +1,4 @@
-# `（简单）` [5400.destination-city 旅行终点站](https://leetcode-cn.com/problems/destination-city/)
+# `（简单）` [1436.destination-city 旅行终点站](https://leetcode-cn.com/problems/destination-city/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-187/problems/destination-city/)
 

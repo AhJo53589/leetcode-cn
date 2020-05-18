@@ -1,4 +1,4 @@
-# `（困难）` [5407.number-of-ways-of-cutting-a-pizza 切披萨的方案数](https://leetcode-cn.com/problems/number-of-ways-of-cutting-a-pizza/)
+# `（困难）` [1444.number-of-ways-of-cutting-a-pizza 切披萨的方案数](https://leetcode-cn.com/problems/number-of-ways-of-cutting-a-pizza/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-188/problems/number-of-ways-of-cutting-a-pizza/)
 

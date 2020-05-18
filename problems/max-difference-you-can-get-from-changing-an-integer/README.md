@@ -1,4 +1,4 @@
-# `（中等）` [5385.max-difference-you-can-get-from-changing-an-integer 改变一个整数能得到的最大差值](https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/)
+# `（中等）` [1432.max-difference-you-can-get-from-changing-an-integer 改变一个整数能得到的最大差值](https://leetcode-cn.com/problems/max-difference-you-can-get-from-changing-an-integer/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-25/problems/max-difference-you-can-get-from-changing-an-integer/)
 

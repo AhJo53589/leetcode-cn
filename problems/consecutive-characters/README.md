@@ -1,4 +1,4 @@
-# `（简单）` [5396.consecutive-characters 连续字符](https://leetcode-cn.com/problems/consecutive-characters/)
+# `（简单）` [1446.consecutive-characters 连续字符](https://leetcode-cn.com/problems/consecutive-characters/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-26/problems/consecutive-characters/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5393.maximum-points-you-can-obtain-from-cards 可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
+# `（中等）` [1423.maximum-points-you-can-obtain-from-cards 可获得的最大点数](https://leetcode-cn.com/problems/maximum-points-you-can-obtain-from-cards/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-186/problems/maximum-points-you-can-obtain-from-cards/)
 

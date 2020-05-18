@@ -1,4 +1,4 @@
-# `（中等）` [5406.minimum-time-to-collect-all-apples-in-a-tree 收集树上所有苹果的最少时间](https://leetcode-cn.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
+# `（中等）` [1443.minimum-time-to-collect-all-apples-in-a-tree 收集树上所有苹果的最少时间](https://leetcode-cn.com/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-188/problems/minimum-time-to-collect-all-apples-in-a-tree/)
 

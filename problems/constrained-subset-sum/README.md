@@ -1,4 +1,4 @@
-# `（困难）` [5180.constrained-subset-sum 带限制的子序列和](https://leetcode-cn.com/problems/constrained-subset-sum/)
+# `（困难）` [1425.constrained-subset-sum 带限制的子序列和](https://leetcode-cn.com/problems/constrained-subset-sum/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-186/problems/constrained-subset-sum/)
 

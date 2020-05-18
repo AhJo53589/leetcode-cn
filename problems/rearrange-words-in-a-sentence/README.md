@@ -1,4 +1,4 @@
-# `（中等）` [5413.rearrange-words-in-a-sentence 重新排列句子中的单词](https://leetcode-cn.com/problems/rearrange-words-in-a-sentence/)
+# `（中等）` [1451.rearrange-words-in-a-sentence 重新排列句子中的单词](https://leetcode-cn.com/problems/rearrange-words-in-a-sentence/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-189/problems/rearrange-words-in-a-sentence/)
 

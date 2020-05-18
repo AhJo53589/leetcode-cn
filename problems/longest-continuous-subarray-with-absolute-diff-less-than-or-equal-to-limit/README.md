@@ -1,4 +1,4 @@
-# `（中等）` [5402.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
+# `（中等）` [1438.longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit 绝对差不超过限制的最长连续子数组](https://leetcode-cn.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-187/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/)
 

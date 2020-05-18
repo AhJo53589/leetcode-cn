@@ -1,4 +1,4 @@
-# `（简单）` [5392.maximum-score-after-splitting-a-string 分割字符串的最大得分](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/)
+# `（简单）` [1422.maximum-score-after-splitting-a-string 分割字符串的最大得分](https://leetcode-cn.com/problems/maximum-score-after-splitting-a-string/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-186/problems/maximum-score-after-splitting-a-string/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5394.diagonal-traverse-ii 对角线遍历 II](https://leetcode-cn.com/problems/diagonal-traverse-ii/)
+# `（中等）` [1424.diagonal-traverse-ii 对角线遍历 II](https://leetcode-cn.com/problems/diagonal-traverse-ii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-186/problems/diagonal-traverse-ii/)
 
