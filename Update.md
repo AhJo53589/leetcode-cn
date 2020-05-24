@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200524
+* 5419.max-dot-product-of-two-subsequences 两个子序列的最大点积
+
+* 5418.pseudo-palindromic-paths-in-a-binary-tree 二叉树中的伪回文路径
+
+* 5417.maximum-number-of-vowels-in-a-substring-of-given-length 定长子串中元音的最大数目
+
+* 5416.check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence 检查单词是否为句中其他单词的前缀
+
+
+---
 ## 20200519
 * 680.valid-palindrome-ii 验证回文字符串 Ⅱ
 

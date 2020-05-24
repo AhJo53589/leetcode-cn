@@ -575,6 +575,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1451 	rearrange-words-in-a-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1452 	people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1453 	maximum-number-of-darts-inside-of-a-circular-dartboard
+#define SOLUTION_CPP_FOLDER_NAME_ID_5416 	check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence
+#define SOLUTION_CPP_FOLDER_NAME_ID_5417 	maximum-number-of-vowels-in-a-substring-of-given-length
+#define SOLUTION_CPP_FOLDER_NAME_ID_5418 	pseudo-palindromic-paths-in-a-binary-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_5419 	max-dot-product-of-two-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
