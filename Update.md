@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20200527
+* 974.subarray-sums-divisible-by-k 和可被 K 整除的子数组
+
+
+---
 ## 20200524
 * 5419.max-dot-product-of-two-subsequences 两个子序列的最大点积
 
