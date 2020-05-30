@@ -577,6 +577,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1451 	rearrange-words-in-a-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1452 	people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1453 	maximum-number-of-darts-inside-of-a-circular-dartboard
+#define SOLUTION_CPP_FOLDER_NAME_ID_5408 	make-two-arrays-equal-by-reversing-sub-arrays
+#define SOLUTION_CPP_FOLDER_NAME_ID_5409 	check-if-a-string-contains-all-binary-codes-of-size-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_5410 	course-schedule-iv
+#define SOLUTION_CPP_FOLDER_NAME_ID_5411 	cherry-pickup-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5416 	check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_5417 	maximum-number-of-vowels-in-a-substring-of-given-length
 #define SOLUTION_CPP_FOLDER_NAME_ID_5418 	pseudo-palindromic-paths-in-a-binary-tree

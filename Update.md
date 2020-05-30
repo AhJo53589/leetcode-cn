@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200531
+* 5411.cherry-pickup-ii 摘樱桃 II
+
+* 5410.course-schedule-iv 课程安排 IV
+
+* 5409.check-if-a-string-contains-all-binary-codes-of-size-k 检查一个字符串是否包含所有长度为 K 的二进制子串
+
+* 5408.make-two-arrays-equal-by-reversing-sub-arrays 通过翻转子数组使两个数组相等
+
+
+---
 ## 20200527
 * 933.number-of-recent-calls 最近的请求次数
 
