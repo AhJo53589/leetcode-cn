@@ -3,6 +3,14 @@
 
 ---
 ## 20200531
+* 5427.probability-of-a-two-boxes-having-the-same-number-of-distinct-balls 两个盒子中球的颜色数相同的概率
+
+* 5426.reorder-routes-to-make-all-paths-lead-to-the-city-zero 重新规划路线
+
+* 5425.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts 切割后面积最大的蛋糕
+
+* 5424.maximum-product-of-two-elements-in-an-array 数组中两元素的最大乘积
+
 * 5411.cherry-pickup-ii 摘樱桃 II
 
 * 5410.course-schedule-iv 课程安排 IV
