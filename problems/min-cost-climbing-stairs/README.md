@@ -1,7 +1,7 @@
 # `（简单）` [746.min-cost-climbing-stairs 使用最小花费爬楼梯](https://leetcode-cn.com/problems/min-cost-climbing-stairs/)
 
 ### 题目描述
-<p>数组的每个索引做为一个阶梯，第&nbsp;<code>i</code>个阶梯对应着一个非负数的体力花费值&nbsp;<code>cost[i]</code>(索引从0开始)。</p>
+<p>数组的每个索引作为一个阶梯，第&nbsp;<code>i</code>个阶梯对应着一个非负数的体力花费值&nbsp;<code>cost[i]</code>(索引从0开始)。</p>
 
 <p>每当你爬上一个阶梯你都要花费对应的体力花费值，然后你可以选择继续爬一个阶梯或者爬两个阶梯。</p>
 
@@ -38,27 +38,24 @@
 
 ### 答题
 ``` C++
-int minCostClimbingStairs(vector<int>& cost)
-{
-	int dp[1001];
-	memset(&dp, 0, sizeof(dp));
-	for (size_t i = 0; i < cost.size() + 1; i++)
-	{
-		if (i == 0 || i == 1)
-		{
-			dp[i] = cost[i];
-		}
-		else if (i == cost.size())
-		{
-			dp[i] = min(dp[i - 2], dp[i - 1]);
-		}
-		else
-		{
-			dp[i] = min(dp[i - 2] + cost[i], dp[i - 1] + cost[i]);
-		}
-	}
-	return dp[cost.size()];
-}
+class Solution {
+public:
+    int minCostClimbingStairs(vector<int>& cost) {
+        if (cost.empty()) return 0;
+        if (cost.size() < 3) return cost.back();
+
+        vector<int> dp(3, 0);
+        dp[0] = cost[0];
+        dp[1] = cost[1];
+
+        cost.push_back(0);
+        for (int i = 2; i < cost.size(); i++) {
+            dp[i % 3] = min(dp[(i + 1) % 3], dp[(i + 2) % 3]) + cost[i];
+        }
+
+        return dp[(cost.size() - 1) % 3];
+    }
+};
 ```
 
 

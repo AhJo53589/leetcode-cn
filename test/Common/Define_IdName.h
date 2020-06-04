@@ -220,6 +220,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_329 	longest-increasing-path-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_334 	increasing-triplet-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_337 	house-robber-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_338 	counting-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_341 	flatten-nested-list-iterator
 #define SOLUTION_CPP_FOLDER_NAME_ID_344 	reverse-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_345 	reverse-vowels-of-a-string
@@ -251,6 +252,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_409 	longest-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
+#define SOLUTION_CPP_FOLDER_NAME_ID_414 	third-maximum-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal

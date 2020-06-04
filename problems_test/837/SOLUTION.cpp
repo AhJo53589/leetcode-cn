@@ -2,32 +2,20 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int minCostClimbingStairs(vector<int>& cost) {
-        if (cost.empty()) return 0;
-        if (cost.size() < 3) return cost.back();
+    double new21Game(int N, int K, int W) {
 
-        vector<int> dp(3, 0);
-        dp[0] = cost[0];
-        dp[1] = cost[1];
-
-        cost.push_back(0);
-        for (int i = 2; i < cost.size(); i++) {
-            dp[i % 3] = min(dp[(i + 1) % 3], dp[(i + 2) % 3]) + cost[i];
-        }
-
-        return dp[(cost.size() - 1) % 3];
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<int>& cost)
+double _solution_run(int N, int K, int W)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
     Solution sln;
-    return sln.minCostClimbingStairs(cost);
+    return sln.new21Game(N, K, W);
 }
 
 //#define USE_SOLUTION_CUSTOM

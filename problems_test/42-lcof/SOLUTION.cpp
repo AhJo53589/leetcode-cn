@@ -2,32 +2,26 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int minCostClimbingStairs(vector<int>& cost) {
-        if (cost.empty()) return 0;
-        if (cost.size() < 3) return cost.back();
-
-        vector<int> dp(3, 0);
-        dp[0] = cost[0];
-        dp[1] = cost[1];
-
-        cost.push_back(0);
-        for (int i = 2; i < cost.size(); i++) {
-            dp[i % 3] = min(dp[(i + 1) % 3], dp[(i + 2) % 3]) + cost[i];
+    int maxSubArray(vector<int>& nums) {
+        if (nums.empty()) return 0;
+        int dp = nums[0];
+        int ans = dp;
+        for (int i = 1; i < nums.size(); i++) {
+            dp = max(dp + nums[i], nums[i]);
+            ans = max(ans, dp);
         }
-
-        return dp[(cost.size() - 1) % 3];
+        return ans;
     }
 };
-
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<int>& cost)
+int _solution_run(vector<int>& nums)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
     Solution sln;
-    return sln.minCostClimbingStairs(cost);
+    return sln.maxSubArray(nums);
 }
 
 //#define USE_SOLUTION_CUSTOM

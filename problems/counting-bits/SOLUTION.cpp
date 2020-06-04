@@ -2,32 +2,32 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int minCostClimbingStairs(vector<int>& cost) {
-        if (cost.empty()) return 0;
-        if (cost.size() < 3) return cost.back();
+    vector<int> countBits(int num) {
+        vector<int> ans(num + 1, 0);
+        ans[0] = 0;
+        if (num == 0) return ans;
+        ans[1] = 1;
+        if (num == 1) return ans;
 
-        vector<int> dp(3, 0);
-        dp[0] = cost[0];
-        dp[1] = cost[1];
-
-        cost.push_back(0);
-        for (int i = 2; i < cost.size(); i++) {
-            dp[i % 3] = min(dp[(i + 1) % 3], dp[(i + 2) % 3]) + cost[i];
+        int k = 2;
+        for (int i = k; i < ans.size(); i++) {
+            k *= (i == k + k) ? 2 : 1;
+            ans[i] = 1 + ans[i - k];
         }
 
-        return dp[(cost.size() - 1) % 3];
+        return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<int>& cost)
+vector<int> _solution_run(int num)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
     Solution sln;
-    return sln.minCostClimbingStairs(cost);
+    return sln.countBits(num);
 }
 
 //#define USE_SOLUTION_CUSTOM

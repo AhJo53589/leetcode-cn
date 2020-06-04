@@ -2,6 +2,15 @@
 [返回](./README.md)
 
 ---
+## 20200605
+* 414.third-maximum-number 第三大的数
+
+* 338.counting-bits 比特位计数
+
+* 746.min-cost-climbing-stairs 使用最小花费爬楼梯
+
+
+---
 ## 20200531
 * 5427.probability-of-a-two-boxes-having-the-same-number-of-distinct-balls 两个盒子中球的颜色数相同的概率
 

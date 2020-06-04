@@ -2,32 +2,31 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int minCostClimbingStairs(vector<int>& cost) {
-        if (cost.empty()) return 0;
-        if (cost.size() < 3) return cost.back();
+    int maxValue(vector<vector<int>>& grid) {
+        if (grid.empty() || grid[0].empty()) return 0;
 
-        vector<int> dp(3, 0);
-        dp[0] = cost[0];
-        dp[1] = cost[1];
-
-        cost.push_back(0);
-        for (int i = 2; i < cost.size(); i++) {
-            dp[i % 3] = min(dp[(i + 1) % 3], dp[(i + 2) % 3]) + cost[i];
+        vector<vector<int>> dp(grid.size(), vector<int>(grid[0].size(), 0));
+        for (int i = 0; i < grid.size(); i++) {
+            for (int j = 0; j < grid[i].size(); j++) {
+                int t1 = (i != 0) ? dp[i - 1][j] : 0;
+                int t2 = (j != 0) ? dp[i][j - 1] : 0;
+                dp[i][j] = max(t1, t2) + grid[i][j];
+            }
         }
 
-        return dp[(cost.size() - 1) % 3];
+        return dp.back().back();
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<int>& cost)
+int _solution_run(vector<vector<int>>& grid)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
     Solution sln;
-    return sln.minCostClimbingStairs(cost);
+    return sln.maxValue(grid);
 }
 
 //#define USE_SOLUTION_CUSTOM
