@@ -591,6 +591,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5425 	maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts
 #define SOLUTION_CPP_FOLDER_NAME_ID_5426 	reorder-routes-to-make-all-paths-lead-to-the-city-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_5427 	probability-of-a-two-boxes-having-the-same-number-of-distinct-balls
+#define SOLUTION_CPP_FOLDER_NAME_ID_5428 	shuffle-the-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5429 	the-k-strongest-values-in-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5430 	design-browser-history
+#define SOLUTION_CPP_FOLDER_NAME_ID_5431 	paint-house-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

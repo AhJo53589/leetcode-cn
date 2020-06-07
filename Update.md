@@ -2,13 +2,22 @@
 [返回](./README.md)
 
 ---
+## 20200607
+* 5431.paint-house-iii 给房子涂色 III
+
+* 5430.design-browser-history 设计浏览器历史记录
+
+* 5429.the-k-strongest-values-in-an-array 数组中的 k 个最强值
+
+* 5428.shuffle-the-array 重新排列数组
+
+---
 ## 20200605
 * 414.third-maximum-number 第三大的数
 
 * 338.counting-bits 比特位计数
 
 * 746.min-cost-climbing-stairs 使用最小花费爬楼梯
-
 
 ---
 ## 20200531
@@ -28,13 +37,11 @@
 
 * 5408.make-two-arrays-equal-by-reversing-sub-arrays 通过翻转子数组使两个数组相等
 
-
 ---
 ## 20200527
 * 933.number-of-recent-calls 最近的请求次数
 
 * 974.subarray-sums-divisible-by-k 和可被 K 整除的子数组
-
 
 ---
 ## 20200524
@@ -46,11 +53,9 @@
 
 * 5416.check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence 检查单词是否为句中其他单词的前缀
 
-
 ---
 ## 20200519
 * 680.valid-palindrome-ii 验证回文字符串 Ⅱ
-
 
 ---
 ## 20200517
@@ -70,16 +75,13 @@
 
 * 1446.consecutive-characters 连续字符
 
-
 ---
 ## 20200516
 * 25.reverse-nodes-in-k-group K 个一组翻转链表
 
-
 ---
 ## 20200513
 * 102.binary-tree-level-order-traversal 二叉树的层序遍历
-
 
 ---
 ## 20200510
@@ -91,16 +93,13 @@
 
 * 1441.build-an-array-with-stack-operations 用栈操作构建数组
 
-
 ---
 ## 20200508
 * 221.maximal-square 最大正方形
 
-
 ---
 ## 20200505
 * 98.validate-binary-search-tree 验证二叉搜索树
-
 
 ---
 ## 20200503
@@ -120,11 +119,9 @@
 
 * 1431.kids-with-the-greatest-number-of-candies 拥有最多糖果的孩子
 
-
 ---
 ## 20200502
 * 3.longest-substring-without-repeating-characters 无重复字符的最长子串
-
 
 ---
 ## 20200501
