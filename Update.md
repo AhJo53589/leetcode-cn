@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20200612
+* 990.satisfiability-of-equality-equations 等式方程的可满足性
+
+
+---
 ## 20200607
 * 5431.paint-house-iii 给房子涂色 III
 

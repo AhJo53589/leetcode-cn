@@ -1,0 +1,10 @@
+["a==b","b!=a"]
+false
+["b==a","a==b"]
+true
+["a==b","b==c","a==c"]
+true
+["a==b","b!=c","c==a"]
+false
+["c==c","b==d","x!=z"]
+true

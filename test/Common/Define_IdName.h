@@ -363,6 +363,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_990 	satisfiability-of-equality-equations
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
