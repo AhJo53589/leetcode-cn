@@ -588,6 +588,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5417 	maximum-number-of-vowels-in-a-substring-of-given-length
 #define SOLUTION_CPP_FOLDER_NAME_ID_5418 	pseudo-palindromic-paths-in-a-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5419 	max-dot-product-of-two-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5420 	final-prices-with-a-special-discount-in-a-shop
+#define SOLUTION_CPP_FOLDER_NAME_ID_5421 	allocate-mailboxes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5422 	subrectangle-queries
+#define SOLUTION_CPP_FOLDER_NAME_ID_5423 	find-two-non-overlapping-sub-arrays-each-with-target-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5424 	maximum-product-of-two-elements-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5425 	maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts
 #define SOLUTION_CPP_FOLDER_NAME_ID_5426 	reorder-routes-to-make-all-paths-lead-to-the-city-zero
