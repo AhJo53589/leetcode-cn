@@ -3,6 +3,14 @@
 
 ---
 ## 20200614
+* 5188.kth-ancestor-of-a-tree-node 树节点的第 K 个祖先
+
+* 5438.minimum-number-of-days-to-make-m-bouquets 制作 m 束花所需的最少天数
+
+* 5437.least-number-of-unique-integers-after-k-removals 不同整数的最少数目
+
+* 5436.running-sum-of-1d-array 一维数组的动态和
+
 * 5421.allocate-mailboxes 安排邮筒
 
 * 5423.find-two-non-overlapping-sub-arrays-each-with-target-sum 找两个和为目标值且不重叠的子数组
@@ -11,16 +19,13 @@
 
 * 5420.final-prices-with-a-special-discount-in-a-shop 商品折扣后的最终价格
 
-
 ---
 ## 20200613
 * 70.climbing-stairs 爬楼梯
 
-
 ---
 ## 20200612
 * 990.satisfiability-of-equality-equations 等式方程的可满足性
-
 
 ---
 ## 20200607

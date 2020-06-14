@@ -580,6 +580,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1451 	rearrange-words-in-a-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1452 	people-whose-list-of-favorite-companies-is-not-a-subset-of-another-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_1453 	maximum-number-of-darts-inside-of-a-circular-dartboard
+#define SOLUTION_CPP_FOLDER_NAME_ID_5188 	kth-ancestor-of-a-tree-node
 #define SOLUTION_CPP_FOLDER_NAME_ID_5408 	make-two-arrays-equal-by-reversing-sub-arrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5409 	check-if-a-string-contains-all-binary-codes-of-size-k
 #define SOLUTION_CPP_FOLDER_NAME_ID_5410 	course-schedule-iv
@@ -600,6 +601,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5429 	the-k-strongest-values-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5430 	design-browser-history
 #define SOLUTION_CPP_FOLDER_NAME_ID_5431 	paint-house-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5436 	running-sum-of-1d-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5437 	least-number-of-unique-integers-after-k-removals
+#define SOLUTION_CPP_FOLDER_NAME_ID_5438 	minimum-number-of-days-to-make-m-bouquets
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
