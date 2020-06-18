@@ -1,0 +1,9 @@
+"Mr John Smith    "
+13
+"Mr%20John%20Smith"
+"               "
+5
+"%20%20%20%20%20"
+"ds sdfs afs sdfa dfssf asdf             "
+27
+"ds%20sdfs%20afs%20sdfa%20dfssf%20asdf"

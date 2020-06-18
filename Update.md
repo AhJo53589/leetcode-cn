@@ -2,6 +2,13 @@
 [返回](./README.md)
 
 ---
+## 20200619
+* 1014.best-sightseeing-pair 最佳观光组合
+
+* 1028.recover-a-tree-from-preorder-traversal 从先序遍历还原二叉树
+
+
+---
 ## 20200614
 * 5188.kth-ancestor-of-a-tree-node 树节点的第 K 个祖先
 
