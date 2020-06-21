@@ -1,4 +1,4 @@
-# `（简单）` [5408.make-two-arrays-equal-by-reversing-sub-arrays 通过翻转子数组使两个数组相等](https://leetcode-cn.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
+# `（简单）` [1460.make-two-arrays-equal-by-reversing-sub-arrays 通过翻转子数组使两个数组相等](https://leetcode-cn.com/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-27/problems/make-two-arrays-equal-by-reversing-sub-arrays/)
 

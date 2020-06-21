@@ -1,4 +1,4 @@
-# `（困难）` [5421.allocate-mailboxes 安排邮筒](https://leetcode-cn.com/problems/allocate-mailboxes/)
+# `（困难）` [1478.allocate-mailboxes 安排邮筒](https://leetcode-cn.com/problems/allocate-mailboxes/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-28/problems/allocate-mailboxes/)
 

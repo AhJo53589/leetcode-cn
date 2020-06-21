@@ -1,4 +1,4 @@
-# `（中等）` [5437.least-number-of-unique-integers-after-k-removals 不同整数的最少数目](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
+# `（中等）` [1481.least-number-of-unique-integers-after-k-removals 不同整数的最少数目](https://leetcode-cn.com/problems/least-number-of-unique-integers-after-k-removals/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-193/problems/least-number-of-unique-integers-after-k-removals/)
 

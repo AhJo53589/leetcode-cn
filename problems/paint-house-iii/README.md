@@ -1,4 +1,4 @@
-# `（困难）` [5431.paint-house-iii 给房子涂色 III](https://leetcode-cn.com/problems/paint-house-iii/)
+# `（困难）` [1473.paint-house-iii 给房子涂色 III](https://leetcode-cn.com/problems/paint-house-iii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-192/problems/paint-house-iii/)
 

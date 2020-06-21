@@ -1,15 +1,14 @@
-# `（中等）` [5442.avoid-flood-in-the-city 避免洪水泛滥](https://leetcode-cn.com/problems/avoid-flood-in-the-city/)
+# `（中等）` [1488.avoid-flood-in-the-city 避免洪水泛滥](https://leetcode-cn.com/problems/avoid-flood-in-the-city/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-194/problems/avoid-flood-in-the-city/)
 
 ### 题目描述
-
-              <p>你的国家有无数个湖泊，所有湖泊一开始都是空的。当第 <code>n</code>&nbsp;个湖泊下雨的时候，如果第 <code>n</code>&nbsp;个湖泊是空的，那么它就会装满水，否则这个湖泊会发生洪水。你的目标是避免任意一个湖泊发生洪水。</p>
+<p>你的国家有无数个湖泊，所有湖泊一开始都是空的。当第 <code>n</code>&nbsp;个湖泊下雨的时候，如果第 <code>n</code>&nbsp;个湖泊是空的，那么它就会装满水，否则这个湖泊会发生洪水。你的目标是避免任意一个湖泊发生洪水。</p>
 
 <p>给你一个整数数组&nbsp;<code>rains</code>&nbsp;，其中：</p>
 
 <ul>
-	<li><code>rains[i] &gt; 0</code>&nbsp;表示第 <code>i</code>&nbsp;天时，第 <code>rains[i]</code>&nbsp;个湖泊会下雨。</li>
+	<li><code>rains[i] > 0</code>&nbsp;表示第 <code>i</code>&nbsp;天时，第 <code>rains[i]</code>&nbsp;个湖泊会下雨。</li>
 	<li><code>rains[i] == 0</code>&nbsp;表示第 <code>i</code>&nbsp;天没有湖泊会下雨，你可以选择 <strong>一个</strong>&nbsp;湖泊并 <strong>抽干</strong>&nbsp;这个湖泊的水。</li>
 </ul>
 
@@ -17,7 +16,7 @@
 
 <ul>
 	<li><code>ans.length == rains.length</code></li>
-	<li>如果&nbsp;<code>rains[i] &gt; 0</code> ，那么<code>ans[i] == -1</code>&nbsp;。</li>
+	<li>如果&nbsp;<code>rains[i] > 0</code> ，那么<code>ans[i] == -1</code>&nbsp;。</li>
 	<li>如果&nbsp;<code>rains[i] == 0</code>&nbsp;，<code>ans[i]</code>&nbsp;是你第&nbsp;<code>i</code>&nbsp;天选择抽干的湖泊。</li>
 </ul>
 
@@ -63,7 +62,7 @@
 
 <pre><strong>输入：</strong>rains = [69,0,0,0,69]
 <strong>输出：</strong>[-1,69,1,1,-1]
-<strong>解释：</strong>任何形如 [-1,69,x,y,-1], [-1,x,69,y,-1] 或者 [-1,x,y,69,-1] 都是可行的解，其中 1 &lt;= x,y &lt;= 10^9
+<strong>解释：</strong>任何形如 [-1,69,x,y,-1], [-1,x,69,y,-1] 或者 [-1,x,y,69,-1] 都是可行的解，其中 1 <= x,y <= 10^9
 </pre>
 
 <p><strong>示例 5：</strong></p>
@@ -78,18 +77,17 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 &lt;= rains.length &lt;= 10^5</code></li>
-	<li><code>0 &lt;= rains[i] &lt;= 10^9</code></li>
+	<li><code>1 <= rains.length <= 10^5</code></li>
+	<li><code>0 <= rains[i] <= 10^9</code></li>
 </ul>
 
-            
 
 ---
 ### 思路
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/avoid-flood-in-the-city/solution/avoid-flood-in-the-city-by-ikaruga/)
 
 ### 答题
 ``` C++

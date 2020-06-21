@@ -1,4 +1,4 @@
-# `（中等）` [5426.reorder-routes-to-make-all-paths-lead-to-the-city-zero 重新规划路线](https://leetcode-cn.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
+# `（中等）` [1466.reorder-routes-to-make-all-paths-lead-to-the-city-zero 重新规划路线](https://leetcode-cn.com/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-191/problems/reorder-routes-to-make-all-paths-lead-to-the-city-zero/)
 

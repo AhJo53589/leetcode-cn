@@ -1,4 +1,4 @@
-# `（中等）` [5409.check-if-a-string-contains-all-binary-codes-of-size-k 检查一个字符串是否包含所有长度为 K 的二进制子串](https://leetcode-cn.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
+# `（中等）` [1461.check-if-a-string-contains-all-binary-codes-of-size-k 检查一个字符串是否包含所有长度为 K 的二进制子串](https://leetcode-cn.com/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-27/problems/check-if-a-string-contains-all-binary-codes-of-size-k/)
 

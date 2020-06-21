@@ -1,4 +1,4 @@
-# `（中等）` [5438.minimum-number-of-days-to-make-m-bouquets 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
+# `（中等）` [1482.minimum-number-of-days-to-make-m-bouquets 制作 m 束花所需的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-make-m-bouquets/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-193/problems/minimum-number-of-days-to-make-m-bouquets/)
 

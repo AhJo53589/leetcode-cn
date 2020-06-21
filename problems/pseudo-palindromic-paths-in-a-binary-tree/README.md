@@ -1,4 +1,4 @@
-# `（中等）` [5418.pseudo-palindromic-paths-in-a-binary-tree 二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
+# `（中等）` [1457.pseudo-palindromic-paths-in-a-binary-tree 二叉树中的伪回文路径](https://leetcode-cn.com/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-190/problems/pseudo-palindromic-paths-in-a-binary-tree/)
 

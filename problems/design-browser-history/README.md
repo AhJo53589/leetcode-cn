@@ -1,4 +1,4 @@
-# `（中等）` [5430.design-browser-history 设计浏览器历史记录](https://leetcode-cn.com/problems/design-browser-history/)
+# `（中等）` [1472.design-browser-history 设计浏览器历史记录](https://leetcode-cn.com/problems/design-browser-history/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-192/problems/design-browser-history/)
 

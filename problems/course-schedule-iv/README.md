@@ -1,4 +1,4 @@
-# `（中等）` [5410.course-schedule-iv 课程安排 IV](https://leetcode-cn.com/problems/course-schedule-iv/)
+# `（中等）` [1462.course-schedule-iv 课程安排 IV](https://leetcode-cn.com/problems/course-schedule-iv/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-27/problems/course-schedule-iv/)
 

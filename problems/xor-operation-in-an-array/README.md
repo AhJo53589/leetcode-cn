@@ -1,4 +1,4 @@
-# `（简单）` [5440.xor-operation-in-an-array 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
+# `（简单）` [1486.xor-operation-in-an-array 数组异或操作](https://leetcode-cn.com/problems/xor-operation-in-an-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-194/problems/xor-operation-in-an-array/)
 

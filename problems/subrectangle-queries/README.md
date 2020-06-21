@@ -1,4 +1,4 @@
-# `（中等）` [5422.subrectangle-queries 子矩形查询](https://leetcode-cn.com/problems/subrectangle-queries/)
+# `（中等）` [1476.subrectangle-queries 子矩形查询](https://leetcode-cn.com/problems/subrectangle-queries/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-28/problems/subrectangle-queries/)
 

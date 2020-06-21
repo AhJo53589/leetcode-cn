@@ -1,4 +1,4 @@
-# `（简单）` [5416.check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence 检查单词是否为句中其他单词的前缀](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
+# `（简单）` [1455.check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence 检查单词是否为句中其他单词的前缀](https://leetcode-cn.com/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-190/problems/check-if-a-word-occurs-as-a-prefix-of-any-word-in-a-sentence/)
 

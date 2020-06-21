@@ -1,4 +1,4 @@
-# `（简单）` [5436.running-sum-of-1d-array 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
+# `（简单）` [1480.running-sum-of-1d-array 一维数组的动态和](https://leetcode-cn.com/problems/running-sum-of-1d-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-193/problems/running-sum-of-1d-array/)
 

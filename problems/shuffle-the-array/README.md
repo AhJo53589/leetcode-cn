@@ -1,4 +1,4 @@
-# `（简单）` [5428.shuffle-the-array 重新排列数组](https://leetcode-cn.com/problems/shuffle-the-array/)
+# `（简单）` [1470.shuffle-the-array 重新排列数组](https://leetcode-cn.com/problems/shuffle-the-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-192/problems/shuffle-the-array/)
 

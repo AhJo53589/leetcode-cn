@@ -1,4 +1,4 @@
-# `（中等）` [5429.the-k-strongest-values-in-an-array 数组中的 k 个最强值](https://leetcode-cn.com/problems/the-k-strongest-values-in-an-array/)
+# `（中等）` [1471.the-k-strongest-values-in-an-array 数组中的 k 个最强值](https://leetcode-cn.com/problems/the-k-strongest-values-in-an-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-192/problems/the-k-strongest-values-in-an-array/)
 

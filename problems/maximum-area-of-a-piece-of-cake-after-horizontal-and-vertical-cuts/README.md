@@ -1,4 +1,4 @@
-# `（中等）` [5425.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts 切割后面积最大的蛋糕](https://leetcode-cn.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
+# `（中等）` [1465.maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts 切割后面积最大的蛋糕](https://leetcode-cn.com/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-191/problems/maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts/)
 

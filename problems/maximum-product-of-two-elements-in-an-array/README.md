@@ -1,4 +1,4 @@
-# `（简单）` [5424.maximum-product-of-two-elements-in-an-array 数组中两元素的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-two-elements-in-an-array/)
+# `（简单）` [1464.maximum-product-of-two-elements-in-an-array 数组中两元素的最大乘积](https://leetcode-cn.com/problems/maximum-product-of-two-elements-in-an-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-191/problems/maximum-product-of-two-elements-in-an-array/)
 

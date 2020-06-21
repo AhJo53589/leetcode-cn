@@ -1,4 +1,4 @@
-# `（中等）` [5423.find-two-non-overlapping-sub-arrays-each-with-target-sum 找两个和为目标值且不重叠的子数组](https://leetcode-cn.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
+# `（中等）` [1477.find-two-non-overlapping-sub-arrays-each-with-target-sum 找两个和为目标值且不重叠的子数组](https://leetcode-cn.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-28/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5419.max-dot-product-of-two-subsequences 两个子序列的最大点积](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)
+# `（困难）` [1458.max-dot-product-of-two-subsequences 两个子序列的最大点积](https://leetcode-cn.com/problems/max-dot-product-of-two-subsequences/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-190/problems/max-dot-product-of-two-subsequences/)
 

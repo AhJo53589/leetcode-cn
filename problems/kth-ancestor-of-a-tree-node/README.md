@@ -1,4 +1,4 @@
-# `（困难）` [5188.kth-ancestor-of-a-tree-node 树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/)
+# `（困难）` [1483.kth-ancestor-of-a-tree-node 树节点的第 K 个祖先](https://leetcode-cn.com/problems/kth-ancestor-of-a-tree-node/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-193/problems/kth-ancestor-of-a-tree-node/)
 

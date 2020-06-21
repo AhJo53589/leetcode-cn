@@ -1,4 +1,4 @@
-# `（困难）` [5427.probability-of-a-two-boxes-having-the-same-number-of-distinct-balls 两个盒子中球的颜色数相同的概率](https://leetcode-cn.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
+# `（困难）` [1467.probability-of-a-two-boxes-having-the-same-number-of-distinct-balls 两个盒子中球的颜色数相同的概率](https://leetcode-cn.com/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-191/problems/probability-of-a-two-boxes-having-the-same-number-of-distinct-balls/)
 
