@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200621
+* 5443.find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree 找到最小生成树里的关键边和伪关键边
+
+* 5442.avoid-flood-in-the-city 避免洪水泛滥
+
+* 5441.making-file-names-unique 保证文件名唯一
+
+* 5440.xor-operation-in-an-array 数组异或操作
+
+
+---
 ## 20200619
 * 1014.best-sightseeing-pair 最佳观光组合
 

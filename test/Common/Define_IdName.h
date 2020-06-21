@@ -606,6 +606,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5436 	running-sum-of-1d-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5437 	least-number-of-unique-integers-after-k-removals
 #define SOLUTION_CPP_FOLDER_NAME_ID_5438 	minimum-number-of-days-to-make-m-bouquets
+#define SOLUTION_CPP_FOLDER_NAME_ID_5440 	xor-operation-in-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5441 	making-file-names-unique
+#define SOLUTION_CPP_FOLDER_NAME_ID_5442 	avoid-flood-in-the-city
+#define SOLUTION_CPP_FOLDER_NAME_ID_5443 	find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

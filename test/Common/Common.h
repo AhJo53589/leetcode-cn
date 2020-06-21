@@ -35,6 +35,9 @@ void printVectorVectorT(T& matrix, int width = 1, char pattern = ',')
 template<typename T>
 inline std::string checkAnswer(T ta, T tb)
 {
+    //FILE* ssout;
+    //freopen_s(&ssout, "D:\\1.out", "w", stdout);
+
     std::string a = convert<std::string>(ta);
     std::string b = convert<std::string>(tb); 
     std::string check = (a == b) ? "" : "\t\t\t\t\t\t\t\t\t\t\033[7m\033[1m## WRONG ANSWER ##\033[0m";
