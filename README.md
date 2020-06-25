@@ -48,6 +48,7 @@
 | 68 | [text-justification](./problems/text-justification) | [【文本左右对齐】平均分布额外空格](https://leetcode-cn.com/problems/text-justification/solution/text-justification-by-ikaruga/) |
 | 72 | [edit-distance](./problems/edit-distance) | [【编辑距离】入门动态规划，你定义的 dp 里到底存了啥](https://leetcode-cn.com/problems/edit-distance/solution/edit-distance-by-ikaruga/) |
 | 84 | [largest-rectangle-in-histogram](./problems/largest-rectangle-in-histogram) | [【柱状图中最大的矩形】单调栈入门，使用单调栈快速寻找边界](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/solution/84-by-ikaruga/) |
+| 88 | [merge-sorted-array](./problems/merge-sorted-array) | [【合并两个有序数组】从后面开始确定](https://leetcode-cn.com/problems/merge-sorted-array/solution/88-by-ikaruga/) |
 | 124 | [binary-tree-maximum-path-sum](./problems/binary-tree-maximum-path-sum) | [【二叉树中的最大路径和】递归，条理清晰](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/solution/er-cha-shu-zhong-de-zui-da-lu-jing-he-by-ikaruga/) |
 | 198 | [house-robber](./problems/house-robber) | [【打家劫舍】 代码简洁易懂](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) |
 | 322 | [coin-change](./problems/coin-change) | [【零钱兑换】贪心 + dfs = 8ms](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/) |
