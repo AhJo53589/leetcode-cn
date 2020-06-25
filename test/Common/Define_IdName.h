@@ -360,6 +360,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_922 	sort-array-by-parity-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_933 	number-of-recent-calls
 #define SOLUTION_CPP_FOLDER_NAME_ID_945 	minimum-increment-to-make-array-unique
+#define SOLUTION_CPP_FOLDER_NAME_ID_946 	validate-stack-sequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k

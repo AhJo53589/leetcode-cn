@@ -367,6 +367,7 @@
 | √ | 918 | [maximum-sum-circular-subarray](../../problems/maximum-sum-circular-subarray) | [环形子数组的最大和](../../problems/maximum-sum-circular-subarray/README.md) | [cpp](../../problems/maximum-sum-circular-subarray/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-sum-circular-subarray/solution/918-by-ikaruga/) | 中等 |
 | √ | 922 | [sort-array-by-parity-ii](../../problems/sort-array-by-parity-ii) | [按奇偶排序数组 II](../../problems/sort-array-by-parity-ii/README.md) | [cpp](../../problems/sort-array-by-parity-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 945 | [minimum-increment-to-make-array-unique](../../problems/minimum-increment-to-make-array-unique) | [使数组唯一的最小增量](../../problems/minimum-increment-to-make-array-unique/README.md) | [cpp](../../problems/minimum-increment-to-make-array-unique/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-increment-to-make-array-unique/solution/945-by-ikaruga/) | 中等 |
+| √ | 946 | [validate-stack-sequences](../../problems/validate-stack-sequences) | [验证栈序列](../../problems/validate-stack-sequences/README.md) | [cpp](../../problems/validate-stack-sequences/SOLUTION.cpp) |   | 中等 | 
 | √ | 949 | [largest-time-for-given-digits](../../problems/largest-time-for-given-digits) | [给定数字能组成的最大时间](../../problems/largest-time-for-given-digits/README.md) | [cpp](../../problems/largest-time-for-given-digits/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-time-for-given-digits/solution/largest-time-for-given-digits-by-ikaruga/) | 简单 |
 | √ | 953 | [verifying-an-alien-dictionary](../../problems/verifying-an-alien-dictionary) | [验证外星语词典](../../problems/verifying-an-alien-dictionary/README.md) | [cpp](../../problems/verifying-an-alien-dictionary/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/verifying-an-alien-dictionary/solution/verifying-an-alien-dictionary-by-ikaruga/) | 简单 |
 | √ | 933 | [number-of-recent-calls](../../problems/number-of-recent-calls) | [最近的请求次数](../../problems/number-of-recent-calls/README.md) | [cpp](../../problems/number-of-recent-calls/SOLUTION.cpp) |   | 简单 |
@@ -617,8 +618,6 @@
 | √ | 1487 | [making-file-names-unique](../../problems/making-file-names-unique) | [保证文件名唯一](../../problems/making-file-names-unique/README.md) | [cpp](../../problems/making-file-names-unique/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/making-file-names-unique/solution/making-file-names-unique-by-ikaruga/) | 中等 | 
 | √ | 1488 | [avoid-flood-in-the-city](../../problems/avoid-flood-in-the-city) | [避免洪水泛滥](../../problems/avoid-flood-in-the-city/README.md) | [cpp](../../problems/avoid-flood-in-the-city/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/avoid-flood-in-the-city/solution/avoid-flood-in-the-city-by-ikaruga/) | 中等 | 
 |   | 1489 | [find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree](../../problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree) | [找到最小生成树里的关键边和伪关键边](../../problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/README.md) | [cpp](../../problems/find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree/SOLUTION.cpp) |   | 困难 | 
-
-
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
@@ -627,7 +626,6 @@
 | √ | LCP_3 | [programmable-robot](../../problems/programmable-robot) | [机器人大冒险](../../problems/programmable-robot/README.md) | [cpp](../../problems/programmable-robot/SOLUTION.cpp) |   | 中等 |
 |   | LCP_4 | [broken-board-dominoes](../../problems/broken-board-dominoes) | [覆盖](../../problems/broken-board-dominoes/README.md) | [cpp](../../problems/broken-board-dominoes/SOLUTION.cpp) |   | 困难 |
 |   | LCP_5 | [coin-bonus](../../problems/coin-bonus) | [发 LeetCoin](../../problems/coin-bonus/README.md) | [cpp](../../problems/coin-bonus/SOLUTION.cpp) |   | 困难 |
-
 ## contest/sf-2020
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
@@ -639,7 +637,6 @@
 |   | 100267 | [collect-beads](../../problems/collect-beads) | [理琥珀珠](../../problems/collect-beads/README.md) | [cpp](../../problems/collect-beads/SOLUTION.cpp) |   | 简单 |
 |   | 100264 | [how-many-apples-lc](../../problems/how-many-apples-lc) | [分苹果](../../problems/how-many-apples-lc/README.md) | [cpp](../../problems/how-many-apples-lc/SOLUTION.cpp) |   | 中等 |
 | √ | 100272 | [happy-new-year-lol](../../problems/happy-new-year-lol) | [🐭年快乐](../../problems/happy-new-year-lol/README.md) | [cpp](../../problems/happy-new-year-lol/SOLUTION.cpp) |   | 简单 |
-
 ## season/2020-spring
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

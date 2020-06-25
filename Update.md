@@ -3,6 +3,11 @@
 
 
 ---
+## 20200626
+* 946.validate-stack-sequences 验证栈序列
+
+
+---
 ## 20200621
 * 1489.find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree 找到最小生成树里的关键边和伪关键边
 
