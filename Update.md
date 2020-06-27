@@ -3,6 +3,17 @@
 
 
 ---
+## 20200628
+* 5435.parallel-courses-ii 并行课程 II
+
+* 5434.longest-subarray-of-1s-after-deleting-one-element 删掉一个元素以后全为 1 的最长子数组
+
+* 5433.the-kth-factor-of-n n 的第 k 个因子
+
+* 5432.average-salary-excluding-the-minimum-and-maximum-salary 去掉最低工资和最高工资后的工资平均值
+
+
+---
 ## 20200626
 * 946.validate-stack-sequences 验证栈序列
 
