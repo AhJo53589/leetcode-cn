@@ -615,6 +615,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5433 	the-kth-factor-of-n
 #define SOLUTION_CPP_FOLDER_NAME_ID_5434 	longest-subarray-of-1s-after-deleting-one-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_5435 	parallel-courses-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5448 	path-crossing
+#define SOLUTION_CPP_FOLDER_NAME_ID_5449 	check-if-array-pairs-are-divisible-by-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_5450 	number-of-subsequences-that-satisfy-the-given-sum-condition
+#define SOLUTION_CPP_FOLDER_NAME_ID_5451 	max-value-of-equation
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

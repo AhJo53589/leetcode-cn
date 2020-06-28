@@ -1,0 +1,4 @@
+"NES"
+false
+"NESWW"
+true

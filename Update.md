@@ -4,6 +4,16 @@
 
 ---
 ## 20200628
+* 5451.max-value-of-equation 满足不等式的最大值
+
+* 5450.number-of-subsequences-that-satisfy-the-given-sum-condition 满足条件的子序列数目
+
+* 5449.check-if-array-pairs-are-divisible-by-k 检查数组对是否可以被 k 整除
+
+* 5448.path-crossing 判断路径是否相交
+
+* 5448.path-crossing 判断路径是否相交
+
 * 5435.parallel-courses-ii 并行课程 II
 
 * 5434.longest-subarray-of-1s-after-deleting-one-element 删掉一个元素以后全为 1 的最长子数组

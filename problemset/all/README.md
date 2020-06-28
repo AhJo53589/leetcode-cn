@@ -622,6 +622,10 @@
 | √ | 5433 | [the-kth-factor-of-n](../../problems/the-kth-factor-of-n) | [n 的第 k 个因子](../../problems/the-kth-factor-of-n/README.md) | [cpp](../../problems/the-kth-factor-of-n/SOLUTION.cpp) |   | 中等 | 
 | √ | 5434 | [longest-subarray-of-1s-after-deleting-one-element](../../problems/longest-subarray-of-1s-after-deleting-one-element) | [删掉一个元素以后全为 1 的最长子数组](../../problems/longest-subarray-of-1s-after-deleting-one-element/README.md) | [cpp](../../problems/longest-subarray-of-1s-after-deleting-one-element/SOLUTION.cpp) |   | 中等 | 
 | √ | 5435 | [parallel-courses-ii](../../problems/parallel-courses-ii) | [并行课程 II](../../problems/parallel-courses-ii/README.md) | [cpp](../../problems/parallel-courses-ii/SOLUTION.cpp) |   | 困难 | 
+| √ | 5448 | [path-crossing](../../problems/path-crossing) | [判断路径是否相交](../../problems/path-crossing/README.md) | [cpp](../../problems/path-crossing/SOLUTION.cpp) |   | 简单 | 
+| √ | 5449 | [check-if-array-pairs-are-divisible-by-k](../../problems/check-if-array-pairs-are-divisible-by-k) | [检查数组对是否可以被 k 整除](../../problems/check-if-array-pairs-are-divisible-by-k/README.md) | [cpp](../../problems/check-if-array-pairs-are-divisible-by-k/SOLUTION.cpp) |   | 中等 | 
+|   | 5450 | [number-of-subsequences-that-satisfy-the-given-sum-condition](../../problems/number-of-subsequences-that-satisfy-the-given-sum-condition) | [满足条件的子序列数目](../../problems/number-of-subsequences-that-satisfy-the-given-sum-condition/README.md) | [cpp](../../problems/number-of-subsequences-that-satisfy-the-given-sum-condition/SOLUTION.cpp) |   | 中等 | 
+|   | 5451 | [max-value-of-equation](../../problems/max-value-of-equation) | [满足不等式的最大值](../../problems/max-value-of-equation/README.md) | [cpp](../../problems/max-value-of-equation/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
