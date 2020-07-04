@@ -127,12 +127,16 @@ public:
 //}
 
 #define USE_SOLUTION_CUSTOM
-string _solution_custom(TestCases &tc)
+string _solution_custom(TestCases& tc)
 {
-	TreeNode *root = tc.get<TreeNode*>();
+	TreeNode* root = tc.get<TreeNode*>();
 	Codec codec;
-	TreeNode *root2 = codec.deserialize(codec.serialize(root));
-	return TreeNodeToString(root2);
+	string ans = codec.serialize(root);
+	cout << "serialize -> " << ans << endl;
+	TreeNode* root2 = codec.deserialize(ans);
+	ans = TreeNodeToString(root2);
+	cout << "deserialize -> " << ans << endl;
+	return ans;
 }
 
 //////////////////////////////////////////////////////////////////////////

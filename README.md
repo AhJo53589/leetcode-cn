@@ -59,11 +59,11 @@
 | 1263 | [minimum-moves-to-move-a-box-to-their-target-location](./problems/minimum-moves-to-move-a-box-to-their-target-location) | [【推箱子】BFS + 优先队列 的 详细讲解](https://leetcode-cn.com/problems/minimum-moves-to-move-a-box-to-their-target-location/solution/1263-by-ikaruga/) |
 | 1307 | [verbal-arithmetic-puzzle](./problems/verbal-arithmetic-puzzle) | [【口算难题】回溯并利用多个方程剪枝 52ms](https://leetcode-cn.com/problems/verbal-arithmetic-puzzle/solution/5298-by-ikaruga/) |
 | 1326 | [minimum-number-of-taps-to-open-to-water-a-garden](./problems/minimum-number-of-taps-to-open-to-water-a-garden) | [【灌溉花园的最少水龙头数目】贪心](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/) |
-
+| 1488 | [avoid-flood-in-the-city](./problems/avoid-flood-in-the-city) | [【避免洪水泛滥】贪心 + 二分](https://leetcode-cn.com/problems/avoid-flood-in-the-city/solution/avoid-flood-in-the-city-by-ikaruga/) |
 [查看全部](./Solutions.md)
 
 ## Problemset / All 题库
-完成进度 （630 / 1566）
+完成进度 （655 / 1566）
 [查看全部](./problemset/all/README.md)
 
 ## Season 赛季
