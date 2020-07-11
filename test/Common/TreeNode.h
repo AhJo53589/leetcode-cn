@@ -25,21 +25,21 @@ TreeNode *FindTreeNode(TreeNode *root, int val);
 
 struct TreeNode
 {
-	int val;
-	TreeNode *left;
-	TreeNode *right;
-	TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
+    int val;
+    TreeNode *left;
+    TreeNode *right;
+    TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
 
-	friend std::ostream & operator<<(std::ostream& os, const TreeNode *p)
-	{
-		std::string s = TreeNodeToString(p);
-		os << s.c_str();
-		return os;
-	}
-	friend void operator>>(std::string &s, TreeNode **rhs)
-	{
-		*rhs = StringToTreeNode(s);
-	}
+    friend std::ostream & operator<<(std::ostream& os, const TreeNode *p)
+    {
+        std::string s = TreeNodeToString(p);
+        os << s.c_str();
+        return os;
+    }
+    friend void operator>>(std::string &s, TreeNode **rhs)
+    {
+        *rhs = StringToTreeNode(s);
+    }
 };
 
 

@@ -3,6 +3,17 @@
 
 
 ---
+## 20200712
+* 5447.stone-game-iv 石子游戏 IV
+
+* 5446.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差
+
+* 5445.range-sum-of-sorted-subarray-sums 子数组和排序后的区间和
+
+* 5177.reformat-date 转变日期格式
+
+
+---
 ## 20200705
 * 5455.minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits 最多 K 次交换相邻数位后得到的最小整数
 

@@ -14,30 +14,30 @@ LARGE_INTEGER nEndTime;
 
 void PerformanceTimer::init()
 {
-	QueryPerformanceFrequency(&nFreq);
+    QueryPerformanceFrequency(&nFreq);
 }
 
 void PerformanceTimer::start()
 {
 
-	//std::cout << std::endl << "/////////////////////////////////////////////////////////////////////////////" << std::endl;
-	std::cout << std::endl << "================================================================ ## " << std::setw(6) << nid << " ##" << std::endl;
-	nid++;
-	QueryPerformanceCounter(&nBeginTime);
+    //std::cout << std::endl << "/////////////////////////////////////////////////////////////////////////////" << std::endl;
+    std::cout << std::endl << "================================================================ ## " << std::setw(6) << nid << " ##" << std::endl;
+    nid++;
+    QueryPerformanceCounter(&nBeginTime);
 }
 
 void PerformanceTimer::stop()
 {
-	QueryPerformanceCounter(&nEndTime);
-	ntime = (double)(nEndTime.QuadPart - nBeginTime.QuadPart) / (double)nFreq.QuadPart;
+    QueryPerformanceCounter(&nEndTime);
+    ntime = (double)(nEndTime.QuadPart - nBeginTime.QuadPart) / (double)nFreq.QuadPart;
 }
 
 void PerformanceTimer::end()
 {
-	std::cout << "//////////////////////////////////////////////////////////////// ## "
-		//std::cout << "============================================================= time: "
-		//std::cout << "------------------------------------------------------------- time: "
-		//std::cout << "                                                              time: "
-		<< std::fixed << std::setw(6) << std::setprecision(2) << ntime * 1000 << " ms" << std::endl;
-	std::cout << std::endl << std::endl;
+    std::cout << "//////////////////////////////////////////////////////////////// ## "
+        //std::cout << "============================================================= time: "
+        //std::cout << "------------------------------------------------------------- time: "
+        //std::cout << "                                                              time: "
+        << std::fixed << std::setw(6) << std::setprecision(2) << ntime * 1000 << " ms" << std::endl;
+    std::cout << std::endl << std::endl;
 }

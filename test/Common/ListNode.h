@@ -22,17 +22,17 @@ void StringIntToIntersectionNode(ListNode **pHeadA, ListNode **pHeadB, std::stri
 
 struct ListNode
 {
-	int val;
-	ListNode *next;
-	ListNode(int x) : val(x), next(nullptr) {}
-	ListNode(int x, ListNode * pNext) : val(x), next(pNext) {}
+    int val;
+    ListNode *next;
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode * pNext) : val(x), next(pNext) {}
 
-	friend std::ostream & operator<<(std::ostream& os, const ListNode *p)
-	{
-		std::string s = ListNodeToString(p);
-		os << s.c_str();
-		return os;
-	}
+    friend std::ostream & operator<<(std::ostream& os, const ListNode *p)
+    {
+        std::string s = ListNodeToString(p);
+        os << s.c_str();
+        return os;
+    }
 };
 
 
@@ -44,11 +44,11 @@ std::string ListNodeToString(const DoublyListNode *pHead);
 
 struct DoublyListNode 
 {
-	int val;
-	DoublyListNode *next, *prev;
-	DoublyListNode() : val(0), next(nullptr), prev(nullptr) {}
-	DoublyListNode(int x) : val(x), next(nullptr), prev(nullptr) {}
-	DoublyListNode(int x, DoublyListNode *pNext, DoublyListNode *pPrev) : val(x), next(pNext), prev(pPrev) {}
+    int val;
+    DoublyListNode *next, *prev;
+    DoublyListNode() : val(0), next(nullptr), prev(nullptr) {}
+    DoublyListNode(int x) : val(x), next(nullptr), prev(nullptr) {}
+    DoublyListNode(int x, DoublyListNode *pNext, DoublyListNode *pPrev) : val(x), next(pNext), prev(pPrev) {}
 };
 
 
