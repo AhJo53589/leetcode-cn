@@ -295,6 +295,12 @@ public:
 
     Node() {}
 
+    Node(int _val) {
+        val = _val;
+        next = NULL;
+        random = NULL;
+    }
+
     Node(int _val, Node* _next, Node* _random)
     {
         val = _val;
@@ -338,6 +344,99 @@ string NodeToString(const Node* pHead)
     {
         val[i][0] = to_string(id_node[i]->val);
         val[i][1] = (id_node[i]->random == nullptr) ? "null" : to_string(node_id[id_node[i]->random]);
+    }
+
+    std::string ret = convert<std::string>(val);
+    return ret;
+}
+#endif
+
+
+//////////////////////////////////////////////////////////////////////////
+// sample:
+// [1,2,3,4,5,6,null,null,null,7,8,9,10,null,null,11,12]
+#ifdef NODE_DEFINE_LEETCODE_426_CONVERT_BINARY_SEARCH_TREE_TO_SORTED_SORTED_DOUBLY_LINKED_LIST
+class Node {
+public:
+    int val;
+    Node* left;
+    Node* right;
+
+    Node() {}
+
+    Node(int _val) {
+        val = _val;
+        left = NULL;
+        right = NULL;
+    }
+
+    Node(int _val, Node* _left, Node* _right) {
+        val = _val;
+        left = _left;
+        right = _right;
+    }
+};
+
+Node* StringToNode(std::string data)
+{
+    if (data.empty()) return nullptr;
+    if (data[0] == '[') data = data.substr(1, data.size() - 2);
+    vector<string> splitData = split(data, ",");
+    if (data == "" || splitData[0] == "null") return nullptr;
+
+    Node* root = new Node(stoi(splitData[0].c_str()));
+    queue<Node*> qTree;
+    qTree.push(root);
+
+    int i = 1;
+    while (!qTree.empty())
+    {
+        Node* qHead = nullptr;
+        while (qHead == nullptr)
+        {
+            if (qTree.empty()) return root;
+            qHead = qTree.front();
+            qTree.pop();
+        }
+
+        auto f = [&qTree](string& s, Node** p)
+        {
+            while (s.front() == ' ') s = s.substr(1, s.size() - 1);
+            while (s.back() == ' ') s.pop_back();
+            if (s == "null")
+            {
+                qTree.push(nullptr);
+            }
+            else
+            {
+                *p = new Node(stoi(s.c_str()));
+                qTree.push(*p);
+            }
+        };
+
+        if (i == splitData.size()) return root;
+        f(splitData[i], &qHead->left);
+        i++;
+
+        if (i == splitData.size()) return root;
+        f(splitData[i], &qHead->right);
+        i++;
+    }
+    return root;
+}
+
+std::string NodeToString(const Node* pHead)
+{
+    if (pHead == nullptr) return "[]";
+
+    std::vector<std::string> val;
+    const Node* cur = pHead;
+    
+    while (true)
+    {
+        val.push_back(to_string(cur->val));
+        cur = cur->right;
+        if (cur == pHead) break;
     }
 
     std::string ret = convert<std::string>(val);

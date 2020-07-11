@@ -36,24 +36,24 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 // 选择题目代码
-#define USE_DEFAULT_INCLUDE
+//#define USE_DEFAULT_INCLUDE
 
 #ifdef USE_DEFAULT_INCLUDE
 
 // 1. 选择使用 #题库中的题，根据编号加载，使用 Define_IdName.h 中定义的宏#
 // example: 
 // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> SOLUTION_CPP_FOLDER_NAME_ID_2
-#define SOLUTION_ID                        SOLUTION_CPP_FOLDER_NAME_ID_5455
+#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_1488
 
-#define ADD_QUOTES(A)                    #A
-#define SOLUTION_CPP_PATH(_name)        ADD_QUOTES(../../problems/##_name/SOLUTION.cpp)
-#define SOLUTION_CPP_ID_TO_PATH(_name)    SOLUTION_CPP_PATH(_name)
-#define SOLUTION_CPP_FULL_PATH            SOLUTION_CPP_ID_TO_PATH(SOLUTION_ID)
+#define ADD_QUOTES(A)					#A
+#define SOLUTION_CPP_PATH(_name)		ADD_QUOTES(../../problems/##_name/SOLUTION.cpp)
+#define SOLUTION_CPP_ID_TO_PATH(_name)	SOLUTION_CPP_PATH(_name)
+#define SOLUTION_CPP_FULL_PATH			SOLUTION_CPP_ID_TO_PATH(SOLUTION_ID)
 
 #else
 
 // 2. 或者选择使用 #指定路径的题目代码#
-#define SOLUTION_CPP_FULL_PATH            "../../problems_test/5445/SOLUTION.cpp"
+#define SOLUTION_CPP_FULL_PATH			"../../problems_test/44/SOLUTION.cpp"
 
 #endif
 
@@ -64,38 +64,38 @@ using namespace std;
 int main()
 {
 #ifdef USE_GET_TEST_CASES_IN_CPP
-    TestCases test_cases(_get_test_cases_string());
+	TestCases test_cases(_get_test_cases_string());
 #else
-    string strSolution = "SOLUTION.cpp";
-    string strTest = "tests.txt";
-    string file = SOLUTION_CPP_FULL_PATH;
-    file.replace(file.find(strSolution), strSolution.size(), strTest);
-    ifstream f(file);
-    TestCases test_cases(f);
+	string strSolution = "SOLUTION.cpp";
+	string strTest = "tests.txt";
+	string file = SOLUTION_CPP_FULL_PATH;
+	file.replace(file.find(strSolution), strSolution.size(), strTest);
+	ifstream f(file);
+	TestCases test_cases(f);
 #endif
 
-    PerformanceTimer::init();
-    while (!test_cases.empty())
-    {
-        PerformanceTimer::start();
+	PerformanceTimer::init();
+	while (!test_cases.empty())
+	{
+		PerformanceTimer::start();
 
 #ifdef USE_SOLUTION_CUSTOM
-        using func_t = function_type<function<decltype(_solution_custom)>>;
-        func_t::return_type ans = _solution_custom(test_cases);
+		using func_t = function_type<function<decltype(_solution_custom)>>;
+		func_t::return_type ans = _solution_custom(test_cases);
 #else
-        using func_t = function_type<function<decltype(_solution_run)>>;
-        func_t::return_type ans = func_t::call(_solution_run, test_cases);
+		using func_t = function_type<function<decltype(_solution_run)>>;
+		func_t::return_type ans = func_t::call(_solution_run, test_cases);
 #endif
 
-        PerformanceTimer::stop();
+		PerformanceTimer::stop();
 
 #ifdef USE_CHECKANSWER_CUSTOM
-        _checkAnswer_custom(ans, test_cases);
+		_checkAnswer_custom(ans, test_cases);
 #else
-        func_t::return_type answer = test_cases.get<func_t::return_type>();
-        cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
+		func_t::return_type answer = test_cases.get<func_t::return_type>();
+		cout << checkAnswer<decltype(ans)>(ans, answer) << endl;
 #endif
 
-        PerformanceTimer::end();
-    }
+		PerformanceTimer::end();
+	}
 }
