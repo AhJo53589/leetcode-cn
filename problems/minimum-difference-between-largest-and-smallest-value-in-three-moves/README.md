@@ -41,8 +41,8 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 &lt;= nums.length &lt;= 10^5</code></li>
-	<li><code>-10^9 &lt;= nums[i] &lt;= 10^9</code></li>
+	<li><code>1 <= nums.length <= 10^5</code></li>
+	<li><code>-10^9 <= nums[i] <= 10^9</code></li>
 </ul>
 
 
@@ -51,10 +51,12 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/solution/minimum-difference-by-ikaruga/)
 
 ### 答题
 ``` C++
+class Solution {
+public:
     int minDifference(vector<int>& nums) {
         if (nums.size() < 5) return 0;
 
@@ -66,6 +68,7 @@
         }
         return ans;
     }
+};
 ```
 
 

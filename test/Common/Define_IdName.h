@@ -613,6 +613,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1488 	avoid-flood-in-the-city
 #define SOLUTION_CPP_FOLDER_NAME_ID_1489 	find-critical-and-pseudo-critical-edges-in-minimum-spanning-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_5177 	reformat-date
+#define SOLUTION_CPP_FOLDER_NAME_ID_5211 	path-with-maximum-probability
 #define SOLUTION_CPP_FOLDER_NAME_ID_5432 	average-salary-excluding-the-minimum-and-maximum-salary
 #define SOLUTION_CPP_FOLDER_NAME_ID_5433 	the-kth-factor-of-n
 #define SOLUTION_CPP_FOLDER_NAME_ID_5434 	longest-subarray-of-1s-after-deleting-one-element
@@ -628,6 +629,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5453 	last-moment-before-all-ants-fall-out-of-a-plank
 #define SOLUTION_CPP_FOLDER_NAME_ID_5454 	count-submatrices-with-all-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_5455 	minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_5460 	number-of-good-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5461 	number-of-substrings-with-only-1s
+#define SOLUTION_CPP_FOLDER_NAME_ID_5463 	best-position-for-a-service-centre
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

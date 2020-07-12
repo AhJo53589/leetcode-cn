@@ -23,13 +23,13 @@
 
 <pre><strong>输入：</strong>n = 2
 <strong>输出：</strong>false
-<strong>解释：</strong>Alice 只能拿走 1 个石子，然后 Bob 拿走最后一个石子并赢得胜利（2 -&gt; 1 -&gt; 0）。</pre>
+<strong>解释：</strong>Alice 只能拿走 1 个石子，然后 Bob 拿走最后一个石子并赢得胜利（2 -> 1 -> 0）。</pre>
 
 <p><strong>示例 3：</strong></p>
 
 <pre><strong>输入：</strong>n = 4
 <strong>输出：</strong>true
-<strong>解释：</strong>n 已经是一个平方数，Alice 可以一次全拿掉 4 个石子并赢得胜利（4 -&gt; 0）。
+<strong>解释：</strong>n 已经是一个平方数，Alice 可以一次全拿掉 4 个石子并赢得胜利（4 -> 0）。
 </pre>
 
 <p><strong>示例 4：</strong></p>
@@ -37,8 +37,8 @@
 <pre><strong>输入：</strong>n = 7
 <strong>输出：</strong>false
 <strong>解释：</strong>当 Bob 采取最优策略时，Alice 无法赢得比赛。
-如果 Alice 一开始拿走 4 个石子， Bob 会拿走 1 个石子，然后 Alice 只能拿走 1 个石子，Bob 拿走最后一个石子并赢得胜利（7 -&gt; 3 -&gt; 2 -&gt; 1 -&gt; 0）。
-如果 Alice 一开始拿走 1 个石子， Bob 会拿走 4 个石子，然后 Alice 只能拿走 1 个石子，Bob 拿走最后一个石子并赢得胜利（7 -&gt; 6 -&gt; 2 -&gt; 1 -&gt; 0）。</pre>
+如果 Alice 一开始拿走 4 个石子， Bob 会拿走 1 个石子，然后 Alice 只能拿走 1 个石子，Bob 拿走最后一个石子并赢得胜利（7 -> 3 -> 2 -> 1 -> 0）。
+如果 Alice 一开始拿走 1 个石子， Bob 会拿走 4 个石子，然后 Alice 只能拿走 1 个石子，Bob 拿走最后一个石子并赢得胜利（7 -> 6 -> 2 -> 1 -> 0）。</pre>
 
 <p><strong>示例 5：</strong></p>
 
@@ -52,7 +52,7 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 &lt;= n &lt;= 10^5</code></li>
+	<li><code>1 <= n <= 10^5</code></li>
 </ul>
 
 
@@ -61,7 +61,7 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/stone-game-iv/solution/stone-game-iv-by-ikaruga/)
 
 ### 答题
 ``` C++
