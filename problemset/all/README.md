@@ -156,6 +156,7 @@
 | √ | 171 | [excel-sheet-column-number](../../problems/excel-sheet-column-number) | [Excel表列序号](../../problems/excel-sheet-column-number/README.md) | [cpp](../../problems/excel-sheet-column-number/SOLUTION.cpp) |   | 简单 |
 | √ | 172 | [factorial-trailing-zeroes](../../problems/factorial-trailing-zeroes) | [阶乘后的零](../../problems/factorial-trailing-zeroes/README.md) | [cpp](../../problems/factorial-trailing-zeroes/SOLUTION.cpp) |   | 简单 |
 | √ | 173 | [binary-search-tree-iterator](../../problems/binary-search-tree-iterator) | [二叉搜索树迭代器](../../problems/binary-search-tree-iterator/README.md) | [cpp](../../problems/binary-search-tree-iterator/SOLUTION.cpp) |   | 中等 |
+| √ | 174 | [dungeon-game](../../problems/dungeon-game) | [地下城游戏](../../problems/dungeon-game/README.md) | [cpp](../../problems/dungeon-game/SOLUTION.cpp) |   | 困难 | 
 | √ | 179 | [largest-number](../../problems/largest-number) | [最大数](../../problems/largest-number/README.md) | [cpp](../../problems/largest-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/largest-number/solution/179-by-ikaruga/) | 中等 |
 | √ | 188 | [best-time-to-buy-and-sell-stock-iv](../../problems/best-time-to-buy-and-sell-stock-iv) | [买卖股票的最佳时机 IV](../../problems/best-time-to-buy-and-sell-stock-iv/README.md) | [cpp](../../problems/best-time-to-buy-and-sell-stock-iv/SOLUTION.cpp) |   | 困难 |
 | √ | 189 | [rotate-array](../../problems/rotate-array) | [旋转数组](../../problems/rotate-array/README.md) | [cpp](../../problems/rotate-array/SOLUTION.cpp) |   | 简单 |

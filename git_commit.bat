@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5211.path-with-maximum-probability"
+git commit -m"174.dungeon-game"
 git push

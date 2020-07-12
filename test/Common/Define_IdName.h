@@ -150,6 +150,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_171 	excel-sheet-column-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_172 	factorial-trailing-zeroes
 #define SOLUTION_CPP_FOLDER_NAME_ID_173 	binary-search-tree-iterator
+#define SOLUTION_CPP_FOLDER_NAME_ID_174 	dungeon-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_179 	largest-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_188 	best-time-to-buy-and-sell-stock-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_189 	rotate-array
