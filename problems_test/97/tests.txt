@@ -1,0 +1,8 @@
+"aabcc"
+"dbbca"
+"aadbbcbcac"
+true
+"aabcc"
+"dbbca"
+"aadbbbaccc"
+false

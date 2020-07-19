@@ -1,0 +1,8 @@
+"adefaddaccc"
+["e","f","ccc"]
+"abbaccd"
+["d","bb","cc"]
+"eaaeeaebcb"
+["c","eaaeeae"]
+"abcaba"
+["c"]

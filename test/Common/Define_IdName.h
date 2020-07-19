@@ -633,6 +633,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5460 	number-of-good-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_5461 	number-of-substrings-with-only-1s
 #define SOLUTION_CPP_FOLDER_NAME_ID_5463 	best-position-for-a-service-centre
+#define SOLUTION_CPP_FOLDER_NAME_ID_5464 	water-bottles
+#define SOLUTION_CPP_FOLDER_NAME_ID_5465 	number-of-nodes-in-the-sub-tree-with-the-same-label
+#define SOLUTION_CPP_FOLDER_NAME_ID_5466 	maximum-number-of-non-overlapping-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5467 	find-a-value-of-a-mysterious-function-closest-to-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
