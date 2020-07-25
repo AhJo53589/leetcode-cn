@@ -1,0 +1,8 @@
+"aacaba"
+2
+"abcd"
+1
+"aaaaa"
+4
+"acbadbaada"
+2

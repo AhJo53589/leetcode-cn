@@ -3,6 +3,17 @@
 
 
 ---
+## 20200726
+* 5459.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数
+
+* 5458.number-of-good-ways-to-split-a-string 字符串的好分割数目
+
+* 5457.number-of-sub-arrays-with-odd-sum 和为奇数的子数组数目
+
+* 5456.count-odd-numbers-in-an-interval-range 在区间范围内统计奇数数目
+
+
+---
 ## 20200719
 * 5467.find-a-value-of-a-mysterious-function-closest-to-target 找到最接近目标值的函数值
 

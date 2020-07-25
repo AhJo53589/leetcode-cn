@@ -630,6 +630,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5453 	last-moment-before-all-ants-fall-out-of-a-plank
 #define SOLUTION_CPP_FOLDER_NAME_ID_5454 	count-submatrices-with-all-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_5455 	minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_5456 	count-odd-numbers-in-an-interval-range
+#define SOLUTION_CPP_FOLDER_NAME_ID_5457 	number-of-sub-arrays-with-odd-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5458 	number-of-good-ways-to-split-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5459 	minimum-number-of-increments-on-subarrays-to-form-a-target-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5460 	number-of-good-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_5461 	number-of-substrings-with-only-1s
 #define SOLUTION_CPP_FOLDER_NAME_ID_5463 	best-position-for-a-service-centre
