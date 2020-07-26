@@ -4,6 +4,10 @@
 
 ---
 ## 20200726
+* 5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
+
+* 5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
+
 * 5458.number-of-good-ways-to-split-a-string 字符串的好分割数目
 
 * 5459.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数

@@ -15,7 +15,7 @@
 
 <p>&nbsp;</p>
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/07/26/e1.jpg" style="height: 321px; width: 321px;"></p>
+<p><img style="height: 321px; width: 321px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/07/26/e1.jpg" alt=""></p>
 
 <pre><strong>输入：</strong>root = [1,2,3,null,4], distance = 3
 <strong>输出：</strong>1
@@ -24,7 +24,7 @@
 
 <p><strong>示例 2：</strong></p>
 
-<p><img alt="" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/07/26/e2.jpg" style="height: 321px; width: 441px;"></p>
+<p><img style="height: 321px; width: 441px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/07/26/e2.jpg" alt=""></p>
 
 <pre><strong>输入：</strong>root = [1,2,3,4,5,6,7], distance = 3
 <strong>输出：</strong>2
@@ -57,7 +57,7 @@
 <ul>
 	<li><code>tree</code> 的节点数在 <code>[1, 2^10]</code> 范围内。</li>
 	<li>每个节点的值都在 <code>[1, 100]</code> 之间。</li>
-	<li><code>1 &lt;= distance &lt;= 10</code></li>
+	<li><code>1 <= distance <= 10</code></li>
 </ul>
 
 
@@ -66,39 +66,37 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/solution/good-leaf-nodes-pairs-by-ikaruga/)
 
 ### 答题
 ``` C++
 class Solution {
 public:
     int countPairs(TreeNode* root, int distance) {
-        if (root == nullptr) return 0;
         int ans = 0;
         dfs(root, distance, ans);
         return ans;
     }
 
     vector<int> dfs(TreeNode* root, int distance, int& ans) {
+        if (root == nullptr) return {};
         if (root->left == nullptr && root->right == nullptr) return { 0 };
 
         vector<int> ret;
-        vector<vector<int>> leaf(2, vector<int>());
-        for (int i = 0; i < 2; i++) {
-            TreeNode* child = (i == 0) ? root->left : root->right;
-            if (child == nullptr) continue;
-
-            leaf[i] = dfs(child, distance, ans);
-            for (int j = 0; j < leaf[i].size(); j++) {
-                if (++leaf[i][j] > distance) continue;
-                ret.push_back(leaf[i][j]);
-            }
+        auto left = dfs(root->left, distance, ans);
+        for (auto& e : left) {
+            if (++e > distance) continue;
+            ret.push_back(e);
+        }
+        auto right = dfs(root->right, distance, ans);
+        for (auto& e : right) {
+            if (++e > distance) continue;
+            ret.push_back(e);
         }
 
-        for (int i = 0; i < leaf[0].size(); i++) {
-            for (int j = 0; j < leaf[1].size(); j++) {
-                int dis = leaf[0][i] + leaf[1][j];
-                ans += (dis <= distance);
+        for (auto l : left) {
+            for (auto r : right) {
+                ans += (l + r <= distance);
             }
         }
 

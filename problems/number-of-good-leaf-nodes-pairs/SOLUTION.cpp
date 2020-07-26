@@ -15,32 +15,30 @@
 class Solution {
 public:
     int countPairs(TreeNode* root, int distance) {
-        if (root == nullptr) return 0;
         int ans = 0;
         dfs(root, distance, ans);
         return ans;
     }
 
     vector<int> dfs(TreeNode* root, int distance, int& ans) {
+        if (root == nullptr) return {};
         if (root->left == nullptr && root->right == nullptr) return { 0 };
 
         vector<int> ret;
-        vector<vector<int>> leaf(2, vector<int>());
-        for (int i = 0; i < 2; i++) {
-            TreeNode* child = (i == 0) ? root->left : root->right;
-            if (child == nullptr) continue;
-
-            leaf[i] = dfs(child, distance, ans);
-            for (int j = 0; j < leaf[i].size(); j++) {
-                if (++leaf[i][j] > distance) continue;
-                ret.push_back(leaf[i][j]);
-            }
+        auto left = dfs(root->left, distance, ans);
+        for (auto& e : left) {
+            if (++e > distance) continue;
+            ret.push_back(e);
+        }
+        auto right = dfs(root->right, distance, ans);
+        for (auto& e : right) {
+            if (++e > distance) continue;
+            ret.push_back(e);
         }
 
-        for (int i = 0; i < leaf[0].size(); i++) {
-            for (int j = 0; j < leaf[1].size(); j++) {
-                int dis = leaf[0][i] + leaf[1][j];
-                ans += (dis <= distance);
+        for (auto l : left) {
+            for (auto r : right) {
+                ans += (l + r <= distance);
             }
         }
 

@@ -651,7 +651,7 @@
 |   | 5467 | [find-a-value-of-a-mysterious-function-closest-to-target](../../problems/find-a-value-of-a-mysterious-function-closest-to-target) | [找到最接近目标值的函数值](../../problems/find-a-value-of-a-mysterious-function-closest-to-target/README.md) | [cpp](../../problems/find-a-value-of-a-mysterious-function-closest-to-target/SOLUTION.cpp) |   | 困难 | 
 | √ | 5472 | [shuffle-string](../../problems/shuffle-string) | [重新排列字符串](../../problems/shuffle-string/README.md) | [cpp](../../problems/shuffle-string/SOLUTION.cpp) |   | 简单 | 
 | √ | 5473 | [bulb-switcher-iv](../../problems/bulb-switcher-iv) | [灯泡开关 IV](../../problems/bulb-switcher-iv/README.md) | [cpp](../../problems/bulb-switcher-iv/SOLUTION.cpp) |   | 中等 | 
-| √ | 5474 | [number-of-good-leaf-nodes-pairs](../../problems/number-of-good-leaf-nodes-pairs) | [好叶子节点对的数量](../../problems/number-of-good-leaf-nodes-pairs/README.md) | [cpp](../../problems/number-of-good-leaf-nodes-pairs/SOLUTION.cpp) |   | 中等 | 
+| √ | 5474 | [number-of-good-leaf-nodes-pairs](../../problems/number-of-good-leaf-nodes-pairs) | [好叶子节点对的数量](../../problems/number-of-good-leaf-nodes-pairs/README.md) | [cpp](../../problems/number-of-good-leaf-nodes-pairs/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/solution/good-leaf-nodes-pairs-by-ikaruga/) | 中等 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
