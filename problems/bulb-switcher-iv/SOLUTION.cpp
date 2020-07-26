@@ -2,25 +2,28 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int countOdds(int low, int high) {
+    int minFlips(string target) {
         int ans = 0;
-        ans += (low % 2);
-        low += (low % 2);
-        high += (high % 2);
-        ans += (high - low) / 2;
+        int cur = 0;
+        for (int i = 0; i < target.size(); i++) {
+            if (target[i] == '0' + cur) continue;
+            cur = (cur + 1) % 2;
+            ans++;
+        }
         return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(int low, int high)
+int _solution_run(string target)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
+    cout << target << endl;
     Solution sln;
-    return sln.countOdds(low, high);
+    return sln.minFlips(target);
 }
 
 //#define USE_SOLUTION_CUSTOM

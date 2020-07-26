@@ -30,15 +30,15 @@
 
 <pre><strong>输入：</strong>target = [3,1,1,2]
 <strong>输出：</strong>4
-<strong>解释：</strong>(initial)[0,0,0,0] -&gt; [1,1,1,1] -&gt; [1,1,1,2] -&gt; [2,1,1,2] -&gt; [3,1,1,2] (target) 。
+<strong>解释：</strong>(initial)[0,0,0,0] -> [1,1,1,1] -> [1,1,1,2] -> [2,1,1,2] -> [3,1,1,2] (target) 。
 </pre>
 
 <p><strong>示例 3：</strong></p>
 
 <pre><strong>输入：</strong>target = [3,1,5,4,2]
 <strong>输出：</strong>7
-<strong>解释：</strong>(initial)[0,0,0,0,0] -&gt; [1,1,1,1,1] -&gt; [2,1,1,1,1] -&gt; [3,1,1,1,1] 
-                                  -&gt; [3,1,2,2,2] -&gt; [3,1,3,3,2] -&gt; [3,1,4,4,2] -&gt; [3,1,5,4,2] (target)。
+<strong>解释：</strong>(initial)[0,0,0,0,0] -> [1,1,1,1,1] -> [2,1,1,1,1] -> [3,1,1,1,1] 
+                                  -> [3,1,2,2,2] -> [3,1,3,3,2] -> [3,1,4,4,2] -> [3,1,5,4,2] (target)。
 </pre>
 
 <p><strong>示例 4：</strong></p>
@@ -52,8 +52,8 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 &lt;= target.length &lt;= 10^5</code></li>
-	<li><code>1 &lt;= target[i] &lt;= 10^5</code></li>
+	<li><code>1 <= target.length <= 10^5</code></li>
+	<li><code>1 <= target[i] <= 10^5</code></li>
 </ul>
 
 
@@ -62,34 +62,31 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/solution/ncrements-on-subarrays-by-ikaruga/)
 
 ### 答题
 ``` C++
-class Solution {
-public:
     int minNumberOperations(vector<int>& target) {
-		target.push_back(0);
+        target.push_back(0);
 
-		int ans = 0;
-		stack<int> st;
-		st.push(0);
+        int ans = 0;
+        stack<int> st;
+        st.push(0);
 
-		for (int i = 0; i < target.size(); i++) {
+        for (int i = 0; i < target.size(); i++) {
             while (st.top() > target[i]) {
-				int t = st.top();
-				st.pop();
-				ans += t - max(st.top(), target[i]);
+                int t = st.top();
+                st.pop();
+                ans += t - max(st.top(), target[i]);
             }
             if (st.top() == target[i]) continue;
 
-			if (st.top() < target[i]) {
-				st.push(target[i]);
-			}
-		}
-		return ans;
+            if (st.top() < target[i]) {
+                st.push(target[i]);
+            }
+        }
+        return ans;
     }
-};
 ```
 
 

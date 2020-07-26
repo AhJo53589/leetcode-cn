@@ -46,7 +46,7 @@
 
 <ul>
 	<li><code>s</code>&nbsp;只包含小写英文字母。</li>
-	<li><code>1 &lt;= s.length &lt;= 10^5</code></li>
+	<li><code>1 <= s.length <= 10^5</code></li>
 </ul>
 
 
@@ -55,38 +55,35 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/solution/number-of-good-ways-by-ikaruga/)
 
 ### 答题
 ``` C++
-class Solution {
-public:
     int numSplits(string s) {
         int ans = 0;
 
-		vector<int> l_dic(26, 0);
-		vector<int> r_dic(26, 0);
-		int left = 0;
-		int right = 0;
+        vector<int> l_dic(26, 0);
+        vector<int> r_dic(26, 0);
+        int left = 0;
+        int right = 0;
 
-		for (int i = 0; i < s.size(); i++) {
+        for (int i = 0; i < s.size(); i++) {
             int c = s[i] - 'a';
-			right += (r_dic[c] == 0);
-			r_dic[c]++;
-		}
+            right += (r_dic[c] == 0);
+            r_dic[c]++;
+        }
 
-		for (int i = 0; i < s.size() - 1; i++) {
-			int c = s[i] - 'a';
-			left += (l_dic[c] == 0);
-			l_dic[c]++;
-			r_dic[c]--;
-			right -= (r_dic[c] == 0);
-			ans += (left == right);
-		}
+        for (int i = 0; i < s.size() - 1; i++) {
+            int c = s[i] - 'a';
+            left += (l_dic[c] == 0);
+            l_dic[c]++;
+            r_dic[c]--;
+            right -= (r_dic[c] == 0);
+            ans += (left == right);
+        }
 
-		return ans;
+        return ans;
     }
-};
 ```
 
 

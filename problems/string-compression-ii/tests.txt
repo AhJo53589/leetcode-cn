@@ -1,0 +1,9 @@
+"aaabcccd"
+2
+4
+"aabbaa"
+2
+2
+"aaaaaaaaaaa"
+0
+3

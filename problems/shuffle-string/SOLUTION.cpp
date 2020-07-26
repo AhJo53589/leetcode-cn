@@ -2,25 +2,24 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int countOdds(int low, int high) {
-        int ans = 0;
-        ans += (low % 2);
-        low += (low % 2);
-        high += (high % 2);
-        ans += (high - low) / 2;
+    string restoreString(string s, vector<int>& indices) {
+        string ans(s.size(), '0');
+        for (int i = 0; i < indices.size(); i++) {
+            ans[indices[i]] = s[i];
+        }
         return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(int low, int high)
+string _solution_run(string s, vector<int>& indices)
 {
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
     Solution sln;
-    return sln.countOdds(low, high);
+    return sln.restoreString(s, indices);
 }
 
 //#define USE_SOLUTION_CUSTOM
