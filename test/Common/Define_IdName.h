@@ -220,9 +220,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_328 	odd-even-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_329 	longest-increasing-path-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_334 	increasing-triplet-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_336 	palindrome-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_337 	house-robber-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_338 	counting-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_341 	flatten-nested-list-iterator
+#define SOLUTION_CPP_FOLDER_NAME_ID_343 	integer-break
 #define SOLUTION_CPP_FOLDER_NAME_ID_344 	reverse-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_345 	reverse-vowels-of-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_347 	top-k-frequent-elements

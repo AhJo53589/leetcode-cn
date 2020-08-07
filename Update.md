@@ -3,6 +3,13 @@
 
 
 ---
+## 20200807
+* 336.palindrome-pairs 回文对
+
+* 343.integer-break 整数拆分
+
+
+---
 ## 20200726
 * 5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
 
