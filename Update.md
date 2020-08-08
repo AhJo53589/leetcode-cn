@@ -3,6 +3,28 @@
 
 
 ---
+## 20200809
+* 5485.find-longest-awesome-substring 找出最长的超赞子字符串
+
+* 5470.minimum-insertions-to-balance-a-parentheses-string 平衡括号字符串的最少插入次数
+
+* 5469.can-convert-string-in-k-moves K 次操作转变字符串
+
+* 5468.kth-missing-positive-number 第 k 个缺失的正整数
+
+* 5468.kth-missing-positive-number 第 k 个缺失的正整数
+
+* 5468.kth-missing-positive-number 第 k 个缺失的正整数
+
+
+---
+## 20200808
+* 956.tallest-billboard 最高的广告牌
+
+* 99.recover-binary-search-tree 恢复二叉搜索树
+
+
+---
 ## 20200807
 * 336.palindrome-pairs 回文对
 

@@ -90,6 +90,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_95 	unique-binary-search-trees-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_96 	unique-binary-search-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_98 	validate-binary-search-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_99 	recover-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_100 	same-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_101 	symmetric-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_102 	binary-tree-level-order-traversal
@@ -367,6 +368,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_946 	validate-stack-sequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
+#define SOLUTION_CPP_FOLDER_NAME_ID_956 	tallest-billboard
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k
 #define SOLUTION_CPP_FOLDER_NAME_ID_990 	satisfiability-of-equality-equations
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
@@ -644,9 +646,13 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5465 	number-of-nodes-in-the-sub-tree-with-the-same-label
 #define SOLUTION_CPP_FOLDER_NAME_ID_5466 	maximum-number-of-non-overlapping-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5467 	find-a-value-of-a-mysterious-function-closest-to-target
+#define SOLUTION_CPP_FOLDER_NAME_ID_5468 	kth-missing-positive-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_5469 	can-convert-string-in-k-moves
+#define SOLUTION_CPP_FOLDER_NAME_ID_5470 	minimum-insertions-to-balance-a-parentheses-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5472 	shuffle-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5473 	bulb-switcher-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_5474 	number-of-good-leaf-nodes-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5485 	find-longest-awesome-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

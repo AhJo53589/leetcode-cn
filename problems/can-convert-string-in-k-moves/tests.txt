@@ -1,0 +1,16 @@
+"input"
+"ouput"
+9
+true
+"abc"
+"bcd"
+10
+false
+"aab"
+"bbb"
+27
+true
+"abc"
+"abcd"
+1000
+false

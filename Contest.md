@@ -72,3 +72,4 @@
 | 2020/7/19  | [第 198 场周赛](./contest/weekly-contest-198/README.md)  | 2 / 4 | 466 / 5778 |
 | 2020/7/25  | [第 31 场双周赛](./contest/biweekly-contest-31/README.md) | 4 / 4 | 353 / 2767 |
 | 2020/7/26  | [第 199 场周赛](./contest/weekly-contest-199/README.md)  | 3 / 4  | 788 / 5231 |
+| 2020/8/8   | [第 32 场双周赛](./contest/biweekly-contest-32/README.md) | 2 / 4 | 891 / 2957 |
