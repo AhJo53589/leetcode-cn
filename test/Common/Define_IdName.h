@@ -649,10 +649,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5468 	kth-missing-positive-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_5469 	can-convert-string-in-k-moves
 #define SOLUTION_CPP_FOLDER_NAME_ID_5470 	minimum-insertions-to-balance-a-parentheses-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5471 	maximum-number-of-non-overlapping-subarrays-with-sum-equals-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_5472 	shuffle-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5473 	bulb-switcher-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_5474 	number-of-good-leaf-nodes-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5483 	make-the-string-great
+#define SOLUTION_CPP_FOLDER_NAME_ID_5484 	find-kth-bit-in-nth-binary-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5485 	find-longest-awesome-substring
+#define SOLUTION_CPP_FOLDER_NAME_ID_5486 	minimum-cost-to-cut-a-stick
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

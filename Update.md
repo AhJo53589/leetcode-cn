@@ -4,6 +4,16 @@
 
 ---
 ## 20200809
+* 5486.minimum-cost-to-cut-a-stick 切棍子的最小成本
+
+* 5471.maximum-number-of-non-overlapping-subarrays-with-sum-equals-target 和为目标值的最大数目不重叠非空子数组数目
+
+* 5484.find-kth-bit-in-nth-binary-string 找出第 N 个二进制字符串中的第 K 位
+
+* 5483.make-the-string-great 整理字符串
+
+* 5483.make-the-string-great 整理字符串
+
 * 5485.find-longest-awesome-substring 找出最长的超赞子字符串
 
 * 5470.minimum-insertions-to-balance-a-parentheses-string 平衡括号字符串的最少插入次数
