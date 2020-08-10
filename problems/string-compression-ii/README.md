@@ -1,4 +1,4 @@
-# `（困难）` [5462.string-compression-ii 压缩字符串 II](https://leetcode-cn.com/problems/string-compression-ii/)
+# `（困难）` [1531.string-compression-ii 压缩字符串 II](https://leetcode-cn.com/problems/string-compression-ii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-199/problems/string-compression-ii/)
 

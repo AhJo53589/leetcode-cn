@@ -1,4 +1,4 @@
-# `（中等）` [5453.last-moment-before-all-ants-fall-out-of-a-plank 所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
+# `（中等）` [1503.last-moment-before-all-ants-fall-out-of-a-plank 所有蚂蚁掉下来前的最后一刻](https://leetcode-cn.com/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-196/problems/last-moment-before-all-ants-fall-out-of-a-plank/)
 

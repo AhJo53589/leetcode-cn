@@ -1,4 +1,4 @@
-# `（中等）` [5211.path-with-maximum-probability 概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)
+# `（中等）` [1514.path-with-maximum-probability 概率最大的路径](https://leetcode-cn.com/problems/path-with-maximum-probability/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-197/problems/path-with-maximum-probability/)
 

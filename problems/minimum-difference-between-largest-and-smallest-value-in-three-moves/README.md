@@ -1,4 +1,4 @@
-# `（中等）` [5446.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
+# `（中等）` [1509.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差](https://leetcode-cn.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-30/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/)
 

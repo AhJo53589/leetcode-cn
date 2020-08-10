@@ -1,4 +1,4 @@
-# `（中等）` [5457.number-of-sub-arrays-with-odd-sum 和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/)
+# `（中等）` [1524.number-of-sub-arrays-with-odd-sum 和为奇数的子数组数目](https://leetcode-cn.com/problems/number-of-sub-arrays-with-odd-sum/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-31/problems/number-of-sub-arrays-with-odd-sum/)
 

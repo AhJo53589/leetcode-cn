@@ -1,4 +1,4 @@
-# `（困难）` [5467.find-a-value-of-a-mysterious-function-closest-to-target 找到最接近目标值的函数值](https://leetcode-cn.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)
+# `（困难）` [1521.find-a-value-of-a-mysterious-function-closest-to-target 找到最接近目标值的函数值](https://leetcode-cn.com/problems/find-a-value-of-a-mysterious-function-closest-to-target/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-198/problems/find-a-value-of-a-mysterious-function-closest-to-target/)
 

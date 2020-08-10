@@ -1,4 +1,4 @@
-# `（困难）` [5463.best-position-for-a-service-centre 服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/)
+# `（困难）` [1515.best-position-for-a-service-centre 服务中心的最佳位置](https://leetcode-cn.com/problems/best-position-for-a-service-centre/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-197/problems/best-position-for-a-service-centre/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5435.parallel-courses-ii 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/)
+# `（困难）` [1494.parallel-courses-ii 并行课程 II](https://leetcode-cn.com/problems/parallel-courses-ii/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-29/problems/parallel-courses-ii/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5433.the-kth-factor-of-n n 的第 k 个因子](https://leetcode-cn.com/problems/the-kth-factor-of-n/)
+# `（中等）` [1492.the-kth-factor-of-n n 的第 k 个因子](https://leetcode-cn.com/problems/the-kth-factor-of-n/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-29/problems/the-kth-factor-of-n/)
 

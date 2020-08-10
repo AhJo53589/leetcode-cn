@@ -1,4 +1,4 @@
-# `（简单）` [5177.reformat-date 转变日期格式](https://leetcode-cn.com/problems/reformat-date/)
+# `（简单）` [1507.reformat-date 转变日期格式](https://leetcode-cn.com/problems/reformat-date/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-30/problems/reformat-date/)
 

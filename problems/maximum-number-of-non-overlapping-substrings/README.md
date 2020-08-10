@@ -1,4 +1,4 @@
-# `（中等）` [5466.maximum-number-of-non-overlapping-substrings 最多的不重叠子字符串](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-substrings/)
+# `（中等）` [1520.maximum-number-of-non-overlapping-substrings 最多的不重叠子字符串](https://leetcode-cn.com/problems/maximum-number-of-non-overlapping-substrings/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-198/problems/maximum-number-of-non-overlapping-substrings/)
 

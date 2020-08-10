@@ -1,4 +1,4 @@
-# `（中等）` [5458.number-of-good-ways-to-split-a-string 字符串的好分割数目](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/)
+# `（中等）` [1525.number-of-good-ways-to-split-a-string 字符串的好分割数目](https://leetcode-cn.com/problems/number-of-good-ways-to-split-a-string/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-31/problems/number-of-good-ways-to-split-a-string/)
 

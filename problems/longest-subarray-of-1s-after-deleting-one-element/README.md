@@ -1,4 +1,4 @@
-# `（中等）` [5434.longest-subarray-of-1s-after-deleting-one-element 删掉一个元素以后全为 1 的最长子数组](https://leetcode-cn.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
+# `（中等）` [1493.longest-subarray-of-1s-after-deleting-one-element 删掉一个元素以后全为 1 的最长子数组](https://leetcode-cn.com/problems/longest-subarray-of-1s-after-deleting-one-element/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-29/problems/longest-subarray-of-1s-after-deleting-one-element/)
 

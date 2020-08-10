@@ -1,4 +1,4 @@
-# `（困难）` [5451.max-value-of-equation 满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation/)
+# `（困难）` [1499.max-value-of-equation 满足不等式的最大值](https://leetcode-cn.com/problems/max-value-of-equation/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-195/problems/max-value-of-equation/)
 

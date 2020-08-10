@@ -1,4 +1,4 @@
-# `（简单）` [5472.shuffle-string 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
+# `（简单）` [1528.shuffle-string 重新排列字符串](https://leetcode-cn.com/problems/shuffle-string/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-199/problems/shuffle-string/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5447.stone-game-iv 石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv/)
+# `（困难）` [1510.stone-game-iv 石子游戏 IV](https://leetcode-cn.com/problems/stone-game-iv/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-30/problems/stone-game-iv/)
 

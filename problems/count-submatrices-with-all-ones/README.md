@@ -1,4 +1,4 @@
-# `（中等）` [5454.count-submatrices-with-all-ones 统计全 1 子矩形](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/)
+# `（中等）` [1504.count-submatrices-with-all-ones 统计全 1 子矩形](https://leetcode-cn.com/problems/count-submatrices-with-all-ones/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-196/problems/count-submatrices-with-all-ones/)
 

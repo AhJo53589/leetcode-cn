@@ -1,4 +1,4 @@
-# `（中等）` [5449.check-if-array-pairs-are-divisible-by-k 检查数组对是否可以被 k 整除](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
+# `（中等）` [1497.check-if-array-pairs-are-divisible-by-k 检查数组对是否可以被 k 整除](https://leetcode-cn.com/problems/check-if-array-pairs-are-divisible-by-k/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-195/problems/check-if-array-pairs-are-divisible-by-k/)
 

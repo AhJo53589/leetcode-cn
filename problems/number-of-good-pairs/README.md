@@ -1,4 +1,4 @@
-# `（简单）` [5460.number-of-good-pairs 好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)
+# `（简单）` [1512.number-of-good-pairs 好数对的数目](https://leetcode-cn.com/problems/number-of-good-pairs/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-197/problems/number-of-good-pairs/)
 

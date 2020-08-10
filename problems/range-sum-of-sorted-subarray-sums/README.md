@@ -1,4 +1,4 @@
-# `（中等）` [5445.range-sum-of-sorted-subarray-sums 子数组和排序后的区间和](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)
+# `（中等）` [1508.range-sum-of-sorted-subarray-sums 子数组和排序后的区间和](https://leetcode-cn.com/problems/range-sum-of-sorted-subarray-sums/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-30/problems/range-sum-of-sorted-subarray-sums/)
 

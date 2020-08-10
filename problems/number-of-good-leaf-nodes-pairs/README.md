@@ -1,4 +1,4 @@
-# `（中等）` [5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/)
+# `（中等）` [1530.number-of-good-leaf-nodes-pairs 好叶子节点对的数量](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-199/problems/number-of-good-leaf-nodes-pairs/)
 

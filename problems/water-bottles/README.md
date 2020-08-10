@@ -1,4 +1,4 @@
-# `（简单）` [5464.water-bottles 换酒问题](https://leetcode-cn.com/problems/water-bottles/)
+# `（简单）` [1518.water-bottles 换酒问题](https://leetcode-cn.com/problems/water-bottles/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-198/problems/water-bottles/)
 

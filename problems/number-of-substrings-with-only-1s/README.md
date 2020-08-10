@@ -1,4 +1,4 @@
-# `（中等）` [5461.number-of-substrings-with-only-1s 仅含 1 的子串数](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/)
+# `（中等）` [1513.number-of-substrings-with-only-1s 仅含 1 的子串数](https://leetcode-cn.com/problems/number-of-substrings-with-only-1s/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-197/problems/number-of-substrings-with-only-1s/)
 

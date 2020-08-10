@@ -1,4 +1,4 @@
-# `（中等）` [5473.bulb-switcher-iv 灯泡开关 IV](https://leetcode-cn.com/problems/bulb-switcher-iv/)
+# `（中等）` [1529.bulb-switcher-iv 灯泡开关 IV](https://leetcode-cn.com/problems/bulb-switcher-iv/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-199/problems/bulb-switcher-iv/)
 

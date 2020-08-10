@@ -1,4 +1,4 @@
-# `（困难）` [5459.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
+# `（困难）` [1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数](https://leetcode-cn.com/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-31/problems/minimum-number-of-increments-on-subarrays-to-form-a-target-array/)
 

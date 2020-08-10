@@ -1,4 +1,4 @@
-# `（中等）` [5465.number-of-nodes-in-the-sub-tree-with-the-same-label 子树中标签相同的节点数](https://leetcode-cn.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
+# `（中等）` [1519.number-of-nodes-in-the-sub-tree-with-the-same-label 子树中标签相同的节点数](https://leetcode-cn.com/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-198/problems/number-of-nodes-in-the-sub-tree-with-the-same-label/)
 

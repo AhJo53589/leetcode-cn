@@ -1,4 +1,4 @@
-# `（中等）` [5450.number-of-subsequences-that-satisfy-the-given-sum-condition 满足条件的子序列数目](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
+# `（中等）` [1498.number-of-subsequences-that-satisfy-the-given-sum-condition 满足条件的子序列数目](https://leetcode-cn.com/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-195/problems/number-of-subsequences-that-satisfy-the-given-sum-condition/)
 

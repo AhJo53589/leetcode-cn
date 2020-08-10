@@ -50,40 +50,40 @@
 
 ---
 ## 20200726
-* 5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
+* 1530.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
 
-* 5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
+* 1530.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
 
-* 5458.number-of-good-ways-to-split-a-string 字符串的好分割数目
+* 1525.number-of-good-ways-to-split-a-string 字符串的好分割数目
 
-* 5459.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数
+* 1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数
 
-* 5462.string-compression-ii 压缩字符串 II
+* 1531.string-compression-ii 压缩字符串 II
 
-* 5474.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
+* 1530.number-of-good-leaf-nodes-pairs 好叶子节点对的数量
 
-* 5473.bulb-switcher-iv 灯泡开关 IV
+* 1529.bulb-switcher-iv 灯泡开关 IV
 
-* 5472.shuffle-string 重新排列字符串
+* 1528.shuffle-string 重新排列字符串
 
-* 5459.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数
+* 1526.minimum-number-of-increments-on-subarrays-to-form-a-target-array 形成目标数组的子数组最少增加次数
 
-* 5458.number-of-good-ways-to-split-a-string 字符串的好分割数目
+* 1525.number-of-good-ways-to-split-a-string 字符串的好分割数目
 
-* 5457.number-of-sub-arrays-with-odd-sum 和为奇数的子数组数目
+* 1524.number-of-sub-arrays-with-odd-sum 和为奇数的子数组数目
 
-* 5456.count-odd-numbers-in-an-interval-range 在区间范围内统计奇数数目
+* 1523.count-odd-numbers-in-an-interval-range 在区间范围内统计奇数数目
 
 
 ---
 ## 20200719
-* 5467.find-a-value-of-a-mysterious-function-closest-to-target 找到最接近目标值的函数值
+* 1521.find-a-value-of-a-mysterious-function-closest-to-target 找到最接近目标值的函数值
 
-* 5466.maximum-number-of-non-overlapping-substrings 最多的不重叠子字符串
+* 1520.maximum-number-of-non-overlapping-substrings 最多的不重叠子字符串
 
-* 5465.number-of-nodes-in-the-sub-tree-with-the-same-label 子树中标签相同的节点数
+* 1519.number-of-nodes-in-the-sub-tree-with-the-same-label 子树中标签相同的节点数
 
-* 5464.water-bottles 换酒问题
+* 1518.water-bottles 换酒问题
 
 
 ---
@@ -95,42 +95,42 @@
 ## 20200712
 * 174.dungeon-game 地下城游戏
 
-* 5211.path-with-maximum-probability 概率最大的路径
+* 1514.path-with-maximum-probability 概率最大的路径
 
-* 5447.stone-game-iv 石子游戏 IV
+* 1510.stone-game-iv 石子游戏 IV
 
-* 5447.stone-game-iv 石子游戏 IV
+* 1510.stone-game-iv 石子游戏 IV
 
-* 5446.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差
+* 1509.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差
 
-* 5463.best-position-for-a-service-centre 服务中心的最佳位置
+* 1515.best-position-for-a-service-centre 服务中心的最佳位置
 
-* 5211.path-with-maximum-probability 概率最大的路径
+* 1514.path-with-maximum-probability 概率最大的路径
 
-* 5461.number-of-substrings-with-only-1s 仅含 1 的子串数
+* 1513.number-of-substrings-with-only-1s 仅含 1 的子串数
 
-* 5461.number-of-substrings-with-only-1s 仅含 1 的子串数
+* 1513.number-of-substrings-with-only-1s 仅含 1 的子串数
 
-* 5460.number-of-good-pairs 好数对的数目
+* 1512.number-of-good-pairs 好数对的数目
 
-* 5447.stone-game-iv 石子游戏 IV
+* 1510.stone-game-iv 石子游戏 IV
 
-* 5446.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差
+* 1509.minimum-difference-between-largest-and-smallest-value-in-three-moves 三次操作后最大值与最小值的最小差
 
-* 5445.range-sum-of-sorted-subarray-sums 子数组和排序后的区间和
+* 1508.range-sum-of-sorted-subarray-sums 子数组和排序后的区间和
 
-* 5177.reformat-date 转变日期格式
+* 1507.reformat-date 转变日期格式
 
 
 ---
 ## 20200705
-* 5455.minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits 最多 K 次交换相邻数位后得到的最小整数
+* 1505.minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits 最多 K 次交换相邻数位后得到的最小整数
 
-* 5454.count-submatrices-with-all-ones 统计全 1 子矩形
+* 1504.count-submatrices-with-all-ones 统计全 1 子矩形
 
-* 5453.last-moment-before-all-ants-fall-out-of-a-plank 所有蚂蚁掉下来前的最后一刻
+* 1503.last-moment-before-all-ants-fall-out-of-a-plank 所有蚂蚁掉下来前的最后一刻
 
-* 5452.can-make-arithmetic-progression-from-sequence 判断能否形成等差数列
+* 1502.can-make-arithmetic-progression-from-sequence 判断能否形成等差数列
 
 
 ---
@@ -140,23 +140,23 @@
 
 ---
 ## 20200628
-* 5451.max-value-of-equation 满足不等式的最大值
+* 1499.max-value-of-equation 满足不等式的最大值
 
-* 5450.number-of-subsequences-that-satisfy-the-given-sum-condition 满足条件的子序列数目
+* 1498.number-of-subsequences-that-satisfy-the-given-sum-condition 满足条件的子序列数目
 
-* 5449.check-if-array-pairs-are-divisible-by-k 检查数组对是否可以被 k 整除
+* 1497.check-if-array-pairs-are-divisible-by-k 检查数组对是否可以被 k 整除
 
-* 5448.path-crossing 判断路径是否相交
+* 1496.path-crossing 判断路径是否相交
 
-* 5448.path-crossing 判断路径是否相交
+* 1496.path-crossing 判断路径是否相交
 
-* 5435.parallel-courses-ii 并行课程 II
+* 1494.parallel-courses-ii 并行课程 II
 
-* 5434.longest-subarray-of-1s-after-deleting-one-element 删掉一个元素以后全为 1 的最长子数组
+* 1493.longest-subarray-of-1s-after-deleting-one-element 删掉一个元素以后全为 1 的最长子数组
 
-* 5433.the-kth-factor-of-n n 的第 k 个因子
+* 1492.the-kth-factor-of-n n 的第 k 个因子
 
-* 5432.average-salary-excluding-the-minimum-and-maximum-salary 去掉最低工资和最高工资后的工资平均值
+* 1491.average-salary-excluding-the-minimum-and-maximum-salary 去掉最低工资和最高工资后的工资平均值
 
 
 ---

@@ -1,4 +1,4 @@
-# `（简单）` [5448.path-crossing 判断路径是否相交](https://leetcode-cn.com/problems/path-crossing/)
+# `（简单）` [1496.path-crossing 判断路径是否相交](https://leetcode-cn.com/problems/path-crossing/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-195/problems/path-crossing/)
 

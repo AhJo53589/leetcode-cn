@@ -1,4 +1,4 @@
-# `（困难）` [5455.minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits 最多 K 次交换相邻数位后得到的最小整数](https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
+# `（困难）` [1505.minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits 最多 K 次交换相邻数位后得到的最小整数](https://leetcode-cn.com/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-196/problems/minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits/)
 

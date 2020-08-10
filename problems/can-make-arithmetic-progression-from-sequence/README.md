@@ -1,4 +1,4 @@
-# `（简单）` [5452.can-make-arithmetic-progression-from-sequence 判断能否形成等差数列](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/)
+# `（简单）` [1502.can-make-arithmetic-progression-from-sequence 判断能否形成等差数列](https://leetcode-cn.com/problems/can-make-arithmetic-progression-from-sequence/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-196/problems/can-make-arithmetic-progression-from-sequence/)
 

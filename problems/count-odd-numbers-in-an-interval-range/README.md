@@ -1,4 +1,4 @@
-# `（简单）` [5456.count-odd-numbers-in-an-interval-range 在区间范围内统计奇数数目](https://leetcode-cn.com/problems/count-odd-numbers-in-an-interval-range/)
+# `（简单）` [1523.count-odd-numbers-in-an-interval-range 在区间范围内统计奇数数目](https://leetcode-cn.com/problems/count-odd-numbers-in-an-interval-range/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-31/problems/count-odd-numbers-in-an-interval-range/)
 

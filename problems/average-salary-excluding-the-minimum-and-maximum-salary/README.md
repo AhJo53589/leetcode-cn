@@ -1,4 +1,4 @@
-# `（简单）` [5432.average-salary-excluding-the-minimum-and-maximum-salary 去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
+# `（简单）` [1491.average-salary-excluding-the-minimum-and-maximum-salary 去掉最低工资和最高工资后的工资平均值](https://leetcode-cn.com/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-29/problems/average-salary-excluding-the-minimum-and-maximum-salary/)
 
