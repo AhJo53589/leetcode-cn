@@ -3,6 +3,13 @@
 
 
 ---
+## 20200811
+* 617.merge-two-binary-trees 合并二叉树
+
+* 696.count-binary-substrings 计数二进制子串
+
+
+---
 ## 20200809
 * 5486.minimum-cost-to-cut-a-stick 切棍子的最小成本
 

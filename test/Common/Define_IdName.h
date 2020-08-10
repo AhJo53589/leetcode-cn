@@ -312,6 +312,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_605 	can-place-flowers
+#define SOLUTION_CPP_FOLDER_NAME_ID_617 	merge-two-binary-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
 #define SOLUTION_CPP_FOLDER_NAME_ID_622 	design-circular-queue
 #define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
@@ -325,6 +326,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_690 	employee-importance
 #define SOLUTION_CPP_FOLDER_NAME_ID_693 	binary-number-with-alternating-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
+#define SOLUTION_CPP_FOLDER_NAME_ID_696 	count-binary-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_698 	partition-to-k-equal-sum-subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_701 	insert-into-a-binary-search-tree

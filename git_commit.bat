@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5486.minimum-cost-to-cut-a-stick"
+git commit -m"617.merge-two-binary-trees"
 git push
