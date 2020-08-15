@@ -651,6 +651,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1529 	bulb-switcher-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_1530 	number-of-good-leaf-nodes-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_1531 	string-compression-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1534 	count-good-triplets
+#define SOLUTION_CPP_FOLDER_NAME_ID_1535 	find-the-winner-of-an-array-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_1536 	minimum-swaps-to-arrange-a-binary-grid
+#define SOLUTION_CPP_FOLDER_NAME_ID_1537 	get-the-maximum-score
 #define SOLUTION_CPP_FOLDER_NAME_ID_5468 	kth-missing-positive-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_5469 	can-convert-string-in-k-moves
 #define SOLUTION_CPP_FOLDER_NAME_ID_5470 	minimum-insertions-to-balance-a-parentheses-string

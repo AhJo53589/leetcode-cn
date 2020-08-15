@@ -63,7 +63,7 @@
 [查看全部](./Solutions.md)
 
 ## Problemset / All 题库
-完成进度 （694 / 1566）
+完成进度 （668 / 1566）
 [查看全部](./problemset/all/README.md)
 
 ## Season 赛季

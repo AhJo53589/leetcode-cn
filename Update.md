@@ -3,6 +3,17 @@
 
 
 ---
+## 20200815
+* 1537.get-the-maximum-score 最大得分
+
+* 1536.minimum-swaps-to-arrange-a-binary-grid 排布二进制网格的最少交换次数
+
+* 1535.find-the-winner-of-an-array-game 找出数组游戏的赢家
+
+* 1534.count-good-triplets 统计好三元组
+
+
+---
 ## 20200811
 * 617.merge-two-binary-trees 合并二叉树
 

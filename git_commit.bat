@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"617.merge-two-binary-trees"
+git commit -m"1537.get-the-maximum-score"
 git push
