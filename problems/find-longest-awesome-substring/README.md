@@ -1,4 +1,4 @@
-# `（困难）` [5485.find-longest-awesome-substring 找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
+# `（困难）` [1542.find-longest-awesome-substring 找出最长的超赞子字符串](https://leetcode-cn.com/problems/find-longest-awesome-substring/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-32/problems/find-longest-awesome-substring/)
 

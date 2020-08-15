@@ -1,4 +1,4 @@
-# `（简单）` [5483.make-the-string-great 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)
+# `（简单）` [1544.make-the-string-great 整理字符串](https://leetcode-cn.com/problems/make-the-string-great/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-201/problems/make-the-string-great/)
 

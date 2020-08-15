@@ -1,4 +1,4 @@
-# `（中等）` [5469.can-convert-string-in-k-moves K 次操作转变字符串](https://leetcode-cn.com/problems/can-convert-string-in-k-moves/)
+# `（中等）` [1540.can-convert-string-in-k-moves K 次操作转变字符串](https://leetcode-cn.com/problems/can-convert-string-in-k-moves/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-32/problems/can-convert-string-in-k-moves/)
 

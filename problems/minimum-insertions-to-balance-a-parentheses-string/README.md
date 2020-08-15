@@ -1,4 +1,4 @@
-# `（中等）` [5470.minimum-insertions-to-balance-a-parentheses-string 平衡括号字符串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
+# `（中等）` [1541.minimum-insertions-to-balance-a-parentheses-string 平衡括号字符串的最少插入次数](https://leetcode-cn.com/problems/minimum-insertions-to-balance-a-parentheses-string/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-32/problems/minimum-insertions-to-balance-a-parentheses-string/)
 

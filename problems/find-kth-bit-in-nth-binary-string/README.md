@@ -1,4 +1,4 @@
-# `（中等）` [5484.find-kth-bit-in-nth-binary-string 找出第 N 个二进制字符串中的第 K 位](https://leetcode-cn.com/problems/find-kth-bit-in-nth-binary-string/)
+# `（中等）` [1545.find-kth-bit-in-nth-binary-string 找出第 N 个二进制字符串中的第 K 位](https://leetcode-cn.com/problems/find-kth-bit-in-nth-binary-string/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-201/problems/find-kth-bit-in-nth-binary-string/)
 

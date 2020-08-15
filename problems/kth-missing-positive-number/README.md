@@ -1,4 +1,4 @@
-# `（简单）` [5468.kth-missing-positive-number 第 k 个缺失的正整数](https://leetcode-cn.com/problems/kth-missing-positive-number/)
+# `（简单）` [1539.kth-missing-positive-number 第 k 个缺失的正整数](https://leetcode-cn.com/problems/kth-missing-positive-number/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-32/problems/kth-missing-positive-number/)
 
