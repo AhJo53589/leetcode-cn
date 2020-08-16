@@ -663,6 +663,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1545 	find-kth-bit-in-nth-binary-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_1542 	find-longest-awesome-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_1547 	minimum-cost-to-cut-a-stick
+#define SOLUTION_CPP_FOLDER_NAME_ID_5185 	three-consecutive-odds
+#define SOLUTION_CPP_FOLDER_NAME_ID_5488 	minimum-operations-to-make-array-equal
+#define SOLUTION_CPP_FOLDER_NAME_ID_5489 	magnetic-force-between-two-balls
+#define SOLUTION_CPP_FOLDER_NAME_ID_5490 	minimum-number-of-days-to-eat-n-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

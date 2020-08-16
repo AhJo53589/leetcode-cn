@@ -3,6 +3,19 @@
 
 
 ---
+## 20200816
+* 5490.minimum-number-of-days-to-eat-n-oranges 吃掉 N 个橘子的最少天数
+
+* 5489.magnetic-force-between-two-balls 两球之间的磁力
+
+* 5489.magnetic-force-between-two-balls 两球之间的磁力
+
+* 5488.minimum-operations-to-make-array-equal 使数组中所有元素相等的最小操作数
+
+* 5185.three-consecutive-odds 存在连续三个奇数的数组
+
+
+---
 ## 20200815
 * 1537.get-the-maximum-score 最大得分
 
