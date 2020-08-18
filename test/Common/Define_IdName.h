@@ -316,6 +316,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_621 	task-scheduler
 #define SOLUTION_CPP_FOLDER_NAME_ID_622 	design-circular-queue
 #define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
+#define SOLUTION_CPP_FOLDER_NAME_ID_647 	palindromic-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap

@@ -324,6 +324,7 @@
 | √ | 621 | [task-scheduler](../../problems/task-scheduler) | [任务调度器](../../problems/task-scheduler/README.md) | [cpp](../../problems/task-scheduler/SOLUTION.cpp) |   | 中等 |
 | √ | 622 | [design-circular-queue](../../problems/design-circular-queue) | [设计循环队列](../../problems/design-circular-queue/README.md) | [cpp](../../problems/design-circular-queue/SOLUTION.cpp) |   | 中等 |
 | √ | 641 | [design-circular-deque](../../problems/design-circular-deque) | [设计循环双端队列](../../problems/design-circular-deque/README.md) | [cpp](../../problems/design-circular-deque/SOLUTION.cpp) |   | 中等 |
+| √ | 647 | [palindromic-substrings](../../problems/palindromic-substrings) | [回文子串](../../problems/palindromic-substrings/README.md) | [cpp](../../problems/palindromic-substrings/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/palindromic-substrings/solution/palindromic-substrings-by-ikaruga/) | 中等 | 
 | √ | 652 | [find-duplicate-subtrees](../../problems/find-duplicate-subtrees) | [寻找重复的子树](../../problems/find-duplicate-subtrees/README.md) | [cpp](../../problems/find-duplicate-subtrees/SOLUTION.cpp) |   | 中等 |
 | √ | 658 | [find-k-closest-elements](../../problems/find-k-closest-elements) | [找到](../../problems/find-k-closest-elements/README.md) | [cpp](../../problems/find-k-closest-elements/SOLUTION.cpp) |   | 中等 |
 | √ | 670 | [maximum-swap](../../problems/maximum-swap) | [最大交换](../../problems/maximum-swap/README.md) | [cpp](../../problems/maximum-swap/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-swap/solution/670-by-ikaruga/) | 中等 |
