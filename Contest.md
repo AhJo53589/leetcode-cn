@@ -75,4 +75,5 @@
 | 2020/8/2   | [第 200 场周赛](./contest/weekly-contest-200/README.md)  |  |  |
 | 2020/8/8   | [第 32 场双周赛](./contest/biweekly-contest-32/README.md) | 2 / 4 | 891 / 2957 |
 | 2020/8/9   | [第 201 场周赛](./contest/weekly-contest-201/README.md)   | 2 / 4  | 924 / 5614 |
-|  | [第 202 场周赛](./contest/weekly-contest-202/README.md) |  |  | 
+| 2020/8/16  | [第 202 场周赛](./contest/weekly-contest-202/README.md)   | 2 / 4 | 552 / 4988 |
+| 2020/8/22  | [第 33 场双周赛](./contest/biweekly-contest-33/README.md) | 4 / 4 | 168 / 3297 |

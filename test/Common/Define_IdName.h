@@ -667,6 +667,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1542 	find-longest-awesome-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_1547 	minimum-cost-to-cut-a-stick
 #define SOLUTION_CPP_FOLDER_NAME_ID_5185 	three-consecutive-odds
+#define SOLUTION_CPP_FOLDER_NAME_ID_5479 	thousand-separator
+#define SOLUTION_CPP_FOLDER_NAME_ID_5480 	minimum-number-of-vertices-to-reach-all-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5481 	minimum-numbers-of-function-calls-to-make-target-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5482 	detect-cycles-in-2d-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_5488 	minimum-operations-to-make-array-equal
 #define SOLUTION_CPP_FOLDER_NAME_ID_5489 	magnetic-force-between-two-balls
 #define SOLUTION_CPP_FOLDER_NAME_ID_5490 	minimum-number-of-days-to-eat-n-oranges

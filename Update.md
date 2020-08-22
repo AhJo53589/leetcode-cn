@@ -3,6 +3,17 @@
 
 
 ---
+## 20200823
+* 5482.detect-cycles-in-2d-grid 二维网格图中探测环
+
+* 5481.minimum-numbers-of-function-calls-to-make-target-array 得到目标数组的最少函数调用次数
+
+* 5480.minimum-number-of-vertices-to-reach-all-nodes 可以到达所有点的最少点数目
+
+* 5479.thousand-separator 千位分隔数
+
+
+---
 ## 20200822
 * 529.minesweeper 扫雷游戏
 
