@@ -301,6 +301,7 @@
 | √ | 516 | [longest-palindromic-subsequence](../../problems/longest-palindromic-subsequence) | [最长回文子序列](../../problems/longest-palindromic-subsequence/README.md) | [cpp](../../problems/longest-palindromic-subsequence/SOLUTION.cpp) |   | 中等 |
 | √ | 520 | [detect-capital](../../problems/detect-capital) | [检测大写字母](../../problems/detect-capital/README.md) | [cpp](../../problems/detect-capital/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/detect-capital/solution/detect-capital-by-ikaruga/) | 简单 |
 | √ | 521 | [longest-uncommon-subsequence-i](../../problems/longest-uncommon-subsequence-i) | [最长特殊序列 Ⅰ](../../problems/longest-uncommon-subsequence-i/README.md) | [cpp](../../problems/longest-uncommon-subsequence-i/SOLUTION.cpp) |   | 简单 |
+| √ | 529 | [minesweeper](../../problems/minesweeper) | [扫雷游戏](../../problems/minesweeper/README.md) | [cpp](../../problems/minesweeper/SOLUTION.cpp) |   | 中等 | 
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 |
 | √ | 543 | [diameter-of-binary-tree](../../problems/diameter-of-binary-tree) | [二叉树的直径](../../problems/diameter-of-binary-tree/README.md) | [cpp](../../problems/diameter-of-binary-tree/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/diameter-of-binary-tree/solution/543-by-ikaruga/) | 简单 |
@@ -325,6 +326,7 @@
 | √ | 622 | [design-circular-queue](../../problems/design-circular-queue) | [设计循环队列](../../problems/design-circular-queue/README.md) | [cpp](../../problems/design-circular-queue/SOLUTION.cpp) |   | 中等 |
 | √ | 641 | [design-circular-deque](../../problems/design-circular-deque) | [设计循环双端队列](../../problems/design-circular-deque/README.md) | [cpp](../../problems/design-circular-deque/SOLUTION.cpp) |   | 中等 |
 | √ | 647 | [palindromic-substrings](../../problems/palindromic-substrings) | [回文子串](../../problems/palindromic-substrings/README.md) | [cpp](../../problems/palindromic-substrings/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/palindromic-substrings/solution/palindromic-substrings-by-ikaruga/) | 中等 | 
+| √ | 648 | [replace-words](../../problems/replace-words) | [单词替换](../../problems/replace-words/README.md) | [cpp](../../problems/replace-words/SOLUTION.cpp) |   | 中等 | 
 | √ | 652 | [find-duplicate-subtrees](../../problems/find-duplicate-subtrees) | [寻找重复的子树](../../problems/find-duplicate-subtrees/README.md) | [cpp](../../problems/find-duplicate-subtrees/SOLUTION.cpp) |   | 中等 |
 | √ | 658 | [find-k-closest-elements](../../problems/find-k-closest-elements) | [找到](../../problems/find-k-closest-elements/README.md) | [cpp](../../problems/find-k-closest-elements/SOLUTION.cpp) |   | 中等 |
 | √ | 670 | [maximum-swap](../../problems/maximum-swap) | [最大交换](../../problems/maximum-swap/README.md) | [cpp](../../problems/maximum-swap/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-swap/solution/670-by-ikaruga/) | 中等 |

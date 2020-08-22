@@ -3,6 +3,13 @@
 
 
 ---
+## 20200822
+* 529.minesweeper 扫雷游戏
+
+* 648.replace-words 单词替换
+
+
+---
 ## 20200819
 * 647.palindromic-substrings 回文子串
 

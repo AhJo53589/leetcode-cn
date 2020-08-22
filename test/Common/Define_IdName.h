@@ -292,6 +292,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
 #define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i
+#define SOLUTION_CPP_FOLDER_NAME_ID_529 	minesweeper
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
@@ -317,6 +318,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_622 	design-circular-queue
 #define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
 #define SOLUTION_CPP_FOLDER_NAME_ID_647 	palindromic-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_648 	replace-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap

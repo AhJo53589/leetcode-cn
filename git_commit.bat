@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"647.palindromic-substrings"
+git commit -m"529.minesweeper"
 git push

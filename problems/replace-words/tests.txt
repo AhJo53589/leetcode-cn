@@ -1,0 +1,3 @@
+["cat","bat","rat"]
+"the cattle was rattled by the battery"
+"the cat was rat by the bat"
