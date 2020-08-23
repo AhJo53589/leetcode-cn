@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5482.detect-cycles-in-2d-grid"
+git commit -m"201.bitwise-and-of-numbers-range"
 git push

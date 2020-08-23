@@ -161,6 +161,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_198 	house-robber
 #define SOLUTION_CPP_FOLDER_NAME_ID_199 	binary-tree-right-side-view
 #define SOLUTION_CPP_FOLDER_NAME_ID_200 	number-of-islands
+#define SOLUTION_CPP_FOLDER_NAME_ID_201 	bitwise-and-of-numbers-range
 #define SOLUTION_CPP_FOLDER_NAME_ID_202 	happy-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_203 	remove-linked-list-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_204 	count-primes
@@ -674,6 +675,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5488 	minimum-operations-to-make-array-equal
 #define SOLUTION_CPP_FOLDER_NAME_ID_5489 	magnetic-force-between-two-balls
 #define SOLUTION_CPP_FOLDER_NAME_ID_5490 	minimum-number-of-days-to-eat-n-oranges
+#define SOLUTION_CPP_FOLDER_NAME_ID_5495 	most-visited-sector-in-a-circular-track
+#define SOLUTION_CPP_FOLDER_NAME_ID_5496 	maximum-number-of-coins-you-can-get
+#define SOLUTION_CPP_FOLDER_NAME_ID_5497 	find-latest-group-of-size-m
+#define SOLUTION_CPP_FOLDER_NAME_ID_5498 	stone-game-v
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

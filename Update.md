@@ -4,6 +4,16 @@
 
 ---
 ## 20200823
+* 201.bitwise-and-of-numbers-range 数字范围按位与
+
+* 5498.stone-game-v 石子游戏 V
+
+* 5497.find-latest-group-of-size-m 查找大小为 M 的最新分组
+
+* 5496.maximum-number-of-coins-you-can-get 你可以获得的最大硬币数目
+
+* 5495.most-visited-sector-in-a-circular-track 圆形赛道上经过次数最多的扇区
+
 * 5482.detect-cycles-in-2d-grid 二维网格图中探测环
 
 * 5481.minimum-numbers-of-function-calls-to-make-target-array 得到目标数组的最少函数调用次数
