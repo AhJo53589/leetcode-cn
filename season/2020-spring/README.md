@@ -1,4 +1,4 @@
-# 2020 春季全国编程大赛 个人赛
+# [2020 春季全国编程大赛](https://leetcode-cn.com/contest/season/2020-spring/) 个人赛
 
 [返回](../../README.md)
 
