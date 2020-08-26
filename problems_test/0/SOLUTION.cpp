@@ -4,50 +4,16 @@
 // 给出思路和代码
 
 //////////////////////////////////////////////////////////////////////////
+// 返回的 vector<int> 为六种操作的操作次数，[0] = +12，[1] = -12，[2] = +7，[3] = -7，[4] = +5，[5] = -5
+// 如 {0,0,1,0,0,1} 表示，1 次 +7 和 1 次 -5
 class Solution {
 public:
 	vector<int> minMove(int A, int B) {
 
     }
 
-	void init() {
-		queue<pair<int, vector<int>>> que;
-		for (auto p : op) {
-			que.push(pair<int, vector<int>>(p, { p }));
-		}
-		while (!que.empty()) {
-            for (int len = que.size() - 1; len >= 0; len--) {
-				auto [t, vec] = que.front();
-				que.pop();
-				
-				if (t == 0) continue;
-				if (t >= data.size() || -t >= data.size()) continue;
-				if (t > 0 && !data[t].empty()) continue;
-				if (t < 0 && !data[-t].empty()) continue;
-				if (t < 0) {
-					turn(vec);
-					t *= -1;
-				}
-				data[t] = vec;
-
-                for (auto p : op) {
-					vec.push_back(p);
-                    que.push(pair<int, vector<int>>(t + p, vec));
-					vec.pop_back();
-                }
-            }
-		}
-	}
-
-	void turn(vector<int>& vec) {
-        for (auto& v : vec) {
-            v *= -1;
-        }
-	}
-
 private:
-	vector<int> op = { 12,7,5,-12,-7,-5 };
-	vector<vector<int>> data = vector<vector<int>>(5 * 7 * 12, vector<int>());
+	vector<int> op = { 12,-12,7,-7,5,-5 };
 };
 
 //////////////////////////////////////////////////////////////////////////
