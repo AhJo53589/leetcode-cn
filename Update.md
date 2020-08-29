@@ -3,6 +3,17 @@
 
 
 ---
+## 20200829
+* 657.robot-return-to-origin 机器人能否返回原点
+
+* 332.reconstruct-itinerary 重新安排行程
+
+* 491.increasing-subsequences 递增子序列
+
+* 459.repeated-substring-pattern 重复的子字符串
+
+
+---
 ## 20200823
 * 201.bitwise-and-of-numbers-range 数字范围按位与
 

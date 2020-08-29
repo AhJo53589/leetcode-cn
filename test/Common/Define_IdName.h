@@ -221,6 +221,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_326 	power-of-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_328 	odd-even-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_329 	longest-increasing-path-in-a-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_332 	reconstruct-itinerary
 #define SOLUTION_CPP_FOLDER_NAME_ID_334 	increasing-triplet-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_336 	palindrome-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_337 	house-robber-iii
@@ -269,6 +270,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_445 	add-two-numbers-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_459 	repeated-substring-pattern
 #define SOLUTION_CPP_FOLDER_NAME_ID_460 	lfu-cache
 #define SOLUTION_CPP_FOLDER_NAME_ID_466 	count-the-repetitions
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
@@ -283,6 +285,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_461 	hamming-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_463 	island-perimeter
 #define SOLUTION_CPP_FOLDER_NAME_ID_485 	max-consecutive-ones
+#define SOLUTION_CPP_FOLDER_NAME_ID_491 	increasing-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_494 	target-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
 #define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
@@ -321,6 +324,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_647 	palindromic-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_648 	replace-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
+#define SOLUTION_CPP_FOLDER_NAME_ID_657 	robot-return-to-origin
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence

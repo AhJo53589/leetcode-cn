@@ -61,10 +61,11 @@
 | 1326 | [minimum-number-of-taps-to-open-to-water-a-garden](./problems/minimum-number-of-taps-to-open-to-water-a-garden) | [【灌溉花园的最少水龙头数目】贪心](https://leetcode-cn.com/problems/minimum-number-of-taps-to-open-to-water-a-garden/solution/5318-by-ikaruga/) |
 | 1418 | [display-table-of-food-orders-in-a-restaurant](./problems/display-table-of-food-orders-in-a-restaurant) | [【点菜展示表】合理保存](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/solution/display-table-of-food-orders-in-a-restaurant-by-ik/) |
 | 1488 | [avoid-flood-in-the-city](./problems/avoid-flood-in-the-city) | [【避免洪水泛滥】贪心 + 二分](https://leetcode-cn.com/problems/avoid-flood-in-the-city/solution/avoid-flood-in-the-city-by-ikaruga/) |
+| 1530 | [number-of-good-leaf-nodes-pairs](./problems/number-of-good-leaf-nodes-pairs) | [【好叶子节点对的数量】后序遍历](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/solution/good-leaf-nodes-pairs-by-ikaruga/) |
 [查看全部](./Solutions.md)
 
 ## Problemset / All 题库
-完成进度 （714 / 1566）
+完成进度 （717 / 1566）
 [查看全部](./problemset/all/README.md)
 
 ## Season 赛季
