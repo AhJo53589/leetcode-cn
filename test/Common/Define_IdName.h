@@ -683,6 +683,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5496 	maximum-number-of-coins-you-can-get
 #define SOLUTION_CPP_FOLDER_NAME_ID_5497 	find-latest-group-of-size-m
 #define SOLUTION_CPP_FOLDER_NAME_ID_5498 	stone-game-v
+#define SOLUTION_CPP_FOLDER_NAME_ID_5499 	detect-pattern-of-length-m-repeated-k-or-more-times
+#define SOLUTION_CPP_FOLDER_NAME_ID_5500 	maximum-length-of-subarray-with-positive-product
+#define SOLUTION_CPP_FOLDER_NAME_ID_5501 	minimum-number-of-days-to-disconnect-island
+#define SOLUTION_CPP_FOLDER_NAME_ID_5502 	number-of-ways-to-reorder-array-to-get-same-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

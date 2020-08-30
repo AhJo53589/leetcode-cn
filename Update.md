@@ -3,6 +3,17 @@
 
 
 ---
+## 20200830
+* 5502.number-of-ways-to-reorder-array-to-get-same-bst 将子数组重新排序得到同一个二叉查找树的方案数
+
+* 5501.minimum-number-of-days-to-disconnect-island 使陆地分离的最少天数
+
+* 5500.maximum-length-of-subarray-with-positive-product 乘积为正数的最长子数组长度
+
+* 5499.detect-pattern-of-length-m-repeated-k-or-more-times 重复至少 K 次且长度为 M 的模式
+
+
+---
 ## 20200829
 * 657.robot-return-to-origin 机器人能否返回原点
 
