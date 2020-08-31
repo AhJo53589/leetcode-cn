@@ -1,4 +1,4 @@
-# `（中等）` [841.keys-and-rooms 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/)
+# `（简单）` [841.keys-and-rooms 钥匙和房间](https://leetcode-cn.com/problems/keys-and-rooms/)
 
 ### 题目描述
 <p>有 <code>N</code> 个房间，开始时你位于 <code>0</code> 号房间。每个房间有不同的号码：<code>0，1，2，...，N-1</code>，并且房间里可能有一些钥匙能使你进入下一个房间。</p>
@@ -45,35 +45,33 @@
 ---
 ### 思路
 ```
-使用一个set来做访问标记。  
-通过递归的方式，访问没有访问过的房间。  
-最后通过检查是否所有房间都被访问过。  
 ```
+
+[发布的题解](https://leetcode-cn.com/problems/keys-and-rooms/solution/keys-and-rooms-by-ikaruga/)
 
 ### 答题
 ``` C++
-void visitRoom(vector<vector<int>>& rooms, int roomId, unordered_set<int>& visited)
-{
-	if (roomId >= rooms.size()) return;
+    bool canVisitAllRooms(vector<vector<int>>& rooms) {
+        vector<bool> vi(rooms.size(), false);
 
-	visited.insert(roomId);
-	for (auto r : rooms[roomId])
-	{
-		if (!visited.count(r))
-		{
-			visitRoom(rooms, r, visited);
-		}
-	}
-}
+        queue<int> que;
+        que.push(0);
+        vi[0] = true;
+        while (!que.empty()) {
+            auto q = que.front();
+            que.pop();
 
-bool canVisitAllRooms(vector<vector<int>>& rooms)
-{
-	unordered_set<int> visited;
-	visitRoom(rooms, 0, visited);
-	for (int i = 0; i < rooms.size(); i++)
-	{
-		if (!visited.count(i)) return false;
-	}
-	return true;
-}
+            for (auto n : rooms[q]) {
+                if (vi[n]) continue;
+                que.push(n);
+                vi[n] = true;
+            }
+        }
+
+        return all_of(vi.begin(), vi.end(), [](bool b) { return b; });
+    }
 ```
+
+
+
+

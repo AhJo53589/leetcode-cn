@@ -2,36 +2,30 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    bool canVisitAllRooms(vector<vector<int>>& rooms) {
-        vector<bool> vi(rooms.size(), false);
+    int kthLargest(TreeNode* root, int k) {
+        int ans = 0;
+        dfs(root, k, ans);
+        return ans;
+    }
 
-        queue<int> que;
-        que.push(0);
-        vi[0] = true;
-        while (!que.empty()) {
-            auto q = que.front();
-            que.pop();
-
-            for (auto n : rooms[q]) {
-                if (vi[n]) continue;
-                que.push(n);
-                vi[n] = true;
-            }
-        }
-
-        return all_of(vi.begin(), vi.end(), [](bool b) { return b; });
+    void dfs(TreeNode* root, int &k, int& ans) {
+        if (root == nullptr) return;
+        dfs(root->right, k, ans);
+        k--;
+        if (k == 0) ans = root->val;
+        dfs(root->left, k, ans);
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-bool _solution_run(vector<vector<int>>& rooms)
+int _solution_run(TreeNode* root, int k)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.canVisitAllRooms(rooms);
+	return sln.kthLargest(root, k);
 }
 
 //#define USE_SOLUTION_CUSTOM
