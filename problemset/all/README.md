@@ -293,6 +293,7 @@
 | √ | 475 | [heaters](../../problems/heaters) | [供暖器](../../problems/heaters/README.md) | [cpp](../../problems/heaters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/heaters/solution/heaters-by-ikaruga/) | 简单 |
 | √ | 481 | [magical-string](../../problems/magical-string) | [神奇字符串](../../problems/magical-string/README.md) | [cpp](../../problems/magical-string/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/magical-string/solution/481-by-ikaruga/) | 中等 |
 | √ | 485 | [max-consecutive-ones](../../problems/max-consecutive-ones) | [最大连续1的个数](../../problems/max-consecutive-ones/README.md) | [cpp](../../problems/max-consecutive-ones/SOLUTION.cpp) |   | 简单 |
+| √ | 486 | [predict-the-winner](../../problems/predict-the-winner) | [预测赢家](../../problems/predict-the-winner/README.md) | [cpp](../../problems/predict-the-winner/SOLUTION.cpp) |   | 中等 | 
 | √ | 488 | [zuma-game](../../problems/zuma-game) | [祖玛游戏](../../problems/zuma-game/README.md) | [cpp](../../problems/zuma-game/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/zuma-game/solution/488-by-ikaruga/) | 困难 |
 | √ | 491 | [increasing-subsequences](../../problems/increasing-subsequences) | [递增子序列](../../problems/increasing-subsequences/README.md) | [cpp](../../problems/increasing-subsequences/SOLUTION.cpp) |   | 中等 | 
 | √ | 494 | [target-sum](../../problems/target-sum) | [目标和](../../problems/target-sum/README.md) | [cpp](../../problems/target-sum/SOLUTION.cpp) |   | 中等 |
