@@ -1,4 +1,4 @@
-# `（中等）` [5489.magnetic-force-between-two-balls 两球之间的磁力](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/)
+# `（中等）` [1552.magnetic-force-between-two-balls 两球之间的磁力](https://leetcode-cn.com/problems/magnetic-force-between-two-balls/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-202/problems/magnetic-force-between-two-balls/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5501.minimum-number-of-days-to-disconnect-island 使陆地分离的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/)
+# `（中等）` [1568.minimum-number-of-days-to-disconnect-island 使陆地分离的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-204/problems/minimum-number-of-days-to-disconnect-island/)
 

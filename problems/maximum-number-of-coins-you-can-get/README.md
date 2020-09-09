@@ -1,4 +1,4 @@
-# `（中等）` [5496.maximum-number-of-coins-you-can-get 你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)
+# `（中等）` [1561.maximum-number-of-coins-you-can-get 你可以获得的最大硬币数目](https://leetcode-cn.com/problems/maximum-number-of-coins-you-can-get/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-203/problems/maximum-number-of-coins-you-can-get/)
 

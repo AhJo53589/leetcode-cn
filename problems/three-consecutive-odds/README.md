@@ -1,4 +1,4 @@
-# `（简单）` [5185.three-consecutive-odds 存在连续三个奇数的数组](https://leetcode-cn.com/problems/three-consecutive-odds/)
+# `（简单）` [1550.three-consecutive-odds 存在连续三个奇数的数组](https://leetcode-cn.com/problems/three-consecutive-odds/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-202/problems/three-consecutive-odds/)
 

@@ -1,4 +1,4 @@
-# `（困难）` [5482.detect-cycles-in-2d-grid 二维网格图中探测环](https://leetcode-cn.com/problems/detect-cycles-in-2d-grid/)
+# `（困难）` [1559.detect-cycles-in-2d-grid 二维网格图中探测环](https://leetcode-cn.com/problems/detect-cycles-in-2d-grid/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-33/problems/detect-cycles-in-2d-grid/)
 
@@ -15,27 +15,27 @@
 
 <p><strong>示例 1：</strong></p>
 
-<p><strong><img style="height: 152px; width: 231px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/5482e1.png" alt=""></strong></p>
+<p><strong><img style="height: 152px; width: 231px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/1559e1.png" alt=""></strong></p>
 
 <pre><strong>输入：</strong>grid = [["a","a","a","a"],["a","b","b","a"],["a","b","b","a"],["a","a","a","a"]]
 <strong>输出：</strong>true
 <strong>解释：</strong>如下图所示，有 2 个用不同颜色标出来的环：
-<img style="height: 163px; width: 225px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/5482e11.png" alt="">
+<img style="height: 163px; width: 225px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/1559e11.png" alt="">
 </pre>
 
 <p><strong>示例 2：</strong></p>
 
-<p><strong><img style="height: 154px; width: 236px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/5482e2.png" alt=""></strong></p>
+<p><strong><img style="height: 154px; width: 236px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/1559e2.png" alt=""></strong></p>
 
 <pre><strong>输入：</strong>grid = [["c","c","c","a"],["c","d","c","c"],["c","c","e","c"],["f","c","c","c"]]
 <strong>输出：</strong>true
 <strong>解释：</strong>如下图所示，只有高亮所示的一个合法环：
-<img style="height: 157px; width: 229px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/5482e22.png" alt="">
+<img style="height: 157px; width: 229px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/1559e22.png" alt="">
 </pre>
 
 <p><strong>示例 3：</strong></p>
 
-<p><strong><img style="height: 120px; width: 183px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/5482e3.png" alt=""></strong></p>
+<p><strong><img style="height: 120px; width: 183px;" src="https://assets.leetcode-cn.com/aliyun-lc-upload/uploads/2020/08/22/1559e3.png" alt=""></strong></p>
 
 <pre><strong>输入：</strong>grid = [["a","b","b"],["b","z","b"],["b","b","a"]]
 <strong>输出：</strong>false

@@ -1,4 +1,4 @@
-# `（困难）` [5502.number-of-ways-to-reorder-array-to-get-same-bst 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
+# `（困难）` [1569.number-of-ways-to-reorder-array-to-get-same-bst 将子数组重新排序得到同一个二叉查找树的方案数](https://leetcode-cn.com/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-204/problems/number-of-ways-to-reorder-array-to-get-same-bst/)
 

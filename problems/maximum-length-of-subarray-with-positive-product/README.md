@@ -1,4 +1,4 @@
-# `（中等）` [5500.maximum-length-of-subarray-with-positive-product 乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/)
+# `（中等）` [1567.maximum-length-of-subarray-with-positive-product 乘积为正数的最长子数组长度](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-204/problems/maximum-length-of-subarray-with-positive-product/)
 

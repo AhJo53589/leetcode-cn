@@ -33,13 +33,13 @@
 
 ---
 ## 20200830
-* 5502.number-of-ways-to-reorder-array-to-get-same-bst 将子数组重新排序得到同一个二叉查找树的方案数
+* 1569.number-of-ways-to-reorder-array-to-get-same-bst 将子数组重新排序得到同一个二叉查找树的方案数
 
-* 5501.minimum-number-of-days-to-disconnect-island 使陆地分离的最少天数
+* 1568.minimum-number-of-days-to-disconnect-island 使陆地分离的最少天数
 
-* 5500.maximum-length-of-subarray-with-positive-product 乘积为正数的最长子数组长度
+* 1567.maximum-length-of-subarray-with-positive-product 乘积为正数的最长子数组长度
 
-* 5499.detect-pattern-of-length-m-repeated-k-or-more-times 重复至少 K 次且长度为 M 的模式
+* 1566.detect-pattern-of-length-m-repeated-k-or-more-times 重复至少 K 次且长度为 M 的模式
 
 
 ---
@@ -57,21 +57,21 @@
 ## 20200823
 * 201.bitwise-and-of-numbers-range 数字范围按位与
 
-* 5498.stone-game-v 石子游戏 V
+* 1563.stone-game-v 石子游戏 V
 
-* 5497.find-latest-group-of-size-m 查找大小为 M 的最新分组
+* 1562.find-latest-group-of-size-m 查找大小为 M 的最新分组
 
-* 5496.maximum-number-of-coins-you-can-get 你可以获得的最大硬币数目
+* 1561.maximum-number-of-coins-you-can-get 你可以获得的最大硬币数目
 
-* 5495.most-visited-sector-in-a-circular-track 圆形赛道上经过次数最多的扇区
+* 1560.most-visited-sector-in-a-circular-track 圆形赛道上经过次数最多的扇区
 
-* 5482.detect-cycles-in-2d-grid 二维网格图中探测环
+* 1559.detect-cycles-in-2d-grid 二维网格图中探测环
 
-* 5481.minimum-numbers-of-function-calls-to-make-target-array 得到目标数组的最少函数调用次数
+* 1558.minimum-numbers-of-function-calls-to-make-target-array 得到目标数组的最少函数调用次数
 
-* 5480.minimum-number-of-vertices-to-reach-all-nodes 可以到达所有点的最少点数目
+* 1557.minimum-number-of-vertices-to-reach-all-nodes 可以到达所有点的最少点数目
 
-* 5479.thousand-separator 千位分隔数
+* 1556.thousand-separator 千位分隔数
 
 
 ---
@@ -88,15 +88,15 @@
 
 ---
 ## 20200816
-* 5490.minimum-number-of-days-to-eat-n-oranges 吃掉 N 个橘子的最少天数
+* 1553.minimum-number-of-days-to-eat-n-oranges 吃掉 N 个橘子的最少天数
 
-* 5489.magnetic-force-between-two-balls 两球之间的磁力
+* 1552.magnetic-force-between-two-balls 两球之间的磁力
 
-* 5489.magnetic-force-between-two-balls 两球之间的磁力
+* 1552.magnetic-force-between-two-balls 两球之间的磁力
 
-* 5488.minimum-operations-to-make-array-equal 使数组中所有元素相等的最小操作数
+* 1551.minimum-operations-to-make-array-equal 使数组中所有元素相等的最小操作数
 
-* 5185.three-consecutive-odds 存在连续三个奇数的数组
+* 1550.three-consecutive-odds 存在连续三个奇数的数组
 
 
 ---

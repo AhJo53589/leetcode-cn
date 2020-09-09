@@ -1,4 +1,4 @@
-# `（中等）` [5488.minimum-operations-to-make-array-equal 使数组中所有元素相等的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-array-equal/)
+# `（中等）` [1551.minimum-operations-to-make-array-equal 使数组中所有元素相等的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-make-array-equal/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-202/problems/minimum-operations-to-make-array-equal/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5495.most-visited-sector-in-a-circular-track 圆形赛道上经过次数最多的扇区](https://leetcode-cn.com/problems/most-visited-sector-in-a-circular-track/)
+# `（简单）` [1560.most-visited-sector-in-a-circular-track 圆形赛道上经过次数最多的扇区](https://leetcode-cn.com/problems/most-visited-sector-in-a-circular-track/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-203/problems/most-visited-sector-in-a-circular-track/)
 

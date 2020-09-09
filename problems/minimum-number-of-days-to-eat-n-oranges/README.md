@@ -1,4 +1,4 @@
-# `（困难）` [5490.minimum-number-of-days-to-eat-n-oranges 吃掉 N 个橘子的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-eat-n-oranges/)
+# `（困难）` [1553.minimum-number-of-days-to-eat-n-oranges 吃掉 N 个橘子的最少天数](https://leetcode-cn.com/problems/minimum-number-of-days-to-eat-n-oranges/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-202/problems/minimum-number-of-days-to-eat-n-oranges/)
 

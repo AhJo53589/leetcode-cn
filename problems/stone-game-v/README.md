@@ -1,4 +1,4 @@
-# `（困难）` [5498.stone-game-v 石子游戏 V](https://leetcode-cn.com/problems/stone-game-v/)
+# `（困难）` [1563.stone-game-v 石子游戏 V](https://leetcode-cn.com/problems/stone-game-v/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-203/problems/stone-game-v/)
 

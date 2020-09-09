@@ -1,4 +1,4 @@
-# `（简单）` [5499.detect-pattern-of-length-m-repeated-k-or-more-times 重复至少 K 次且长度为 M 的模式](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
+# `（简单）` [1566.detect-pattern-of-length-m-repeated-k-or-more-times 重复至少 K 次且长度为 M 的模式](https://leetcode-cn.com/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-204/problems/detect-pattern-of-length-m-repeated-k-or-more-times/)
 

@@ -1,4 +1,4 @@
-# `（简单）` [5479.thousand-separator 千位分隔数](https://leetcode-cn.com/problems/thousand-separator/)
+# `（简单）` [1556.thousand-separator 千位分隔数](https://leetcode-cn.com/problems/thousand-separator/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-33/problems/thousand-separator/)
 

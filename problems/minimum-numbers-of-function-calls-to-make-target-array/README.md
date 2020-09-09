@@ -1,4 +1,4 @@
-# `（中等）` [5481.minimum-numbers-of-function-calls-to-make-target-array 得到目标数组的最少函数调用次数](https://leetcode-cn.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)
+# `（中等）` [1558.minimum-numbers-of-function-calls-to-make-target-array 得到目标数组的最少函数调用次数](https://leetcode-cn.com/problems/minimum-numbers-of-function-calls-to-make-target-array/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-33/problems/minimum-numbers-of-function-calls-to-make-target-array/)
 
