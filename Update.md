@@ -3,6 +3,25 @@
 
 
 ---
+## 20200909
+* 1575.count-all-possible-routes 统计所有可行路径
+
+* 1574.shortest-subarray-to-be-removed-to-make-array-sorted 删除最短的子数组使剩余数组有序
+
+* 1573.number-of-ways-to-split-a-string 分割字符串的方案数
+
+* 1572.matrix-diagonal-sum 矩阵对角线元素的和
+
+* 1579.remove-max-number-of-edges-to-keep-graph-fully-traversable 保证图可完全遍历
+
+* 1578.minimum-deletion-cost-to-avoid-repeating-letters 避免重复字母的最小删除成本
+
+* 1577.number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers 数的平方等于两数乘积的方法数
+
+* 1576.replace-all-s-to-avoid-consecutive-repeating-characters 替换所有的问号
+
+
+---
 ## 20200901
 * 486.predict-the-winner 预测赢家
 

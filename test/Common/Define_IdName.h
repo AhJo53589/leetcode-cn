@@ -672,6 +672,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1545 	find-kth-bit-in-nth-binary-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_1542 	find-longest-awesome-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_1547 	minimum-cost-to-cut-a-stick
+#define SOLUTION_CPP_FOLDER_NAME_ID_1572 	matrix-diagonal-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_1573 	number-of-ways-to-split-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_1574 	shortest-subarray-to-be-removed-to-make-array-sorted
+#define SOLUTION_CPP_FOLDER_NAME_ID_1575 	count-all-possible-routes
+#define SOLUTION_CPP_FOLDER_NAME_ID_1576 	replace-all-s-to-avoid-consecutive-repeating-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_1577 	number-of-ways-where-square-of-number-is-equal-to-product-of-two-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_1578 	minimum-deletion-cost-to-avoid-repeating-letters
+#define SOLUTION_CPP_FOLDER_NAME_ID_1579 	remove-max-number-of-edges-to-keep-graph-fully-traversable
 #define SOLUTION_CPP_FOLDER_NAME_ID_5185 	three-consecutive-odds
 #define SOLUTION_CPP_FOLDER_NAME_ID_5479 	thousand-separator
 #define SOLUTION_CPP_FOLDER_NAME_ID_5480 	minimum-number-of-vertices-to-reach-all-nodes
