@@ -2,98 +2,68 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    vector<int> getSame(string& board, int idx)
-    {
-        if (idx < 0 || idx >= board.size()) return {};
-        int left = idx;
-        int right = idx;
-        while (left > 0 && board[left - 1] == board[left]) --left;
-        while (right < board.size() - 1 && board[right + 1] == board[right]) ++right;
-        return { left, right };
-    }
-
-    void shoot(string &board, int idx)
-    {
-        auto rg = getSame(board, idx);
-        if (rg.empty()) return;
-        if (rg[1] - rg[0] + 1 < 3) return;
-        board = board.substr(0, rg[0]) + board.substr(rg[1] + 1);
-        shoot(board, max(rg[0] - 1, 0));
-    }
-
-    void findMinStep(string board, unordered_map<char, int>& cntHand, int step, int& ans)
-    {
-        if (step >= ans) return;
-        if (board.empty())
-        {
-            ans = min(ans, step);
-            return;
+    int findMinStep(string board, string hand) {
+        cnt = hand.size();
+        for (auto c : hand) {
+            h[c - 'A']++;
         }
 
-        for (int i = 0; i < board.size(); i++)
-        {
-            if (i != 0 && board[i] == board[i - 1]) continue;
-            set<string> insertList;
-            auto rg = getSame(board, i);
-            if (rg[1] - rg[0] == 0)
-            {
-                insertList.insert({ board[i],board[i] });
-            }
-            else
-            {
-                insertList.insert({ board[i] });
+        dfs(board, 0);
+        return ans == INT_MAX ? -1 : ans;
+    }
 
-                vector<int> flag(2, 0);
-                char c = board[i];
-                for (int d = 0; d <= 1; d++)
-                {
-                    int td = d * 2 - 1;
-                    for (int j = i; j >= 0 && j < board.size(); j += td)
-                    {
-                        if (td == 1 && j == 0) continue;
-                        if (td == -1 && j == board.size() - 1) continue;
-                        flag[d] += (board[j - td] == c && board[j] != c) ? 1 : 0;
-                        flag[d] += (board[j - td] != c && board[j] == c) ? 1 : 0;
-                        if (flag[d] <= 2) continue;
-                        insertList.insert({ board[j] });
-                    }
+    void dfs(string board, int step) {
+        shoot(board);
+
+        if (board.empty()) {
+            ans = min(ans, step);
+        }
+        if (step == cnt) return;
+        if (step >= ans) return;
+
+        set<pair<int, char>> ins;
+        for (int i = 0; i < board.size(); i++) {
+            int t = board[i] - 'A';
+            if (i == 0 || board[i] != board[i - 1]) {
+                if (h[t] != 0) {
+                    ins.insert({ i, 'A' + t });
                 }
             }
-            for (auto& item : insertList)
-            {
-                if (cntHand[item[0]] < item.size()) continue;
-
-                cntHand[item[0]] -= item.size();
-                string newBoard = board;
-                newBoard = newBoard.insert(i + 1, item);
-                shoot(newBoard, i);
-                findMinStep(newBoard, cntHand, step + item.size(), ans);
-                cntHand[item[0]] += item.size();
+            if (i != 0 && board[i] == board[i - 1]) {
+                for (int j = 0; j < h.size(); j++) {
+                    if (j == t || h[j] == 0) continue;
+                    ins.insert({ i, 'A' + j });
+                }
             }
         }
+
+        for (auto[i, c] : ins) {
+            h[c - 'A']--;
+            board.insert(i, 1, c);
+            dfs(board, step + 1);
+            board.erase(i, 1);
+            h[c - 'A']++;
+        }
     }
 
-    int findMinStep(string board, string hand) 
-    {
-        unordered_map<char, int> cntBoard;
-        unordered_map<char, int> cntHand;
-        for (auto& c : board)
-        {
-            cntBoard[c]++;
+    void shoot(string& board) {
+        for (int i = 0; i < (int)board.size() - 2; i++) {
+            int j = i + 1;
+            while (j < board.size() && board[i] == board[j]) j++;
+            if (j - i < 3) {
+                i = j - 1;
+                continue;
+            }
+            board.erase(i, j - i);
+            shoot(board);
+            break;
         }
-        for (auto& c : hand)
-        {
-            cntHand[c]++;
-        }
-        for (auto& p : cntBoard)
-        {
-            if (p.second < 3 && cntHand[p.first] + p.second < 3) return -1;
-        }
-
-        int ans = INT_MAX;
-        findMinStep(board, cntHand, 0, ans);
-        return (ans == INT_MAX) ? -1 : ans;
     }
+
+private:
+    int ans = INT_MAX;
+    int cnt = 0;
+    vector<int> h = vector<int>(26, 0);
 };
 
 //////////////////////////////////////////////////////////////////////////
