@@ -5,6 +5,12 @@
 ## All
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
+|   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 20 | [meChtZ](../../problems/meChtZ) | [快速公交](../../problems/meChtZ/README.md) | [cpp](../../problems/meChtZ/SOLUTION.cpp) |   | 困难 | 
+| √ | LCP 19 | [UlBDOe](../../problems/UlBDOe) | [秋叶收藏集](../../problems/UlBDOe/README.md) | [cpp](../../problems/UlBDOe/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/UlBDOe/solution/ulbdoe-by-ikaruga/) | 中等 | 
+| √ | LCP 18 | [2vYnGI](../../problems/2vYnGI) | [早餐组合](../../problems/2vYnGI/README.md) | [cpp](../../problems/2vYnGI/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/2vYnGI/solution/2vyngi-by-ikaruga/) | 简单 | 
+| √ | LCP 17 | [nGK0Fy](../../problems/nGK0Fy) | [速算机器人](../../problems/nGK0Fy/README.md) | [cpp](../../problems/nGK0Fy/SOLUTION.cpp) |   | 简单 | 
 | √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |   | 简单 |
 | √ | 2 | [add-two-numbers](../../problems/add-two-numbers) | [两数相加](../../problems/add-two-numbers/README.md) | [cpp](../../problems/add-two-numbers/SOLUTION.cpp) |   | 中等 |
 | √ | 3 | [longest-substring-without-repeating-characters](../../problems/longest-substring-without-repeating-characters) | [无重复字符的最长子串](../../problems/longest-substring-without-repeating-characters/README.md) | [cpp](../../problems/longest-substring-without-repeating-characters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/longest-substring-without-repeating-characters-b-2/) | 中等 |

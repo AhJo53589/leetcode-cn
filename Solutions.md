@@ -4,6 +4,8 @@
 ## All Solutions
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
+| √ | LCP 19 | [UlBDOe](./problems/UlBDOe) | [秋叶收藏集](./problems/UlBDOe/README.md) | [cpp](./problems/UlBDOe/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/UlBDOe/solution/ulbdoe-by-ikaruga/) | 中等 | 
+| √ | LCP 18 | [2vYnGI](./problems/2vYnGI) | [早餐组合](./problems/2vYnGI/README.md) | [cpp](./problems/2vYnGI/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/2vYnGI/solution/2vyngi-by-ikaruga/) | 简单 | 
 | √ | 3 | [longest-substring-without-repeating-characters](./problems/longest-substring-without-repeating-characters) | [无重复字符的最长子串](./problems/longest-substring-without-repeating-characters/README.md) | [cpp](./problems/longest-substring-without-repeating-characters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/longest-substring-without-repeating-characters-b-2/) | 中等 |
 | √ | 21 | [merge-two-sorted-lists](./problems/merge-two-sorted-lists) | [合并两个有序链表](./problems/merge-two-sorted-lists/README.md) | [cpp](./problems/merge-two-sorted-lists/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/merge-two-sorted-lists-by-ikaruga/) | 简单 |
 | √ | 25 | [reverse-nodes-in-k-group](./problems/reverse-nodes-in-k-group) | [K 个一组翻转链表](./problems/reverse-nodes-in-k-group/README.md) | [cpp](./problems/reverse-nodes-in-k-group/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/reverse-nodes-in-k-group/solution/reverse-nodes-in-k-group-by-ikaruga/) | 困难 |

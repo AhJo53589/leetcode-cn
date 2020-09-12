@@ -1,11 +1,19 @@
 # Update
 [返回](./README.md)
 
-
 ---
 ## 20200912
-* 637.average-of-levels-in-binary-tree 二叉树的层平均值
+* LCP 21.Za25hA 追逐游戏
 
+* LCP 20.meChtZ 快速公交
+
+* LCP 19.UlBDOe 秋叶收藏集
+
+* LCP 18.2vYnGI 早餐组合
+
+* LCP 17.nGK0Fy 速算机器人
+
+* 637.average-of-levels-in-binary-tree 二叉树的层平均值
 
 ---
 ## 20200909
@@ -25,16 +33,13 @@
 
 * 1576.replace-all-s-to-avoid-consecutive-repeating-characters 替换所有的问号
 
-
 ---
 ## 20200901
 * 486.predict-the-winner 预测赢家
 
-
 ---
 ## 20200831
 * 841.keys-and-rooms 钥匙和房间
-
 
 ---
 ## 20200830
@@ -46,7 +51,6 @@
 
 * 1566.detect-pattern-of-length-m-repeated-k-or-more-times 重复至少 K 次且长度为 M 的模式
 
-
 ---
 ## 20200829
 * 657.robot-return-to-origin 机器人能否返回原点
@@ -56,7 +60,6 @@
 * 491.increasing-subsequences 递增子序列
 
 * 459.repeated-substring-pattern 重复的子字符串
-
 
 ---
 ## 20200823
@@ -78,18 +81,15 @@
 
 * 1556.thousand-separator 千位分隔数
 
-
 ---
 ## 20200822
 * 529.minesweeper 扫雷游戏
 
 * 648.replace-words 单词替换
 
-
 ---
 ## 20200819
 * 647.palindromic-substrings 回文子串
-
 
 ---
 ## 20200816
@@ -103,7 +103,6 @@
 
 * 1550.three-consecutive-odds 存在连续三个奇数的数组
 
-
 ---
 ## 20200815
 * 1537.get-the-maximum-score 最大得分
@@ -114,13 +113,11 @@
 
 * 1534.count-good-triplets 统计好三元组
 
-
 ---
 ## 20200811
 * 617.merge-two-binary-trees 合并二叉树
 
 * 696.count-binary-substrings 计数二进制子串
-
 
 ---
 ## 20200809
@@ -146,20 +143,17 @@
 
 * 1539.kth-missing-positive-number 第 k 个缺失的正整数
 
-
 ---
 ## 20200808
 * 956.tallest-billboard 最高的广告牌
 
 * 99.recover-binary-search-tree 恢复二叉搜索树
 
-
 ---
 ## 20200807
 * 336.palindrome-pairs 回文对
 
 * 343.integer-break 整数拆分
-
 
 ---
 ## 20200726
@@ -187,7 +181,6 @@
 
 * 1523.count-odd-numbers-in-an-interval-range 在区间范围内统计奇数数目
 
-
 ---
 ## 20200719
 * 1521.find-a-value-of-a-mysterious-function-closest-to-target 找到最接近目标值的函数值
@@ -198,11 +191,9 @@
 
 * 1518.water-bottles 换酒问题
 
-
 ---
 ## 20200717
 * 174.dungeon-game 地下城游戏
-
 
 ---
 ## 20200712
@@ -234,7 +225,6 @@
 
 * 1507.reformat-date 转变日期格式
 
-
 ---
 ## 20200705
 * 1505.minimum-possible-integer-after-at-most-k-adjacent-swaps-on-digits 最多 K 次交换相邻数位后得到的最小整数
@@ -245,11 +235,9 @@
 
 * 1502.can-make-arithmetic-progression-from-sequence 判断能否形成等差数列
 
-
 ---
 ## 20200704
 * 718.maximum-length-of-repeated-subarray 最长重复子数组
-
 
 ---
 ## 20200628
@@ -271,11 +259,9 @@
 
 * 1491.average-salary-excluding-the-minimum-and-maximum-salary 去掉最低工资和最高工资后的工资平均值
 
-
 ---
 ## 20200626
 * 946.validate-stack-sequences 验证栈序列
-
 
 ---
 ## 20200621
@@ -287,13 +273,11 @@
 
 * 1486.xor-operation-in-an-array 数组异或操作
 
-
 ---
 ## 20200619
 * 1014.best-sightseeing-pair 最佳观光组合
 
 * 1028.recover-a-tree-from-preorder-traversal 从先序遍历还原二叉树
-
 
 ---
 ## 20200614
