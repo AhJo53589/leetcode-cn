@@ -1,4 +1,8 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_5511 	special-positions-in-a-binary-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_5512 	count-unhappy-friends
+#define SOLUTION_CPP_FOLDER_NAME_ID_5513 	min-cost-to-connect-all-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_5514 	check-if-string-is-transformable-with-substring-sort-operations
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 20 	meChtZ
