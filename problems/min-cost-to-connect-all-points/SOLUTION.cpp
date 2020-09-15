@@ -3,42 +3,29 @@
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
-        if (points.size() == 1) return 0;
-        vi = vector<bool>(points.size(), false);
-        dis = vector<vector<int>>(points.size(), vector<int>(points.size(), -1));
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;
+        vector<bool> vi(points.size(), false);
+        int n = points.size();
         int ans = 0;
 
-        for (int i = 0; i < points.size(); i++) {
-            if (vi[i]) continue;
-            int d = INT_MAX;
-            int v = -1;
-            for (int j = 0; j < points.size(); j++) {
-                if (i == j) continue;
-                int temp = calcDistance(points, i, j);
-                if (temp < d) {
-                    d = temp;
-                    v = j;
-                }
-            }
-            ans += d;
-            vi[i] = true;
-            vi[v] = true;
-        }
+        pq.push({ 0, 0 });
+        while (!pq.empty() && n > 0) {
+            auto[d, p1] = pq.top();
+            pq.pop();
+            if (vi[p1]) continue;
 
+            ans += d;
+            vi[p1] = true;
+            n--;
+
+            for (int p2 = 0; p2 < points.size(); p2++) {
+                if (vi[p2]) continue;
+                int dis = abs(points[p1][0] - points[p2][0]) + abs(points[p1][1] - points[p2][1]);
+                pq.push({ dis, p2 });
+            }
+        }
         return ans;
     }
-
-    int calcDistance(vector<vector<int>>& points, int p1, int p2) {
-        if (p1 > p2) return calcDistance(points, p2, p1);
-        if (dis[p1][p2] == -1) {
-            dis[p1][p2] = abs(points[p1][0] - points[p2][0]) + abs(points[p1][1] - points[p2][1]);
-        }
-        return dis[p1][p2];
-    }
-
-private:
-    vector<bool> vi;
-    vector<vector<int>> dis;
 };
 
 //////////////////////////////////////////////////////////////////////////
