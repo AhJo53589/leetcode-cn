@@ -1,4 +1,4 @@
-# `（中等）` [5512.count-unhappy-friends 统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends/)
+# `（中等）` [1583.count-unhappy-friends 统计不开心的朋友](https://leetcode-cn.com/problems/count-unhappy-friends/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-206/problems/count-unhappy-friends/)
 

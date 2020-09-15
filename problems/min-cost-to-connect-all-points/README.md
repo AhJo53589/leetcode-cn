@@ -1,4 +1,4 @@
-# `（中等）` [5513.min-cost-to-connect-all-points 连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)
+# `（中等）` [1584.min-cost-to-connect-all-points 连接所有点的最小费用](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-206/problems/min-cost-to-connect-all-points/)
 

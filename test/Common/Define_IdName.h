@@ -1,14 +1,4 @@
 #pragma once
-#define SOLUTION_CPP_FOLDER_NAME_ID_5511 	special-positions-in-a-binary-matrix
-#define SOLUTION_CPP_FOLDER_NAME_ID_5512 	count-unhappy-friends
-#define SOLUTION_CPP_FOLDER_NAME_ID_5513 	min-cost-to-connect-all-points
-#define SOLUTION_CPP_FOLDER_NAME_ID_5514 	check-if-string-is-transformable-with-substring-sort-operations
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 20 	meChtZ
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 19 	UlBDOe
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 18 	2vYnGI
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 17 	nGK0Fy
 #define SOLUTION_CPP_FOLDER_NAME_ID_1 	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
@@ -707,6 +697,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1567 	maximum-length-of-subarray-with-positive-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_1568 	minimum-number-of-days-to-disconnect-island
 #define SOLUTION_CPP_FOLDER_NAME_ID_1569 	number-of-ways-to-reorder-array-to-get-same-bst
+#define SOLUTION_CPP_FOLDER_NAME_ID_1582 	special-positions-in-a-binary-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_1583 	count-unhappy-friends
+#define SOLUTION_CPP_FOLDER_NAME_ID_1584 	min-cost-to-connect-all-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_1585 	check-if-string-is-transformable-with-substring-sort-operations
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
@@ -731,3 +725,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_14 	qie-fen-shu-zu
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_15 	you-le-yuan-de-mi-gong
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_16 	you-le-yuan-de-you-lan-ji-hua
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 20 	meChtZ
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 19 	UlBDOe
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 18 	2vYnGI
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 17 	nGK0Fy

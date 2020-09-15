@@ -1,4 +1,4 @@
-# `（困难）` [5514.check-if-string-is-transformable-with-substring-sort-operations 检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode-cn.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)
+# `（困难）` [1585.check-if-string-is-transformable-with-substring-sort-operations 检查字符串是否可以通过排序子字符串得到另一个字符串](https://leetcode-cn.com/problems/check-if-string-is-transformable-with-substring-sort-operations/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-206/problems/check-if-string-is-transformable-with-substring-sort-operations/)
 

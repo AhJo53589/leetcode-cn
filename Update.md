@@ -3,13 +3,13 @@
 
 ---
 ## 20200913
-* 5514.check-if-string-is-transformable-with-substring-sort-operations 检查字符串是否可以通过排序子字符串得到另一个字符串
+* 1585.check-if-string-is-transformable-with-substring-sort-operations 检查字符串是否可以通过排序子字符串得到另一个字符串
 
-* 5513.min-cost-to-connect-all-points 连接所有点的最小费用
+* 1584.min-cost-to-connect-all-points 连接所有点的最小费用
 
-* 5512.count-unhappy-friends 统计不开心的朋友
+* 1583.count-unhappy-friends 统计不开心的朋友
 
-* 5511.special-positions-in-a-binary-matrix 二进制矩阵中的特殊位置
+* 1582.special-positions-in-a-binary-matrix 二进制矩阵中的特殊位置
 
 
 ---

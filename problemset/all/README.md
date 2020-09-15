@@ -5,16 +5,6 @@
 ## All
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
-| √ | 5511 | [special-positions-in-a-binary-matrix](../../problems/special-positions-in-a-binary-matrix) | [二进制矩阵中的特殊位置](../../problems/special-positions-in-a-binary-matrix/README.md) | [cpp](../../problems/special-positions-in-a-binary-matrix/SOLUTION.cpp) |   | 简单 | 
-| √ | 5512 | [count-unhappy-friends](../../problems/count-unhappy-friends) | [统计不开心的朋友](../../problems/count-unhappy-friends/README.md) | [cpp](../../problems/count-unhappy-friends/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-unhappy-friends/solution/count-unhappy-friends-by-ikaruga/) | 中等 | 
-|   | 5513 | [min-cost-to-connect-all-points](../../problems/min-cost-to-connect-all-points) | [连接所有点的最小费用](../../problems/min-cost-to-connect-all-points/README.md) | [cpp](../../problems/min-cost-to-connect-all-points/SOLUTION.cpp) |   | 中等 | 
-|   | 5514 | [check-if-string-is-transformable-with-substring-sort-operations](../../problems/check-if-string-is-transformable-with-substring-sort-operations) | [检查字符串是否可以通过排序子字符串得到另一个字符串](../../problems/check-if-string-is-transformable-with-substring-sort-operations/README.md) | [cpp](../../problems/check-if-string-is-transformable-with-substring-sort-operations/SOLUTION.cpp) |   | 困难 | 
-|   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 | 
-|   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 | 
-|   | LCP 20 | [meChtZ](../../problems/meChtZ) | [快速公交](../../problems/meChtZ/README.md) | [cpp](../../problems/meChtZ/SOLUTION.cpp) |   | 困难 | 
-| √ | LCP 19 | [UlBDOe](../../problems/UlBDOe) | [秋叶收藏集](../../problems/UlBDOe/README.md) | [cpp](../../problems/UlBDOe/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/UlBDOe/solution/ulbdoe-by-ikaruga/) | 中等 | 
-| √ | LCP 18 | [2vYnGI](../../problems/2vYnGI) | [早餐组合](../../problems/2vYnGI/README.md) | [cpp](../../problems/2vYnGI/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/2vYnGI/solution/2vyngi-by-ikaruga/) | 简单 | 
-| √ | LCP 17 | [nGK0Fy](../../problems/nGK0Fy) | [速算机器人](../../problems/nGK0Fy/README.md) | [cpp](../../problems/nGK0Fy/SOLUTION.cpp) |   | 简单 | 
 | √ | 1 | [two-sum](../../problems/two-sum) | [两数之和](../../problems/two-sum/README.md) | [cpp](../../problems/two-sum/SOLUTION.cpp) |   | 简单 |
 | √ | 2 | [add-two-numbers](../../problems/add-two-numbers) | [两数相加](../../problems/add-two-numbers/README.md) | [cpp](../../problems/add-two-numbers/SOLUTION.cpp) |   | 中等 |
 | √ | 3 | [longest-substring-without-repeating-characters](../../problems/longest-substring-without-repeating-characters) | [无重复字符的最长子串](../../problems/longest-substring-without-repeating-characters/README.md) | [cpp](../../problems/longest-substring-without-repeating-characters/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/longest-substring-without-repeating-characters/solution/longest-substring-without-repeating-characters-b-2/) | 中等 |
@@ -714,6 +704,10 @@
 | √ | 1567 | [maximum-length-of-subarray-with-positive-product](../../problems/maximum-length-of-subarray-with-positive-product) | [乘积为正数的最长子数组长度](../../problems/maximum-length-of-subarray-with-positive-product/README.md) | [cpp](../../problems/maximum-length-of-subarray-with-positive-product/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-length-of-subarray-with-positive-product/solution/maximum-length-of-subarray-by-ikaruga/) | 中等 | 
 | √ | 1568 | [minimum-number-of-days-to-disconnect-island](../../problems/minimum-number-of-days-to-disconnect-island) | [使陆地分离的最少天数](../../problems/minimum-number-of-days-to-disconnect-island/README.md) | [cpp](../../problems/minimum-number-of-days-to-disconnect-island/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-number-of-days-to-disconnect-island/solution/minimum-number-of-days-by-ikaruga/) | 中等 | 
 |   | 1569 | [number-of-ways-to-reorder-array-to-get-same-bst](../../problems/number-of-ways-to-reorder-array-to-get-same-bst) | [将子数组重新排序得到同一个二叉查找树的方案数](../../problems/number-of-ways-to-reorder-array-to-get-same-bst/README.md) | [cpp](../../problems/number-of-ways-to-reorder-array-to-get-same-bst/SOLUTION.cpp) |   | 困难 | 
+| √ | 1582 | [special-positions-in-a-binary-matrix](../../problems/special-positions-in-a-binary-matrix) | [二进制矩阵中的特殊位置](../../problems/special-positions-in-a-binary-matrix/README.md) | [cpp](../../problems/special-positions-in-a-binary-matrix/SOLUTION.cpp) |   | 简单 | 
+| √ | 1583 | [count-unhappy-friends](../../problems/count-unhappy-friends) | [统计不开心的朋友](../../problems/count-unhappy-friends/README.md) | [cpp](../../problems/count-unhappy-friends/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/count-unhappy-friends/solution/count-unhappy-friends-by-ikaruga/) | 中等 | 
+|   | 1584 | [min-cost-to-connect-all-points](../../problems/min-cost-to-connect-all-points) | [连接所有点的最小费用](../../problems/min-cost-to-connect-all-points/README.md) | [cpp](../../problems/min-cost-to-connect-all-points/SOLUTION.cpp) |   | 中等 | 
+|   | 1585 | [check-if-string-is-transformable-with-substring-sort-operations](../../problems/check-if-string-is-transformable-with-substring-sort-operations) | [检查字符串是否可以通过排序子字符串得到另一个字符串](../../problems/check-if-string-is-transformable-with-substring-sort-operations/README.md) | [cpp](../../problems/check-if-string-is-transformable-with-substring-sort-operations/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
@@ -747,3 +741,9 @@
 |   | LCP_14 | [qie-fen-shu-zu](../../problems/qie-fen-shu-zu) | [切分数组](../../problems/qie-fen-shu-zu/README.md) | [cpp](../../problems/qie-fen-shu-zu/SOLUTION.cpp) |   | 困难 |
 |   | LCP_15 | [you-le-yuan-de-mi-gong](../../problems/you-le-yuan-de-mi-gong) | [游乐园的迷宫](../../problems/you-le-yuan-de-mi-gong/README.md) | [cpp](../../problems/you-le-yuan-de-mi-gong/SOLUTION.cpp) |   | 困难 |
 |   | LCP_16 | [you-le-yuan-de-you-lan-ji-hua](../../problems/you-le-yuan-de-you-lan-ji-hua) | [游乐园的游览计划](../../problems/you-le-yuan-de-you-lan-ji-hua/README.md) | [cpp](../../problems/you-le-yuan-de-you-lan-ji-hua/SOLUTION.cpp) |   | 困难 |
+## season/2020-fall
+| √ | LCP 17 | [nGK0Fy](../../problems/nGK0Fy) | [速算机器人](../../problems/nGK0Fy/README.md) | [cpp](../../problems/nGK0Fy/SOLUTION.cpp) |   | 简单 | 
+| √ | LCP 18 | [2vYnGI](../../problems/2vYnGI) | [早餐组合](../../problems/2vYnGI/README.md) | [cpp](../../problems/2vYnGI/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/2vYnGI/solution/2vyngi-by-ikaruga/) | 简单 | 
+| √ | LCP 19 | [UlBDOe](../../problems/UlBDOe) | [秋叶收藏集](../../problems/UlBDOe/README.md) | [cpp](../../problems/UlBDOe/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/UlBDOe/solution/ulbdoe-by-ikaruga/) | 中等 |
+|   | LCP 20 | [meChtZ](../../problems/meChtZ) | [快速公交](../../problems/meChtZ/README.md) | [cpp](../../problems/meChtZ/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 | 

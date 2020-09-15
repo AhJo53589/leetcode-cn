@@ -1,4 +1,4 @@
-# `（简单）` [5511.special-positions-in-a-binary-matrix 二进制矩阵中的特殊位置](https://leetcode-cn.com/problems/special-positions-in-a-binary-matrix/)
+# `（简单）` [1582.special-positions-in-a-binary-matrix 二进制矩阵中的特殊位置](https://leetcode-cn.com/problems/special-positions-in-a-binary-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-206/problems/special-positions-in-a-binary-matrix/)
 
