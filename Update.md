@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20200917
+* 684.redundant-connection 冗余连接
+
+
+---
 ## 20200913
 * 1585.check-if-string-is-transformable-with-substring-sort-operations 检查字符串是否可以通过排序子字符串得到另一个字符串
 
