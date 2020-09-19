@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20200920
+* 5506.strange-printer-ii 奇怪的打印机 II
+
+* 5504.make-sum-divisible-by-p 使数组和能被 P 整除
+
+* 5505.maximum-sum-obtained-of-any-permutation 所有排列中的最大和
+
+* 5503.sum-of-all-odd-length-subarrays 所有奇数长度子数组的和
+
+
+---
 ## 20200919
 * 404.sum-of-left-leaves 左叶子之和
 
