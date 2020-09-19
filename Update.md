@@ -3,6 +3,8 @@
 
 ---
 ## 20200919
+* 404.sum-of-left-leaves 左叶子之和
+
 * LCP 27.IQvJ9i 黑盒光线反射
 
 * LCP 26.hSRGyL 导航装置

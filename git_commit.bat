@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"LCP 27.IQvJ9i"
+git commit -m"404.sum-of-left-leaves"
 git push
