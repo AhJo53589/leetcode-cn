@@ -2,6 +2,21 @@
 [返回](./README.md)
 
 ---
+## 20200919
+* LCP 27.IQvJ9i 黑盒光线反射
+
+* LCP 26.hSRGyL 导航装置
+
+* LCP 25.Uh984O 古董键盘
+
+* LCP 24.5TxKeK 数字游戏
+
+* LCP 23.er94lq 魔术排列
+
+* LCP 22.ccw6C7 黑白方格画
+
+
+---
 ## 20200917
 * 684.redundant-connection 冗余连接
 

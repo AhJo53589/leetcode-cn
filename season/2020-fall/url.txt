@@ -3,3 +3,9 @@ https://leetcode-cn.com/contest/season/2020-fall/problems/2vYnGI/
 https://leetcode-cn.com/contest/season/2020-fall/problems/UlBDOe/
 https://leetcode-cn.com/contest/season/2020-fall/problems/meChtZ/
 https://leetcode-cn.com/contest/season/2020-fall/problems/Za25hA/
+https://leetcode-cn.com/contest/season/2020-fall/problems/ccw6C7/
+https://leetcode-cn.com/contest/season/2020-fall/problems/er94lq/
+https://leetcode-cn.com/contest/season/2020-fall/problems/5TxKeK/
+https://leetcode-cn.com/contest/season/2020-fall/problems/Uh984O/
+https://leetcode-cn.com/contest/season/2020-fall/problems/hSRGyL/
+https://leetcode-cn.com/contest/season/2020-fall/problems/IQvJ9i/

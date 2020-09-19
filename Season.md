@@ -10,6 +10,7 @@
 | 2019/9/24  | [2019 力扣杯 - 全国秋季编程大赛](./season/2019-fall/README.md) | 3 / 5 | 220 / 1541 |
 | 2020/1/18  | [可能是己亥年最有趣的比赛](./season/sf-2020/README.md) | 2 / 8 | 94 / 1166 |
 | 2020/4/18  | [2020 力扣杯！Code Your Future 春季全国编程大赛 个人赛](./season/2020-spring/README.md) | 4 / 5 | 198 / 9293 |
-| 2020/4/25  | [2020 力扣杯！Code Your Future 春季全国编程大赛 团队赛](./season/2020-spring/README.md) | 3 / 5 | 80 / 2702 |
+| 2020/4/25  | [2020 力扣杯！Code Your Future 春季全国编程大赛 团队赛](./season/2020-spring/README.md) | 3 / 6 | 80 / 2702 |
 | 2020/9/12  | [力扣杯 秋季编程大赛 个人赛](./season/2020-fall/README.md) | 3 / 5 | 446 / 8766 |
-| 2020/9/19  | [力扣杯 秋季编程大赛 团队赛](./season/2020-fall/README.md) |   |   |
+| 2020/9/19  | [力扣杯 秋季编程大赛 团队赛](./season/2020-fall/README.md) | 2 / 6 | 375 / 853 |
+

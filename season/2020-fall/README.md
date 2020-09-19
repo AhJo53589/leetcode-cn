@@ -21,7 +21,11 @@
 
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
-| √ |   | [na-ying-bi](../../problems/na-ying-bi) | [拿硬币](../../problems/na-ying-bi/README.md) | [cpp](../../problems/na-ying-bi/SOLUTION.cpp) |   | 简单 |
+| √ | LCP 17 | [nGK0Fy](../../problems/nGK0Fy) | [速算机器人](../../problems/nGK0Fy/README.md) | [cpp](../../problems/nGK0Fy/SOLUTION.cpp) |   | 简单 |
+| √ | LCP 18 | [2vYnGI](../../problems/2vYnGI) | [早餐组合](../../problems/2vYnGI/README.md) | [cpp](../../problems/2vYnGI/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/2vYnGI/solution/2vyngi-by-ikaruga/) | 简单 |
+| √ | LCP 19 | [UlBDOe](../../problems/UlBDOe) | [秋叶收藏集](../../problems/UlBDOe/README.md) | [cpp](../../problems/UlBDOe/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/UlBDOe/solution/ulbdoe-by-ikaruga/) | 中等 |
+|   | LCP 20 | [meChtZ](../../problems/meChtZ) | [快速公交](../../problems/meChtZ/README.md) | [cpp](../../problems/meChtZ/SOLUTION.cpp) |   | 困难 |
+|   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 |
 
 ## [排名](https://leetcode-cn.com/contest/season/2020-fall/ranking/solo/)
 
@@ -49,7 +53,12 @@
 
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
-| √ | LCP_11 | [qi-wang-ge-shu-tong-ji](../../problems/qi-wang-ge-shu-tong-ji) | [期望个数统计](../../problems/qi-wang-ge-shu-tong-ji/README.md) | [cpp](../../problems/qi-wang-ge-shu-tong-ji/SOLUTION.cpp) |   | 简单 |
+| √ | LCP 22 | [ccw6C7](../../problems/ccw6C7) | [黑白方格画](../../problems/ccw6C7/README.md) | [cpp](../../problems/ccw6C7/SOLUTION.cpp) |   | 简单 |
+| √ | LCP 23 | [er94lq](../../problems/er94lq) | [魔术排列](../../problems/er94lq/README.md) | [cpp](../../problems/er94lq/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/er94lq/solution/er94lq-by-ikaruga/) | 中等 |
+|   | LCP 24 | [5TxKeK](../../problems/5TxKeK) | [数字游戏](../../problems/5TxKeK/README.md) | [cpp](../../problems/5TxKeK/SOLUTION.cpp) |  | 困难 |
+|   | LCP 25 | [Uh984O](../../problems/Uh984O) | [古董键盘](../../problems/Uh984O/README.md) | [cpp](../../problems/Uh984O/SOLUTION.cpp) |   | 困难 |
+|   | LCP 26 | [hSRGyL](../../problems/hSRGyL) | [导航装置](../../problems/hSRGyL/README.md) | [cpp](../../problems/hSRGyL/SOLUTION.cpp) |   | 困难 |
+|   | LCP 27 | [IQvJ9i](../../problems/IQvJ9i) | [黑盒光线反射](../../problems/IQvJ9i/README.md) | [cpp](../../problems/IQvJ9i/SOLUTION.cpp) |   | 困难 |
 
 
 ## [排名](https://leetcode-cn.com/contest/season/2020-fall/ranking/team/)

@@ -1,0 +1,6 @@
+["BlackBox","open","open","open","close","open"]
+[[2,3],[6,-1],[4,-1],[0,-1],[6],[0,-1]]
+[null,6,4,6,null,4]
+["BlackBox","open","open","open","open","close","open","close","open"]
+[[3,3],[1,-1],[5,1],[11,-1],[11,1],[1],[11,1],[5],[11,-1]]
+[null,1,1,5,1,null,5,null,11]
