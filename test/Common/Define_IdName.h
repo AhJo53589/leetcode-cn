@@ -707,6 +707,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5504 	make-sum-divisible-by-p
 #define SOLUTION_CPP_FOLDER_NAME_ID_5505 	maximum-sum-obtained-of-any-permutation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5506 	strange-printer-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5519 	rearrange-spaces-between-words
+#define SOLUTION_CPP_FOLDER_NAME_ID_5520 	split-a-string-into-the-max-number-of-unique-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5521 	maximum-non-negative-product-in-a-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_5522 	minimum-cost-to-connect-two-groups-of-points
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
@@ -731,14 +735,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_14 	qie-fen-shu-zu
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_15 	you-le-yuan-de-mi-gong
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_16 	you-le-yuan-de-you-lan-ji-hua
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 17 	nGK0Fy
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 18 	2vYnGI
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 19 	UlBDOe
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 20 	meChtZ
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 21 	Za25hA
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 22 	ccw6C7
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 23 	er94lq
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 24 	5TxKeK
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 25 	Uh984O
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 26 	hSRGyL
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 27 	IQvJ9i
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_17 	nGK0Fy
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_18 	2vYnGI
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_19 	UlBDOe
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_20 	meChtZ
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_21 	Za25hA
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_22 	ccw6C7
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_23 	er94lq
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_24 	5TxKeK
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_25 	Uh984O
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_26 	hSRGyL
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_27 	IQvJ9i

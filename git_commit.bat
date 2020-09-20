@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5506.strange-printer-ii"
+git commit -m"5522.minimum-cost-to-connect-two-groups-of-points"
 git push

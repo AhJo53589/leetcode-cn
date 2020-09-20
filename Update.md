@@ -3,6 +3,14 @@
 
 ---
 ## 20200920
+* 5522.minimum-cost-to-connect-two-groups-of-points 连通两组点的最小成本
+
+* 5521.maximum-non-negative-product-in-a-matrix 矩阵的最大非负积
+
+* 5520.split-a-string-into-the-max-number-of-unique-substrings 拆分字符串使唯一子字符串的数目最大
+
+* 5519.rearrange-spaces-between-words 重新排列单词间的空格
+
 * 5506.strange-printer-ii 奇怪的打印机 II
 
 * 5504.make-sum-divisible-by-p 使数组和能被 P 整除
