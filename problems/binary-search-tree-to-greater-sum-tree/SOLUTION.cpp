@@ -2,27 +2,27 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& nums, int target) {
-        int i = 0;
-        int j = nums.size() - 1;
-        while (i < j) {
-            if (nums[i] + nums[j] == target) return { nums[i], nums[j] };
-            if (nums[i] + nums[j] < target) i++;
-            if (nums[i] + nums[j] > target) j--;
-        }
-        return {};
+    TreeNode* bstToGst(TreeNode* root) {
+        dfs(root, 0);
+        return root;
+    }
+
+    int dfs(TreeNode* root, int add) {
+        if (root == nullptr) return add;
+        root->val += dfs(root->right, add);
+        return dfs(root->left, root->val);
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<int>& nums, int target)
+TreeNode* _solution_run(TreeNode* root)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.twoSum(nums, target);
+	return sln.bstToGst(root);
 }
 
 //#define USE_SOLUTION_CUSTOM

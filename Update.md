@@ -2,6 +2,13 @@
 [返回](./README.md)
 
 ---
+## 20200921
+* 1038.binary-search-tree-to-greater-sum-tree 从二叉搜索树到更大和树
+
+* 538.convert-bst-to-greater-tree 把二叉搜索树转换为累加树
+
+
+---
 ## 20200920
 * 5522.minimum-cost-to-connect-two-groups-of-points 连通两组点的最小成本
 

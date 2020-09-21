@@ -299,6 +299,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
 #define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_529 	minesweeper
+#define SOLUTION_CPP_FOLDER_NAME_ID_538 	convert-bst-to-greater-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
@@ -393,6 +394,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_1028 	recover-a-tree-from-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_1037 	valid-boomerang
+#define SOLUTION_CPP_FOLDER_NAME_ID_1038 	binary-search-tree-to-greater-sum-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_1071 	greatest-common-divisor-of-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1095 	find-in-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people
