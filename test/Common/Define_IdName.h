@@ -195,6 +195,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_239 	sliding-window-maximum
 #define SOLUTION_CPP_FOLDER_NAME_ID_240 	search-a-2d-matrix-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_242 	valid-anagram
+#define SOLUTION_CPP_FOLDER_NAME_ID_249 	group-shifted-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_257 	binary-tree-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_258 	add-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_263 	ugly-number
@@ -202,6 +203,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_278 	first-bad-version
 #define SOLUTION_CPP_FOLDER_NAME_ID_279 	perfect-squares
 #define SOLUTION_CPP_FOLDER_NAME_ID_283 	move-zeroes
+#define SOLUTION_CPP_FOLDER_NAME_ID_286 	walls-and-gates
 #define SOLUTION_CPP_FOLDER_NAME_ID_287 	find-the-duplicate-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_289 	game-of-life
 #define SOLUTION_CPP_FOLDER_NAME_ID_290 	word-pattern
@@ -292,6 +294,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
 #define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
+#define SOLUTION_CPP_FOLDER_NAME_ID_501 	find-mode-in-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_503 	next-greater-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_504 	base-7
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
@@ -384,6 +387,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_956 	tallest-billboard
+#define SOLUTION_CPP_FOLDER_NAME_ID_968 	binary-tree-cameras
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k
 #define SOLUTION_CPP_FOLDER_NAME_ID_990 	satisfiability-of-equality-equations
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
@@ -713,6 +717,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5520 	split-a-string-into-the-max-number-of-unique-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5521 	maximum-non-negative-product-in-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5522 	minimum-cost-to-connect-two-groups-of-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_5523 	crawler-log-folder
+#define SOLUTION_CPP_FOLDER_NAME_ID_5524 	maximum-profit-of-operating-a-centennial-wheel
+#define SOLUTION_CPP_FOLDER_NAME_ID_5525 	throne-inheritance
+#define SOLUTION_CPP_FOLDER_NAME_ID_5526 	maximum-number-of-achievable-transfer-requests
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

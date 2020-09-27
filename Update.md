@@ -2,6 +2,31 @@
 [返回](./README.md)
 
 ---
+## 20200927
+* 5526.maximum-number-of-achievable-transfer-requests 最多可达成的换楼请求数目
+
+* 5525.throne-inheritance 皇位继承顺序
+
+* 5524.maximum-profit-of-operating-a-centennial-wheel 经营摩天轮的最大利润
+
+* 5523.crawler-log-folder 文件夹操作日志搜集器
+
+
+---
+## 20200924
+* 501.find-mode-in-binary-search-tree 二叉搜索树中的众数
+
+
+---
+## 20200922
+* 249.group-shifted-strings 移位字符串分组
+
+* 286.walls-and-gates 墙与门
+
+* 968.binary-tree-cameras 监控二叉树
+
+
+---
 ## 20200921
 * 1038.binary-search-tree-to-greater-sum-tree 从二叉搜索树到更大和树
 
