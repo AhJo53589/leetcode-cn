@@ -709,6 +709,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1583 	count-unhappy-friends
 #define SOLUTION_CPP_FOLDER_NAME_ID_1584 	min-cost-to-connect-all-points
 #define SOLUTION_CPP_FOLDER_NAME_ID_1585 	check-if-string-is-transformable-with-substring-sort-operations
+#define SOLUTION_CPP_FOLDER_NAME_ID_1603 	design-parking-system
+#define SOLUTION_CPP_FOLDER_NAME_ID_1604 	alert-using-same-key-card-three-or-more-times-in-a-one-hour-period
+#define SOLUTION_CPP_FOLDER_NAME_ID_1605 	find-valid-matrix-given-row-and-column-sums
+#define SOLUTION_CPP_FOLDER_NAME_ID_1606 	find-servers-that-handled-most-number-of-requests
 #define SOLUTION_CPP_FOLDER_NAME_ID_5503 	sum-of-all-odd-length-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5504 	make-sum-divisible-by-p
 #define SOLUTION_CPP_FOLDER_NAME_ID_5505 	maximum-sum-obtained-of-any-permutation

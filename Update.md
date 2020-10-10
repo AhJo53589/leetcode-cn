@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20201010
+* 1606.find-servers-that-handled-most-number-of-requests 找到处理最多请求的服务器
+
+* 1605.find-valid-matrix-given-row-and-column-sums 给定行和列的和求可行矩阵
+
+* 1604.alert-using-same-key-card-three-or-more-times-in-a-one-hour-period 警告一小时内使用相同员工卡大于等于三次的人
+
+* 1603.design-parking-system 设计停车系统
+
+
+---
 ## 20200927
 * 5526.maximum-number-of-achievable-transfer-requests 最多可达成的换楼请求数目
 
