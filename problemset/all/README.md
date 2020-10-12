@@ -311,6 +311,7 @@
 | √ | 520 | [detect-capital](../../problems/detect-capital) | [检测大写字母](../../problems/detect-capital/README.md) | [cpp](../../problems/detect-capital/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/detect-capital/solution/detect-capital-by-ikaruga/) | 简单 |
 | √ | 521 | [longest-uncommon-subsequence-i](../../problems/longest-uncommon-subsequence-i) | [最长特殊序列 Ⅰ](../../problems/longest-uncommon-subsequence-i/README.md) | [cpp](../../problems/longest-uncommon-subsequence-i/SOLUTION.cpp) |   | 简单 |
 | √ | 529 | [minesweeper](../../problems/minesweeper) | [扫雷游戏](../../problems/minesweeper/README.md) | [cpp](../../problems/minesweeper/SOLUTION.cpp) |   | 中等 |
+| √ | 530 | [minimum-absolute-difference-in-bst](../../problems/minimum-absolute-difference-in-bst) | [二叉搜索树的最小绝对差](../../problems/minimum-absolute-difference-in-bst/README.md) | [cpp](../../problems/minimum-absolute-difference-in-bst/SOLUTION.cpp) |   | 简单 | 
 | √ | 538 | [convert-bst-to-greater-tree](../../problems/convert-bst-to-greater-tree) | [把二叉搜索树转换为累加树](../../problems/convert-bst-to-greater-tree/README.md) | [cpp](../../problems/convert-bst-to-greater-tree/SOLUTION.cpp) |   | 简单 | 
 | √ | 541 | [reverse-string-ii](../../problems/reverse-string-ii) | [反转字符串 II](../../problems/reverse-string-ii/README.md) | [cpp](../../problems/reverse-string-ii/SOLUTION.cpp) |   | 简单 |
 | √ | 542 | [01-matrix](../../problems/01-matrix) | [01](../../problems/01-matrix/README.md) | [cpp](../../problems/01-matrix/SOLUTION.cpp) |   | 中等 |
@@ -372,6 +373,7 @@
 | √ | 752 | [open-the-lock](../../problems/open-the-lock) | [打开转盘锁](../../problems/open-the-lock/README.md) | [cpp](../../problems/open-the-lock/SOLUTION.cpp) |   | 中等 |
 | √ | 771 | [jewels-and-stones](../../problems/jewels-and-stones) | [宝石与石头](../../problems/jewels-and-stones/README.md) | [cpp](../../problems/jewels-and-stones/SOLUTION.cpp) |   | 简单 |
 | √ | 779 | [k-th-symbol-in-grammar](../../problems/k-th-symbol-in-grammar) | [第K个语法符号](../../problems/k-th-symbol-in-grammar/README.md) | [cpp](../../problems/k-th-symbol-in-grammar/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/k-th-symbol-in-grammar/solution/di-kge-yu-fa-fu-hao-by-ikaruga-2/)  | 中等 |
+| √ | 783 | [minimum-distance-between-bst-nodes](../../problems/minimum-distance-between-bst-nodes) | [二叉搜索树节点最小距离](../../problems/minimum-distance-between-bst-nodes/README.md) | [cpp](../../problems/minimum-distance-between-bst-nodes/SOLUTION.cpp) |   | 简单 | 
 | √ | 788 | [rotated-digits](../../problems/rotated-digits) | [旋转数字](../../problems/rotated-digits/README.md) | [cpp](../../problems/rotated-digits/SOLUTION.cpp) |   | 简单 |
 | √ | 819 | [most-common-word](../../problems/most-common-word) | [最常见的单词](../../problems/most-common-word/README.md) | [cpp](../../problems/most-common-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/most-common-word/solution/most-common-word-by-ikaruga/) | 简单 |
 | √ | 820 | [short-encoding-of-words](../../problems/short-encoding-of-words) | [单词的压缩编码](../../problems/short-encoding-of-words/README.md) | [cpp](../../problems/short-encoding-of-words/SOLUTION.cpp) |   | 中等 |

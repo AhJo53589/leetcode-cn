@@ -302,6 +302,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
 #define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_529 	minesweeper
+#define SOLUTION_CPP_FOLDER_NAME_ID_530 	minimum-absolute-difference-in-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_538 	convert-bst-to-greater-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
@@ -364,6 +365,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
+#define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words

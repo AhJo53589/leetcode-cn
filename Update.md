@@ -2,6 +2,13 @@
 [返回](./README.md)
 
 ---
+## 20201012
+* 783.minimum-distance-between-bst-nodes 二叉搜索树节点最小距离
+
+* 530.minimum-absolute-difference-in-bst 二叉搜索树的最小绝对差
+
+
+---
 ## 20201011
 * 5538.count-subtrees-with-max-distance-between-cities 统计子树中城市之间最大距离
 
