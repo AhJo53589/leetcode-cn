@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201014
+* 1002.find-common-characters 查找常用字符
+
+
+---
 ## 20201012
 * 783.minimum-distance-between-bst-nodes 二叉搜索树节点最小距离
 

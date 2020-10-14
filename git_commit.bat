@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"783.minimum-distance-between-bst-nodes"
+git commit -m"1002.find-common-characters"
 git push
