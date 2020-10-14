@@ -1,0 +1,3 @@
+"abcdefg"
+2
+"cdefgab"
