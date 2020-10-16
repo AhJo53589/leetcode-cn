@@ -391,6 +391,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_956 	tallest-billboard
 #define SOLUTION_CPP_FOLDER_NAME_ID_968 	binary-tree-cameras
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_977 	squares-of-a-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_990 	satisfiability-of-equality-equations
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook

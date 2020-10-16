@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1002.find-common-characters"
+git commit -m"977.squares-of-a-sorted-array"
 git push
