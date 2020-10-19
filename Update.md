@@ -2,9 +2,29 @@
 [返回](./README.md)
 
 ---
+## 20201018
+* 665.non-decreasing-array 非递减数列
+
+* 5528.coordinate-with-maximum-network-quality 网络信号最好的坐标
+
+* 5530.fancy-sequence 奇妙序列
+
+* 5527.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目
+
+* 5527.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目
+
+* 5528.coordinate-with-maximum-network-quality 网络信号最好的坐标
+
+* 5122.mean-of-array-after-removing-some-elements 删除某些元素后的数组均值
+
+
+---
 ## 20201016
 * 977.squares-of-a-sorted-array 有序数组的平方
 
+---
+## 20201015
+* 116.populating-next-right-pointers-in-each-node 填充每个节点的下一个右侧节点指针
 
 ---
 ## 20201014

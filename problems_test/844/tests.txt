@@ -1,0 +1,15 @@
+"ab#c"
+"ad#c"
+true
+"ab##"
+"c#d#"
+true
+"a##c"
+"#a#c"
+true
+"a#c"
+"b"
+false
+"y#fo##f"
+"y#f#o##f"
+true

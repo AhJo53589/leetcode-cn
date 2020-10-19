@@ -42,17 +42,29 @@
 ```
 ```
 
+[发布的题解](https://leetcode-cn.com/problems/populating-next-right-pointers-in-each-node/solution/populating-next-right-pointers-by-ikaruga/)
+
 ### 答题
 ``` C++
-Node* connect(Node* root)
-{
-	if (root == nullptr) return {};
+class Solution {
+public:
+    Node* connect(Node* root) {
+        if (root == nullptr) return {};
 
-	if (root->left != nullptr && root->right != nullptr) root->left->next = root->right;
-	if (root->next != nullptr && root->next->left != nullptr) root->right->next = root->next->left;
+        if (root->left != nullptr && root->right != nullptr) {
+            root->left->next = root->right;
+        } 
+        if (root->next != nullptr && root->next->left != nullptr) {
+            root->right->next = root->next->left;
+        }
 
-	connect(root->left);
-	connect(root->right);
-	return root;
-}
+        connect(root->left);
+        connect(root->right);
+        return root;
+    }
+};
 ```
+
+
+
+
