@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201019
+* 844.backspace-string-compare 比较含退格的字符串
+
+
+---
 ## 20201018
 * 665.non-decreasing-array 非递减数列
 
