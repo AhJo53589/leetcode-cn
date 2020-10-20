@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201020
+* 143.reorder-list 重排链表
+
+
+---
 ## 20201019
 * 844.backspace-string-compare 比较含退格的字符串
 
