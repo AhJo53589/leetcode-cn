@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"143.reorder-list"
+git commit -m"925.long-pressed-name"
 git push

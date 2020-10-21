@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201021
+* 925.long-pressed-name 长按键入
+
+
+---
 ## 20201020
 * 143.reorder-list 重排链表
 

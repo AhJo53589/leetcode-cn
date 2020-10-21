@@ -386,6 +386,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_922 	sort-array-by-parity-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_925 	long-pressed-name
 #define SOLUTION_CPP_FOLDER_NAME_ID_933 	number-of-recent-calls
 #define SOLUTION_CPP_FOLDER_NAME_ID_945 	minimum-increment-to-make-array-unique
 #define SOLUTION_CPP_FOLDER_NAME_ID_946 	validate-stack-sequences
