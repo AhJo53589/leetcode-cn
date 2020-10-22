@@ -365,6 +365,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_747 	largest-number-at-least-twice-of-others
 #define SOLUTION_CPP_FOLDER_NAME_ID_748 	shortest-completing-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
+#define SOLUTION_CPP_FOLDER_NAME_ID_763 	partition-labels
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes

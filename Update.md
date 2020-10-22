@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201022
+* 763.partition-labels 划分字母区间
+
+
+---
 ## 20201021
 * 925.long-pressed-name 长按键入
 
