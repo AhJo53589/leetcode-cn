@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201024
+* 1024.video-stitching 视频拼接
+
+
+---
 ## 20201022
 * 763.partition-labels 划分字母区间
 
