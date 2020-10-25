@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20201025
+* 5156.rank-transform-of-a-matrix 矩阵转换后的秩
+
+* 5548.path-with-minimum-effort 最小体力消耗路径
+
+* 5547.arithmetic-subarrays 等差子数组
+
+* 5546.slowest-key 按键持续时间最长的键
+
+
+---
 ## 20201024
 * 1024.video-stitching 视频拼接
 
