@@ -62,6 +62,8 @@
 | 1418 | [display-table-of-food-orders-in-a-restaurant](./problems/display-table-of-food-orders-in-a-restaurant) | [【点菜展示表】合理保存](https://leetcode-cn.com/problems/display-table-of-food-orders-in-a-restaurant/solution/display-table-of-food-orders-in-a-restaurant-by-ik/) |
 | 1488 | [avoid-flood-in-the-city](./problems/avoid-flood-in-the-city) | [【避免洪水泛滥】贪心 + 二分](https://leetcode-cn.com/problems/avoid-flood-in-the-city/solution/avoid-flood-in-the-city-by-ikaruga/) |
 | 1530 | [number-of-good-leaf-nodes-pairs](./problems/number-of-good-leaf-nodes-pairs) | [【好叶子节点对的数量】后序遍历](https://leetcode-cn.com/problems/number-of-good-leaf-nodes-pairs/solution/good-leaf-nodes-pairs-by-ikaruga/) |
+| 1616 | [split-two-strings-to-make-palindrome](./problems/split-two-strings-to-make-palindrome) | [【分割两个字符串得到回文串】中心扩展](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/solution/split-two-strings-to-make-palindrome-by-ikaruga/) |
+
 [查看全部](./Solutions.md)
 
 ## Problemset / All 题库
