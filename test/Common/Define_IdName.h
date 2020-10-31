@@ -246,6 +246,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_377 	combination-sum-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
+#define SOLUTION_CPP_FOLDER_NAME_ID_381 	insert-delete-getrandom-o1-duplicates-allowed
 #define SOLUTION_CPP_FOLDER_NAME_ID_383 	ransom-note
 #define SOLUTION_CPP_FOLDER_NAME_ID_384 	shuffle-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_387 	first-unique-character-in-a-string
@@ -375,6 +376,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
+#define SOLUTION_CPP_FOLDER_NAME_ID_845 	longest-mountain-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_868 	binary-gap
 #define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation
@@ -723,6 +725,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1604 	alert-using-same-key-card-three-or-more-times-in-a-one-hour-period
 #define SOLUTION_CPP_FOLDER_NAME_ID_1605 	find-valid-matrix-given-row-and-column-sums
 #define SOLUTION_CPP_FOLDER_NAME_ID_1606 	find-servers-that-handled-most-number-of-requests
+#define SOLUTION_CPP_FOLDER_NAME_ID_1608 	special-array-with-x-elements-greater-than-or-equal-x
+#define SOLUTION_CPP_FOLDER_NAME_ID_1609 	even-odd-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_1610 	maximum-number-of-visible-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_1611 	minimum-one-bit-operations-to-make-integers-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_1616 	split-two-strings-to-make-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_5122 	mean-of-array-after-removing-some-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5156 	rank-transform-of-a-matrix

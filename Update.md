@@ -2,6 +2,21 @@
 [返回](./README.md)
 
 ---
+## 20201031
+* 1611.minimum-one-bit-operations-to-make-integers-zero 使整数变为 0 的最少操作次数
+
+* 1610.maximum-number-of-visible-points 可见点的最大数目
+
+* 1609.even-odd-tree 奇偶树
+
+* 1608.special-array-with-x-elements-greater-than-or-equal-x 特殊数组的特征值
+
+* 381.insert-delete-getrandom-o1-duplicates-allowed O(1) 时间插入、删除和获取随机元素 - 允许重复
+
+* 845.longest-mountain-in-array 数组中的最长山脉
+
+
+---
 ## 20201025
 * 5156.rank-transform-of-a-matrix 矩阵转换后的秩
 
