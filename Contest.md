@@ -90,3 +90,4 @@
 | 2020/10/11 | [第 210 场周赛](./contest/weekly-contest-210/README.md)  | 3 / 4 | 734 / 4006 |
 | 2020/10/17 | [第 37 场双周赛](./contest/biweekly-contest-37/README.md) | 2 / 4 | 598 / 2104 |
 | 2020/10/25 | [第 212 场周赛](./contest/weekly-contest-212/README.md)  | 3 / 4 | 278 / 4226 |
+| 2020/10/31 | [第 38 场双周赛](./contest/biweekly-contest-38/README.md) | 3 / 4 | 250 / 2004 |

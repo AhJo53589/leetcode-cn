@@ -751,6 +751,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5536 	maximal-network-rank
 #define SOLUTION_CPP_FOLDER_NAME_ID_5537 	split-two-strings-to-make-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_5538 	count-subtrees-with-max-distance-between-cities
+#define SOLUTION_CPP_FOLDER_NAME_ID_5539 	sort-array-by-increasing-frequency
+#define SOLUTION_CPP_FOLDER_NAME_ID_5540 	widest-vertical-area-between-two-points-containing-no-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_5541 	count-substrings-that-differ-by-one-character
+#define SOLUTION_CPP_FOLDER_NAME_ID_5542 	number-of-ways-to-form-a-target-string-given-a-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_5546 	slowest-key
 #define SOLUTION_CPP_FOLDER_NAME_ID_5547 	arithmetic-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5548 	path-with-minimum-effort

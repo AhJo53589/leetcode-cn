@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1611.minimum-one-bit-operations-to-make-integers-zero"
+git commit -m"5542.number-of-ways-to-form-a-target-string-given-a-dictionary"
 git push

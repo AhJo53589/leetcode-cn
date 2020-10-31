@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20201101
+* 5542.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数
+
+* 5541.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目
+
+* 5540.widest-vertical-area-between-two-points-containing-no-points 两点之间不包含任何点的最宽垂直面积
+
+* 5539.sort-array-by-increasing-frequency 按照频率将数组升序排序
+
+
+---
 ## 20201031
 * 1611.minimum-one-bit-operations-to-make-integers-zero 使整数变为 0 的最少操作次数
 
