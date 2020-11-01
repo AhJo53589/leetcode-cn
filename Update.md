@@ -3,6 +3,14 @@
 
 ---
 ## 20201101
+* 5600.kth-smallest-instructions 第 K 条最小指令
+
+* 5556.furthest-building-you-can-reach 可以到达的最远建筑
+
+* 5555.count-sorted-vowel-strings 统计字典序元音字符串的数目
+
+* 5554.check-array-formation-through-concatenation 能否连接形成数组
+
 * 5542.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数
 
 * 5541.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目

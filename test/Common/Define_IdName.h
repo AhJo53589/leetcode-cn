@@ -758,6 +758,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5546 	slowest-key
 #define SOLUTION_CPP_FOLDER_NAME_ID_5547 	arithmetic-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5548 	path-with-minimum-effort
+#define SOLUTION_CPP_FOLDER_NAME_ID_5554 	check-array-formation-through-concatenation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5555 	count-sorted-vowel-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5556 	furthest-building-you-can-reach
+#define SOLUTION_CPP_FOLDER_NAME_ID_5600 	kth-smallest-instructions
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
