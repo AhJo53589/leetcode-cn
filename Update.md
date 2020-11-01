@@ -3,6 +3,8 @@
 
 ---
 ## 20201101
+* 5554.check-array-formation-through-concatenation 能否连接形成数组
+
 * 5600.kth-smallest-instructions 第 K 条最小指令
 
 * 5556.furthest-building-you-can-reach 可以到达的最远建筑
