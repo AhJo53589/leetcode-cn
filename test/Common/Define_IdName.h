@@ -55,6 +55,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_54 	spiral-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_55 	jump-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_56 	merge-intervals
+#define SOLUTION_CPP_FOLDER_NAME_ID_57 	insert-interval
 #define SOLUTION_CPP_FOLDER_NAME_ID_58 	length-of-last-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_59 	spiral-matrix-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_60 	permutation-sequence
