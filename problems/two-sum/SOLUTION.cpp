@@ -21,40 +21,40 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-class Solution 
+class Solution
 {
 public:
-	vector<int> twoSum(vector<int>& nums, int target)
-	{
-		map<int, int> sum;
-		vector<int> rst;
-		for (int i = 0; i < nums.size(); i++)
-		{
-			if (sum.find(target - nums[i]) != sum.end())
-			{
-				rst.push_back(sum[target - nums[i]]);
-				rst.push_back(i);
-				break;
-			}
-			else
-			{
-				sum[nums[i]] = i;
-			}
-		}
-		return rst;
-	}
+    vector<int> twoSum(vector<int>& nums, int target)
+    {
+        map<int, int> sum;
+        vector<int> rst;
+        for (int i = 0; i < nums.size(); i++)
+        {
+            if (sum.find(target - nums[i]) != sum.end())
+            {
+                rst.push_back(sum[target - nums[i]]);
+                rst.push_back(i);
+                break;
+            }
+            else
+            {
+                sum[nums[i]] = i;
+            }
+        }
+        return rst;
+    }
 };
 
 
 //////////////////////////////////////////////////////////////////////////
 vector<int> _solution_run(vector<int>& nums, int target)
 {
-	//int caseNo = -1;
-	//static int caseCnt = 0;
-	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+    //int caseNo = -1;
+    //static int caseCnt = 0;
+    //if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-	Solution sln;
-	return sln.twoSum(nums, target);
+    Solution sln;
+    return sln.twoSum(nums, target);
 }
 
 //#define USE_SOLUTION_CUSTOM

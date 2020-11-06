@@ -1,0 +1,12 @@
+["acca","bbbb","caca"]
+"aba"
+6
+["abba","baab"]
+"bab"
+4
+["abcd"]
+"abcd"
+1
+["abab","baba","abba","baab"]
+"abba"
+16

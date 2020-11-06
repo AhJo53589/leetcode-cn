@@ -2,8 +2,48 @@
 [返回](./README.md)
 
 ---
+## 20201106
+* 1356.sort-integers-by-the-number-of-1-bits 根据数字二进制下 1 的数目排序
+
+
+---
 ## 20201105
 * 57.insert-interval 插入区间
+
+---
+## 20201101
+* 5554.check-array-formation-through-concatenation 能否连接形成数组
+
+* 5600.kth-smallest-instructions 第 K 条最小指令
+
+* 5556.furthest-building-you-can-reach 可以到达的最远建筑
+
+* 5555.count-sorted-vowel-strings 统计字典序元音字符串的数目
+
+* 5554.check-array-formation-through-concatenation 能否连接形成数组
+
+* 5542.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数
+
+* 5541.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目
+
+* 5540.widest-vertical-area-between-two-points-containing-no-points 两点之间不包含任何点的最宽垂直面积
+
+* 5539.sort-array-by-increasing-frequency 按照频率将数组升序排序
+
+
+---
+## 20201031
+* 1611.minimum-one-bit-operations-to-make-integers-zero 使整数变为 0 的最少操作次数
+
+* 1610.maximum-number-of-visible-points 可见点的最大数目
+
+* 1609.even-odd-tree 奇偶树
+
+* 1608.special-array-with-x-elements-greater-than-or-equal-x 特殊数组的特征值
+
+* 381.insert-delete-getrandom-o1-duplicates-allowed O(1) 时间插入、删除和获取随机元素 - 允许重复
+
+* 845.longest-mountain-in-array 数组中的最长山脉
 
 
 ---

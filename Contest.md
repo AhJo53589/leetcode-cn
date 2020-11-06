@@ -86,6 +86,9 @@
 | 2020/9/20  | [第 207 场周赛](./contest/weekly-contest-207/README.md)  | 3 / 4 | 515 / 4115 |
 | 2020/9/27  | [第 208 场周赛](./contest/weekly-contest-208/README.md)  | 2 / 4 | 1315 / 3581 |
 | 2020/10/3  | [第 36 场双周赛](./contest/biweekly-contest-36/README.md) |  |  |
+| 2020/10/4 | [第 209 场周赛](./contest/weekly-contest-209/README.md) |  |  |
 | 2020/10/11 | [第 210 场周赛](./contest/weekly-contest-210/README.md)  | 3 / 4 | 734 / 4006 |
 | 2020/10/17 | [第 37 场双周赛](./contest/biweekly-contest-37/README.md) | 2 / 4 | 598 / 2104 |
 | 2020/10/25 | [第 212 场周赛](./contest/weekly-contest-212/README.md)  | 3 / 4 | 278 / 4226 |
+| 2020/10/31 | [第 38 场双周赛](./contest/biweekly-contest-38/README.md) | 3 / 4 | 250 / 2004 |
+| 2020/11/1  | [第 213 场周赛](./contest/weekly-contest-213/README.md) | 2 / 4 | 977 / 3826 |

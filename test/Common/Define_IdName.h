@@ -247,6 +247,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_377 	combination-sum-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
+#define SOLUTION_CPP_FOLDER_NAME_ID_381 	insert-delete-getrandom-o1-duplicates-allowed
 #define SOLUTION_CPP_FOLDER_NAME_ID_383 	ransom-note
 #define SOLUTION_CPP_FOLDER_NAME_ID_384 	shuffle-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_387 	first-unique-character-in-a-string
@@ -376,6 +377,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
+#define SOLUTION_CPP_FOLDER_NAME_ID_845 	longest-mountain-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_868 	binary-gap
 #define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation
@@ -724,6 +726,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1604 	alert-using-same-key-card-three-or-more-times-in-a-one-hour-period
 #define SOLUTION_CPP_FOLDER_NAME_ID_1605 	find-valid-matrix-given-row-and-column-sums
 #define SOLUTION_CPP_FOLDER_NAME_ID_1606 	find-servers-that-handled-most-number-of-requests
+#define SOLUTION_CPP_FOLDER_NAME_ID_1608 	special-array-with-x-elements-greater-than-or-equal-x
+#define SOLUTION_CPP_FOLDER_NAME_ID_1609 	even-odd-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_1610 	maximum-number-of-visible-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_1611 	minimum-one-bit-operations-to-make-integers-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_1616 	split-two-strings-to-make-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_5122 	mean-of-array-after-removing-some-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5156 	rank-transform-of-a-matrix
@@ -746,9 +752,17 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5536 	maximal-network-rank
 #define SOLUTION_CPP_FOLDER_NAME_ID_5537 	split-two-strings-to-make-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_5538 	count-subtrees-with-max-distance-between-cities
+#define SOLUTION_CPP_FOLDER_NAME_ID_5539 	sort-array-by-increasing-frequency
+#define SOLUTION_CPP_FOLDER_NAME_ID_5540 	widest-vertical-area-between-two-points-containing-no-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_5541 	count-substrings-that-differ-by-one-character
+#define SOLUTION_CPP_FOLDER_NAME_ID_5542 	number-of-ways-to-form-a-target-string-given-a-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_5546 	slowest-key
 #define SOLUTION_CPP_FOLDER_NAME_ID_5547 	arithmetic-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5548 	path-with-minimum-effort
+#define SOLUTION_CPP_FOLDER_NAME_ID_5554 	check-array-formation-through-concatenation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5555 	count-sorted-vowel-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5556 	furthest-building-you-can-reach
+#define SOLUTION_CPP_FOLDER_NAME_ID_5600 	kth-smallest-instructions
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
