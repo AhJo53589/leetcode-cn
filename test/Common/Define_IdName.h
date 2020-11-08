@@ -731,6 +731,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1610 	maximum-number-of-visible-points
 #define SOLUTION_CPP_FOLDER_NAME_ID_1611 	minimum-one-bit-operations-to-make-integers-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_1616 	split-two-strings-to-make-palindrome
+#define SOLUTION_CPP_FOLDER_NAME_ID_1624 	largest-substring-between-two-equal-characters
+#define SOLUTION_CPP_FOLDER_NAME_ID_1625 	lexicographically-smallest-string-after-applying-operations
+#define SOLUTION_CPP_FOLDER_NAME_ID_1626 	best-team-with-no-conflicts
+#define SOLUTION_CPP_FOLDER_NAME_ID_1627 	graph-connectivity-with-threshold
 #define SOLUTION_CPP_FOLDER_NAME_ID_5122 	mean-of-array-after-removing-some-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5156 	rank-transform-of-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5503 	sum-of-all-odd-length-subarrays

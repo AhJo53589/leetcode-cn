@@ -1,0 +1,8 @@
+"aa"
+0
+"abca"
+2
+"cbzxy"
+-1
+"cabbac"
+4
