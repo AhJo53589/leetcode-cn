@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20201108
+* 5564.create-sorted-array-through-instructions 通过指令创建有序数组
+
+* 5563.sell-diminishing-valued-colored-balls 销售价值减少的颜色球
+
+* 5562.minimum-deletions-to-make-character-frequencies-unique 字符频次唯一的最小删除次数
+
+* 5561.get-maximum-in-generated-array 获取生成数组中的最大值
+
+
+---
 ## 20201106
 * 1356.sort-integers-by-the-number-of-1-bits 根据数字二进制下 1 的数目排序
 

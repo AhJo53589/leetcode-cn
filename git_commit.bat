@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1356.sort-integers-by-the-number-of-1-bits"
+git commit -m"5564.create-sorted-array-through-instructions"
 git push

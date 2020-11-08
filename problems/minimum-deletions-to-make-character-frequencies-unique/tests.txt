@@ -1,0 +1,6 @@
+"aab"
+0
+"aaabbbcc"
+2
+"ceabaacb"
+2

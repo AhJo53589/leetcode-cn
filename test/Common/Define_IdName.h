@@ -762,6 +762,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5554 	check-array-formation-through-concatenation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5555 	count-sorted-vowel-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5556 	furthest-building-you-can-reach
+#define SOLUTION_CPP_FOLDER_NAME_ID_5561 	get-maximum-in-generated-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5562 	minimum-deletions-to-make-character-frequencies-unique
+#define SOLUTION_CPP_FOLDER_NAME_ID_5563 	sell-diminishing-valued-colored-balls
+#define SOLUTION_CPP_FOLDER_NAME_ID_5564 	create-sorted-array-through-instructions
 #define SOLUTION_CPP_FOLDER_NAME_ID_5600 	kth-smallest-instructions
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
