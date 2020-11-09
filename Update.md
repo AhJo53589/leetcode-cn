@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201109
+* 973.k-closest-points-to-origin 最接近原点的 K 个点
+
+
+---
 ## 20201108
 * 1627.graph-connectivity-with-threshold 带阈值的图连通性
 
