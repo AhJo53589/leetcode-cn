@@ -301,6 +301,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_503 	next-greater-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_504 	base-7
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_514 	freedom-trail
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
 #define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i

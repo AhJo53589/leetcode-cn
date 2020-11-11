@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201111
+* 514.freedom-trail 自由之路
+
+
+---
 ## 20201109
 * 973.k-closest-points-to-origin 最接近原点的 K 个点
 
