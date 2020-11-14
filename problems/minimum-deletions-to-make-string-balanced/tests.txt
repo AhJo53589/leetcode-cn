@@ -1,0 +1,4 @@
+"aababbab"
+2
+"bbaaaaabb"
+2

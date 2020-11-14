@@ -765,6 +765,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5546 	slowest-key
 #define SOLUTION_CPP_FOLDER_NAME_ID_5547 	arithmetic-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5548 	path-with-minimum-effort
+#define SOLUTION_CPP_FOLDER_NAME_ID_5550 	defuse-the-bomb
+#define SOLUTION_CPP_FOLDER_NAME_ID_5551 	minimum-deletions-to-make-string-balanced
+#define SOLUTION_CPP_FOLDER_NAME_ID_5552 	minimum-jumps-to-reach-home
+#define SOLUTION_CPP_FOLDER_NAME_ID_5553 	distribute-repeating-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_5554 	check-array-formation-through-concatenation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5555 	count-sorted-vowel-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5556 	furthest-building-you-can-reach

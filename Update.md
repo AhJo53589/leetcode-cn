@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20201115
+* 5553.distribute-repeating-integers 分配重复整数
+
+* 5552.minimum-jumps-to-reach-home 到家的最少跳跃次数
+
+* 5551.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数
+
+* 5550.defuse-the-bomb 拆炸弹
+
+
+---
 ## 20201111
 * 514.freedom-trail 自由之路
 
