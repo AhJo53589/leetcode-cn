@@ -3,6 +3,8 @@
 
 ---
 ## 20201115
+* 5551.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数
+
 * 5604.maximize-grid-happiness 最大化网格幸福感
 
 * 5602.minimum-operations-to-reduce-x-to-zero 将 x 减到 0 的最小操作数
