@@ -259,6 +259,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_395 	longest-substring-with-at-least-k-repeating-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_399 	evaluate-division
 #define SOLUTION_CPP_FOLDER_NAME_ID_401 	binary-watch
+#define SOLUTION_CPP_FOLDER_NAME_ID_402 	remove-k-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_404 	sum-of-left-leaves
 #define SOLUTION_CPP_FOLDER_NAME_ID_406 	queue-reconstruction-by-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_409 	longest-palindrome

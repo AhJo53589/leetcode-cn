@@ -3,6 +3,8 @@
 
 ---
 ## 20201115
+* 402.remove-k-digits 移掉K位数字
+
 * 5551.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数
 
 * 5604.maximize-grid-happiness 最大化网格幸福感
