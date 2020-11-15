@@ -3,6 +3,14 @@
 
 ---
 ## 20201115
+* 5604.maximize-grid-happiness 最大化网格幸福感
+
+* 5602.minimum-operations-to-reduce-x-to-zero 将 x 减到 0 的最小操作数
+
+* 5603.determine-if-two-strings-are-close 确定两个字符串是否接近
+
+* 5601.design-an-ordered-stream 设计有序流
+
 * 5553.distribute-repeating-integers 分配重复整数
 
 * 5552.minimum-jumps-to-reach-home 到家的最少跳跃次数

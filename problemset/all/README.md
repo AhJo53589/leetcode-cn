@@ -784,6 +784,10 @@
 | √ | 5563 | [sell-diminishing-valued-colored-balls](../../problems/sell-diminishing-valued-colored-balls) | [销售价值减少的颜色球](../../problems/sell-diminishing-valued-colored-balls/README.md) | [cpp](../../problems/sell-diminishing-valued-colored-balls/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/sell-diminishing-valued-colored-balls/solution/sell-diminishing-valued-colored-balls-by-ikaruga/) | 中等 | 
 |   | 5564 | [create-sorted-array-through-instructions](../../problems/create-sorted-array-through-instructions) | [通过指令创建有序数组](../../problems/create-sorted-array-through-instructions/README.md) | [cpp](../../problems/create-sorted-array-through-instructions/SOLUTION.cpp) |   | 困难 | 
 |   | 5600 | [kth-smallest-instructions](../../problems/kth-smallest-instructions) | [第 K 条最小指令](../../problems/kth-smallest-instructions/README.md) | [cpp](../../problems/kth-smallest-instructions/SOLUTION.cpp) |   | 困难 | 
+| √ | 5601 | [design-an-ordered-stream](../../problems/design-an-ordered-stream) | [设计有序流](../../problems/design-an-ordered-stream/README.md) | [cpp](../../problems/design-an-ordered-stream/SOLUTION.cpp) |   | 简单 | 
+| √ | 5602 | [minimum-operations-to-reduce-x-to-zero](../../problems/minimum-operations-to-reduce-x-to-zero) | [将 x 减到 0 的最小操作数](../../problems/minimum-operations-to-reduce-x-to-zero/README.md) | [cpp](../../problems/minimum-operations-to-reduce-x-to-zero/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero/solution/minimum-operations-by-ikaruga/) | 中等 | 
+| √ | 5603 | [determine-if-two-strings-are-close](../../problems/determine-if-two-strings-are-close) | [确定两个字符串是否接近](../../problems/determine-if-two-strings-are-close/README.md) | [cpp](../../problems/determine-if-two-strings-are-close/SOLUTION.cpp) |   | 中等 | 
+|   | 5604 | [maximize-grid-happiness](../../problems/maximize-grid-happiness) | [最大化网格幸福感](../../problems/maximize-grid-happiness/README.md) | [cpp](../../problems/maximize-grid-happiness/SOLUTION.cpp) |   | 简单 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
