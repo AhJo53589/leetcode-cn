@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"402.remove-k-digits"
+git commit -m"975.odd-even-jump"
 git push

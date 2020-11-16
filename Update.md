@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201116
+* 975.odd-even-jump 奇偶跳
+
+
+---
 ## 20201115
 * 402.remove-k-digits 移掉K位数字
 
