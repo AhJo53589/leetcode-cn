@@ -284,6 +284,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_475 	heaters
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_482 	license-key-formatting
 #define SOLUTION_CPP_FOLDER_NAME_ID_486 	predict-the-winner
 #define SOLUTION_CPP_FOLDER_NAME_ID_488 	zuma-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst

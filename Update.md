@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201125
+* 482.license-key-formatting 密钥格式化
+
+
+---
 ## 20201123
 * 452.minimum-number-of-arrows-to-burst-balloons 用最少数量的箭引爆气球
 
