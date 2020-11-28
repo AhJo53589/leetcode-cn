@@ -2,6 +2,19 @@
 [返回](./README.md)
 
 ---
+## 20201129
+* 493.reverse-pairs 翻转对
+
+* 5559.minimum-number-of-removals-to-make-mountain-array 得到山形数组的最少删除次数
+
+* 5560.design-front-middle-back-queue 设计前中后队列
+
+* 5558.merge-in-between-linked-lists 合并两个链表
+
+* 5557.maximum-repeating-substring 最大重复子字符串
+
+
+---
 ## 20201116
 * 975.odd-even-jump 奇偶跳
 

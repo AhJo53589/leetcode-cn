@@ -294,6 +294,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_463 	island-perimeter
 #define SOLUTION_CPP_FOLDER_NAME_ID_485 	max-consecutive-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_491 	increasing-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_493 	reverse-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_494 	target-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
 #define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
@@ -774,6 +775,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5554 	check-array-formation-through-concatenation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5555 	count-sorted-vowel-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5556 	furthest-building-you-can-reach
+#define SOLUTION_CPP_FOLDER_NAME_ID_5557 	maximum-repeating-substring
+#define SOLUTION_CPP_FOLDER_NAME_ID_5558 	merge-in-between-linked-lists
+#define SOLUTION_CPP_FOLDER_NAME_ID_5559 	minimum-number-of-removals-to-make-mountain-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5560 	design-front-middle-back-queue
 #define SOLUTION_CPP_FOLDER_NAME_ID_5561 	get-maximum-in-generated-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5562 	minimum-deletions-to-make-character-frequencies-unique
 #define SOLUTION_CPP_FOLDER_NAME_ID_5563 	sell-diminishing-valued-colored-balls

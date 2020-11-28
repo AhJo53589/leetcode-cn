@@ -1,0 +1,6 @@
+["FrontMiddleBackQueue","pushFront","pushBack","pushMiddle","pushMiddle","popFront","popMiddle","popMiddle","popBack","popFront"]
+[[],[1],[2],[3],[4],[],[],[],[],[]]
+[null,null,null,null,null,1,3,4,2,-1]
+["FrontMiddleBackQueue","popMiddle","popMiddle","pushMiddle","pushMiddle","popMiddle","popMiddle","popMiddle","popBack","popMiddle","popFront","pushBack","popFront","pushMiddle","pushMiddle","popMiddle","popBack","pushFront","popMiddle","pushMiddle","pushMiddle","pushMiddle","popMiddle","pushMiddle","popBack","pushMiddle","popMiddle","popMiddle","popMiddle","popMiddle","popFront","pushMiddle","pushMiddle","pushMiddle","pushFront"]
+[[],[],[],[773222],[279355],[],[],[],[],[],[],[448905],[],[168284],[874541],[],[],[15656],[],[803226],[720129],[626048],[],[860306],[],[630886],[],[],[],[],[],[837735],[414354],[404946],[88719]]
+[null,-1,-1,null,null,279355,773222,-1,-1,-1,-1,null,448905,null,null,874541,168284,null,15656,null,null,null,626048,null,803226,null,630886,720129,860306,-1,-1,null,null,null,null]
