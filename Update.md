@@ -3,6 +3,8 @@
 
 ---
 ## 20201129
+* 976.largest-perimeter-triangle 三角形的最大周长
+
 * 5616.minimize-deviation-in-array 数组的最小偏移量
 
 * 5616.minimize-deviation-in-array 数组的最小偏移量

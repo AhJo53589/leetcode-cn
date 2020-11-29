@@ -404,6 +404,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_973 	k-closest-points-to-origin
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k
 #define SOLUTION_CPP_FOLDER_NAME_ID_975 	odd-even-jump
+#define SOLUTION_CPP_FOLDER_NAME_ID_976 	largest-perimeter-triangle
 #define SOLUTION_CPP_FOLDER_NAME_ID_977 	squares-of-a-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_990 	satisfiability-of-equality-equations
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
