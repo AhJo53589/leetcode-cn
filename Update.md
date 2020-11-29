@@ -3,6 +3,18 @@
 
 ---
 ## 20201129
+* 5616.minimize-deviation-in-array 数组的最小偏移量
+
+* 5616.minimize-deviation-in-array 数组的最小偏移量
+
+* 5615.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数
+
+* 5615.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数
+
+* 5614.find-the-most-competitive-subsequence 找出最具竞争力的子序列
+
+* 5613.richest-customer-wealth 最富有客户的资产总量
+
 * 493.reverse-pairs 翻转对
 
 * 5559.minimum-number-of-removals-to-make-mountain-array 得到山形数组的最少删除次数

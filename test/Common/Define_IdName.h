@@ -788,6 +788,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5602 	minimum-operations-to-reduce-x-to-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_5603 	determine-if-two-strings-are-close
 #define SOLUTION_CPP_FOLDER_NAME_ID_5604 	maximize-grid-happiness
+#define SOLUTION_CPP_FOLDER_NAME_ID_5613 	richest-customer-wealth
+#define SOLUTION_CPP_FOLDER_NAME_ID_5614 	find-the-most-competitive-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_5615 	minimum-moves-to-make-array-complementary
+#define SOLUTION_CPP_FOLDER_NAME_ID_5616 	minimize-deviation-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
