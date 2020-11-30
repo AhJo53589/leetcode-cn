@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201130
+* 767.reorganize-string 重构字符串
+
+
+---
 ## 20201125
 * 482.license-key-formatting 密钥格式化
 
