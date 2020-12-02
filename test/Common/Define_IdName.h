@@ -220,6 +220,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_309 	best-time-to-buy-and-sell-stock-with-cooldown
 #define SOLUTION_CPP_FOLDER_NAME_ID_312 	burst-balloons
 #define SOLUTION_CPP_FOLDER_NAME_ID_315 	count-of-smaller-numbers-after-self
+#define SOLUTION_CPP_FOLDER_NAME_ID_321 	create-maximum-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_322 	coin-change
 #define SOLUTION_CPP_FOLDER_NAME_ID_324 	wiggle-sort-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_326 	power-of-three
