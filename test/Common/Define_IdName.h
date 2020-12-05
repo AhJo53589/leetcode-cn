@@ -342,6 +342,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_657 	robot-return-to-origin
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_659 	split-array-into-consecutive-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_665 	non-decreasing-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
