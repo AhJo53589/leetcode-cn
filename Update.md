@@ -2,7 +2,18 @@
 [返回](./README.md)
 
 ---
-<<<<<<< HEAD
+
+## 20201205
+* 659.split-array-into-consecutive-subsequences 分割数组为连续子序列
+
+---
+## 20201202
+* 321.create-maximum-number 拼接最大数
+
+---
+## 20201130
+* 767.reorganize-string 重构字符串
+
 ## 20201129
 * 976.largest-perimeter-triangle 三角形的最大周长
 
@@ -27,20 +38,6 @@
 * 5558.merge-in-between-linked-lists 合并两个链表
 
 * 5557.maximum-repeating-substring 最大重复子字符串
-=======
-## 20201205
-* 659.split-array-into-consecutive-subsequences 分割数组为连续子序列
-
-
----
-## 20201202
-* 321.create-maximum-number 拼接最大数
-
-
----
-## 20201130
-* 767.reorganize-string 重构字符串
-
 
 ---
 ## 20201125
@@ -50,7 +47,6 @@
 ---
 ## 20201123
 * 452.minimum-number-of-arrows-to-burst-balloons 用最少数量的箭引爆气球
->>>>>>> 90b7f9889ab96a10274ef6a679ac687330124084
 
 
 ---
