@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20201206
+* 5619.minimum-incompatibility 最小不兼容性
+
+* 5620.concatenation-of-consecutive-binary-numbers 连接连续二进制数字
+
+* 5618.max-number-of-k-sum-pairs K 和数对的最大数目
+
+* 5617.goal-parser-interpretation 设计 Goal 解析器
+
+
+---
 
 ## 20201205
 * 659.split-array-into-consecutive-subsequences 分割数组为连续子序列

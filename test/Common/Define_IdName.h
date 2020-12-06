@@ -798,6 +798,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5614 	find-the-most-competitive-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_5615 	minimum-moves-to-make-array-complementary
 #define SOLUTION_CPP_FOLDER_NAME_ID_5616 	minimize-deviation-in-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5617 	goal-parser-interpretation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5618 	max-number-of-k-sum-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5619 	minimum-incompatibility
+#define SOLUTION_CPP_FOLDER_NAME_ID_5620 	concatenation-of-consecutive-binary-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
