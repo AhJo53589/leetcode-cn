@@ -220,6 +220,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_309 	best-time-to-buy-and-sell-stock-with-cooldown
 #define SOLUTION_CPP_FOLDER_NAME_ID_312 	burst-balloons
 #define SOLUTION_CPP_FOLDER_NAME_ID_315 	count-of-smaller-numbers-after-self
+#define SOLUTION_CPP_FOLDER_NAME_ID_321 	create-maximum-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_322 	coin-change
 #define SOLUTION_CPP_FOLDER_NAME_ID_324 	wiggle-sort-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_326 	power-of-three
@@ -276,6 +277,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_443 	string-compression
 #define SOLUTION_CPP_FOLDER_NAME_ID_445 	add-two-numbers-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
+#define SOLUTION_CPP_FOLDER_NAME_ID_452 	minimum-number-of-arrows-to-burst-balloons
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_459 	repeated-substring-pattern
 #define SOLUTION_CPP_FOLDER_NAME_ID_460 	lfu-cache
@@ -283,6 +285,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_475 	heaters
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_482 	license-key-formatting
 #define SOLUTION_CPP_FOLDER_NAME_ID_486 	predict-the-winner
 #define SOLUTION_CPP_FOLDER_NAME_ID_488 	zuma-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_450 	delete-node-in-a-bst
@@ -340,6 +343,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_657 	robot-return-to-origin
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_659 	split-array-into-consecutive-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_665 	non-decreasing-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
@@ -371,6 +375,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_748 	shortest-completing-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
 #define SOLUTION_CPP_FOLDER_NAME_ID_763 	partition-labels
+#define SOLUTION_CPP_FOLDER_NAME_ID_767 	reorganize-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
