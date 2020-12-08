@@ -388,6 +388,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
 #define SOLUTION_CPP_FOLDER_NAME_ID_845 	longest-mountain-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_861 	score-after-flipping-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_868 	binary-gap
 #define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation
 #define SOLUTION_CPP_FOLDER_NAME_ID_876 	middle-of-the-linked-list
