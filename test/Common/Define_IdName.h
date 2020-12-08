@@ -384,6 +384,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
+#define SOLUTION_CPP_FOLDER_NAME_ID_842 	split-array-into-fibonacci-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
 #define SOLUTION_CPP_FOLDER_NAME_ID_845 	longest-mountain-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array

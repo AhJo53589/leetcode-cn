@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5619.minimum-incompatibility"
+git commit -m"842.split-array-into-fibonacci-sequence"
 git push

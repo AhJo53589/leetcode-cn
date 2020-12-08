@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20201208
+* 842.split-array-into-fibonacci-sequence 将数组拆分成斐波那契序列
+
+
+---
 ## 20201206
 * 5619.minimum-incompatibility 最小不兼容性
 
