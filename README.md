@@ -41,6 +41,7 @@
 
 | #    | 名称    | 题解         |
 | ---- | ------- | ----------- |
+| 21 | [merge-two-sorted-lists](./problems/merge-two-sorted-lists) | [【合并两个有序链表】简单迭代，详细图解](https://leetcode-cn.com/problems/merge-two-sorted-lists/solution/merge-two-sorted-lists-by-ikaruga/) |
 | 37 | [sudoku-solver](./problems/sudoku-solver) | [【解数独】回溯 + 状态压缩（使用 bitset）](https://leetcode-cn.com/problems/sudoku-solver/solution/37-by-ikaruga/) |
 | 42 | [trapping-rain-water](./problems/trapping-rain-water) | [【接雨水】单调递减栈，简洁代码，动图模拟](https://leetcode-cn.com/problems/trapping-rain-water/solution/trapping-rain-water-by-ikaruga/) |
 | 45 | [jump-game-ii](./problems/jump-game-ii) | [【跳跃游戏 II】别想那么多，就挨着跳吧 II](https://leetcode-cn.com/problems/jump-game-ii/solution/45-by-ikaruga/) |
