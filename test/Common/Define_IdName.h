@@ -340,6 +340,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
 #define SOLUTION_CPP_FOLDER_NAME_ID_647 	palindromic-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_648 	replace-words
+#define SOLUTION_CPP_FOLDER_NAME_ID_649 	dota2-senate
 #define SOLUTION_CPP_FOLDER_NAME_ID_652 	find-duplicate-subtrees
 #define SOLUTION_CPP_FOLDER_NAME_ID_657 	robot-return-to-origin
 #define SOLUTION_CPP_FOLDER_NAME_ID_658 	find-k-closest-elements

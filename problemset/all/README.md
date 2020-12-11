@@ -348,6 +348,7 @@
 | √ | 641 | [design-circular-deque](../../problems/design-circular-deque) | [设计循环双端队列](../../problems/design-circular-deque/README.md) | [cpp](../../problems/design-circular-deque/SOLUTION.cpp) |   | 中等 |
 | √ | 647 | [palindromic-substrings](../../problems/palindromic-substrings) | [回文子串](../../problems/palindromic-substrings/README.md) | [cpp](../../problems/palindromic-substrings/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/palindromic-substrings/solution/palindromic-substrings-by-ikaruga/) | 中等 |
 | √ | 648 | [replace-words](../../problems/replace-words) | [单词替换](../../problems/replace-words/README.md) | [cpp](../../problems/replace-words/SOLUTION.cpp) |   | 中等 |
+| √ | 649 | [dota2-senate](../../problems/dota2-senate) | [Dota2 参议院](../../problems/dota2-senate/README.md) | [cpp](../../problems/dota2-senate/SOLUTION.cpp) |   | 中等 | 
 | √ | 652 | [find-duplicate-subtrees](../../problems/find-duplicate-subtrees) | [寻找重复的子树](../../problems/find-duplicate-subtrees/README.md) | [cpp](../../problems/find-duplicate-subtrees/SOLUTION.cpp) |   | 中等 |
 | √ | 657 | [robot-return-to-origin](../../problems/robot-return-to-origin) | [机器人能否返回原点](../../problems/robot-return-to-origin/README.md) | [cpp](../../problems/robot-return-to-origin/SOLUTION.cpp) |   | 简单 |
 | √ | 658 | [find-k-closest-elements](../../problems/find-k-closest-elements) | [找到](../../problems/find-k-closest-elements/README.md) | [cpp](../../problems/find-k-closest-elements/SOLUTION.cpp) |   | 中等 |
