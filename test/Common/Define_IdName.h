@@ -245,6 +245,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower
 #define SOLUTION_CPP_FOLDER_NAME_ID_375 	guess-number-higher-or-lower-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_376 	wiggle-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_377 	combination-sum-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_378 	kth-smallest-element-in-a-sorted-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_380 	insert-delete-getrandom-o1
@@ -389,6 +390,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
 #define SOLUTION_CPP_FOLDER_NAME_ID_845 	longest-mountain-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_860 	lemonade-change
 #define SOLUTION_CPP_FOLDER_NAME_ID_861 	score-after-flipping-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_868 	binary-gap
 #define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation

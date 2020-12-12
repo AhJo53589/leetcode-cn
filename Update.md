@@ -2,8 +2,18 @@
 [返回](./README.md)
 
 ---
+## 20201212
+* 376.wiggle-subsequence 摆动序列
+
+
+---
+<<<<<<< HEAD
 ## 20201211
 * 649.dota2-senate Dota2 参议院
+=======
+## 20201210
+* 860.lemonade-change 柠檬水找零
+>>>>>>> d12b48d6ef9bd25cb4cfe51380dd68d190880a21
 
 
 ---
