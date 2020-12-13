@@ -760,6 +760,7 @@
 |   | 1627 | [graph-connectivity-with-threshold](../../problems/graph-connectivity-with-threshold) | [带阈值的图连通性](../../problems/graph-connectivity-with-threshold/README.md) | [cpp](../../problems/graph-connectivity-with-threshold/SOLUTION.cpp) |   | 困难 | 
 | √ | 5122 | [mean-of-array-after-removing-some-elements](../../problems/mean-of-array-after-removing-some-elements) | [删除某些元素后的数组均值](../../problems/mean-of-array-after-removing-some-elements/README.md) | [cpp](../../problems/mean-of-array-after-removing-some-elements/SOLUTION.cpp) |   | 简单 | 
 | √ | 5156 | [rank-transform-of-a-matrix](../../problems/rank-transform-of-a-matrix) | [矩阵转换后的秩](../../problems/rank-transform-of-a-matrix/README.md) | [cpp](../../problems/rank-transform-of-a-matrix/SOLUTION.cpp) |   | 困难 | 
+|   | 5245 | [maximum-height-by-stacking-cuboids](../../problems/maximum-height-by-stacking-cuboids) | [堆叠长方体的最大高度](../../problems/maximum-height-by-stacking-cuboids/README.md) | [cpp](../../problems/maximum-height-by-stacking-cuboids/SOLUTION.cpp) |   | 困难 | 
 | √ | 5503 | [sum-of-all-odd-length-subarrays](../../problems/sum-of-all-odd-length-subarrays) | [所有奇数长度子数组的和](../../problems/sum-of-all-odd-length-subarrays/README.md) | [cpp](../../problems/sum-of-all-odd-length-subarrays/SOLUTION.cpp) |   | 简单 | 
 |   | 5504 | [make-sum-divisible-by-p](../../problems/make-sum-divisible-by-p) | [使数组和能被 P 整除](../../problems/make-sum-divisible-by-p/README.md) | [cpp](../../problems/make-sum-divisible-by-p/SOLUTION.cpp) |   | 中等 | 
 | √ | 5505 | [maximum-sum-obtained-of-any-permutation](../../problems/maximum-sum-obtained-of-any-permutation) | [所有排列中的最大和](../../problems/maximum-sum-obtained-of-any-permutation/README.md) | [cpp](../../problems/maximum-sum-obtained-of-any-permutation/SOLUTION.cpp) |   | 中等 | 
@@ -814,6 +815,9 @@
 | √ | 5618 | [max-number-of-k-sum-pairs](../../problems/max-number-of-k-sum-pairs) | [K 和数对的最大数目](../../problems/max-number-of-k-sum-pairs/README.md) | [cpp](../../problems/max-number-of-k-sum-pairs/SOLUTION.cpp) |   | 中等 | 
 |   | 5619 | [minimum-incompatibility](../../problems/minimum-incompatibility) | [最小不兼容性](../../problems/minimum-incompatibility/README.md) | [cpp](../../problems/minimum-incompatibility/SOLUTION.cpp) |   | 困难 | 
 | √ | 5620 | [concatenation-of-consecutive-binary-numbers](../../problems/concatenation-of-consecutive-binary-numbers) | [连接连续二进制数字](../../problems/concatenation-of-consecutive-binary-numbers/README.md) | [cpp](../../problems/concatenation-of-consecutive-binary-numbers/SOLUTION.cpp) |   | 中等 | 
+| √ | 5625 | [count-of-matches-in-tournament](../../problems/count-of-matches-in-tournament) | [比赛中的配对次数](../../problems/count-of-matches-in-tournament/README.md) | [cpp](../../problems/count-of-matches-in-tournament/SOLUTION.cpp) |   | 简单 | 
+| √ | 5626 | [partitioning-into-minimum-number-of-deci-binary-numbers](../../problems/partitioning-into-minimum-number-of-deci-binary-numbers) | [十-二进制数的最少数目](../../problems/partitioning-into-minimum-number-of-deci-binary-numbers/README.md) | [cpp](../../problems/partitioning-into-minimum-number-of-deci-binary-numbers/SOLUTION.cpp) |   | 中等 | 
+|   | 5627 | [stone-game-vii](../../problems/stone-game-vii) | [石子游戏 VII](../../problems/stone-game-vii/README.md) | [cpp](../../problems/stone-game-vii/SOLUTION.cpp) |   | 中等 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

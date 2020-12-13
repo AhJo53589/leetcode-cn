@@ -2,26 +2,34 @@
 [返回](./README.md)
 
 ---
+## 20201213
+* 5245.maximum-height-by-stacking-cuboids 堆叠长方体的最大高度
+
+* 5627.stone-game-vii 石子游戏 VII
+
+* 5626.partitioning-into-minimum-number-of-deci-binary-numbers 十-二进制数的最少数目
+
+* 5625.count-of-matches-in-tournament 比赛中的配对次数
+
+---
 ## 20201212
 * 376.wiggle-subsequence 摆动序列
 
-
 ---
-<<<<<<< HEAD
 ## 20201211
 * 649.dota2-senate Dota2 参议院
-=======
-## 20201210
-* 860.lemonade-change 柠檬水找零
->>>>>>> d12b48d6ef9bd25cb4cfe51380dd68d190880a21
 
+---
+
+## 20201210
+
+* 860.lemonade-change 柠檬水找零
 
 ---
 ## 20201208
 * 861.score-after-flipping-matrix 翻转矩阵后的得分
 
 * 842.split-array-into-fibonacci-sequence 将数组拆分成斐波那契序列
-
 
 ---
 ## 20201206
@@ -32,7 +40,6 @@
 * 5618.max-number-of-k-sum-pairs K 和数对的最大数目
 
 * 5617.goal-parser-interpretation 设计 Goal 解析器
-
 
 ---
 
@@ -76,16 +83,13 @@
 ## 20201125
 * 482.license-key-formatting 密钥格式化
 
-
 ---
 ## 20201123
 * 452.minimum-number-of-arrows-to-burst-balloons 用最少数量的箭引爆气球
 
-
 ---
 ## 20201116
 * 975.odd-even-jump 奇偶跳
-
 
 ---
 ## 20201115
@@ -109,16 +113,13 @@
 
 * 5550.defuse-the-bomb 拆炸弹
 
-
 ---
 ## 20201111
 * 514.freedom-trail 自由之路
 
-
 ---
 ## 20201109
 * 973.k-closest-points-to-origin 最接近原点的 K 个点
-
 
 ---
 ## 20201108
@@ -140,11 +141,9 @@
 
 * 5561.get-maximum-in-generated-array 获取生成数组中的最大值
 
-
 ---
 ## 20201106
 * 1356.sort-integers-by-the-number-of-1-bits 根据数字二进制下 1 的数目排序
-
 
 ---
 ## 20201105
@@ -170,7 +169,6 @@
 
 * 5539.sort-array-by-increasing-frequency 按照频率将数组升序排序
 
-
 ---
 ## 20201031
 * 1611.minimum-one-bit-operations-to-make-integers-zero 使整数变为 0 的最少操作次数
@@ -185,7 +183,6 @@
 
 * 845.longest-mountain-in-array 数组中的最长山脉
 
-
 ---
 ## 20201025
 * 5156.rank-transform-of-a-matrix 矩阵转换后的秩
@@ -196,31 +193,25 @@
 
 * 5546.slowest-key 按键持续时间最长的键
 
-
 ---
 ## 20201024
 * 1024.video-stitching 视频拼接
-
 
 ---
 ## 20201022
 * 763.partition-labels 划分字母区间
 
-
 ---
 ## 20201021
 * 925.long-pressed-name 长按键入
-
 
 ---
 ## 20201020
 * 143.reorder-list 重排链表
 
-
 ---
 ## 20201019
 * 844.backspace-string-compare 比较含退格的字符串
-
 
 ---
 ## 20201018
@@ -238,7 +229,6 @@
 
 * 5122.mean-of-array-after-removing-some-elements 删除某些元素后的数组均值
 
-
 ---
 ## 20201016
 * 977.squares-of-a-sorted-array 有序数组的平方
@@ -251,13 +241,11 @@
 ## 20201014
 * 1002.find-common-characters 查找常用字符
 
-
 ---
 ## 20201012
 * 783.minimum-distance-between-bst-nodes 二叉搜索树节点最小距离
 
 * 530.minimum-absolute-difference-in-bst 二叉搜索树的最小绝对差
-
 
 ---
 ## 20201011
@@ -271,7 +259,6 @@
 
 * 5535.maximum-nesting-depth-of-the-parentheses 括号的最大嵌套深度
 
-
 ---
 ## 20201010
 * 1606.find-servers-that-handled-most-number-of-requests 找到处理最多请求的服务器
@@ -281,7 +268,6 @@
 * 1604.alert-using-same-key-card-three-or-more-times-in-a-one-hour-period 警告一小时内使用相同员工卡大于等于三次的人
 
 * 1603.design-parking-system 设计停车系统
-
 
 ---
 ## 20200927
@@ -293,11 +279,9 @@
 
 * 5523.crawler-log-folder 文件夹操作日志搜集器
 
-
 ---
 ## 20200924
 * 501.find-mode-in-binary-search-tree 二叉搜索树中的众数
-
 
 ---
 ## 20200922
@@ -307,13 +291,11 @@
 
 * 968.binary-tree-cameras 监控二叉树
 
-
 ---
 ## 20200921
 * 1038.binary-search-tree-to-greater-sum-tree 从二叉搜索树到更大和树
 
 * 538.convert-bst-to-greater-tree 把二叉搜索树转换为累加树
-
 
 ---
 ## 20200920
@@ -333,7 +315,6 @@
 
 * 5503.sum-of-all-odd-length-subarrays 所有奇数长度子数组的和
 
-
 ---
 ## 20200919
 * 404.sum-of-left-leaves 左叶子之和
@@ -350,11 +331,9 @@
 
 * LCP 22.ccw6C7 黑白方格画
 
-
 ---
 ## 20200917
 * 684.redundant-connection 冗余连接
-
 
 ---
 ## 20200913
@@ -365,7 +344,6 @@
 * 1583.count-unhappy-friends 统计不开心的朋友
 
 * 1582.special-positions-in-a-binary-matrix 二进制矩阵中的特殊位置
-
 
 ---
 ## 20200912

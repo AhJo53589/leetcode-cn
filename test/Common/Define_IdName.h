@@ -753,6 +753,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1627 	graph-connectivity-with-threshold
 #define SOLUTION_CPP_FOLDER_NAME_ID_5122 	mean-of-array-after-removing-some-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5156 	rank-transform-of-a-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_5245 	maximum-height-by-stacking-cuboids
 #define SOLUTION_CPP_FOLDER_NAME_ID_5503 	sum-of-all-odd-length-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5504 	make-sum-divisible-by-p
 #define SOLUTION_CPP_FOLDER_NAME_ID_5505 	maximum-sum-obtained-of-any-permutation
@@ -807,6 +808,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5618 	max-number-of-k-sum-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_5619 	minimum-incompatibility
 #define SOLUTION_CPP_FOLDER_NAME_ID_5620 	concatenation-of-consecutive-binary-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5625 	count-of-matches-in-tournament
+#define SOLUTION_CPP_FOLDER_NAME_ID_5626 	partitioning-into-minimum-number-of-deci-binary-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5627 	stone-game-vii
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
