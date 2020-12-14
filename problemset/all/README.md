@@ -817,7 +817,7 @@
 | √ | 5620 | [concatenation-of-consecutive-binary-numbers](../../problems/concatenation-of-consecutive-binary-numbers) | [连接连续二进制数字](../../problems/concatenation-of-consecutive-binary-numbers/README.md) | [cpp](../../problems/concatenation-of-consecutive-binary-numbers/SOLUTION.cpp) |   | 中等 | 
 | √ | 5625 | [count-of-matches-in-tournament](../../problems/count-of-matches-in-tournament) | [比赛中的配对次数](../../problems/count-of-matches-in-tournament/README.md) | [cpp](../../problems/count-of-matches-in-tournament/SOLUTION.cpp) |   | 简单 | 
 | √ | 5626 | [partitioning-into-minimum-number-of-deci-binary-numbers](../../problems/partitioning-into-minimum-number-of-deci-binary-numbers) | [十-二进制数的最少数目](../../problems/partitioning-into-minimum-number-of-deci-binary-numbers/README.md) | [cpp](../../problems/partitioning-into-minimum-number-of-deci-binary-numbers/SOLUTION.cpp) |   | 中等 | 
-|   | 5627 | [stone-game-vii](../../problems/stone-game-vii) | [石子游戏 VII](../../problems/stone-game-vii/README.md) | [cpp](../../problems/stone-game-vii/SOLUTION.cpp) |   | 中等 | 
+| √ | 5627 | [stone-game-vii](../../problems/stone-game-vii) | [石子游戏 VII](../../problems/stone-game-vii/README.md) | [cpp](../../problems/stone-game-vii/SOLUTION.cpp) |   | 中等 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

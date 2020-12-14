@@ -54,13 +54,14 @@
 class Solution {
 public:
     int stoneGameVII(vector<int>& stones) {
+        vv = vector<vector<int>>(stones.size(), vector<int>(stones.size(), -1));
         int sum = accumulate(stones.begin(), stones.end(), 0);
-        return dfs(stones, 0, stones.size() - 1, sum, 0);
+		return dfs(stones, 0, stones.size() - 1, sum, 0);
     }
 
     int dfs(vector<int>& stones, int left, int right, int sum, int idx) {
-        if (mp.find({ left, right, idx }) != mp.end()) {
-            return mp[{ left, right, idx }];
+        if (vv[left][right] != -1) {
+            return vv[left][right];
         }
 
         if (left == right) return 0;
@@ -74,12 +75,12 @@ public:
         else {
             ret = min(sc_l - (sum - stones[left]), sc_r - (sum - stones[right]));
         }
-        mp[{left, right, idx}] = ret;
+        vv[left][right] = ret;
         return ret;
-    }
+	}
 
 private:
-    map<vector<int>, int> mp;
+    vector<vector<int>> vv;
 };
 ```
 
