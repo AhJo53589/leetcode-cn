@@ -370,6 +370,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_719 	find-k-th-smallest-pair-distance
 #define SOLUTION_CPP_FOLDER_NAME_ID_724 	find-pivot-index
 #define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill
+#define SOLUTION_CPP_FOLDER_NAME_ID_738 	monotone-increasing-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_739 	daily-temperatures
 #define SOLUTION_CPP_FOLDER_NAME_ID_744 	find-smallest-letter-greater-than-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_746 	min-cost-climbing-stairs
