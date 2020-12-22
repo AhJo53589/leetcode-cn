@@ -3,33 +3,21 @@
 class Solution {
 public:
     int maxResult(vector<int>& nums, int k) {
-		vector<int> dp(nums.size(), INT_MIN);
-		dp[0] = nums[0];
+        deque<pair<int, int>> dq;
+        dq.push_back({ nums[0], 0 });
 
-		deque<int> dq;
-		for (int i = min((int)nums.size(), k); i > 0; i--) {
-            while (!dq.empty() && nums[dq.back()] <= nums[i]) {
+        int ans = nums[0];
+        for (int i = 1; i < nums.size(); i++) {
+            while (!dq.empty() && i - dq.front().second > k) {
+                dq.pop_front();
+            }
+            ans = dq.front().first + nums[i];
+            while (!dq.empty() && dq.back().first <= ans) {
                 dq.pop_back();
             }
-            //while (!dq.empty() && i - dq.front() > k) {
-            //    dq.pop_front();
-            //}
-			dq.push_back(i);
-		}
-
-		for (int i = 0; i < nums.size(); i++) {
-			while (!dq.empty() && nums[dq.back()] < nums[min(i + k, (int)nums.size())]) {
-				dq.pop_back();
-			}
-			while (!dq.empty() && i - dq.front() > k) {
-				dq.pop_front();
-			}
-			for (int j = 0; j < dq.size(); j++) {
-				int t = dq[j];
-				dp[t] = max(dp[t], dp[i] + nums[t]);
-			}
-		} 
-		return dp.back();
+            dq.push_back({ ans, i });
+        }
+        return ans;
     }
 };
 

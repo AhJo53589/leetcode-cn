@@ -1,64 +1,62 @@
 
-
 //////////////////////////////////////////////////////////////////////////
-vector<vector<int>> zigzagLevelOrder(TreeNode* root)
-{
-	if (root == nullptr) return {};
-	vector<vector<int>> ans;
-	stack<TreeNode *> stk[2];
-	int seq = 0;
+class Solution {
+public:
+    vector<vector<int>> zigzagLevelOrder(TreeNode* root) {
+        stack<TreeNode*> st[2];
+        if (root != nullptr) {
+            st[0].push(root);
+        }
 
-	stk[seq].push(root);
-	while (!(stk[0].empty() && stk[1].empty()))
-	{
-		int seq_next = (seq + 1) % 2;
-		vector<int> num;
-		while (!stk[seq].empty())
-		{
-			TreeNode *pNode = stk[seq].top();
-			stk[seq].pop();
-			num.push_back(pNode->val);
+        vector<vector<int>> ans;
+        int i = 0;
+        int j = 1;
+        while (!st[0].empty() || !st[1].empty()) {
+            vector<int> lv;
+            while (!st[i].empty()) {
+                auto node = st[i].top();
+                st[i].pop();
 
-			if (seq == 0)
-			{
-				if (pNode->left != nullptr) stk[seq_next].push(pNode->left);
-				if (pNode->right != nullptr) stk[seq_next].push(pNode->right);
-			}
-			else
-			{
-				if (pNode->right != nullptr) stk[seq_next].push(pNode->right);
-				if (pNode->left != nullptr) stk[seq_next].push(pNode->left);
-			}
-		}
-		ans.push_back(num);
-		seq = seq_next;
-	}
-	return ans;
-}
+                lv.push_back(node->val);
+
+                if (node->left != nullptr && i == 0) {
+                    st[j].push(node->left);
+                }
+                if (node->right != nullptr) {
+                    st[j].push(node->right);
+                }
+                if (node->left != nullptr && i == 1) {
+                    st[j].push(node->left);                    
+                }          
+            }
+            ans.emplace_back(lv);
+            swap(i, j);
+        }
+
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 vector<vector<int>> _solution_run(TreeNode* root)
 {
-	return zigzagLevelOrder(root);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+	Solution sln;
+	return sln.zigzagLevelOrder(root);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<vector<int>> _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
-vector<string> _get_test_cases_string()
-{
-	return {
-	"[3,9,20,null,null,15,7]",
-	"[[3],[20,9],[15,7]]"
-	};
-}
-
-//#define USE_GET_TEST_CASES_FILESTREAM
-//string _get_test_cases_filestream()
+//#define USE_GET_TEST_CASES_IN_CPP
+//vector<string> _get_test_cases_string()
 //{
-//	return "../../problems/binary-tree-zigzag-level-order-traversal/tests.txt";
+//	return {};
 //}
-
