@@ -1,4 +1,4 @@
-# `（困难）` [5553.distribute-repeating-integers 分配重复整数](https://leetcode-cn.com/problems/distribute-repeating-integers/)
+# `（困难）` [1655.distribute-repeating-integers 分配重复整数](https://leetcode-cn.com/problems/distribute-repeating-integers/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-39/problems/distribute-repeating-integers/)
 

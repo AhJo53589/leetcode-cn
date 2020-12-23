@@ -1,4 +1,4 @@
-# `（中等）` [5505.maximum-sum-obtained-of-any-permutation 所有排列中的最大和](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/)
+# `（中等）` [1589.maximum-sum-obtained-of-any-permutation 所有排列中的最大和](https://leetcode-cn.com/problems/maximum-sum-obtained-of-any-permutation/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-35/problems/maximum-sum-obtained-of-any-permutation/)
 

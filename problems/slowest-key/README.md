@@ -1,4 +1,4 @@
-# `（简单）` [5546.slowest-key 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)
+# `（简单）` [1629.slowest-key 按键持续时间最长的键](https://leetcode-cn.com/problems/slowest-key/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-212/problems/slowest-key/)
 

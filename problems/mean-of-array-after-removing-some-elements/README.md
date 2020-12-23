@@ -1,4 +1,4 @@
-# `（简单）` [5122.mean-of-array-after-removing-some-elements 删除某些元素后的数组均值](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/)
+# `（简单）` [1619.mean-of-array-after-removing-some-elements 删除某些元素后的数组均值](https://leetcode-cn.com/problems/mean-of-array-after-removing-some-elements/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-37/problems/mean-of-array-after-removing-some-elements/)
 

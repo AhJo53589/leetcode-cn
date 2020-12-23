@@ -1,4 +1,4 @@
-# `（简单）` [5617.goal-parser-interpretation 设计 Goal 解析器](https://leetcode-cn.com/problems/goal-parser-interpretation/)
+# `（简单）` [1678.goal-parser-interpretation 设计 Goal 解析器](https://leetcode-cn.com/problems/goal-parser-interpretation/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-218/problems/goal-parser-interpretation/)
 

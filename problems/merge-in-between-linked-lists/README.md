@@ -1,4 +1,4 @@
-# `（中等）` [5558.merge-in-between-linked-lists 合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
+# `（中等）` [1669.merge-in-between-linked-lists 合并两个链表](https://leetcode-cn.com/problems/merge-in-between-linked-lists/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-40/problems/merge-in-between-linked-lists/)
 

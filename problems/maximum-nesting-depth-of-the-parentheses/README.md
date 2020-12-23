@@ -1,4 +1,4 @@
-# `（简单）` [5535.maximum-nesting-depth-of-the-parentheses 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)
+# `（简单）` [1614.maximum-nesting-depth-of-the-parentheses 括号的最大嵌套深度](https://leetcode-cn.com/problems/maximum-nesting-depth-of-the-parentheses/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-210/problems/maximum-nesting-depth-of-the-parentheses/)
 

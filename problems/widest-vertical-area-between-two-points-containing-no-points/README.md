@@ -1,4 +1,4 @@
-# `（中等）` [5540.widest-vertical-area-between-two-points-containing-no-points 两点之间不包含任何点的最宽垂直面积](https://leetcode-cn.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
+# `（中等）` [1637.widest-vertical-area-between-two-points-containing-no-points 两点之间不包含任何点的最宽垂直面积](https://leetcode-cn.com/problems/widest-vertical-area-between-two-points-containing-no-points/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-38/problems/widest-vertical-area-between-two-points-containing-no-points/)
 

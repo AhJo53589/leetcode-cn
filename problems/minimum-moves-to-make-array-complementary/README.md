@@ -1,4 +1,4 @@
-# `（中等）` [5615.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数](https://leetcode-cn.com/problems/minimum-moves-to-make-array-complementary/)
+# `（中等）` [1674.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数](https://leetcode-cn.com/problems/minimum-moves-to-make-array-complementary/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-217/problems/minimum-moves-to-make-array-complementary/)
 

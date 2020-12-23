@@ -1,4 +1,4 @@
-# `（中等）` [5552.minimum-jumps-to-reach-home 到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/)
+# `（中等）` [1654.minimum-jumps-to-reach-home 到家的最少跳跃次数](https://leetcode-cn.com/problems/minimum-jumps-to-reach-home/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-39/problems/minimum-jumps-to-reach-home/)
 

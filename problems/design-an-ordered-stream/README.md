@@ -1,4 +1,4 @@
-# `（简单）` [5601.design-an-ordered-stream 设计有序流](https://leetcode-cn.com/problems/design-an-ordered-stream/)
+# `（简单）` [1656.design-an-ordered-stream 设计有序流](https://leetcode-cn.com/problems/design-an-ordered-stream/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-215/problems/design-an-ordered-stream/)
 

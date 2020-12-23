@@ -1,4 +1,4 @@
-# `（中等）` [5536.maximal-network-rank 最大网络秩](https://leetcode-cn.com/problems/maximal-network-rank/)
+# `（中等）` [1615.maximal-network-rank 最大网络秩](https://leetcode-cn.com/problems/maximal-network-rank/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-210/problems/maximal-network-rank/)
 

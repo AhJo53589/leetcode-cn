@@ -1,4 +1,4 @@
-# `（困难）` [5156.rank-transform-of-a-matrix 矩阵转换后的秩](https://leetcode-cn.com/problems/rank-transform-of-a-matrix/)
+# `（困难）` [1632.rank-transform-of-a-matrix 矩阵转换后的秩](https://leetcode-cn.com/problems/rank-transform-of-a-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-212/problems/rank-transform-of-a-matrix/)
 

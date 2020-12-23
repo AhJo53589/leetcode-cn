@@ -1,4 +1,4 @@
-# `（简单）` [5557.maximum-repeating-substring 最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
+# `（简单）` [1668.maximum-repeating-substring 最大重复子字符串](https://leetcode-cn.com/problems/maximum-repeating-substring/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-40/problems/maximum-repeating-substring/)
 

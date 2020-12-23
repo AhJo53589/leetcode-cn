@@ -1,4 +1,4 @@
-# `（困难）` [5616.minimize-deviation-in-array 数组的最小偏移量](https://leetcode-cn.com/problems/minimize-deviation-in-array/)
+# `（困难）` [1675.minimize-deviation-in-array 数组的最小偏移量](https://leetcode-cn.com/problems/minimize-deviation-in-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-217/problems/minimize-deviation-in-array/)
 

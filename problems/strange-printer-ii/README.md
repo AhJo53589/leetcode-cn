@@ -1,4 +1,4 @@
-# `（困难）` [5506.strange-printer-ii 奇怪的打印机 II](https://leetcode-cn.com/problems/strange-printer-ii/)
+# `（困难）` [1591.strange-printer-ii 奇怪的打印机 II](https://leetcode-cn.com/problems/strange-printer-ii/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-35/problems/strange-printer-ii/)
 

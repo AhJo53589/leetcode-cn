@@ -1,4 +1,4 @@
-# `（困难）` [5522.minimum-cost-to-connect-two-groups-of-points 连通两组点的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/)
+# `（困难）` [1595.minimum-cost-to-connect-two-groups-of-points 连通两组点的最小成本](https://leetcode-cn.com/problems/minimum-cost-to-connect-two-groups-of-points/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-207/problems/minimum-cost-to-connect-two-groups-of-points/)
 

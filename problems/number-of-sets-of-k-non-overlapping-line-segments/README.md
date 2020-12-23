@@ -1,4 +1,4 @@
-# `（中等）` [5527.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目](https://leetcode-cn.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)
+# `（中等）` [1621.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目](https://leetcode-cn.com/problems/number-of-sets-of-k-non-overlapping-line-segments/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-37/problems/number-of-sets-of-k-non-overlapping-line-segments/)
 

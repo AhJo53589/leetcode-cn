@@ -1,4 +1,4 @@
-# `（困难）` [5542.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)
+# `（困难）` [1639.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数](https://leetcode-cn.com/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-38/problems/number-of-ways-to-form-a-target-string-given-a-dictionary/)
 

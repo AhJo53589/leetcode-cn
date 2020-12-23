@@ -1,4 +1,4 @@
-# `（简单）` [5561.get-maximum-in-generated-array 获取生成数组中的最大值](https://leetcode-cn.com/problems/get-maximum-in-generated-array/)
+# `（简单）` [1646.get-maximum-in-generated-array 获取生成数组中的最大值](https://leetcode-cn.com/problems/get-maximum-in-generated-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-214/problems/get-maximum-in-generated-array/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5626.partitioning-into-minimum-number-of-deci-binary-numbers 十-二进制数的最少数目](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
+# `（中等）` [1689.partitioning-into-minimum-number-of-deci-binary-numbers 十-二进制数的最少数目](https://leetcode-cn.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-219/problems/partitioning-into-minimum-number-of-deci-binary-numbers/)
 

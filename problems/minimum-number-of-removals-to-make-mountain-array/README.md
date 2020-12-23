@@ -1,4 +1,4 @@
-# `（困难）` [5559.minimum-number-of-removals-to-make-mountain-array 得到山形数组的最少删除次数](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)
+# `（困难）` [1671.minimum-number-of-removals-to-make-mountain-array 得到山形数组的最少删除次数](https://leetcode-cn.com/problems/minimum-number-of-removals-to-make-mountain-array/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-40/problems/minimum-number-of-removals-to-make-mountain-array/)
 

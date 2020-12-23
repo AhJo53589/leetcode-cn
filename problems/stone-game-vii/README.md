@@ -1,4 +1,4 @@
-# `（中等）` [5627.stone-game-vii 石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii/)
+# `（中等）` [1690.stone-game-vii 石子游戏 VII](https://leetcode-cn.com/problems/stone-game-vii/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-219/problems/stone-game-vii/)
 

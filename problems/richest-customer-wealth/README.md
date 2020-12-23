@@ -1,4 +1,4 @@
-# `（简单）` [5613.richest-customer-wealth 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)
+# `（简单）` [1672.richest-customer-wealth 最富有客户的资产总量](https://leetcode-cn.com/problems/richest-customer-wealth/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-217/problems/richest-customer-wealth/)
 

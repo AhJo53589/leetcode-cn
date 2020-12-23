@@ -1,4 +1,4 @@
-# `（中等）` [5620.concatenation-of-consecutive-binary-numbers 连接连续二进制数字](https://leetcode-cn.com/problems/concatenation-of-consecutive-binary-numbers/)
+# `（中等）` [1680.concatenation-of-consecutive-binary-numbers 连接连续二进制数字](https://leetcode-cn.com/problems/concatenation-of-consecutive-binary-numbers/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-218/problems/concatenation-of-consecutive-binary-numbers/)
 

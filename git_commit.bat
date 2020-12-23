@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1697.checking-existence-of-edge-length-limited-paths"
+git commit -m"1665.minimum-initial-energy-to-finish-tasks"
 git push

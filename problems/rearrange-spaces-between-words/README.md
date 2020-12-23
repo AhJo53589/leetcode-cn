@@ -1,4 +1,4 @@
-# `（简单）` [5519.rearrange-spaces-between-words 重新排列单词间的空格](https://leetcode-cn.com/problems/rearrange-spaces-between-words/)
+# `（简单）` [1592.rearrange-spaces-between-words 重新排列单词间的空格](https://leetcode-cn.com/problems/rearrange-spaces-between-words/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-207/problems/rearrange-spaces-between-words/)
 

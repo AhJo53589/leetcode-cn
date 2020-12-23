@@ -1,4 +1,4 @@
-# `（中等）` [5541.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目](https://leetcode-cn.com/problems/count-substrings-that-differ-by-one-character/)
+# `（中等）` [1638.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目](https://leetcode-cn.com/problems/count-substrings-that-differ-by-one-character/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-38/problems/count-substrings-that-differ-by-one-character/)
 

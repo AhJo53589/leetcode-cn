@@ -1,4 +1,4 @@
-# `（中等）` [5528.coordinate-with-maximum-network-quality 网络信号最好的坐标](https://leetcode-cn.com/problems/coordinate-with-maximum-network-quality/)
+# `（中等）` [1620.coordinate-with-maximum-network-quality 网络信号最好的坐标](https://leetcode-cn.com/problems/coordinate-with-maximum-network-quality/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-37/problems/coordinate-with-maximum-network-quality/)
 

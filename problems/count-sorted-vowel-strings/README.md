@@ -1,4 +1,4 @@
-# `（中等）` [5555.count-sorted-vowel-strings 统计字典序元音字符串的数目](https://leetcode-cn.com/problems/count-sorted-vowel-strings/)
+# `（中等）` [1641.count-sorted-vowel-strings 统计字典序元音字符串的数目](https://leetcode-cn.com/problems/count-sorted-vowel-strings/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-213/problems/count-sorted-vowel-strings/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5551.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-string-balanced/)
+# `（中等）` [1653.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-string-balanced/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-39/problems/minimum-deletions-to-make-string-balanced/)
 

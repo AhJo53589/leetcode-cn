@@ -1,4 +1,4 @@
-# `（中等）` [5520.split-a-string-into-the-max-number-of-unique-substrings 拆分字符串使唯一子字符串的数目最大](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)
+# `（中等）` [1593.split-a-string-into-the-max-number-of-unique-substrings 拆分字符串使唯一子字符串的数目最大](https://leetcode-cn.com/problems/split-a-string-into-the-max-number-of-unique-substrings/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-207/problems/split-a-string-into-the-max-number-of-unique-substrings/)
 

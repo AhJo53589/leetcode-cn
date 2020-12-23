@@ -1,4 +1,4 @@
-# `（中等）` [5504.make-sum-divisible-by-p 使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)
+# `（中等）` [1590.make-sum-divisible-by-p 使数组和能被 P 整除](https://leetcode-cn.com/problems/make-sum-divisible-by-p/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-35/problems/make-sum-divisible-by-p/)
 

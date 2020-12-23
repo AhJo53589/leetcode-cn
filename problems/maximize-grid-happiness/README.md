@@ -1,4 +1,4 @@
-# `（简单）` [5604.maximize-grid-happiness 最大化网格幸福感](https://leetcode-cn.com/problems/maximize-grid-happiness/)
+# `（简单）` [1659.maximize-grid-happiness 最大化网格幸福感](https://leetcode-cn.com/problems/maximize-grid-happiness/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-215/problems/maximize-grid-happiness/)
 

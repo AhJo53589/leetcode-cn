@@ -1,4 +1,4 @@
-# `（困难）` [5619.minimum-incompatibility 最小不兼容性](https://leetcode-cn.com/problems/minimum-incompatibility/)
+# `（困难）` [1681.minimum-incompatibility 最小不兼容性](https://leetcode-cn.com/problems/minimum-incompatibility/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-218/problems/minimum-incompatibility/)
 

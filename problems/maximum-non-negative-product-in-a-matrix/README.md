@@ -1,4 +1,4 @@
-# `（中等）` [5521.maximum-non-negative-product-in-a-matrix 矩阵的最大非负积](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/)
+# `（中等）` [1594.maximum-non-negative-product-in-a-matrix 矩阵的最大非负积](https://leetcode-cn.com/problems/maximum-non-negative-product-in-a-matrix/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-207/problems/maximum-non-negative-product-in-a-matrix/)
 

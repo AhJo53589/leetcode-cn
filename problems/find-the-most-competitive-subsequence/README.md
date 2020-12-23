@@ -1,4 +1,4 @@
-# `（中等）` [5614.find-the-most-competitive-subsequence 找出最具竞争力的子序列](https://leetcode-cn.com/problems/find-the-most-competitive-subsequence/)
+# `（中等）` [1673.find-the-most-competitive-subsequence 找出最具竞争力的子序列](https://leetcode-cn.com/problems/find-the-most-competitive-subsequence/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-217/problems/find-the-most-competitive-subsequence/)
 

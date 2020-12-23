@@ -1,4 +1,4 @@
-# `（困难）` [5600.kth-smallest-instructions 第 K 条最小指令](https://leetcode-cn.com/problems/kth-smallest-instructions/)
+# `（困难）` [1643.kth-smallest-instructions 第 K 条最小指令](https://leetcode-cn.com/problems/kth-smallest-instructions/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-213/problems/kth-smallest-instructions/)
 

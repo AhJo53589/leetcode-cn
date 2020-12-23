@@ -1,4 +1,4 @@
-# `（中等）` [5556.furthest-building-you-can-reach 可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/)
+# `（中等）` [1642.furthest-building-you-can-reach 可以到达的最远建筑](https://leetcode-cn.com/problems/furthest-building-you-can-reach/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-213/problems/furthest-building-you-can-reach/)
 

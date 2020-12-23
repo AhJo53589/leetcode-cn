@@ -1,4 +1,4 @@
-# `（中等）` [5524.maximum-profit-of-operating-a-centennial-wheel 经营摩天轮的最大利润](https://leetcode-cn.com/problems/maximum-profit-of-operating-a-centennial-wheel/)
+# `（中等）` [1599.maximum-profit-of-operating-a-centennial-wheel 经营摩天轮的最大利润](https://leetcode-cn.com/problems/maximum-profit-of-operating-a-centennial-wheel/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-208/problems/maximum-profit-of-operating-a-centennial-wheel/)
 

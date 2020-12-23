@@ -1,4 +1,4 @@
-# `（困难）` [5564.create-sorted-array-through-instructions 通过指令创建有序数组](https://leetcode-cn.com/problems/create-sorted-array-through-instructions/)
+# `（困难）` [1649.create-sorted-array-through-instructions 通过指令创建有序数组](https://leetcode-cn.com/problems/create-sorted-array-through-instructions/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-214/problems/create-sorted-array-through-instructions/)
 

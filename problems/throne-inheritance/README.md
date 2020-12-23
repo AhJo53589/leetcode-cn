@@ -1,4 +1,4 @@
-# `（中等）` [5525.throne-inheritance 皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance/)
+# `（中等）` [1600.throne-inheritance 皇位继承顺序](https://leetcode-cn.com/problems/throne-inheritance/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-208/problems/throne-inheritance/)
 

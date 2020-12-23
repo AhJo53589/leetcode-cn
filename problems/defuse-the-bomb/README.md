@@ -1,4 +1,4 @@
-# `（简单）` [5550.defuse-the-bomb 拆炸弹](https://leetcode-cn.com/problems/defuse-the-bomb/)
+# `（简单）` [1652.defuse-the-bomb 拆炸弹](https://leetcode-cn.com/problems/defuse-the-bomb/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-39/problems/defuse-the-bomb/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5603.determine-if-two-strings-are-close 确定两个字符串是否接近](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/)
+# `（中等）` [1657.determine-if-two-strings-are-close 确定两个字符串是否接近](https://leetcode-cn.com/problems/determine-if-two-strings-are-close/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-215/problems/determine-if-two-strings-are-close/)
 

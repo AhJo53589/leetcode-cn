@@ -1,4 +1,4 @@
-# `（中等）` [5560.design-front-middle-back-queue 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
+# `（中等）` [1670.design-front-middle-back-queue 设计前中后队列](https://leetcode-cn.com/problems/design-front-middle-back-queue/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-40/problems/design-front-middle-back-queue/)
 

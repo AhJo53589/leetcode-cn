@@ -1,4 +1,4 @@
-# `（中等）` [5547.arithmetic-subarrays 等差子数组](https://leetcode-cn.com/problems/arithmetic-subarrays/)
+# `（中等）` [1630.arithmetic-subarrays 等差子数组](https://leetcode-cn.com/problems/arithmetic-subarrays/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-212/problems/arithmetic-subarrays/)
 

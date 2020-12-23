@@ -1,4 +1,4 @@
-# `（简单）` [5625.count-of-matches-in-tournament 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
+# `（简单）` [1688.count-of-matches-in-tournament 比赛中的配对次数](https://leetcode-cn.com/problems/count-of-matches-in-tournament/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-219/problems/count-of-matches-in-tournament/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5563.sell-diminishing-valued-colored-balls 销售价值减少的颜色球](https://leetcode-cn.com/problems/sell-diminishing-valued-colored-balls/)
+# `（中等）` [1648.sell-diminishing-valued-colored-balls 销售价值减少的颜色球](https://leetcode-cn.com/problems/sell-diminishing-valued-colored-balls/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-214/problems/sell-diminishing-valued-colored-balls/)
 

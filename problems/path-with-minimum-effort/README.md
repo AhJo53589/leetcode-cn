@@ -1,4 +1,4 @@
-# `（中等）` [5548.path-with-minimum-effort 最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/)
+# `（中等）` [1631.path-with-minimum-effort 最小体力消耗路径](https://leetcode-cn.com/problems/path-with-minimum-effort/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-212/problems/path-with-minimum-effort/)
 

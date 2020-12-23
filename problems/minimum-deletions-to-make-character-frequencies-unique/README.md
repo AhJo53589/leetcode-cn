@@ -1,4 +1,4 @@
-# `（中等）` [5562.minimum-deletions-to-make-character-frequencies-unique 字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
+# `（中等）` [1647.minimum-deletions-to-make-character-frequencies-unique 字符频次唯一的最小删除次数](https://leetcode-cn.com/problems/minimum-deletions-to-make-character-frequencies-unique/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-214/problems/minimum-deletions-to-make-character-frequencies-unique/)
 

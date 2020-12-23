@@ -1,4 +1,4 @@
-# `（中等）` [5618.max-number-of-k-sum-pairs K 和数对的最大数目](https://leetcode-cn.com/problems/max-number-of-k-sum-pairs/)
+# `（中等）` [1679.max-number-of-k-sum-pairs K 和数对的最大数目](https://leetcode-cn.com/problems/max-number-of-k-sum-pairs/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-218/problems/max-number-of-k-sum-pairs/)
 

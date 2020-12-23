@@ -1,4 +1,4 @@
-# `（困难）` [5530.fancy-sequence 奇妙序列](https://leetcode-cn.com/problems/fancy-sequence/)
+# `（困难）` [1622.fancy-sequence 奇妙序列](https://leetcode-cn.com/problems/fancy-sequence/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-37/problems/fancy-sequence/)
 

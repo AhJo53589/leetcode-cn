@@ -1,4 +1,4 @@
-# `（中等）` [5602.minimum-operations-to-reduce-x-to-zero 将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero/)
+# `（中等）` [1658.minimum-operations-to-reduce-x-to-zero 将 x 减到 0 的最小操作数](https://leetcode-cn.com/problems/minimum-operations-to-reduce-x-to-zero/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-215/problems/minimum-operations-to-reduce-x-to-zero/)
 

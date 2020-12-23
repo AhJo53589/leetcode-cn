@@ -3,6 +3,17 @@
 
 
 ---
+## 20201223
+* 1665.minimum-initial-energy-to-finish-tasks 完成所有任务的最少初始能量
+
+* 1664.ways-to-make-a-fair-array 生成平衡数组的方案数
+
+* 1663.smallest-string-with-a-given-numeric-value 具有给定数值的最小字符串
+
+* 1662.check-if-two-string-arrays-are-equivalent 检查两个字符串数组是否相等
+
+
+---
 ## 20201222
 * 103.binary-tree-zigzag-level-order-traversal 二叉树的锯齿形层序遍历
 
@@ -25,13 +36,13 @@
 
 ---
 ## 20201213
-* 5245.maximum-height-by-stacking-cuboids 堆叠长方体的最大高度
+* 1691.maximum-height-by-stacking-cuboids 堆叠长方体的最大高度
 
-* 5627.stone-game-vii 石子游戏 VII
+* 1690.stone-game-vii 石子游戏 VII
 
-* 5626.partitioning-into-minimum-number-of-deci-binary-numbers 十-二进制数的最少数目
+* 1689.partitioning-into-minimum-number-of-deci-binary-numbers 十-二进制数的最少数目
 
-* 5625.count-of-matches-in-tournament 比赛中的配对次数
+* 1688.count-of-matches-in-tournament 比赛中的配对次数
 
 ---
 ## 20201212
@@ -55,13 +66,13 @@
 
 ---
 ## 20201206
-* 5619.minimum-incompatibility 最小不兼容性
+* 1681.minimum-incompatibility 最小不兼容性
 
-* 5620.concatenation-of-consecutive-binary-numbers 连接连续二进制数字
+* 1680.concatenation-of-consecutive-binary-numbers 连接连续二进制数字
 
-* 5618.max-number-of-k-sum-pairs K 和数对的最大数目
+* 1679.max-number-of-k-sum-pairs K 和数对的最大数目
 
-* 5617.goal-parser-interpretation 设计 Goal 解析器
+* 1678.goal-parser-interpretation 设计 Goal 解析器
 
 ---
 
@@ -79,27 +90,23 @@
 ## 20201129
 * 976.largest-perimeter-triangle 三角形的最大周长
 
-* 5616.minimize-deviation-in-array 数组的最小偏移量
+* 1675.minimize-deviation-in-array 数组的最小偏移量
 
-* 5616.minimize-deviation-in-array 数组的最小偏移量
+* 1674.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数
 
-* 5615.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数
+* 1673.find-the-most-competitive-subsequence 找出最具竞争力的子序列
 
-* 5615.minimum-moves-to-make-array-complementary 使数组互补的最少操作次数
-
-* 5614.find-the-most-competitive-subsequence 找出最具竞争力的子序列
-
-* 5613.richest-customer-wealth 最富有客户的资产总量
+* 1672.richest-customer-wealth 最富有客户的资产总量
 
 * 493.reverse-pairs 翻转对
 
-* 5559.minimum-number-of-removals-to-make-mountain-array 得到山形数组的最少删除次数
+* 1671.minimum-number-of-removals-to-make-mountain-array 得到山形数组的最少删除次数
 
-* 5560.design-front-middle-back-queue 设计前中后队列
+* 1670.design-front-middle-back-queue 设计前中后队列
 
-* 5558.merge-in-between-linked-lists 合并两个链表
+* 1669.merge-in-between-linked-lists 合并两个链表
 
-* 5557.maximum-repeating-substring 最大重复子字符串
+* 1668.maximum-repeating-substring 最大重复子字符串
 
 ---
 ## 20201125
@@ -117,23 +124,21 @@
 ## 20201115
 * 402.remove-k-digits 移掉K位数字
 
-* 5551.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数
+* 1659.maximize-grid-happiness 最大化网格幸福感
 
-* 5604.maximize-grid-happiness 最大化网格幸福感
+* 1658.minimum-operations-to-reduce-x-to-zero 将 x 减到 0 的最小操作数
 
-* 5602.minimum-operations-to-reduce-x-to-zero 将 x 减到 0 的最小操作数
+* 1657.determine-if-two-strings-are-close 确定两个字符串是否接近
 
-* 5603.determine-if-two-strings-are-close 确定两个字符串是否接近
+* 1656.design-an-ordered-stream 设计有序流
 
-* 5601.design-an-ordered-stream 设计有序流
+* 1655.distribute-repeating-integers 分配重复整数
 
-* 5553.distribute-repeating-integers 分配重复整数
+* 1654.minimum-jumps-to-reach-home 到家的最少跳跃次数
 
-* 5552.minimum-jumps-to-reach-home 到家的最少跳跃次数
+* 1653.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数
 
-* 5551.minimum-deletions-to-make-string-balanced 使字符串平衡的最少删除次数
-
-* 5550.defuse-the-bomb 拆炸弹
+* 1652.defuse-the-bomb 拆炸弹
 
 ---
 ## 20201111
@@ -155,13 +160,13 @@
 
 * 1624.largest-substring-between-two-equal-characters 两个相同字符之间的最长子字符串
 
-* 5564.create-sorted-array-through-instructions 通过指令创建有序数组
+* 1649.create-sorted-array-through-instructions 通过指令创建有序数组
 
-* 5563.sell-diminishing-valued-colored-balls 销售价值减少的颜色球
+* 1648.sell-diminishing-valued-colored-balls 销售价值减少的颜色球
 
-* 5562.minimum-deletions-to-make-character-frequencies-unique 字符频次唯一的最小删除次数
+* 1647.minimum-deletions-to-make-character-frequencies-unique 字符频次唯一的最小删除次数
 
-* 5561.get-maximum-in-generated-array 获取生成数组中的最大值
+* 1646.get-maximum-in-generated-array 获取生成数组中的最大值
 
 ---
 ## 20201106
@@ -173,23 +178,21 @@
 
 ---
 ## 20201101
-* 5554.check-array-formation-through-concatenation 能否连接形成数组
+* 1643.kth-smallest-instructions 第 K 条最小指令
 
-* 5600.kth-smallest-instructions 第 K 条最小指令
+* 1642.furthest-building-you-can-reach 可以到达的最远建筑
 
-* 5556.furthest-building-you-can-reach 可以到达的最远建筑
+* 1641.count-sorted-vowel-strings 统计字典序元音字符串的数目
 
-* 5555.count-sorted-vowel-strings 统计字典序元音字符串的数目
+* 1640.check-array-formation-through-concatenation 能否连接形成数组
 
-* 5554.check-array-formation-through-concatenation 能否连接形成数组
+* 1639.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数
 
-* 5542.number-of-ways-to-form-a-target-string-given-a-dictionary 通过给定词典构造目标字符串的方案数
+* 1638.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目
 
-* 5541.count-substrings-that-differ-by-one-character 统计只差一个字符的子串数目
+* 1637.widest-vertical-area-between-two-points-containing-no-points 两点之间不包含任何点的最宽垂直面积
 
-* 5540.widest-vertical-area-between-two-points-containing-no-points 两点之间不包含任何点的最宽垂直面积
-
-* 5539.sort-array-by-increasing-frequency 按照频率将数组升序排序
+* 1636.sort-array-by-increasing-frequency 按照频率将数组升序排序
 
 ---
 ## 20201031
@@ -207,13 +210,13 @@
 
 ---
 ## 20201025
-* 5156.rank-transform-of-a-matrix 矩阵转换后的秩
+* 1632.rank-transform-of-a-matrix 矩阵转换后的秩
 
-* 5548.path-with-minimum-effort 最小体力消耗路径
+* 1631.path-with-minimum-effort 最小体力消耗路径
 
-* 5547.arithmetic-subarrays 等差子数组
+* 1630.arithmetic-subarrays 等差子数组
 
-* 5546.slowest-key 按键持续时间最长的键
+* 1629.slowest-key 按键持续时间最长的键
 
 ---
 ## 20201024
@@ -239,17 +242,13 @@
 ## 20201018
 * 665.non-decreasing-array 非递减数列
 
-* 5528.coordinate-with-maximum-network-quality 网络信号最好的坐标
+* 1622.fancy-sequence 奇妙序列
 
-* 5530.fancy-sequence 奇妙序列
+* 1621.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目
 
-* 5527.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目
+* 1620.coordinate-with-maximum-network-quality 网络信号最好的坐标
 
-* 5527.number-of-sets-of-k-non-overlapping-line-segments 大小为 K 的不重叠线段的数目
-
-* 5528.coordinate-with-maximum-network-quality 网络信号最好的坐标
-
-* 5122.mean-of-array-after-removing-some-elements 删除某些元素后的数组均值
+* 1619.mean-of-array-after-removing-some-elements 删除某些元素后的数组均值
 
 ---
 ## 20201016
@@ -271,15 +270,15 @@
 
 ---
 ## 20201011
-* 5538.count-subtrees-with-max-distance-between-cities 统计子树中城市之间最大距离
-
-* 5537.split-two-strings-to-make-palindrome 分割两个字符串得到回文串
+* 1617.count-subtrees-with-max-distance-between-cities 统计子树中城市之间最大距离
 
 * 1616.split-two-strings-to-make-palindrome 分割两个字符串得到回文串
 
-* 5536.maximal-network-rank 最大网络秩
+* 1616.split-two-strings-to-make-palindrome 分割两个字符串得到回文串
 
-* 5535.maximum-nesting-depth-of-the-parentheses 括号的最大嵌套深度
+* 1615.maximal-network-rank 最大网络秩
+
+* 1614.maximum-nesting-depth-of-the-parentheses 括号的最大嵌套深度
 
 ---
 ## 20201010
@@ -293,13 +292,13 @@
 
 ---
 ## 20200927
-* 5526.maximum-number-of-achievable-transfer-requests 最多可达成的换楼请求数目
+* 1601.maximum-number-of-achievable-transfer-requests 最多可达成的换楼请求数目
 
-* 5525.throne-inheritance 皇位继承顺序
+* 1600.throne-inheritance 皇位继承顺序
 
-* 5524.maximum-profit-of-operating-a-centennial-wheel 经营摩天轮的最大利润
+* 1599.maximum-profit-of-operating-a-centennial-wheel 经营摩天轮的最大利润
 
-* 5523.crawler-log-folder 文件夹操作日志搜集器
+* 1598.crawler-log-folder 文件夹操作日志搜集器
 
 ---
 ## 20200924
@@ -321,21 +320,21 @@
 
 ---
 ## 20200920
-* 5522.minimum-cost-to-connect-two-groups-of-points 连通两组点的最小成本
+* 1595.minimum-cost-to-connect-two-groups-of-points 连通两组点的最小成本
 
-* 5521.maximum-non-negative-product-in-a-matrix 矩阵的最大非负积
+* 1594.maximum-non-negative-product-in-a-matrix 矩阵的最大非负积
 
-* 5520.split-a-string-into-the-max-number-of-unique-substrings 拆分字符串使唯一子字符串的数目最大
+* 1593.split-a-string-into-the-max-number-of-unique-substrings 拆分字符串使唯一子字符串的数目最大
 
-* 5519.rearrange-spaces-between-words 重新排列单词间的空格
+* 1592.rearrange-spaces-between-words 重新排列单词间的空格
 
-* 5506.strange-printer-ii 奇怪的打印机 II
+* 1591.strange-printer-ii 奇怪的打印机 II
 
-* 5504.make-sum-divisible-by-p 使数组和能被 P 整除
+* 1590.make-sum-divisible-by-p 使数组和能被 P 整除
 
-* 5505.maximum-sum-obtained-of-any-permutation 所有排列中的最大和
+* 1589.maximum-sum-obtained-of-any-permutation 所有排列中的最大和
 
-* 5503.sum-of-all-odd-length-subarrays 所有奇数长度子数组的和
+* 1588.sum-of-all-odd-length-subarrays 所有奇数长度子数组的和
 
 ---
 ## 20200919

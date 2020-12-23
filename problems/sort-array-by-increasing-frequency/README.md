@@ -1,4 +1,4 @@
-# `（简单）` [5539.sort-array-by-increasing-frequency 按照频率将数组升序排序](https://leetcode-cn.com/problems/sort-array-by-increasing-frequency/)
+# `（简单）` [1636.sort-array-by-increasing-frequency 按照频率将数组升序排序](https://leetcode-cn.com/problems/sort-array-by-increasing-frequency/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-38/problems/sort-array-by-increasing-frequency/)
 

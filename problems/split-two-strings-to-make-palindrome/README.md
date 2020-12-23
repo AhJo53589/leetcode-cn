@@ -1,4 +1,4 @@
-# `（中等）` [5537.split-two-strings-to-make-palindrome 分割两个字符串得到回文串](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/)
+# `（中等）` [1616.split-two-strings-to-make-palindrome 分割两个字符串得到回文串](https://leetcode-cn.com/problems/split-two-strings-to-make-palindrome/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-210/problems/split-two-strings-to-make-palindrome/)
 
