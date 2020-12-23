@@ -102,3 +102,4 @@
 | 2020/12/6  | [第 218 场周赛](./contest/weekly-contest-218/README.md) | 3 / 4 | 1179 / 3760 |
 |  |  |  |  |
 | 2020/12/13 | [第 219 场周赛](./contest/weekly-contest-219/README.md) | 2 / 4 | 1420 / 3709 |
+| 2020/12/20 | [第 220 场周赛](./contest/weekly-contest-220/README.md) | 2 / 4 | 1151 / 3690 | 

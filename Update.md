@@ -1,15 +1,25 @@
 # Update
 [返回](./README.md)
 
+
 ---
 ## 20201222
 * 103.binary-tree-zigzag-level-order-traversal 二叉树的锯齿形层序遍历
 
 
 ---
-## 20201215
-* 738.monotone-increasing-digits 单调递增的数字
+## 20201220
+* 1697.checking-existence-of-edge-length-limited-paths 检查边长度限制的路径是否存在
 
+* 1696.jump-game-vi 跳跃游戏 VI
+
+* 1695.maximum-erasure-value 删除子数组的最大得分
+
+* 1694.reformat-phone-number 重新格式化电话号码
+
+
+---
+## 20201215
 * 738.monotone-increasing-digits 单调递增的数字
 
 

@@ -752,6 +752,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1625 	lexicographically-smallest-string-after-applying-operations
 #define SOLUTION_CPP_FOLDER_NAME_ID_1626 	best-team-with-no-conflicts
 #define SOLUTION_CPP_FOLDER_NAME_ID_1627 	graph-connectivity-with-threshold
+#define SOLUTION_CPP_FOLDER_NAME_ID_1694 	reformat-phone-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_1695 	maximum-erasure-value
+#define SOLUTION_CPP_FOLDER_NAME_ID_1696 	jump-game-vi
+#define SOLUTION_CPP_FOLDER_NAME_ID_1697 	checking-existence-of-edge-length-limited-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_5122 	mean-of-array-after-removing-some-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5156 	rank-transform-of-a-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_5245 	maximum-height-by-stacking-cuboids
