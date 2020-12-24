@@ -130,6 +130,7 @@
 | √ | 131 | [palindrome-partitioning](../../problems/palindrome-partitioning) | [分割回文串](../../problems/palindrome-partitioning/README.md) | [cpp](../../problems/palindrome-partitioning/SOLUTION.cpp) |   | 中等 |
 | √ | 133 | [clone-graph](../../problems/clone-graph) | [克隆图](../../problems/clone-graph/README.md) | [cpp](../../problems/clone-graph/SOLUTION.cpp) |   | 中等 |
 | √ | 134 | [gas-station](../../problems/gas-station) | [加油站](../../problems/gas-station/README.md) | [cpp](../../problems/gas-station/SOLUTION.cpp) |   | 中等 |
+| √ | 135 | [candy](../../problems/candy) | [分发糖果](../../problems/candy/README.md) | [cpp](../../problems/candy/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/candy/solution/candy-by-ikaruga-trij/) | 困难 | 
 | √ | 136 | [single-number](../../problems/single-number) | [只出现一次的数字](../../problems/single-number/README.md) | [cpp](../../problems/single-number/SOLUTION.cpp) |   | 简单 |
 | √ | 137 | [single-number-ii](../../problems/single-number-ii) | [只出现一次的数字 II](../../problems/single-number-ii/README.md) | [cpp](../../problems/single-number-ii/SOLUTION.cpp) |   | 中等 |
 | √ | 138 | [copy-list-with-random-pointer](../../problems/copy-list-with-random-pointer) | [复制带随机指针的链表](../../problems/copy-list-with-random-pointer/README.md) | [cpp](../../problems/copy-list-with-random-pointer/SOLUTION.cpp) |   | 中等 |
@@ -826,7 +827,6 @@
 | √ | 1695 | [maximum-erasure-value](../../problems/maximum-erasure-value) | [删除子数组的最大得分](../../problems/maximum-erasure-value/README.md) | [cpp](../../problems/maximum-erasure-value/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/maximum-erasure-value/solution/maximum-erasure-value-by-ikaruga-3q2g/) | 中等 | 
 | √ | 1696 | [jump-game-vi](../../problems/jump-game-vi) | [跳跃游戏 VI](../../problems/jump-game-vi/README.md) | [cpp](../../problems/jump-game-vi/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/jump-game-vi/solution/jump-game-vi-by-ikaruga-fz5c/) | 中等 | 
 | √ | 1697 | [checking-existence-of-edge-length-limited-paths](../../problems/checking-existence-of-edge-length-limited-paths) | [检查边长度限制的路径是否存在](../../problems/checking-existence-of-edge-length-limited-paths/README.md) | [cpp](../../problems/checking-existence-of-edge-length-limited-paths/SOLUTION.cpp) |   | 困难 | 
-
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

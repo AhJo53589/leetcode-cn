@@ -124,6 +124,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_131 	palindrome-partitioning
 #define SOLUTION_CPP_FOLDER_NAME_ID_133 	clone-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
+#define SOLUTION_CPP_FOLDER_NAME_ID_135 	candy
 #define SOLUTION_CPP_FOLDER_NAME_ID_136 	single-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_137 	single-number-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_138 	copy-list-with-random-pointer
