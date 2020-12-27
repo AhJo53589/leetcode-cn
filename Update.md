@@ -3,6 +3,25 @@
 
 
 ---
+## 20201227
+* 5624.minimum-adjacent-swaps-for-k-consecutive-ones 得到连续 K 个 1 的最少相邻交换次数
+
+* 5623.maximum-binary-string-after-change 修改后的最大二进制字符串
+
+* 5622.average-waiting-time 平均等待时间
+
+* 5621.number-of-students-unable-to-eat-lunch 无法吃午餐的学生数量
+
+* 5640.maximum-xor-with-an-element-from-array 与数组中元素的最大异或值
+
+* 5210.where-will-the-ball-fall 球会落何处
+
+* 5638.maximum-number-of-eaten-apples 吃苹果的最大数目
+
+* 5637.determine-if-string-halves-are-alike 判断字符串的两半是否相似
+
+
+---
 ## 20201224
 * 135.candy 分发糖果
 

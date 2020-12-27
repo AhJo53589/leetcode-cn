@@ -821,6 +821,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1688 	count-of-matches-in-tournament
 #define SOLUTION_CPP_FOLDER_NAME_ID_1689 	partitioning-into-minimum-number-of-deci-binary-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_1690 	stone-game-vii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5210 	where-will-the-ball-fall
+#define SOLUTION_CPP_FOLDER_NAME_ID_5621 	number-of-students-unable-to-eat-lunch
+#define SOLUTION_CPP_FOLDER_NAME_ID_5622 	average-waiting-time
+#define SOLUTION_CPP_FOLDER_NAME_ID_5623 	maximum-binary-string-after-change
+#define SOLUTION_CPP_FOLDER_NAME_ID_5624 	minimum-adjacent-swaps-for-k-consecutive-ones
+#define SOLUTION_CPP_FOLDER_NAME_ID_5637 	determine-if-string-halves-are-alike
+#define SOLUTION_CPP_FOLDER_NAME_ID_5638 	maximum-number-of-eaten-apples
+#define SOLUTION_CPP_FOLDER_NAME_ID_5640 	maximum-xor-with-an-element-from-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

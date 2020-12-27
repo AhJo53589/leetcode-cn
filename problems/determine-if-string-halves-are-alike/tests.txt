@@ -1,0 +1,8 @@
+"book"
+true
+"textbook"
+false
+"MerryChristmas"
+false
+"AbCdEfGh"
+true
