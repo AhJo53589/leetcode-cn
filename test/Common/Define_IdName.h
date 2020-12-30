@@ -430,6 +430,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1028 	recover-a-tree-from-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_1037 	valid-boomerang
 #define SOLUTION_CPP_FOLDER_NAME_ID_1038 	binary-search-tree-to-greater-sum-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_1046 	last-stone-weight
 #define SOLUTION_CPP_FOLDER_NAME_ID_1071 	greatest-common-divisor-of-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1095 	find-in-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people

@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5624.minimum-adjacent-swaps-for-k-consecutive-ones"
+git commit -m"1046.last-stone-weight"
 git push

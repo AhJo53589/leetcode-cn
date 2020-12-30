@@ -3,6 +3,11 @@
 
 
 ---
+## 20201230
+* 1046.last-stone-weight 最后一块石头的重量
+
+
+---
 ## 20201227
 * 5624.minimum-adjacent-swaps-for-k-consecutive-ones 得到连续 K 个 1 的最少相邻交换次数
 
