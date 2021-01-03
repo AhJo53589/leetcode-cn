@@ -105,3 +105,4 @@
 | 2020/12/20 | [第 220 场周赛](./contest/weekly-contest-220/README.md) | 2 / 4 | 1151 / 3690 |
 | 2020/12/26 | [第 42 场双周赛](./contest/biweekly-contest-42/README.md) | 2 / 4 | 496 / 1578 |
 | 2020/12/27 | [第 221 场周赛](./contest/weekly-contest-221/README.md) | 3 / 4 | 489 / 3397 |
+| 2021/1/3   | [第 222 场周赛](./contest/weekly-contest-222/README.md) | 2 / 4 | 687 / 3117 |

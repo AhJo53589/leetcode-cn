@@ -147,6 +147,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_155 	min-stack
 #define SOLUTION_CPP_FOLDER_NAME_ID_160 	intersection-of-two-linked-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_162 	find-peak-element
+#define SOLUTION_CPP_FOLDER_NAME_ID_165 	compare-version-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_166 	fraction-to-recurring-decimal
 #define SOLUTION_CPP_FOLDER_NAME_ID_167 	two-sum-ii-input-array-is-sorted
 #define SOLUTION_CPP_FOLDER_NAME_ID_168 	excel-sheet-column-title
@@ -274,6 +275,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
+#define SOLUTION_CPP_FOLDER_NAME_ID_435 	non-overlapping-intervals
 #define SOLUTION_CPP_FOLDER_NAME_ID_437 	path-sum-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_441 	arranging-coins
 #define SOLUTION_CPP_FOLDER_NAME_ID_443 	string-compression
@@ -830,6 +832,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5637 	determine-if-string-halves-are-alike
 #define SOLUTION_CPP_FOLDER_NAME_ID_5638 	maximum-number-of-eaten-apples
 #define SOLUTION_CPP_FOLDER_NAME_ID_5640 	maximum-xor-with-an-element-from-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5641 	maximum-units-on-a-truck
+#define SOLUTION_CPP_FOLDER_NAME_ID_5642 	count-good-meals
+#define SOLUTION_CPP_FOLDER_NAME_ID_5643 	ways-to-split-array-into-three-subarrays
+#define SOLUTION_CPP_FOLDER_NAME_ID_5644 	minimum-operations-to-make-a-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

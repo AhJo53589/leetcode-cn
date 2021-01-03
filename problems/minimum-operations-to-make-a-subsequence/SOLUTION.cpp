@@ -2,27 +2,20 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-        for (int i = 0; i < flowerbed.size() && n > 0; i++) {
-            if (flowerbed[i] == 1) continue;
-            if (i > 0 && flowerbed[i - 1] == 1) continue;
-            if (i < flowerbed.size() - 1 && flowerbed[i + 1] == 1) continue;
-            i++;
-            n--;
-        }
-        return n == 0;
+    int minOperations(vector<int>& target, vector<int>& arr) {
+
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-bool _solution_run(vector<int>& flowerbed, int n)
+int _solution_run(vector<int>& target, vector<int>& arr)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.canPlaceFlowers(flowerbed, n);
+	return sln.minOperations(target, arr);
 }
 
 //#define USE_SOLUTION_CUSTOM

@@ -153,6 +153,7 @@
 | √ | 155 | [min-stack](../../problems/min-stack) | [最小栈](../../problems/min-stack/README.md) | [cpp](../../problems/min-stack/SOLUTION.cpp) |   | 简单 |
 | √ | 160 | [intersection-of-two-linked-lists](../../problems/intersection-of-two-linked-lists) | [相交链表](../../problems/intersection-of-two-linked-lists/README.md) | [cpp](../../problems/intersection-of-two-linked-lists/SOLUTION.cpp) |   | 简单 |
 | √ | 162 | [find-peak-element](../../problems/find-peak-element) | [寻找峰值](../../problems/find-peak-element/README.md) | [cpp](../../problems/find-peak-element/SOLUTION.cpp) |   | 中等 |
+| √ | 165 | [compare-version-numbers](../../problems/compare-version-numbers) | [比较版本号](../../problems/compare-version-numbers/README.md) | [cpp](../../problems/compare-version-numbers/SOLUTION.cpp) |   | 中等 | 
 | √ | 166 | [fraction-to-recurring-decimal](../../problems/fraction-to-recurring-decimal) | [分数到小数](../../problems/fraction-to-recurring-decimal/README.md) | [cpp](../../problems/fraction-to-recurring-decimal/SOLUTION.cpp) |   | 中等 |
 | √ | 167 | [two-sum-ii-input-array-is-sorted](../../problems/two-sum-ii-input-array-is-sorted) | [两数之和](../../problems/two-sum-ii-input-array-is-sorted/README.md) | [cpp](../../problems/two-sum-ii-input-array-is-sorted/SOLUTION.cpp) |   | 简单 |
 | √ | 168 | [excel-sheet-column-title](../../problems/excel-sheet-column-title) | [Excel表列名称](../../problems/excel-sheet-column-title/README.md) | [cpp](../../problems/excel-sheet-column-title/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/excel-sheet-column-title/solution/168-by-ikaruga/) | 简单 |
@@ -283,6 +284,7 @@
 | √ | 429 | [n-ary-tree-level-order-traversal](../../problems/n-ary-tree-level-order-traversal) | [N叉树的层序遍历](../../problems/n-ary-tree-level-order-traversal/README.md) | [cpp](../../problems/n-ary-tree-level-order-traversal/SOLUTION.cpp) |   | 中等 |
 | √ | 430 | [flatten-a-multilevel-doubly-linked-list](../../problems/flatten-a-multilevel-doubly-linked-list) | [扁平化多级双向链表](../../problems/flatten-a-multilevel-doubly-linked-list/README.md) | [cpp](../../problems/flatten-a-multilevel-doubly-linked-list/SOLUTION.cpp) |   | 中等 |
 | √ | 432 | [all-oone-data-structure](../../problems/all-oone-data-structure) | [全 O(1) 的数据结构](../../problems/all-oone-data-structure/README.md) | [cpp](../../problems/all-oone-data-structure/SOLUTION.cpp) |   | 困难 |
+| √ | 435 | [non-overlapping-intervals](../../problems/non-overlapping-intervals) | [无重叠区间](../../problems/non-overlapping-intervals/README.md) | [cpp](../../problems/non-overlapping-intervals/SOLUTION.cpp) |   | 中等 | 
 | √ | 437 | [path-sum-iii](../../problems/path-sum-iii) | [路径总和 III](../../problems/path-sum-iii/README.md) | [cpp](../../problems/path-sum-iii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/path-sum-iii/solution/path-sum-iii-by-ikaruga/) | 简单 |
 | √ | 441 | [arranging-coins](../../problems/arranging-coins) | [排列硬币](../../problems/arranging-coins/README.md) | [cpp](../../problems/arranging-coins/SOLUTION.cpp) |   | 简单 |
 | √ | 443 | [string-compression](../../problems/string-compression) | [压缩字符串](../../problems/string-compression/README.md) | [cpp](../../problems/string-compression/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/string-compression/solution/) | 简单 |
@@ -342,7 +344,7 @@
 | √ | 590 | [n-ary-tree-postorder-traversal](../../problems/n-ary-tree-postorder-traversal) | [N叉树的后序遍历](../../problems/n-ary-tree-postorder-traversal/README.md) | [cpp](../../problems/n-ary-tree-postorder-traversal/SOLUTION.cpp) |   | 简单 |
 | √ | 594 | [longest-harmonious-subsequence](../../problems/longest-harmonious-subsequence) | [最长和谐子序列](../../problems/longest-harmonious-subsequence/README.md) | [cpp](../../problems/longest-harmonious-subsequence/SOLUTION.cpp) |   | 简单 |
 | √ | 599 | [minimum-index-sum-of-two-lists](../../problems/minimum-index-sum-of-two-lists) | [两个列表的最小索引总和](../../problems/minimum-index-sum-of-two-lists/README.md) | [cpp](../../problems/minimum-index-sum-of-two-lists/SOLUTION.cpp) |   | 简单 |
-| √ | 605 | [can-place-flowers](../../problems/can-place-flowers) | [种花问题](../../problems/can-place-flowers/README.md) | [cpp](../../problems/can-place-flowers/SOLUTION.cpp) |   | 简单 |
+| √ | 605 | [can-place-flowers](../../problems/can-place-flowers) | [种花问题](../../problems/can-place-flowers/README.md) | [cpp](../../problems/can-place-flowers/SOLUTION.cpp) |   | 简单 | 
 | √ | 617 | [merge-two-binary-trees](../../problems/merge-two-binary-trees) | [合并二叉树](../../problems/merge-two-binary-trees/README.md) | [cpp](../../problems/merge-two-binary-trees/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/merge-two-binary-trees/solution/merge-two-binary-trees-by-ikaruga/) | 简单 |
 | √ | 621 | [task-scheduler](../../problems/task-scheduler) | [任务调度器](../../problems/task-scheduler/README.md) | [cpp](../../problems/task-scheduler/SOLUTION.cpp) |   | 中等 |
 | √ | 622 | [design-circular-queue](../../problems/design-circular-queue) | [设计循环队列](../../problems/design-circular-queue/README.md) | [cpp](../../problems/design-circular-queue/SOLUTION.cpp) |   | 中等 |
@@ -836,6 +838,10 @@
 | √ | 5637 | [determine-if-string-halves-are-alike](../../problems/determine-if-string-halves-are-alike) | [判断字符串的两半是否相似](../../problems/determine-if-string-halves-are-alike/README.md) | [cpp](../../problems/determine-if-string-halves-are-alike/SOLUTION.cpp) |   | 简单 | 
 | √ | 5638 | [maximum-number-of-eaten-apples](../../problems/maximum-number-of-eaten-apples) | [吃苹果的最大数目](../../problems/maximum-number-of-eaten-apples/README.md) | [cpp](../../problems/maximum-number-of-eaten-apples/SOLUTION.cpp) |   | 中等 | 
 |   | 5640 | [maximum-xor-with-an-element-from-array](../../problems/maximum-xor-with-an-element-from-array) | [与数组中元素的最大异或值](../../problems/maximum-xor-with-an-element-from-array/README.md) | [cpp](../../problems/maximum-xor-with-an-element-from-array/SOLUTION.cpp) |   | 困难 | 
+| √ | 5641 | [maximum-units-on-a-truck](../../problems/maximum-units-on-a-truck) | [卡车上的最大单元数](../../problems/maximum-units-on-a-truck/README.md) | [cpp](../../problems/maximum-units-on-a-truck/SOLUTION.cpp) |   | 简单 | 
+| √ | 5642 | [count-good-meals](../../problems/count-good-meals) | [大餐计数](../../problems/count-good-meals/README.md) | [cpp](../../problems/count-good-meals/SOLUTION.cpp) |   | 中等 | 
+| √ | 5643 | [ways-to-split-array-into-three-subarrays](../../problems/ways-to-split-array-into-three-subarrays) | [将数组分成三个子数组的方案数](../../problems/ways-to-split-array-into-three-subarrays/README.md) | [cpp](../../problems/ways-to-split-array-into-three-subarrays/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/ways-to-split-array-into-three-subarrays/solution/ways-to-split-array-by-ikaruga-7whk/) | 中等 | 
+|   | 5644 | [minimum-operations-to-make-a-subsequence](../../problems/minimum-operations-to-make-a-subsequence) | [得到子序列的最少操作次数](../../problems/minimum-operations-to-make-a-subsequence/README.md) | [cpp](../../problems/minimum-operations-to-make-a-subsequence/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |
