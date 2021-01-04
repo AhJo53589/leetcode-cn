@@ -54,6 +54,7 @@
 | 198 | [house-robber](./problems/house-robber) | [【打家劫舍】 代码简洁易懂](https://leetcode-cn.com/problems/house-robber/solution/da-jia-jie-she-by-ikaruga/) |
 | 322 | [coin-change](./problems/coin-change) | [【零钱兑换】贪心 + dfs = 8ms](https://leetcode-cn.com/problems/coin-change/solution/322-by-ikaruga/) |
 | 498 | [diagonal-traverse](./problems/diagonal-traverse) | [【对角线遍历】 分析题目-找准规律-代码清晰易读-不要让自己迷失在随意的ifelse中](https://leetcode-cn.com/problems/diagonal-traverse/solution/dui-jiao-xian-bian-li-fen-xi-ti-mu-zhao-zhun-gui-l/) |
+| 696 | [count-binary-substrings](./problems/count-binary-substrings) | [【计数二进制子串】计数](https://leetcode-cn.com/problems/count-binary-substrings/solution/count-binary-substrings-by-ikaruga/) |
 | 887 | [super-egg-drop](./problems/super-egg-drop) | [【鸡蛋掉落】5 行代码，从求扔几次变为求多少层楼 =附面试经历=](https://leetcode-cn.com/problems/super-egg-drop/solution/887-by-ikaruga/) |
 | 1248 | [count-number-of-nice-subarrays](./problems/count-number-of-nice-subarrays) | [【统计「优美子数组」】滑动窗口一次遍历](https://leetcode-cn.com/problems/count-number-of-nice-subarrays/solution/1248-by-ikaruga/) |
 | 1255 | [maximum-score-words-formed-by-letters](./problems/maximum-score-words-formed-by-letters) | [【得分最高的单词集合】位压缩](https://leetcode-cn.com/problems/maximum-score-words-formed-by-letters/solution/5258-by-ikaruga/) |
