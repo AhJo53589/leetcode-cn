@@ -1,0 +1,10 @@
+"abbxxxxzzy"
+[[3,6]]
+"abc"
+[]
+"abcdddeeeeaabbbcd"
+[[3,5],[6,9],[12,14]]
+"aba"
+[]
+"aaa"
+[[0,2]]
