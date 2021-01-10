@@ -3,8 +3,9 @@
 class Solution {
 public:
     int maximumGain(string s, int x, int y) {
+        score = { x, y };
+
         s += '-';
-        unordered_map<string, int> cache;
         int ans = 0;
         int left = -1;
         for (int i = 0; i < s.size(); i++) {
@@ -12,7 +13,7 @@ public:
             if (left != -1 && s[i] != 'a' && s[i] != 'b') {
                 if (i - left > 1) {
                     string n = s.substr(left, i - left);
-                    ans += dfs(n, x, y, cache);
+                    ans += dfs(n);
                 }
                 left = -1;
             }
@@ -20,25 +21,40 @@ public:
         return ans;
     }
 
-    int dfs(string& s, int x, int y, unordered_map<string, int>& cache) {
+    int dfs(string& s) {
         if (cache.find(s) != cache.end()) return cache[s];
-        bool flag = false;
-        string target[2] = { "ab", "ba" };
-        int score[2] = { x, y };
         int ans = 0;
-        for (int i = 0; i + 1 < s.size(); i++) {
-            for (int t = 0; t < 2; t++) {
-                if (s[i] == target[t][0] && s[i + 1] == target[t][1]) {
-                    s.erase(i, 2);
-                    ans = max(ans, dfs(s, x, y, cache) + score[t]);
-                    s.insert(i, target[t]);
-                    flag = true;
-                }
-            }
+        for (int i = 0; i + 1 < s.size();) {
+            auto sc = getScore(s, i);
+            if (sc[2] == 0) break;
+            int cut_left = (sc[1] <= sc[2]) ? i : i + sc[1] - sc[2];
+            int cut_len = min(sc[1], sc[2]) * 2;
+            string n(s);
+            n.erase(cut_left, cut_len);
+            ans = max(ans, sc[0] + dfs(n));
+            i += sc[1];
         }
         cache[s] = ans;
         return ans;
     }
+
+    vector<int> getScore(string& s, int start) {
+        int left = 0;
+        int right = 0;
+        int flag = 0;
+        for (int i = start; i < s.size(); i++) {
+            flag = (flag == 0 && s[i] == s[start]) ? 0 : 1;
+            left += (flag == 0);
+            right += (flag == 1 && s[i] != s[start]);
+            if (flag == 1 && s[i] == s[start]) break;
+        }
+        int sc = min(left, right) * score[s[start] != 'a'];
+        return { sc, left, right };
+    }
+
+private:
+    vector<int> score;
+    unordered_map<string, int> cache;
 };
 
 //////////////////////////////////////////////////////////////////////////
@@ -47,7 +63,7 @@ int _solution_run(string s, int x, int y)
     //int caseNo = -1;
     //static int caseCnt = 0;
     //if (caseNo != -1 && caseCnt++ != caseNo) return {};
-    cout << s << endl << x << ", " << y << endl;
+    //cout << s << endl << x << ", " << y << endl;
     Solution sln;
     return sln.maximumGain(s, x, y);
 }
