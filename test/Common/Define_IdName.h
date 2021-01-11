@@ -188,6 +188,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_225 	implement-stack-using-queues
 #define SOLUTION_CPP_FOLDER_NAME_ID_226 	invert-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_227 	basic-calculator-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_228 	summary-ranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_230 	kth-smallest-element-in-a-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_231 	power-of-two
 #define SOLUTION_CPP_FOLDER_NAME_ID_232 	implement-queue-using-stacks
@@ -444,6 +445,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1160 	find-words-that-can-be-formed-by-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_1162 	as-far-from-land-as-possible
 #define SOLUTION_CPP_FOLDER_NAME_ID_1171 	remove-zero-sum-consecutive-nodes-from-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_1202 	smallest-string-with-swaps
 #define SOLUTION_CPP_FOLDER_NAME_ID_1207 	unique-number-of-occurrences
 #define SOLUTION_CPP_FOLDER_NAME_ID_1208 	get-equal-substrings-within-budget
 #define SOLUTION_CPP_FOLDER_NAME_ID_1209 	remove-all-adjacent-duplicates-in-string-ii
