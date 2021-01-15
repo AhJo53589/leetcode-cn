@@ -49,35 +49,39 @@
 
 ### 答题
 ``` C++
+struct DSU {
+    DSU(int n) : data(n, -1) {}
+
+    bool unionSet(int x, int y) {
+        x = root(x);
+        y = root(y);
+        if (x == y) return false;
+
+        if (data[y] < data[x]) std::swap(x, y);
+        data[x] += data[y];
+        data[y] = x;
+        return true;
+    }
+
+    bool same(int x, int y) { return root(x) == root(y); }
+
+    int root(int x) { return data[x] < 0 ? x : data[x] = root(data[x]); }
+
+    int size(int x) { return -data[root(x)]; }
+
+    std::vector<int> data;
+};
+
 class Solution {
 public:
     vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        data = vector<int>(edges.size() + 1, -1);
+        DSU dsu(edges.size() + 1);
         for (auto e : edges) {
-            if (root(e[0]) != -1 && root(e[0]) == root(e[1])) return e;
-            join(e[0], e[1]);
+            if (dsu.root(e[0]) != -1 && dsu.root(e[0]) == dsu.root(e[1])) return e;
+            dsu.unionSet(e[0], e[1]);
         }
         return {};
     }
-
-    bool same(int x, int y) {
-        return (root(x) == root(y));
-    }
-
-    int root(int x) {
-        return (data[x] < 0) ? x : data[x] = root(data[x]);
-    }
-
-    void join(int x, int y) {
-        if (same(x, y)) return;
-        x = root(x);
-        y = root(y);
-        data[x] += data[y];
-        data[y] = x;  
-    }
-
-private:
-    vector<int> data;
 };
 ```
 

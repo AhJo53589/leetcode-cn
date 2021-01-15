@@ -25,25 +25,38 @@ struct DSU {
 
 class Solution {
 public:
-    vector<int> findRedundantConnection(vector<vector<int>>& edges) {
-        DSU dsu(edges.size() + 1);
-        for (auto e : edges) {
-            if (dsu.root(e[0]) != -1 && dsu.root(e[0]) == dsu.root(e[1])) return e;
-            dsu.unionSet(e[0], e[1]);
+    int removeStones(vector<vector<int>>& stones) {
+        int ans = 0;
+        DSU dsu(stones.size());
+        unordered_map<int, int> row;
+        unordered_map<int, int> col;
+
+        for (int i = 0; i < stones.size(); i++) {
+            int x = stones[i][0];
+            int y = stones[i][1];
+            if (row.find(x) != row.end()) {
+                ans += dsu.unionSet(i, row[x]);
+            }
+            row[x] = i;
+            if (col.find(y) != col.end()) {
+                ans += dsu.unionSet(i, col[y]);
+            }
+            col[y] = i;
         }
-        return {};
+
+        return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-vector<int> _solution_run(vector<vector<int>>& edges)
+bool _solution_run(int x, int y)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.findRedundantConnection(edges);
+	return sln.unionSet(x, y);
 }
 
 //#define USE_SOLUTION_CUSTOM

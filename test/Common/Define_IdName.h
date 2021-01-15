@@ -413,6 +413,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_933 	number-of-recent-calls
 #define SOLUTION_CPP_FOLDER_NAME_ID_945 	minimum-increment-to-make-array-unique
 #define SOLUTION_CPP_FOLDER_NAME_ID_946 	validate-stack-sequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_947 	most-stones-removed-with-same-row-or-column
 #define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_956 	tallest-billboard
