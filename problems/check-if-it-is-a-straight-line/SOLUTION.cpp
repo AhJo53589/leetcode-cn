@@ -1,32 +1,41 @@
-//////////////////////////////////////////////////////////////////////////
-bool isLine(vector<int>& a, vector<int>& b, vector<int>& c)
-{
-	long long t1 = ((long long)a[0] - b[0]) * ((long long)a[1] - c[1]);
-	long long t2 = ((long long)a[0] - c[0]) * ((long long)a[1] - b[1]);
-	return t1 == t2;
-}
-
-bool checkStraightLine(vector<vector<int>>& coordinates) 
-{
-	vector<vector<int>>& c = coordinates;
-	if (c.size() < 3) return true;
-	for (size_t i = 0; i < c.size() - 2; i++)
-	{
-		if (!isLine(c[i], c[i + 1], c[i + 2]))
-			return false;
-	}
-	return true;
-}
 
 //////////////////////////////////////////////////////////////////////////
-bool _solution_run(vector<vector<int>>& coordinates) 
+class Solution {
+public:
+    bool checkStraightLine(vector<vector<int>> &coordinates) {
+        int deltaX = coordinates[0][0], deltaY = coordinates[0][1];
+        int n = coordinates.size();
+        for (int i = 0; i < n; ++i) {
+            coordinates[i][0] -= deltaX;
+            coordinates[i][1] -= deltaY;
+        }
+        int A = coordinates[1][1], B = -coordinates[1][0];
+        for (int i = 2; i < n; ++i) {
+            int x = coordinates[i][0], y = coordinates[i][1];
+            if (A * x + B * y != 0) {
+                return false;
+            }
+        }
+        return true;
+    }
+};
+
+
+//////////////////////////////////////////////////////////////////////////
+bool _solution_run(vector<vector<int>> &coordinates)
 {
-	return checkStraightLine(coordinates);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+	Solution sln;
+	return sln.checkStraightLine(coordinates);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<int> _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
@@ -35,5 +44,3 @@ bool _solution_run(vector<vector<int>>& coordinates)
 //{
 //	return {};
 //}
-
-

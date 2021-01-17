@@ -829,6 +829,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1689 	partitioning-into-minimum-number-of-deci-binary-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_1690 	stone-game-vii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5210 	where-will-the-ball-fall
+#define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
+#define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5621 	number-of-students-unable-to-eat-lunch
 #define SOLUTION_CPP_FOLDER_NAME_ID_5622 	average-waiting-time
 #define SOLUTION_CPP_FOLDER_NAME_ID_5623 	maximum-binary-string-after-change
@@ -840,6 +842,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5642 	count-good-meals
 #define SOLUTION_CPP_FOLDER_NAME_ID_5643 	ways-to-split-array-into-three-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5644 	minimum-operations-to-make-a-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_5653 	number-of-rectangles-that-can-form-the-largest-square
+#define SOLUTION_CPP_FOLDER_NAME_ID_5655 	largest-submatrix-with-rearrangements
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
