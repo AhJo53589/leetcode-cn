@@ -372,6 +372,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_714 	best-time-to-buy-and-sell-stock-with-transaction-fee
 #define SOLUTION_CPP_FOLDER_NAME_ID_718 	maximum-length-of-repeated-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_719 	find-k-th-smallest-pair-distance
+#define SOLUTION_CPP_FOLDER_NAME_ID_721 	accounts-merge
 #define SOLUTION_CPP_FOLDER_NAME_ID_724 	find-pivot-index
 #define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill
 #define SOLUTION_CPP_FOLDER_NAME_ID_738 	monotone-increasing-digits
