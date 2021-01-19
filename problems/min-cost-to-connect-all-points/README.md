@@ -52,8 +52,8 @@
 <p><strong>提示：</strong></p>
 
 <ul>
-	<li><code>1 <= points.length <= 1000</code></li>
-	<li><code>-10<sup>6</sup>&nbsp;<= x<sub>i</sub>, y<sub>i</sub> <= 10<sup>6</sup></code></li>
+	<li><code>1 &lt;= points.length &lt;= 1000</code></li>
+	<li><code>-10<sup>6</sup>&nbsp;&lt;= x<sub>i</sub>, y<sub>i</sub> &lt;= 10<sup>6</sup></code></li>
 	<li>所有点&nbsp;<code>(x<sub>i</sub>, y<sub>i</sub>)</code>&nbsp;两两不同。</li>
 </ul>
 
@@ -63,14 +63,35 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/min-cost-to-connect-all-points/solution/min-cost-to-connect-by-ikaruga-t7my/)
 
 ### 答题
 ``` C++
 class Solution {
 public:
     int minCostConnectPoints(vector<vector<int>>& points) {
-
+        priority_queue<pair<int, int>, vector<pair<int, int>>, greater<pair<int, int>>> pq;    
+        vector<bool> vi(points.size(), false);
+        int n = points.size();
+        int ans = 0;
+        
+        pq.push({0, 0});
+        while (!pq.empty() && n > 0) {
+            auto [d, p1] = pq.top();
+            pq.pop();
+            if (vi[p1]) continue;
+            
+            ans += d;
+            vi[p1] = true;
+            n--;
+            
+            for (int p2 = 0; p2 < points.size(); p2++) {
+                if (vi[p2]) continue;
+                int dis = abs(points[p1][0] - points[p2][0]) + abs(points[p1][1] - points[p2][1]);
+                pq.push({dis, p2});
+            }
+        }
+        return ans;
     }
 };
 ```

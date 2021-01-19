@@ -3,6 +3,11 @@
 
 
 ---
+## 20210119
+* 1584.min-cost-to-connect-all-points 连接所有点的最小费用
+
+
+---
 ## 20210118
 * 721.accounts-merge 账户合并
 
