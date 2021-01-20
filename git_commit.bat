@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1584.min-cost-to-connect-all-points"
+git commit -m"628.maximum-product-of-three-numbers"
 git push
