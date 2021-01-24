@@ -2,42 +2,46 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-void dfs(vector<vector<int>>& conn, vector<bool>& visited, int n)
-{
-	if (visited[n]) return;
-	visited[n] = true;
-	for (auto& c : conn[n])
-	{
-		dfs(conn, visited, c);
-	}
-}
+struct DSU {
+    DSU(int n) : data(n, -1) {}
 
-int makeConnected(int n, vector<vector<int>>& connections) 
-{
-	if (connections.size() < n - 1) return -1;
+    bool unionSet(int x, int y) {
+        x = root(x);
+        y = root(y);
+        if (x == y) return false;
 
-	vector<bool> visited(n, false);
-	vector<vector<int>> conn(n, vector<int>());
-	for (auto v : connections)
-	{
-		conn[v[0]].push_back(v[1]);
-		conn[v[1]].push_back(v[0]);
-	}
+        if (data[y] < data[x]) std::swap(x, y);
+        data[x] += data[y];
+        data[y] = x;
+        return true;
+    }
 
-	int ans = -1;
-	for (int i = 0; i < conn.size(); i++)
-	{
-		ans += (!visited[i]);
-		dfs(conn, visited, i);
-	}
+    bool same(int x, int y) { return root(x) == root(y); }
 
-	return ans;
-}
+    int root(int x) { return data[x] < 0 ? x : data[x] = root(data[x]); }
+
+    int size(int x) { return -data[root(x)]; }
+
+    std::vector<int> data;
+};
+
+class Solution {
+public:
+    int makeConnected(int n, vector<vector<int>>& connections) {
+        int ans = n;
+        DSU dsu(n);
+        for (auto& c : connections) {
+            ans -= (dsu.unionSet(c[0], c[1]));
+        }        
+        return connections.size() < n - 1 ? -1 : ans - 1;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(int n, vector<vector<int>>& connections)
 {
-	return makeConnected(n,connections);
+    Solution sln;
+    return sln.makeConnected(n, connections);
 }
 
 //#define USE_SOLUTION_CUSTOM

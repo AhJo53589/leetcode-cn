@@ -1,0 +1,12 @@
+"ab"
+"a"
+0
+"aaa"
+"zzz"
+0
+"aba"
+"caa"
+2
+"dabadd"
+"cda"
+3
