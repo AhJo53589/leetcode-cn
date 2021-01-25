@@ -419,6 +419,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_949 	largest-time-for-given-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_953 	verifying-an-alien-dictionary
 #define SOLUTION_CPP_FOLDER_NAME_ID_956 	tallest-billboard
+#define SOLUTION_CPP_FOLDER_NAME_ID_959 	regions-cut-by-slashes
 #define SOLUTION_CPP_FOLDER_NAME_ID_968 	binary-tree-cameras
 #define SOLUTION_CPP_FOLDER_NAME_ID_973 	k-closest-points-to-origin
 #define SOLUTION_CPP_FOLDER_NAME_ID_974 	subarray-sums-divisible-by-k
