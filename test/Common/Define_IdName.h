@@ -445,6 +445,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1111 	maximum-nesting-depth-of-two-valid-parentheses-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_1128 	number-of-equivalent-domino-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1146 	snapshot-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1160 	find-words-that-can-be-formed-by-characters

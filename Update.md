@@ -3,6 +3,11 @@
 
 
 ---
+## 20210126
+* 1128.number-of-equivalent-domino-pairs 等价多米诺骨牌对的数量
+
+
+---
 ## 20210125
 * 959.regions-cut-by-slashes 由斜杠划分区域
 
