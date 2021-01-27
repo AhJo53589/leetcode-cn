@@ -3,6 +3,11 @@
 
 
 ---
+## 20210127
+* 1579.remove-max-number-of-edges-to-keep-graph-fully-traversable 保证图可完全遍历
+
+
+---
 ## 20210126
 * 1128.number-of-equivalent-domino-pairs 等价多米诺骨牌对的数量
 
