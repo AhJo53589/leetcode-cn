@@ -386,6 +386,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_763 	partition-labels
 #define SOLUTION_CPP_FOLDER_NAME_ID_767 	reorganize-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
+#define SOLUTION_CPP_FOLDER_NAME_ID_778 	swim-in-rising-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
