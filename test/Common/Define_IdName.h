@@ -394,6 +394,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_830 	positions-of-large-groups
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
+#define SOLUTION_CPP_FOLDER_NAME_ID_839 	similar-string-groups
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
 #define SOLUTION_CPP_FOLDER_NAME_ID_842 	split-array-into-fibonacci-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
@@ -849,7 +850,11 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5643 	ways-to-split-array-into-three-subarrays
 #define SOLUTION_CPP_FOLDER_NAME_ID_5644 	minimum-operations-to-make-a-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_5653 	number-of-rectangles-that-can-form-the-largest-square
+#define SOLUTION_CPP_FOLDER_NAME_ID_5654 	maximum-number-of-balls-in-a-box
 #define SOLUTION_CPP_FOLDER_NAME_ID_5655 	largest-submatrix-with-rearrangements
+#define SOLUTION_CPP_FOLDER_NAME_ID_5665 	restore-the-array-from-adjacent-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5666 	palindrome-partitioning-iv
+#define SOLUTION_CPP_FOLDER_NAME_ID_5667 	can-you-eat-your-favorite-candy-on-your-favorite-day
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

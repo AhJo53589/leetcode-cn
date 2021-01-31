@@ -3,6 +3,19 @@
 
 
 ---
+## 20210131
+* 5666.palindrome-partitioning-iv 回文串分割 IV
+
+* 5667.can-you-eat-your-favorite-candy-on-your-favorite-day 你能在你最喜欢的那天吃到你最喜欢的糖果吗？
+
+* 5665.restore-the-array-from-adjacent-pairs 从相邻元素对还原数组
+
+* 5654.maximum-number-of-balls-in-a-box 盒子中小球的最大数量
+
+* 839.similar-string-groups 相似字符串组
+
+
+---
 ## 20210130
 * 778.swim-in-rising-water 水位上升的泳池中游泳
 
