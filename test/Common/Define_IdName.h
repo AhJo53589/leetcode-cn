@@ -290,6 +290,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_466 	count-the-repetitions
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_475 	heaters
+#define SOLUTION_CPP_FOLDER_NAME_ID_480 	sliding-window-median
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_482 	license-key-formatting
 #define SOLUTION_CPP_FOLDER_NAME_ID_486 	predict-the-winner
