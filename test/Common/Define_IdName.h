@@ -346,6 +346,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_628 	maximum-product-of-three-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_637 	average-of-levels-in-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_641 	design-circular-deque
+#define SOLUTION_CPP_FOLDER_NAME_ID_643 	maximum-average-subarray-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_647 	palindromic-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_648 	replace-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_649 	dota2-senate

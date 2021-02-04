@@ -3,6 +3,11 @@
 
 
 ---
+## 20210204
+* 643.maximum-average-subarray-i 子数组最大平均数 I
+
+
+---
 ## 20210203
 * 480.sliding-window-median 滑动窗口中位数
 
