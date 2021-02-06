@@ -110,3 +110,4 @@
 | 2021/1/10   | |  | |
 | 2021/1/17 | [第 224 场周赛](./contest/weekly-contest-224/README.md) | 3 / 4 | 384 / 3794 |
 | 2021/1/31 | [第 226 场周赛](./contest/weekly-contest-226/README.md) | 2 / 4 | 1062 / 4033 |
+| 2021/2/6 | [第 45 场双周赛](./contest/biweekly-contest-45/README.md) | 3 / 4 | 478 / 1676 |
