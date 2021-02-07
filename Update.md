@@ -1,6 +1,26 @@
 # Update
 [返回](./README.md)
 
+## 20210207
+* 5660.maximum-number-of-events-that-can-be-attended-ii 最多可以参加的会议数目 II
+
+* 5659.minimum-length-of-string-after-deleting-similar-ends 删除字符串两端相同字符后的最短长度
+
+* 5658.maximum-absolute-sum-of-any-subarray 任意子数组和的绝对值的最大值
+
+* 5657.sum-of-unique-elements 唯一元素的和
+
+
+---
+## 20210206
+* 5675.closest-subsequence-sum 最接近目标值的子序列和
+
+* 5674.largest-merge-of-two-strings 构造字典序最大的合并字符串
+
+* 5673.maximum-score-from-removing-stones 移除石子的最大得分
+
+* 5672.check-if-array-is-sorted-and-rotated 检查数组是否经排序和轮转得到
+
 
 ---
 ## 20210204
@@ -15,6 +35,23 @@
 ---
 ## 20210202
 * 424.longest-repeating-character-replacement 替换后的最长重复字符
+
+---
+## 20210131
+* 5666.palindrome-partitioning-iv 回文串分割 IV
+
+* 5667.can-you-eat-your-favorite-candy-on-your-favorite-day 你能在你最喜欢的那天吃到你最喜欢的糖果吗？
+
+* 5665.restore-the-array-from-adjacent-pairs 从相邻元素对还原数组
+
+* 5654.maximum-number-of-balls-in-a-box 盒子中小球的最大数量
+
+* 839.similar-string-groups 相似字符串组
+
+
+---
+## 20210130
+* 778.swim-in-rising-water 水位上升的泳池中游泳
 
 
 ---

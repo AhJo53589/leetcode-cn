@@ -1,0 +1,6 @@
+["tars","rats","arts","star"]
+2
+["omv","ovm"]
+1
+["abc","abc"]
+1

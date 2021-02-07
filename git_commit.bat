@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"643.maximum-average-subarray-i"
+git commit -m"5675.closest-subsequence-sum"
 git push

@@ -1,0 +1,4 @@
+"abcbdd"
+true
+"bcbddxy"
+false

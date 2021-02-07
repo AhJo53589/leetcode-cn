@@ -1,0 +1,6 @@
+"cabaa"
+"bcaaa"
+"cbcabaaaaa"
+"abcabc"
+"abdcaba"
+"abdcabcabcaba"

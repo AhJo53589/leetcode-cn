@@ -1,0 +1,16 @@
+"ca"
+2
+"cabaabac"
+0
+"aabccabba"
+3
+"a"
+1
+"aa"
+0
+"aaa"
+0
+"aaaa"
+0
+"bbbbbbbbbbbbbbbbbbbbbbbbbbbabbbbbbbbbbbbbbbccbcbcbccbbabbb"
+1
