@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"978.longest-turbulent-subarray"
+git commit -m"992.subarrays-with-k-different-integers"
 git push
