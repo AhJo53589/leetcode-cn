@@ -1,58 +1,28 @@
-
-
-
-//////////////////////////////////////////////////////////////////////////
-//class KthLargest {
-//public:
-//	priority_queue<int, vector<int>, greater<int>> pq; //��С��
-//	int K;
-//	KthLargest(int k, vector<int>& nums) {
-//		K = k;
-//		for (int& nu : nums) {
-//			this->add(nu);
-//		}
-//	}
-//
-//	int add(int val) {
-//		if (pq.size() < K)
-//			pq.push(val);
-//		else if (pq.top() < val) {  //val���ڶѶ������
-//			pq.pop();
-//			pq.push(val);
-//		}
-//		return pq.top();  //����ֱ�ӷ��ضѶ�
-//	}
-//};
-
 //////////////////////////////////////////////////////////////////////////
 class KthLargest {
 public:
-	KthLargest(int k, vector<int>& nums) {
-		m_k = k;
-		m_nums = nums;
-		sort(m_nums.rbegin(), m_nums.rend());
-	}
+    KthLargest(int k, vector<int>& nums) {
+        m_k = k;
+        for (auto& n : nums) {
+            add(n);
+        }
+    }
 
-	int add(int val) {
-		if (m_nums.size() != m_k || val > m_nums.back())
-		{
-			m_nums.push_back(val);
-			int i = m_nums.size() - 2;
-			for (; i >= 0; i--)
-			{
-				if (m_nums[i] < val) m_nums[i + 1] = m_nums[i];
-				else break;
-			}
-			m_nums[i + 1] = val;
-		}
-		while (m_nums.size() > m_k) m_nums.pop_back();
-		return (m_k > m_nums.size()) ? 0 : m_nums.back();
-	}
+    int add(int val) {
+        if (pq.size() == m_k && pq.top() < val) {
+            pq.pop();
+        }
+        if (pq.size() < m_k || pq.top() < val) {
+            pq.push(val);
+        }
+        return pq.top();
+    }
 
 private:
-	vector<int> m_nums;
-	int m_k;
+    priority_queue<int, vector<int>, greater<>> pq;
+    int m_k;
 };
+
 
 //////////////////////////////////////////////////////////////////////////
 //class KthLargest {
