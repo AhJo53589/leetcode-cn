@@ -1,12 +1,9 @@
-ab
-eidbaooo
+"ab"
+"eidbaooo"
 true
-ab
-eidboaoo
+"ab"
+"eidboaoo"
 false
-adc
-dcda
-true
 "trinitrophenylmethylnitramine"
 "dinitrophenylhydrazinetrinitrophenylmethylnitramine"
 true

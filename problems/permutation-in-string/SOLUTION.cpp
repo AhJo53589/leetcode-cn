@@ -1,56 +1,46 @@
 
-
 //////////////////////////////////////////////////////////////////////////
-bool checkInclusion(string s1, string s2)
-{
-	int cc_s1[26] = { 0 };
-	for (auto &c : s1)
-	{
-		cc_s1[c - 'a']++;
-	}
+class Solution {
+public:
+    bool checkInclusion(string s1, string s2) {
+        vector<int> cnt_1(26, 0);
+        vector<int> cnt_2(26, 0);
 
-	int cc_s2[26] = { 0 };
-	size_t left = 0;
-	for (size_t i = 0; i < s2.size(); i++)
-	{
-		int t = s2[i] - 'a';
-		cc_s2[t]++;
-		if (cc_s2[t] == cc_s1[t])
-		{
-			bool bFlag = true;
-			for (size_t j = 0; j < 26; j++)
-			{
-				if (cc_s2[j] != cc_s1[j])
-				{
-					bFlag = false;
-					break;
-				}
-			}
-			if (bFlag) return true;
-		}
-		else if (cc_s2[t] > cc_s1[t])
-		{
-			for (size_t j = left; j <= i; j++)
-			{
-				int t2 = s2[j] - 'a';
-				cc_s2[t2]--;
-				left++;
-				if (s2[j] == s2[i]) break;
-			}
-		}
-	}
-	return false;
-}
+        for (auto &c : s1) {
+            cnt_1[c - 'a']++;
+        }
+
+        for (int i = 0, j = 0; j < s2.size(); i++) {
+            while (j - i < s1.size() && j < s2.size()) {
+                cnt_2[s2[j] - 'a']++;
+                j++;
+            }
+
+            if (j - i != s1.size()) break;
+            if (cnt_1 == cnt_2) return true;
+
+            cnt_2[s2[i] - 'a']--;
+        }
+
+        return false;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 bool _solution_run(string s1, string s2)
 {
-	return checkInclusion(s1,s2);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+	Solution sln;
+	return sln.checkInclusion(s1, s2);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//bool _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
@@ -59,4 +49,3 @@ bool _solution_run(string s1, string s2)
 //{
 //	return {};
 //}
-
