@@ -1,0 +1,6 @@
+"abbcccaa"
+13
+"xy"
+2
+"zzzzz"
+15

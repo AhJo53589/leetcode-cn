@@ -870,6 +870,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5673 	maximum-score-from-removing-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_5674 	largest-merge-of-two-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5675 	closest-subsequence-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5676 	minimum-changes-to-make-alternating-binary-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5677 	count-number-of-homogenous-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5678 	minimum-limit-of-balls-in-a-bag
+#define SOLUTION_CPP_FOLDER_NAME_ID_5679 	minimum-degree-of-a-connected-trio-in-a-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

@@ -3,6 +3,14 @@
 
 ---
 ## 20210214
+* 5679.minimum-degree-of-a-connected-trio-in-a-graph 一个图中连通三元组的最小度数
+
+* 5678.minimum-limit-of-balls-in-a-bag 袋子里最少数目的球
+
+* 5677.count-number-of-homogenous-substrings 统计同构子字符串的数目
+
+* 5676.minimum-changes-to-make-alternating-binary-string 生成交替二进制字符串的最少操作数
+
 * 448.find-all-numbers-disappeared-in-an-array 找到所有数组中消失的数字
 
 * 765.couples-holding-hands 情侣牵手
