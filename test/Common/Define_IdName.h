@@ -283,6 +283,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_443 	string-compression
 #define SOLUTION_CPP_FOLDER_NAME_ID_445 	add-two-numbers-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
+#define SOLUTION_CPP_FOLDER_NAME_ID_448 	find-all-numbers-disappeared-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_452 	minimum-number-of-arrows-to-burst-balloons
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_459 	repeated-substring-pattern
@@ -387,6 +388,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_748 	shortest-completing-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
 #define SOLUTION_CPP_FOLDER_NAME_ID_763 	partition-labels
+#define SOLUTION_CPP_FOLDER_NAME_ID_765 	couples-holding-hands
 #define SOLUTION_CPP_FOLDER_NAME_ID_767 	reorganize-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_778 	swim-in-rising-water
