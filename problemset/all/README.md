@@ -340,6 +340,7 @@
 | √ | 559 | [maximum-depth-of-n-ary-tree](../../problems/maximum-depth-of-n-ary-tree) | [N叉树的最大深度](../../problems/maximum-depth-of-n-ary-tree/README.md) | [cpp](../../problems/maximum-depth-of-n-ary-tree/SOLUTION.cpp) |   | 简单 |
 | √ | 561 | [array-partition-i](../../problems/array-partition-i) | [数组拆分 I](../../problems/array-partition-i/README.md) | [cpp](../../problems/array-partition-i/SOLUTION.cpp) |   | 简单 |
 | √ | 563 | [binary-tree-tilt](../../problems/binary-tree-tilt) | [二叉树的坡度](../../problems/binary-tree-tilt/README.md) | [cpp](../../problems/binary-tree-tilt/SOLUTION.cpp) |   | 简单 |
+| √ | 566 | [reshape-the-matrix](../../problems/reshape-the-matrix) | [重塑矩阵](../../problems/reshape-the-matrix/README.md) | [cpp](../../problems/reshape-the-matrix/SOLUTION.cpp) |   | 简单 | 
 | √ | 567 | [permutation-in-string](../../problems/permutation-in-string) | [字符串的排列](../../problems/permutation-in-string/README.md) | [cpp](../../problems/permutation-in-string/SOLUTION.cpp) |   | 中等 |
 | √ | 572 | [subtree-of-another-tree](../../problems/subtree-of-another-tree) | [另一个树的子树](../../problems/subtree-of-another-tree/README.md) | [cpp](../../problems/subtree-of-another-tree/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/subtree-of-another-tree/solution/subtree-of-another-tree-by-ikaruga/) | 简单 |
 | √ | 575 | [distribute-candies](../../problems/distribute-candies) | [分糖果](../../problems/distribute-candies/README.md) | [cpp](../../problems/distribute-candies/SOLUTION.cpp) |   | 简单 |
