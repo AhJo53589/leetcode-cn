@@ -2,6 +2,13 @@
 [返回](./README.md)
 
 ---
+## 20210219
+* 995.minimum-number-of-k-consecutive-bit-flips K 连续位的最小翻转次数
+
+* 1004.max-consecutive-ones-iii 最大连续1的个数 III
+
+
+---
 ## 20210217
 * 566.reshape-the-matrix 重塑矩阵
 

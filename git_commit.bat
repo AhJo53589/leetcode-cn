@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"566.reshape-the-matrix"
+git commit -m"995.minimum-number-of-k-consecutive-bit-flips"
 git push
