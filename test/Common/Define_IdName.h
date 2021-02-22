@@ -367,6 +367,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_693 	binary-number-with-alternating-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
 #define SOLUTION_CPP_FOLDER_NAME_ID_696 	count-binary-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_697 	degree-of-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_698 	partition-to-k-equal-sum-subsets
 #define SOLUTION_CPP_FOLDER_NAME_ID_700 	search-in-a-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_701 	insert-into-a-binary-search-tree
@@ -390,6 +391,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_752 	open-the-lock
 #define SOLUTION_CPP_FOLDER_NAME_ID_763 	partition-labels
 #define SOLUTION_CPP_FOLDER_NAME_ID_765 	couples-holding-hands
+#define SOLUTION_CPP_FOLDER_NAME_ID_766 	toeplitz-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_767 	reorganize-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_778 	swim-in-rising-water

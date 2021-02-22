@@ -2,6 +2,13 @@
 [返回](./README.md)
 
 ---
+## 20210222
+* 766.toeplitz-matrix 托普利茨矩阵
+
+* 697.degree-of-an-array 数组的度
+
+
+---
 ## 20210219
 * 995.minimum-number-of-k-consecutive-bit-flips K 连续位的最小翻转次数
 
