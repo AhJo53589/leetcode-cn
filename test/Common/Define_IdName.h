@@ -401,6 +401,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_830 	positions-of-large-groups
+#define SOLUTION_CPP_FOLDER_NAME_ID_832 	flipping-an-image
 #define SOLUTION_CPP_FOLDER_NAME_ID_836 	rectangle-overlap
 #define SOLUTION_CPP_FOLDER_NAME_ID_839 	similar-string-groups
 #define SOLUTION_CPP_FOLDER_NAME_ID_841 	keys-and-rooms
