@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210225
+* 867.transpose-matrix 转置矩阵
+
+
+---
 ## 20210224
 * 832.flipping-an-image 翻转图像
 
