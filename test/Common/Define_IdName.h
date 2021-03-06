@@ -882,6 +882,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5677 	count-number-of-homogenous-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5678 	minimum-limit-of-balls-in-a-bag
 #define SOLUTION_CPP_FOLDER_NAME_ID_5679 	minimum-degree-of-a-connected-trio-in-a-graph
+#define SOLUTION_CPP_FOLDER_NAME_ID_5680 	find-nearest-point-that-has-the-same-x-or-y-coordinate
+#define SOLUTION_CPP_FOLDER_NAME_ID_5681 	check-if-number-is-a-sum-of-powers-of-three
+#define SOLUTION_CPP_FOLDER_NAME_ID_5682 	sum-of-beauty-of-all-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5683 	count-pairs-of-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
