@@ -886,6 +886,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5681 	check-if-number-is-a-sum-of-powers-of-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_5682 	sum-of-beauty-of-all-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5683 	count-pairs-of-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5697 	check-if-binary-string-has-at-most-one-segment-of-ones
+#define SOLUTION_CPP_FOLDER_NAME_ID_5698 	minimum-elements-to-add-to-form-a-given-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5699 	number-of-restricted-paths-from-first-to-last-node
+#define SOLUTION_CPP_FOLDER_NAME_ID_5700 	make-the-xor-of-all-segments-equal-to-zero
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

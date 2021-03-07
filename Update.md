@@ -3,6 +3,18 @@
 
 ---
 ## 20210307
+* 5700.make-the-xor-of-all-segments-equal-to-zero 使所有区间的异或结果为零
+
+* 5699.number-of-restricted-paths-from-first-to-last-node 从第一个节点出发到最后一个节点的受限路径数
+
+* 5698.minimum-elements-to-add-to-form-a-given-sum 构成特定和需要添加的最少元素
+
+* 5698.minimum-elements-to-add-to-form-a-given-sum 构成特定和需要添加的最少元素
+
+* 5697.check-if-binary-string-has-at-most-one-segment-of-ones 检查二进制字符串字段
+
+* 5697.check-if-binary-string-has-at-most-one-segment-of-ones 检查二进制字符串字段
+
 * 5683.count-pairs-of-nodes 统计点对的数目
 
 * 5682.sum-of-beauty-of-all-substrings 所有子字符串美丽值之和
