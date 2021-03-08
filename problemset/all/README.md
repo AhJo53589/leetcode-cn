@@ -128,6 +128,7 @@
 | √ | 129 | [sum-root-to-leaf-numbers](../../problems/sum-root-to-leaf-numbers) | [求根到叶子节点数字之和](../../problems/sum-root-to-leaf-numbers/README.md) | [cpp](../../problems/sum-root-to-leaf-numbers/SOLUTION.cpp) |   | 中等 |
 | √ | 130 | [surrounded-regions](../../problems/surrounded-regions) | [被围绕的区域](../../problems/surrounded-regions/README.md) | [cpp](../../problems/surrounded-regions/SOLUTION.cpp) |   | 中等 |
 | √ | 131 | [palindrome-partitioning](../../problems/palindrome-partitioning) | [分割回文串](../../problems/palindrome-partitioning/README.md) | [cpp](../../problems/palindrome-partitioning/SOLUTION.cpp) |   | 中等 |
+| √ | 132 | [palindrome-partitioning-ii](../../problems/palindrome-partitioning-ii) | [分割回文串 II](../../problems/palindrome-partitioning-ii/README.md) | [cpp](../../problems/palindrome-partitioning-ii/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/palindrome-partitioning-ii/solution/palindrome-partitioning-ii-by-ikaruga-o5xp/) | 困难 | 
 | √ | 133 | [clone-graph](../../problems/clone-graph) | [克隆图](../../problems/clone-graph/README.md) | [cpp](../../problems/clone-graph/SOLUTION.cpp) |   | 中等 |
 | √ | 134 | [gas-station](../../problems/gas-station) | [加油站](../../problems/gas-station/README.md) | [cpp](../../problems/gas-station/SOLUTION.cpp) |   | 中等 |
 | √ | 135 | [candy](../../problems/candy) | [分发糖果](../../problems/candy/README.md) | [cpp](../../problems/candy/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/candy/solution/candy-by-ikaruga-trij/) | 困难 | 

@@ -122,6 +122,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_129 	sum-root-to-leaf-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_130 	surrounded-regions
 #define SOLUTION_CPP_FOLDER_NAME_ID_131 	palindrome-partitioning
+#define SOLUTION_CPP_FOLDER_NAME_ID_132 	palindrome-partitioning-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_133 	clone-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_134 	gas-station
 #define SOLUTION_CPP_FOLDER_NAME_ID_135 	candy

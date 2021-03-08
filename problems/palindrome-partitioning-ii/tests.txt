@@ -1,0 +1,10 @@
+"aab"
+1
+"a"
+0
+"ab"
+1
+"bb"
+0
+"ccaacabacb"
+3
