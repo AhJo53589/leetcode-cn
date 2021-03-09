@@ -457,6 +457,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1037 	valid-boomerang
 #define SOLUTION_CPP_FOLDER_NAME_ID_1038 	binary-search-tree-to-greater-sum-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_1046 	last-stone-weight
+#define SOLUTION_CPP_FOLDER_NAME_ID_1047 	remove-all-adjacent-duplicates-in-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_1052 	grumpy-bookstore-owner
 #define SOLUTION_CPP_FOLDER_NAME_ID_1071 	greatest-common-divisor-of-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1095 	find-in-mountain-array
