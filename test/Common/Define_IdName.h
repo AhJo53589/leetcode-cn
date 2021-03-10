@@ -186,6 +186,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_220 	contains-duplicate-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_221 	maximal-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_222 	count-complete-tree-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_224 	basic-calculator
 #define SOLUTION_CPP_FOLDER_NAME_ID_225 	implement-stack-using-queues
 #define SOLUTION_CPP_FOLDER_NAME_ID_226 	invert-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_227 	basic-calculator-ii
