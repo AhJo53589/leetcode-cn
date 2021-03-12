@@ -231,6 +231,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_326 	power-of-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_328 	odd-even-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_329 	longest-increasing-path-in-a-matrix
+#define SOLUTION_CPP_FOLDER_NAME_ID_331 	verify-preorder-serialization-of-a-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_332 	reconstruct-itinerary
 #define SOLUTION_CPP_FOLDER_NAME_ID_334 	increasing-triplet-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_336 	palindrome-pairs
