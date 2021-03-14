@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"331.verify-preorder-serialization-of-a-binary-tree"
+git commit -m"5704.maximum-score-of-a-good-subarray"
 git push

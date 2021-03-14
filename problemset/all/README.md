@@ -900,6 +900,10 @@
 | √ | 5698 | [minimum-elements-to-add-to-form-a-given-sum](../../problems/minimum-elements-to-add-to-form-a-given-sum) | [构成特定和需要添加的最少元素](../../problems/minimum-elements-to-add-to-form-a-given-sum/README.md) | [cpp](../../problems/minimum-elements-to-add-to-form-a-given-sum/SOLUTION.cpp) |   | 中等 | 
 |   | 5699 | [number-of-restricted-paths-from-first-to-last-node](../../problems/number-of-restricted-paths-from-first-to-last-node) | [从第一个节点出发到最后一个节点的受限路径数](../../problems/number-of-restricted-paths-from-first-to-last-node/README.md) | [cpp](../../problems/number-of-restricted-paths-from-first-to-last-node/SOLUTION.cpp) |   | 中等 | 
 |   | 5700 | [make-the-xor-of-all-segments-equal-to-zero](../../problems/make-the-xor-of-all-segments-equal-to-zero) | [使所有区间的异或结果为零](../../problems/make-the-xor-of-all-segments-equal-to-zero/README.md) | [cpp](../../problems/make-the-xor-of-all-segments-equal-to-zero/SOLUTION.cpp) |   | 困难 | 
+| √ | 5701 | [check-if-one-string-swap-can-make-strings-equal](../../problems/check-if-one-string-swap-can-make-strings-equal) | [仅执行一次字符串交换能否使两个字符串相等](../../problems/check-if-one-string-swap-can-make-strings-equal/README.md) | [cpp](../../problems/check-if-one-string-swap-can-make-strings-equal/SOLUTION.cpp) |   | 简单 | 
+| √ | 5702 | [find-center-of-star-graph](../../problems/find-center-of-star-graph) | [找出星型图的中心节点](../../problems/find-center-of-star-graph/README.md) | [cpp](../../problems/find-center-of-star-graph/SOLUTION.cpp) |   | 中等 | 
+| √ | 5703 | [maximum-average-pass-ratio](../../problems/maximum-average-pass-ratio) | [最大平均通过率](../../problems/maximum-average-pass-ratio/README.md) | [cpp](../../problems/maximum-average-pass-ratio/SOLUTION.cpp) |   | 中等 | 
+|   | 5704 | [maximum-score-of-a-good-subarray](../../problems/maximum-score-of-a-good-subarray) | [好子数组的最大分数](../../problems/maximum-score-of-a-good-subarray/README.md) | [cpp](../../problems/maximum-score-of-a-good-subarray/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

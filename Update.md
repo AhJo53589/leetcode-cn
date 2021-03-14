@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210314
+* 5704.maximum-score-of-a-good-subarray 好子数组的最大分数
+
+* 5703.maximum-average-pass-ratio 最大平均通过率
+
+* 5702.find-center-of-star-graph 找出星型图的中心节点
+
+* 5701.check-if-one-string-swap-can-make-strings-equal 仅执行一次字符串交换能否使两个字符串相等
+
+
+---
 ## 20210312
 * 331.verify-preorder-serialization-of-a-binary-tree 验证二叉树的前序序列化
 
