@@ -1,81 +1,41 @@
 
 //////////////////////////////////////////////////////////////////////////
-class Solution2 {
-public:
-	vector<int> spiralOrder(vector<vector<int> >& matrix) {
-		if (matrix.empty() || matrix[0].empty()) return {};
-		int m = matrix.size(), n = matrix[0].size();
-		vector<int> res;
-		int c = m > n ? (n + 1) / 2 : (m + 1) / 2;
-		int p = m, q = n;
-		for (int i = 0; i < c; ++i, p -= 2, q -= 2) {
-			for (int col = i; col < i + q; ++col)
-				res.push_back(matrix[i][col]);
-			for (int row = i + 1; row < i + p; ++row)
-				res.push_back(matrix[row][i + q - 1]);
-			if (p == 1 || q == 1) break;
-			for (int col = i + q - 2; col >= i; --col)
-				res.push_back(matrix[i + p - 1][col]);
-			for (int row = i + p - 2; row > i; --row)
-				res.push_back(matrix[row][i]);
-		}
-		return res;
-	}
-};
-
-
-//////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-	vector<int> spiralOrder(vector<vector<int>>& matrix)
-	{
-		vector<int> nums;
-		int m = matrix.size();
-		if (m == 0) return nums;
-		int n = matrix[0].size();
-		if (n == 0) return nums;
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        vector<int> sz = { (int)matrix[0].size(), (int)matrix.size() };
+        vector<int> ans(sz[0] * sz[1]);
+        sz[1]--;
 
-		// 0 == →, 1 == ↓, 2 == ←, 3 == ↑
-		int iDirection = 0;
-		int iSize = m * n;
-		int x = 0;
-		int y = -1;
+        vector<vector<int>> dd = { { 0, 1 },{ 1, 0 },{ 0, -1 },{ -1, 0 } };
+        for (int idx = 0, d = 0, x = 0, y = -1; idx != ans.size(); d = (d + 1) % dd.size()) {
+            for (int i = 0; i < sz[d % 2]; i++) {
+                x += dd[d][0];
+                y += dd[d][1];
+                ans[idx++] = matrix[x][y];
+            }
+            sz[d % 2]--;
+        }
 
-		while (nums.size() < iSize)
-		{
-			int iCount = 1;
-			int iMaxCount = (iDirection % 2 == 0) ? n : m;
-			int iStepX = (iDirection % 2 == 0) ? 0 : (iDirection / 2 == 0) ? 1 : -1;
-			int iStepY = (iDirection % 2 == 1) ? 0 : (iDirection / 2 == 0) ? 1 : -1;
-
-			while (iCount <= iMaxCount)
-			{
-				x = x + iStepX;
-				y = y + iStepY;
-				nums.push_back(matrix[x][y]);
-				iCount++;
-			}
-			if (iDirection % 2 == 0) m--;
-			else n--;
-
-			iDirection = (iDirection + 1) % 4;
-		}
-
-		return nums;
-	}
+        return ans;
+    }
 };
 
 //////////////////////////////////////////////////////////////////////////
 vector<int> _solution_run(vector<vector<int>>& matrix)
 {
-	printVectorVectorT(matrix, 4);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
 	Solution sln;
 	return sln.spiralOrder(matrix);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<int> _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////

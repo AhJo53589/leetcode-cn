@@ -1,98 +1,65 @@
 # `（中等）` [54.spiral-matrix 螺旋矩阵](https://leetcode-cn.com/problems/spiral-matrix/)
 
 ### 题目描述
-<p>给定一个包含&nbsp;<em>m</em> x <em>n</em>&nbsp;个元素的矩阵（<em>m</em> 行, <em>n</em> 列），请按照顺时针螺旋顺序，返回矩阵中的所有元素。</p>
+<p>给你一个 <code>m</code> 行 <code>n</code> 列的矩阵&nbsp;<code>matrix</code> ，请按照 <strong>顺时针螺旋顺序</strong> ，返回矩阵中的所有元素。</p>
 
-<p><strong>示例&nbsp;1:</strong></p>
+<p>&nbsp;</p>
 
-<pre><strong>输入:</strong>
-[
- [ 1, 2, 3 ],
- [ 4, 5, 6 ],
- [ 7, 8, 9 ]
-]
-<strong>输出:</strong> [1,2,3,6,9,8,7,4,5]
+<p><strong>示例 1：</strong></p>
+<img style="width: 242px; height: 242px;" src="https://assets.leetcode.com/uploads/2020/11/13/spiral1.jpg" alt="">
+<pre><strong>输入：</strong>matrix = [[1,2,3],[4,5,6],[7,8,9]]
+<strong>输出：</strong>[1,2,3,6,9,8,7,4,5]
 </pre>
 
-<p><strong>示例&nbsp;2:</strong></p>
-
-<pre><strong>输入:</strong>
-[
-  [1, 2, 3, 4],
-  [5, 6, 7, 8],
-  [9,10,11,12]
-]
-<strong>输出:</strong> [1,2,3,4,8,12,11,10,9,5,6,7]
+<p><strong>示例 2：</strong></p>
+<img style="width: 322px; height: 242px;" src="https://assets.leetcode.com/uploads/2020/11/13/spiral.jpg" alt="">
+<pre><strong>输入：</strong>matrix = [[1,2,3,4],[5,6,7,8],[9,10,11,12]]
+<strong>输出：</strong>[1,2,3,4,8,12,11,10,9,5,6,7]
 </pre>
+
+<p>&nbsp;</p>
+
+<p><strong>提示：</strong></p>
+
+<ul>
+	<li><code>m == matrix.length</code></li>
+	<li><code>n == matrix[i].length</code></li>
+	<li><code>1 &lt;= m, n &lt;= 10</code></li>
+	<li><code>-100 &lt;= matrix[i][j] &lt;= 100</code></li>
+</ul>
 
 
 ---
 ### 思路
 ```
-过于依赖合并逻辑这种手法了，感觉有点走歪了。    
-分享的别人代码是用for循环控制就搞定了。  
 ```
+
+[发布的题解](https://leetcode-cn.com/problems/spiral-matrix/solution/spiral-matrix-by-ikaruga-o8rt/)
 
 ### 答题
 ``` C++
-vector<int> spiralOrder(vector<vector<int>>& matrix)
-{
-	vector<int> nums;
-	int m = matrix.size();
-	if (m == 0) return nums;
-	int n = matrix[0].size();
-	if (n == 0) return nums;
+class Solution {
+public:
+    vector<int> spiralOrder(vector<vector<int>>& matrix) {
+        vector<int> sz = { (int)matrix[0].size(), (int)matrix.size() };
+        vector<int> ans(sz[0] * sz[1]);
+        sz[1]--;
 
-	// 0 == →, 1 == ↓, 2 == ←, 3 == ↑
-	int iDirection = 0;
-	int iSize = m * n;
-	int x = 0;
-	int y = -1;
+        vector<vector<int>> dd = { { 0, 1 },{ 1, 0 },{ 0, -1 },{ -1, 0 } };
+        for (int idx = 0, d = 0, x = 0, y = -1; idx != ans.size(); d = (d + 1) % dd.size()) {
+            for (int i = 0; i < sz[d % 2]; i++) {
+                x += dd[d][0];
+                y += dd[d][1];
+                ans[idx++] = matrix[x][y];
+            }
+            sz[d % 2]--;
+        }
 
-	while (nums.size() < iSize)
-	{
-		int iCount = 1;
-		int iMaxCount = (iDirection % 2 == 0) ? n : m;
-		int iStepX = (iDirection % 2 == 0) ? 0 : (iDirection / 2 == 0) ? 1 : -1;
-		int iStepY = (iDirection % 2 == 1) ? 0 : (iDirection / 2 == 0) ? 1 : -1;
-
-		while (iCount <= iMaxCount)
-		{
-			x = x + iStepX;
-			y = y + iStepY;
-			nums.push_back(matrix[x][y]);
-			iCount++;
-		}
-		if (iDirection % 2 == 0) m--;
-		else n--;
-
-		iDirection = (iDirection + 1) % 4;
-	}
-
-	return nums;
-}
+        return ans;
+    }
+};
 ```
 
-### 其它
-``` C++
-vector<int> spiralOrder(vector<vector<int> > &matrix) {
-	if (matrix.empty() || matrix[0].empty()) return {};
-	int m = matrix.size(), n = matrix[0].size();
-	vector<int> res;
-	int c = m > n ? (n + 1) / 2 : (m + 1) / 2;
-	int p = m, q = n;
-	for (int i = 0; i < c; ++i, p -= 2, q -= 2) {
-		for (int col = i; col < i + q; ++col)
-			res.push_back(matrix[i][col]);
-		for (int row = i + 1; row < i + p; ++row)
-			res.push_back(matrix[row][i + q - 1]);
-		if (p == 1 || q == 1) break;
-		for (int col = i + q - 2; col >= i; --col)
-			res.push_back(matrix[i + p - 1][col]);
-		for (int row = i + p - 2; row > i; --row)
-			res.push_back(matrix[row][i]);
-	}
-	return res;
-}
-```
+
+
 
