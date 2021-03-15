@@ -63,7 +63,7 @@
 | √ | 56 | [merge-intervals](../../problems/merge-intervals) | [合并区间](../../problems/merge-intervals/README.md) | [cpp](../../problems/merge-intervals/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/merge-intervals/solution/merge-intervals-by-ikaruga/) | 中等 |
 | √ | 57 | [insert-interval](../../problems/insert-interval) | [插入区间](../../problems/insert-interval/README.md) | [cpp](../../problems/insert-interval/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/insert-interval/solution/insert-interval-by-ikaruga/) | 困难 | 
 | √ | 58 | [length-of-last-word](../../problems/length-of-last-word) | [最后一个单词的长度](../../problems/length-of-last-word/README.md) | [cpp](../../problems/length-of-last-word/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/length-of-last-word/solution/58-by-ikaruga/) | 简单 |
-| √ | 59 | [spiral-matrix-ii](../../problems/spiral-matrix-ii) | [螺旋矩阵 II](../../problems/spiral-matrix-ii/README.md) | [cpp](../../problems/spiral-matrix-ii/SOLUTION.cpp) |   | 中等 |
+| √ | 59 | [spiral-matrix-ii](../../problems/spiral-matrix-ii) | [螺旋矩阵 II](../../problems/spiral-matrix-ii/README.md) | [cpp](../../problems/spiral-matrix-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 60 | [permutation-sequence](../../problems/permutation-sequence) | [第k个排列](../../problems/permutation-sequence/README.md) | [cpp](../../problems/permutation-sequence/SOLUTION.cpp) |   | 中等 |
 | √ | 61 | [rotate-list](../../problems/rotate-list) | [旋转链表](../../problems/rotate-list/README.md) | [cpp](../../problems/rotate-list/SOLUTION.cpp) |   | 中等 |
 | √ | 62 | [unique-paths](../../problems/unique-paths) | [不同路径](../../problems/unique-paths/README.md) | [cpp](../../problems/unique-paths/SOLUTION.cpp) |   | 中等 |

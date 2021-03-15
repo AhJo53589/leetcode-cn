@@ -1,74 +1,40 @@
 
-//vector<vector<int>> generateMatrix(int n) {
-//	if (n == 0)
-//		return {};
-//
-//	vector<vector<int>> matrix(n, vector<int>(n, 0));
-//	int count = 1;
-//	int up = 0, down = n - 1, left = 0, right = n - 1;
-//
-//	while (count <= n * n) {
-//		for (int i = left; i <= right; i++) {
-//			matrix[up][i] = count;
-//			++count;
-//		}
-//		++up;
-//		for (int i = up; i <= down; i++) {
-//			matrix[i][right] = count;
-//			++count;
-//		}
-//		--right;
-//		for (int i = right; i >= left; i--) {
-//			matrix[down][i] = count;
-//			++count;
-//		}
-//		--down;
-//		for (int i = down; i >= up; i--) {
-//			matrix[i][left] = count;
-//			++count;
-//		}
-//		++left;
-//	}
-//	return matrix;
-//}
-
-
 //////////////////////////////////////////////////////////////////////////
-vector<vector<int>> generateMatrix(int n)
-{
-	vector<vector<int>> ret(n, vector<int>(n));
+class Solution {
+public:
+    vector<vector<int>> generateMatrix(int n) {
+        vector<vector<int>> ans(n, vector<int>(n));
+        vector<int> sz = { n, n - 1 };
+        vector<vector<int>> dd = { { 0, 1 }, { 1, 0 }, { 0, -1 }, { -1, 0 } };
+        
+        for (int val = 1, d = 0, x = 0, y = -1; val <= n * n; d = (d + 1) % dd.size()) {
+            for (int i = 0; i < sz[d % 2]; i++) {
+                x += dd[d][0];
+                y += dd[d][1];
+                ans[x][y] = val++;
+            }
+            sz[d % 2]--;
+        }
 
-	int i = 0;
-	int j = 0;
-	int val = 1;
-	int direction = 0;
-	while (val <= n * n)
-	{
-		ret[i][j] = val++;
-
-		if (direction == 0 && (j == n - 1 || ret[i][j + 1] != 0)) direction = 1;
-		else if (direction == 1 && (i == n - 1 || ret[i + 1][j] != 0)) direction = 2;
-		else if (direction == 2 && (j == 0 || ret[i][j - 1] != 0)) direction = 3;
-		else if (direction == 3 && (i == 0 || ret[i - 1][j] != 0)) direction = 0;
-
-		if (direction == 0) j++;
-		else if (direction == 1) i++;
-		else if (direction == 2) j--;
-		else if (direction == 3) i--;
-	}
-	return ret;
-}
-
+        return ans;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 vector<vector<int>> _solution_run(int n)
 {
-	return generateMatrix(n);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+	Solution sln;
+	return sln.generateMatrix(n);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<vector<int>> _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
@@ -77,4 +43,3 @@ vector<vector<int>> _solution_run(int n)
 //{
 //	return {};
 //}
-
