@@ -68,6 +68,8 @@ public:
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<int>& coins, int amount)
 {
+    printVectorT(coins);
+    cout << amount << endl;
     Solution sln;
 	return sln.coinChange(coins,amount);
 }
