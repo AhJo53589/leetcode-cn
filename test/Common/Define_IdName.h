@@ -107,6 +107,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_112 	path-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_113 	path-sum-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_114 	flatten-binary-tree-to-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_115 	distinct-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_116 	populating-next-right-pointers-in-each-node
 #define SOLUTION_CPP_FOLDER_NAME_ID_117 	populating-next-right-pointers-in-each-node-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_118 	pascals-triangle
