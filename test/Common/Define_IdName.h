@@ -891,6 +891,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5681 	check-if-number-is-a-sum-of-powers-of-three
 #define SOLUTION_CPP_FOLDER_NAME_ID_5682 	sum-of-beauty-of-all-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5683 	count-pairs-of-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_5696 	count-pairs-with-xor-in-a-range
 #define SOLUTION_CPP_FOLDER_NAME_ID_5697 	check-if-binary-string-has-at-most-one-segment-of-ones
 #define SOLUTION_CPP_FOLDER_NAME_ID_5698 	minimum-elements-to-add-to-form-a-given-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5699 	number-of-restricted-paths-from-first-to-last-node
@@ -899,6 +900,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5702 	find-center-of-star-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_5703 	maximum-average-pass-ratio
 #define SOLUTION_CPP_FOLDER_NAME_ID_5704 	maximum-score-of-a-good-subarray
+#define SOLUTION_CPP_FOLDER_NAME_ID_5709 	maximum-ascending-subarray-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5710 	number-of-orders-in-the-backlog
+#define SOLUTION_CPP_FOLDER_NAME_ID_5711 	maximum-value-at-a-given-index-in-a-bounded-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

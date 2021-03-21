@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210321
+* 5696.count-pairs-with-xor-in-a-range 统计异或值在范围内的数对有多少
+
+* 5711.maximum-value-at-a-given-index-in-a-bounded-array 有界数组中指定下标处的最大值
+
+* 5710.number-of-orders-in-the-backlog 积压订单中的订单总数
+
+* 5709.maximum-ascending-subarray-sum 最大升序子数组和
+
+
+---
 ## 20210319
 * 115.distinct-subsequences 不同的子序列
 
