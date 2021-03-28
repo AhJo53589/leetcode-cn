@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5696.count-pairs-with-xor-in-a-range"
+git commit -m"5716.maximize-number-of-nice-divisors"
 git push

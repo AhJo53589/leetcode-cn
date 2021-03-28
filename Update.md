@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210328
+* 5716.maximize-number-of-nice-divisors 好因子的最大数目
+
+* 5714.evaluate-the-bracket-pairs-of-a-string 替换字符串中的括号内容
+
+* 5715.minimum-number-of-operations-to-reinitialize-a-permutation 还原排列的最少操作步数
+
+* 5713.number-of-different-integers-in-a-string 字符串中不同整数的数目
+
+
+---
 ## 20210321
 * 5696.count-pairs-with-xor-in-a-range 统计异或值在范围内的数对有多少
 

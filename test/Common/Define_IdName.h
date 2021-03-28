@@ -903,6 +903,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5709 	maximum-ascending-subarray-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5710 	number-of-orders-in-the-backlog
 #define SOLUTION_CPP_FOLDER_NAME_ID_5711 	maximum-value-at-a-given-index-in-a-bounded-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5713 	number-of-different-integers-in-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5714 	evaluate-the-bracket-pairs-of-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5715 	minimum-number-of-operations-to-reinitialize-a-permutation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5716 	maximize-number-of-nice-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

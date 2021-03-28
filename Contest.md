@@ -116,8 +116,9 @@
 | 2021/2/20 |  |  | |
 | 2021/2/21 | |  | |
 | 2021/2/28 | |  | |
-| 2021/3/6 | [第 47 场双周赛](./contest/biweekly-contest-47/README.md) | 3/4 | 403 / 3085 |
-| 2021/3/7 | [第 231 场周赛](./contest/weekly-contest-231/README.md) | 2 / 4 | 1688 / 4667 |
+| 2021/3/6 | [第 47 场双周赛](./contest/biweekly-contest-47/README.md) | 3 / 4 | 403 / 3085 |
+| 2021/3/7 | [第 231 场周赛](./contest/weekly-contest-231/README.md)  | 2 / 4 | 1688 / 4667 |
 | 2021/3/14 | [第 232 场周赛](./contest/weekly-contest-232/README.md) | 3 / 4 | 1114 / 4801 |
 | 2021/3/20 | |  | |
 | 2021/3/21 | [第 233 场周赛](./contest/weekly-contest-233/README.md) | 2 / 4 | 910 / 5009 | 
+| 2021/3/28 | [第 234 场周赛](./contest/weekly-contest-234/README.md) | 4 /4  | 427 / 4996 | 
