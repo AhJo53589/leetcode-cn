@@ -85,6 +85,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_86 	partition-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_88 	merge-sorted-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_89 	gray-code
+#define SOLUTION_CPP_FOLDER_NAME_ID_90 	subsets-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_92 	reverse-linked-list-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_93 	restore-ip-addresses
 #define SOLUTION_CPP_FOLDER_NAME_ID_94 	binary-tree-inorder-traversal
