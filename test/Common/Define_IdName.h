@@ -401,6 +401,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
 #define SOLUTION_CPP_FOLDER_NAME_ID_778 	swim-in-rising-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
+#define SOLUTION_CPP_FOLDER_NAME_ID_781 	rabbits-in-forest
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
@@ -856,6 +857,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1688 	count-of-matches-in-tournament
 #define SOLUTION_CPP_FOLDER_NAME_ID_1689 	partitioning-into-minimum-number-of-deci-binary-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_1690 	stone-game-vii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1812 	determine-color-of-a-chessboard-square
+#define SOLUTION_CPP_FOLDER_NAME_ID_1813 	sentence-similarity-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1814 	count-nice-pairs-in-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_1815 	maximum-number-of-groups-getting-fresh-donuts
 #define SOLUTION_CPP_FOLDER_NAME_ID_5210 	where-will-the-ball-fall
 #define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
@@ -943,3 +948,8 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_25 	Uh984O
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_26 	hSRGyL
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_27 	IQvJ9i
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_28 	4xy4Wx
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_29 	SNJvJP
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_30 	p0NxJO
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_31 	Db3wC1
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_32 	t3fKg1

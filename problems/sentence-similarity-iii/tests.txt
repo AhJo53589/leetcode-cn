@@ -1,0 +1,12 @@
+"My name is Haley"
+"My Haley"
+true
+"of"
+"A lot of words"
+false
+"Eating right now"
+"Eating"
+true
+"Luky"
+"Lucccky"
+false

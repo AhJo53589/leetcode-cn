@@ -2,6 +2,33 @@
 [返回](./README.md)
 
 ---
+## 20210405
+* 1815.maximum-number-of-groups-getting-fresh-donuts 得到新鲜甜甜圈的最多组数
+
+* 1815.maximum-number-of-groups-getting-fresh-donuts 得到新鲜甜甜圈的最多组数
+
+* 1814.count-nice-pairs-in-an-array 统计一个数组中好对子的数目
+
+* 1813.sentence-similarity-iii 句子相似性 III
+
+* 1812.determine-color-of-a-chessboard-square 判断国际象棋棋盘中一个格子的颜色
+
+* 781.rabbits-in-forest 森林中的兔子
+
+* LCP_32.t3fKg1 批量处理任务
+
+* LCP_31.Db3wC1 变换的迷宫
+
+* LCP_30.p0NxJO 魔塔游戏
+
+* LCP_29.SNJvJP 乐团站位
+
+* LCP_28.4xy4Wx 采购方案
+
+* LCP_28.4xy4Wx 采购方案
+
+
+---
 ## 20210331
 * 90.subsets-ii 子集 II
 
