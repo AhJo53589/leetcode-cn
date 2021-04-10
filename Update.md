@@ -2,6 +2,21 @@
 [返回](./README.md)
 
 ---
+## 20210410
+* LCP_38.7rLGCR 守卫城堡
+
+* LCP_37.zui-xiao-ju-xing-mian-ji 最小矩形面积
+
+* LCP_36.Up5XYM 最多牌组数
+
+* LCP_35.DFPeFJ 电动车游城市
+
+* LCP_34.er-cha-shu-ran-se-UGC 二叉树染色
+
+* LCP_33.o8SXZn 蓄水
+
+
+---
 ## 20210405
 * 1815.maximum-number-of-groups-getting-fresh-donuts 得到新鲜甜甜圈的最多组数
 

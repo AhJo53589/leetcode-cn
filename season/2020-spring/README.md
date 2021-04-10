@@ -27,7 +27,7 @@
 | √ | LCP_09 | [zui-xiao-tiao-yue-ci-shu](../../problems/zui-xiao-tiao-yue-ci-shu) | [最小跳跃次数](../../problems/zui-xiao-tiao-yue-ci-shu/README.md) | [cpp](../../problems/zui-xiao-tiao-yue-ci-shu/SOLUTION.cpp) |   | 困难 |
 |   | LCP_10 | [er-cha-shu-ren-wu-diao-du](../../problems/er-cha-shu-ren-wu-diao-du) | [二叉树任务调度](../../problems/er-cha-shu-ren-wu-diao-du/README.md) | [cpp](../../problems/er-cha-shu-ren-wu-diao-du/SOLUTION.cpp) | | 困难 |
 
-## [排名](https://leetcode-cn.com/contest/season/2020-spring/ranking/solo/)
+## [排名](https://leetcode-cn.com/contest/season/2020-spring/ranking/solo/) (198 / 4091)
 
 # [2020 春季全国编程大赛](https://leetcode-cn.com/contest/season/2020-spring/) 战队赛
 
@@ -60,4 +60,4 @@
 |   | LCP_16 | [you-le-yuan-de-you-lan-ji-hua](../../problems/you-le-yuan-de-you-lan-ji-hua) | [游乐园的游览计划](../../problems/you-le-yuan-de-you-lan-ji-hua/README.md) | [cpp](../../problems/you-le-yuan-de-you-lan-ji-hua/SOLUTION.cpp) | | 困难 |
 
 
-## [排名](https://leetcode-cn.com/contest/season/2020-spring/ranking/team/)
+## [排名](https://leetcode-cn.com/contest/season/2020-spring/ranking/team/) (80 / 1066)

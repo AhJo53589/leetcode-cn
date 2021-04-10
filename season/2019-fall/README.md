@@ -29,4 +29,5 @@
 |   | LCP_4 | [broken-board-dominoes](../../problems/broken-board-dominoes) | [覆盖](../../problems/broken-board-dominoes/README.md) | [cpp](../../problems/broken-board-dominoes/SOLUTION.cpp) |   | 困难 |
 | | LCP_5 | [coin-bonus](../../problems/coin-bonus) | [发 LeetCoin](../../problems/coin-bonus/README.md) | [cpp](../../problems/coin-bonus/SOLUTION.cpp) | | 困难 |
 
-## [排名](https://leetcode-cn.com/contest/season/2019-fall/ranking/)
+## [排名](https://leetcode-cn.com/contest/season/2019-fall/ranking/) (220 / 1541)
+

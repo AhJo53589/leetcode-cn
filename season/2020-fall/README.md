@@ -27,7 +27,7 @@
 |   | LCP 20 | [meChtZ](../../problems/meChtZ) | [快速公交](../../problems/meChtZ/README.md) | [cpp](../../problems/meChtZ/SOLUTION.cpp) |   | 困难 |
 |   | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md) | [cpp](../../problems/Za25hA/SOLUTION.cpp) |   | 困难 |
 
-## [排名](https://leetcode-cn.com/contest/season/2020-fall/ranking/solo/)
+## [排名](https://leetcode-cn.com/contest/season/2020-fall/ranking/solo/) (446 / 3244)
 
 
 # [力扣杯 秋季编程大赛](https://leetcode-cn.com/contest/season/2020-fall/)战队赛
@@ -61,4 +61,4 @@
 |   | LCP 27 | [IQvJ9i](../../problems/IQvJ9i) | [黑盒光线反射](../../problems/IQvJ9i/README.md) | [cpp](../../problems/IQvJ9i/SOLUTION.cpp) |   | 困难 |
 
 
-## [排名](https://leetcode-cn.com/contest/season/2020-fall/ranking/team/)
+## [排名](https://leetcode-cn.com/contest/season/2020-fall/ranking/team/) (375 / 853)

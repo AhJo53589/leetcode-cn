@@ -13,15 +13,15 @@
 
 ## Problems & Solutions
 
-|     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
-| --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
-| √ | LCP_28 | [4xy4Wx](../../problems/4xy4Wx) | [采购方案](../../problems/4xy4Wx/README.md) | [cpp](../../problems/4xy4Wx/SOLUTION.cpp) |   | 简单 |
-| √ | LCP_29 | [SNJvJP](../../problems/SNJvJP) | [乐团站位](../../problems/SNJvJP/README.md) | [cpp](../../problems/SNJvJP/SOLUTION.cpp) |   | 简单 |
-| √ | LCP_30 | [p0NxJO](../../problems/p0NxJO) | [魔塔游戏](../../problems/p0NxJO/README.md) | [cpp](../../problems/p0NxJO/SOLUTION.cpp) |   | 中等 |
-|   | LCP_31 | [Db3wC1](../../problems/Db3wC1) | [变换的迷宫](../../problems/Db3wC1/README.md) | [cpp](../../problems/Db3wC1/SOLUTION.cpp) |   | 困难 |
-|   | LCP_32 | [t3fKg1](../../problems/t3fKg1) | [批量处理任务](../../problems/t3fKg1/README.md) | [cpp](../../problems/t3fKg1/SOLUTION.cpp) |   | 困难 |
+|     | #      | 名称                            | 题目                                            | 答题                                      | 题解 | 难度 |
+| --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | ---- | ---- |
+| √   | LCP_28 | [4xy4Wx](../../problems/4xy4Wx) | [采购方案](../../problems/4xy4Wx/README.md)     | [cpp](../../problems/4xy4Wx/SOLUTION.cpp) |      | 简单 |
+| √   | LCP_29 | [SNJvJP](../../problems/SNJvJP) | [乐团站位](../../problems/SNJvJP/README.md)     | [cpp](../../problems/SNJvJP/SOLUTION.cpp) |      | 简单 |
+| √   | LCP_30 | [p0NxJO](../../problems/p0NxJO) | [魔塔游戏](../../problems/p0NxJO/README.md)     | [cpp](../../problems/p0NxJO/SOLUTION.cpp) |      | 中等 |
+|     | LCP_31 | [Db3wC1](../../problems/Db3wC1) | [变换的迷宫](../../problems/Db3wC1/README.md)   | [cpp](../../problems/Db3wC1/SOLUTION.cpp) |      | 困难 |
+|     | LCP_32 | [t3fKg1](../../problems/t3fKg1) | [批量处理任务](../../problems/t3fKg1/README.md) | [cpp](../../problems/t3fKg1/SOLUTION.cpp) |      | 困难 |
 
-## [排名](https://leetcode-cn.com/contest/season/2021-spring/ranking/solo/)
+## [排名](https://leetcode-cn.com/contest/season/2021-spring/ranking/solo/) (799 / 2750)
 
 # [2021 力扣杯春季编程大赛](https://leetcode-cn.com/contest/season/2021-spring/) 战队赛
 
@@ -40,9 +40,14 @@
 
 ## Problems & Solutions
 
-|     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
-| --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
+|     | #      | 名称                                                                | 题目                                                              | 答题                                                        | 题解                                                                             | 难度 |
+| --- | ------ | ------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------- | ---- |
+| √   | LCP_33 | [o8SXZn](../../problems/o8SXZn)                                     | [蓄水](../../problems/o8SXZn/README.md)                           | [cpp](../../problems/o8SXZn/SOLUTION.cpp)                   | [查看](https://leetcode-cn.com/problems/o8SXZn/solution/o8sxzn-by-ikaruga-kysx/) | 简单 |
+| √   | LCP_34 | [er-cha-shu-ran-se-UGC](../../problems/er-cha-shu-ran-se-UGC)       | [二叉树染色](../../problems/er-cha-shu-ran-se-UGC/README.md)      | [cpp](../../problems/er-cha-shu-ran-se-UGC/SOLUTION.cpp)    |                                                                                  | 中等 |
+|     | LCP_35 | [DFPeFJ](../../problems/DFPeFJ)                                     | [电动车游城市](../../problems/DFPeFJ/README.md)                   | [cpp](../../problems/DFPeFJ/SOLUTION.cpp)                   |                                                                                  | 困难 |
+|     | LCP_36 | [Up5XYM](../../problems/Up5XYM)                                     | [最多牌组数](../../problems/Up5XYM/README.md)                     | [cpp](../../problems/Up5XYM/SOLUTION.cpp)                   |                                                                                  | 困难 |
+|     | LCP_37 | [zui-xiao-ju-xing-mian-ji](../../problems/zui-xiao-ju-xing-mian-ji) | [最小矩形面积](../../problems/zui-xiao-ju-xing-mian-ji/README.md) | [cpp](../../problems/zui-xiao-ju-xing-mian-ji/SOLUTION.cpp) |                                                                                  | 困难 |
+|     | LCP_38 | [7rLGCR](../../problems/7rLGCR)                                     | [守卫城堡](../../problems/7rLGCR/README.md)                       | [cpp](../../problems/7rLGCR/SOLUTION.cpp)                   |                                                                                  | 困难 |
 
 
-
-## [排名](https://leetcode-cn.com/contest/season/2021-spring/ranking/team/)
+## [排名](https://leetcode-cn.com/contest/season/2021-spring/ranking/team/) (293 / 781)
