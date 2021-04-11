@@ -214,6 +214,7 @@
 | √ | 257 | [binary-tree-paths](../../problems/binary-tree-paths) | [二叉树的所有路径](../../problems/binary-tree-paths/README.md) | [cpp](../../problems/binary-tree-paths/SOLUTION.cpp) |   | 简单 |
 | √ | 258 | [add-digits](../../problems/add-digits) | [各位相加](../../problems/add-digits/README.md) | [cpp](../../problems/add-digits/SOLUTION.cpp) |   | 简单 |
 | √ | 263 | [ugly-number](../../problems/ugly-number) | [丑数](../../problems/ugly-number/README.md) | [cpp](../../problems/ugly-number/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/bulls-and-cows/solution/299-by-ikaruga/) | 简单 |
+| √ | 264 | [ugly-number-ii](../../problems/ugly-number-ii) | [丑数 II](../../problems/ugly-number-ii/README.md) | [cpp](../../problems/ugly-number-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 268 | [missing-number](../../problems/missing-number) | [缺失数字](../../problems/missing-number/README.md) | [cpp](../../problems/missing-number/SOLUTION.cpp) |   | 简单 |
 | √ | 278 | [first-bad-version](../../problems/first-bad-version) | [第一个错误的版本](../../problems/first-bad-version/README.md) | [cpp](../../problems/first-bad-version/SOLUTION.cpp) |   | 简单 |
 | √ | 279 | [perfect-squares](../../problems/perfect-squares) | [完全平方数](../../problems/perfect-squares/README.md) | [cpp](../../problems/perfect-squares/SOLUTION.cpp) |   | 中等 |
@@ -919,6 +920,10 @@
 | √ | 5714 | [evaluate-the-bracket-pairs-of-a-string](../../problems/evaluate-the-bracket-pairs-of-a-string) | [替换字符串中的括号内容](../../problems/evaluate-the-bracket-pairs-of-a-string/README.md) | [cpp](../../problems/evaluate-the-bracket-pairs-of-a-string/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/evaluate-the-bracket-pairs-of-a-string/solution/evaluate-the-bracket-pairs-by-ikaruga-wvvu/) | 中等 | 
 | √ | 5715 | [minimum-number-of-operations-to-reinitialize-a-permutation](../../problems/minimum-number-of-operations-to-reinitialize-a-permutation) | [还原排列的最少操作步数](../../problems/minimum-number-of-operations-to-reinitialize-a-permutation/README.md) | [cpp](../../problems/minimum-number-of-operations-to-reinitialize-a-permutation/SOLUTION.cpp) |   | 中等 | 
 | √ | 5716 | [maximize-number-of-nice-divisors](../../problems/maximize-number-of-nice-divisors) | [好因子的最大数目](../../problems/maximize-number-of-nice-divisors/README.md) | [cpp](../../problems/maximize-number-of-nice-divisors/SOLUTION.cpp) |   | 困难 | 
+| √ | 5726 | [sign-of-the-product-of-an-array](../../problems/sign-of-the-product-of-an-array) | [数组元素积的符号](../../problems/sign-of-the-product-of-an-array/README.md) | [cpp](../../problems/sign-of-the-product-of-an-array/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/sign-of-the-product-of-an-array/solution/sign-of-the-product-of-an-array-by-ikaru-mxyo/) | 简单 | 
+| √ | 5727 | [find-the-winner-of-the-circular-game](../../problems/find-the-winner-of-the-circular-game) | [找出游戏的获胜者](../../problems/find-the-winner-of-the-circular-game/README.md) | [cpp](../../problems/find-the-winner-of-the-circular-game/SOLUTION.cpp) |   | 中等 | 
+| √ | 5728 | [minimum-sideway-jumps](../../problems/minimum-sideway-jumps) | [最少侧跳次数](../../problems/minimum-sideway-jumps/README.md) | [cpp](../../problems/minimum-sideway-jumps/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/minimum-sideway-jumps/solution/minimum-sideway-jumps-by-ikaruga-j1t1/) | 中等 | 
+| √ | 5729 | [finding-mk-average](../../problems/finding-mk-average) | [求出 MK 平均值](../../problems/finding-mk-average/README.md) | [cpp](../../problems/finding-mk-average/SOLUTION.cpp) |   | 困难 | 
 ## Season/2019-fall
 |      | #    | 名称    | 题目     | 答题          | 题解         | 难度 |
 | ---- | ---- | ------- | ---- | ---- | ---- | ---- |

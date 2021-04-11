@@ -2,6 +2,19 @@
 [返回](./README.md)
 
 ---
+## 20210411
+* 5729.finding-mk-average 求出 MK 平均值
+
+* 5728.minimum-sideway-jumps 最少侧跳次数
+
+* 5727.find-the-winner-of-the-circular-game 找出游戏的获胜者
+
+* 5726.sign-of-the-product-of-an-array 数组元素积的符号
+
+* 264.ugly-number-ii 丑数 II
+
+
+---
 ## 20210410
 * LCP_38.7rLGCR 守卫城堡
 

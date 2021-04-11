@@ -208,6 +208,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_257 	binary-tree-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_258 	add-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_263 	ugly-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_264 	ugly-number-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_268 	missing-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_278 	first-bad-version
 #define SOLUTION_CPP_FOLDER_NAME_ID_279 	perfect-squares
@@ -913,6 +914,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5714 	evaluate-the-bracket-pairs-of-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5715 	minimum-number-of-operations-to-reinitialize-a-permutation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5716 	maximize-number-of-nice-divisors
+#define SOLUTION_CPP_FOLDER_NAME_ID_5726 	sign-of-the-product-of-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5727 	find-the-winner-of-the-circular-game
+#define SOLUTION_CPP_FOLDER_NAME_ID_5728 	minimum-sideway-jumps
+#define SOLUTION_CPP_FOLDER_NAME_ID_5729 	finding-mk-average
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
