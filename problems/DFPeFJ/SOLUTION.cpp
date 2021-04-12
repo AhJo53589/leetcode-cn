@@ -5,18 +5,16 @@ public:
     int electricCarPlan(vector<vector<int>>& paths, int cnt, int start, int end, vector<int>& charge) {
         int ans = INT_MAX;
         vector<vector<int>> vi(charge.size(), vector<int>(cnt + 1, INT_MAX));
-        for (int i = 0; i <= cnt; i++) {
-            vi[start][i] = i * charge[start];
-        }
+        vi[start][0] = 0;
 
-        vector<vector<int>> dis(charge.size(), vector<int>(charge.size(), -1));
+        vector<vector<int>> dis(charge.size(), vector<int>(charge.size(), INT_MAX));
         for (auto& p : paths) {
-            dis[p[0]][p[1]] = p[2];
-            dis[p[1]][p[0]] = p[2];
+            dis[p[0]][p[1]] = min(p[2], dis[p[0]][p[1]]);
+            dis[p[1]][p[0]] = min(p[2], dis[p[1]][p[0]]);
         }
 
         priority_queue<vector<int>, vector<vector<int>>, greater<>> pq;
-        pq.push({ 0, 0, start});
+        pq.push({ 0, 0, start });
 
         while (!pq.empty()) {
             auto q = pq.top();
@@ -32,16 +30,21 @@ public:
             }
             if (t >= ans) continue;
 
-            for (int i = battery; i <= cnt; i++) {
-                for (int j = 0; j < dis.size(); j++) {
-                    if (dis[pos][j] == -1) continue;
-                    if (dis[pos][j] > i) continue;
-                    int tt = t + (i - battery) * charge[pos] + dis[pos][j];
-                    if (vi[j][i] <= tt) continue;
+            int chargeOne = battery + 1;
+            int chargeTime = t + charge[pos];
+            if (chargeOne <= cnt && chargeTime < vi[pos][chargeOne]) {
+                pq.push({ chargeTime, chargeOne, pos });
+            }
 
-                    vi[j][i] = tt;
-                    pq.push({ tt, i - dis[pos][j], j });
-                }
+            for (int j = 0; j < dis.size(); j++) {
+                if (dis[pos][j] == INT_MAX) continue;
+                if (dis[pos][j] > battery) continue;
+                int travelTime = t + dis[pos][j];
+                int remain = battery - dis[pos][j];
+                if (vi[j][remain] <= travelTime) continue;
+
+                vi[j][remain] = travelTime;
+                pq.push({ travelTime, remain, j });
             }
         }
 
