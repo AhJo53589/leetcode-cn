@@ -914,6 +914,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5714 	evaluate-the-bracket-pairs-of-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5715 	minimum-number-of-operations-to-reinitialize-a-permutation
 #define SOLUTION_CPP_FOLDER_NAME_ID_5716 	maximize-number-of-nice-divisors
+#define SOLUTION_CPP_FOLDER_NAME_ID_5717 	minimum-operations-to-make-the-array-increasing
+#define SOLUTION_CPP_FOLDER_NAME_ID_5718 	queries-on-number-of-points-inside-a-circle
+#define SOLUTION_CPP_FOLDER_NAME_ID_5719 	maximum-xor-for-each-query
+#define SOLUTION_CPP_FOLDER_NAME_ID_5720 	minimum-number-of-operations-to-make-string-sorted
 #define SOLUTION_CPP_FOLDER_NAME_ID_5726 	sign-of-the-product-of-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5727 	find-the-winner-of-the-circular-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_5728 	minimum-sideway-jumps

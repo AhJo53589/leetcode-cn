@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210417
+* 5720.minimum-number-of-operations-to-make-string-sorted 使字符串有序的最少操作次数
+
+* 5719.maximum-xor-for-each-query 每个查询的最大异或值
+
+* 5718.queries-on-number-of-points-inside-a-circle 统计一个圆中点的数目
+
+* 5717.minimum-operations-to-make-the-array-increasing 最少操作使数组递增
+
+
+---
 ## 20210411
 * 5729.finding-mk-average 求出 MK 平均值
 
