@@ -250,8 +250,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_350 	intersection-of-two-arrays-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_354 	russian-doll-envelopes
 #define SOLUTION_CPP_FOLDER_NAME_ID_355 	design-twitter
+#define SOLUTION_CPP_FOLDER_NAME_ID_363 	max-sum-of-rectangle-no-larger-than-k
 #define SOLUTION_CPP_FOLDER_NAME_ID_365 	water-and-jug-problem
 #define SOLUTION_CPP_FOLDER_NAME_ID_367 	valid-perfect-square
+#define SOLUTION_CPP_FOLDER_NAME_ID_368 	largest-divisible-subset
 #define SOLUTION_CPP_FOLDER_NAME_ID_371 	sum-of-two-integers
 #define SOLUTION_CPP_FOLDER_NAME_ID_374 	guess-number-higher-or-lower
 #define SOLUTION_CPP_FOLDER_NAME_ID_375 	guess-number-higher-or-lower-ii
@@ -426,6 +428,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_888 	fair-candy-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_892 	surface-area-of-3d-shapes
+#define SOLUTION_CPP_FOLDER_NAME_ID_897 	increasing-order-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_905 	sort-array-by-parity
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
@@ -923,6 +926,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5727 	find-the-winner-of-the-circular-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_5728 	minimum-sideway-jumps
 #define SOLUTION_CPP_FOLDER_NAME_ID_5729 	finding-mk-average
+#define SOLUTION_CPP_FOLDER_NAME_ID_5738 	sum-of-digits-in-base-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_5739 	frequency-of-the-most-frequent-element
+#define SOLUTION_CPP_FOLDER_NAME_ID_5740 	longest-substring-of-all-vowels-in-order
+#define SOLUTION_CPP_FOLDER_NAME_ID_5741 	maximum-building-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
