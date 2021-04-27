@@ -436,6 +436,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_922 	sort-array-by-parity-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_925 	long-pressed-name
 #define SOLUTION_CPP_FOLDER_NAME_ID_933 	number-of-recent-calls
+#define SOLUTION_CPP_FOLDER_NAME_ID_938 	range-sum-of-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_945 	minimum-increment-to-make-array-unique
 #define SOLUTION_CPP_FOLDER_NAME_ID_946 	validate-stack-sequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_947 	most-stones-removed-with-same-row-or-column
@@ -458,6 +459,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1002 	find-common-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_1004 	max-consecutive-ones-iii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1011 	capacity-to-ship-packages-within-d-days
 #define SOLUTION_CPP_FOLDER_NAME_ID_1013 	partition-array-into-three-parts-with-equal-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_1014 	best-sightseeing-pair
 #define SOLUTION_CPP_FOLDER_NAME_ID_1018 	binary-prefix-divisible-by-5
