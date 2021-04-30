@@ -63,6 +63,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_62 	unique-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_63 	unique-paths-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_64 	minimum-path-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_65 	valid-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_66 	plus-one
 #define SOLUTION_CPP_FOLDER_NAME_ID_67 	add-binary
 #define SOLUTION_CPP_FOLDER_NAME_ID_68 	text-justification

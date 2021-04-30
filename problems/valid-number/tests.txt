@@ -1,0 +1,12 @@
+"0"
+true
+"e"
+false
+"."
+false
+".1"
+true
+"G76"
+false
+"4e+"
+false
