@@ -338,6 +338,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_543 	diameter-of-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_547 	friend-circles
 #define SOLUTION_CPP_FOLDER_NAME_ID_551 	student-attendance-record-i
+#define SOLUTION_CPP_FOLDER_NAME_ID_554 	brick-wall
 #define SOLUTION_CPP_FOLDER_NAME_ID_556 	next-greater-element-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_557 	reverse-words-in-a-string-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_559 	maximum-depth-of-n-ary-tree
