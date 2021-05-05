@@ -396,6 +396,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_733 	flood-fill
 #define SOLUTION_CPP_FOLDER_NAME_ID_738 	monotone-increasing-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_739 	daily-temperatures
+#define SOLUTION_CPP_FOLDER_NAME_ID_740 	delete-and-earn
 #define SOLUTION_CPP_FOLDER_NAME_ID_744 	find-smallest-letter-greater-than-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_746 	min-cost-climbing-stairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_747 	largest-number-at-least-twice-of-others

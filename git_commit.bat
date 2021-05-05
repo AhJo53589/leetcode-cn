@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"554.brick-wall"
+git commit -m"740.delete-and-earn"
 git push
