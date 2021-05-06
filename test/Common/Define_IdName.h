@@ -868,6 +868,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1688 	count-of-matches-in-tournament
 #define SOLUTION_CPP_FOLDER_NAME_ID_1689 	partitioning-into-minimum-number-of-deci-binary-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_1690 	stone-game-vii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1720 	decode-xored-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1812 	determine-color-of-a-chessboard-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_1813 	sentence-similarity-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1814 	count-nice-pairs-in-an-array

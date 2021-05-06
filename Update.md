@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210506
+* 1720.decode-xored-array 解码异或后的数组
+
+
+---
 ## 20210505
 * 740.delete-and-earn 删除并获得点数
 
