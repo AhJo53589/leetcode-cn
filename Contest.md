@@ -127,3 +127,6 @@
 | 2021/4/11  | [第 236 场周赛](./contest/weekly-contest-236/README.md)   | 3 / 4 | 457 / 5112  |
 | 2021/4/17  | [第 50 场双周赛](./contest/biweekly-contest-50/README.md) | 3 / 4 | 1264 / 3607 |
 | 2021/4/25  | [第 238 场周赛](./contest/weekly-contest-238/README.md)   | 2 / 4 | 1634 / 3977 |
+| 2021/5/1   |                                                           |       |             |
+| 2021/5/2   |                                                           |       |             |
+| 2021/5/9  | [第 240 场周赛](./contest/weekly-contest-240/README.md) | 3 / 4 | 284 / 4306 |

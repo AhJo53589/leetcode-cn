@@ -937,6 +937,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5739 	frequency-of-the-most-frequent-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_5740 	longest-substring-of-all-vowels-in-order
 #define SOLUTION_CPP_FOLDER_NAME_ID_5741 	maximum-building-height
+#define SOLUTION_CPP_FOLDER_NAME_ID_5750 	maximum-population-year
+#define SOLUTION_CPP_FOLDER_NAME_ID_5751 	maximum-distance-between-a-pair-of-values
+#define SOLUTION_CPP_FOLDER_NAME_ID_5752 	maximum-subarray-min-product
+#define SOLUTION_CPP_FOLDER_NAME_ID_5753 	largest-color-value-in-a-directed-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
