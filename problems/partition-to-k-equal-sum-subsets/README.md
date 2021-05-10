@@ -2,71 +2,68 @@
 
 ### 题目描述
 <p>给定一个整数数组&nbsp;&nbsp;<code>nums</code> 和一个正整数 <code>k</code>，找出是否有可能把这个数组分成 <code>k</code> 个非空子集，其总和都相等。</p>
+
 <p><strong>示例 1：</strong></p>
+
 <pre><strong>输入：</strong> nums = [4, 3, 2, 3, 5, 2, 1], k = 4
 <strong>输出：</strong> True
 <strong>说明：</strong> 有可能将其分成 4 个子集（5），（1,4），（2,3），（2,3）等于总和。</pre>
 
 <p>&nbsp;</p>
-<p><strong>注意:</strong></p>
+
+<p><strong>提示：</strong></p>
+
 <ul>
 	<li><code>1 &lt;= k &lt;= len(nums) &lt;= 16</code></li>
 	<li><code>0 &lt; nums[i] &lt; 10000</code></li>
 </ul>
 
+
 ---
 ### 思路
 ```
-回溯。
-记录每个数字被使用情况，回溯失败还原。
-找到一组等于平均值的数字后，把组数减1，继续寻找。
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/partition-to-k-equal-sum-subsets/solution/partition-to-k-equal-sum-subsets-by-ikar-f207/)
 
 ### 答题
 ``` C++
-bool dfs(vector<int>& nums, vector<int>& visited, int sum, int k, int target)
-{
-	for (size_t i = 0; i < nums.size(); i++)
-	{
-		if (visited[i] == 1) continue;
-		if (sum + nums[i] > target) continue;
-		if (sum + nums[i] == target)
-		{
-			if (--k == 0) return true;
-			visited[i] = 1;
-			if (dfs(nums, visited, 0, k, target))
-			{
-				return true;
-			}
-			visited[i] = 0;
-			k++;
-		}
-		else
-		{
-			visited[i] = 1;
-			if (dfs(nums, visited, sum + nums[i], k, target))
-			{
-				return true;
-			}
-			visited[i] = 0;
-		}
-	}
-	return false;
-}
+class Solution {
+public:
+    bool canPartitionKSubsets(vector<int>& nums, int k) {
+        sort(nums.rbegin(), nums.rend());
+        int sum = accumulate(nums.begin(), nums.end(), 0);
+        if (sum % k != 0) return false;
+        int avg = sum / k;
 
-bool canPartitionKSubsets(vector<int>& nums, int k)
-{
-	sort(nums.rbegin(), nums.rend());
-	int sum = accumulate(nums.begin(), nums.end(), 0);
-	if (sum % k != 0) return false;
-	int avg = sum / k;
-	if (nums.front() > avg) return false;
+        vector<int> vi(nums.size(), 0);
+        return dfs(nums, vi, avg, 0, k);
+    }
 
-	vector<int> visited(nums.size(), 0);
-	return dfs(nums, visited, 0, k, avg);
-}
+    bool dfs(vector<int>& nums, vector<int>& vi, int target, int sum, int k) {
+        if (k == 0) return true;
+
+        int firstIdx = -1;
+        for (int i = 0; i < nums.size(); i++) {
+            if (vi[i] == 1) continue;
+            firstIdx = (firstIdx == -1) ? i : firstIdx;
+            if (sum == 0 && i != firstIdx) return false;
+
+            int temp = sum + nums[i];
+            if (temp > target) continue;
+
+            int nextK = (temp == target) ? k - 1 : k;
+            int nextSum = (temp == target) ? 0 : temp;
+
+            vi[i] = 1;
+            if (dfs(nums, vi, target, nextSum, nextK)) return true;
+            vi[i] = 0;
+        }
+        return false;
+    }
+};
 ```
+
+
 
 
