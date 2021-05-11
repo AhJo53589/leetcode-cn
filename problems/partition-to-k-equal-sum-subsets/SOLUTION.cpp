@@ -1,4 +1,3 @@
-
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
@@ -8,31 +7,34 @@ public:
         if (sum % k != 0) return false;
         int avg = sum / k;
 
-        vector<int> vi(nums.size(), 0);
-        return dfs(nums, vi, avg, 0, k);
+        vi = vector<bool>(nums.size(), false);
+        return dfs(nums, avg, 0, 0, k);
     }
 
-    bool dfs(vector<int>& nums, vector<int>& vi, int target, int sum, int k) {
+    bool dfs(vector<int>& nums, int target, int sum, int idx, int k) {
         if (k == 0) return true;
-
-        int firstIdx = -1;
-        for (int i = 0; i < nums.size(); i++) {
-            if (vi[i] == 1) continue;
-            firstIdx = (firstIdx == -1) ? i : firstIdx;
-            if (sum == 0 && i != firstIdx) return false;
-
+        
+        for (int i = idx; i < nums.size(); i++) {
+            if (vi[i]) continue;
+            
             int temp = sum + nums[i];
             if (temp > target) continue;
 
-            int nextK = (temp == target) ? k - 1 : k;
             int nextSum = (temp == target) ? 0 : temp;
+            int nextIdx = (temp == target) ? 0 : idx + 1;
+            int nextK = (temp == target) ? k - 1 : k;
 
-            vi[i] = 1;
-            if (dfs(nums, vi, target, nextSum, nextK)) return true;
-            vi[i] = 0;
+            if (i > 0 && nums[i - 1] == nums[i] && !vi[i - 1]) continue;
+
+            vi[i] = true;
+            if (dfs(nums, target, nextSum, nextIdx, nextK)) return true;
+            vi[i] = false;
         }
         return false;
     }
+
+private:
+    vector<bool> vi;
 };
 
 //////////////////////////////////////////////////////////////////////////
@@ -42,6 +44,8 @@ bool _solution_run(vector<int>& nums, int k)
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
+    printVectorT(nums);
+    cout << k << endl;
 	Solution sln;
 	return sln.canPartitionKSubsets(nums, k);
 }
