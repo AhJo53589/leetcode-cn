@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210516
+* 5762.number-of-ways-to-rearrange-sticks-with-k-sticks-visible 恰有 K 根木棍可以看到的排列数目
+
+* 5761.finding-pairs-with-a-certain-sum 找出和为指定值的下标对
+
+* 5760.minimum-number-of-swaps-to-make-the-binary-string-alternating 构成交替字符串需要的最小交换次数
+
+* 5759.sum-of-all-subset-xor-totals 找出所有子集的异或总和再求和
+
+
+---
 ## 20210510
 * 698.partition-to-k-equal-sum-subsets 划分为k个相等的子集
 

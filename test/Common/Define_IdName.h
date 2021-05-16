@@ -942,6 +942,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5751 	maximum-distance-between-a-pair-of-values
 #define SOLUTION_CPP_FOLDER_NAME_ID_5752 	maximum-subarray-min-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5753 	largest-color-value-in-a-directed-graph
+#define SOLUTION_CPP_FOLDER_NAME_ID_5759 	sum-of-all-subset-xor-totals
+#define SOLUTION_CPP_FOLDER_NAME_ID_5760 	minimum-number-of-swaps-to-make-the-binary-string-alternating
+#define SOLUTION_CPP_FOLDER_NAME_ID_5761 	finding-pairs-with-a-certain-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5762 	number-of-ways-to-rearrange-sticks-with-k-sticks-visible
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
