@@ -459,6 +459,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_989 	add-to-array-form-of-integer
 #define SOLUTION_CPP_FOLDER_NAME_ID_990 	satisfiability-of-equality-equations
 #define SOLUTION_CPP_FOLDER_NAME_ID_992 	subarrays-with-k-different-integers
+#define SOLUTION_CPP_FOLDER_NAME_ID_993 	cousins-in-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_995 	minimum-number-of-k-consecutive-bit-flips
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
