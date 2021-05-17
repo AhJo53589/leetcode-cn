@@ -3,6 +3,14 @@
 
 ---
 ## 20210517
+* 1862.sum-of-floored-pairs 向下取整数对和
+
+* 1861.rotating-the-box 旋转盒子
+
+* 1860.incremental-memory-leak 增长的内存泄露
+
+* 1859.sorting-the-sentence 将句子排序
+
 * 993.cousins-in-binary-tree 二叉树的堂兄弟节点
 
 

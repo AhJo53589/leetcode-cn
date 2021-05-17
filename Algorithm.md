@@ -37,8 +37,7 @@ struct DSU {
 
 ### 快速幂取模 大数相乘取模
 ```C++
-    long long qmul(long long x, long long y, long long mod)
-    {
+    long long qmul(long long x, long long y, long long mod) {
         long long ret = 0;
         while (y) {
             if (y & 1)
@@ -49,8 +48,7 @@ struct DSU {
         return ret;
     }
 
-    long long qpow(long long a, long long n, long long mod)
-    {
+    long long qpow(long long a, long long n, long long mod) {
         long long ret = 1;
         while (n)
         {
