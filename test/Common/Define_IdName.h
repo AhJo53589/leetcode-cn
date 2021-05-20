@@ -376,6 +376,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_684 	redundant-connection
 #define SOLUTION_CPP_FOLDER_NAME_ID_687 	longest-univalue-path
 #define SOLUTION_CPP_FOLDER_NAME_ID_690 	employee-importance
+#define SOLUTION_CPP_FOLDER_NAME_ID_692 	top-k-frequent-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_693 	binary-number-with-alternating-bits
 #define SOLUTION_CPP_FOLDER_NAME_ID_695 	max-area-of-island
 #define SOLUTION_CPP_FOLDER_NAME_ID_696 	count-binary-substrings
