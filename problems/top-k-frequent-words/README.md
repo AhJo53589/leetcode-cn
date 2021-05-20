@@ -62,7 +62,7 @@ public:
             return a.second == b.second ? a.first < b.first : a.second > b.second;
         };
 
-        priority_queue<pair<string, int>, vector<pair<string, int>>, decltype(cmp)> pq(cmp);
+        auto pq = priority_queue { cmp, vector<pair<string, int>> {} };
         for (auto& it : cnt) {
             pq.emplace(it);
             if (pq.size() > k) {
