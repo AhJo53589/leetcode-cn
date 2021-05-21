@@ -473,6 +473,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1024 	video-stitching
 #define SOLUTION_CPP_FOLDER_NAME_ID_1025 	divisor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_1028 	recover-a-tree-from-preorder-traversal
+#define SOLUTION_CPP_FOLDER_NAME_ID_1035 	uncrossed-lines
 #define SOLUTION_CPP_FOLDER_NAME_ID_1037 	valid-boomerang
 #define SOLUTION_CPP_FOLDER_NAME_ID_1038 	binary-search-tree-to-greater-sum-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_1046 	last-stone-weight
