@@ -22,42 +22,37 @@
 ```
 ```
 
-[发布的题解](https://leetcode-cn.com/problems/combinations/solution/77-by-ikaruga/)
+[发布的题解](https://leetcode-cn.com/problems/combinations/solution/combinations-by-ikaruga-hfz4/)
 
 ### 答题
 ``` C++
-bool getNext(vector<int>& a, int n)
-{
-	int _max = n;
-	for (size_t i = a.size() - 1; i < a.size(); i--)
-	{
-		if (a[i] < _max)
-		{
-			a[i]++;
-			for (size_t j = i + 1; j < a.size(); j++)
-			{
-				a[j] = a[j - 1] + 1;
-			}
-			return true;
-		}
-		_max--;
-	}
-	return false;
-}
+class Solution {
+public:
+    vector<vector<int>> combine(int n, int k) {
+        vector<vector<int>> ans;
+        vector<int> temp(k);
+        for (int x = 0; x < (1 << n); x++) {
+            if (hammingWeight(x) != k) continue;
+            int idx = 0;
+            for (int i = 0; i < n && idx != temp.size(); i++) {
+                if (x & (1 << i)) {
+                    temp[idx++] = i + 1;
+                }
+            }
+            ans.push_back({ temp.begin(), temp.begin() + k });
+        }
+        return ans;
+    }
 
-vector<vector<int>> combine(int n, int k) 
-{
-	vector<int> a;
-	for (size_t i = 0; i < k; i++) a.push_back(1 + i);
-
-	vector<vector<int>> ans;
-	do
-	{
-		ans.push_back(a);
-	} while (getNext(a, n));
-
-	return ans;
-}
+    int hammingWeight(uint32_t n) {
+        int sum = 0;
+        while (n != 0) {
+            n &= (n - 1);
+            sum++;
+        }
+        return sum;
+    }
+};
 ```
 
 
