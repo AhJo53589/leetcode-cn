@@ -413,6 +413,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_781 	rabbits-in-forest
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_810 	chalkboard-xor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
 #define SOLUTION_CPP_FOLDER_NAME_ID_830 	positions-of-large-groups
