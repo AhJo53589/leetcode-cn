@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210523
+* 5766.stone-game-viii 石子游戏 VIII
+
+* 5765.jump-game-vii 跳跃游戏 VII
+
+* 5764.minimum-speed-to-arrive-on-time 准时到达的列车最小时速
+
+* 5763.longer-contiguous-segments-of-ones-than-zeros 哪种连续子字符串更长
+
+
+---
 ## 20210522
 * 810.chalkboard-xor-game 黑板异或游戏
 

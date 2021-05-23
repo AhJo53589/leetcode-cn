@@ -954,6 +954,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5760 	minimum-number-of-swaps-to-make-the-binary-string-alternating
 #define SOLUTION_CPP_FOLDER_NAME_ID_5761 	finding-pairs-with-a-certain-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5762 	number-of-ways-to-rearrange-sticks-with-k-sticks-visible
+#define SOLUTION_CPP_FOLDER_NAME_ID_5763 	longer-contiguous-segments-of-ones-than-zeros
+#define SOLUTION_CPP_FOLDER_NAME_ID_5764 	minimum-speed-to-arrive-on-time
+#define SOLUTION_CPP_FOLDER_NAME_ID_5765 	jump-game-vii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5766 	stone-game-viii
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
