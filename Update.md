@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210524
+* 664.strange-printer 奇怪的打印机
+
+
+---
 ## 20210523
 * 5766.stone-game-viii 石子游戏 VIII
 
