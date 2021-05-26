@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210526
+* 1190.reverse-substrings-between-each-pair-of-parentheses 反转每对括号间的子串
+
+
+---
 ## 20210524
 * 664.strange-printer 奇怪的打印机
 

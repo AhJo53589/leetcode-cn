@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"664.strange-printer"
+git commit -m"1190.reverse-substrings-between-each-pair-of-parentheses"
 git push
