@@ -1,0 +1,12 @@
+"acb"
+"cba"
+"cdb"
+true
+"aaa"
+"a"
+"aab"
+false
+"aaa"
+"a"
+"aaaa"
+true

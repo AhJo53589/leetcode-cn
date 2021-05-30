@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210530
+* 5775.minimum-skips-to-arrive-at-meeting-on-time 准时抵达会议现场的最小跳过休息次数
+
+* 5774.process-tasks-using-servers 使用服务器处理任务
+
+* 5773.maximum-value-after-insertion 插入后的最大值
+
+* 5772.check-if-word-equals-summation-of-two-words 检查某单词是否等于两单词之和
+
+
+---
 ## 20210526
 * 1190.reverse-substrings-between-each-pair-of-parentheses 反转每对括号间的子串
 

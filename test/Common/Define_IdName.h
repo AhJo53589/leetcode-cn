@@ -960,6 +960,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5764 	minimum-speed-to-arrive-on-time
 #define SOLUTION_CPP_FOLDER_NAME_ID_5765 	jump-game-vii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5766 	stone-game-viii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5772 	check-if-word-equals-summation-of-two-words
+#define SOLUTION_CPP_FOLDER_NAME_ID_5773 	maximum-value-after-insertion
+#define SOLUTION_CPP_FOLDER_NAME_ID_5774 	process-tasks-using-servers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5775 	minimum-skips-to-arrive-at-meeting-on-time
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
