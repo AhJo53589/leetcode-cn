@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210531
+* 342.power-of-four 4的幂
+
+
+---
 ## 20210530
 * 5775.minimum-skips-to-arrive-at-meeting-on-time 准时抵达会议现场的最小跳过休息次数
 
