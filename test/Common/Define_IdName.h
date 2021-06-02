@@ -330,6 +330,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
 #define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i
+#define SOLUTION_CPP_FOLDER_NAME_ID_523 	continuous-subarray-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_529 	minesweeper
 #define SOLUTION_CPP_FOLDER_NAME_ID_530 	minimum-absolute-difference-in-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_538 	convert-bst-to-greater-tree
