@@ -3,6 +3,14 @@
 
 ---
 ## 20210602
+* 1719.number-of-ways-to-reconstruct-a-tree 重构一棵树的方案数
+
+* 1718.construct-the-lexicographically-largest-valid-sequence 构建字典序最大的可行序列
+
+* 1717.maximum-score-from-removing-substrings 删除子字符串的最大得分
+
+* 1716.calculate-money-in-leetcode-bank 计算力扣银行的钱
+
 * 1687.delivering-boxes-from-storage-to-ports 从仓库到码头运输箱子
 
 * 1686.stone-game-vi 石子游戏 VI

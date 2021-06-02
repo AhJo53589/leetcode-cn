@@ -106,7 +106,7 @@
 | 2020/12/26 | [第 42 场双周赛](./contest/biweekly-contest-42/README.md) | 2 / 4 | 496 / 1578  |
 | 2020/12/27 | [第 221 场周赛](./contest/weekly-contest-221/README.md)   | 3 / 4 | 489 / 3397  |
 | 2021/1/3   | [第 222 场周赛](./contest/weekly-contest-222/README.md)   | 2 / 4 | 687 / 3117  |
-| 2021/1/9   |                                                           |       |             |
+| 2021/1/9   | [第 43 场双周赛](./contest/biweekly-contest-43/README.md) | 1 / 4 | 616 / 1631  |
 | 2021/1/10  |                                                           |       |             |
 | 2021/1/17  | [第 224 场周赛](./contest/weekly-contest-224/README.md)   | 3 / 4 | 384 / 3794  |
 | 2021/1/31  | [第 226 场周赛](./contest/weekly-contest-226/README.md)   | 2 / 4 | 1062 / 4033 |

@@ -881,6 +881,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1688 	count-of-matches-in-tournament
 #define SOLUTION_CPP_FOLDER_NAME_ID_1689 	partitioning-into-minimum-number-of-deci-binary-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_1690 	stone-game-vii
+#define SOLUTION_CPP_FOLDER_NAME_ID_1716 	calculate-money-in-leetcode-bank
+#define SOLUTION_CPP_FOLDER_NAME_ID_1717 	maximum-score-from-removing-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_1718 	construct-the-lexicographically-largest-valid-sequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_1719 	number-of-ways-to-reconstruct-a-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_1720 	decode-xored-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1812 	determine-color-of-a-chessboard-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_1813 	sentence-similarity-iii
