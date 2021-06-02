@@ -100,7 +100,7 @@
 | 2020/11/28 | [第 40 场双周赛](./contest/biweekly-contest-40/README.md) | 4 / 4 | 400 / 1891  |
 | 2020/11/29 | [第 217 场周赛](./contest/weekly-contest-217/README.md)   | 1 / 4 | 1794 / 3744 |
 | 2020/12/6  | [第 218 场周赛](./contest/weekly-contest-218/README.md)   | 3 / 4 | 1179 / 3760 |
-| 2020/12/12 |                                                           |       |             |
+| 2020/12/12 | [第 41 场双周赛](./contest/biweekly-contest-41/README.md) |       |             |
 | 2020/12/13 | [第 219 场周赛](./contest/weekly-contest-219/README.md)   | 2 / 4 | 1420 / 3709 |
 | 2020/12/20 | [第 220 场周赛](./contest/weekly-contest-220/README.md)   | 2 / 4 | 1151 / 3690 |
 | 2020/12/26 | [第 42 场双周赛](./contest/biweekly-contest-42/README.md) | 2 / 4 | 496 / 1578  |
@@ -132,6 +132,6 @@
 | 2021/5/9   | [第 240 场周赛](./contest/weekly-contest-240/README.md)   | 3 / 4 | 284 / 4306  |
 | 2021/5/15  | [第 52 场双周赛](./contest/biweekly-contest-52/README.md) |       |             |
 | 2021/5/16  | [第 241 场周赛](./contest/weekly-contest-241/README.md)   | 3 / 4 | 815 / 4490  |
-| 2021/5/23 | [第 242 场周赛](./contest/weekly-contest-242/README.md) | 3 / 4 | 380 / 4305 |
-| 2021/5/29   |                                                           |       |             |
-| 2021/5/30 | [第 243 场周赛](./contest/weekly-contest-243/README.md) | 3 / 4 | 485 / 4492 |
+| 2021/5/23  | [第 242 场周赛](./contest/weekly-contest-242/README.md)   | 3 / 4 | 380 / 4305  |
+| 2021/5/29  |                                                           |       |             |
+| 2021/5/30  | [第 243 场周赛](./contest/weekly-contest-243/README.md)   | 3 / 4 | 485 / 4492  |

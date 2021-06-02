@@ -3,6 +3,14 @@
 
 ---
 ## 20210602
+* 1687.delivering-boxes-from-storage-to-ports 从仓库到码头运输箱子
+
+* 1686.stone-game-vi 石子游戏 VI
+
+* 1685.sum-of-absolute-differences-in-a-sorted-array 有序数组中差绝对值之和
+
+* 1684.count-the-number-of-consistent-strings 统计一致字符串的数目
+
 * 523.continuous-subarray-sum 连续的子数组和
 
 

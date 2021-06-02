@@ -815,6 +815,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1663 	smallest-string-with-a-given-numeric-value
 #define SOLUTION_CPP_FOLDER_NAME_ID_1664 	ways-to-make-a-fair-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1665 	minimum-initial-energy-to-finish-tasks
+#define SOLUTION_CPP_FOLDER_NAME_ID_1684 	count-the-number-of-consistent-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_1685 	sum-of-absolute-differences-in-a-sorted-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_1686 	stone-game-vi
+#define SOLUTION_CPP_FOLDER_NAME_ID_1687 	delivering-boxes-from-storage-to-ports
 #define SOLUTION_CPP_FOLDER_NAME_ID_1691 	maximum-height-by-stacking-cuboids
 #define SOLUTION_CPP_FOLDER_NAME_ID_1694 	reformat-phone-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_1695 	maximum-erasure-value
