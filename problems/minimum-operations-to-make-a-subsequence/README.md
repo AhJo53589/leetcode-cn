@@ -1,4 +1,4 @@
-# `（困难）` [5644.minimum-operations-to-make-a-subsequence 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)
+# `（困难）` [1713.minimum-operations-to-make-a-subsequence 得到子序列的最少操作次数](https://leetcode-cn.com/problems/minimum-operations-to-make-a-subsequence/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-222/problems/minimum-operations-to-make-a-subsequence/)
 

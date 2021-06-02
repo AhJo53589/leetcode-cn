@@ -494,13 +494,13 @@
 
 * 165.compare-version-numbers 比较版本号
 
-* 5644.minimum-operations-to-make-a-subsequence 得到子序列的最少操作次数
+* 1713.minimum-operations-to-make-a-subsequence 得到子序列的最少操作次数
 
-* 5643.ways-to-split-array-into-three-subarrays 将数组分成三个子数组的方案数
+* 1712.ways-to-split-array-into-three-subarrays 将数组分成三个子数组的方案数
 
-* 5642.count-good-meals 大餐计数
+* 1711.count-good-meals 大餐计数
 
-* 5641.maximum-units-on-a-truck 卡车上的最大单元数
+* 1710.maximum-units-on-a-truck 卡车上的最大单元数
 
 ---
 ## 20201230
@@ -508,21 +508,21 @@
 
 ---
 ## 20201227
-* 5624.minimum-adjacent-swaps-for-k-consecutive-ones 得到连续 K 个 1 的最少相邻交换次数
+* 1703.minimum-adjacent-swaps-for-k-consecutive-ones 得到连续 K 个 1 的最少相邻交换次数
 
-* 5623.maximum-binary-string-after-change 修改后的最大二进制字符串
+* 1702.maximum-binary-string-after-change 修改后的最大二进制字符串
 
-* 5622.average-waiting-time 平均等待时间
+* 1701.average-waiting-time 平均等待时间
 
-* 5621.number-of-students-unable-to-eat-lunch 无法吃午餐的学生数量
+* 1700.number-of-students-unable-to-eat-lunch 无法吃午餐的学生数量
 
-* 5640.maximum-xor-with-an-element-from-array 与数组中元素的最大异或值
+* 1707.maximum-xor-with-an-element-from-array 与数组中元素的最大异或值
 
-* 5210.where-will-the-ball-fall 球会落何处
+* 1706.where-will-the-ball-fall 球会落何处
 
-* 5638.maximum-number-of-eaten-apples 吃苹果的最大数目
+* 1705.maximum-number-of-eaten-apples 吃苹果的最大数目
 
-* 5637.determine-if-string-halves-are-alike 判断字符串的两半是否相似
+* 1704.determine-if-string-halves-are-alike 判断字符串的两半是否相似
 
 ---
 ## 20201224

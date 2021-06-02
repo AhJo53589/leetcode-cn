@@ -1,4 +1,4 @@
-# `（简单）` [5621.number-of-students-unable-to-eat-lunch 无法吃午餐的学生数量](https://leetcode-cn.com/problems/number-of-students-unable-to-eat-lunch/)
+# `（简单）` [1700.number-of-students-unable-to-eat-lunch 无法吃午餐的学生数量](https://leetcode-cn.com/problems/number-of-students-unable-to-eat-lunch/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-42/problems/number-of-students-unable-to-eat-lunch/)
 

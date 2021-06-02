@@ -1,4 +1,4 @@
-# `（困难）` [5640.maximum-xor-with-an-element-from-array 与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)
+# `（困难）` [1707.maximum-xor-with-an-element-from-array 与数组中元素的最大异或值](https://leetcode-cn.com/problems/maximum-xor-with-an-element-from-array/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-221/problems/maximum-xor-with-an-element-from-array/)
 

@@ -1,4 +1,4 @@
-# `（中等）` [5642.count-good-meals 大餐计数](https://leetcode-cn.com/problems/count-good-meals/)
+# `（中等）` [1711.count-good-meals 大餐计数](https://leetcode-cn.com/problems/count-good-meals/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-222/problems/count-good-meals/)
 

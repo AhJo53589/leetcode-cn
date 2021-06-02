@@ -1,4 +1,4 @@
-# `（中等）` [5638.maximum-number-of-eaten-apples 吃苹果的最大数目](https://leetcode-cn.com/problems/maximum-number-of-eaten-apples/)
+# `（中等）` [1705.maximum-number-of-eaten-apples 吃苹果的最大数目](https://leetcode-cn.com/problems/maximum-number-of-eaten-apples/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-221/problems/maximum-number-of-eaten-apples/)
 

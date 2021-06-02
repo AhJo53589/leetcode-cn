@@ -1,4 +1,4 @@
-# `（中等）` [5622.average-waiting-time 平均等待时间](https://leetcode-cn.com/problems/average-waiting-time/)
+# `（中等）` [1701.average-waiting-time 平均等待时间](https://leetcode-cn.com/problems/average-waiting-time/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-42/problems/average-waiting-time/)
 

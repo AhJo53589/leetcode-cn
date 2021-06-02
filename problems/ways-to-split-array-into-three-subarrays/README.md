@@ -1,4 +1,4 @@
-# `（中等）` [5643.ways-to-split-array-into-three-subarrays 将数组分成三个子数组的方案数](https://leetcode-cn.com/problems/ways-to-split-array-into-three-subarrays/)
+# `（中等）` [1712.ways-to-split-array-into-three-subarrays 将数组分成三个子数组的方案数](https://leetcode-cn.com/problems/ways-to-split-array-into-three-subarrays/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-222/problems/ways-to-split-array-into-three-subarrays/)
 

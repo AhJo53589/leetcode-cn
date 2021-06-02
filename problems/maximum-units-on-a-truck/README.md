@@ -1,4 +1,4 @@
-# `（简单）` [5641.maximum-units-on-a-truck 卡车上的最大单元数](https://leetcode-cn.com/problems/maximum-units-on-a-truck/)
+# `（简单）` [1710.maximum-units-on-a-truck 卡车上的最大单元数](https://leetcode-cn.com/problems/maximum-units-on-a-truck/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-222/problems/maximum-units-on-a-truck/)
 

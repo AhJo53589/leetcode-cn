@@ -1,4 +1,4 @@
-# `（简单）` [5637.determine-if-string-halves-are-alike 判断字符串的两半是否相似](https://leetcode-cn.com/problems/determine-if-string-halves-are-alike/)
+# `（简单）` [1704.determine-if-string-halves-are-alike 判断字符串的两半是否相似](https://leetcode-cn.com/problems/determine-if-string-halves-are-alike/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-221/problems/determine-if-string-halves-are-alike/)
 

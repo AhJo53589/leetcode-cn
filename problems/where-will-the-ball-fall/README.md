@@ -1,4 +1,4 @@
-# `（中等）` [5210.where-will-the-ball-fall 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)
+# `（中等）` [1706.where-will-the-ball-fall 球会落何处](https://leetcode-cn.com/problems/where-will-the-ball-fall/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-221/problems/where-will-the-ball-fall/)
 

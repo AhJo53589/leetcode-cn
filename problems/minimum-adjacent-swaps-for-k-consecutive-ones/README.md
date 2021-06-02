@@ -1,4 +1,4 @@
-# `（困难）` [5624.minimum-adjacent-swaps-for-k-consecutive-ones 得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
+# `（困难）` [1703.minimum-adjacent-swaps-for-k-consecutive-ones 得到连续 K 个 1 的最少相邻交换次数](https://leetcode-cn.com/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-42/problems/minimum-adjacent-swaps-for-k-consecutive-ones/)
 

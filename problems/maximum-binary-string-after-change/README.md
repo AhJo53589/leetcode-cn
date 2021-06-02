@@ -1,4 +1,4 @@
-# `（中等）` [5623.maximum-binary-string-after-change 修改后的最大二进制字符串](https://leetcode-cn.com/problems/maximum-binary-string-after-change/)
+# `（中等）` [1702.maximum-binary-string-after-change 修改后的最大二进制字符串](https://leetcode-cn.com/problems/maximum-binary-string-after-change/)
 
 [contest](https://leetcode-cn.com/contest/biweekly-contest-42/problems/maximum-binary-string-after-change/)
 
