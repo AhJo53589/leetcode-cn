@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210603
+* 525.contiguous-array 连续数组
+
+
+---
 ## 20210602
 * 1719.number-of-ways-to-reconstruct-a-tree 重构一棵树的方案数
 

@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1719.number-of-ways-to-reconstruct-a-tree"
+git commit -m"525.contiguous-array"
 git push
