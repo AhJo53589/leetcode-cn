@@ -2,44 +2,37 @@
 
 
 //////////////////////////////////////////////////////////////////////////
-ListNode *getIntersectionNode(ListNode *headA, ListNode *headB)
-{
-	ListNode *pA = headA;
-	ListNode *pB = headB;
-	if (pA == nullptr || pB == nullptr) return nullptr;
+class Solution {
+public:
+    ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+        int lenA = getLen(headA);
+        int lenB = getLen(headB);
+        if (lenA < lenB) {
+            swap(lenA, lenB);
+            swap(headA, headB);
+        }
+        
+        for (int i = 0; i < lenA - lenB; i++) {
+            headA = headA->next;
+        }
 
-	int iDiff = 0;
-	while (pA->next != nullptr)
-	{
-		pA = pA->next;
-		iDiff--;
-	}
-	while (pB->next != nullptr)
-	{
-		pB = pB->next;
-		iDiff++;
-	}
+        while (headA != nullptr) {
+            if (headA == headB) return headA;
+            headA = headA->next;
+            headB = headB->next;
+        }
+        return nullptr;
+    }
 
-	pA = headA;
-	pB = headB;
-	if (iDiff < 0)
-	{
-		while (iDiff++ < 0) pA = pA->next;
-	}
-	else
-	{
-		while (iDiff-- > 0) pB = pB->next;
-	}
-
-	while (pA->next != nullptr)
-	{
-		if (pA == pB) return pA;
-		pA = pA->next;
-		pB = pB->next;
-	}
-	if (pA == pB) return pA;
-	return nullptr;
-}
+    int getLen(ListNode* head) {
+        int len = 0;
+        while (head != nullptr) {
+            len++;
+            head = head->next;
+        }
+        return len;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 //ListNode _solution_run(ListNode *headA, ListNode *headB)
