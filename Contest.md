@@ -135,3 +135,4 @@
 | 2021/5/23  | [第 242 场周赛](./contest/weekly-contest-242/README.md)   | 3 / 4 | 380 / 4305  |
 | 2021/5/29  |                                                           |       |             |
 | 2021/5/30  | [第 243 场周赛](./contest/weekly-contest-243/README.md)   | 3 / 4 | 485 / 4492  |
+| 2021/6/6  | [第 244 场周赛](./contest/weekly-contest-244/README.md) | 2 / 4 | 1241 / 4429 |

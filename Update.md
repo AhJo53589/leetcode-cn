@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210606
+* 5779.minimum-space-wasted-from-packaging 装包裹的最小浪费空间
+
+* 5778.minimum-number-of-flips-to-make-the-binary-string-alternating 使二进制字符串字符交替的最少反转次数
+
+* 5777.reduction-operations-to-make-the-array-elements-equal 使数组元素相等的减少操作次数
+
+* 5776.determine-whether-matrix-can-be-obtained-by-rotation 判断矩阵经轮转后是否一致
+
+
+---
 ## 20210603
 * 525.contiguous-array 连续数组
 

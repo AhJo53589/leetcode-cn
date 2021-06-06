@@ -975,6 +975,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5773 	maximum-value-after-insertion
 #define SOLUTION_CPP_FOLDER_NAME_ID_5774 	process-tasks-using-servers
 #define SOLUTION_CPP_FOLDER_NAME_ID_5775 	minimum-skips-to-arrive-at-meeting-on-time
+#define SOLUTION_CPP_FOLDER_NAME_ID_5776 	determine-whether-matrix-can-be-obtained-by-rotation
+#define SOLUTION_CPP_FOLDER_NAME_ID_5777 	reduction-operations-to-make-the-array-elements-equal
+#define SOLUTION_CPP_FOLDER_NAME_ID_5778 	minimum-number-of-flips-to-make-the-binary-string-alternating
+#define SOLUTION_CPP_FOLDER_NAME_ID_5779 	minimum-space-wasted-from-packaging
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
