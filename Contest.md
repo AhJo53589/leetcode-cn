@@ -136,3 +136,4 @@
 | 2021/5/29  |                                                           |       |             |
 | 2021/5/30  | [第 243 场周赛](./contest/weekly-contest-243/README.md)   | 3 / 4 | 485 / 4492  |
 | 2021/6/6  | [第 244 场周赛](./contest/weekly-contest-244/README.md) | 2 / 4 | 1241 / 4429 |
+| 2021/6/19 | [「微爱思扣 以 Code 会友」专场竞赛](./contest/lc-vscode/README.md) | 1 / 3 | 533 / 1322 |
