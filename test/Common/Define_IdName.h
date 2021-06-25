@@ -412,6 +412,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_766 	toeplitz-matrix
 #define SOLUTION_CPP_FOLDER_NAME_ID_767 	reorganize-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_771 	jewels-and-stones
+#define SOLUTION_CPP_FOLDER_NAME_ID_773 	sliding-puzzle
 #define SOLUTION_CPP_FOLDER_NAME_ID_778 	swim-in-rising-water
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_781 	rabbits-in-forest
