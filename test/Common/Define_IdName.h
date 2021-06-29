@@ -897,6 +897,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1861 	rotating-the-box
 #define SOLUTION_CPP_FOLDER_NAME_ID_1862 	sum-of-floored-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_1706 	where-will-the-ball-fall
+#define SOLUTION_CPP_FOLDER_NAME_ID_1913 	maximum-product-difference-between-two-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_1914 	cyclically-rotating-a-grid
+#define SOLUTION_CPP_FOLDER_NAME_ID_1915 	number-of-wonderful-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_1916 	count-ways-to-build-rooms-in-an-ant-colony
 #define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1700 	number-of-students-unable-to-eat-lunch

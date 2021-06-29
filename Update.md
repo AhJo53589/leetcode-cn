@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210629
+* 1916.count-ways-to-build-rooms-in-an-ant-colony 统计为蚁群构筑房间的不同顺序
+
+* 1915.number-of-wonderful-substrings 最美子字符串的数目
+
+* 1914.cyclically-rotating-a-grid 循环轮转矩阵
+
+* 1913.maximum-product-difference-between-two-pairs 两个数对之间的最大乘积差
+
+
+---
 ## 20210626
 * 773.sliding-puzzle 滑动谜题
 
