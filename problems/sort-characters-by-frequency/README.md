@@ -48,23 +48,36 @@
 ```
 ```
 
+[发布的题解](https://leetcode-cn.com/problems/sort-characters-by-frequency/solution/sort-characters-by-frequency-by-ikaruga-317u/)
+
 ### 答题
 ``` C++
-string frequencySort(string s)
-{
-	auto f_cmp = [](const pair<char, int> &a, const pair<char, int> &b) { return a.second > b.second; };
-	auto f_sort = [f_cmp](map<char, int> &_m, vector<pair<char, int>> &_v)
-	{
-		for (auto i : _m) _v.push_back(i);
-		sort(_v.begin(), _v.end(), f_cmp);
-	};
+class Solution {
+public:
+    string frequencySort(string s) {
+        unordered_map<char, int> cnt;
+        for (auto c : s) {
+            cnt[c]++;
+        }
 
-	map<char, int> m;
-	for (auto &c : s)m[c]++;
-	vector<pair<char, int>> v;
-	f_sort(m, v);
-	string res;
-	for (auto p : v) for (int i = 0; i < p.second; i++) res += p.first;
-	return res;
-}
+        multimap<int, char> mm;
+        for (auto [c, n] : cnt) {
+            mm.insert({n, c});
+        }
+
+        string ans;
+        for (auto [n, c] : mm) {
+            for (int i = 0; i < n; i++) {
+                ans += c;
+            }
+        }
+        
+        reverse(ans.begin(), ans.end());
+        return ans;
+    }
+};
 ```
+
+
+
+

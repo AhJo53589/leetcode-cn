@@ -296,6 +296,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_445 	add-two-numbers-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_447 	number-of-boomerangs
 #define SOLUTION_CPP_FOLDER_NAME_ID_448 	find-all-numbers-disappeared-in-an-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_451 	sort-characters-by-frequency
 #define SOLUTION_CPP_FOLDER_NAME_ID_452 	minimum-number-of-arrows-to-burst-balloons
 #define SOLUTION_CPP_FOLDER_NAME_ID_453 	minimum-moves-to-equal-array-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_459 	repeated-substring-pattern
