@@ -892,6 +892,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1813 	sentence-similarity-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1814 	count-nice-pairs-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1815 	maximum-number-of-groups-getting-fresh-donuts
+#define SOLUTION_CPP_FOLDER_NAME_ID_1833 	maximum-ice-cream-bars
 #define SOLUTION_CPP_FOLDER_NAME_ID_1859 	sorting-the-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1860 	incremental-memory-leak
 #define SOLUTION_CPP_FOLDER_NAME_ID_1861 	rotating-the-box

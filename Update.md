@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210702
+* 1833.maximum-ice-cream-bars 雪糕的最大数量
+
+
+---
 ## 20210626
 * 773.sliding-puzzle 滑动谜题
 
