@@ -2,6 +2,13 @@
 [返回](./README.md)
 
 ---
+## 20210715
+* 1818.minimum-absolute-sum-difference 绝对差值和
+
+* 1846.maximum-element-after-decreasing-and-rearranging 减小和重新排列数组后的最大元素
+
+
+---
 ## 20210708
 * 930.binary-subarrays-with-sum 和相同的二元子数组
 
