@@ -901,6 +901,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1914 	cyclically-rotating-a-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_1915 	number-of-wonderful-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1916 	count-ways-to-build-rooms-in-an-ant-colony
+#define SOLUTION_CPP_FOLDER_NAME_ID_5161 	maximum-number-of-words-you-can-type
 #define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1700 	number-of-students-unable-to-eat-lunch
@@ -984,6 +985,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5777 	reduction-operations-to-make-the-array-elements-equal
 #define SOLUTION_CPP_FOLDER_NAME_ID_5778 	minimum-number-of-flips-to-make-the-binary-string-alternating
 #define SOLUTION_CPP_FOLDER_NAME_ID_5779 	minimum-space-wasted-from-packaging
+#define SOLUTION_CPP_FOLDER_NAME_ID_5814 	add-minimum-number-of-rungs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5815 	maximum-number-of-points-with-cost
+#define SOLUTION_CPP_FOLDER_NAME_ID_5816 	maximum-genetic-difference-query
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

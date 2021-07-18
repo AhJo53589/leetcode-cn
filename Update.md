@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210718
+* 5816.maximum-genetic-difference-query 查询最大基因差
+
+* 5815.maximum-number-of-points-with-cost 扣分后的最大得分
+
+* 5814.add-minimum-number-of-rungs 新增的最少台阶数
+
+* 5161.maximum-number-of-words-you-can-type 可以输入的最大单词数
+
+
+---
 ## 20210629
 * 1916.count-ways-to-build-rooms-in-an-ant-colony 统计为蚁群构筑房间的不同顺序
 
