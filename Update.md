@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210719
+* 1838.frequency-of-the-most-frequent-element 最高频元素的频数
+
+
+---
 ## 20210715
 * 1818.minimum-absolute-sum-difference 绝对差值和
 
@@ -210,15 +215,15 @@
 
 * 897.increasing-order-search-tree 递增顺序搜索树
 
-* 5741.maximum-building-height 最高建筑高度
+* 1840.maximum-building-height 最高建筑高度
 
-* 5740.longest-substring-of-all-vowels-in-order 所有元音按顺序排布的最长子字符串
+* 1839.longest-substring-of-all-vowels-in-order 所有元音按顺序排布的最长子字符串
 
-* 5739.frequency-of-the-most-frequent-element 最高频元素的频数
+* 1838.frequency-of-the-most-frequent-element 最高频元素的频数
 
-* 5738.sum-of-digits-in-base-k K 进制表示下的各位数字总和
+* 1837.sum-of-digits-in-base-k K 进制表示下的各位数字总和
 
-* 5738.sum-of-digits-in-base-k K 进制表示下的各位数字总和
+* 1837.sum-of-digits-in-base-k K 进制表示下的各位数字总和
 
 
 ---

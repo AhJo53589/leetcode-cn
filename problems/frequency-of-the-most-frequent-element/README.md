@@ -1,4 +1,4 @@
-# `（中等）` [5739.frequency-of-the-most-frequent-element 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)
+# `（中等）` [1838.frequency-of-the-most-frequent-element 最高频元素的频数](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-238/problems/frequency-of-the-most-frequent-element/)
 
@@ -50,31 +50,28 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/frequency-of-the-most-frequent-element/solution/frequency-of-the-most-frequent-element-b-yer6/)
 
 ### 答题
 ``` C++
 class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k) {
-        sort(nums.rbegin(), nums.rend());
-
-        vector<long long> dif(nums.size(), 0);
-        for (int i = 1; i < nums.size(); i++) {
-            dif[i] = nums[0] - nums[i];
-            dif[i] += dif[i - 1];
-        }
+        sort(nums.begin(), nums.end());
 
         int ans = 0;
-        int i = 0;
-        int j = 0;
-        while (i < nums.size()) {
-            while (j < nums.size()) {
-                if (dif[j] - dif[i] - (1LL * (nums[0] - nums[i]) * (j - i)) > k) break;
-                j++;
+        int front = 0;        
+        int x = 0;
+        
+        for (int i = 0; i < nums.size(); i++) {
+            if (i != 0) {
+                x += (nums[i] - nums[i - 1]) * (i - front);
             }
-            ans = max(ans, j - i);
-            i++;
+            while (x > k) {
+                x -= (nums[i] - nums[front]);
+                front++;
+            }
+            ans = max(ans, i - front + 1);
         }
         return ans;
     }

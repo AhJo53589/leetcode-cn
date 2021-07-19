@@ -1,4 +1,4 @@
-# `（中等）` [5740.longest-substring-of-all-vowels-in-order 所有元音按顺序排布的最长子字符串](https://leetcode-cn.com/problems/longest-substring-of-all-vowels-in-order/)
+# `（中等）` [1839.longest-substring-of-all-vowels-in-order 所有元音按顺序排布的最长子字符串](https://leetcode-cn.com/problems/longest-substring-of-all-vowels-in-order/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-238/problems/longest-substring-of-all-vowels-in-order/)
 

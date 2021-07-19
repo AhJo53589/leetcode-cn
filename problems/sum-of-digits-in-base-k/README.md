@@ -1,4 +1,4 @@
-# `（简单）` [5738.sum-of-digits-in-base-k K 进制表示下的各位数字总和](https://leetcode-cn.com/problems/sum-of-digits-in-base-k/)
+# `（简单）` [1837.sum-of-digits-in-base-k K 进制表示下的各位数字总和](https://leetcode-cn.com/problems/sum-of-digits-in-base-k/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-238/problems/sum-of-digits-in-base-k/)
 

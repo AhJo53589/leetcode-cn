@@ -3,24 +3,21 @@
 class Solution {
 public:
     int maxFrequency(vector<int>& nums, int k) {
-        sort(nums.rbegin(), nums.rend());
-
-        vector<long long> dif(nums.size(), 0);
-        for (int i = 1; i < nums.size(); i++) {
-            dif[i] = nums[0] - nums[i];
-            dif[i] += dif[i - 1];
-        }
+        sort(nums.begin(), nums.end());
 
         int ans = 0;
-        int i = 0;
-        int j = 0;
-        while (i < nums.size()) {
-            while (j < nums.size()) {
-                if (dif[j] - dif[i] - (1LL * (nums[0] - nums[i]) * (j - i)) > k) break;
-                j++;
+        int front = 0;        
+        int x = 0;
+        
+        for (int i = 0; i < nums.size(); i++) {
+            if (i != 0) {
+                x += (nums[i] - nums[i - 1]) * (i - front);
             }
-            ans = max(ans, j - i);
-            i++;
+            while (x > k) {
+                x -= (nums[i] - nums[front]);
+                front++;
+            }
+            ans = max(ans, i - front + 1);
         }
         return ans;
     }
@@ -29,15 +26,12 @@ public:
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<int>& nums, int k)
 {
-    //int caseNo = -1;
-    //static int caseCnt = 0;
-    //if (caseNo != -1 && caseCnt++ != caseNo) return {};
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-    //printVectorT(nums);
-    //cout << k << endl;
-
-    Solution sln;
-    return sln.maxFrequency(nums, k);
+	Solution sln;
+	return sln.maxFrequency(nums, k);
 }
 
 //#define USE_SOLUTION_CUSTOM

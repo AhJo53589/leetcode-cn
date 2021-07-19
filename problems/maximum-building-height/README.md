@@ -1,4 +1,4 @@
-# `（困难）` [5741.maximum-building-height 最高建筑高度](https://leetcode-cn.com/problems/maximum-building-height/)
+# `（困难）` [1840.maximum-building-height 最高建筑高度](https://leetcode-cn.com/problems/maximum-building-height/)
 
 [contest](https://leetcode-cn.com/contest/weekly-contest-238/problems/maximum-building-height/)
 

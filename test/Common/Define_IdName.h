@@ -896,6 +896,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1815 	maximum-number-of-groups-getting-fresh-donuts
 #define SOLUTION_CPP_FOLDER_NAME_ID_1818 	minimum-absolute-sum-difference
 #define SOLUTION_CPP_FOLDER_NAME_ID_1833 	maximum-ice-cream-bars
+#define SOLUTION_CPP_FOLDER_NAME_ID_1838 	frequency-of-the-most-frequent-element
 #define SOLUTION_CPP_FOLDER_NAME_ID_1846 	maximum-element-after-decreasing-and-rearranging
 #define SOLUTION_CPP_FOLDER_NAME_ID_1859 	sorting-the-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1860 	incremental-memory-leak
@@ -961,10 +962,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5727 	find-the-winner-of-the-circular-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_5728 	minimum-sideway-jumps
 #define SOLUTION_CPP_FOLDER_NAME_ID_5729 	finding-mk-average
-#define SOLUTION_CPP_FOLDER_NAME_ID_5738 	sum-of-digits-in-base-k
-#define SOLUTION_CPP_FOLDER_NAME_ID_5739 	frequency-of-the-most-frequent-element
-#define SOLUTION_CPP_FOLDER_NAME_ID_5740 	longest-substring-of-all-vowels-in-order
-#define SOLUTION_CPP_FOLDER_NAME_ID_5741 	maximum-building-height
+#define SOLUTION_CPP_FOLDER_NAME_ID_1837 	sum-of-digits-in-base-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_1838 	frequency-of-the-most-frequent-element
+#define SOLUTION_CPP_FOLDER_NAME_ID_1839 	longest-substring-of-all-vowels-in-order
+#define SOLUTION_CPP_FOLDER_NAME_ID_1840 	maximum-building-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_5750 	maximum-population-year
 #define SOLUTION_CPP_FOLDER_NAME_ID_5751 	maximum-distance-between-a-pair-of-values
 #define SOLUTION_CPP_FOLDER_NAME_ID_5752 	maximum-subarray-min-product
