@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1838.frequency-of-the-most-frequent-element"
+git commit -m"1877.minimize-maximum-pair-sum-in-array"
 git push

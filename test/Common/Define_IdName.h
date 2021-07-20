@@ -903,6 +903,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1861 	rotating-the-box
 #define SOLUTION_CPP_FOLDER_NAME_ID_1862 	sum-of-floored-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_1706 	where-will-the-ball-fall
+#define SOLUTION_CPP_FOLDER_NAME_ID_1877 	minimize-maximum-pair-sum-in-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1700 	number-of-students-unable-to-eat-lunch

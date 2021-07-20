@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210720
+* 1877.minimize-maximum-pair-sum-in-array 数组中最大数对和的最小值
+
+
+---
 ## 20210719
 * 1838.frequency-of-the-most-frequent-element 最高频元素的频数
 
