@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210725
+* 5826.delete-duplicate-folders-in-system 删除系统中的重复文件夹
+
+* 5825.maximum-compatibility-score-sum 最大兼容性评分和
+
+* 5824.largest-number-after-mutating-substring 子字符串突变后可能得到的最大整数
+
+* 5823.sum-of-digits-of-string-after-convert 字符串转化后的各位数字之和
+
+
+---
 ## 20210718
 * 5816.maximum-genetic-difference-query 查询最大基因差
 

@@ -988,6 +988,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5814 	add-minimum-number-of-rungs
 #define SOLUTION_CPP_FOLDER_NAME_ID_5815 	maximum-number-of-points-with-cost
 #define SOLUTION_CPP_FOLDER_NAME_ID_5816 	maximum-genetic-difference-query
+#define SOLUTION_CPP_FOLDER_NAME_ID_5823 	sum-of-digits-of-string-after-convert
+#define SOLUTION_CPP_FOLDER_NAME_ID_5824 	largest-number-after-mutating-substring
+#define SOLUTION_CPP_FOLDER_NAME_ID_5825 	maximum-compatibility-score-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_5826 	delete-duplicate-folders-in-system
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

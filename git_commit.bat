@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"5816.maximum-genetic-difference-query"
+git commit -m"5826.delete-duplicate-folders-in-system"
 git push
