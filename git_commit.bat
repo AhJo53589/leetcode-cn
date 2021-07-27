@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1877.minimize-maximum-pair-sum-in-array"
+git commit -m"671.second-minimum-node-in-a-binary-tree"
 git push

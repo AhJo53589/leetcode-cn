@@ -375,6 +375,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_664 	strange-printer
 #define SOLUTION_CPP_FOLDER_NAME_ID_665 	non-decreasing-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_670 	maximum-swap
+#define SOLUTION_CPP_FOLDER_NAME_ID_671 	second-minimum-node-in-a-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_674 	longest-continuous-increasing-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_677 	map-sum-pairs
 #define SOLUTION_CPP_FOLDER_NAME_ID_680 	valid-palindrome-ii

@@ -2,6 +2,11 @@
 [返回](./README.md)
 
 ---
+## 20210727
+* 671.second-minimum-node-in-a-binary-tree 二叉树中第二小的节点
+
+
+---
 ## 20210720
 * 1877.minimize-maximum-pair-sum-in-array 数组中最大数对和的最小值
 
