@@ -146,3 +146,4 @@
 | 2021/7/18 | [第 250 场周赛](./contest/weekly-contest-250/README.md) | 3 / 4 | 427 / 4310 |
 | 2021/7/24 |                                                           |       |             |
 | 2021/7/25 | [第 251 场周赛](./contest/weekly-contest-251/README.md) | 3 / 4 | 652 / 4746 |
+| 2021/8/1 | [第 252 场周赛](./contest/weekly-contest-252/README.md) | 3 / 4 | 943 / 4646 |

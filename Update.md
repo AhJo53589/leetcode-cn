@@ -2,6 +2,17 @@
 [返回](./README.md)
 
 ---
+## 20210801
+* 5833.count-number-of-special-subsequences 统计特殊子序列的数目
+
+* 5187.minimum-garden-perimeter-to-collect-enough-apples 收集足够苹果的最小花园周长
+
+* 5831.maximum-number-of-weeks-for-which-you-can-work 你可以工作的最大周数
+
+* 5830.three-divisors 三除数
+
+
+---
 ## 20210725
 * 5826.delete-duplicate-folders-in-system 删除系统中的重复文件夹
 

@@ -902,6 +902,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1915 	number-of-wonderful-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1916 	count-ways-to-build-rooms-in-an-ant-colony
 #define SOLUTION_CPP_FOLDER_NAME_ID_5161 	maximum-number-of-words-you-can-type
+#define SOLUTION_CPP_FOLDER_NAME_ID_5187 	minimum-garden-perimeter-to-collect-enough-apples
 #define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1700 	number-of-students-unable-to-eat-lunch
@@ -992,6 +993,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5824 	largest-number-after-mutating-substring
 #define SOLUTION_CPP_FOLDER_NAME_ID_5825 	maximum-compatibility-score-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_5826 	delete-duplicate-folders-in-system
+#define SOLUTION_CPP_FOLDER_NAME_ID_5830 	three-divisors
+#define SOLUTION_CPP_FOLDER_NAME_ID_5831 	maximum-number-of-weeks-for-which-you-can-work
+#define SOLUTION_CPP_FOLDER_NAME_ID_5833 	count-number-of-special-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
