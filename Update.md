@@ -1,6 +1,15 @@
 # Update
 [返回](./README.md)
 
+## 20210801
+* 5833.count-number-of-special-subsequences 统计特殊子序列的数目
+
+* 5187.minimum-garden-perimeter-to-collect-enough-apples 收集足够苹果的最小花园周长
+
+* 5831.maximum-number-of-weeks-for-which-you-can-work 你可以工作的最大周数
+
+* 5830.three-divisors 三除数
+
 ---
 ## 20210729
 * 1104.path-in-zigzag-labelled-binary-tree 二叉树寻路
@@ -17,6 +26,17 @@
 
 
 ---
+## 20210725
+* 5826.delete-duplicate-folders-in-system 删除系统中的重复文件夹
+
+* 5825.maximum-compatibility-score-sum 最大兼容性评分和
+
+* 5824.largest-number-after-mutating-substring 子字符串突变后可能得到的最大整数
+
+* 5823.sum-of-digits-of-string-after-convert 字符串转化后的各位数字之和
+
+
+---
 ## 20210720
 * 1877.minimize-maximum-pair-sum-in-array 数组中最大数对和的最小值
 
@@ -24,6 +44,17 @@
 ---
 ## 20210719
 * 1838.frequency-of-the-most-frequent-element 最高频元素的频数
+
+
+---
+## 20210718
+* 5816.maximum-genetic-difference-query 查询最大基因差
+
+* 5815.maximum-number-of-points-with-cost 扣分后的最大得分
+
+* 5814.add-minimum-number-of-rungs 新增的最少台阶数
+
+* 5161.maximum-number-of-words-you-can-type 可以输入的最大单词数
 
 
 ---
@@ -46,6 +77,17 @@
 ---
 ## 20210702
 * 1833.maximum-ice-cream-bars 雪糕的最大数量
+
+
+---
+## 20210629
+* 1916.count-ways-to-build-rooms-in-an-ant-colony 统计为蚁群构筑房间的不同顺序
+
+* 1915.number-of-wonderful-substrings 最美子字符串的数目
+
+* 1914.cyclically-rotating-a-grid 循环轮转矩阵
+
+* 1913.maximum-product-difference-between-two-pairs 两个数对之间的最大乘积差
 
 
 ---
