@@ -1,0 +1,6 @@
+"iloveleetcode"
+["i","love","leetcode","apples"]
+true
+"iloveleetcode"
+["apples","i","love","leetcode"]
+false

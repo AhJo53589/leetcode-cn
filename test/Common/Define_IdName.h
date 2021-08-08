@@ -498,6 +498,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1109 	corporate-flight-bookings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1111 	maximum-nesting-depth-of-two-valid-parentheses-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1128 	number-of-equivalent-domino-pairs
+#define SOLUTION_CPP_FOLDER_NAME_ID_1137 	n-th-tribonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1146 	snapshot-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1160 	find-words-that-can-be-formed-by-characters
@@ -1007,6 +1008,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5830 	three-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_5831 	maximum-number-of-weeks-for-which-you-can-work
 #define SOLUTION_CPP_FOLDER_NAME_ID_5833 	count-number-of-special-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5838 	check-if-string-is-a-prefix-of-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5839 	remove-stones-to-minimize-the-total
+#define SOLUTION_CPP_FOLDER_NAME_ID_5840 	minimum-number-of-swaps-to-make-the-string-balanced
+#define SOLUTION_CPP_FOLDER_NAME_ID_5841 	find-the-longest-valid-obstacle-course-at-each-position
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

@@ -11,6 +11,19 @@
 * 5830.three-divisors 三除数
 
 ---
+## 20210808
+* 1137.n-th-tribonacci-number 第 N 个泰波那契数
+
+* 5841.find-the-longest-valid-obstacle-course-at-each-position 找出到每个位置为止最长的有效障碍赛跑路线
+
+* 5840.minimum-number-of-swaps-to-make-the-string-balanced 使字符串平衡的最小交换次数
+
+* 5839.remove-stones-to-minimize-the-total 移除石子使总数最小
+
+* 5838.check-if-string-is-a-prefix-of-array 检查字符串是否为数组前缀
+
+
+---
 ## 20210804
 * 611.valid-triangle-number 有效三角形的个数
 
