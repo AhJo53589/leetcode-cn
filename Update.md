@@ -11,6 +11,13 @@
 * 5830.three-divisors 三除数
 
 ---
+## 20210810
+* 413.arithmetic-slices 等差数列划分
+
+* 413.arithmetic-slices 等差数列划分
+
+
+---
 ## 20210808
 * 1137.n-th-tribonacci-number 第 N 个泰波那契数
 

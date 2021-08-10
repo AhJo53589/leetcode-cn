@@ -282,6 +282,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_409 	longest-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_412 	fizz-buzz
+#define SOLUTION_CPP_FOLDER_NAME_ID_413 	arithmetic-slices
 #define SOLUTION_CPP_FOLDER_NAME_ID_414 	third-maximum-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
