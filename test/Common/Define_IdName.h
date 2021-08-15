@@ -352,6 +352,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_567 	permutation-in-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_572 	subtree-of-another-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_575 	distribute-candies
+#define SOLUTION_CPP_FOLDER_NAME_ID_576 	out-of-boundary-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_581 	shortest-unsorted-continuous-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_590 	n-ary-tree-postorder-traversal
@@ -1007,11 +1008,15 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5826 	delete-duplicate-folders-in-system
 #define SOLUTION_CPP_FOLDER_NAME_ID_5830 	three-divisors
 #define SOLUTION_CPP_FOLDER_NAME_ID_5831 	maximum-number-of-weeks-for-which-you-can-work
+#define SOLUTION_CPP_FOLDER_NAME_ID_5832 	array-with-elements-not-equal-to-average-of-neighbors
 #define SOLUTION_CPP_FOLDER_NAME_ID_5833 	count-number-of-special-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_5838 	check-if-string-is-a-prefix-of-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5839 	remove-stones-to-minimize-the-total
 #define SOLUTION_CPP_FOLDER_NAME_ID_5840 	minimum-number-of-swaps-to-make-the-string-balanced
 #define SOLUTION_CPP_FOLDER_NAME_ID_5841 	find-the-longest-valid-obstacle-course-at-each-position
+#define SOLUTION_CPP_FOLDER_NAME_ID_5843 	number-of-strings-that-appear-as-substrings-in-word
+#define SOLUTION_CPP_FOLDER_NAME_ID_5844 	minimum-non-zero-product-of-the-array-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_5845 	last-day-where-you-can-still-cross
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

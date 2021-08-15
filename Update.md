@@ -11,6 +11,19 @@
 * 5830.three-divisors 三除数
 
 ---
+## 20210815
+* 576.out-of-boundary-paths 出界的路径数
+
+* 5845.last-day-where-you-can-still-cross 你能穿过矩阵的最后一天
+
+* 5844.minimum-non-zero-product-of-the-array-elements 数组元素的最小非零乘积
+
+* 5832.array-with-elements-not-equal-to-average-of-neighbors 构造元素不等于两相邻元素平均值的数组
+
+* 5843.number-of-strings-that-appear-as-substrings-in-word 作为子字符串出现在单词中的字符串数目
+
+
+---
 ## 20210808
 * 1137.n-th-tribonacci-number 第 N 个泰波那契数
 

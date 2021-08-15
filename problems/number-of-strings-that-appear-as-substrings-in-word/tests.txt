@@ -1,0 +1,9 @@
+["a","abc","bc","d"]
+"abc"
+3
+["a","b","c"]
+"aaaaabbbbb"
+2
+["a","a","a"]
+"ab"
+3
