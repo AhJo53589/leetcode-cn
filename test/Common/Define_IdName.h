@@ -1017,6 +1017,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5843 	number-of-strings-that-appear-as-substrings-in-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_5844 	minimum-non-zero-product-of-the-array-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5845 	last-day-where-you-can-still-cross
+#define SOLUTION_CPP_FOLDER_NAME_ID_5850 	find-greatest-common-divisor-of-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5851 	find-unique-binary-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5852 	minimize-the-difference-between-target-and-chosen-elements
+#define SOLUTION_CPP_FOLDER_NAME_ID_5853 	find-array-given-subset-sums
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

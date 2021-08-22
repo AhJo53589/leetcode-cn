@@ -11,6 +11,17 @@
 * 5830.three-divisors 三除数
 
 ---
+## 20210822
+* 5853.find-array-given-subset-sums 从子集的和还原数组
+
+* 5852.minimize-the-difference-between-target-and-chosen-elements 最小化目标值与所选元素的差
+
+* 5851.find-unique-binary-string 找出不同的二进制字符串
+
+* 5850.find-greatest-common-divisor-of-array 找出数组的最大公约数
+
+
+---
 ## 20210815
 * 576.out-of-boundary-paths 出界的路径数
 
