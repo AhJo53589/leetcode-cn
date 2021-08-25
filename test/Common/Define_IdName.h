@@ -422,7 +422,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_779 	k-th-symbol-in-grammar
 #define SOLUTION_CPP_FOLDER_NAME_ID_781 	rabbits-in-forest
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
+#define SOLUTION_CPP_FOLDER_NAME_ID_787 	cheapest-flights-within-k-stops
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_797 	all-paths-from-source-to-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_810 	chalkboard-xor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
