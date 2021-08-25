@@ -443,6 +443,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_872 	leaf-similar-trees
 #define SOLUTION_CPP_FOLDER_NAME_ID_874 	walking-robot-simulation
 #define SOLUTION_CPP_FOLDER_NAME_ID_876 	middle-of-the-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_881 	boats-to-save-people
 #define SOLUTION_CPP_FOLDER_NAME_ID_887 	super-egg-drop
 #define SOLUTION_CPP_FOLDER_NAME_ID_888 	fair-candy-swap
 #define SOLUTION_CPP_FOLDER_NAME_ID_892 	surface-area-of-3d-shapes
