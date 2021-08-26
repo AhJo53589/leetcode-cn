@@ -1,14 +1,9 @@
 # Update
 [返回](./README.md)
 
-## 20210801
-* 5833.count-number-of-special-subsequences 统计特殊子序列的数目
+## 20210826
+* 881.boats-to-save-people 救生艇
 
-* 5187.minimum-garden-perimeter-to-collect-enough-apples 收集足够苹果的最小花园周长
-
-* 5831.maximum-number-of-weeks-for-which-you-can-work 你可以工作的最大周数
-
-* 5830.three-divisors 三除数
 
 ---
 ## 20210825
@@ -22,6 +17,29 @@
 ---
 ## 20210824
 * 787.cheapest-flights-within-k-stops K 站中转内最便宜的航班
+
+
+---
+## 20210822
+* 5853.find-array-given-subset-sums 从子集的和还原数组
+
+* 5852.minimize-the-difference-between-target-and-chosen-elements 最小化目标值与所选元素的差
+
+* 5851.find-unique-binary-string 找出不同的二进制字符串
+
+* 5850.find-greatest-common-divisor-of-array 找出数组的最大公约数
+
+---
+## 20210815
+* 576.out-of-boundary-paths 出界的路径数
+
+* 5845.last-day-where-you-can-still-cross 你能穿过矩阵的最后一天
+
+* 5844.minimum-non-zero-product-of-the-array-elements 数组元素的最小非零乘积
+
+* 5832.array-with-elements-not-equal-to-average-of-neighbors 构造元素不等于两相邻元素平均值的数组
+
+* 5843.number-of-strings-that-appear-as-substrings-in-word 作为子字符串出现在单词中的字符串数目
 
 
 ---
@@ -52,6 +70,16 @@
 ---
 ## 20210802
 * 743.network-delay-time 网络延迟时间
+
+
+## 20210801
+* 5833.count-number-of-special-subsequences 统计特殊子序列的数目
+
+* 5187.minimum-garden-perimeter-to-collect-enough-apples 收集足够苹果的最小花园周长
+
+* 5831.maximum-number-of-weeks-for-which-you-can-work 你可以工作的最大周数
+
+* 5830.three-divisors 三除数
 
 
 ---
