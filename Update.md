@@ -6,6 +6,17 @@
 
 
 ---
+## 20210829
+* 5857.number-of-unique-good-subsequences 不同的好子序列数目
+
+* 5856.minimum-number-of-work-sessions-to-finish-the-tasks 完成任务的最少工作时间段
+
+* 5855.find-the-kth-largest-integer-in-the-array 找出数组中的第 K 大整数
+
+* 5854.minimum-difference-between-highest-and-lowest-of-k-scores 学生分数的最小差值
+
+
+---
 ## 20210825
 * 797.all-paths-from-source-to-target 所有可能的路径
 
