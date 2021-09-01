@@ -3,38 +3,21 @@
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
-        vector<int> ver1 = getVer(version1, '.');
-        vector<int> ver2 = getVer(version2, '.');
-
-        int i = -1;
-        while (true) {
-            i++;
-            if (i < ver1.size() && i < ver2.size()) {
-                if (ver1[i] == ver2[i]) continue;
-                return ver1[i] < ver2[i] ? -1 : 1;
-            }
-            if (i < ver1.size()) {
-                if (ver1[i] == 0) continue;
-                return 1;
-            }
-            if (i < ver2.size()) {
-                if (ver2[i] == 0) continue;
-                return -1;
-            }
-            break;
-        }
-        return 0;
+        auto v1 = getVer(version1);
+        auto v2 = getVer(version2);
+        return (v1 == v2) ? 0 : (v1 < v2) ? -1 : 1;
     }
 
-    vector<int> getVer(string& version, char c) {
-        vector<int> ver;
+    vector<int> getVer(string& version) {
+        vector<int> ver(500, 0);
         stringstream ss(version);
         string n;
+        int idx = 0;
         while (getline(ss, n, '.')) {
-            ver.push_back(stoi(n));
+            ver[idx++] = stoi(n);
         }
         return ver;
-    }
+    }    
 };
 
 //////////////////////////////////////////////////////////////////////////
