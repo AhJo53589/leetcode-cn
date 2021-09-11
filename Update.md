@@ -6,6 +6,21 @@
 
 
 ---
+## 20210911
+* LCP 41.fHi6rV 黑白翻转棋
+
+* LCP 43.Y1VbOX 十字路口的交通
+
+* LCP 42.vFjcfV 玩具套圈
+
+* LCP 42.vFjcfV 玩具套圈
+
+* LCP 40.uOAnQW 心算挑战
+
+* LCP 39.0jQkd0 无人机方阵
+
+
+---
 ## 20210829
 * 5857.number-of-unique-good-subsequences 不同的好子序列数目
 
