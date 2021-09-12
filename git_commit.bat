@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"LCP 41.fHi6rV"
+git commit -m"5870.smallest-missing-genetic-value-in-each-subtree"
 git push

@@ -1,4 +1,8 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_5867 	reverse-prefix-of-word
+#define SOLUTION_CPP_FOLDER_NAME_ID_5868 	number-of-pairs-of-interchangeable-rectangles
+#define SOLUTION_CPP_FOLDER_NAME_ID_5869 	maximum-product-of-the-length-of-two-palindromic-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5870 	smallest-missing-genetic-value-in-each-subtree
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 41 	fHi6rV
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 43 	Y1VbOX
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 42 	vFjcfV

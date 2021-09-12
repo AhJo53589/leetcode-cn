@@ -154,6 +154,6 @@
 | 2021/8/21  |                                                           |       |             |
 | 2021/8/22 | [第 255 场周赛](./contest/weekly-contest-255/README.md) | 2 / 4 | 1983 / 4332 |
 | 2021/8/29 | [第 256 场周赛](./contest/weekly-contest-256/README.md) | 3 / 4 | 488 / 4134 |
-|  | [](./contest/season/README.md) |  |  | 
-
-|  | [](./contest/season/README.md) |  |  | 
+| 2021/9/4  |                                                           |       |             |
+| 2021/9/5  |                                                           |       |             |
+| 2021/9/12 | [第 258 场周赛](./contest/weekly-contest-258/README.md) | 3 / 4 | 383 / 4518 | 
