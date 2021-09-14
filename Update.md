@@ -1,15 +1,41 @@
 # Update
 [返回](./README.md)
 
-## 20210826
-* 881.boats-to-save-people 救生艇
+
 
 
 ---
-<<<<<<< HEAD
+## 20210912
+* 5870.smallest-missing-genetic-value-in-each-subtree 每棵子树内缺失的最小基因值
+
+* 5869.maximum-product-of-the-length-of-two-palindromic-subsequences 两个回文子序列长度的最大乘积
+
+* 5868.number-of-pairs-of-interchangeable-rectangles 可互换矩形的组数
+
+* 5867.reverse-prefix-of-word 反转单词前缀
+
+
+---
+## 20210911
+* LCP 41.fHi6rV 黑白翻转棋
+
+* LCP 43.Y1VbOX 十字路口的交通
+
+* LCP 42.vFjcfV 玩具套圈
+
+* LCP 42.vFjcfV 玩具套圈
+
+* LCP 40.uOAnQW 心算挑战
+
+* LCP 39.0jQkd0 无人机方阵
+
+
+---
 ## 20210901
 * 165.compare-version-numbers 比较版本号
-=======
+
+
+---
 ## 20210829
 * 5857.number-of-unique-good-subsequences 不同的好子序列数目
 
@@ -18,7 +44,11 @@
 * 5855.find-the-kth-largest-integer-in-the-array 找出数组中的第 K 大整数
 
 * 5854.minimum-difference-between-highest-and-lowest-of-k-scores 学生分数的最小差值
->>>>>>> af79384e93df85dbb01dcb4477fbb93fa5b79e86
+
+
+---
+## 20210826
+* 881.boats-to-save-people 救生艇
 
 
 ---
