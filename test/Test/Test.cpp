@@ -43,7 +43,11 @@ using namespace std;
 // 1. 选择使用 #题库中的题，根据编号加载，使用 Define_IdName.h 中定义的宏#
 // example: 
 // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> SOLUTION_CPP_FOLDER_NAME_ID_2
+<<<<<<< HEAD
 #define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_165
+=======
+#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_5857
+>>>>>>> af79384e93df85dbb01dcb4477fbb93fa5b79e86
 
 #define ADD_QUOTES(A)					#A
 #define SOLUTION_CPP_PATH(_name)		ADD_QUOTES(../../problems/##_name/SOLUTION.cpp)
@@ -53,7 +57,11 @@ using namespace std;
 #else
 
 // 2. 或者选择使用 #指定路径的题目代码#
+<<<<<<< HEAD
 #define SOLUTION_CPP_FULL_PATH			"../../problems_test/165/SOLUTION.cpp"
+=======
+#define SOLUTION_CPP_FULL_PATH			"../../problems_test/5857/SOLUTION.cpp"
+>>>>>>> af79384e93df85dbb01dcb4477fbb93fa5b79e86
 
 #endif
 

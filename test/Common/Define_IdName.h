@@ -1025,6 +1025,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5851 	find-unique-binary-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5852 	minimize-the-difference-between-target-and-chosen-elements
 #define SOLUTION_CPP_FOLDER_NAME_ID_5853 	find-array-given-subset-sums
+#define SOLUTION_CPP_FOLDER_NAME_ID_5854 	minimum-difference-between-highest-and-lowest-of-k-scores
+#define SOLUTION_CPP_FOLDER_NAME_ID_5855 	find-the-kth-largest-integer-in-the-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5856 	minimum-number-of-work-sessions-to-finish-the-tasks
+#define SOLUTION_CPP_FOLDER_NAME_ID_5857 	number-of-unique-good-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

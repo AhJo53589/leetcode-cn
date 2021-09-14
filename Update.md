@@ -6,8 +6,19 @@
 
 
 ---
+<<<<<<< HEAD
 ## 20210901
 * 165.compare-version-numbers 比较版本号
+=======
+## 20210829
+* 5857.number-of-unique-good-subsequences 不同的好子序列数目
+
+* 5856.minimum-number-of-work-sessions-to-finish-the-tasks 完成任务的最少工作时间段
+
+* 5855.find-the-kth-largest-integer-in-the-array 找出数组中的第 K 大整数
+
+* 5854.minimum-difference-between-highest-and-lowest-of-k-scores 学生分数的最小差值
+>>>>>>> af79384e93df85dbb01dcb4477fbb93fa5b79e86
 
 
 ---
