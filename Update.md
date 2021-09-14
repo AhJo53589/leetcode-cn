@@ -5,6 +5,11 @@
 
 
 ---
+## 20210914
+* 524.longest-word-in-dictionary-through-deleting 通过删除字母匹配到字典里最长单词
+
+
+---
 ## 20210912
 * 5870.smallest-missing-genetic-value-in-each-subtree 每棵子树内缺失的最小基因值
 
