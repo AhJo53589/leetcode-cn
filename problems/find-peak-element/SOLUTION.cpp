@@ -1,32 +1,38 @@
 
-
-
 //////////////////////////////////////////////////////////////////////////
-int findPeakElement(vector<int>& nums)
-{
-	int low = 0;
-	int high = nums.size();
-	while (low < high)
-	{
-		int mid = low + (high - low) / 2;
-		bool l = (mid == 0 || nums[mid - 1] < nums[mid]);
-		bool r = (mid == nums.size() - 1 || nums[mid + 1] < nums[mid]);
-		if (l && r) return mid;
-		else if (l) low = mid + 1;
-		else high = mid;
-	}
-	return (low < nums.size()) ? low : -1;
-}
+class Solution {
+public:
+    int findPeakElement(vector<int>& nums) {
+        int lo = 0;
+        int hi = (int)nums.size() - 1;
+        while (lo < hi) {
+            int mid = lo + (hi - lo) / 2;
+            if (nums[mid] < nums[mid + 1]) {
+                lo = mid + 1;
+            }
+            else {
+                hi = mid;
+            }
+        }
+        return lo;
+    }
+};
 
 //////////////////////////////////////////////////////////////////////////
 int _solution_run(vector<int>& nums)
 {
-	return findPeakElement(nums);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+	Solution sln;
+	return sln.findPeakElement(nums);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//int _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
@@ -35,4 +41,3 @@ int _solution_run(vector<int>& nums)
 //{
 //	return {};
 //}
-
