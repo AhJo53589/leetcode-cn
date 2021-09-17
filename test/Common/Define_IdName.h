@@ -1,4 +1,5 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_36 	valid-sudoku
 #define SOLUTION_CPP_FOLDER_NAME_ID_524 	longest-word-in-dictionary-through-deleting
 #define SOLUTION_CPP_FOLDER_NAME_ID_5867 	reverse-prefix-of-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_5868 	number-of-pairs-of-interchangeable-rectangles

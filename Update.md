@@ -5,6 +5,11 @@
 
 
 ---
+## 20210917
+* 36.valid-sudoku 有效的数独
+
+
+---
 ## 20210914
 * 524.longest-word-in-dictionary-through-deleting 通过删除字母匹配到字典里最长单词
 
