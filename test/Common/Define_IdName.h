@@ -1,4 +1,6 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_166 	fraction-to-recurring-decimal
+#define SOLUTION_CPP_FOLDER_NAME_ID_405 	convert-a-number-to-hexadecimal
 #define SOLUTION_CPP_FOLDER_NAME_ID_5867 	reverse-prefix-of-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_5868 	number-of-pairs-of-interchangeable-rectangles
 #define SOLUTION_CPP_FOLDER_NAME_ID_5869 	maximum-product-of-the-length-of-two-palindromic-subsequences

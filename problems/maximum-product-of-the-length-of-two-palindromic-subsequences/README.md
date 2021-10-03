@@ -52,7 +52,7 @@
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/maximum-product-of-the-length-of-two-palindromic-subsequences/solution/maximum-product-of-the-length-by-ikaruga-35c3/)
 
 ### 答题
 ``` C++

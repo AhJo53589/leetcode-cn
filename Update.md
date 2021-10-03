@@ -1,12 +1,16 @@
 # Update
 [返回](./README.md)
 
-## 20210826
-* 881.boats-to-save-people 救生艇
+---
+## 20211003
+* 166.fraction-to-recurring-decimal 分数到小数
 
+* 405.convert-a-number-to-hexadecimal 数字转换为十六进制数
 
 ---
 ## 20210912
+* 5869.maximum-product-of-the-length-of-two-palindromic-subsequences 两个回文子序列长度的最大乘积
+
 * 5870.smallest-missing-genetic-value-in-each-subtree 每棵子树内缺失的最小基因值
 
 * 5869.maximum-product-of-the-length-of-two-palindromic-subsequences 两个回文子序列长度的最大乘积
@@ -14,7 +18,6 @@
 * 5868.number-of-pairs-of-interchangeable-rectangles 可互换矩形的组数
 
 * 5867.reverse-prefix-of-word 反转单词前缀
-
 
 ---
 ## 20210911
@@ -30,7 +33,6 @@
 
 * LCP 39.0jQkd0 无人机方阵
 
-
 ---
 ## 20210829
 * 5857.number-of-unique-good-subsequences 不同的好子序列数目
@@ -41,20 +43,17 @@
 
 * 5854.minimum-difference-between-highest-and-lowest-of-k-scores 学生分数的最小差值
 
+---
+## 20210826
+* 881.boats-to-save-people 救生艇
 
 ---
 ## 20210825
 * 797.all-paths-from-source-to-target 所有可能的路径
 
-* 797.all-paths-from-source-to-target 所有可能的路径
-
-* 797.all-paths-from-source-to-target 所有可能的路径
-
-
 ---
 ## 20210824
 * 787.cheapest-flights-within-k-stops K 站中转内最便宜的航班
-
 
 ---
 ## 20210822
@@ -78,13 +77,11 @@
 
 * 5843.number-of-strings-that-appear-as-substrings-in-word 作为子字符串出现在单词中的字符串数目
 
-
 ---
 ## 20210810
 * 413.arithmetic-slices 等差数列划分
 
 * 413.arithmetic-slices 等差数列划分
-
 
 ---
 ## 20210808
@@ -98,11 +95,9 @@
 
 * 5838.check-if-string-is-a-prefix-of-array 检查字符串是否为数组前缀
 
-
 ---
 ## 20210804
 * 611.valid-triangle-number 有效三角形的个数
-
 
 ---
 ## 20210802
@@ -118,21 +113,17 @@
 
 * 5830.three-divisors 三除数
 
-
 ---
 ## 20210729
 * 1104.path-in-zigzag-labelled-binary-tree 二叉树寻路
-
 
 ---
 ## 20210728
 * 863.all-nodes-distance-k-in-binary-tree 二叉树中所有距离为 K 的结点
 
-
 ---
 ## 20210727
 * 671.second-minimum-node-in-a-binary-tree 二叉树中第二小的节点
-
 
 ---
 ## 20210725
@@ -144,16 +135,13 @@
 
 * 5823.sum-of-digits-of-string-after-convert 字符串转化后的各位数字之和
 
-
 ---
 ## 20210720
 * 1877.minimize-maximum-pair-sum-in-array 数组中最大数对和的最小值
 
-
 ---
 ## 20210719
 * 1838.frequency-of-the-most-frequent-element 最高频元素的频数
-
 
 ---
 ## 20210718
@@ -165,28 +153,23 @@
 
 * 5161.maximum-number-of-words-you-can-type 可以输入的最大单词数
 
-
 ---
 ## 20210715
 * 1818.minimum-absolute-sum-difference 绝对差值和
 
 * 1846.maximum-element-after-decreasing-and-rearranging 减小和重新排列数组后的最大元素
 
-
 ---
 ## 20210708
 * 930.binary-subarrays-with-sum 和相同的二元子数组
-
 
 ---
 ## 20210703
 * 451.sort-characters-by-frequency 根据字符出现频率排序
 
-
 ---
 ## 20210702
 * 1833.maximum-ice-cream-bars 雪糕的最大数量
-
 
 ---
 ## 20210629
@@ -198,11 +181,9 @@
 
 * 1913.maximum-product-difference-between-two-pairs 两个数对之间的最大乘积差
 
-
 ---
 ## 20210626
 * 773.sliding-puzzle 滑动谜题
-
 
 ---
 ## 20210619
@@ -211,7 +192,6 @@
 * 1000080.WqXACV 完成一半题目
 
 * 1000082.Ju9Xwi 下载插件
-
 
 ---
 ## 20210606
@@ -223,11 +203,9 @@
 
 * 5776.determine-whether-matrix-can-be-obtained-by-rotation 判断矩阵经轮转后是否一致
 
-
 ---
 ## 20210603
 * 525.contiguous-array 连续数组
-
 
 ---
 ## 20210602
@@ -249,11 +227,9 @@
 
 * 523.continuous-subarray-sum 连续的子数组和
 
-
 ---
 ## 20210531
 * 342.power-of-four 4的幂
-
 
 ---
 ## 20210530
@@ -265,16 +241,13 @@
 
 * 5772.check-if-word-equals-summation-of-two-words 检查某单词是否等于两单词之和
 
-
 ---
 ## 20210526
 * 1190.reverse-substrings-between-each-pair-of-parentheses 反转每对括号间的子串
 
-
 ---
 ## 20210524
 * 664.strange-printer 奇怪的打印机
-
 
 ---
 ## 20210523
@@ -286,11 +259,9 @@
 
 * 5763.longer-contiguous-segments-of-ones-than-zeros 哪种连续子字符串更长
 
-
 ---
 ## 20210522
 * 810.chalkboard-xor-game 黑板异或游戏
-
 
 ---
 ## 20210521
@@ -298,11 +269,9 @@
 
 * 1035.uncrossed-lines 不相交的线
 
-
 ---
 ## 20210520
 * 692.top-k-frequent-words 前K个高频单词
-
 
 ---
 ## 20210517
@@ -316,7 +285,6 @@
 
 * 993.cousins-in-binary-tree 二叉树的堂兄弟节点
 
-
 ---
 ## 20210516
 * 5762.number-of-ways-to-rearrange-sticks-with-k-sticks-visible 恰有 K 根木棍可以看到的排列数目
@@ -327,13 +295,11 @@
 
 * 5759.sum-of-all-subset-xor-totals 找出所有子集的异或总和再求和
 
-
 ---
 ## 20210510
 * 698.partition-to-k-equal-sum-subsets 划分为k个相等的子集
 
 * 872.leaf-similar-trees 叶子相似的树
-
 
 ---
 ## 20210509
@@ -345,38 +311,31 @@
 
 * 5750.maximum-population-year 人口最多的年份
 
-
 ---
 ## 20210506
 * 1720.decode-xored-array 解码异或后的数组
-
 
 ---
 ## 20210505
 * 740.delete-and-earn 删除并获得点数
 
-
 ---
 ## 20210502
 * 554.brick-wall 砖墙
-
 
 ---
 ## 20210430
 * 65.valid-number 有效数字
 
-
 ---
 ## 20210429
 * 403.frog-jump 青蛙过河
-
 
 ---
 ## 20210427
 * 938.range-sum-of-bst 二叉搜索树的范围和
 
 * 1011.capacity-to-ship-packages-within-d-days 在 D 天内送达包裹的能力
-
 
 ---
 ## 20210425
@@ -396,11 +355,9 @@
 
 * 1837.sum-of-digits-in-base-k K 进制表示下的各位数字总和
 
-
 ---
 ## 20210421
 * 91.decode-ways 解码方法
-
 
 ---
 ## 20210417
@@ -411,7 +368,6 @@
 * 5718.queries-on-number-of-points-inside-a-circle 统计一个圆中点的数目
 
 * 5717.minimum-operations-to-make-the-array-increasing 最少操作使数组递增
-
 
 ---
 ## 20210411
@@ -424,7 +380,6 @@
 * 5726.sign-of-the-product-of-an-array 数组元素积的符号
 
 * 264.ugly-number-ii 丑数 II
-
 
 ---
 ## 20210410
@@ -439,7 +394,6 @@
 * LCP_34.er-cha-shu-ran-se-UGC 二叉树染色
 
 * LCP_33.o8SXZn 蓄水
-
 
 ---
 ## 20210405
@@ -467,11 +421,9 @@
 
 * LCP_28.4xy4Wx 采购方案
 
-
 ---
 ## 20210331
 * 90.subsets-ii 子集 II
-
 
 ---
 ## 20210328
@@ -483,7 +435,6 @@
 
 * 5713.number-of-different-integers-in-a-string 字符串中不同整数的数目
 
-
 ---
 ## 20210321
 * 5696.count-pairs-with-xor-in-a-range 统计异或值在范围内的数对有多少
@@ -494,11 +445,9 @@
 
 * 5709.maximum-ascending-subarray-sum 最大升序子数组和
 
-
 ---
 ## 20210319
 * 115.distinct-subsequences 不同的子序列
-
 
 ---
 ## 20210315
@@ -507,7 +456,6 @@
 * 54.spiral-matrix 螺旋矩阵
 
 * 54.spiral-matrix 螺旋矩阵
-
 
 ---
 ## 20210314
@@ -519,26 +467,21 @@
 
 * 5701.check-if-one-string-swap-can-make-strings-equal 仅执行一次字符串交换能否使两个字符串相等
 
-
 ---
 ## 20210312
 * 331.verify-preorder-serialization-of-a-binary-tree 验证二叉树的前序序列化
-
 
 ---
 ## 20210311
 * 224.basic-calculator 基本计算器
 
-
 ---
 ## 20210309
 * 1047.remove-all-adjacent-duplicates-in-string 删除字符串中的所有相邻重复项
 
-
 ---
 ## 20210308
 * 132.palindrome-partitioning-ii 分割回文串 II
-
 
 ---
 ## 20210307
@@ -562,21 +505,17 @@
 
 * 5680.find-nearest-point-that-has-the-same-x-or-y-coordinate 找到最近的有相同 X 或 Y 坐标的点
 
-
 ---
 ## 20210225
 * 867.transpose-matrix 转置矩阵
-
 
 ---
 ## 20210224
 * 832.flipping-an-image 翻转图像
 
-
 ---
 ## 20210223
 * 1052.grumpy-bookstore-owner 爱生气的书店老板
-
 
 ---
 ## 20210222
@@ -584,18 +523,15 @@
 
 * 697.degree-of-an-array 数组的度
 
-
 ---
 ## 20210219
 * 995.minimum-number-of-k-consecutive-bit-flips K 连续位的最小翻转次数
 
 * 1004.max-consecutive-ones-iii 最大连续1的个数 III
 
-
 ---
 ## 20210217
 * 566.reshape-the-matrix 重塑矩阵
-
 
 ---
 ## 20210214
@@ -620,7 +556,6 @@
 * 5658.maximum-absolute-sum-of-any-subarray 任意子数组和的绝对值的最大值
 
 * 5657.sum-of-unique-elements 唯一元素的和
-
 
 ---
 ## 20210209
