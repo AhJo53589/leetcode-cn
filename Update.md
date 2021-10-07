@@ -5,6 +5,11 @@
 
 
 ---
+## 20211007
+* 434.number-of-segments-in-a-string 字符串中的单词数
+
+
+---
 ## 20210926
 * LCP 49.K8GULz 环形闯关游戏
 
