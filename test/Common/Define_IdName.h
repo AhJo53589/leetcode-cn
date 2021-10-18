@@ -1,6 +1,7 @@
 #pragma once
 #define SOLUTION_CPP_FOLDER_NAME_ID_187 	repeated-dna-sequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_434 	number-of-segments-in-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_476 	number-complement
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 49 	K8GULz
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 49 	K8GULz
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 48 	fsa7oZ
