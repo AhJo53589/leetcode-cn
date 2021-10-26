@@ -6,6 +6,8 @@
 
 ---
 ## 20211026
+* 241.different-ways-to-add-parentheses 为运算表达式设计优先级
+
 * 496.next-greater-element-i 下一个更大元素 I
 
 
