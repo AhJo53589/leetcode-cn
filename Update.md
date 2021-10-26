@@ -5,6 +5,11 @@
 
 
 ---
+## 20211026
+* 496.next-greater-element-i 下一个更大元素 I
+
+
+---
 ## 20211022
 * 229.majority-element-ii 求众数 II
 

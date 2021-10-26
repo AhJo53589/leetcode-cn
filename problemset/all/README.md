@@ -10,6 +10,7 @@
 | √ | 229 | [majority-element-ii](../../problems/majority-element-ii) | [求众数 II](../../problems/majority-element-ii/README.md) | [cpp](../../problems/majority-element-ii/SOLUTION.cpp) |   | 中等 | 
 | √ | 434 | [number-of-segments-in-a-string](../../problems/number-of-segments-in-a-string) | [字符串中的单词数](../../problems/number-of-segments-in-a-string/README.md) | [cpp](../../problems/number-of-segments-in-a-string/SOLUTION.cpp) |   | 简单 | 
 | √ | 476 | [number-complement](../../problems/number-complement) | [数字的补数](../../problems/number-complement/README.md) | [cpp](../../problems/number-complement/SOLUTION.cpp) |   | 简单 | 
+| √ | 496 | [next-greater-element-i](../../problems/next-greater-element-i) | [下一个更大元素 I](../../problems/next-greater-element-i/README.md) | [cpp](../../problems/next-greater-element-i/SOLUTION.cpp) |   | 简单 | 
 |   | LCP 49 | [K8GULz](../../problems/K8GULz) | [环形闯关游戏](../../problems/K8GULz/README.md) | [cpp](../../problems/K8GULz/SOLUTION.cpp) |   | 困难 | 
 |   | LCP 49 | [K8GULz](../../problems/K8GULz) | [环形闯关游戏](../../problems/K8GULz/README.md) | [cpp](../../problems/K8GULz/SOLUTION.cpp) |   | 困难 | 
 |   | LCP 48 | [fsa7oZ](../../problems/fsa7oZ) | [无限棋局](../../problems/fsa7oZ/README.md) | [cpp](../../problems/fsa7oZ/SOLUTION.cpp) |   | 困难 | 
