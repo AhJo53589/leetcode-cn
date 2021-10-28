@@ -1,16 +1,4 @@
 #pragma once
-#define SOLUTION_CPP_FOLDER_NAME_ID_166 	fraction-to-recurring-decimal
-#define SOLUTION_CPP_FOLDER_NAME_ID_405 	convert-a-number-to-hexadecimal
-#define SOLUTION_CPP_FOLDER_NAME_ID_5867 	reverse-prefix-of-word
-#define SOLUTION_CPP_FOLDER_NAME_ID_5868 	number-of-pairs-of-interchangeable-rectangles
-#define SOLUTION_CPP_FOLDER_NAME_ID_5869 	maximum-product-of-the-length-of-two-palindromic-subsequences
-#define SOLUTION_CPP_FOLDER_NAME_ID_5870 	smallest-missing-genetic-value-in-each-subtree
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 41 	fHi6rV
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 43 	Y1VbOX
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 42 	vFjcfV
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 42 	vFjcfV
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 40 	uOAnQW
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 39 	0jQkd0
 #define SOLUTION_CPP_FOLDER_NAME_ID_1 	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters
@@ -174,6 +162,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_173 	binary-search-tree-iterator
 #define SOLUTION_CPP_FOLDER_NAME_ID_174 	dungeon-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_179 	largest-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_187 	repeated-dna-sequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_188 	best-time-to-buy-and-sell-stock-iv
 #define SOLUTION_CPP_FOLDER_NAME_ID_189 	rotate-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_189 	rotate-array
@@ -192,6 +181,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_208 	implement-trie-prefix-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_209 	minimum-size-subarray-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_210 	course-schedule-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_211 	design-add-and-search-words-data-structure
 #define SOLUTION_CPP_FOLDER_NAME_ID_212 	word-search-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_213 	house-robber-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_215 	kth-largest-element-in-an-array
@@ -207,6 +197,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_226 	invert-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_227 	basic-calculator-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_228 	summary-ranges
+#define SOLUTION_CPP_FOLDER_NAME_ID_229 	majority-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_230 	kth-smallest-element-in-a-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_231 	power-of-two
 #define SOLUTION_CPP_FOLDER_NAME_ID_232 	implement-queue-using-stacks
@@ -290,6 +281,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_402 	remove-k-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_403 	frog-jump
 #define SOLUTION_CPP_FOLDER_NAME_ID_404 	sum-of-left-leaves
+#define SOLUTION_CPP_FOLDER_NAME_ID_405 	convert-a-number-to-hexadecimal
 #define SOLUTION_CPP_FOLDER_NAME_ID_406 	queue-reconstruction-by-height
 #define SOLUTION_CPP_FOLDER_NAME_ID_409 	longest-palindrome
 #define SOLUTION_CPP_FOLDER_NAME_ID_410 	split-array-largest-sum
@@ -302,6 +294,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
 #define SOLUTION_CPP_FOLDER_NAME_ID_432 	all-oone-data-structure
+#define SOLUTION_CPP_FOLDER_NAME_ID_434 	number-of-segments-in-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_435 	non-overlapping-intervals
 #define SOLUTION_CPP_FOLDER_NAME_ID_437 	path-sum-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_441 	arranging-coins
@@ -317,6 +310,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_466 	count-the-repetitions
 #define SOLUTION_CPP_FOLDER_NAME_ID_473 	matchsticks-to-square
 #define SOLUTION_CPP_FOLDER_NAME_ID_475 	heaters
+#define SOLUTION_CPP_FOLDER_NAME_ID_476 	number-complement
 #define SOLUTION_CPP_FOLDER_NAME_ID_480 	sliding-window-median
 #define SOLUTION_CPP_FOLDER_NAME_ID_481 	magical-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_482 	license-key-formatting
@@ -345,6 +339,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_520 	detect-capital
 #define SOLUTION_CPP_FOLDER_NAME_ID_521 	longest-uncommon-subsequence-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_523 	continuous-subarray-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_524 	longest-word-in-dictionary-through-deleting
 #define SOLUTION_CPP_FOLDER_NAME_ID_525 	contiguous-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_529 	minesweeper
 #define SOLUTION_CPP_FOLDER_NAME_ID_530 	minimum-absolute-difference-in-bst
@@ -1041,6 +1036,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5855 	find-the-kth-largest-integer-in-the-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5856 	minimum-number-of-work-sessions-to-finish-the-tasks
 #define SOLUTION_CPP_FOLDER_NAME_ID_5857 	number-of-unique-good-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5867 	reverse-prefix-of-word
+#define SOLUTION_CPP_FOLDER_NAME_ID_5868 	number-of-pairs-of-interchangeable-rectangles
+#define SOLUTION_CPP_FOLDER_NAME_ID_5869 	maximum-product-of-the-length-of-two-palindromic-subsequences
+#define SOLUTION_CPP_FOLDER_NAME_ID_5870 	smallest-missing-genetic-value-in-each-subtree
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
@@ -1090,3 +1089,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_36 	Up5XYM
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_37 	zui-xiao-ju-xing-mian-ji
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_38 	7rLGCR
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 39 	0jQkd0
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 40 	uOAnQW
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 41 	fHi6rV
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 42 	vFjcfV
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 43 	Y1VbOX
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 44 	sZ59z6
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 45 	kplEvH
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 46 	05ZEDJ
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 47 	oPs9Bm
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 48 	fsa7oZ
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 49 	K8GULz

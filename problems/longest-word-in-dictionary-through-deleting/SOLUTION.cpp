@@ -2,33 +2,30 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int compareVersion(string version1, string version2) {
-        auto v1 = getVer(version1);
-        auto v2 = getVer(version2);
-        return (v1 == v2) ? 0 : (v1 < v2) ? -1 : 1;
-    }
+    string findLongestWord(string s, vector<string>& dictionary) {
+        sort(dictionary.begin(), dictionary.end(), [](const string& a, const string& b) {
+            return a.size() == b.size() ? a < b : a.size() > b.size();
+        });
 
-    vector<int> getVer(string& version) {
-        vector<int> ver(500, 0);
-        stringstream ss(version);
-        string n;
-        int idx = 0;
-        while (getline(ss, n, '.')) {
-            ver[idx++] = stoi(n);
+        for (auto& w : dictionary) {
+            for (int i = 0, j = 0; i < s.size(); i++) {
+                j += (s[i] == w[j]);
+                if (j == w.size()) return w;
+            }
         }
-        return ver;
-    }    
+        return "";
+    }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(string version1, string version2)
+string _solution_run(string s, vector<string>& dictionary)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.compareVersion(version1, version2);
+	return sln.findLongestWord(s, dictionary);
 }
 
 //#define USE_SOLUTION_CUSTOM

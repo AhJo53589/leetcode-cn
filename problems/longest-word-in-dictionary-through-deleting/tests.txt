@@ -1,0 +1,6 @@
+"abpcplea"
+["ale","apple","monkey","plea"]
+"apple"
+"abpcplea"
+["a","b","c"]
+"a"

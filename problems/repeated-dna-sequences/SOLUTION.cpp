@@ -2,31 +2,33 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int findPeakElement(vector<int>& nums) {
-        int lo = 0;
-        int hi = (int)nums.size() - 1;
-        while (lo < hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (nums[mid] < nums[mid + 1]) {
-                lo = mid + 1;
-            }
-            else {
-                hi = mid;
+    vector<string> findRepeatedDnaSequences(string s) {
+        const int len = 10;
+        unordered_map<char, int> dic = {{'A', 0}, {'C', 1}, {'G', 2}, {'T', 3}};
+        unordered_map<int, int> cnt;
+        vector<string> ans;
+
+        int t = 0;
+        for (int i = 0; i < s.size(); i++) {
+            t = ((t << 2) | dic[s[i]]) & ((1 << (len * 2)) - 1);
+            if (i < len - 1) continue;
+            if (++cnt[t] == 2) {
+                ans.push_back(s.substr(i - len + 1, len));
             }
         }
-        return lo;
+        return ans;
     }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(vector<int>& nums)
+vector<string> _solution_run(string s)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.findPeakElement(nums);
+	return sln.findRepeatedDnaSequences(s);
 }
 
 //#define USE_SOLUTION_CUSTOM

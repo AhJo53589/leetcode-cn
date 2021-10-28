@@ -2,33 +2,20 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int compareVersion(string version1, string version2) {
-        auto v1 = getVer(version1);
-        auto v2 = getVer(version2);
-        return (v1 == v2) ? 0 : (v1 < v2) ? -1 : 1;
-    }
+    string gobang(vector<vector<int>>& pieces) {
 
-    vector<int> getVer(string& version) {
-        vector<int> ver(500, 0);
-        stringstream ss(version);
-        string n;
-        int idx = 0;
-        while (getline(ss, n, '.')) {
-            ver[idx++] = stoi(n);
-        }
-        return ver;
-    }    
+    }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(string version1, string version2)
+string _solution_run(vector<vector<int>>& pieces)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.compareVersion(version1, version2);
+	return sln.gobang(pieces);
 }
 
 //#define USE_SOLUTION_CUSTOM

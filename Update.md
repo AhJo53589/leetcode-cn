@@ -1,9 +1,63 @@
 # Update
 [返回](./README.md)
 
+
+
+
+---
+## 20211022
+* 229.majority-element-ii 求众数 II
+
+
+---
+## 20211019
+* 211.design-add-and-search-words-data-structure 添加与搜索单词 - 数据结构设计
+
+
+---
+## 20211018
+* 476.number-complement 数字的补数
+
+
+---
+## 20211008
+* 187.repeated-dna-sequences 重复的DNA序列
+
+
+---
+## 20211007
+* 434.number-of-segments-in-a-string 字符串中的单词数
+
+
 ---
 ## 20211003
 * 166.fraction-to-recurring-decimal 分数到小数
+* 
+---
+## 20210926
+* LCP 49.K8GULz 环形闯关游戏
+
+* LCP 49.K8GULz 环形闯关游戏
+
+* LCP 48.fsa7oZ 无限棋局
+
+* LCP 47.oPs9Bm 入场安检
+
+* LCP 46.05ZEDJ 志愿者调配
+
+* LCP 45.kplEvH 自行车炫技赛场
+
+* LCP 44.sZ59z6 开幕式焰火
+
+
+---
+## 20210917
+* 36.valid-sudoku 有效的数独
+
+
+---
+## 20210914
+* 524.longest-word-in-dictionary-through-deleting 通过删除字母匹配到字典里最长单词
 
 * 405.convert-a-number-to-hexadecimal 数字转换为十六进制数
 
@@ -34,6 +88,11 @@
 * LCP 39.0jQkd0 无人机方阵
 
 ---
+## 20210901
+* 165.compare-version-numbers 比较版本号
+
+
+---
 ## 20210829
 * 5857.number-of-unique-good-subsequences 不同的好子序列数目
 
@@ -46,6 +105,11 @@
 ---
 ## 20210826
 * 881.boats-to-save-people 救生艇
+
+---
+## 20210826
+* 881.boats-to-save-people 救生艇
+
 
 ---
 ## 20210825

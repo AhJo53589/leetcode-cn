@@ -2,33 +2,26 @@
 //////////////////////////////////////////////////////////////////////////
 class Solution {
 public:
-    int compareVersion(string version1, string version2) {
-        auto v1 = getVer(version1);
-        auto v2 = getVer(version2);
-        return (v1 == v2) ? 0 : (v1 < v2) ? -1 : 1;
-    }
-
-    vector<int> getVer(string& version) {
-        vector<int> ver(500, 0);
-        stringstream ss(version);
-        string n;
-        int idx = 0;
-        while (getline(ss, n, '.')) {
-            ver[idx++] = stoi(n);
+    int countSegments(string s) {
+        stringstream ss(s);
+        string t;
+        int ans = 0;
+        while (ss >> t) {
+            ans++;
         }
-        return ver;
-    }    
+        return ans;
+    }
 };
 
 //////////////////////////////////////////////////////////////////////////
-int _solution_run(string version1, string version2)
+int _solution_run(string s)
 {
 	//int caseNo = -1;
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
 	Solution sln;
-	return sln.compareVersion(version1, version2);
+	return sln.countSegments(s);
 }
 
 //#define USE_SOLUTION_CUSTOM

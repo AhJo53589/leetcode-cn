@@ -1,7 +1,7 @@
 # `（中等）` [165.compare-version-numbers 比较版本号](https://leetcode-cn.com/problems/compare-version-numbers/)
 
 ### 题目描述
-<div class="notranslate"><p>给你两个版本号 <code>version1</code> 和 <code>version2</code> ，请你比较它们。</p>
+<p>给你两个版本号 <code>version1</code> 和 <code>version2</code> ，请你比较它们。</p>
 
 <p>版本号由一个或多个修订号组成，各修订号由一个 <code>'.'</code> 连接。每个修订号由 <strong>多位数字</strong> 组成，可能包含 <strong>前导零</strong> 。每个版本号至少包含一个字符。修订号从左到右编号，下标从 0 开始，最左边的修订号下标为 0 ，下一个修订号下标为 1 ，以此类推。例如，<code>2.5.33</code> 和 <code>0.1</code> 都是有效的版本号。</p>
 
@@ -60,52 +60,35 @@
 	<li><code>version1</code> 和 <code>version2</code> 都是 <strong>有效版本号</strong></li>
 	<li><code>version1</code> 和 <code>version2</code> 的所有修订号都可以存储在 <strong>32 位整数</strong> 中</li>
 </ul>
-</div>
+
 
 ---
 ### 思路
 ```
 ```
 
-
+[发布的题解](https://leetcode-cn.com/problems/compare-version-numbers/solution/compare-version-numbers-by-ikaruga-99tp/)
 
 ### 答题
 ``` C++
 class Solution {
 public:
     int compareVersion(string version1, string version2) {
-        vector<int> ver1 = getVer(version1, '.');
-        vector<int> ver2 = getVer(version2, '.');
-
-        int i = -1;
-        while (true) {
-            i++;
-            if (i < ver1.size() && i < ver2.size()) {
-                if (ver1[i] == ver2[i]) continue;
-                return ver1[i] < ver2[i] ? -1 : 1;
-            }
-            if (i < ver1.size()) {
-                if (ver1[i] == 0) continue;
-                return 1;
-            }
-            if (i < ver2.size()) {
-                if (ver2[i] == 0) continue;
-                return -1;
-            }
-            break;
-        }
-        return 0;
+        auto v1 = getVer(version1);
+        auto v2 = getVer(version2);
+        return (v1 == v2) ? 0 : (v1 < v2) ? -1 : 1;
     }
 
-    vector<int> getVer(string& version, char c) {
-        vector<int> ver;
+    vector<int> getVer(string& version) {
+        vector<int> ver(500, 0);
         stringstream ss(version);
         string n;
+        int idx = 0;
         while (getline(ss, n, '.')) {
-            ver.push_back(stoi(n));
+            ver[idx++] = stoi(n);
         }
         return ver;
-    }
+    }    
 };
 ```
 
