@@ -3,6 +3,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_211 	design-add-and-search-words-data-structure
 #define SOLUTION_CPP_FOLDER_NAME_ID_229 	majority-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_241 	different-ways-to-add-parentheses
+#define SOLUTION_CPP_FOLDER_NAME_ID_301 	remove-invalid-parentheses
 #define SOLUTION_CPP_FOLDER_NAME_ID_434 	number-of-segments-in-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_476 	number-complement
 #define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
