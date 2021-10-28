@@ -1,59 +1,82 @@
 
 //////////////////////////////////////////////////////////////////////////
-bool valid(string& s, vector<int>& use) // ����use��־λ����֤�����Ƿ�Ϸ�
-{
-	int st = 0;
-	for (size_t i = 0; i < s.size(); i++)
-	{
-		if (!use[i]) continue;
-		st += (s[i] == '(');
-		st -= (s[i] == ')');
-		if (st < 0) return false;
-	}
-	return (st == 0);
-}
+class Solution {
+public:
+    vector<string> removeInvalidParentheses(string s) {	
+        s = filterOut(s);
 
-vector<string> removeInvalidParentheses(string s)
-{
-	set<string> ans;
-	vector<int> use(s.size(), 1);
+        set<string> ans;
+        vector<int> use(s.size(), 1);
 
-	for (int k = 0; k < s.size(); k++)
-	{
-		for (int i = 0; i < s.size(); i++)  // ��k��Ѱ�ң���ʼ����־λ��ʹǰk���ַ���Ч
-		{
-			use[i] = (i >= k);
-		}
+        for (int k = 0; k < s.size(); k++) {
+            for (int i = 0; i < s.size(); i++) {
+                use[i] = (i >= k) ? 1 : 0;
+            }
 
-		do
-		{
-			if (valid(s, use))
-			{
-				string a;   // ��������Ҫ����ַ���
-				for (size_t i = 0; i < s.size(); i++)
-				{
-					if (!use[i]) continue;
-					a += s[i];
-				}
-				ans.insert(a);
+            do {
+                if (valid(s, use)) {
+                    string a;
+                    for (size_t i = 0; i < s.size(); i++) {
+                        if (!use[i]) continue;
+                        a += s[i];
+                    }
+                    ans.insert(a);
 
-				k = s.size();   // ����һ��ѭ��ʱ����k���ѭ��������ѭ���ڵ�do-whileѭ������ִ��
-			}
-		} while (next_permutation(use.begin(), use.end())); // �õ���־λ����һ������
-	}
-	if (ans.empty()) return { "" };
-	return vector<string>(ans.begin(), ans.end());
-}
+                    k = s.size();
+                }
+            } while (next_permutation(use.begin(), use.end()));
+        }
+        if (ans.empty()) return { "" };
+        return vector<string>(ans.begin(), ans.end());
+    }
+
+    string filterOut(string& s) {
+        vector<bool> filter(s.size(), false);
+        int left = 0;
+        int right = count(s.begin(), s.end(), ')');
+        for (int i = 0; i < s.size(); i++) {
+            left += (s[i] == '(');
+            right -= (s[i] == ')');
+            
+            filter[i] = (s[i] == '(' && right == 0) || (s[i] == ')' && left == 0);
+        }
+
+        string ns;
+        for (int i = 0; i < s.size(); i++) {
+            if (filter[i]) continue;
+            ns += s[i];
+        }
+        return ns;
+    }
+
+    bool valid(string& s, vector<int>& use) {
+        int st = 0;
+        for (size_t i = 0; i < s.size(); i++) {
+            if (use[i] == 0) continue;
+            st += (s[i] == '(');
+            st -= (s[i] == ')');
+            if (st < 0) return false;
+        }
+        return (st == 0);
+    }
+};
+
 
 //////////////////////////////////////////////////////////////////////////
 vector<string> _solution_run(string s)
 {
-	return removeInvalidParentheses(s);
+	//int caseNo = -1;
+	//static int caseCnt = 0;
+	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
+
+	Solution sln;
+	return sln.removeInvalidParentheses(s);
 }
 
 //#define USE_SOLUTION_CUSTOM
-//vector<string> _solution_custom(TestCases &tc)
+//string _solution_custom(TestCases &tc)
 //{
+//	return {};
 //}
 
 //////////////////////////////////////////////////////////////////////////
@@ -62,4 +85,3 @@ vector<string> _solution_run(string s)
 //{
 //	return {};
 //}
-
