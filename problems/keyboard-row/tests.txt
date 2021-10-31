@@ -1,0 +1,2 @@
+["Hello","Alaska","Dad","Peace"]
+["Alaska","Dad"]

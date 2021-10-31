@@ -212,6 +212,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_249 	group-shifted-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_257 	binary-tree-paths
 #define SOLUTION_CPP_FOLDER_NAME_ID_258 	add-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_260 	single-number-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_263 	ugly-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_264 	ugly-number-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_268 	missing-number
@@ -330,6 +331,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_495 	teemo-attacking
 #define SOLUTION_CPP_FOLDER_NAME_ID_496 	next-greater-element-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_498 	diagonal-traverse
+#define SOLUTION_CPP_FOLDER_NAME_ID_500 	keyboard-row
 #define SOLUTION_CPP_FOLDER_NAME_ID_501 	find-mode-in-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_503 	next-greater-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_504 	base-7
