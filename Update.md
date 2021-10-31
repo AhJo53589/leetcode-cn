@@ -6,6 +6,14 @@
 
 ---
 ## 20211031
+* 5916.minimum-operations-to-convert-number 转化数字的最小运算数
+
+* 5915.find-the-minimum-and-maximum-number-of-nodes-between-critical-points 找出临界点之间的最小和最大距离
+
+* 5914.smallest-index-with-equal-value 值相等的最小索引
+
+* 5917.check-if-an-original-string-exists-given-two-encoded-strings 同源字符串检测
+
 * 500.keyboard-row 键盘行
 
 * 260.single-number-iii 只出现一次的数字 III

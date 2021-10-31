@@ -1,0 +1,15 @@
+"internationalization"
+"i18n"
+true
+"l123e"
+"44"
+true
+"a5b"
+"c5b"
+false
+"112s"
+"g841"
+true
+"ab"
+"a2"
+false

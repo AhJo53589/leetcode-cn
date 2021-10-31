@@ -1042,6 +1042,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5868 	number-of-pairs-of-interchangeable-rectangles
 #define SOLUTION_CPP_FOLDER_NAME_ID_5869 	maximum-product-of-the-length-of-two-palindromic-subsequences
 #define SOLUTION_CPP_FOLDER_NAME_ID_5870 	smallest-missing-genetic-value-in-each-subtree
+#define SOLUTION_CPP_FOLDER_NAME_ID_5914 	smallest-index-with-equal-value
+#define SOLUTION_CPP_FOLDER_NAME_ID_5915 	find-the-minimum-and-maximum-number-of-nodes-between-critical-points
+#define SOLUTION_CPP_FOLDER_NAME_ID_5916 	minimum-operations-to-convert-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_5917 	check-if-an-original-string-exists-given-two-encoded-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
@@ -1091,14 +1095,14 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_36 	Up5XYM
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_37 	zui-xiao-ju-xing-mian-ji
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP_38 	7rLGCR
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 39 	0jQkd0
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 40 	uOAnQW
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 41 	fHi6rV
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 42 	vFjcfV
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 43 	Y1VbOX
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 44 	sZ59z6
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 45 	kplEvH
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 46 	05ZEDJ
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 47 	oPs9Bm
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 48 	fsa7oZ
-#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 49 	K8GULz
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_39 	0jQkd0
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_40 	uOAnQW
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_41 	fHi6rV
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_42 	vFjcfV
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_43 	Y1VbOX
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_44 	sZ59z6
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_45 	kplEvH
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_46 	05ZEDJ
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_47 	oPs9Bm
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_48 	fsa7oZ
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP_49 	K8GULz
