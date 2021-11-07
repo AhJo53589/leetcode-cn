@@ -367,6 +367,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_589 	n-ary-tree-preorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_590 	n-ary-tree-postorder-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_594 	longest-harmonious-subsequence
+#define SOLUTION_CPP_FOLDER_NAME_ID_598 	range-addition-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_599 	minimum-index-sum-of-two-lists
 #define SOLUTION_CPP_FOLDER_NAME_ID_605 	can-place-flowers
 #define SOLUTION_CPP_FOLDER_NAME_ID_611 	valid-triangle-number
