@@ -1,0 +1,8 @@
+"aba"
+6
+"abc"
+3
+"ltcd"
+0
+"noosabasboosa"
+237

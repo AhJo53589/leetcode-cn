@@ -6,6 +6,14 @@
 
 ---
 ## 20211107
+* 5921.maximum-path-quality-of-a-graph 最大化一张图中的路径价值
+
+* 5920.minimized-maximum-of-products-distributed-to-any-store 分配给商店的最多商品的最小值
+
+* 5919.vowels-of-all-substrings 所有子字符串中的元音
+
+* 5918.count-vowel-substrings-of-a-string 统计字符串中的元音子字符串
+
 * 598.range-addition-ii 范围求和 II
 
 

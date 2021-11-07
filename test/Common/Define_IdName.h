@@ -1047,6 +1047,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5915 	find-the-minimum-and-maximum-number-of-nodes-between-critical-points
 #define SOLUTION_CPP_FOLDER_NAME_ID_5916 	minimum-operations-to-convert-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_5917 	check-if-an-original-string-exists-given-two-encoded-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5918 	count-vowel-substrings-of-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5919 	vowels-of-all-substrings
+#define SOLUTION_CPP_FOLDER_NAME_ID_5920 	minimized-maximum-of-products-distributed-to-any-store
+#define SOLUTION_CPP_FOLDER_NAME_ID_5921 	maximum-path-quality-of-a-graph
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
