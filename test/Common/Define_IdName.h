@@ -291,6 +291,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_414 	third-maximum-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_423 	reconstruct-original-digits-from-english
 #define SOLUTION_CPP_FOLDER_NAME_ID_424 	longest-repeating-character-replacement
 #define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal
 #define SOLUTION_CPP_FOLDER_NAME_ID_430 	flatten-a-multilevel-doubly-linked-list
