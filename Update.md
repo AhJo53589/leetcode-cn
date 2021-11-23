@@ -5,6 +5,11 @@
 
 
 ---
+## 20211123
+* 859.buddy-strings 亲密字符串
+
+
+---
 ## 20211107
 * 5921.maximum-path-quality-of-a-graph 最大化一张图中的路径价值
 

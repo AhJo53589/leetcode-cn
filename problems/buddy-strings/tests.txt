@@ -1,0 +1,15 @@
+"ab"
+"ba"
+true
+"ab"
+"ab"
+false
+"aa"
+"aa"
+true
+"aaaaaaabc"
+"aaaaaaacb"
+true
+"ab"
+"babbb"
+false
