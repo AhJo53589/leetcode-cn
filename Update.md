@@ -5,6 +5,17 @@
 
 
 ---
+## 20211128
+* 5941.find-all-people-with-secret 找出知晓秘密的所有专家
+
+* 5940.removing-minimum-and-maximum-from-array 从数组中移除最大值和最小值
+
+* 5939.k-radius-subarray-averages 半径为 k 的子数组平均值
+
+* 5938.find-target-indices-after-sorting-array 找出数组排序后的目标下标
+
+
+---
 ## 20211124
 * 423.reconstruct-original-digits-from-english 从英文中重建数字
 

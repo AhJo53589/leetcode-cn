@@ -1053,6 +1053,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5919 	vowels-of-all-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_5920 	minimized-maximum-of-products-distributed-to-any-store
 #define SOLUTION_CPP_FOLDER_NAME_ID_5921 	maximum-path-quality-of-a-graph
+#define SOLUTION_CPP_FOLDER_NAME_ID_5938 	find-target-indices-after-sorting-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5939 	k-radius-subarray-averages
+#define SOLUTION_CPP_FOLDER_NAME_ID_5940 	removing-minimum-and-maximum-from-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5941 	find-all-people-with-secret
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
