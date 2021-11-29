@@ -81,64 +81,66 @@
 
 ### 答题
 ``` C++
+struct DSU {
+    DSU(int n) : data(n, -1) {}
+
+    bool unionSet(int x, int y) {
+        x = root(x);
+        y = root(y);
+        if (x == y) return false;
+
+        if (data[y] < data[x]) std::swap(x, y);
+        data[x] += data[y];
+        data[y] = x;
+        return true;
+    }
+
+    bool same(int x, int y) {
+        return root(x) == root(y);
+    }
+
+    int root(int x) {
+        return data[x] < 0 ? x : data[x] = root(data[x]);
+    }
+
+    int size(int x) {
+        return -data[root(x)];
+    }
+
+    void reset(int x) {
+        data[x] = -1;
+    }
+
+    std::vector<int> data;
+};
+
 class Solution {
 public:
     vector<int> findAllPeople(int n, vector<vector<int>>& meetings, int firstPerson) {
-        vector<bool> known(n);
-        known[0] = true;
-        known[firstPerson] = true;
-
-        int maxT = 0;
+        map<int, vector<pair<int, int>>> time;
         for (auto& meeting : meetings) {
-            maxT = max(maxT, meeting[2]);
-        }
-        vector<vector<pair<int, int>>> time(maxT + 1);
-        for (auto& meeting : meetings) {
-            time[meeting[2]].emplace_back(meeting[0], meeting[1]);
+            time[meeting[2]].push_back({meeting[0], meeting[1]});
         }
 
-        vector<vector<int>> adj(n);
-        for (int i = 1; i <= maxT; ++i) {
-            if (time[i].empty()) continue;
+        DSU ds(n + 1);
+        ds.unionSet(0, firstPerson);
 
-            unordered_set<int> vis;
-            queue<int> que;
-            for (auto& [u, v] : time[i]) {
-                adj[u].emplace_back(v);
-                adj[v].emplace_back(u);
-                if (known[u] && !vis.count(u)) {
-                    vis.insert(u);
-                    que.push(u);
-                }
-                if (known[v] && !vis.count(v)) {
-                    vis.insert(v);
-                    que.push(v);
-                }
+        for (auto& mts : time) {
+            for (auto& [first, second] : mts.second) {
+                ds.unionSet(first, second);
             }
 
-            while (!que.empty()) {
-                int q = que.front();
-                que.pop();
-                for (int v : adj[q]) {
-                    if (!vis.count(v)) {
-                        known[v] = true;
-                        vis.insert(v);
-                        que.push(v);
-                    }
-                }
-            }
-
-            for (auto& [u, v] : time[i]) {
-                adj[u].clear();
-                adj[v].clear();
+            for (auto& [first, second] : mts.second) {
+                if (ds.same(first, 0)) continue;
+                ds.reset(first);
+                ds.reset(second);
             }
         }
 
         vector<int> ans;
-        for (int i = 0; i < n; ++i) {
-            if (known[i]) {
-                ans.push_back(i);
-            }
+        for (int i = 0; i <= n; i++) {
+            if (!ds.same(i, 0)) continue;
+            ans.push_back(i);
         }
         return ans;
     }

@@ -5,6 +5,11 @@
 
 
 ---
+## 20211129
+* 5941.find-all-people-with-secret find-all-people-with-secret 找出知晓秘密的所有专家
+
+
+---
 ## 20211128
 * 5941.find-all-people-with-secret 找出知晓秘密的所有专家
 
