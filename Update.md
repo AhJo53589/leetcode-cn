@@ -5,6 +5,11 @@
 
 
 ---
+## 20211202
+* 506.relative-ranks 相对名次
+
+
+---
 ## 20211129
 * 5941.find-all-people-with-secret find-all-people-with-secret 找出知晓秘密的所有专家
 

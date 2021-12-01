@@ -336,6 +336,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_501 	find-mode-in-binary-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_503 	next-greater-element-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_504 	base-7
+#define SOLUTION_CPP_FOLDER_NAME_ID_506 	relative-ranks
 #define SOLUTION_CPP_FOLDER_NAME_ID_509 	fibonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_514 	freedom-trail
 #define SOLUTION_CPP_FOLDER_NAME_ID_516 	longest-palindromic-subsequence
