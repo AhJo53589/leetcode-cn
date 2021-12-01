@@ -58,19 +58,18 @@
 ```
 
 
+[发布的题解](https://leetcode-cn.com/problems/consecutive-characters/solution/consecutive-characters-by-ikaruga-afg5/)
 
 ### 答题
 ``` C++
 class Solution {
 public:
     int maxPower(string s) {
-        int ans = 0;
-        int cnt = 0;
-        char last = '-';
-        for (auto c : s) {
-            cnt = (last == c) ? cnt + 1 : 1;
-            ans = max(ans, cnt);
-            last = c;
+        int ans = 1;
+        int dp = 1;
+        for (int i = 1; i < s.size(); i++) {
+            dp = (s[i] == s[i - 1]) ? dp + 1 : 1;
+            ans = max(ans, dp);
         }
         return ans;
     }
