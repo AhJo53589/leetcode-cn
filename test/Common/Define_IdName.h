@@ -930,6 +930,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1813 	sentence-similarity-iii
 #define SOLUTION_CPP_FOLDER_NAME_ID_1814 	count-nice-pairs-in-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1815 	maximum-number-of-groups-getting-fresh-donuts
+#define SOLUTION_CPP_FOLDER_NAME_ID_1816 	truncate-sentence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1818 	minimum-absolute-sum-difference
 #define SOLUTION_CPP_FOLDER_NAME_ID_1833 	maximum-ice-cream-bars
 #define SOLUTION_CPP_FOLDER_NAME_ID_1837 	sum-of-digits-in-base-k

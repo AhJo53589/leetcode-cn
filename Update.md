@@ -5,6 +5,11 @@
 
 
 ---
+## 20211206
+* 1816.truncate-sentence 截断句子
+
+
+---
 ## 20211202
 * 506.relative-ranks 相对名次
 
