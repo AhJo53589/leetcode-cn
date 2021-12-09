@@ -1,0 +1,10 @@
+["OOO","X X","X  "]
+true
+["O  ","   ","   "]
+false
+["XOX"," X ","   "]
+false
+["XXX","   ","OOO"]
+false
+["XOX","O O","XOX"]
+true

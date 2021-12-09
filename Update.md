@@ -5,6 +5,11 @@
 
 
 ---
+## 20211209
+* 794.valid-tic-tac-toe-state 有效的井字游戏
+
+
+---
 ## 20211207
 * 1034.coloring-a-border 边界着色
 

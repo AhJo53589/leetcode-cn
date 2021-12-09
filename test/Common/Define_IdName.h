@@ -437,6 +437,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_783 	minimum-distance-between-bst-nodes
 #define SOLUTION_CPP_FOLDER_NAME_ID_787 	cheapest-flights-within-k-stops
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
+#define SOLUTION_CPP_FOLDER_NAME_ID_794 	valid-tic-tac-toe-state
 #define SOLUTION_CPP_FOLDER_NAME_ID_797 	all-paths-from-source-to-target
 #define SOLUTION_CPP_FOLDER_NAME_ID_810 	chalkboard-xor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
