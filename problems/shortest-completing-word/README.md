@@ -48,34 +48,30 @@
 [发布的题解](https://leetcode-cn.com/problems/shortest-completing-word/solution/shortest-completing-word-by-ikaruga/)
 
 ### 答题
-``` C++
-    string shortestCompletingWord(string licensePlate, vector<string>& words)
-    {
-        vector<int> letter(26, 0);
-        int cnt = 0;
-        for (auto c : licensePlate)
-        {
-            c = isupper(c) ? tolower(c) : c;
-            if (islower(c))
-            {
-                letter[c - 'a']++;
-                cnt++;
+``` C++[]
+class Solution {
+public:
+    string shortestCompletingWord(string licensePlate, vector<string>& words) {
+        auto s = ""s;
+        for (char ch : licensePlate) {
+            if (isalpha(ch)) {
+                s += tolower(ch);
             }
         }
 
-        stable_sort(words.begin(), words.end(), [](const string& a, const string& b) { return a.size() < b.size(); });
-        for (auto w : words)
-        {
-            auto letter_t = letter;
-            int cnt_t = cnt;
-            for (auto c : w)
-            {
-                if (letter_t[c - 'a']-- <= 0) continue;
-                if (--cnt_t == 0) return w;
-            }
+        sort(begin(s), end(s));
+        stable_sort(begin(words), end(words), [](auto&&a, auto&& b) {
+            return size(a) < size(b); 
+            });
+
+        for (auto&& w : words) {
+            auto ww = w;
+            sort(begin(ww), end(ww));
+            if (includes(begin(ww), end(ww), begin(s), end(s))) return w;
         }
         return {};
     }
+};
 ```
 
 
