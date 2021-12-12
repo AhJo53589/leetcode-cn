@@ -410,6 +410,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_705 	design-hashset
 #define SOLUTION_CPP_FOLDER_NAME_ID_706 	design-hashmap
 #define SOLUTION_CPP_FOLDER_NAME_ID_707 	design-linked-list
+#define SOLUTION_CPP_FOLDER_NAME_ID_709 	to-lower-case
 #define SOLUTION_CPP_FOLDER_NAME_ID_714 	best-time-to-buy-and-sell-stock-with-transaction-fee
 #define SOLUTION_CPP_FOLDER_NAME_ID_718 	maximum-length-of-repeated-subarray
 #define SOLUTION_CPP_FOLDER_NAME_ID_719 	find-k-th-smallest-pair-distance
@@ -466,6 +467,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_892 	surface-area-of-3d-shapes
 #define SOLUTION_CPP_FOLDER_NAME_ID_897 	increasing-order-search-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_905 	sort-array-by-parity
+#define SOLUTION_CPP_FOLDER_NAME_ID_911 	online-election
 #define SOLUTION_CPP_FOLDER_NAME_ID_912 	sort-an-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_914 	x-of-a-kind-in-a-deck-of-cards
 #define SOLUTION_CPP_FOLDER_NAME_ID_918 	maximum-sum-circular-subarray
@@ -1061,6 +1063,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5939 	k-radius-subarray-averages
 #define SOLUTION_CPP_FOLDER_NAME_ID_5940 	removing-minimum-and-maximum-from-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_5941 	find-all-people-with-secret
+#define SOLUTION_CPP_FOLDER_NAME_ID_5952 	rings-and-rods
+#define SOLUTION_CPP_FOLDER_NAME_ID_5953 	sum-of-subarray-ranges
+#define SOLUTION_CPP_FOLDER_NAME_ID_5954 	watering-plants-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5955 	maximum-fruits-harvested-after-at-most-k-steps
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

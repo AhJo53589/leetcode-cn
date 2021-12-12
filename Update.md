@@ -5,6 +5,21 @@
 
 
 ---
+## 20211212
+* 5955.maximum-fruits-harvested-after-at-most-k-steps 摘水果
+
+* 5954.watering-plants-ii 给植物浇水 II
+
+* 5953.sum-of-subarray-ranges 子数组范围和
+
+* 5952.rings-and-rods 环和杆
+
+* 709.to-lower-case 转换成小写字母
+
+* 911.online-election 在线选举
+
+
+---
 ## 20211209
 * 794.valid-tic-tac-toe-state 有效的井字游戏
 
