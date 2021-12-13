@@ -440,6 +440,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_788 	rotated-digits
 #define SOLUTION_CPP_FOLDER_NAME_ID_794 	valid-tic-tac-toe-state
 #define SOLUTION_CPP_FOLDER_NAME_ID_797 	all-paths-from-source-to-target
+#define SOLUTION_CPP_FOLDER_NAME_ID_807 	max-increase-to-keep-city-skyline
 #define SOLUTION_CPP_FOLDER_NAME_ID_810 	chalkboard-xor-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_819 	most-common-word
 #define SOLUTION_CPP_FOLDER_NAME_ID_820 	short-encoding-of-words
