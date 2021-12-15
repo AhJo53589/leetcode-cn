@@ -452,6 +452,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_842 	split-array-into-fibonacci-sequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_844 	backspace-string-compare
 #define SOLUTION_CPP_FOLDER_NAME_ID_845 	longest-mountain-in-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_851 	loud-and-rich
 #define SOLUTION_CPP_FOLDER_NAME_ID_852 	peak-index-in-a-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_859 	buddy-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_860 	lemonade-change
