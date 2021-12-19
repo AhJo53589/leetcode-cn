@@ -175,4 +175,5 @@
 | 2021/11/21 |  |  |  |
 | 2021/11/27 |  |  |  |
 | 2021/11/28 | [第 269 场周赛](./contest/weekly-contest-269/README.md) | 3 / 4 | 2079 / 4292 |
-| 2021/12/12 | [第 271 场周赛](./contest/weekly-contest-271/README.md) | 3 / 4 | 1403 / 4561 | 
+| 2021/12/12 | [第 271 场周赛](./contest/weekly-contest-271/README.md) | 3 / 4 | 1403 / 4561 |
+| 2021/12/19 | [第 272 场周赛](./contest/weekly-contest-272/README.md) | 4 / 4 | 631 / 4697 |

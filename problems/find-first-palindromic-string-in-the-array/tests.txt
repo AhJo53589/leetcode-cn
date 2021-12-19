@@ -1,0 +1,6 @@
+["abc","car","ada","racecar","cool"]
+"ada"
+["notapalindrome","racecar"]
+"racecar"
+["def","ghi"]
+""

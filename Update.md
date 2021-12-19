@@ -6,6 +6,14 @@
 
 ---
 ## 20211219
+* 5959.minimum-operations-to-make-the-array-k-increasing 使数组 K 递增的最少操作次数
+
+* 5958.number-of-smooth-descent-periods-of-a-stock 股票平滑下跌阶段的数目
+
+* 5957.adding-spaces-to-a-string 向字符串添加空格
+
+* 5956.find-first-palindromic-string-in-the-array 找出数组中的第一个回文字符串
+
 * 419.battleships-in-a-board 甲板上的战舰
 
 * 997.find-the-town-judge 找到小镇的法官

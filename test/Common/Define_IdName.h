@@ -1071,6 +1071,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5953 	sum-of-subarray-ranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_5954 	watering-plants-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5955 	maximum-fruits-harvested-after-at-most-k-steps
+#define SOLUTION_CPP_FOLDER_NAME_ID_5956 	find-first-palindromic-string-in-the-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_5957 	adding-spaces-to-a-string
+#define SOLUTION_CPP_FOLDER_NAME_ID_5958 	number-of-smooth-descent-periods-of-a-stock
+#define SOLUTION_CPP_FOLDER_NAME_ID_5959 	minimum-operations-to-make-the-array-k-increasing
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question
