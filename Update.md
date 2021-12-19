@@ -5,6 +5,13 @@
 
 
 ---
+## 20211219
+* 419.battleships-in-a-board 甲板上的战舰
+
+* 997.find-the-town-judge 找到小镇的法官
+
+
+---
 ## 20211215
 * 851.loud-and-rich 喧闹和富有
 

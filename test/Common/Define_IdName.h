@@ -291,6 +291,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_414 	third-maximum-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_415 	add-strings
 #define SOLUTION_CPP_FOLDER_NAME_ID_416 	partition-equal-subset-sum
+#define SOLUTION_CPP_FOLDER_NAME_ID_419 	battleships-in-a-board
 #define SOLUTION_CPP_FOLDER_NAME_ID_423 	reconstruct-original-digits-from-english
 #define SOLUTION_CPP_FOLDER_NAME_ID_424 	longest-repeating-character-replacement
 #define SOLUTION_CPP_FOLDER_NAME_ID_429 	n-ary-tree-level-order-traversal
@@ -498,6 +499,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_993 	cousins-in-binary-tree
 #define SOLUTION_CPP_FOLDER_NAME_ID_994 	rotting-oranges
 #define SOLUTION_CPP_FOLDER_NAME_ID_995 	minimum-number-of-k-consecutive-bit-flips
+#define SOLUTION_CPP_FOLDER_NAME_ID_997 	find-the-town-judge
 #define SOLUTION_CPP_FOLDER_NAME_ID_999 	available-captures-for-rook
 #define SOLUTION_CPP_FOLDER_NAME_ID_1002 	find-common-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_1004 	max-consecutive-ones-iii
