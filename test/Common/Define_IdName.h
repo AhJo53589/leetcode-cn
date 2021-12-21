@@ -527,6 +527,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1137 	n-th-tribonacci-number
 #define SOLUTION_CPP_FOLDER_NAME_ID_1143 	longest-common-subsequence
 #define SOLUTION_CPP_FOLDER_NAME_ID_1146 	snapshot-array
+#define SOLUTION_CPP_FOLDER_NAME_ID_1154 	day-of-the-year
 #define SOLUTION_CPP_FOLDER_NAME_ID_1160 	find-words-that-can-be-formed-by-characters
 #define SOLUTION_CPP_FOLDER_NAME_ID_1162 	as-far-from-land-as-possible
 #define SOLUTION_CPP_FOLDER_NAME_ID_1171 	remove-zero-sum-consecutive-nodes-from-linked-list
