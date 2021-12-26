@@ -1,0 +1,4 @@
+"alice is a good girl she is a good student"
+"a"
+"good"
+["girl","student"]

@@ -518,6 +518,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1047 	remove-all-adjacent-duplicates-in-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_1052 	grumpy-bookstore-owner
 #define SOLUTION_CPP_FOLDER_NAME_ID_1071 	greatest-common-divisor-of-strings
+#define SOLUTION_CPP_FOLDER_NAME_ID_1078 	occurrences-after-bigram
 #define SOLUTION_CPP_FOLDER_NAME_ID_1095 	find-in-mountain-array
 #define SOLUTION_CPP_FOLDER_NAME_ID_1103 	distribute-candies-to-people
 #define SOLUTION_CPP_FOLDER_NAME_ID_1104 	path-in-zigzag-labelled-binary-tree
