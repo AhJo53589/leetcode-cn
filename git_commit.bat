@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"1078.occurrences-after-bigram"
+git commit -m"846.hand-of-straights"
 git push
