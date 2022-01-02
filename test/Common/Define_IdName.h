@@ -1078,6 +1078,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5957 	adding-spaces-to-a-string
 #define SOLUTION_CPP_FOLDER_NAME_ID_5958 	number-of-smooth-descent-periods-of-a-stock
 #define SOLUTION_CPP_FOLDER_NAME_ID_5959 	minimum-operations-to-make-the-array-k-increasing
+#define SOLUTION_CPP_FOLDER_NAME_ID_5967 	check-if-all-as-appears-before-all-bs
+#define SOLUTION_CPP_FOLDER_NAME_ID_5968 	number-of-laser-beams-in-a-bank
+#define SOLUTION_CPP_FOLDER_NAME_ID_5969 	destroying-asteroids
+#define SOLUTION_CPP_FOLDER_NAME_ID_5970 	maximum-employees-to-be-invited-to-a-meeting
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

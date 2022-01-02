@@ -1,0 +1,8 @@
+"aaabbb"
+true
+"abab"
+false
+"bbb"
+true
+"ba"
+false

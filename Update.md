@@ -5,6 +5,17 @@
 
 
 ---
+## 20220102
+* 5970.maximum-employees-to-be-invited-to-a-meeting 参加会议的最多员工数
+
+* 5969.destroying-asteroids 摧毁小行星
+
+* 5968.number-of-laser-beams-in-a-bank 银行中的激光束数量
+
+* 5967.check-if-all-as-appears-before-all-bs 检查是否所有 A 都在 B 之前
+
+
+---
 ## 20211230
 * 846.hand-of-straights 一手顺子
 
