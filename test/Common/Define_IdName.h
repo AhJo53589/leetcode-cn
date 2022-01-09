@@ -1082,6 +1082,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5968 	number-of-laser-beams-in-a-bank
 #define SOLUTION_CPP_FOLDER_NAME_ID_5969 	destroying-asteroids
 #define SOLUTION_CPP_FOLDER_NAME_ID_5970 	maximum-employees-to-be-invited-to-a-meeting
+#define SOLUTION_CPP_FOLDER_NAME_ID_5976 	check-if-every-row-and-column-contains-all-numbers
+#define SOLUTION_CPP_FOLDER_NAME_ID_5977 	minimum-swaps-to-group-all-1s-together-ii
+#define SOLUTION_CPP_FOLDER_NAME_ID_5978 	count-words-obtained-after-adding-a-letter
+#define SOLUTION_CPP_FOLDER_NAME_ID_5979 	earliest-possible-day-of-full-bloom
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

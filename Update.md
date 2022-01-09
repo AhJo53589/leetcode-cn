@@ -5,6 +5,17 @@
 
 
 ---
+## 20220109
+* 5979.earliest-possible-day-of-full-bloom 全部开花的最早一天
+
+* 5978.count-words-obtained-after-adding-a-letter 统计追加字母可以获得的单词数
+
+* 5977.minimum-swaps-to-group-all-1s-together-ii 最少交换次数来组合所有的 1 II
+
+* 5976.check-if-every-row-and-column-contains-all-numbers 检查是否每一行每一列都包含全部整数
+
+
+---
 ## 20220102
 * 5970.maximum-employees-to-be-invited-to-a-meeting 参加会议的最多员工数
 
