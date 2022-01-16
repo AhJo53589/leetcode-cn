@@ -960,6 +960,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1916 	count-ways-to-build-rooms-in-an-ant-colony
 #define SOLUTION_CPP_FOLDER_NAME_ID_5161 	maximum-number-of-words-you-can-type
 #define SOLUTION_CPP_FOLDER_NAME_ID_5187 	minimum-garden-perimeter-to-collect-enough-apples
+#define SOLUTION_CPP_FOLDER_NAME_ID_5194 	minimum-moves-to-reach-target-score
 #define SOLUTION_CPP_FOLDER_NAME_ID_5243 	tuple-with-same-product
 #define SOLUTION_CPP_FOLDER_NAME_ID_5529 	cat-and-mouse-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5653 	number-of-rectangles-that-can-form-the-largest-square
@@ -1086,6 +1087,9 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5977 	minimum-swaps-to-group-all-1s-together-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_5978 	count-words-obtained-after-adding-a-letter
 #define SOLUTION_CPP_FOLDER_NAME_ID_5979 	earliest-possible-day-of-full-bloom
+#define SOLUTION_CPP_FOLDER_NAME_ID_5980 	divide-a-string-into-groups-of-size-k
+#define SOLUTION_CPP_FOLDER_NAME_ID_5982 	solving-questions-with-brainpower
+#define SOLUTION_CPP_FOLDER_NAME_ID_5983 	maximum-running-time-of-n-computers
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

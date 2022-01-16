@@ -182,3 +182,4 @@
 | 20220102 | [第 274 场周赛](./contest/weekly-contest-274/README.md) | 3 / 4 | 1274 / 4108 |
 | 2022/1/8 |  |  |  |
 | 2022/1/9 | [第 275 场周赛](./contest/weekly-contest-275/README.md) | 4 / 4 | 462 / 4786 |
+| 2022/1/16 | [第 276 场周赛](./contest/weekly-contest-276/README.md) | 3 / 4 | 699 / 5243 |

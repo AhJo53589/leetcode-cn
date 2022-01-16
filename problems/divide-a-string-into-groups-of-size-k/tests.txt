@@ -1,0 +1,8 @@
+"abcdefghi"
+3
+"x"
+["abc","def","ghi"]
+"abcdefghij"
+3
+"x"
+["abc","def","ghi","jxx"]

@@ -5,6 +5,17 @@
 
 
 ---
+## 20220116
+* 5983.maximum-running-time-of-n-computers 同时运行 N 台电脑的最长时间
+
+* 5982.solving-questions-with-brainpower 解决智力问题
+
+* 5194.minimum-moves-to-reach-target-score 得到目标值的最少行动次数
+
+* 5980.divide-a-string-into-groups-of-size-k 将字符串拆分为若干长度为 k 的组
+
+
+---
 ## 20220109
 * 5979.earliest-possible-day-of-full-bloom 全部开花的最早一天
 
