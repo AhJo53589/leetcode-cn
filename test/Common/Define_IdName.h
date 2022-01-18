@@ -349,6 +349,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_529 	minesweeper
 #define SOLUTION_CPP_FOLDER_NAME_ID_530 	minimum-absolute-difference-in-bst
 #define SOLUTION_CPP_FOLDER_NAME_ID_538 	convert-bst-to-greater-tree
+#define SOLUTION_CPP_FOLDER_NAME_ID_539 	minimum-time-difference
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_541 	reverse-string-ii
 #define SOLUTION_CPP_FOLDER_NAME_ID_542 	01-matrix
