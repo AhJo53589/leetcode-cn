@@ -5,6 +5,11 @@
 
 
 ---
+## 20220128
+* 1996.the-number-of-weak-characters-in-the-game 游戏中弱角色的数量
+
+
+---
 ## 20220118
 * 539.minimum-time-difference 最小时间差
 

@@ -959,6 +959,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_1914 	cyclically-rotating-a-grid
 #define SOLUTION_CPP_FOLDER_NAME_ID_1915 	number-of-wonderful-substrings
 #define SOLUTION_CPP_FOLDER_NAME_ID_1916 	count-ways-to-build-rooms-in-an-ant-colony
+#define SOLUTION_CPP_FOLDER_NAME_ID_1996 	the-number-of-weak-characters-in-the-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_5161 	maximum-number-of-words-you-can-type
 #define SOLUTION_CPP_FOLDER_NAME_ID_5187 	minimum-garden-perimeter-to-collect-enough-apples
 #define SOLUTION_CPP_FOLDER_NAME_ID_5194 	minimum-moves-to-reach-target-score
