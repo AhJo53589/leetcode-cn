@@ -1091,6 +1091,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_5980 	divide-a-string-into-groups-of-size-k
 #define SOLUTION_CPP_FOLDER_NAME_ID_5982 	solving-questions-with-brainpower
 #define SOLUTION_CPP_FOLDER_NAME_ID_5983 	maximum-running-time-of-n-computers
+#define SOLUTION_CPP_FOLDER_NAME_ID_6000 	sort-even-and-odd-indices-independently
+#define SOLUTION_CPP_FOLDER_NAME_ID_6001 	smallest-value-of-the-rearranged-number
+#define SOLUTION_CPP_FOLDER_NAME_ID_6002 	design-bitset
+#define SOLUTION_CPP_FOLDER_NAME_ID_6003 	minimum-time-to-remove-all-cars-containing-illegal-goods
 #define SOLUTION_CPP_FOLDER_NAME_ID_100263 	happy-new-year-2020-bomb
 #define SOLUTION_CPP_FOLDER_NAME_ID_100264 	how-many-apples-lc
 #define SOLUTION_CPP_FOLDER_NAME_ID_100265 	qqqqqqqqqqqqqqqys-warm-up-question

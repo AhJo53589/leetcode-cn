@@ -5,6 +5,17 @@
 
 
 ---
+## 20220206
+* 6003.minimum-time-to-remove-all-cars-containing-illegal-goods 移除所有载有违禁货物车厢所需的最少时间
+
+* 6002.design-bitset 设计位集
+
+* 6001.smallest-value-of-the-rearranged-number 重排数字的最小值
+
+* 6000.sort-even-and-odd-indices-independently 对奇偶下标分别排序
+
+
+---
 ## 20220118
 * 539.minimum-time-difference 最小时间差
 
