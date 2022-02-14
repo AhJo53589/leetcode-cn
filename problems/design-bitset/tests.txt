@@ -1,0 +1,6 @@
+["Bitset","fix","fix","flip","all","unfix","flip","one","unfix","count","toString"]
+[[5],[3],[1],[],[],[0],[],[],[0],[],[]]
+[null,null,null,null,false,null,null,true,null,2,"01010"]
+["Bitset","flip","unfix","all","fix","fix","unfix","all","count","toString","toString","toString","unfix","flip","all","unfix","one","one","all","fix","unfix"]
+[[2],[],[1],[],[1],[1],[1],[],[],[],[],[],[0],[],[],[0],[],[],[],[0],[0]]
+[null,null,null,false,null,null,null,false,1,"10","10","10",null,null,true,null,true,true,false,null,null]

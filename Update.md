@@ -8,7 +8,6 @@
 ## 20220128
 * 1996.the-number-of-weak-characters-in-the-game 游戏中弱角色的数量
 
-
 ---
 ## 20220118
 * 539.minimum-time-difference 最小时间差
@@ -34,6 +33,16 @@
 * 5977.minimum-swaps-to-group-all-1s-together-ii 最少交换次数来组合所有的 1 II
 
 * 5976.check-if-every-row-and-column-contains-all-numbers 检查是否每一行每一列都包含全部整数
+
+
+## 20220206
+* 6003.minimum-time-to-remove-all-cars-containing-illegal-goods 移除所有载有违禁货物车厢所需的最少时间
+
+* 6002.design-bitset 设计位集
+
+* 6001.smallest-value-of-the-rearranged-number 重排数字的最小值
+
+* 6000.sort-even-and-odd-indices-independently 对奇偶下标分别排序
 
 
 ---
