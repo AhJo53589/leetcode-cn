@@ -36,7 +36,7 @@ using namespace std;
 
 //////////////////////////////////////////////////////////////////////////
 // 选择题目代码
-//#define USE_DEFAULT_INCLUDE
+#define USE_DEFAULT_INCLUDE
 
 #ifdef USE_DEFAULT_INCLUDE
 
@@ -44,9 +44,9 @@ using namespace std;
 // example: 
 // SOLUTION_CPP_FOLDER_NAME_ID_1 ==> SOLUTION_CPP_FOLDER_NAME_ID_2
 <<<<<<< HEAD
-#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_1996
+#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_540
 =======
-#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_6003
+#define SOLUTION_ID						SOLUTION_CPP_FOLDER_NAME_ID_540
 >>>>>>> 225a2443d9fcce9106e1e15b99163b791a50c2f2
 
 #define ADD_QUOTES(A)					#A

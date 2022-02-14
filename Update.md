@@ -5,6 +5,11 @@
 
 
 ---
+## 20220214
+* 540.single-element-in-a-sorted-array 有序数组中的单一元素
+
+
+---
 ## 20220128
 * 1996.the-number-of-weak-characters-in-the-game 游戏中弱角色的数量
 
