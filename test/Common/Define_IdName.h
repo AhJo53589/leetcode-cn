@@ -1,4 +1,9 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 54 	s5kipK
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 53 	EJvmW4
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 52 	QO5KpG
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 51 	UEcfPD
+#define SOLUTION_CPP_FOLDER_NAME_ID_LCP 50 	WHnhjV
 #define SOLUTION_CPP_FOLDER_NAME_ID_1 	two-sum
 #define SOLUTION_CPP_FOLDER_NAME_ID_2 	add-two-numbers
 #define SOLUTION_CPP_FOLDER_NAME_ID_3 	longest-substring-without-repeating-characters

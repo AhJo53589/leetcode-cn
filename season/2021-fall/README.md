@@ -34,9 +34,9 @@
 
 ### 大赛规则
 
-1. 个人赛于 2021-09-11 15:00 开赛，共计 5 题，比赛时长 150 分钟。
+1. 战队赛于 2021-09-25 15:00 开赛，共计 6 题，比赛时长 180 分钟。
 
-2. 个人赛于 2021-09-10 23:59 报名截止，逾期将无法报名参赛。
+2. 战队赛于 2021-09-24 23:59 报名截止，逾期将无法报名参赛。
 
 3. 题目依据难易度有不同分值，得分越高排名越高；在得分相同的情况下，答题用时越少则排名越高。
 
@@ -49,12 +49,11 @@
 ## Problems & Solutions
 |     | #   | 名称                 | 题目                  | 答题          | 题解 | 难度 |
 | --- | --- | -------------------- | --------------------- | ------------- | ---- | ---- |
-|   | LCP 49 | [K8GULz](../../problems/K8GULz) | [环形闯关游戏](../../problems/K8GULz/README.md) | [cpp](../../problems/K8GULz/SOLUTION.cpp) |   | 困难 | 
-|   | LCP 49 | [K8GULz](../../problems/K8GULz) | [环形闯关游戏](../../problems/K8GULz/README.md) | [cpp](../../problems/K8GULz/SOLUTION.cpp) |   | 困难 | 
-|   | LCP 48 | [fsa7oZ](../../problems/fsa7oZ) | [无限棋局](../../problems/fsa7oZ/README.md) | [cpp](../../problems/fsa7oZ/SOLUTION.cpp) |   | 困难 | 
-|   | LCP 47 | [oPs9Bm](../../problems/oPs9Bm) | [入场安检](../../problems/oPs9Bm/README.md) | [cpp](../../problems/oPs9Bm/SOLUTION.cpp) |   | 困难 | 
-| √ | LCP 46 | [05ZEDJ](../../problems/05ZEDJ) | [志愿者调配](../../problems/05ZEDJ/README.md) | [cpp](../../problems/05ZEDJ/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/05ZEDJ/solution/05zedj-by-ikaruga-hid6/) | 中等 | 
-| √ | LCP 45 | [kplEvH](../../problems/kplEvH) | [自行车炫技赛场](../../problems/kplEvH/README.md) | [cpp](../../problems/kplEvH/SOLUTION.cpp) |   | 中等 | 
 | √ | LCP 44 | [sZ59z6](../../problems/sZ59z6) | [开幕式焰火](../../problems/sZ59z6/README.md) | [cpp](../../problems/sZ59z6/SOLUTION.cpp) |   | 简单 | 
+| √ | LCP 45 | [kplEvH](../../problems/kplEvH) | [自行车炫技赛场](../../problems/kplEvH/README.md) | [cpp](../../problems/kplEvH/SOLUTION.cpp) |   | 中等 | 
+| √ | LCP 46 | [05ZEDJ](../../problems/05ZEDJ) | [志愿者调配](../../problems/05ZEDJ/README.md) | [cpp](../../problems/05ZEDJ/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/05ZEDJ/solution/05zedj-by-ikaruga-hid6/) | 中等 | 
+|   | LCP 47 | [oPs9Bm](../../problems/oPs9Bm) | [入场安检](../../problems/oPs9Bm/README.md) | [cpp](../../problems/oPs9Bm/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 48 | [fsa7oZ](../../problems/fsa7oZ) | [无限棋局](../../problems/fsa7oZ/README.md) | [cpp](../../problems/fsa7oZ/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 49 | [K8GULz](../../problems/K8GULz) | [环形闯关游戏](../../problems/K8GULz/README.md) | [cpp](../../problems/K8GULz/SOLUTION.cpp) |   | 困难 | 
 
 ## [排名](https://leetcode-cn.com/contest/season/2021-fall/ranking/team/) (210/ 1363)
