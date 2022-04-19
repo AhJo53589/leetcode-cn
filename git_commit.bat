@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"LCP 54.s5kipK"
+git commit -m"821.shortest-distance-to-a-character"
 git push

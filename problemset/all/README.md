@@ -453,6 +453,7 @@
 | √   | 810  | [chalkboard-xor-game](../../problems/chalkboard-xor-game)                                                                                                                     | [黑板异或游戏](../../problems/chalkboard-xor-game/README.md)                                                                                        | [cpp](../../problems/chalkboard-xor-game/SOLUTION.cpp)                                                           |                                                                                                                                                                      | 困难 |
 | √   | 819  | [most-common-word](../../problems/most-common-word)                                                                                                                           | [最常见的单词](../../problems/most-common-word/README.md)                                                                                           | [cpp](../../problems/most-common-word/SOLUTION.cpp)                                                              | [查看](https://leetcode-cn.com/problems/most-common-word/solution/most-common-word-by-ikaruga/)                                                                      | 简单 |
 | √   | 820  | [short-encoding-of-words](../../problems/short-encoding-of-words)                                                                                                             | [单词的压缩编码](../../problems/short-encoding-of-words/README.md)                                                                                  | [cpp](../../problems/short-encoding-of-words/SOLUTION.cpp)                                                       |                                                                                                                                                                      | 中等 |
+| √ | 821 | [shortest-distance-to-a-character](../../problems/shortest-distance-to-a-character) | [字符的最短距离](../../problems/shortest-distance-to-a-character/README.md) | [cpp](../../problems/shortest-distance-to-a-character/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/shortest-distance-to-a-character/solution/shortest-distance-to-a-character-by-ikar-crs0/) | 简单 | 
 | √   | 830  | [positions-of-large-groups](../../problems/positions-of-large-groups)                                                                                                         | [较大分组的位置](../../problems/positions-of-large-groups/README.md)                                                                                | [cpp](../../problems/positions-of-large-groups/SOLUTION.cpp)                                                     |                                                                                                                                                                      | 简单 |
 | √   | 832  | [flipping-an-image](../../problems/flipping-an-image)                                                                                                                         | [翻转图像](../../problems/flipping-an-image/README.md)                                                                                              | [cpp](../../problems/flipping-an-image/SOLUTION.cpp)                                                             |                                                                                                                                                                      | 简单 |
 | √   | 836  | [rectangle-overlap](../../problems/rectangle-overlap)                                                                                                                         | [矩形重叠](../../problems/rectangle-overlap/README.md)                                                                                              | [cpp](../../problems/rectangle-overlap/SOLUTION.cpp)                                                             |                                                                                                                                                                      | 简单 |
@@ -1105,7 +1106,6 @@
 | √ | 1000080 | [WqXACV](../../problems/WqXACV) | [完成一半题目](../../problems/WqXACV/README.md) | [cpp](../../problems/WqXACV/SOLUTION.cpp) |   | 简单 |
 | √ | 1000081 | [YesdPw](../../problems/YesdPw) | [主题空间](../../problems/YesdPw/README.md) | [cpp](../../problems/YesdPw/SOLUTION.cpp) |   | 中等 |
 | √ | 1000082 | [Ju9Xwi](../../problems/Ju9Xwi) | [下载插件](../../problems/Ju9Xwi/README.md) | [cpp](../../problems/Ju9Xwi/SOLUTION.cpp) |   | 简单 |
-
 ## Season/2019-fall
 |     | #     | 名称                                                          | 题目                                                        | 答题                                                     | 题解 | 难度 |
 | --- | ----- | ------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------- | ---- | ---- |
@@ -1114,7 +1114,6 @@
 | √   | LCP_3 | [programmable-robot](../../problems/programmable-robot)       | [机器人大冒险](../../problems/programmable-robot/README.md) | [cpp](../../problems/programmable-robot/SOLUTION.cpp)    |      | 中等 |
 |     | LCP_4 | [broken-board-dominoes](../../problems/broken-board-dominoes) | [覆盖](../../problems/broken-board-dominoes/README.md)      | [cpp](../../problems/broken-board-dominoes/SOLUTION.cpp) |      | 困难 |
 |     | LCP_5 | [coin-bonus](../../problems/coin-bonus)                       | [发 LeetCoin](../../problems/coin-bonus/README.md)          | [cpp](../../problems/coin-bonus/SOLUTION.cpp)            |      | 困难 |
-
 ## contest/sf-2020
 |     | #       | 名称                                                                                    | 题目                                                                                     | 答题                                                                  | 题解 | 难度 |
 | --- | ------- | --------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | ---- | ---- |
@@ -1126,7 +1125,6 @@
 |     | 100267  | [collect-beads](../../problems/collect-beads)                                           | [理琥珀珠](../../problems/collect-beads/README.md)                                       | [cpp](../../problems/collect-beads/SOLUTION.cpp)                      |      | 简单 |
 |     | 100264  | [how-many-apples-lc](../../problems/how-many-apples-lc)                                 | [分苹果](../../problems/how-many-apples-lc/README.md)                                    | [cpp](../../problems/how-many-apples-lc/SOLUTION.cpp)                 |      | 中等 |
 | √   | 100272  | [happy-new-year-lol](../../problems/happy-new-year-lol)                                 | [🐭年快乐](../../problems/happy-new-year-lol/README.md)                                   | [cpp](../../problems/happy-new-year-lol/SOLUTION.cpp)                 |      | 简单 |
-
 ## season/2020-spring-solo
 |     | #      | 名称                                                                  | 题目                                                                 | 答题                                                         | 题解 | 难度 |
 | --- | ------ | --------------------------------------------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------ | ---- | ---- |
@@ -1135,7 +1133,6 @@
 | √   | LCP 08 | [ju-qing-hong-fa-shi-jian](../../problems/ju-qing-hong-fa-shi-jian)   | [剧情触发时间](../../problems/ju-qing-hong-fa-shi-jian/README.md)    | [cpp](../../problems/ju-qing-hong-fa-shi-jian/SOLUTION.cpp)  |      | 中等 |
 | √   | LCP 09 | [zui-xiao-tiao-yue-ci-shu](../../problems/zui-xiao-tiao-yue-ci-shu)   | [最小跳跃次数](../../problems/zui-xiao-tiao-yue-ci-shu/README.md)    | [cpp](../../problems/zui-xiao-tiao-yue-ci-shu/SOLUTION.cpp)  |      | 困难 |
 |     | LCP 10 | [er-cha-shu-ren-wu-diao-du](../../problems/er-cha-shu-ren-wu-diao-du) | [二叉树任务调度](../../problems/er-cha-shu-ren-wu-diao-du/README.md) | [cpp](../../problems/er-cha-shu-ren-wu-diao-du/SOLUTION.cpp) |      | 困难 |
-
 ## season/2020-spring-team
 |     | #      | 名称                                                                          | 题目                                                                       | 答题                                                             | 题解                                                                                                              | 难度 |
 | --- | ------ | ----------------------------------------------------------------------------- | -------------------------------------------------------------------------- | ---------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- | ---- |
@@ -1145,7 +1142,6 @@
 |     | LCP_14 | [qie-fen-shu-zu](../../problems/qie-fen-shu-zu)                               | [切分数组](../../problems/qie-fen-shu-zu/README.md)                        | [cpp](../../problems/qie-fen-shu-zu/SOLUTION.cpp)                |                                                                                                                   | 困难 |
 |     | LCP_15 | [you-le-yuan-de-mi-gong](../../problems/you-le-yuan-de-mi-gong)               | [游乐园的迷宫](../../problems/you-le-yuan-de-mi-gong/README.md)            | [cpp](../../problems/you-le-yuan-de-mi-gong/SOLUTION.cpp)        |                                                                                                                   | 困难 |
 |     | LCP_16 | [you-le-yuan-de-you-lan-ji-hua](../../problems/you-le-yuan-de-you-lan-ji-hua) | [游乐园的游览计划](../../problems/you-le-yuan-de-you-lan-ji-hua/README.md) | [cpp](../../problems/you-le-yuan-de-you-lan-ji-hua/SOLUTION.cpp) |                                                                                                                   | 困难 |
-
 ## season/2020-fall-solo
 |     | #      | 名称                            | 题目                                          | 答题                                      | 题解                                                                        | 难度 |
 | --- | ------ | ------------------------------- | --------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- | ---- |
@@ -1154,7 +1150,6 @@
 | √   | LCP 19 | [UlBDOe](../../problems/UlBDOe) | [秋叶收藏集](../../problems/UlBDOe/README.md) | [cpp](../../problems/UlBDOe/SOLUTION.cpp) | [查看](https://leetcode-cn.com/problems/UlBDOe/solution/ulbdoe-by-ikaruga/) | 中等 |
 |     | LCP 20 | [meChtZ](../../problems/meChtZ) | [快速公交](../../problems/meChtZ/README.md)   | [cpp](../../problems/meChtZ/SOLUTION.cpp) |                                                                             | 困难 |
 |     | LCP 21 | [Za25hA](../../problems/Za25hA) | [追逐游戏](../../problems/Za25hA/README.md)   | [cpp](../../problems/Za25hA/SOLUTION.cpp) |                                                                             | 困难 |
-
 ## season/2020-fall-team
 |     | #      | 名称                            | 题目                                            | 答题                                      | 题解                                                                        | 难度 |
 | --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- | ---- |
@@ -1164,7 +1159,6 @@
 |     | LCP 25 | [Uh984O](../../problems/Uh984O) | [古董键盘](../../problems/Uh984O/README.md)     | [cpp](../../problems/Uh984O/SOLUTION.cpp) |                                                                             | 困难 |
 |     | LCP 26 | [hSRGyL](../../problems/hSRGyL) | [导航装置](../../problems/hSRGyL/README.md)     | [cpp](../../problems/hSRGyL/SOLUTION.cpp) |                                                                             | 困难 |
 |     | LCP 27 | [IQvJ9i](../../problems/IQvJ9i) | [黑盒光线反射](../../problems/IQvJ9i/README.md) | [cpp](../../problems/IQvJ9i/SOLUTION.cpp) |                                                                             | 困难 |
-
 ## season/2021-spring-solo
 |     | #      | 名称                            | 题目                                            | 答题                                      | 题解 | 难度 |
 | --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | ---- | ---- |
@@ -1173,7 +1167,6 @@
 | √   | LCP_30 | [p0NxJO](../../problems/p0NxJO) | [魔塔游戏](../../problems/p0NxJO/README.md)     | [cpp](../../problems/p0NxJO/SOLUTION.cpp) |      | 中等 |
 |     | LCP_31 | [Db3wC1](../../problems/Db3wC1) | [变换的迷宫](../../problems/Db3wC1/README.md)   | [cpp](../../problems/Db3wC1/SOLUTION.cpp) |      | 困难 |
 |     | LCP_32 | [t3fKg1](../../problems/t3fKg1) | [批量处理任务](../../problems/t3fKg1/README.md) | [cpp](../../problems/t3fKg1/SOLUTION.cpp) |      | 困难 |
-
 ## season/2021-spring-team
 |     | #      | 名称                                                                | 题目                                                              | 答题                                                        | 题解                                                                             | 难度 |
 | --- | ------ | ------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------- | ---- |
@@ -1183,7 +1176,6 @@
 |     | LCP_36 | [Up5XYM](../../problems/Up5XYM)                                     | [最多牌组数](../../problems/Up5XYM/README.md)                     | [cpp](../../problems/Up5XYM/SOLUTION.cpp)                   |                                                                                  | 困难 |
 |     | LCP_37 | [zui-xiao-ju-xing-mian-ji](../../problems/zui-xiao-ju-xing-mian-ji) | [最小矩形面积](../../problems/zui-xiao-ju-xing-mian-ji/README.md) | [cpp](../../problems/zui-xiao-ju-xing-mian-ji/SOLUTION.cpp) |                                                                                  | 困难 |
 |     | LCP_38 | [7rLGCR](../../problems/7rLGCR)                                     | [守卫城堡](../../problems/7rLGCR/README.md)                       | [cpp](../../problems/7rLGCR/SOLUTION.cpp) 
-
 ## season/2021-fall-solo
 |     | #      | 名称                            | 题目                                            | 答题                                      | 题解 | 难度 |
 | --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | ---- | ---- |               |                                                                                  | 困难 |
@@ -1192,7 +1184,6 @@
 | √ | LCP 41 | [fHi6rV](../../problems/fHi6rV) | [黑白翻转棋](../../problems/fHi6rV/README.md) | [cpp](../../problems/fHi6rV/SOLUTION.cpp) |   | 中等 | 
 |   | LCP 42 | [vFjcfV](../../problems/vFjcfV) | [玩具套圈](../../problems/vFjcfV/README.md) | [cpp](../../problems/vFjcfV/SOLUTION.cpp) |   | 困难 | 
 |   | LCP 43 | [Y1VbOX](../../problems/Y1VbOX) | [十字路口的交通](../../problems/Y1VbOX/README.md) | [cpp](../../problems/Y1VbOX/SOLUTION.cpp) |   | 困难 | 
-
 ## season/2021-fall-team
 |     | #      | 名称                            | 题目                                            | 答题                                      | 题解                                                                        | 难度 |
 | --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- | ---- |
@@ -1202,14 +1193,12 @@
 |   | LCP 47 | [oPs9Bm](../../problems/oPs9Bm) | [入场安检](../../problems/oPs9Bm/README.md) | [cpp](../../problems/oPs9Bm/SOLUTION.cpp) |   | 困难 | 
 |   | LCP 48 | [fsa7oZ](../../problems/fsa7oZ) | [无限棋局](../../problems/fsa7oZ/README.md) | [cpp](../../problems/fsa7oZ/SOLUTION.cpp) |   | 困难 | 
 |   | LCP 49 | [K8GULz](../../problems/K8GULz) | [环形闯关游戏](../../problems/K8GULz/README.md) | [cpp](../../problems/K8GULz/SOLUTION.cpp) |   | 困难 | 
-
 ## season/2022-spring-solo
 | √ | LCP 50 | [WHnhjV](../../problems/WHnhjV) | [宝石补给](../../problems/WHnhjV/README.md) | [cpp](../../problems/WHnhjV/SOLUTION.cpp) |   | 简单 | 
 | √ | LCP 51 | [UEcfPD](../../problems/UEcfPD) | [烹饪料理](../../problems/UEcfPD/README.md) | [cpp](../../problems/UEcfPD/SOLUTION.cpp) |   | 简单 | 
 | √ | LCP 52 | [QO5KpG](../../problems/QO5KpG) | [二叉搜索树染色](../../problems/QO5KpG/README.md) | [cpp](../../problems/QO5KpG/SOLUTION.cpp) |   | 中等 | 
 |   | LCP 53 | [EJvmW4](../../problems/EJvmW4) | [守护太空城](../../problems/EJvmW4/README.md) | [cpp](../../problems/EJvmW4/SOLUTION.cpp) |   | 困难 | 
 |   | LCP 54 | [s5kipK](../../problems/s5kipK) | [夺回据点](../../problems/s5kipK/README.md) | [cpp](../../problems/s5kipK/SOLUTION.cpp) |   | 困难 | 
-
 ## season/2022-spring-team
 |     | #      | 名称                            | 题目                                            | 答题                                      | 题解                                                                        | 难度 |
 | --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- | ---- |

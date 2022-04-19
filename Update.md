@@ -5,6 +5,11 @@
 
 
 ---
+## 20220419
+* 821.shortest-distance-to-a-character 字符的最短距离
+
+
+---
 ## 20220418
 * LCP 54.s5kipK 夺回据点
 
