@@ -1,4 +1,5 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_388 	longest-absolute-file-path
 #define SOLUTION_CPP_FOLDER_NAME_ID_821 	shortest-distance-to-a-character
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 54 	s5kipK
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 53 	EJvmW4
