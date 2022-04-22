@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"824.goat-latin"
+git commit -m"396.rotate-function"
 git push
