@@ -3,6 +3,10 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_396 	rotate-function
 #define SOLUTION_CPP_FOLDER_NAME_ID_821 	shortest-distance-to-a-character
 #define SOLUTION_CPP_FOLDER_NAME_ID_824 	goat-latin
+#define SOLUTION_CPP_FOLDER_NAME_ID_6041 	intersection-of-multiple-arrays
+#define SOLUTION_CPP_FOLDER_NAME_ID_6042 	count-lattice-points-inside-a-circle
+#define SOLUTION_CPP_FOLDER_NAME_ID_6043 	count-number-of-rectangles-containing-each-point
+#define SOLUTION_CPP_FOLDER_NAME_ID_6044 	number-of-flowers-in-full-bloom
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 54 	s5kipK
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 53 	EJvmW4
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 52 	QO5KpG
