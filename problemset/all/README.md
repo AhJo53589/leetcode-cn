@@ -1209,3 +1209,9 @@
 ## season/2022-spring-team
 |     | #      | 名称                            | 题目                                            | 答题                                      | 题解                                                                        | 难度 |
 | --- | ------ | ------------------------------- | ----------------------------------------------- | ----------------------------------------- | --------------------------------------------------------------------------- | ---- |
+| √ | LCP 55 | [PTXy4P](../../problems/PTXy4P) | [采集果实](../../problems/PTXy4P/README.md) | [cpp](../../problems/PTXy4P/SOLUTION.cpp) |   | 简单 | 
+| √ | LCP 56 | [6UEx57](../../problems/6UEx57) | [信物传送](../../problems/6UEx57/README.md) | [cpp](../../problems/6UEx57/SOLUTION.cpp) |   | 中等 | 
+|   | LCP 57 | [ZbAuEH](../../problems/ZbAuEH) | [打地鼠](../../problems/ZbAuEH/README.md) | [cpp](../../problems/ZbAuEH/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 58 | [De4qBB](../../problems/De4qBB) | [积木拼接](../../problems/De4qBB/README.md) | [cpp](../../problems/De4qBB/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 59 | [NfY1m5](../../problems/NfY1m5) | [搭桥过河](../../problems/NfY1m5/README.md) | [cpp](../../problems/NfY1m5/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 60 | [WInSav](../../problems/WInSav) | [力扣泡泡龙](../../problems/WInSav/README.md) | [cpp](../../problems/WInSav/SOLUTION.cpp) |   | 困难 | 

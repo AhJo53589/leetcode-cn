@@ -42,12 +42,12 @@
 
 |     | #      | 名称                                                                | 题目                                                              | 答题                                                        | 题解                                                                             | 难度 |
 | --- | ------ | ------------------------------------------------------------------- | ----------------------------------------------------------------- | ----------------------------------------------------------- | -------------------------------------------------------------------------------- | ---- |
-| √   | LCP_33 | [o8SXZn](../../problems/o8SXZn)                                     | [蓄水](../../problems/o8SXZn/README.md)                           | [cpp](../../problems/o8SXZn/SOLUTION.cpp)                   | [查看](https://leetcode-cn.com/problems/o8SXZn/solution/o8sxzn-by-ikaruga-kysx/) | 简单 |
-| √   | LCP_34 | [er-cha-shu-ran-se-UGC](../../problems/er-cha-shu-ran-se-UGC)       | [二叉树染色](../../problems/er-cha-shu-ran-se-UGC/README.md)      | [cpp](../../problems/er-cha-shu-ran-se-UGC/SOLUTION.cpp)    |                                                                                  | 中等 |
-|     | LCP_35 | [DFPeFJ](../../problems/DFPeFJ)                                     | [电动车游城市](../../problems/DFPeFJ/README.md)                   | [cpp](../../problems/DFPeFJ/SOLUTION.cpp)                   |                                                                                  | 困难 |
-|     | LCP_36 | [Up5XYM](../../problems/Up5XYM)                                     | [最多牌组数](../../problems/Up5XYM/README.md)                     | [cpp](../../problems/Up5XYM/SOLUTION.cpp)                   |                                                                                  | 困难 |
-|     | LCP_37 | [zui-xiao-ju-xing-mian-ji](../../problems/zui-xiao-ju-xing-mian-ji) | [最小矩形面积](../../problems/zui-xiao-ju-xing-mian-ji/README.md) | [cpp](../../problems/zui-xiao-ju-xing-mian-ji/SOLUTION.cpp) |                                                                                  | 困难 |
-|     | LCP_38 | [7rLGCR](../../problems/7rLGCR)                                     | [守卫城堡](../../problems/7rLGCR/README.md)                       | [cpp](../../problems/7rLGCR/SOLUTION.cpp)                   |                                                                                  | 困难 |
+| √ | LCP 55 | [PTXy4P](../../problems/PTXy4P) | [采集果实](../../problems/PTXy4P/README.md) | [cpp](../../problems/PTXy4P/SOLUTION.cpp) |   | 简单 | 
+| √ | LCP 56 | [6UEx57](../../problems/6UEx57) | [信物传送](../../problems/6UEx57/README.md) | [cpp](../../problems/6UEx57/SOLUTION.cpp) |   | 中等 | 
+|   | LCP 57 | [ZbAuEH](../../problems/ZbAuEH) | [打地鼠](../../problems/ZbAuEH/README.md) | [cpp](../../problems/ZbAuEH/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 58 | [De4qBB](../../problems/De4qBB) | [积木拼接](../../problems/De4qBB/README.md) | [cpp](../../problems/De4qBB/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 59 | [NfY1m5](../../problems/NfY1m5) | [搭桥过河](../../problems/NfY1m5/README.md) | [cpp](../../problems/NfY1m5/SOLUTION.cpp) |   | 困难 | 
+|   | LCP 60 | [WInSav](../../problems/WInSav) | [力扣泡泡龙](../../problems/WInSav/README.md) | [cpp](../../problems/WInSav/SOLUTION.cpp) |   | 困难 |                                                                          | 困难 |
 
 
-## [排名](https://leetcode-cn.com/contest/season/2022-spring/ranking/team/) (293 / 781)
+## [排名](https://leetcode-cn.com/contest/season/2022-spring/ranking/team/) (91 / 1662)
