@@ -1,4 +1,5 @@
 #pragma once
+#define SOLUTION_CPP_FOLDER_NAME_ID_883 	projection-area-of-3d-shapes
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 60 	WInSav
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 60 	WInSav
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 59 	NfY1m5
