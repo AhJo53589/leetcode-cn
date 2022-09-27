@@ -3,8 +3,6 @@
 class Solution {
 public:
     vector<vector<int>> ballGame(int num, vector<string>& plate) {
-        //vector<vector<vector<int>>> vi(plate.size(), vector<vector<int>>(plate[0].size(), vector<int>(4, 0)));
-
         vector<vector<int>> start;
         for (int x = 1; x < plate.size() - 1; x++) {
             findStart(plate, x, 0, 0, start);
@@ -128,8 +126,8 @@ vector<vector<int>> _solution_run(int num, vector<string>& plate)
 	//static int caseCnt = 0;
 	//if (caseNo != -1 && caseCnt++ != caseNo) return {};
 
-	Solution sln;
-	return sln.ballGame(num, plate);
+    unique_ptr<Solution> sln(new Solution());
+	return sln->ballGame(num, plate);
 }
 
 //#define USE_SOLUTION_CUSTOM
