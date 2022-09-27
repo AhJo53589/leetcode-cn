@@ -3,6 +3,8 @@
 class Solution {
 public:
     vector<vector<int>> ballGame(int num, vector<string>& plate) {
+        //vector<vector<vector<int>>> vi(plate.size(), vector<vector<int>>(plate[0].size(), vector<int>(4, 0)));
+
         vector<vector<int>> start;
         for (int x = 1; x < plate.size() - 1; x++) {
             findStart(plate, x, 0, 0, start);
@@ -15,8 +17,7 @@ public:
 
         vector<vector<int>> ans;
         for (auto s : start) {
-            vi[s[0]][s[1]][s[2]] = 0;
-            if (dfs(num, plate, s, vi)) {
+            if (dfs(num, plate, s[0], s[1], s[2], s[3])) {
                 ans.push_back({ s[0], s[1] });
             }
         }
@@ -25,16 +26,11 @@ public:
 
    void findStart(vector<string>& plate, int x, int y, int dir, vector<vector<int>>& start) {
        if (plate[x][y] != '.') return;
-       start.push_back({ x, y, dir });
+       start.push_back({ x, y, dir, 0 });
    }
 
-   i dfs(int num, vector<string>& plate, vector<int> s, vector<vector<vector<int>>>& vi) {
-       int x = s[0];
-       int y = s[1];
-       int dir = s[2];
-       
-       int step = vi[x][y][dir] + 1;
-       if (step > num) return false;
+   int dfs(int num, vector<string>& plate, int x, int y, int dir, int step) {
+       if (++step > num) return false;
 
        int dx = x + dd[dir][0];
        int dy = y + dd[dir][1];
@@ -45,14 +41,19 @@ public:
 
        dir = (plate[dx][dy] == 'W') ? (dir + 3) % 4 : dir;
        dir = (plate[dx][dy] == 'E') ? (dir + 1) % 4 : dir;
-       if (vi[dx][dy][dir] != -1) return false;
+       if (step <= vi[dx][dy][dir]) return true;
 
        vi[dx][dy][dir] = step;
-       return dfs(num, plate, { dx, dy, dir }, vi);
+       if (!dfs(num, plate, dx, dy, dir, step)) {
+           vi[dx][dy][dir] = 0;
+           return false;
+       }
+       return true;
    }
 
 private:
     vector<vector<int>> dd = { {0, 1}, {1, 0}, {0, -1}, {-1, 0} }; // → ↓ ← ↑
+    int vi[1010][1010][4];
 };
 
 

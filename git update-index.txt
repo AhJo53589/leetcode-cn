@@ -1,0 +1,16 @@
+使用命令：git update-index --assume-unchanged 您的文件 标记一下，例如：
+
+git update-index --assume-unchanged data/config/corpwechat.php
+
+提交之前我们再使用命令：git status查看一下有没有此文件了，没有就说明成功了，这个习惯一定要保持好，如果后期想提交该文件的话，那就运行命令：git update-index --no-assume-unchanged 您的文件取消标志，例如：
+
+git update-index --no-assume-unchanged data/config/corpwechat.php
+
+当我们忘记了忽略过哪些文件的话，可以运行下面的命令查找出来：
+
+git ls-files -v | grep '^h '
+
+然后取消标志即可，如果需要全部取消标志的不提交文件的话，可以运行下面的命令：
+
+git ls-files -v | grep '^h' | awk '{print $2}' |xargs git update-index --no-assume-unchanged
+
