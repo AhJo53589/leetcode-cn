@@ -53,7 +53,7 @@ using namespace std;
 #else
 
 // 2. 或者选择使用 #指定路径的题目代码#
-#define SOLUTION_CPP_FULL_PATH			"../../problems_test/3/SOLUTION.cpp"
+#define SOLUTION_CPP_FULL_PATH			"../../problems_test/2022fall_4/SOLUTION.cpp"
 
 #endif
 

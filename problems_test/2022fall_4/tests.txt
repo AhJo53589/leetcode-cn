@@ -1,0 +1,4 @@
+["hold","engineer","cost","level"]
+5
+["hello","leetcode"]
+0

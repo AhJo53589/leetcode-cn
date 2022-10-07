@@ -4,9 +4,9 @@ https://leetcode.cn/contest/season/2022-fall/problems/EXvqDp/
 https://leetcode.cn/contest/season/2022-fall/problems/U7WvvU/
 https://leetcode.cn/contest/season/2022-fall/problems/3aqs1c/
 
-https://leetcode-cn.com/contest/season/2021-fall/problems/sZ59z6/
-https://leetcode-cn.com/contest/season/2021-fall/problems/kplEvH/
-https://leetcode-cn.com/contest/season/2021-fall/problems/05ZEDJ/
-https://leetcode-cn.com/contest/season/2021-fall/problems/oPs9Bm/
-https://leetcode-cn.com/contest/season/2021-fall/problems/fsa7oZ/
-https://leetcode-cn.com/contest/season/2021-fall/problems/K8GULz/
+https://leetcode.cn/contest/season/2022-fall/problems/600YaG/
+https://leetcode.cn/contest/season/2022-fall/problems/KnLfVT/
+https://leetcode.cn/contest/season/2022-fall/problems/1GxJYY/
+https://leetcode.cn/contest/season/2022-fall/problems/rMeRt2/
+https://leetcode.cn/contest/season/2022-fall/problems/XxZZjK/
+https://leetcode.cn/contest/season/2022-fall/problems/kskhHQ/
