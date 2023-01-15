@@ -4,6 +4,7 @@
 #define SOLUTION_CPP_FOLDER_NAME_ID_515 	find-largest-value-in-each-tree-row
 #define SOLUTION_CPP_FOLDER_NAME_ID_729 	my-calendar-i
 #define SOLUTION_CPP_FOLDER_NAME_ID_883 	projection-area-of-3d-shapes
+#define SOLUTION_CPP_FOLDER_NAME_ID_2293 	min-max-game
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 60 	WInSav
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 60 	WInSav
 #define SOLUTION_CPP_FOLDER_NAME_ID_LCP 59 	NfY1m5

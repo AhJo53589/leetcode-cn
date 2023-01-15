@@ -1,4 +1,4 @@
 git pull
 git add -A
-git commit -m"729.my-calendar-i"
+git commit -m"2293.min-max-game"
 git push
